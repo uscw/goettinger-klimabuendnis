@@ -1,1 +1,1 @@
-# goettinger-klimabuendnis
+# Redaktion des Goettinger Klimabuendnis
