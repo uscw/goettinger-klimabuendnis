@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+    <div class="container markdown top-pad">
+        {{ .Content }}
+    </div>
+
+    <div class="container markdown top-pad">
+    {{ $ds := ( slice ) }}
+    {{ if ( eq .File.Dir "event/") }}
+        {{ range .Pages.ByDate.Reverse }}
+          {{ if ( le now .Date ) }}
+            {{ $ds = $ds | append  . }} <!-- The . represents an element in $array --> 
+          {{ end }}
+        {{ end }}
+                
+        {{ $lastDate := "00.00." }}
+        {{ range $ds.Reverse  }}
+          {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
+          {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
+                {{ if ( ne $evntDate $lastDate ) }}
+                    {{ if ( ne $lastDate "00.00." ) }}
+                      </dl>
+                      <h2> {{ index $.Site.Data.days (printf "%d" .Date.Weekday) }}, {{ $evntDate }} </h2>
+                    {{ else }}
+                      <h2>  Heute, {{ $evntDate }} </h2>
+                    {{ end }}
+		    <dl>
+                    {{ $lastDate = $evntDate }}
+                {{ end }}
+                    <dt>
+		      <strong style="font-size:120%;"> {{ $evntTime }} </strong>
+		      <a href="{{ .Params.locURL }}">
+                      <img src="/img/{{ .Params.image }}" alt="{{ .Params.place }}" height="16" width="33"> 
+                      </a>
+		    </dt>
+		    <dd>
+		      <a href="{{ .Permalink }}"> <strong style="font-size:120%;"> {{ .Title }} </strong>, <em  style="font-size:120%;"> {{ .Params.place }}</em> </a>
+		      <br>
+		      <em  style="font-size:100%;"> {{ .Params.subtitle }} 
+                      <a href="{{ .Permalink }}"> ... mehr </a></em>
+                    </dd>
+        {{ end }}       
+                    </dl>
+
+
+    {{ else }}
+            <h1> Mitteilungen </h1>
+            {{ range .Pages.ByPublishDate.Reverse }}
+                <h3> 
+                    <a href="{{ .Permalink }}"> {{ .Title }} </a>
+                </h3>
+                <h5>
+                    {{ .Params.subtitle }} 
+                    {{ .Date.Format (.Site.Params.dateFormat | default "02. 01. 2006") }},
+                    {{ .Date.Format (.Site.Params.dateFormat | default "15:04") }}
+                </h2>
+                {{ with .Description }}
+                  {{ . }}
+                {{ else }}
+                  {{ ( substr ( plainify .Summary | safeHTML )  0 240 ) }}
+                {{ end }}
+                <a href="{{ .Permalink }}"> ... mehr </a> <br>
+            {{ end }}
+    {{ end }}
+    </div>
+    <!-- <aside>
+        {{ if eq .Params.showtoc false }}
+        {{ else }}
+        <header>
+            <h2>Inhalt</h2>
+        </header>
+        {{.TableOfContents}}
+        {{ end }}
+    </aside> -->
+</body>
+{{ end }}
