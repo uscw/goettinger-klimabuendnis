@@ -11,8 +11,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://localhost:1313/img/Dragoneranger_bleibt_1.jpg">
-    <meta property="twitter:image" content="https://localhost:1313/img/Dragoneranger_bleibt_1.jpg" />
+    <meta property="og:image" content="https://localhost:1313/img/2021.04-Göttingen_Kreidebilder_3.jpg">
+    <meta property="twitter:image" content="https://localhost:1313/img/2021.04-Göttingen_Kreidebilder_3.jpg" />
     
 
     
@@ -69,7 +69,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/docco.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <base target="_blank">
 </head>
 
 
@@ -157,7 +156,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/Dragoneranger_bleibt_1.jpg')
+        background-image: url('/img/2021.04-G%c3%b6ttingen_Kreidebilder_3.jpg')
     }
 </style>
 <header class="intro-header">
@@ -212,14 +211,16 @@
 <li><a href="#titel-untertitle-zusammenfassung-und-datum">Titel, Untertitle, Zusammenfassung und Datum</a></li>
 <li><a href="#stichwörter-oder-kategorien">Stichwörter oder Kategorien</a></li>
 </ul></li>
-<li><a href="#der-textteil-des-artikels-markdown">Der Textteil des Artikels: Markdown</a>
+<li><a href="#der-textteil-des-artikels-mithilfe-von-markdown">Der Textteil des Artikels mithilfe von Markdown</a>
 <ul>
 <li><a href="#überschriften">Überschriften</a></li>
 <li><a href="#absätze">Absätze</a></li>
-<li><a href="#spiegelstriche">Spiegelstriche</a></li>
+<li><a href="#fett-schräg-durchgestrichen">Fett, Schräg, Durchgestrichen</a></li>
+<li><a href="#spiegelpunkte">Spiegelpunkte</a></li>
 <li><a href="#einrückungen">Einrückungen</a></li>
 <li><a href="#links">Links</a></li>
 <li><a href="#fotos">Fotos</a></li>
+<li><a href="#tabellen">Tabellen</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -238,6 +239,10 @@ und wie die Arbeit der Redaktion entlastet werden kann.</p>
 <p>Natürlich garantiert eine ordentliche Formatierung zwar nicht die
 Veröffentlichung, aber ohne eine solche sinkt die Wahrscheinlichkeit dafür
 drastisch.</p>
+
+<p>Eine genauere Beschreibung mit Beispielen lässt sich
+<a href="https://demo.hedgedoc.org/features?both">auf dieser externen Seite</a>
+finden.</p>
 
 <h2 id="der-header">Der Header</h2>
 
@@ -285,7 +290,7 @@ anderen getrennt.</p>
 * Pressemitteilung
 * Monitoring, Controlling</p>
 
-<h2 id="der-textteil-des-artikels-markdown">Der Textteil des Artikels: Markdown</h2>
+<h2 id="der-textteil-des-artikels-mithilfe-von-markdown">Der Textteil des Artikels mithilfe von Markdown</h2>
 
 <p>Um eine möglichst einfache und plattform-unabhängige Darstellung von Texten zu
 ermöglichen, wurde eine spezielle Beschreibungsform für die Textformattierung
@@ -315,9 +320,19 @@ entsprechend formatierten Form rechts finden.</p>
 
 <p>Ein neuer Absatz entsteht immer dann, wenn im Text eine Leerzeile vorkommt.</p>
 
-<h3 id="spiegelstriche">Spiegelstriche</h3>
+<h3 id="fett-schräg-durchgestrichen">Fett, Schräg, Durchgestrichen</h3>
 
-<p>Spiegelstriche brauchen einen eigenen Absatz, müssen also eine Leerzeile
+<p>Texttypen wie <strong>Fett</strong>, <strong>fett</strong>, <em>schräg</em>, oder <del>durchgestrichen</del> können
+mit bündig vor oder hintan gestellten Zeichen im laufenden Text ausgewählt werden, wie in:</p>
+
+<pre><code>**Fett**, __fett__, *schräg*, oder ~~durchgestrichen~~
+</code></pre>
+
+<p>Unterstreichungen sind nicht möglich.</p>
+
+<h3 id="spiegelpunkte">Spiegelpunkte</h3>
+
+<p>Spiegelpunkte brauchen einen eigenen Absatz, müssen also eine Leerzeile
 darüber und darunter haben.
 Gestaffelte Spiegelstriche werden</p>
 
@@ -354,14 +369,16 @@ Gestaffelte Spiegelstriche werden</p>
 
 <blockquote>
 <p>Sie brauchen ebenfalls einen eigenen Absatz, müssen also eine Leerzeile
-darüber und darunter haben und können durch das größer-Zeichen am Anfang der Zeile erreicht werden,</p>
+darüber und darunter haben und können durch das größer-Zeichen am Anfang der
+ersten Zeile des Absatzes erreicht werden,</p>
 </blockquote>
 
 <p>wie in:</p>
 
 <pre><code>
-&gt; Sie brauchen ebenfalls  einen eigenen Absatz, müssen also eine Leerzeile
-darüber und darunter haben und können durch das größer-Zeichen am Anfang der Zeile erreicht werden,
+&gt; Sie brauchen ebenfalls einen eigenen Absatz, müssen also eine Leerzeile
+darüber und darunter haben und können durch das größer-Zeichen am Anfang der
+ersten Zeile des Absatzes erreicht werden,
 
 </code></pre>
 
@@ -369,9 +386,12 @@ darüber und darunter haben und können durch das größer-Zeichen am Anfang der
 
 <p>Links auf andere Stellen im Text oder im Netz lassen sich
 durch einen Textteil in eckigen Klammern und der Hyperlink-Referenz
-in runden Klammern erzeugen, wie zum Beispiel hier:</p>
+in runden Klammern erzeugen, wie zum Beispiel im Hinweis für die
+weiterführenden Beispielen
+<a href="https://demo.hedgedoc.org/features?both">auf dieser externen Seite</a>
+, das wie folgt dargestellt wird:</p>
 
-<pre><code>[auf dieser Seite](https://demo.hedgedoc.org/features?both)
+<pre><code>[auf dieser externen Seite](https://demo.hedgedoc.org/features?both)
 </code></pre>
 
 <p>Alle Links auf diesen Web-Seiten führen immer zur Öffnung eines neuen
@@ -379,7 +399,73 @@ Browser-Fensters.</p>
 
 <h3 id="fotos">Fotos</h3>
 
-<p><img src="/img/lilalichtenberg-1397a.jpg" alt="" /></p>
+<p>Fotos lassen sich ähnlich wie Links einfügen, brauchen allerdings ein
+vorangestelltes &ldquo;!&rdquo; <img src="/img/deutsches-theater-nachts.jpg" alt="Beispiel" /> und müssen
+auf ein Bild im Netz verweisen. Dies wird zum Beispiel wie folgt angegeben:</p>
+
+<pre><code>... vorangestelltes &quot;!&quot; ![Beispiel](/img/deutsches-theater-nachts.jpg) und
+müssen ...
+</code></pre>
+
+<p>Der Text zwischen den eckigen Klammern wird genutzt, wenn das Bild vom Browser
+im Netz nicht gefunden wird.</p>
+
+<p><strong>Wichtig:</strong>
+Ein solches Bild kann zwar irgendwo liegen, aber dann ist unbedingt das <strong>Copyright</strong> zu
+beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus extrernen Quellen
+genutzt werden, <strong>nur gemeinfreie Bilder</strong> angegeben werden können.</p>
+
+<p>Beim <strong>Einfügen von eigenen Bildern</strong> in Texte müssen diese Bilder mit
+übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
+sollte dann in den runden Klammern eingetragen sein. Wenn es eigene
+Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.</p>
+
+<h3 id="tabellen">Tabellen</h3>
+
+<p>Tabellen</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">tic</th>
+<th align="center">tac</th>
+<th align="center">toe</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">du</td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center">x</td>
+</tr>
+
+<tr>
+<td align="center"><em>bist</em></td>
+<td align="center">o</td>
+<td align="center">o</td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center"><strong>dran</strong></td>
+<td align="center"></td>
+<td align="center">o</td>
+<td align="center">x</td>
+</tr>
+</tbody>
+</table>
+
+<p>brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden:</p>
+
+<pre><code>|          | tic | tac | toe |
+|:--------:|:---:|:---:|:---:|
+| du       |  x  |     |  x  |
+| *bist*   |  o  |  o  |     |
+| **dran** |     |  o  |  x  |
+</code></pre>
 
 <p>Ulrich Schwardmann</p>
 
