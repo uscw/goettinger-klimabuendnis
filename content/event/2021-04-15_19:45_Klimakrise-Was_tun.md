@@ -10,6 +10,8 @@ URL:           "/2021/04/15/19/45/dtgoettingen"
 locURL:         "https://www.dt-goettingen.de/stueck/klimakrise-was-tun/"
 ---
 
+**Veranstaltung: 15. April 2021, 19:45 Uhr**
+
 Klimawandel – was kann ich tun?
 ===========
 

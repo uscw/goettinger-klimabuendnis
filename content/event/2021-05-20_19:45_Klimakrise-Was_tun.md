@@ -10,6 +10,8 @@ URL:           "/2021/05/20/19/45/dtgoettingen"
 locURL:         "https://www.dt-goettingen.de/stueck/klimakrise-was-tun/"
 ---
 
+**Veranstaltung: 20. Mai 2021, 19:45 Uhr**
+
 Göttingen im Klimawandel – was tun wir?
 ===========
 

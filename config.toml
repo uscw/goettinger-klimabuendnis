@@ -14,7 +14,10 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/Dragoneranger_bleibt_2.jpg"
+  posts_image = "img/Dragoneranger_bleibt_2.jpg"
+  header_image = "img/2021.04-Göttingen_Kreidebilder_3.jpg"
+  events_image = "img/2021.04-Göttingen_Kreidebilder_3.jpg"
+  weeks_image = ""
   SEOTitle = "Göttinger Klimabündnis"
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
@@ -53,7 +56,7 @@ home = ["HTML", "RSS", "Algolia"]
   recent_posts = true
   recent_events = true
   summarylength = 60
-  #nexteventdays = -10
+  nexteventdays = 7
 
   [params.social]
   rss            = true 

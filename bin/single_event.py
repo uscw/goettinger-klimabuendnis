@@ -1,7 +1,6 @@
+
 import sys
 from datetime import date, datetime, timedelta
-
-EventDir="/home/uschwar1/ownCloud/AC/html/hugo/goest/content/event/EinzelEintraege/"
 
 locURL = {
     "Lumiere" : ["http://www.lumiere.de/","lumiere-icon.png"],
@@ -11,6 +10,21 @@ locURL = {
     "Deutsches Theater" : ["https://www.dt-goettingen.de/","deutsches-theater-icon.png"],
     "EXIL" : ["http://www.exil-web.de/","Exil-live-music-club.png"]
     }
+
+months = [
+    "Januar",
+    "Februar",
+    "März",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember"
+]
 
     
 def get_event():
@@ -61,20 +75,7 @@ def get_publish_date(date_str, publish_delta):
 
 
 def normalize_date(Date):
-    months = [
-        "Januar",
-        "Februar",
-        "März",
-        "April",
-        "Mai",
-        "Juni",
-        "Juli",
-        "August",
-        "September",
-        "Oktober",
-        "November",
-        "Dezember"
-    ]
+    global month
     ret = ""
     if len(Date.split("-")) == 3:
         date_fields = Date.split("-")
@@ -150,7 +151,13 @@ def text2ascii(text):
         if char in "abcdefghijklmnopqrstuvwxyz_ -ABCDEFGHIJKLMNOPQRSTUVWXYZ":
             ttext += char
     return ttext
-        
+
+
+def pretty_date(date,time):
+    date_parts = date.split("-")
+    time_parts = time.split(":")
+    return date_parts[2] + ". " + months[int(date_parts[1])-1] + " " + date_parts[0] + ", " + time_parts[0] + ":" + time_parts[1]
+
            
 def dict2eventMD(ev_dict, publish_delta):
 
@@ -164,12 +171,14 @@ def dict2eventMD(ev_dict, publish_delta):
         "title:         \"" + str(ev_dict[item]['title']) + "\"\n" + \
         "subtitle:      \"" + str(ev_dict[item]['subtitle']) + "\"\n" + \
         "date:          " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['time']) + ":00+01:00\n" + \
+        "etime:         " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['etime']) + ":00+01:00\n" + \
         "publishdate:   " + get_publish_date(ev_dict[item]['date'],publish_delta) + "T00:00:00+01:00\n" + \
         "author:        \"" + str(ev_dict[item]['place']) + "\"\n" + \
         "place:         \"" + text2ascii(str(ev_dict[item]['place'])) + "\"\n" + \
         "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + text2ascii(str(ev_dict[item]['title'])).replace(" ","_").lower() + "\"\n" + \
-        "locURL:         \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
+        "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
         "---\n" + \
+        "\n**Veranstaltung: " + pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr**\n" \
         "\n" + str(ev_dict[item]['title']) + "\n===========\n" + \
         "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n" + \
         "\n" + str(ev_dict[item]['text']) + "\n" + \
@@ -185,7 +194,7 @@ def dict2eventMD(ev_dict, publish_delta):
 if __name__ == '__main__':
     evt = get_event()
 
-    outDir = "/home/uschwar1/ownCloud/AC/html/hugo/test-site-goettinger-klimabuendnis/content/event/"
+    outDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event/"
     publish_delta = 100
     dict2eventMD(evt, publish_delta)
     

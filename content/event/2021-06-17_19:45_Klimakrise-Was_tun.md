@@ -10,6 +10,8 @@ URL:           "/2021/06/17/19/45/dtgoettingen"
 locURL:         "https://www.dt-goettingen.de/stueck/klimakrise-was-tun/"
 ---
 
+**Veranstaltung: 17. Mai 2021, 19:45 Uhr**
+
 Klimapolitik – Was wollen die OB-Kandidat*innen?
 ===========
 

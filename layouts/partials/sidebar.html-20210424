@@ -64,12 +64,7 @@
       {{ end }}
 
       {{- $today_evnt := where .Site.RegularPages "Section" "in" (.Site.Params.eventSections | default (slice "event")) }}
-      {{ $today_evnt := .Site.RegularPages }}
       {{- $today_evnt_num := (.Site.Params.widgets.recent_num | default 15) }}
-      {{ $datedelta := int .Site.Params.nexteventdays }}
-      {{ $datefromnow := now.AddDate 0 0 $datedelta }}
-      {{ .Date }}
-      {{ $datefromnow }}
       {{ if .Site.Params.recent_events }}
       <section>
         <div class="widget-recent widget">
@@ -79,10 +74,10 @@
              <dl class="widget__list">
                 {{- range  $today_evnt.Reverse }}
                   {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
-                  {{ if and (.Date.After now) (.Date.Before $datefromnow) }}
+                  {{ if eq $evntDate ( now.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
                     {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
-                    <dt class="widget__item"><strong  style="font-size:70%;"> {{ $evntDate }} </strong></dt>
-                    <dd class="widget__item"><strong  style="font-size:70%;"> {{ $evntTime }} </strong><strong style="font-size:90%;"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></strong>, <em  style="font-size:90%;">{{ .Params.place }} </em></dd>
+                    <dt class="widget__item"><strong  style="font-size:70%;"> {{ $evntTime }} </strong></dt>
+                    <dd class="widget__item"><strong style="font-size:90%;"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></strong>, <em  style="font-size:90%;">{{ .Params.place }} </em></dd>
                   {{ end }}
                 {{- end }}
              </dl>
