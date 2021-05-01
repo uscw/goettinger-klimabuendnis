@@ -8,6 +8,7 @@ author:        "DT Göttingen"
 place:         "DT Göttingen"
 URL:           "/2021/05/20/19/45/dtgoettingen"
 locURL:         "https://www.dt-goettingen.de/stueck/klimakrise-was-tun/"
+image: "img/banner/deutsches-theater-nachts.jpg"
 ---
 
 **Veranstaltung: 20. Mai 2021, 19:45 Uhr**

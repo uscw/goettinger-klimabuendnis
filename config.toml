@@ -14,7 +14,8 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
+  # header_image = "img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
+  header_image = "img/banner/2021-02-05_welt_in_der_hand.jpg"
   # posts_image: see content/post/_index.md
   # events_image: see content/event/_index.md
   SEOTitle = "Göttinger Klimabündnis"
