@@ -31,18 +31,17 @@ draft: false
 | Naturfreunde Göttingen                                         | https://naturfreunde-goettingen.de                           | info [at] naturfreunde-goettingen.de        |
 | Parents for Future Göttingen                                   | https://parentsforfuture.de/de/g%C3%B6ttingen                | p4f-goe [at] lists.gwdg.de                  |
 | Partizipative Initiative für eine lebenwerte Zukunft Göttingen | http://www.pilz.uni-goettingen.de/                           | info [at] pilz.uni-goettingen.de            |
+| Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                            | oekologie [at] asta.uni-goettingen.de       |
 | Refugee Wellcome Göttingen                                     | http://papiere-fuer-alle.org/refugees-welcome-goettingen     | refugeewellcome [at] lists.riseup.net       |
 | Scientists for Future Göttingen                                | https://www.scientists4future.org/mitmachen/regionalgruppen/ | goettingen [at] scientists4future.org       |
 
 # Impressum
 
-
-Redaktionsanschrift:     | Anbieter (§ 6 TDG) Verantwortlicher Redakteur:
--------------------------|-----------------------------------------------
-Göttinger Klimabündnis  | Ulrich Schwardmann 
-www.goettinger-klimabuendnis.de             | Hagenweg 2e
-Hagenweg 2 E             | 37081 Göttingen
-37081 Göttingen          | redaktion [at] goettinger-klimabuendnis.de
+|Redaktionsanschrift:                        | Anbieter (§ 6 TDG) Verantwortlicher Redakteur:   |
+|--------------------------------------------|--------------------------------------------------|
+| Göttinger Klimabündnis                     | Ulrich Schwardmann                               |
+| Hagenweg 2 E                               | 37081 Göttingen                                  |
+| redaktion [at] goettinger-klimabuendnis.de | www.goettinger-klimabuendnis.de                  | 
 
 ## Erreichbarkeit 
 

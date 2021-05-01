@@ -1,12 +1,17 @@
-cd /home/gkb_user/goettinger-klimabuendnis
+UDIR="/home/gkb_user"
+PDIR=${UDIR}/"goettinger-klimabuendnis"
+DDIR=${UDIR}/"/Docker/nginx-alpine"
+HUGO=${UDIR}"/bin/hugo"
+TAG="goettinger-klimabuendnis"
+${}
 
-git pull origin master
 
-/home/gkb_user/bin/hugo
+cd ${PDIR}
+${HUGO}
+rm -r ${DDIR}/public
+cp -a public ${DDIR}
+cd ${DDIR}
 
-rm -r /home/gkb_user/Docker/nginx-alpine/public/*
-cp -a /home/gkb_user/goettinger-klimabuendnis/public/* /home/gkb_user/Docker/nginx-alpine/public
-
-cd /home/gkb_user/Docker/nginx-alpine/
-docker build . -t goettinger-klimabuendnis
-docker run -d --name goettinger-klimabuendnis -p 80:80 goettinger-klimabuendnis
+docker build . -t ${TAG}
+docker stop  ${TAG}
+docker run -d --name ${TAG} -p 80:80 -p 433:433 --rm ${TAG}

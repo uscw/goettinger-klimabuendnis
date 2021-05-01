@@ -9,7 +9,7 @@ cd ${GITDIR}
 echo "provide commit message:"
 read inp
 if [[ ${inp} != "" ]]; then
-  git add .
+  git add *
   git commit -m "${inp}"
   git push origin master
 else
