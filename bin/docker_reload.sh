@@ -3,10 +3,10 @@ PDIR=${UDIR}/"goettinger-klimabuendnis"
 DDIR=${UDIR}/"/Docker/nginx-alpine"
 HUGO=${UDIR}"/bin/hugo"
 TAG="goettinger-klimabuendnis"
-${}
 
 
 cd ${PDIR}
+git pull origin master
 ${HUGO}
 rm -r ${DDIR}/public
 cp -a public ${DDIR}
