@@ -3,6 +3,7 @@ title: "Wie erstelle ich einen neuen Artikel für die Webseite des Göttinger Kl
 subtitle: "Ein paar Tips zur Erstellung von Artikeln von der Redaktion"
 date: 2021-04-10T12:50:34+01:00
 abstract: "Auf dieser Seite wird erklärt, wie ein neuer Artikel für die Webseite des Göttinger Klimabündnis erstellt wird"
+image: "img/banner/post-bg-coffee.jpeg"
 draft: false
 categories: [ "Hilfe" ]
 ---
