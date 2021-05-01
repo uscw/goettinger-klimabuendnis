@@ -49,7 +49,7 @@
       {{ if .Site.Params.featured_tags }}
       <section>
           <hr class="hidden-sm hidden-xs">
-          <h5>Heute in Göttingen</h5>
+          <h5>Demnächst in Göttingen</h5>
           <div class="tags">
               {{ $featured_condition_size := .Site.Params.featured_condition_size }} 
               {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
@@ -68,12 +68,10 @@
       {{- $today_evnt_num := (.Site.Params.widgets.recent_num | default 15) }}
       {{ $datedelta := int .Site.Params.nexteventdays }}
       {{ $datefromnow := now.AddDate 0 0 $datedelta }}
-      {{ .Date }}
-      {{ $datefromnow }}
       {{ if .Site.Params.recent_events }}
       <section>
         <div class="widget-recent widget">
-          <h4 class="widget__title"> <a target="_blank" href="/event"> Veranstaltungen </a> </h4>
+          <h6 class="widget__title"> <a target="_blank" href="/event"> Veranstaltungen </a> </h6>
           <!-- <h4 class="widget__title">{{ T "recent_title" }}</h4> -->
           <div class="widget__content">
              <dl class="widget__list">
@@ -93,18 +91,17 @@
     {{ end }}
 
 
-
-
     <!-- Short About -->
-    <section class="visible-md visible-lg">
+    <section class="visible-md visible-lg"> <!-- <section> -->
         <hr><h5><a href="{{ .Site.Params.social.about }}">Bild der Woche</a></h5>
         <div class="short-about">
-            {{ with .Site.Params.sidebar_avatar }}
+            {{ with .Site.Params.sidebar_pow }}
             <img src="{{ . | relURL }}" alt="Klimabündnis Logo" />
             {{ end }}
+            {{ .Site.Params.sidebar_pow_description }}
         </div>
     </section>
-    <section class="visible-md visible-lg">
+    <section>
         <hr><h5><a href="{{ .Site.Params.social.about }}">Im Göttinger Klimabündnis vernetzte Gruppen:</a></h5>
         <div class="short-about">
           <ul class="lis"> 
@@ -209,9 +206,10 @@
     </section>
 
     <!-- Friends Blog -->
+    <section class="visible-md visible-lg">
     {{ if .Site.Params.friends }}
         <hr class="hidden-sm hidden-xs">
-        <h5>Und Andere ...</h5>
+        <h5>...</h5>
         <ul class="list-inline">
             {{ range .Site.Params.friend_link }}
             <li><a target="_blank" href="{{.href | relLangURL}}">{{.title}}</a></li>

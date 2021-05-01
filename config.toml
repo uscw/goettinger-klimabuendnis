@@ -14,14 +14,15 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  posts_image = "img/Dragoneranger_bleibt_2.jpg"
-  header_image = "img/2021.04-Göttingen_Kreidebilder_3.jpg"
-  events_image = "img/2021.04-Göttingen_Kreidebilder_3.jpg"
-  weeks_image = ""
+  header_image = "img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
+  # posts_image: see content/post/_index.md
+  # events_image: see content/event/_index.md
   SEOTitle = "Göttinger Klimabündnis"
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
   slogan = "Die Web-Seite der lokalen Vernetzung der Göttinger Klimainitiativen"
+  sidebar_pow = "img/pow/pressekonferenz-ratsantraege-20210317.png" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_pow_description = "Göttinger Klimabündnis überreicht Studie zu den aktuellen Klima-Ratsanträgen (17.3.2021)"
 
 
   image_404 = "img/404-bg.jpg"
@@ -42,9 +43,7 @@ home = ["HTML", "RSS", "Algolia"]
   sidebar_about_description = [" BUND Göttingen"," Craddle to Craddle Göttingen", " Ende-Gelände Göttingen", " EPIZ Göttingen", " Extinction Rebellion Göttingen", " FossilFree Goettingen", " Fridays for Future Göttingen", " GermanZero Göttingen", " Göttingen im Wandel", " Greenpeace Göttingen", " Grüne Hochschulgruppe Göttingen", " Health for Future Göttingen", " JANUN Göttingen", " Klimagruppe Basisdemokratische Linke Göttingen", " Klimaschutz Göttingen", " Kritische Wirtschaftwissenschaften Göttingen", " Naturfreunde Göttingen", " Parents for Future Göttingen", " Partizipative Initiative für eine lebenwerte Zukunft Göttingen", "Referat für Ökologie und Nachhaltigkeit (AStA der Uni Gö)", " Refugee Wellcome Göttingen", " Scientists for Future Göttingen"]
   #sidebar_avatar = "img/goest-logo.png"# use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_avatar = "img/picture-of-the-week.png"# use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "img/pressekonferenz-ratsantraege-20210317.png"# names of pictures need to be lower case, use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_pow = "img/picture-of-the-week.png"# use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_pow_description = "testing the pow description"
+  #sidebar_avatar = "img/pressekonferenz-ratsantraege-20210317.png"# names of pictures need to be lower case, use absolute URL, seeing it's used in both `/` and `/about/`
 
 
   featured_tags = true 
@@ -77,12 +76,6 @@ home = ["HTML", "RSS", "Algolia"]
   title = "Göttinger Klimabündnis"
   href =  "https://goettinger-klimabuendnis.de"
 
-  #[[params.bookmark_link]]
-  #title =  "Martin Fowler"
-  #href =  "https://martinfowler.com"
-  #[[params.bookmark_link]]
-  #title = "ServiceMesher"
-  #href =  "http://www.servicemesher.com"
   #[[params.bookmark_link]]
   #title =  "Pxhere"
   #href = "https://pxhere.com"

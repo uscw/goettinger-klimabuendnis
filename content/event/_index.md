@@ -1,6 +1,6 @@
 ---
 title: "Göttinger Klimabündnis"
-image: 'img/rosengarten_1380a.jpg'
+image: 'img/banner/rosengarten_1380a.jpg'
 description: "Die Web-Seite der lokalen Vernetzung der Göttinger Klimainitiativen"
 ---
 # Veranstaltungen
