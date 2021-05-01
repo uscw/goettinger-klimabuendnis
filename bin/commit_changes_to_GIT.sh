@@ -3,6 +3,7 @@ GITDIR="/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 
 find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
 cp -au ${INDIR}/* ${GITDIR}
+sed -i "s/https:\\/\\/localhost:1313/http:\\/\\/goettinger-klimabuendnis.de/g" ${GITDIR}/config.toml
 
 ORIPWD=`echo $PWD`
 cd ${GITDIR}
