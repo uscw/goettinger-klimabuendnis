@@ -4,7 +4,7 @@ GITDIR="/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
 cp -au ${INDIR}/* ${GITDIR}
 
-ORIPATH=`echo $PATH`
+ORIPWD=`echo $PWD`
 cd ${GITDIR}
 echo "provide commit message:"
 read inp
@@ -16,4 +16,4 @@ else
   echo "no commit without message"
 fi
 
-cd ${ORIPATH}
+cd ${ORIPWD}
