@@ -1,0 +1,1 @@
+sed "s/https:\\/\\/localhost:1313/http:\\/\\/goettinger-klimabuendnis.de/g" /home/uschwar1/Dokumente/goettinger-klimabuendnis/config.toml
