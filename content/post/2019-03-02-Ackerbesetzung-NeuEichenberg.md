@@ -6,6 +6,7 @@ date: 2019-01-25T08:50:34+01:00
 abstract: "8 Meter hoher Dreibein errichtet und besetzt +++ Signal in Richtung Dietz AG +++ Ankündigung von zivilem Ungehorsam +++ Aktion soll für 12 Stunden andauern"
 image: "img/banner/2019-03-02-Ackerbesetzung-NeuEichenberg.jpg"
 draft: false
+categories: [ "Landwirtschaft", "Versiegelung" ]
 ---
 
 

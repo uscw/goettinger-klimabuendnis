@@ -5,6 +5,7 @@ date: 2021-01-10T18:50:34+01:00
 image: "img/post/2021-01-10-GöZero_Bürgerbegehren_2.png"
 abstract: "Manchen ist wohl schon ein Fahrrad aufgefallen, das mit einem Plakat und einem Briefkasten versehen am Markt steht. Das Zweirad macht auf ein Bürgerbegehren aufmerksam, das seit dem 12. Dezember in Göttingen läuft. Gefordert wird darin, dass die Stadt Göttingen ihren „Masterplan 100% Klimaschutz“ so anpasst, dass Klimaneutralität der Stadt bereits im Jahr 2030 und nicht erst 2050 erreicht wird."
 draft: false
+categories: [ "Kampagne" ]
 ---
 
 

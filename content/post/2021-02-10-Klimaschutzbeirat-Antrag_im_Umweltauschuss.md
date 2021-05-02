@@ -4,6 +4,7 @@ subtitle: "Göttingen klimaneutral bis 2030"
 date: 2021-02-10T18:50:34+01:00
 abstract: "Zur Ratssitzung am 12.02.2021 liegen vier Anträge vor, die sich mit Klimaschutzzielsetzungen und Maßnahmen beschäftigen, um diese Ziele zu erreichen. Das Bündnis für nachhaltige Stadtentwicklung kritisiert die fehlende Koordination, die Orientierungslosigkeit der Parteien und ihre Unfähigkeit, für wichtige anstehende Probleme gemeinsam Lösungen zu finden."
 draft: false
+categories: [ "Rat und Ausschüsse", "Klimaziele" ]
 ---
 
 

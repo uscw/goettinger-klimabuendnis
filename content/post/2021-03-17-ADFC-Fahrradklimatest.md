@@ -3,8 +3,9 @@
 title: "PM Bündnis für nachhaltige Stadtentwicklung: Göttingen: 'Einäugig unter Blinden'"
 subtitle: "ADFC-Fahrradklimatest: Bündnis bedauert Stagnation beim Radverkehr"
 date: 2021-03-17T18:50:34+01:00
-abstract: "Das Bündnis für nachhaltige Stadtentwicklung zeigt sich erfreut über das Kommmunalwahlergebnis in Neu-Eichenberg und begrüßt das damit verbundene Aus für die Logistikplanung in Hebenshausen."
+abstract: "Nach Ansicht des Bündnisses für nachhaltige Stadtentwicklung BfnS ist das gute Abschneiden Göttingens beim ADFC-Fahrradklimatest kein Grund zur Zufriedenheit."
 draft: false
+categories: [ "Verkehr" ]
 ---
 
 # Göttingen: "Einäugig unter Blinden" 

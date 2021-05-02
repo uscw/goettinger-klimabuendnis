@@ -15,7 +15,7 @@ Der folgende Beitrag sollte von einem Mitglied von GöttingenZero am 23.3.2021 i
 
 > Sehr geehrte Vorsitzende, sehr geehrte  Mitglieder des Umweltausschusses,
 >
-> ﻿Göttingens Masterplans 100% Klimaschutz wurde vor dem Pariser Klimaabkommen formuliert. Mit der Aktualisierung des Masterplans 100% Klimaschutz und dem Klimaplan 2030 habe wir nun die Möglichkeit und unseres Erachtens auch die Pflicht, die Klimaschutzpolitik unserer Stadt mit dem Pariser Klimaabkommen zu harmonisieren und mit einem ein CO2 Budget auf eine adäquate wissenschaftliche Grundlage, zu stellen. 
+> Göttingens Masterplans 100% Klimaschutz wurde vor dem Pariser Klimaabkommen formuliert. Mit der Aktualisierung des Masterplans 100% Klimaschutz und dem Klimaplan 2030 habe wir nun die Möglichkeit und unseres Erachtens auch die Pflicht, die Klimaschutzpolitik unserer Stadt mit dem Pariser Klimaabkommen zu harmonisieren und mit einem ein CO2 Budget auf eine adäquate wissenschaftliche Grundlage, zu stellen. 
 >
 > Herr Schwardmann hat daran erinnert, diese Umsetzung des Pariser Klimaabkommens wäre durch eine unserem Ratsantrag entsprechende Beschlussfassung gewährleistet. Und sicher hat er Recht:Rechenfehler, wie hier durch die Verwaltung geschehen, bei der Berechnung des zur Verfuegung stehenden Budgets für Goettingen,  dürfen wir uns absolut nicht erlauben!
 >
@@ -26,18 +26,16 @@ Der folgende Beitrag sollte von einem Mitglied von GöttingenZero am 23.3.2021 i
 > Im Detail geht es vordringlich um folgende 3 Punkte
 >
 > 1. Das Thema ist überaus komplex, es ist nicht einfach, hier klug zu priorisieren!
->
 > 2. Wir können bei so was die Bevölkerung doch gar nicht mitnehmen!
->
 > 3. Die gesetzlichen Grenzen geben es nicht her, ohne den Bund geht hier gar nichts!
 >
 > Ich möchte Sie dazu einladen, unsere Antwort auf diese 3 zentralen Bedenken der politischen Bedenkenträger vor Ort anzuschauen, denn sie sind unsere Antwort auf die Frage, wie wir  wir das unumstritten Notwendige nun konkret in Goettingen umsetzen können.>
 > 
-> **Pfeiler 1:** Der Klimastadtplan Goettingen (https://www.goettingen-klimaneutral.de/unser-vorschlag/ kurze Vorstellung denn nicht alle haben ihn sich angeschaut) 
+> - **Pfeiler 1:** Der Klimastadtplan Goettingen (https://www.goettingen-klimaneutral.de/unser-vorschlag/ kurze Vorstellung denn nicht alle haben ihn sich angeschaut) 
 >
-> **Pfeiler 2:** Das Begehren ( kurzer Hinweis auf Zeitplan und überaus positive Reaktionen in der Stadt sowie auf unsere weit über 40 Unterstützergruppen) 
+> - **Pfeiler 2:** Das Begehren ( kurzer Hinweis auf Zeitplan und überaus positive Reaktionen in der Stadt sowie auf unsere weit über 40 Unterstützergruppen) 
 >
-> **Pfeiler 3:**  Das 1,5 ° Klimagesetzespaket auf Bundesebene ( hierzu link: https://youtu.be/t14iVYdJNsU)
+> - **Pfeiler 3:**  Das 1,5 ° Klimagesetzespaket auf Bundesebene ( hierzu link: https://youtu.be/t14iVYdJNsU)
 >
 > Wenn wir nicht aufhören, Bedenken zu tragen und nicht endlich beginnen, Optionen zu betrachten, wie wir das scheinbar Unmögliche möglich machen können, dann wird das nie was. Wer nicht auf den Mond fliegen will, der kommt auch nicht auf den Mond. Die sicherste Art, es nicht zu schaffen ist es, es gar nicht erst zu probieren. 
 > 

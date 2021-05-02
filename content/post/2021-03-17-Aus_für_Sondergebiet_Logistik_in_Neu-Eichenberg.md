@@ -6,6 +6,7 @@ date: 2021-03-17T18:50:34+01:00
 abstract: "Das Bündnis für nachhaltige Stadtentwicklung zeigt sich erfreut über das Kommmunalwahlergebnis in Neu-Eichenberg und begrüßt das damit verbundene Aus für die Logistikplanung in Hebenshausen."
 image: "img/banner/2019-03-02-Ackerbesetzung-NeuEichenberg.jpg"
 draft: false
+categories: [ "Landwirtschaft", "Versiegelung" ]
 ---
 
 # Bündnis begrüßt Aus für Sondergebiet Logistik in Neu-Eichenberg

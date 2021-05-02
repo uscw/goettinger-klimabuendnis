@@ -6,6 +6,7 @@ date: 2021-03-15T18:50:34+01:00
 image: "img/banner/2021-03-15-Übergabe_der_Studie_zu_den_Ratsanträgen_1.png"
 abstract: "Die unterzeichnenden Gruppen des Göttinger Klimabündnisses bekräftigen die Notwendigkeit einer konsequenten Orientierung der Klimapolitik Göttingens an den Pariser 1,5°-Klimazielen."
 draft: false
+categories: [ "Rat und Ausschüsse", "Klimaziele" ]
 ---
 
 # Göttinger Klimabündnis überreicht Studie zu den aktuellen Klima-Ratsanträgen
