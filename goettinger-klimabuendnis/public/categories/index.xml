@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Göttinger Klimabündnis</title>
+    <link>https://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Göttinger Klimabündnis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="https://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gesundheit</title>
+      <link>https://localhost:1313/categories/gesundheit/</link>
+      <pubDate>Wed, 31 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/gesundheit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hilfe</title>
+      <link>https://localhost:1313/categories/hilfe/</link>
+      <pubDate>Sat, 10 Apr 2021 12:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/hilfe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kampagne</title>
+      <link>https://localhost:1313/categories/kampagne/</link>
+      <pubDate>Sun, 10 Jan 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/kampagne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klimaziele</title>
+      <link>https://localhost:1313/categories/klimaziele/</link>
+      <pubDate>Fri, 09 Apr 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/klimaziele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landwirtschaft</title>
+      <link>https://localhost:1313/categories/landwirtschaft/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/landwirtschaft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rat und Ausschüsse</title>
+      <link>https://localhost:1313/categories/rat-und-aussch%C3%BCsse/</link>
+      <pubDate>Fri, 09 Apr 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/rat-und-aussch%C3%BCsse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verkehr</title>
+      <link>https://localhost:1313/categories/verkehr/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/verkehr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Versiegelung</title>
+      <link>https://localhost:1313/categories/versiegelung/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/versiegelung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wohnen, Bauen</title>
+      <link>https://localhost:1313/categories/wohnen-bauen/</link>
+      <pubDate>Wed, 31 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/wohnen-bauen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
