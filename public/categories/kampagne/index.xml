@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kampagne on Göttinger Klimabündnis</title>
-    <link>https://localhost:1313/categories/kampagne/</link>
+    <link>http://goettinger-klimabuendnis.de/categories/kampagne/</link>
     <description>Recent content in Kampagne on Göttinger Klimabündnis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sun, 10 Jan 2021 18:50:34 +0100</lastBuildDate>
     
-	<atom:link href="https://localhost:1313/categories/kampagne/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://goettinger-klimabuendnis.de/categories/kampagne/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PM GöttingenZero: Initiative GöttingenZero startet Bürgerbegehren</title>
-      <link>https://localhost:1313/post/2021-01-10-g%C3%B6zero_b%C3%BCrgerbegehren/</link>
+      <link>http://goettinger-klimabuendnis.de/post/2021-01-10-g%C3%B6zero_b%C3%BCrgerbegehren/</link>
       <pubDate>Sun, 10 Jan 2021 18:50:34 +0100</pubDate>
       
-      <guid>https://localhost:1313/post/2021-01-10-g%C3%B6zero_b%C3%BCrgerbegehren/</guid>
+      <guid>http://goettinger-klimabuendnis.de/post/2021-01-10-g%C3%B6zero_b%C3%BCrgerbegehren/</guid>
       <description>Manchen ist wohl schon ein Fahrrad aufgefallen, das mit einem Plakat und einem Briefkasten versehen am Markt steht. Das Zweirad macht auf ein Bürgerbegehren aufmerksam, das seit dem 12. Dezember in Göttingen läuft. Gefordert wird darin, dass die Stadt Göttingen ihren „Masterplan 100% Klimaschutz“ so anpasst, dass Klimaneutralität der Stadt bereits im Jahr 2030 und nicht erst 2050 erreicht wird. Sollten mindestens 7116 Göttinger Bürgerinnen und Bürger das Begehren mit ih- rer Unterschrift unterstützen und der Rat der Stadt dennoch am bisherigen Klima- ziel festhalten, kommt es zum einem Bürgerentscheid.</description>
     </item>
     

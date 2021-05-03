@@ -25,7 +25,7 @@ Klima für unser aller Zukunft betont wird, dass von allen Fraktionen und Gruppe
 Pariser Klimazielen formuliert wird, und dass alle die Bewerbung auf das EU-Förderprogramm "100
 climate-neutral cities by 2030 - by and for the citizens" befürworten.
 
-![Übergabe der Studie zu den aktuellen Klima-Ratsanträgen](/img/Pressekonferenz-Ratsantraege-2021-03-17-174721.jpg)
+![Übergabe der Studie zu den aktuellen Klima-Ratsanträgen](/img/post/Pressekonferenz-Ratsantraege-2021-03-17-174721.jpg)
 Übergabe der Studie zu den aktuellen Klima-Ratsanträgen
 
 Eine eingehende Analyse der Ratsanträge offenbart jedoch Inkonsistenzen zwischen dem Bekenntnis zu
