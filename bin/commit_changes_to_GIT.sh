@@ -9,12 +9,11 @@ ORIPWD=`echo $PWD`
 cd ${GITDIR}
 echo "provide commit message:"
 read inp
-if [[ ${inp} != "" ]]; then
-  git add --all
-  git commit -m "${inp}"
-  git push origin master
-else
-  echo "no commit without message"
+if [[ ${inp} == "" ]]; then
+  inp="Aktualisierung des Web-Inhaltes"
 fi
+git add --all
+git commit -m "${inp}"
+git push origin master
 
 cd ${ORIPWD}

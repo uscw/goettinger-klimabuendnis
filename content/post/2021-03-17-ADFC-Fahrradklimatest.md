@@ -5,7 +5,7 @@ subtitle: "ADFC-Fahrradklimatest: Bündnis bedauert Stagnation beim Radverkehr"
 date: 2021-03-17T18:50:34+01:00
 abstract: "Nach Ansicht des Bündnisses für nachhaltige Stadtentwicklung BfnS ist das gute Abschneiden Göttingens beim ADFC-Fahrradklimatest kein Grund zur Zufriedenheit."
 draft: false
-categories: [ "Verkehr" ]
+categories: [ "Verkehr", "Pressemitteilungen" ]
 ---
 
 # Göttingen: "Einäugig unter Blinden" 

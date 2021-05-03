@@ -53,18 +53,23 @@
   </url>
   
   <url>
+    <loc>https://localhost:1313/post/2021-03-23-infoinput-vom-g%C3%B6kb-im_umweltausschuss/</loc>
+    <lastmod>2021-04-09T18:50:34+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://localhost:1313/2021/03/28/18/00/xr_gewaltfreie_kommunikation/</loc>
     <lastmod>2021-04-04T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://localhost:1313/post/2021-03-31-neubau_umg_h4f/</loc>
-    <lastmod>2021-03-31T18:50:34+01:00</lastmod>
+    <loc>https://localhost:1313/post/2021-04-01-nicht_zugelassener_infoinput_von_g%C3%B6ttingen_zero_im_ua/</loc>
+    <lastmod>2021-04-01T18:50:34+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://localhost:1313/2021/03/28/18/00/xr_gewaltfreie_kommunikation/</loc>
-    <lastmod>2021-03-28T18:00:00+01:00</lastmod>
+    <loc>https://localhost:1313/post/2021-03-31-neubau_umg_h4f/</loc>
+    <lastmod>2021-03-31T18:50:34+01:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +85,11 @@
   <url>
     <loc>https://localhost:1313/post/2021-03-15-%C3%BCbergabe_der_studie_zu_den_ratsantr%C3%A4gen/</loc>
     <lastmod>2021-03-15T18:50:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/controlling/</loc>
+    <lastmod>2021-03-02T12:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -105,6 +115,11 @@
   <url>
     <loc>https://localhost:1313/post/2021-01-10-g%C3%B6zero_b%C3%BCrgerbegehren/</loc>
     <lastmod>2021-01-10T18:50:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/2021/03/28/18/00/xr_gewaltfreie_kommunikation/</loc>
+    <lastmod>2020-12-18T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -144,10 +159,6 @@
   </url>
   
   <url>
-    <loc>https://localhost:1313/controlling/</loc>
-  </url>
-  
-  <url>
     <loc>https://localhost:1313/event/</loc>
     <lastmod>2021-06-17T19:45:00+01:00</lastmod>
   </url>
@@ -159,6 +170,30 @@
   </url>
   
   <url>
+    <loc>https://localhost:1313/categories/kampagne/</loc>
+    <lastmod>2021-01-10T18:50:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/klimaziele/</loc>
+    <lastmod>2021-04-09T18:50:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/landwirtschaft/</loc>
+    <lastmod>2021-03-17T18:50:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/rat-und-aussch%C3%BCsse/</loc>
+    <lastmod>2021-04-09T18:50:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://localhost:1313/tags/</loc>
     <priority>0</priority>
   </url>
@@ -166,6 +201,18 @@
   <url>
     <loc>https://localhost:1313/top/</loc>
     <lastmod>2019-03-02T17:46:36+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/verkehr/</loc>
+    <lastmod>2021-03-17T18:50:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/versiegelung/</loc>
+    <lastmod>2021-03-17T18:50:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   

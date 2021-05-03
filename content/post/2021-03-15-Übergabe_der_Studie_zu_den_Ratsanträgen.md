@@ -6,10 +6,10 @@ date: 2021-03-15T18:50:34+01:00
 image: "img/banner/2021-03-15-Übergabe_der_Studie_zu_den_Ratsanträgen_1.png"
 abstract: "Die unterzeichnenden Gruppen des Göttinger Klimabündnisses bekräftigen die Notwendigkeit einer konsequenten Orientierung der Klimapolitik Göttingens an den Pariser 1,5°-Klimazielen."
 draft: false
-categories: [ "Rat und Ausschüsse", "Klimaziele" ]
+categories: [ "Rat und Ausschüsse", "Klimaziele", "Pressemitteilungen" ]
 ---
 
-# Göttinger Klimabündnis überreicht Studie zu den aktuellen Klima-Ratsanträgen
+# Göttinger Klimabündnis überreicht [Studie zu den aktuellen Klima-Ratsanträgen](/documents/Ratsantraege2021_Bewertung.pdf)
 
 Die unterzeichnenden Gruppen des Göttinger Klimabündnisses bekräftigen die Notwendigkeit einer
 konsequenten Orientierung der Klimapolitik Göttingens an den Pariser 1,5°-Klimazielen, Wenn wir eine
@@ -26,6 +26,7 @@ Pariser Klimazielen formuliert wird, und dass alle die Bewerbung auf das EU-För
 climate-neutral cities by 2030 - by and for the citizens" befürworten.
 
 ![Übergabe der Studie zu den aktuellen Klima-Ratsanträgen](/img/Pressekonferenz-Ratsantraege-2021-03-17-174721.jpg)
+Übergabe der Studie zu den aktuellen Klima-Ratsanträgen
 
 Eine eingehende Analyse der Ratsanträge offenbart jedoch Inkonsistenzen zwischen dem Bekenntnis zu
 den Pariser Klimaschutzzielen und den vorgeschlagenen Maßnahmen und Zielen in einigen Teilen der
@@ -60,6 +61,15 @@ Basis zu einer von allen getragenen Klimapolitik für die Stadt Göttingen zu le
 - Klimeentscheid Göttingen
 - Health for Future Göttingen
 
+## Link zur Studie 
 
+- [Studie zu den aktuellen Klima-Ratsanträgen](/documents/Ratsantraege2021_Bewertung.pdf)
+
+## Links zu den  Ratsanträgen
+
+- [Ratsantrag der Göttinger Linke/ALG-Ratsgruppe und Francisco Welter-Schultes im Rat der Stadt Göttingen zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-FWS_Linke.pdf)
+- [Ratsantrag von Bündnis 90/DIE GRÜNEN und FDP Fraktionen und PARTEI-Ratsgruppe im Rat der Stadt Göttingen zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-Grün_Co.pdf)
+- [Ratsantrag der CDU zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-CDU.pdf)
+- [Ratsantrag der SPD zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-SPD.pdf)
 
 

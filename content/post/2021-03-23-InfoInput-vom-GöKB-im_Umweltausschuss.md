@@ -127,3 +127,15 @@ Jahre 2046. Um Klimaneutralität mit dem korrekt berechneten CO2-Budget
 zu erreichen, muss ein Zwischenziel von etwa 20% für 2030 gegenüber 1990
 angestrebt werden.
 
+# Zur Rolle des CO2-Budgets bei den Göttinger Ratsanträgen zum Klimaplan2030
+
+## Link zur Studie  zu den aktuellen Klima-Ratsanträgen
+
+- [Studie zu den aktuellen Klima-Ratsanträgen](/documents/Ratsantraege2021_Bewertung.pdf)
+
+## Links zu den  Ratsanträgen
+
+- [Ratsantrag der Göttinger Linke/ALG-Ratsgruppe und Francisco Welter-Schultes im Rat der Stadt Göttingen zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-FWS_Linke.pdf)
+- [Ratsantrag von Bündnis 90/DIE GRÜNEN und FDP Fraktionen und PARTEI-Ratsgruppe im Rat der Stadt Göttingen zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-Grün_Co.pdf)
+- [Ratsantrag der CDU zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-CDU.pdf)
+- [Ratsantrag der SPD zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-SPD.pdf)

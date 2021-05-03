@@ -4,7 +4,7 @@ subtitle: "Göttingen klimaneutral bis 2030"
 date: 2021-01-29T18:50:34+01:00
 abstract: "Neben dem bereits der Presse bekannten Ratsantrag der Grünen zum Pariser 1,5 Grad-Ziel (Offener Brief an GöttingenZero und andere Aktive der Klimaschutzbewegung) gibt es einen weiteren Antrag, der von GöttingenZero maßgeblich ausgearbeitet wurde und der interfraktionell von den Piraten und Goettinger Linken zur Ratssitzung am 12.02.2021 eingereicht wurde."
 draft: false
-categories: [ "Rat und Ausschüsse", "Klimaziele" ]
+categories: [ "Rat und Ausschüsse", "Klimaziele", "Pressemitteilungen" ]
 ---
 
 
@@ -105,5 +105,4 @@ Genau hier spielt der GöttingenZero-Antrag seine Stärke aus.
 
 Quellen
 
-[1] Rezo: "Die Zerstörung der CDU", YouTube 18.05.2019
-https://giftbot.toolforge.org/deref.fcgi?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4Y1lZQsyuSQ
+[1] [Rezo: "Die Zerstörung der CDU", YouTube 18.05.2019](https://giftbot.toolforge.org/deref.fcgi?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4Y1lZQsyuSQ)

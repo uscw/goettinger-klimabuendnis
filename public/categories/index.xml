@@ -29,6 +29,60 @@
     </item>
     
     <item>
+      <title>Kampagne</title>
+      <link>https://localhost:1313/categories/kampagne/</link>
+      <pubDate>Sun, 10 Jan 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/kampagne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klimaziele</title>
+      <link>https://localhost:1313/categories/klimaziele/</link>
+      <pubDate>Fri, 09 Apr 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/klimaziele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landwirtschaft</title>
+      <link>https://localhost:1313/categories/landwirtschaft/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/landwirtschaft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rat und Ausschüsse</title>
+      <link>https://localhost:1313/categories/rat-und-aussch%C3%BCsse/</link>
+      <pubDate>Fri, 09 Apr 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/rat-und-aussch%C3%BCsse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verkehr</title>
+      <link>https://localhost:1313/categories/verkehr/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/verkehr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Versiegelung</title>
+      <link>https://localhost:1313/categories/versiegelung/</link>
+      <pubDate>Wed, 17 Mar 2021 18:50:34 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/versiegelung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Wohnen, Bauen</title>
       <link>https://localhost:1313/categories/wohnen-bauen/</link>
       <pubDate>Wed, 31 Mar 2021 18:50:34 +0100</pubDate>

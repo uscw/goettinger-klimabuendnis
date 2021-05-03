@@ -2,13 +2,23 @@
 layout:        events
 title:         "XR: Gewaltfreie Kommunikation"
 subtitle:      "Extinction Rebellion: AG Training, Göttingen"
-date:          2021-03-28T18:00:00+01:00
+date:          2021-03-28T18:00:00+01:00:00+01:00
+etime:         2021-03-28T:00+01:00
 publishdate:   2020-12-18T00:00:00+01:00
-author:        "Göttingen"
-place:         "Goettingen"
+author:        "auf Anfrage"
+place:         "auf Anfrage"
 URL:           "/2021/03/28/18/00/xr_gewaltfreie_kommunikation"
-locURL:         "https://extinctionrebellion.de/veranstaltungen/ag-training/gewaltfreie-kommunikation/5497/"
+locURL:        "https://extinctionrebellion.de/veranstaltungen/ag-training/gewaltfreie-kommunikation/5497/"
 ---
+
+**Veranstaltung: 28. März 2021, 18:00 Uhr**
+
+"XR: Gewaltfreie Kommunikation"
+===========
+
+"Extinction Rebellion: AG Training, Göttingen"
+-----------
+
 
 XR: Gewaltfreie Kommunikation
 ===========
@@ -24,3 +34,6 @@ Wir freuen uns auf euch!
 
 
 Mehr Informationen auf der [Webseite des Veranstalters](https://extinctionrebellion.de/veranstaltungen/ag-training/gewaltfreie-kommunikation/5497/)
+
+
+Mehr Informationen auf der [Webseite des Veranstalters]("https://extinctionrebellion.de/veranstaltungen/ag-training/gewaltfreie-kommunikation/5497/")

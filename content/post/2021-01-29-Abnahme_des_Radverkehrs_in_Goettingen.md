@@ -5,7 +5,7 @@ subtitle: "Radverkehr in Göttingen"
 date: 2021-01-29T18:50:34+01:00
 abstract: "Bei der Auswertung der für 2020 jetzt vorliegenden Zahlen zum Göttinger Radverkehrsaufkommen stellt das Bündnis für nachhaltige Stadtentwicklung mit Bedauern fest, dass die Corona-Pandemie in der Stadt zu einer starken Abnahme des Radverkehrs um etwa 33 % geführt hat."
 draft: false
-categories: [ "Verkehr" ]
+categories: [ "Verkehr", "Pressemitteilungen" ]
 ---
 
 # Bündnis bedauert Abnahme des Radverkehrs in Göttingen um 33% 
