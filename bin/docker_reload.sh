@@ -7,7 +7,7 @@ TAG="goettinger-klimabuendnis"
 
 cd ${PDIR}
 git pull origin master
-${HUGO}
+
 rm -r ${DDIR}/public
 cp -a public ${DDIR}
 cd ${DDIR}

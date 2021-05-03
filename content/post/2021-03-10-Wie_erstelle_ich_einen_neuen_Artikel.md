@@ -172,7 +172,7 @@ Browser-Fensters.
 ### Fotos
 
 Fotos lassen sich ähnlich wie Links einfügen, brauchen allerdings ein
-vorangestelltes "!" ![Beispiel](/img/deutsches-theater-nachts.jpg) und müssen
+vorangestelltes "!" ![Beispiel](/img/banner/deutsches-theater-nachts.jpg) und müssen
 auf ein Bild im Netz verweisen. Dies wird zum Beispiel wie folgt angegeben:
 
 ```
