@@ -114,8 +114,8 @@ Abschätzung der Verfehlung. Mit dem "Weiter so wie bisher" wird aber
 einerseits das Maß der Verfehlung des Restbudgets deutlicher. Andererseits
 werden weitere wissenschaftliche Absicherungen 
 der Gefahrenlage, zum Beispiel im nächsten
-IPCC-Bericht, vermutlich zum Ende des Jahres,wird
-das Überschreiten von Kippunkten oder die beschriebenen Unsicherheiten mindern.
+IPCC-Bericht, vermutlich zum Ende des Jahres, oder auch 
+das Überschreiten von Kippunkten die beschriebenen Unsicherheiten mindern.
 Damit würde dann also auch das jetzige Klimaschutzgesetz verfassungswidrig
 werden.
 
@@ -146,7 +146,7 @@ noch einmal sehr deutlich auf den Punkt gebracht
 
 ### Das rechtzeitige Festlegen und Einhalten von Klimazielen ist entscheidend
 
-Dafür muss es einen Fahrplan zumindest für das Festlegen der Ziele geben.
+und es muss einen Fahrplan zumindest für das Festlegen der Ziele geben.
 
 > 3.b) Der Gesetzgeber hat die Fortschreibung des Treibhausgasreduktionspfads in § 4 Abs. 6 Satz 1 KSG verfassungsrechtlich unzureichend geregelt. Zwar kann nicht verlangt werden, dass die absinkenden Emissionsmengen bereits jetzt bis zur Erreichung der für 2050 angestrebten Klimaneutralität konkret bestimmt werden. Jedoch genügt es nicht, die Bundesregierung lediglich dazu zu verpflichten, einmal – im Jahr 2025 – durch Rechtsverordnung eine weitere Festlegung zu treffen. Vielmehr müsste zumindest geregelt werden, in welchen Zeitabständen weitere Festlegungen transparent zu treffen sind.
 
@@ -160,7 +160,7 @@ bis 2030 und Klimaneutralität bis 2050 die Pariser
 1,5°-Klimaziele verfehlt werden, weil das entsprechende, auf den territorialen
 Anteil bezogene CO2-Budget dann überschritten würde.
 
-### Auch in Göttingen ist nach 2030 das CO2-Budgets zu klein
+### Auch in Göttingen ist nach 2030 der Rest des CO2-Budgets zu klein
 
 Auch hier liegt das wesentliche Problem zum einen darin, dass nach dieser
 Planung bis 2030 ein zu
