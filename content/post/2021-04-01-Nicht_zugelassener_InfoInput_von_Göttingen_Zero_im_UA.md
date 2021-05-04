@@ -44,3 +44,5 @@ Der folgende Beitrag sollte von einem Mitglied von GöttingenZero am 23.3.2021 i
 > Vielen Dank für Ihre Aufmerksamkeit und dafür, dass Sie diesen Redebeitrag ermöglicht haben!
 
 So war es jedenfalls geplant. Dass dieser Dank nicht erteilt werden konnte, zeigt, dass die Bedenken in der Klimapolitik in Göttingen immer noch die vorherrschende Haltung darstellen. 
+
+*uScw*

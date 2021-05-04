@@ -139,3 +139,5 @@ angestrebt werden.
 - [Ratsantrag von Bündnis 90/DIE GRÜNEN und FDP Fraktionen und PARTEI-Ratsgruppe im Rat der Stadt Göttingen zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-Grün_Co.pdf)
 - [Ratsantrag der CDU zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-CDU.pdf)
 - [Ratsantrag der SPD zum Klimaplan2030](/documents/Ratsantrag_Klimaziel_2030-SPD.pdf)
+
+*uScw*
