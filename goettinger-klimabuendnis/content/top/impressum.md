@@ -1,7 +1,7 @@
 ---
 title: "Über Uns"
 date: 2019-03-02T17:46:36+01:00
-image: '/img/stadthalle-hier-1.jpg'
+image: '/img/banner/stadthalle-hier-1.jpg'
 draft: false
 ---
 

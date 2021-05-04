@@ -5,11 +5,11 @@ SERVER_USR="gkb_user"
 SERVER_LOC="${SERVER_USR}@1b14c95.online-server.cloud"
 SERVER_DIR="Docker/nginx-alpine"
 
-
 find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
 
 rsync -aHAXx --delete --exclude ".git" ${INDIR} ${GITDIR}
 sed -i "s/https:\\/\\/localhost:1313/http:\\/\\/goettinger-klimabuendnis.de/g" ${GITDIR}/config.toml
+echo "wait"; sleep 2
 
 ORIPWD=`echo $PWD`
 cd ${GITDIR}
@@ -25,6 +25,7 @@ git commit -m "${inp}"
 git push origin master
 
 rsync -avze ssh --delete public ${SERVER_LOC}:${SERVER_DIR}
+echo "wait"; sleep 2
 
 cd ${ORIPWD}
 
