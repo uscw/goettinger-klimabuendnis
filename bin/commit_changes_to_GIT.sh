@@ -7,6 +7,7 @@ SERVER_LOC="${SERVER_USR}@1b14c95.online-server.cloud"
 SERVER_DIR="Docker/nginx-alpine"
 
 find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
+chmod -R +rwX public/
 
 rsync -aHAXx --delete --exclude ".git" ${INDIR} ${GITPARENTDIR}
 sed -i "s/https:\\/\\/localhost:1313/http:\\/\\/goettinger-klimabuendnis.de/g" ${GITDIR}/config.toml
