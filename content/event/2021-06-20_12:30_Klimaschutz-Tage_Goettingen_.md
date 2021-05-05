@@ -9,6 +9,7 @@ author:        "Klimaschutz Göttingen"
 place:         "Goettingen"
 URL:           "/2021/06/20/12/30/klimaschutz-tage_goettingen_"
 locURL:        "https://klimaschutz.goettingen.de/staticsite/staticsite.php?menuid=267&topmenu=14"
+image:         "/img/banner/2019-07-Klima-Jurte-mit-Baum-1.jpg"
 ---
 
 **Veranstaltung: 20. Juni 2021, 12:30 Uhr**

@@ -96,13 +96,14 @@
         <hr><h5><a href="{{ .Site.Params.social.about }}">Bild der Woche</a></h5>
         <div class="short-about">
             {{ with .Site.Params.sidebar_pow }}
-            <img src="{{ . | relURL }}" alt="Klimabündnis Logo" />
+            <a href="/{{ . }}"> <img src="{{ . | relURL }}" alt="Klimabündnis Logo" />
+            </a>
             {{ end }}
             {{ .Site.Params.sidebar_pow_description }}
         </div>
     </section>
     <section>
-        <hr><h5><a href="{{ .Site.Params.social.about }}">Im Göttinger Klimabündnis vernetzte Gruppen:</a></h5>
+        <hr><h5><a href="{{ .Site.Params.social.about }}#vernetzte-gruppen">Im Göttinger Klimabündnis vernetzte Gruppen:</a></h5>
         <div class="short-about">
           <ul class="lis"> 
             {{ range .Site.Params.sidebar_about_description }}

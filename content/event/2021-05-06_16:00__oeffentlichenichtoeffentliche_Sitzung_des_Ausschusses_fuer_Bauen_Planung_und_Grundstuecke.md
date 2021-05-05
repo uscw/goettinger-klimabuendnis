@@ -9,6 +9,7 @@ author:        ""
 place:         "Videokonferenz"
 URL:           "/2021/05/06/16/00/_oeffentlichenichtoeffentliche_sitzung_des_ausschusses_fuer_bauen_planung_und_grundstuecke"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
+image:         "/img/banner/2021.04-Göttingen_Kreidebilder_1.jpg"
 ---
 
 **Veranstaltung: 06. Mai 2021, 16:00 Uhr**

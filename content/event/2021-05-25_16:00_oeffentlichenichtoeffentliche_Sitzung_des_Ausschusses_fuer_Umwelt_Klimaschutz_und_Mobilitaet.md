@@ -9,6 +9,7 @@ author:        "Stadt Göttingen"
 place:         "Videokonferenz"
 URL:           "/2021/05/25/16/00/oeffentlichenichtoeffentliche_sitzung_des_ausschusses_fuer_umwelt_klimaschutz_und_mobilitaet"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
+image:         "/img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
 ---
 
 **Veranstaltung: 25. Mai 2021, 16:00 Uhr**

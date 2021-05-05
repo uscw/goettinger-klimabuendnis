@@ -3,7 +3,7 @@ title: "PM Bündnis für nachhaltige Stadtentwicklung: Bündnis begrüßt Grüne
 subtitle: "Göttingen klimaneutral bis 2030"
 date: 2021-02-19T18:50:34+01:00
 abstract: "Der Wunsch des Grünen Stadtverbandes, im aktuell verhandelten städtischen Haushalt klare klimaschutzorientierte und sozialpolitische Ziele zu verfolgen [1], wird vom Bündnis für nachhaltige Stadtentwicklung ausdrücklich unterstützt. Das Bündnis begrüßt insbesondere die Forderung, die von der Verwaltung eingestellten 3 Millionen Euro für die Erschließung und Bebauung des Gewerbegebiets Dragoneranger aus dem Haushaltsplan wieder herauszunehmen und für andere Zwecke zu verwenden. Die Grünen schlagen in ihrer Stellungnahme unter anderem vor, die Jugendhilfe zu stärken, um an sozialen Brennpunkten wirksam handeln zu können."
-image: "img/banner/Dragoneranger_bleibt_2.jpg"
+image: "img/banner/2021-02-Dragoneranger_bleibt_2.jpg"
 draft: false
 categories: [ "Landwirtschaft", "Versiegelung", "Pressemitteilungen" ]
 ---

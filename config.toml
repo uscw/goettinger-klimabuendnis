@@ -22,7 +22,7 @@ home = ["HTML", "RSS", "Algolia"]
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
   slogan = "zur Vernetzung der Göttinger Klimainitiativen"
-  sidebar_pow = "img/pow/pressekonferenz-ratsantraege-20210317.png" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_pow = "img/pow/2021-03-17-pressekonferenz-ratsantraege.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_pow_description = "Göttinger Klimabündnis überreicht Studie zu den aktuellen Klima-Ratsanträgen (17.3.2021)"
 
 
