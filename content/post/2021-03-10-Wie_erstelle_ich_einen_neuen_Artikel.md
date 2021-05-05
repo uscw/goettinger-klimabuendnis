@@ -26,7 +26,11 @@ finden.
 ## Der Header
 
 Jeder Post muss mit ein paar Metadaten versehen werden, damit er sinnvoll in
-die Webseiten einsortiert werden kann. Zum Beispiel hat dieser Artikel den
+die Webseiten einsortiert werden kann. 
+
+### Der Header für Artikel
+
+Zum Beispiel hat dieser Artikel den
 folgenden Header:
 
 ```
@@ -67,6 +71,11 @@ locURL:        "https://klimaschutz.goettingen.de/staticsite/staticsite.php?menu
 * ***place:*** den Veranstaltungsort
 * ***locURL:*** kann für weiterführende Links zu anderen Seiten verwendet werden.
 
+Mindestens vorhanden sein müssen Titel und das Datum mit der Uhrzeit, aber
+normalerweise reicht das natürlich als Information für die Besucher nicht
+aus. Dann muss entweder mit ***locURL:*** auf die externe Seite verlinkt
+werden, oder die notwendigen Infos müssen im Header oder im Text stehen.
+  
 ### Titel, Untertitle, Zusammenfassung und Datum
 
 sind oben hinreichend beschrieben.
@@ -89,7 +98,7 @@ Die derzeitige Liste der verfügbaren Kategorien ist:
 * Pressemitteilung
 * Monitoring, Controlling
 
-Aber dies ist noch weitgehend frei gestaltbar und wird später überarbeitet.
+Aber dies ist im Moment noch weitgehend frei gestaltbar und wird später überarbeitet.
 
 ## Der Textteil des Artikels mithilfe von Markdown
 
