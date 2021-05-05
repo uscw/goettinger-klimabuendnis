@@ -26,74 +26,99 @@ months = [
     "Dezember"
 ]
 
-def get_event_from_other(file):
-    date = ""
-    time = ""
-    etime = ""
+def get_event(file=None):
+    date = today = datetime.now().strftime('%Y-%m-%d')
+    time = datetime.now().strftime('%H:%M')
+    etime = datetime.now().strftime('%H:%M')
     title = ""
     subtitle = ""
     url = ""
     place = ""
-    organizer = ""
+    author = ""
     locURL = ""
-    fd = open(file)
     header = False
     text = ""
-    for line in fd.readlines():
-        if line[:-1] == "---":
-            if header == False:
-                header = True
-                continue
+    if file != None:
+        fd = open(file)
+        for line in fd.readlines():
+            if line[:-1] == "---":
+                if header == False:
+                    header = True
+                    continue
+                else:
+                    header = False
+                    continue
+            elif  header == True: # and line[:-1] != "":
+                print (line[:-1])
+                Type = line[:-1].split(":")[0]
+                Value = line[:-1].split(":")[1]
+                for item in line[:-1].split(":")[2:]:
+                    Value += ":" + item
+                if Type == "date" :
+                    date = Value.split("T")[0].strip().strip('"')
+                    time = Value.split("T")[1].strip().strip('"')
+                if Type == "etime" :
+                    etime = Value.strip().strip('"')
+                if Type == "title" :
+                    title = Value.strip().strip('"')
+                if Type == "subtitle" :
+                    subtitle = Value.strip().strip('"')
+                if Type == "url" :
+                    url = Value.strip().strip('"')
+                if Type == "place" :
+                    place = Value.strip().strip('"')
+                if Type == "author" :
+                    author = Value.strip().strip('"')
+                if Type == "locURL" :
+                    locURL = Value.strip().strip('"')
             else:
-                header = False
-                continue
-        elif  header == True: # and line[:-1] != "":
-            print (line[:-1])
-            Type = line[:-1].split(":")[0]
-            Value = line[:-1].split(":")[1]
-            for item in line[:-1].split(":")[2:]:
-                Value += ":" + item
-            if Type == "date" :
-                date = Value.split("T")[0].strip()
-                time = Value.split("T")[1].strip()
-            if Type == "etime" :
-                etime = Value.strip()
-            if Type == "title" :
-                title = Value.strip()
-            if Type == "subtitle" :
-                subtitle = Value.strip()
-            if Type == "url" :
-                url = Value.strip()
-            if Type == "place" :
-                place = Value.strip()
-            if Type == "organizer" :
-                organizer = Value.strip()
-            if Type == "locURL" :
-                locURL = Value.strip()
-        else:
-            text += line
+                title_line_mark = False
+                for line in text.split("\n"):
+                    if line.startswith(title):
+                        title_line_mark = True
+                        continue
+                    elif title_line_mark and line.startswith("====="):
+                        title_line_mark = False
+                        continue
+                    elif line.startswith(subtitle):
+                        subtitle_line_mark = True
+                        continue
+                    elif subtitle_line_mark and line.startswith("-----"):
+                        subtitle_line_mark = False
+                        continue
+                    elif not ( line.startswith("Mehr Informationen auf der [Webseite des Veranstalters]") or line.startswith("**Veranstaltung:")):
+                        text += line
+    print("#########",text)
 
     print ("Datum (" + date + ")")
     Date = sys.stdin.readline()[:-1]
     if Date == "":
         Date = date
+    UTCplus = "01:00"
+    month = Date.split("-")[1]
+    if month > "03" and month < "11":
+        UTCplus = "02:00"
     print ("Weitere Angaben ändern? (J|n)")
     ans = sys.stdin.readline()[:-1]
     if ans.lower() != "n":  
         print ("Uhrzeit: (" + time + ")" )
         Time =  sys.stdin.readline()[:-1]
         if Time == "":
-            Time = time
+            Time = time.split("+")[0] + ":00+" + UTCplus
         elif len(Time.split(":")) != 2:
             print ("Ungültige Zeit")
             sys.exit(1)
+        else:
+            Time += ":00+" + UTCplus
         print ("Uhrzeit Ende: (" + etime + ")" )
         eTime =  sys.stdin.readline()[:-1]
         if eTime == "":
-            eTime = etime
+            eTime = etime + ":00+" + UTCplus
         elif len(eTime.split(":")) != 2:
             print ("Ungültige Zeit")
             sys.exit(1)
+        else:
+            eTime += ":00+" + UTCplus            
         print ("Titel (" + title + ")" )
         Title = sys.stdin.readline()[:-1]
         if Title == "":
@@ -110,10 +135,10 @@ def get_event_from_other(file):
         Place =  sys.stdin.readline()[:-1]
         if Place == "":
             Place = place
-        print ("Organisator (" + organizer + ")")
-        Organizer =  sys.stdin.readline()[:-1]
-        if Organizer == "":
-            Organizer = organizer
+        print ("Author (" + author + ")")
+        Author =  sys.stdin.readline()[:-1]
+        if Author == "":
+            Author = author
         print ("den Text ändern? (j|N)")
         ans = sys.stdin.readline()[:-1]
         if ans.lower() == "j":  
@@ -122,55 +147,65 @@ def get_event_from_other(file):
                 Text += line
         else:
             Text = text
+    else:
+        Time = time.split("+")[0] + "+" + UTCplus
+        eTime = time.split(":")[0] + ":" + etime.split(":")[1] + ":00+" + UTCplus
+        Title = title
+        Subtitle = subtitle
+        LocURL = locURL
+        Place = place
+        Author = author
+        Text = text
+        print("#########",text)
 
     url = "/" + Date.split("T")[0].replace("-","/") + "/" + Time.replace(":","/") + "/"
 
-    cont = {"date" : Date, "time" : Time, "etime" : eTime, "title" : Title, "subtitle" : Subtitle, "text" : Text, "url" : url, "place" : Place, "organizer" : Organizer, "locURL" : LocURL, }
+    cont = {"date" : Date, "time" : Time, "etime" : eTime, "title" : Title, "subtitle" : Subtitle, "text" : Text, "url" : url, "place" : Place, "author" : Author, "locURL" : LocURL, }
     curr_events = {}
     curr_events[str(Date) + "_" + Time +  "_" + place.replace(" ","").replace(",","")] = cont
     return curr_events
         
 
-def get_event():
-    today = datetime.now().strftime('%Y-%m-%d')
-    print ("Datum (" + today + ")")
-    Date = sys.stdin.readline()[:-1]
-    Date = normalize_date(Date)
-    now = datetime.now().strftime('%H:%M')
-    print ("Uhrzeit: (" + now + ")" )
-    Time =  sys.stdin.readline()[:-1]
-    if Time == "":
-        Time = now
-    if len(Time.split(":")) != 2:
-        print ("Ungültige Zeit")
-        sys.exit(1)
-    print ("Uhrzeit Ende (" + now + ")" )
-    etime =  sys.stdin.readline()[:-1]
-    if etime != "" and len(etime.split(":")) != 2:
-        print ("Ungültige Zeit")
-        sys.exit(1)
-    print ("Titel")
-    title =  sys.stdin.readline()[:-1]
-    print ("Untertitel")
-    subtitle =  sys.stdin.readline()[:-1]
-    print ("Text")
-    text = ""
-    for line in sys.stdin.readlines():
-        text += line
-    print ("URL")
-    locURL =  sys.stdin.readline()[:-1]
-    print ("Ort")
-    place =  sys.stdin.readline()[:-1]
-    print ("Organisator")
-    organizer =  sys.stdin.readline()[:-1]
+# def get_event():
+#     today = datetime.now().strftime('%Y-%m-%d')
+#     print ("Datum (" + today + ")")
+#     Date = sys.stdin.readline()[:-1]
+#     Date = normalize_date(Date)
+#     now = datetime.now().strftime('%H:%M')
+#     print ("Uhrzeit: (" + now + ")" )
+#     Time =  sys.stdin.readline()[:-1]
+#     if Time == "":
+#         Time = now
+#     if len(Time.split(":")) != 2:
+#         print ("Ungültige Zeit")
+#         sys.exit(1)
+#     print ("Uhrzeit Ende (" + now + ")" )
+#     etime =  sys.stdin.readline()[:-1]
+#     if etime != "" and len(etime.split(":")) != 2:
+#         print ("Ungültige Zeit")
+#         sys.exit(1)
+#     print ("Titel")
+#     title =  sys.stdin.readline()[:-1]
+#     print ("Untertitel")
+#     subtitle =  sys.stdin.readline()[:-1]
+#     print ("Text")
+#     text = ""
+#     for line in sys.stdin.readlines():
+#         text += line
+#     print ("URL")
+#     locURL =  sys.stdin.readline()[:-1]
+#     print ("Ort")
+#     place =  sys.stdin.readline()[:-1]
+#     print ("Author")
+#     author =  sys.stdin.readline()[:-1]
 
-    url = "/" + Date.split("T")[0].replace("-","/") + "/" + Time.replace(":","/") + "/"
+#     url = "/" + Date.split("T")[0].replace("-","/") + "/" + Time.replace(":","/") + "/"
     
     
-    cont = {"date" : Date, "time" : Time, "etime" : etime, "title" : title, "subtitle" : subtitle, "text" : text, "url" : url, "place" : place, "organizer" : organizer, "locURL" : locURL, }
-    curr_events = {}
-    curr_events[str(Date) + "_" + Time +  "_" + place.replace(" ","").replace(",","")] = cont
-    return curr_events
+#     cont = {"date" : Date, "time" : Time, "etime" : etime, "title" : title, "subtitle" : subtitle, "text" : text, "url" : url, "place" : place, "author" : author, "locURL" : locURL, }
+#     curr_events = {}
+#     curr_events[str(Date) + "_" + Time +  "_" + place.replace(" ","").replace(",","")] = cont
+#     return curr_events
 
 def get_publish_date(date_str, publish_delta):
     date = datetime.strptime(date_str, "%Y-%m-%d")
@@ -274,18 +309,19 @@ def dict2eventMD(ev_dict, publish_delta):
         "layout:        events\n" + \
         "title:         \"" + str(ev_dict[item]['title']) + "\"\n" + \
         "subtitle:      \"" + str(ev_dict[item]['subtitle']) + "\"\n" + \
-        "date:          " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['time']) + ":00+01:00\n" + \
-        "etime:         " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['etime']) + ":00+01:00\n" + \
+        "date:          " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['time']) + "\n" + \
+        "etime:         " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['etime']) + "\n" + \
         "publishdate:   " + get_publish_date(ev_dict[item]['date'],publish_delta) + "T00:00:00+01:00\n" + \
-        "author:        \"" + str(ev_dict[item]['place']) + "\"\n" + \
+        "author:        \"" + str(ev_dict[item]['author']) + "\"\n" + \
         "place:         \"" + text2ascii(str(ev_dict[item]['place'])) + "\"\n" + \
         "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + text2ascii(str(ev_dict[item]['title'])).replace(" ","_").lower() + "\"\n" + \
         "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
         "---\n" + \
         "\n**Veranstaltung: " + pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr**\n" \
-        "\n" + str(ev_dict[item]['title']) + "\n===========\n" + \
-        "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n" + \
-        "\n" + str(ev_dict[item]['text']) + "\n" + \
+        "\n" + str(ev_dict[item]['title']) + "\n===========\n"
+        if str(ev_dict[item]['subtitle']) != "":
+            outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
+        outstr += "\n" + str(ev_dict[item]['text']) + "\n" + \
         "\nMehr Informationen auf der [Webseite des Veranstalters](" + str(ev_dict[item]['locURL']) + ")\n"
         print (outstr)
         outFF.write(outstr)
@@ -299,7 +335,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         evt = get_event()
     else:
-        evt = get_event_from_other(sys.argv[1])
+        evt = get_event(file=sys.argv[1])
         
     outDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event/"
     publish_delta = 100
