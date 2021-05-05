@@ -46,6 +46,27 @@ categories: [ "Hilfe" ]
 * ***abstract:*** eine kurze Zusammenfassung des Textes (max. 200 Zeichen)
 * ***categories:*** eine Liste von Stichwörtern oder Kategorien die zu dem Artikel passen.
 
+### Der Header für Veranstaltungen
+
+Hier werden zusätzlich noch weitere Daten, wie der Veranstaltungsort usw. gebraucht:
+
+```
+---
+title:         "Klimaschutz-Tage Göttingen 2021"
+subtitle:      "den Rahmen für die Klimaschutz-Tage bietet die Stadt Göttingen"
+date:          2021-06-18T12:30:00+02:00
+etime:         2021-06-18T21:00:00+02:00
+author:        "Klimaschutz Göttingen"
+place:         "Goettingen"
+locURL:        "https://klimaschutz.goettingen.de/staticsite/staticsite.php?menuid=267&topmenu=14"
+---
+```
+* ***date:*** ist hier Datum und Beginn der Veranstaltung, nicht das Erscheinungs-Datum wie zuvor
+* ***etime:*** ist hier Datum und ungefähre Ende der Veranstaltung
+* ***author:*** gibt den Veranstalter an, und 
+* ***place:*** den Veranstaltungsort
+* ***locURL:*** kann für weiterführende Links zu anderen Seiten verwendet werden.
+
 ### Titel, Untertitle, Zusammenfassung und Datum
 
 sind oben hinreichend beschrieben.
@@ -67,6 +88,8 @@ Die derzeitige Liste der verfügbaren Kategorien ist:
 * Mobilität
 * Pressemitteilung
 * Monitoring, Controlling
+
+Aber dies ist noch weitgehend frei gestaltbar und wird später überarbeitet.
 
 ## Der Textteil des Artikels mithilfe von Markdown
 
