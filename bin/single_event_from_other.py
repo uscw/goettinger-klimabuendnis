@@ -1,4 +1,4 @@
-
+import os
 import sys
 from datetime import date, datetime, timedelta
 
@@ -26,9 +26,12 @@ months = [
     "Dezember"
 ]
 
+banner_dir = "static/img/banner"
+
 def get_event(file=None):
     date = today = datetime.now().strftime('%Y-%m-%d')
     time = datetime.now().strftime('%H:%M')
+    edate = ""
     etime = datetime.now().strftime('%H:%M')
     title = ""
     subtitle = ""
@@ -37,9 +40,11 @@ def get_event(file=None):
     author = ""
     locURL = ""
     header = False
+    image = ""
     text = ""
     if file != None:
         fd = open(file)
+        pre_text = ""
         for line in fd.readlines():
             if line[:-1] == "---":
                 if header == False:
@@ -56,9 +61,12 @@ def get_event(file=None):
                     Value += ":" + item
                 if Type == "date" :
                     date = Value.split("T")[0].strip().strip('"')
-                    time = Value.split("T")[1].strip().strip('"')
+                    ttime = Value.split("T")[1].strip().strip('"').split(":")
+                    time = ttime[0] + ":" + ttime[1] + ":00"
                 if Type == "etime" :
-                    etime = Value.strip().strip('"')
+                    edate = Value.split("T")[0].strip().strip('"')
+                    ettime = Value.split("T")[1].strip().strip('"').split(":")
+                    etime = ettime[0] + ":" + ettime[1] + ":00"
                 if Type == "title" :
                     title = Value.strip().strip('"')
                 if Type == "subtitle" :
@@ -71,23 +79,29 @@ def get_event(file=None):
                     author = Value.strip().strip('"')
                 if Type == "locURL" :
                     locURL = Value.strip().strip('"')
+                if Type == "image" :
+                    image = Value.strip().strip('"')
             else:
+                pre_text += line
+
+        title_line_mark = False
+        subtitle_line_mark = False
+        text = ""
+        for line in pre_text.split("\n"):
+            if line.startswith(title):
+                title_line_mark = True
+                continue
+            elif title_line_mark and line.startswith("====="):
                 title_line_mark = False
-                for line in text.split("\n"):
-                    if line.startswith(title):
-                        title_line_mark = True
-                        continue
-                    elif title_line_mark and line.startswith("====="):
-                        title_line_mark = False
-                        continue
-                    elif line.startswith(subtitle):
-                        subtitle_line_mark = True
-                        continue
-                    elif subtitle_line_mark and line.startswith("-----"):
-                        subtitle_line_mark = False
-                        continue
-                    elif not ( line.startswith("Mehr Informationen auf der [Webseite des Veranstalters]") or line.startswith("**Veranstaltung:")):
-                        text += line
+                continue
+            elif line.startswith(subtitle):
+                subtitle_line_mark = True
+                continue
+            elif subtitle_line_mark and line.startswith("-----"):
+                subtitle_line_mark = False
+                continue
+            elif not ( line.startswith("Mehr Informationen auf der [Webseite des Veranstalters]") or line.startswith("**Veranstaltung:")):
+                        text += line + "\n"
     print("#########",text)
 
     print ("Datum (" + date + ")")
@@ -100,7 +114,7 @@ def get_event(file=None):
         UTCplus = "02:00"
     print ("Weitere Angaben ändern? (J|n)")
     ans = sys.stdin.readline()[:-1]
-    if ans.lower() != "n":  
+    if ans.lower() != "n":
         print ("Uhrzeit: (" + time + ")" )
         Time =  sys.stdin.readline()[:-1]
         if Time == "":
@@ -139,6 +153,12 @@ def get_event(file=None):
         Author =  sys.stdin.readline()[:-1]
         if Author == "":
             Author = author
+        print ("Banner-Bild (" + image + ")")
+        for file in os.listdir(banner_dir):
+            print(file)
+        Image =  sys.stdin.readline()[:-1]
+        if Image == "":
+             Image = image
         print ("den Text ändern? (j|N)")
         ans = sys.stdin.readline()[:-1]
         if ans.lower() == "j":  
@@ -155,12 +175,13 @@ def get_event(file=None):
         LocURL = locURL
         Place = place
         Author = author
+        Image = image
         Text = text
         print("#########",text)
 
     url = "/" + Date.split("T")[0].replace("-","/") + "/" + Time.replace(":","/") + "/"
 
-    cont = {"date" : Date, "time" : Time, "etime" : eTime, "title" : Title, "subtitle" : Subtitle, "text" : Text, "url" : url, "place" : Place, "author" : Author, "locURL" : LocURL, }
+    cont = {"date" : Date, "time" : Time, "etime" : eTime, "title" : Title, "subtitle" : Subtitle, "text" : Text, "url" : url, "place" : Place, "author" : Author, "locURL" : LocURL, "image" : Image }
     curr_events = {}
     curr_events[str(Date) + "_" + Time +  "_" + place.replace(" ","").replace(",","")] = cont
     return curr_events
@@ -287,7 +308,7 @@ def text2ascii(text):
         text = text.replace(char,umlaute[char])
     ttext = ""
     for char in text:
-        if char in "abcdefghijklmnopqrstuvwxyz_ -ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        if char in "abcdefghijklmnopqrstuvwxyz_,.;[]{}() -ABCDEFGHIJKLMNOPQRSTUVWXYZ":
             ttext += char
     return ttext
 
@@ -316,6 +337,7 @@ def dict2eventMD(ev_dict, publish_delta):
         "place:         \"" + text2ascii(str(ev_dict[item]['place'])) + "\"\n" + \
         "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + text2ascii(str(ev_dict[item]['title'])).replace(" ","_").lower() + "\"\n" + \
         "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
+        "image:         \"" + str(ev_dict[item]['image']) + "\"\n" + \
         "---\n" + \
         "\n**Veranstaltung: " + pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr**\n" \
         "\n" + str(ev_dict[item]['title']) + "\n===========\n"
