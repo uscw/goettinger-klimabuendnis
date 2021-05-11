@@ -9,7 +9,7 @@ author:        "Stadt Göttingen"
 place:         "Ratssaal der Stadt"
 URL:           "/2021/07/16/16/00/oeffentlichenichtoeffentliche_sitzung_des_rates_der_stadt_goettingen"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
-image:         ""
+image:         "/img/banner/2021-03-Pressekonferenz-Ratsantraege-174721.png"
 ---
 
 **Veranstaltung: 16. Juli 2021, 16:00 Uhr**
