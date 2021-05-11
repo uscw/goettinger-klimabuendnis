@@ -308,7 +308,7 @@ def text2ascii(text):
         text = text.replace(char,umlaute[char])
     ttext = ""
     for char in text:
-        if char in "abcdefghijklmnopqrstuvwxyz_,.;[]{}() -ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        if char in "abcdefghijklmnopqrstuvwxyz_.[]{}() -ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789":
             ttext += char
     return ttext
 
