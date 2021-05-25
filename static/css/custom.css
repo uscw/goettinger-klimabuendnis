@@ -285,6 +285,30 @@ table tbody tr:nth-child(even) .button:not(:hover):not(:focus):not(:active) {
 }
 
 
+table.eventtable {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+table.eventtable tbody tr {
+  width: 100%;
+  max-width: 100%;
+}
+
+table.eventtable tbody td {
+  padding: 0.5em 0.75em;
+  border: solid 1px #4d4d4d;
+  line-height: 1.5;
+}
+
+table.eventtable tbody th {
+  padding: 0.5em 0.75em;
+  border: solid 1px #4d4d4d;
+  line-height: 1.5;
+}
+
+
 
 /* Images */
 .alignright,
