@@ -230,7 +230,7 @@ def get_event(file=None):
 
 def get_publish_date(date_str, publish_delta):
     date = datetime.strptime(date_str, "%Y-%m-%d")
-    today = datetime.now().strftime('%Y-%m-%d')
+    today = datetime.now()
     publish_date = date - timedelta(days=publish_delta)
     if today > publish_date:
         publish_date = today
