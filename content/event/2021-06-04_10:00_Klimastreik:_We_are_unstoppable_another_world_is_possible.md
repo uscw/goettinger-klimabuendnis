@@ -25,3 +25,5 @@ is possible" zusammen mit Ende Gelände. Wir gehen für eine Zukunft ohne
 Autobahnprojekte und für eine echte sozial-gerechte Mobilitätswende für
 alle auf die Straße. Die Laufdemo startet um 10 Uhr am neuen Rathaus und
 zieht nach einer Startkundgebung zu Fuß los.
+
+![FFF_demo_20210604](/img/event/FFF_demo_20210604.png)
