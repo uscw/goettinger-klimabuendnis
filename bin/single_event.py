@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 import sys
 from datetime import date, datetime, timezone, timedelta
@@ -304,8 +305,8 @@ class event():
             outFF = open(outFN, "w")
             outstr = "---\n" + \
             "layout:        events\n" + \
-            "title:         \"" + str(ev_dict[item]['title']) + "\"\n" + \
-            "subtitle:      \"" + str(ev_dict[item]['subtitle']) + "\"\n" + \
+            "title:         \"" + str(ev_dict[item]['title']).replace('"',"'") + "\"\n" + \
+            "subtitle:      \"" + str(ev_dict[item]['subtitle']).replace('"',"'") + "\"\n" + \
             "date:          " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['time']) + "\n" + \
             "etime:         " + str(ev_dict[item]['date']) + "T" +  str(ev_dict[item]['etime']) + "\n" + \
             "publishdate:   " + self.get_publish_date(ev_dict[item]['date'],publish_delta) + "T00:00:00+01:00\n" + \
@@ -319,8 +320,9 @@ class event():
             "\n" + str(ev_dict[item]['title']) + "\n===========\n"
             if str(ev_dict[item]['subtitle']) != "":
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
-            outstr += str(ev_dict[item]['text']) + \
-            "Mehr Informationen auf der [Webseite des Veranstalters](" + str(ev_dict[item]['locURL']) + ")\n"
+            if str(ev_dict[item]['locURL']) != "":
+                outstr += str(ev_dict[item]['text']) + \
+                          "Mehr Informationen auf der [Webseite des Veranstalters](" + str(ev_dict[item]['locURL']) + ")\n"
             print (outstr)
             outFF.write(outstr)
             outFF.close()
