@@ -22,8 +22,8 @@ home = ["HTML", "RSS", "Algolia"]
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
   slogan = "zur Vernetzung der Göttinger Klimainitiativen"
-  sidebar_pow = "img/pow/2021-04-15-fff-goe0-fahrraddemo.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_pow_description = "Fahrraddemo von Fridays for Future und GöttingenZero am 15.4.2021"
+  sidebar_pow = "img/pow/2021-06-04-Göttingen-Klimastreik.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_pow_description = "Fridays for Future und Ende Gelände: Klimastreik am 4.6.2021"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "Seite nicht erreichbar"
