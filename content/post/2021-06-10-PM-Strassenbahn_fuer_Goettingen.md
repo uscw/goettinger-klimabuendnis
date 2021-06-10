@@ -58,7 +58,7 @@ der Stadt erreicht. Ohne Straßenbahn ist eine Steigerung der ÖPNV-Nutzung nich
 
 ![2021-06-karte-10-strassenbahn_goettingen](/img/post/2021-06-karte-10-strassenbahn_goettingen.jpg)
 So könnte laut Antrag eine Strassenbahnplanung für Göttingen aussehen, die
-auch der großen Zahl der Einpendler mit Park&Ride-lätzen gerecht werden
+auch der großen Zahl der Einpendler mit Park&Ride-Plätzen gerecht werden
 würde.
 
 Sehr große Probleme werfen die Akkus der E-Busse auf. Die bislang unterschätzten Schwierigkeiten

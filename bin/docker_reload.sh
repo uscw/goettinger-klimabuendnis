@@ -15,3 +15,4 @@ cd ${DDIR}
 docker build . -t ${TAG}
 docker stop  ${TAG}
 docker run -d --name ${TAG} -p 80:80 -p 433:433 --rm ${TAG}
+docker image prune -a -f
