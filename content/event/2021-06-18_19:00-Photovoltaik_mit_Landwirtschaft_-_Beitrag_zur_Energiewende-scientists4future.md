@@ -5,7 +5,7 @@ subtitle:      "Vortrag von Scientists for Future Göttingen, Referent: Werner S
 date:          2021-06-18T19:00:00+01:00
 publishdate:   2021-05-18T00:00:00+01:00
 author:        "scientists4future"
-draft:        "false"
+draft:        false
 ---
 
 Photovoltaik mit Landwirtschaft - Beitrag zur Energiewende
