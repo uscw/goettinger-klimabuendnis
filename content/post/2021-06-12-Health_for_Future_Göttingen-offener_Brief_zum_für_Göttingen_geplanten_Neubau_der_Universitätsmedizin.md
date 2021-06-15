@@ -5,7 +5,7 @@ subtitle:      "an die Fraktionen des Rates der Stadt Göttingen und die Bürger
 date:          2021-06-12T12:33:00+01:00
 publishdate:   2021-06-12T00:00:00+01:00
 author:        "Health for Future Göttingen"
-draft:         true
+draft:         false
 ---
 
 Health for Future Göttingen: offener Brief zum für Göttingen geplanten Neubau der Universitätsmedizin
@@ -60,20 +60,24 @@ gerecht zu werden.
 
 Mit freundlichen Grüssen
 
-Für Health for Future Göttingen:
+| **Für Health for Future Göttingen:** |
+|:--------:|
+| Dr. med. P. Schweiger |
+| Dr. med. R. Pfeil |
+| Dr. med. U. Annweiler |
+| Verena Böhm |
+| Dr. med, U. Hartig-Köhler |
+| Dr. med. S. Niehaus Hahn |
+| Dr. med. M. Hulpke Wette |
 
-Dr. med. P. Schweiger
-
-Dr. med. R. Pfeil
-
-Dr. med. U. Annweiler
-
-Verena Böhm
-
-Dr. med, U. Hartig-Köhler
-
-Dr. med. S. Niehaus Hahn
-
-Dr. med. M. Hulpke Wette
+| **unterstützt durch:** |
+|:--------:|
+| ASTA der Georg August Universität | 
+| Göttingen im Wandel (Transition Town) | 
+| Die Naturfreunde Göttingen e.V | 
+| BUND Kreisgruppe Göttingen | 
+| XR Göttingen | 
+| Parents for Future Göttingen | 
+| u.a. | 
 
 [Weitere Informationen...](mailto:healthforfuture_goe@posteo.de)

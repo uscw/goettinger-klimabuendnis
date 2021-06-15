@@ -3,7 +3,7 @@
 import sys
 from datetime import date, datetime, timedelta
 
-PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/"
+PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event/"
 
 def get_post():
     today = datetime.now().strftime('%Y-%m-%d')
@@ -31,7 +31,7 @@ def get_post():
     print ("Draft [FALSE|true]")
     draft =  sys.stdin.readline()[:-1]
     if draft == "" or draft.lower() not in  ["false"|"true"]:
-        Date = "false"
+        draft = "false"
     else:
          draft = draft.lower()
     
