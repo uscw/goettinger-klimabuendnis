@@ -8,7 +8,7 @@ publishdate:   2021-03-12T00:00:00+01:00
 author:        "Klimaschutz Göttingen"
 place:         "Goettingen"
 URL:           "/2021/06/20/12/30/klimaschutz-tage_goettingen_"
-locURL:        "https://klimaschutz.goettingen.de/staticsite/staticsite.php?menuid=267&topmenu=14"
+locURL: "https://klimaschutz.goettingen.de/pics/medien/1_1622023835/2021_05_326_Flyer_web.pdf"
 image:         "/img/banner/2019-07-Klima-Jurte-mit-Baum-1.jpg"
 ---
 
@@ -19,4 +19,4 @@ Klimaschutz-Tage Göttingen 2021
 
 
 
-Mehr Informationen auf der [Webseite des Veranstalters](https://klimaschutz.goettingen.de/staticsite/staticsite.php?menuid=267&topmenu=14)
+Mehr Informationen auf der [Webseite des Veranstalters](https://klimaschutz.goettingen.de/pics/medien/1_1622023835/2021_05_326_Flyer_web.pdf)

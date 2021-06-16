@@ -5,6 +5,7 @@ from datetime import date, datetime, timedelta
 
 PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event/"
 
+
 def get_post():
     today = datetime.now().strftime('%Y-%m-%d')
     print ("Datum (" + today + ")")
@@ -38,7 +39,7 @@ def get_post():
     
     cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "author" : author, "draft" : draft}
     curr_posts = {}
-    curr_posts[str(Date) + "-" + title.replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")  +  "-" + author.replace(" ","")] = cont
+    curr_posts[str(Date) + "_" + Time + "-" + title.replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")  +  "-" + author.replace(" ","")] = cont
     return curr_posts
 
 def get_publish_date(date_str, publish_delta):
@@ -49,10 +50,13 @@ def get_publish_date(date_str, publish_delta):
 
 ##########################
 if __name__ == '__main__':
-    pst = get_post()
-    print (pst)
+    publish_delta = 100
 
-    for post in pst:
+    pst = get_post()
+
+    for post in pst: # should be only one
+        print (post)
+        print (pst)
         Pst = pst[post]
 
     try:
@@ -60,7 +64,7 @@ if __name__ == '__main__':
         LocIcon = locURL[Evt["organizer"]][1]
     except:
         LocURL = ""
-        LocIcon = "goest-icon.png"
+        LocIcon = ""
 
     fo = open(PostDir + post + ".md", "w")
     fo.write("---"+ "\n")
@@ -68,9 +72,9 @@ if __name__ == '__main__':
     fo.write("title:         \"" + Pst["title"] + "\""+ "\n")
     fo.write("subtitle:      \"" + Pst["subtitle"] + "\""+ "\n")
     fo.write("date:          " + Pst["date"] + "T" + Pst["time"] + ":00+01:00"+ "\n")
-    fo.write("publishdate:   " + get_publish_date(Pst["date"],0) + "T00:00:00+01:00"+ "\n")
+    fo.write("publishdate:   " + get_publish_date(Pst["date"],publish_delta) + "T00:00:00+01:00"+ "\n")
     fo.write("author:        \"" + Pst["author"] + "\""+ "\n")
-    fo.write("draft:        \"" + Pst["draft"] + "\""+ "\n")
+    fo.write("draft:        " + Pst["draft"] + "\n")
     fo.write("---"+ "\n")
     fo.write(""+ "\n")
     fo.write(Pst["title"]+ "\n")

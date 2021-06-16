@@ -1,11 +1,12 @@
 ---
-title: "PM: Bündnis für nachhaltige Stadtentwicklung: Bündnis hält Göttinger Wald für keinen geeigneten Standort zur Windeneergienutzung"
+title: "PM: Bündnis für nachhaltige Stadtentwicklung: Bündnis hält Göttinger Wald für keinen geeigneten Standort zur Windenergienutzung"
 subtitle: "Ablehnung der Nutzung von Windenergie in bewaldeten Gebieten"
 date: 2021-06-08T18:00:00+02:00
 abstract: Das Bündnis für nachhaltige Stadtentwicklung spricht sich für die Nutzung der Windenergie aus, lehnt aber die Nutzung von Windenergie in bewaldeten Gebieten wie dem Göttinger Wald ab. Den Bau von Windkraftanlagen in den bewaldeten Höhenlagen, wie dies in Hessen durchgeführt wird, betrachtet das Bündnis als einen Schritt in die falsche Richtung."
+draft: false
 ---
 
-Bündnis hält Göttinger Wald für keinen geeigneten Standort zur Windeneergienutzung
+Bündnis hält Göttinger Wald für keinen geeigneten Standort zur Windenergienutzung
 ==============
 
 Das Bündnis für nachhaltige Stadtentwicklung spricht sich für die Nutzung der Windenergie aus, lehnt aber die Nutzung von Windenergie in bewaldeten Gebieten wie dem Göttinger Wald ab. Den Bau von Windkraftanlagen in den bewaldeten Höhenlagen, wie dies in Hessen durchgeführt wird, betrachtet das Bündnis als einen Schritt in die falsche Richtung. 
