@@ -26,13 +26,13 @@ draft: false
 | Health for Future Göttingen                                    | https://healthforfuture.de/health-for-future-ortsgruppen/    | healthforfuture_goe [at] posteo.de          |
 | JANUN Göttingen                                                | https://janun.de                                             | joern [at] janun.de                         |
 | Klimagruppe Basisdemokratische Linke Göttingen                 | https://www.inventati.org/blgoe/                             | klima-bl [at] riseup.net                    |
-| Klimaschutz Göttingen                                          | https://klimaschutz-goettingen.de/                           | kontakt [at] klimaschutz-goettingen.de      |
-| Kritische Wirtschaftwissenschaften Göttingen                   | https://kriwigoe.de/                                         | info [at] kriwigoe.de                       |
+| Klimaschutz Göttingen e.V.                                     | https://klimaschutz-goettingen.de/                           | kontakt [at] klimaschutz-goettingen.de      |
+| Kritische Wirtschaftswissenschaften Göttingen                  | https://kriwigoe.de/                                         | info [at] kriwigoe.de                       |
+| Lampedusa-Bündnis Göttingen                                    | http://papiere-fuer-alle.org/refugees-welcome-goettingen     | refugeewellcome [at] lists.riseup.net       |
 | Naturfreunde Göttingen                                         | https://naturfreunde-goettingen.de                           | info [at] naturfreunde-goettingen.de        |
 | Parents for Future Göttingen                                   | https://parentsforfuture.de/de/g%C3%B6ttingen                | p4f-goe [at] lists.gwdg.de                  |
 | Partizipative Initiative für eine lebenwerte Zukunft Göttingen | http://www.pilz.uni-goettingen.de/                           | info [at] pilz.uni-goettingen.de            |
 | Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                            | oekologie [at] asta.uni-goettingen.de       |
-| Refugee Wellcome Göttingen                                     | http://papiere-fuer-alle.org/refugees-welcome-goettingen     | refugeewellcome [at] lists.riseup.net       |
 | Scientists for Future Göttingen                                | https://www.scientists4future.org/mitmachen/regionalgruppen/ | goettingen [at] scientists4future.org       |
 
 # Impressum

@@ -76,8 +76,11 @@ Mit freundlichen Grüssen
 | Göttingen im Wandel (Transition Town) | 
 | Die Naturfreunde Göttingen e.V | 
 | BUND Kreisgruppe Göttingen | 
-| XR Göttingen | 
+| Extinction Rebellion Göttingen | 
 | Parents for Future Göttingen | 
-| u.a. | 
+| Fridays for Future Göttingen | 
+| Scientists for Future Göttingen | 
+| Göttingen Zero | 
+| Grüne Hochschuljugend Göttingen |
 
 [Weitere Informationen...](mailto:healthforfuture_goe@posteo.de)
