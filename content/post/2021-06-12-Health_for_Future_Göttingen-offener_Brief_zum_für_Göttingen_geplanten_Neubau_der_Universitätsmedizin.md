@@ -14,8 +14,9 @@ Health for Future Göttingen: offener Brief zum für Göttingen geplanten Neubau
 an die Fraktionen des Rates der Stadt Göttingen und die Bürgermeisterkandidat*innen für die Göttinger Oberbürgermeister*innenwahl
 -----------
 
+Sehr geehrter Herr Oberbürgermeister,
 
-Sehr geehrte Ratsfrauen, sehr geehrte Ratsherren!
+Sehr geehrte Ratsfrauen, sehr geehrte Ratsherren,
 
 Sehr geehrte Frau Broistedt,
 
