@@ -2,8 +2,8 @@
 layout:        events
 title:         "Demo zur Übergabe des Bürgerbegehrens von GöttingenZero"
 subtitle:      "Übergabe in der Ratssitzung der Stadt"
-date:          2021-07-16T15:30:00+02:00
-etime:         2021-07-16T16:30:00+02:00
+date:          2021-07-16T16:00:00+02:00
+etime:         2021-07-16T17:00:00+02:00
 publishdate:   2021-07-13T00:00:00+01:00
 author:        "GöttingenZero"
 place:         "Sparkassen-Arena"
