@@ -2,8 +2,8 @@
 layout:        events
 title:         "Infostand vor der Jacobi-Kirche von Greenpeace Göttingen"
 subtitle:      "regelmäßiger Informationsstand von den Gruppen des Göttinger Klimabündnis alle zwei Wochen am Samstag"
-date:          2021-07-27T11:00:00
-etime:         2021-07-27T11:00:00
+date:          2021-07-24T11:00:00
+etime:         2021-07-24T14:00:00
 publishdate:   2021-05-27T00:00:00+01:00
 author:        "Göttinger Klimabündnis"
 place:         "Jacobi-Kirche"
