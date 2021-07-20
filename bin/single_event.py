@@ -99,7 +99,7 @@ class event():
                 elif subtitle_line_mark and line.startswith("-----"):
                     subtitle_line_mark = False
                     continue
-                elif not ( line.startswith("Mehr Informationen auf der [Webseite des Veranstalters]") or line.startswith("**Veranstaltung:")):
+                elif not ( line.startswith("Mehr Informationen beim [Veranstalter]") or line.startswith("**Veranstaltung:")):
                             text += line + "\n"
         text = "\n" + text.strip() + "\n"
         print("#########",text)
@@ -322,7 +322,7 @@ class event():
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
             if str(ev_dict[item]['locURL']) != "":
                 outstr += str(ev_dict[item]['text']) + \
-                          "Mehr Informationen auf der [Webseite des Veranstalters](" + str(ev_dict[item]['locURL']) + ")\n"
+                          "Mehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
             print (outstr)
             outFF.write(outstr)
             outFF.close()
