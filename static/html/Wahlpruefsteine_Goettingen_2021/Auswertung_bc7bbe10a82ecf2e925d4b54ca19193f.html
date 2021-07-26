@@ -22,6 +22,7 @@
   .center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  id.content { width: 1000px }
   p.verse { margin-left: 3%; }
   pre {
     border: 1px solid #ccc;
@@ -86,7 +87,14 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+   body{color:#000; background-color:#fff; }
+   #content{ /*Styling for any element with the id="container" */
+             max-width:800px; /* The width is fixed by pixels */
+             color:#000;
+             background-color:lightgrey;
+             margin: auto }
   /*]]>*/-->
+ 
 </style>
 <script type="text/javascript">
 /*

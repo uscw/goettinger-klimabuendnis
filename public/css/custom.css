@@ -209,6 +209,10 @@ hr {
 }
 
 /* Table styles */
+
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -3046,3 +3050,4 @@ dd {
 .sidebar-container .short-about .list-inline>li{
   padding-left:0
 }
+
