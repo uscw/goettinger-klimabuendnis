@@ -145,7 +145,7 @@ var heading2 = "Die Wahl zum neuen Stadtrat in Göttingen.";
 
 // 	1.6.3. Kurzer Text um was es bei der Wahl geht / 1.6.3. Short (descriptive) text on what's the election about
 
-var explainingText = "Am 30. Februar finden in Göttingen Kommunalwahlen statt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist keine Wahlempfehlung, sondern ein Informationsangebot zu Wahlen!"; 
+var explainingText = "Am 12. September 2021 finden in Nidersachsen Kommunalwahlen statt. Somit wird in Göttingen ein neuer Stadtrat und Kreistag gewählt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist keine Wahlempfehlung, sondern ein Informationsangebot zu Wahlen!"; 
 
 
 // 	--------------------------------------------------------------------
