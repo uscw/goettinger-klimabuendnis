@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mat-O-Wahl</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="keywords" content="Mat-O-Wahl, MatOWahl, Demokratie, Wahlen, elections, vote, Wahlbeteiligung, Fragebogen, Antworten, Positionen, These, Entscheidung, Hilfe, Politik, B&uuml;rgermeister, Stadtrat, Kommunalwahl, Fachschaftsrat, Studentenrat, StuRa, Studentenparlament, Studierendenparlament, StuPa, AStA, Kreisrat, Landrat, Volksabstimmung, Plebiszit, Klon, clone, Alternative, GPL, Open Source, JavaScript, Freeware, kostenlos, Election Compass, Voting Advice Application, VAA"/>
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="de" />
+  <meta name="Content-Language" content="de" />
+
+  <meta name="author" content="Mathias Steudtner"/>
+  <meta name="description" content="Mat-O-Wahl" />
+  
+	<!-- BOOTSTRAP + JQUERY --- START -->
+
+		<!-- ONLINE (deactivated) - Compiled and minified Bootstrap CSS -->
+		<!--	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		-->
+
+		<!-- LOCAL COPY (alternative) - Compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" href="system/bootstrap4/css/bootstrap.min.css">
+
+		<!-- ONLINE (deactivated) - Compiled and minified Bootstrap + jQuery JavaScript -->
+		<!--
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		-->
+
+		<!-- LOCAL COPY (alternative) - Compiled and minified Bootstrap + jQuery JavaScript -->
+		<script src="system/jquery3/jquery-3.4.1.min.js"></script>
+		<script src="system/bootstrap4/js/bootstrap.min.js"></script>
+
+	<!-- BOOTSTRAP + JQUERY --- END -->
+
+
+	<!-- Mat-o-Wahl EINSTELLUNGEN / PREFERENCES (Javascript) -->
+	<script type="text/javascript" src="data/definition.js"></script>
+	
+	<!-- Mat-o-Wahl JAVASCRIPT und CSS - dynamisch eingebunden auf Basis DEFINITION.JS -->
+	<script type="text/javascript">
+	document.writeln("<link rel='stylesheet' type='text/css' href='styles/"+design+".css' />");
+
+	document.writeln("<script type='text/javascript' src='i18n/i18n_"+language+".js'><"+String.fromCharCode(47)+"script>");
+	// $.getScript( "i18n/i18n_"+language+".js", function( data, textStatus, jqxhr ){ }) 
+	// -> wäre eleganter aber lädt zu langsam / unzuverlässig
+	
+	</script>
+
+	<!-- Mat-o-Wahl CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/speechbubble.css">
+	
+	<!-- Mat-o-Wahl JAVASCRIPT - immer / always -->
+	<script type="text/javascript" src="system/jquery.csv-0.8.9.min.js"></script>
+	<script type="text/javascript" src="system/general.js"></script>
+	<script type="text/javascript" src="system/output.js"></script>
+
+	<!-- Mat-o-Wahl JAVASCRIPT - Addon (optional) -->
+
+	<!--
+	<script type="text/javascript" src="extras/addon_results_textfilter_by_button.js"></script>
+	-->
+</head>
+<body>
+
+
+<div class="container container-fluid theme-showcase">
+
+	<!-- 1. BESCHREIBUNG / DESCRIPTION -->
+
+<div id="heading_banner">
+<p> <center><a href="http://goettinger-klimabuendnis.de"><img src="/img/banner/2019-07-Klima-Jurte-mit-Baum-Wahlprüfsteine.png" alt="2019-07-Klima-Jurte-mit-Baum-Wahlprüfsteine.png" width="1100" height="350"/></a></center>
+</div>
+
+		<div class="row">
+			<div class="col">
+
+				<div id="descriptionAddonTop">
+					<!-- Platzhalter / Placeholder -->
+				</div>
+
+				<div id="heading1">
+					<h1>&Uuml;berschrift zur Wahl/Thema der Wahl <br /> Main Headline </h1>
+				</div>
+
+				<div id="heading2">
+					<h2>Unter&uuml;berschrift <br /> Second headline</h2> 
+				</div>
+				
+				<div id="explanation">
+					<p>Kurze Beschreibung der Wahl, wer wird gew&auml;hlt, wann, warum, f&uuml;r wie lange, usw. <br /> Short (explaining) text on what's the election about</p>
+				</div>
+				
+				<div id="content" class="bubble">
+					<p>
+					Frage(n) zu den verschiedenen Positionen an die Parteien bzw. Kandidaten.
+					<br /> Question(s) on the different party/candidate positions
+					</p>
+				</div>
+
+				<div id="descriptionAddonBottom">
+					<!-- Platzhalter / Placeholder -->
+				</div>
+
+			
+			</div>
+		</div>
+
+		
+	<!-- 2. ERGEBNISSE / RESULTS -->
+
+		<div class="row">
+			<div class="col">
+	
+				<div id="resultsAddonTop">
+					<!-- Platzhalter / Placeholder -->
+				</div>
+
+				<div id="resultsHeading">
+					&Uuml;berschrift f&uuml;r die Ergebnisse/Resultate (ungenutzt) <br /> Headline for the results (unused) 
+				</div>
+				
+				<div id="resultsShort">
+					Ergebnisse / Resultate der Parteien in tabellarischer Form <br /> Table with results (short) - DOM / id = "resultsShortTable"
+				</div>
+
+				<div id="resultsLong">
+					Detaillierte Ergebnisse / Resultate mit eigener Meinung in tabellarischer Form <br /> Table with results (long / detailed)
+				</div>
+
+				<div id="resultsAddonBottom">
+					<!-- Platzhalter / Placeholder -->
+				</div>
+
+
+			</div>
+		</div>
+
+		
+	<!-- 3. BUTTONS -->
+		
+		<div class="row" id="voting">
+			<div class="col">
+				<button type="button" id="votingFullPro" class="btn
+				btn-blue5 btn-lg btn-block">[&#x2714;] FullPro</button>
+			</div>
+
+			<div class="w-100"></div>
+			<div class="col">
+				<button type="button" id="votingPro" class="btn btn-blue4 btn-lg btn-block">[&#x21D7;] Pro</button>
+			</div>
+
+			<div class="w-100"></div>
+			<div class="col">
+				<button type="button" id="votingNeutral" class="btn btn-blue3 btn-lg btn-block">[&#x25EF;] Neutral</button>
+			</div>
+
+			<div class="w-100"></div>
+			<div class="col">
+				<button type="button" id="votingContra" class="btn btn-blue2 btn-lg btn-block">[&#x21D8;] Contra</button>
+			</div>
+
+			<div class="w-100"></div>
+			<div class="col">
+				<button type="button" id="votingFullContra" class="btn btn-blue1 btn-lg btn-block">[&#x2716;] FullContra</button>
+			</div>
+
+			<!-- Force next columns to break to new line (Bootstrap 4.4+) -->
+			<div class="w-100"></div>
+
+			<div class="col">
+				<button type="button" id="votingSkip" class="btn btn-secondary btn-lg btn-block">[&#x21B7;] Skip</button>
+			</div>
+			
+			<div class="col">
+				<button type="button" id="votingDouble" onclick="fnChangeVotingDouble()" class="btn btn-outline-dark btn-lg btn-block">[x2] Important</button>
+			</div>
+		</div> 
+
+	<!-- 4. FORTSCHRITTSZÄHLER / PROGRESS COUNTER -->
+
+		<div class="progress" id="progress">
+			<div class="progress-bar" id="progress-bar" style="width:10%"></div>
+		</div>
+
+	
+		<div class="row">
+			<div class="col">
+			
+				<div id="jumpToQuestion" style="display:none; width:100%">
+					Gehe direkt zu Frage Nummer XY.
+					Jump to Question XY directly
+				</div>
+				
+			</div>
+		</div>
+
+		
+	<!-- 5. CHECKBOX: STATISTIK j/n / STATISTICS y/n -->		
+
+		<div class="row" id="keepStats">
+			<div class="col">
+			
+				<div class="custom-control custom-switch">
+					<input type="checkbox" class="custom-control-input" id="keepStatsCheckbox" />
+					<label class="custom-control-label" for="keepStatsCheckbox" id="keepStatsQuestion">
+					Statistik erlauben? <br /> Allow statistics?
+					</label>
+				</div>
+				
+			</div>
+		</div>
+	
+	
+	<!-- 6. FUSSZEILE: IMPRESSUM, NEUSTART, SOCIAL MEDIA / FOOTER: IMPRINT, RESTART, SOCIAL MEDIA -->
+
+		<div class="row">	
+			<div class="col">
+				<a class="btn btn-outline-dark btn-block btn-sm" role="button" href="system/imprint.html" target="_blank" id="imprint">Button Impressum / Legal</a>
+			</div>
+
+			<div class="col" >
+				<a class='btn btn-outline-dark btn-block btn-sm' role='button' href='index.html' id="restart">Button Neustart / Restart</a>
+			</div>			
+			
+			<div class="col">
+				<a class="btn btn-block btn-sm social-facebook" role='button' onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(location.href) + '&title='+encodeURIComponent(document.title), '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Share on Facebook">
+				facebook</a>
+			</div>
+
+			<div class="col">
+				<a class="btn btn-block btn-sm social-twitter" role='button' onclick="window.open('https://twitter.com/share?url=' + encodeURIComponent(location.href) + '&title='+encodeURIComponent(document.title), '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Share on Twitter">
+				Twitter</a>
+			</div>
+		</div>
+	
+</div>
+
+	<script type="text/javascript">
+		  
+		$(document).ready(function() { 
+			fnStart(); 		
+		});
+
+	</script>	
+
+</body>
+</html> 

@@ -1,0 +1,234 @@
+
+<!-- Sidebar Container -->
+<div class="
+    col-lg-4 col-lg-offset-0
+    col-md-4 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+
+    {{ if ( eq .File.Dir "event/") }} <!-- posts on event pages --> 
+      <!-- Featured Tags -->
+      {{ if .Site.Params.featured_tags }}
+      <section>
+          <hr class="hidden-sm hidden-xs">
+          <h5>Ausgewählte Themen</h5>
+          <div class="tags">
+              {{ $featured_condition_size := .Site.Params.featured_condition_size }} 
+              {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                 {{ if gt (len $taxonomy.Pages) $featured_condition_size }} 
+                      <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+                          {{ $name }}
+                      </a>
+                 {{ end }} 
+              {{ end }}
+          </div>
+      </section>
+      {{ end }}
+
+      {{- $recent := where .Site.RegularPages "Section" "in" (.Site.Params.postSections | default (slice "post")) }}
+      {{- $recent_num := (.Site.Params.widgets.recent_num | default 15) }}
+
+      {{ if .Site.Params.recent_posts }}
+      <section>
+        <div class="widget-recent widget">
+          <h4 class="widget__title">{{ T "recent_title" }}</h4>
+          <div class="widget__content">
+                  <ul class="widget__list">
+                          {{- range first $recent_num $recent }}
+                          <li class="widget__item"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                          {{- end }}
+                  </ul>
+          </div>
+        </div>
+      </section>
+      {{ end }}
+    {{ else }} <!-- events on other pages --> 
+      <!-- Featured Tags -->
+      {{ if .Site.Params.featured_tags }}
+      <section>
+          <hr class="hidden-sm hidden-xs">
+          <h5>Demnächst in Göttingen</h5>
+          <div class="tags">
+              {{ $featured_condition_size := .Site.Params.featured_condition_size }} 
+              {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                 {{ if gt (len $taxonomy.Pages) $featured_condition_size }} 
+                      <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+                          {{ $name }}
+                      </a>
+                 {{ end }} 
+              {{ end }}
+          </div>
+      </section>
+      {{ end }}
+
+      {{- $today_evnt := where .Site.RegularPages "Section" "in" (.Site.Params.eventSections | default (slice "event")) }}
+      {{ $today_evnt := .Site.RegularPages }}
+      {{- $today_evnt_num := (.Site.Params.widgets.recent_num | default 15) }}
+      {{ $datedelta := int .Site.Params.nexteventdays }}
+      {{ $datefromnow := now.AddDate 0 0 $datedelta }}
+      {{ if .Site.Params.recent_events }}
+      <section>
+        <div class="widget-recent widget">
+          <h6 class="widget__title"> <a target="_blank" href="/event"> Veranstaltungen </a> </h6>
+          <!-- <h4 class="widget__title">{{ T "recent_title" }}</h4> -->
+          <div class="widget__content">
+             <dl class="widget__list">
+                {{- range  $today_evnt.Reverse }}
+                  {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
+                  {{ if and (.Date.After now) (.Date.Before $datefromnow) }}
+                    {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
+                    <dt class="widget__item"><strong  style="font-size:70%;"> {{ $evntDate }} </strong></dt>
+                    <dd class="widget__item"><strong  style="font-size:70%;"> {{ $evntTime }} </strong><strong style="font-size:90%;"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></strong>, <em  style="font-size:90%;">{{ .Params.place }} </em></dd>
+                  {{ end }}
+                {{- end }}
+             </dl>
+          </div>
+        </div>
+      </section>
+      {{ end }}    
+    {{ end }}
+
+
+    <!-- Short About -->
+    <section class="visible-md visible-lg"> <!-- <section> -->
+        <hr><h5><a href="{{ .Site.Params.social.about }}">Bild der Woche</a></h5>
+        <div class="short-about">
+            {{ with .Site.Params.sidebar_pow }}
+            <a href="/{{ . }}"> <img src="{{ . | relURL }}" alt="Klimabündnis Logo" />
+            </a>
+            {{ end }}
+            {{ .Site.Params.sidebar_pow_description }}
+        </div>
+    </section>
+    <section>
+        <hr><h5><a href="{{ .Site.Params.social.about }}#vernetzte-gruppen">Im Göttinger Klimabündnis vernetzte Gruppen:</a></h5>
+        <div class="short-about">
+          <ul class="lis"> 
+            {{ range .Site.Params.sidebar_about_description }}
+                <li>{{ . }}
+            {{ end }}
+          </ul>
+           <!-- SNS Link -->
+           <ul class="list-inline"> 
+               {{ if .Site.Params.social.rss }}
+               <li>
+                   <a href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title | default "" }}" >
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.twitter }}
+               <li>
+                   <a href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.zhihu }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa  fa-stack-1x fa-inverse">知</i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.weibo }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.facebook }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.wechat }}
+               <li>
+                   <a target="_blank" href="{{ . | relURL}}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.github }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.linkedin }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.medium }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                   </a>
+               </li>
+               {{ end }}
+                </ul>
+            </div>
+    </section>
+
+    <!-- Friends Blog -->
+    <section class="visible-md visible-lg">
+    {{ if .Site.Params.friends }}
+        <hr class="hidden-sm hidden-xs">
+        <h5>...</h5>
+        <ul class="list-inline">
+            {{ range .Site.Params.friend_link }}
+            <li><a target="_blank" href="{{.href | relLangURL}}">{{.title}}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+    {{ end }}
+
+    <!-- Bookmarks -->
+    {{ if .Site.Params.bookmarks }}
+    <section>
+        <hr>
+        <h5>BOOKMARKS</h5>
+        <ul class="list-inline">
+            {{ range .Site.Params.bookmark_link }}
+            <li><a target="_blank" href="{{.href | relLangURL}}">{{.title}}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+    {{ end }}
+</div>

@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Infostand vor der Jacobi-Kirche"
+title:         "Infostand vor der Jacobi-Kirche von Health for Future"
 subtitle:      "regelmäßiger Informationsstand von den Gruppen des Göttinger Klimabündnis alle zwei Wochen am Samstag"
 date:          2021-09-04T11:00:00
 etime:         2021-09-04T11:00:00
@@ -14,7 +14,7 @@ image:         "/img/banner/2021-03-Pressekonferenz-Ratsantraege-174721.png"
 
 **Veranstaltung: 04. September 2021, 11:00 Uhr**
 
-Infostand vor der Jacobi-Kirche
+Infostand vor der Jacobi-Kirche von Health for Future
 ===========
 
 regelmäßiger Informationsstand von den Gruppen des Göttinger Klimabündnis alle zwei Wochen am Samstag
