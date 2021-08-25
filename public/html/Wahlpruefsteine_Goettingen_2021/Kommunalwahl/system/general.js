@@ -367,6 +367,26 @@ function fnTransformPositionToText(position)
 	
 }
 
+// 08/2021 uScw
+// Antworttext bei verschiedenen Antwortoptionen pro Frage
+function fnTransformPositionToAnswerText(questionNumber,position)
+{
+    if (position == 2 ) {
+	answerText = arQuestionsOptFullPro[questionNumber]
+    } else if (position == 1 ) {
+	answerText = arQuestionsOptPro[questionNumber]
+    } else if (position == 0 ) {
+	answerText = arQuestionsOptNeutral[questionNumber]
+    } else if (position == -1 ) {
+	answerText = arQuestionsOptContra[questionNumber]
+    } else if (position == -2 ) {
+	answerText = arQuestionsOptFullPro[questionNumber]
+    } else {
+	answerText = "[/]"
+    }
+    return answerText
+}
+
 // Gibt ein Bild/CSS-Klasse für den Balken in der Auswertung entsprechend der Prozentzahl Uebereinstimmung zurück
 function fnBarImage(percent)
 {

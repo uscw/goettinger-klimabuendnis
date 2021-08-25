@@ -46,6 +46,71 @@ draft: false
 
 Die nichtkommerzielle Redaktion des Göttinger Klimabündnisses verfügt selbstverständlich nicht über eine Telefonzentrale, da entsprechendes Personal nicht finanziert werden kann. E-mails werden jedoch in aller Regel mehr als 10 mal am Tag abgefragt, damit ist eine schnelle Erreichbarkeit über die E-Mail Adresse gesichert.
 
+
+## Datenschutzerklärung
+
+Verantwortlich im Sinne der Datenschutzgesetzes:
+
+Ulrich Schwardmann, redaktion [at] goettinger-klimabuendnis.de
+
+### Datenschutz
+
+Als Webseitenbetreiber nehmen wir den Schutz aller persönlichen Daten sehr ernst. Alle personenbezogenen Informationen werden vertraulich und gemäß den gesetzlichen Vorschriften behandelt, wie in dieser Datenschutzerklärung erläutert.
+
+Unsere Webseite kann selbstverständlich genutzt werden, ohne dass Sie persönliche Daten angeben. Wenn jedoch zu irgendeinem Zeitpunkt persönliche Daten wie z.B. Name, Adresse oder E-Mail abgefragt werden, wird dies auf freiwilliger Basis geschehen. Niemals werden von uns erhobene Daten ohne Ihre spezielle Genehmigung an Dritte weitergegeben.
+
+Datenübertragung im Internet, wie zum Beispiel über E-Mail, kann immer Sicherheitslücken aufweisen. Der komplette Schutz der Daten ist im Internet nicht möglich.
+
+### Auskunft, Löschung, Sperrung
+
+Zu jedem Zeitpunkt können Sie sich über die personenbezogenen Daten, deren Herkunft und Empfänger und den Nutzen der Datenverarbeitung informieren und unentgeltlich eine Korrektur, Sperrung oder Löschung dieser Daten verlangen. Bitte nutzen Sie dafür die im Impressum angegebenen Kontaktwege. Für weitere Fragen zum Thema stehen wir Ihnen ebenfalls jederzeit zur Verfügung.
+
+### Server-Log-Files
+Der Seiten-Provider erhebt und speichert automatisch Daten in Server-Log Files, die von Ihrem Browser an uns übermittelt werden. Diese Daten enthalten:
+
+- Browsertyp/ Browserversion
+- Betriebssystem des Rechners
+- Referrer URL
+- Hostname des zugreifenden Rechners
+- Uhrzeit der Serveranfrage
+
+
+Diese Daten sind nicht personenbezogen und werden entsprechend den Regeln der DS-GVO regelmäßig gelöscht. Es erfolgt keine Zusammenführung dieser Daten mit anderen Datenquellen. Wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden, behalten wir uns das Recht vor, diese Daten nachträglich zu überprüfen.
+### Cookies
+
+Im allgemeinen werden unter dieser Web-Domäne statische Webseiten ohne
+die Verwendung von Cookies bereitgestellt. Sollte es doch zur Verwendung von
+Cookies kommen, gelten die folgenden Regeln:<br> 
+Viele Internetseiten verwenden Cookies. Cookies sind unschädlich für Ihren Rechner und virenfrei. Sie dienen dazu, Internet-Angebote für die Besucher einer Webseite freundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Computer abgelegt werden und die Ihr Browser verwendet.
+
+Wir verwenden in der Regel so genannte &bdquo;Session-Cookies&ldquo;. Diese werden nach Verlassen unserer Seite automatisch gelöscht. Andere Cookies bleiben auf Ihrem Computer gespeichert, bis Sie diese löschen. Diese Cookies helfen dabei, Ihren Rechner beim nächsten Besuch wiederzuerkennen.
+
+Über die Browsereinstellungen können sie festlegen, dass Sie über neue Cookies informiert werden und Cookies jeweils annehmen müssen. Ebenso können Sie die Annahme von Cookies für bestimmte Fälle oder generell ausschließen oder das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Werden Cookies desaktiviert, kann die Funktionalität unserer Website eingeschränkt sein.
+
+### Änderung der Datenschutzbestimmungen
+
+Unsere Datenschutzerklärung können in unregelmäßigen Abständen angepasst werden, damit sie den aktuellen rechtlichen Anforderungen entsprechen oder um änderungen unserer Dienstleistungen umzusetzen, z. B. bei der Einfügung neuer Angebote. Für Ihren nächsten Besuch gilt dann automatisch die neue Datenschutzerklärung.
+
+### Widerspruch gegen kommerzielle Datenverwendung
+
+Ich widerspreche hiermit gemäß Bundesdatenschutzgesetz § 28 BDSG jeder kommerziellen Verwendung und Weitergabe der hier genannten Daten also auch der Verwendung der Adresse und e-mail-adresse zum Verschicken von Werbemails/Spam.
+Haftungsausschluß
+Der Anbieter übernimmt trotz größtmöglicher Sorgfalt bei der Erstellung der Webseiten keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen. 
+Die Inhalte externer Links können von der Göttinger Klimabündnis-Redaktion nicht permanent geprüft werden; sie unterliegen der Haftung der jeweiligen Anbieter.
+
+### Urheberrecht
+
+Alle vom Göttinger Klimabündnis veröffentlichten Beiträge, Fotos und andere Abbildungen sind urheberrechtlich geschützt. Jede vom Urheberrechtsgesetz nicht zugelassene Verwertung bedarf vorheriger schriftlicher Zustimmung des Urhebers.
+
+### Kontakt zum Datenschutzmitarbeiter
+
+Für Fragen zum Datenschutz schicken Sie uns bitte eine Nachricht an die
+unten angegebene Kontaktadresse mit dem Betreff &bdquo;Datenschutz&ldquo;.
+
+redaktion [at] goettinger-klimabuendnis.de
+
+
+
 ## Die meistgestellten Fragen:
 
 ### Wer macht die Redaktion des  Göttinger Klimabündnisses?
@@ -54,13 +119,3 @@ Da können nicht alle Personen aufgezählt werden. Am besten passt der Begriff "
 ### Wie finanziert ihr Euch?
 Es gibt weder Einnahmen aus Werbung, noch aus Projektmitteln oder Fördermitteln. Es gibt auch keine Zuwendungen von irgendwelchen interessensgeleiteten Geldgebern. Sämtliche anfallenden Kosten werden von einem kleinen privaten Kreis aus eigener Tasche getragen.
 
-## Widerspruch gegen kommerzielle Datenverwendung
-
-Ich widerspreche hiermit gemäß Bundesdatenschutzgesetz § 28 BDSG jeder kommerziellen Verwendung und Weitergabe der hier genannten Daten also auch der Verwendung der Adresse und e-mail-adresse zum Verschicken von Werbemails/Spam.
-Haftungsausschluß
-Der Anbieter übernimmt trotz größtmöglicher Sorgfalt bei der Erstellung der Webseiten keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen. 
-Die Inhalte externer Links können von der Göttinger Klimabündnis-Redaktion nicht permanent geprüft werden; sie unterliegen der Haftung der jeweiligen Anbieter.
-
-## Urheberrecht
-
-Alle vom Göttinger Klimabündnis veröffentlichten Beiträge, Fotos und andere Abbildungen sind urheberrechtlich geschützt. Jede vom Urheberrechtsgesetz nicht zugelassene Verwertung bedarf vorheriger schriftlicher Zustimmung des Urhebers.

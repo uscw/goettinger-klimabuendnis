@@ -99,12 +99,12 @@ function fnShowQuestionNumber(questionNumber)
         } else {
             $("#votingFullPro").html(TEXT_VOTING_FULLPRO)
         }
-        if ( arQuestionsOptFullPro[questionNumber] != "" ) {
+        if ( arQuestionsOptPro[questionNumber] != "" ) {
         	$("#votingPro").html(arQuestionsOptPro[questionNumber])
         } else {
         	$("#votingPro").html(TEXT_VOTING_PRO)
         }
-        if ( arQuestionsOptFullPro[questionNumber] != "" ) {
+        if ( arQuestionsOptNeutral[questionNumber] != "" ) {
         	$("#votingNeutral").html(arQuestionsOptNeutral[questionNumber])
         } else {
         	$("#votingNeutral").html(TEXT_VOTING_NEUTRAL)
@@ -521,9 +521,9 @@ function fnEvaluationLong(arResults)
 				var partyPositionsRow = partyNum * arQuestionsLong.length + i;
 				// var positionImage = fnTransformPositionToImage(arPartyPositions[partyPositionsRow]);
 				var positionButton = fnTransformPositionToButton(arPartyPositions[partyPositionsRow]);
-				var positionIcon = fnTransformPositionToIcon(arPartyPositions[partyPositionsRow]);
-				
-                var positionText = fnTransformPositionToText(arPartyPositions[partyPositionsRow]);
+				var positionIcon = fnTransformPositionToIcon(arPartyPositions[partyPositionsRow]);		
+			        // var positionText = fnTransformPositionToText(arPartyPositions[partyPositionsRow]);
+			        var positionText = fnTransformPositionToAnswerText(i,arPartyPositions[partyPositionsRow]);
 
 				// Inhalt der Zelle
 				tableContent += "<p>"
@@ -531,7 +531,7 @@ function fnEvaluationLong(arResults)
 						" alt='"+arPartyOpinions[partyPositionsRow]+"'>"+
 						" "+positionIcon+"</button>";							
 							
-				tableContent += "<strong>" + arPartyNamesShort[partyNum] + "</strong>: " + positionText + ( arPartyOpinions[partyPositionsRow] === "" ? "" : ": " + arPartyOpinions[partyPositionsRow] ) + " ";
+				tableContent += "<strong>" + arPartyNamesShort[partyNum] + "</strong> <br> <em>" + positionText + "</em><br>" + ( arPartyOpinions[partyPositionsRow] === "" ? "" : " " + arPartyOpinions[partyPositionsRow] ) + " ";
 				tableContent += "</p>";
 			}
 		tableContent += "</td> </tr> ";

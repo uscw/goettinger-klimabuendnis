@@ -135,17 +135,17 @@ var intPartyLogosImgHeight = "25";
 
 // 	1.6.1. Hauptueberschrift / 1.6.1. Main headline
 
-var heading1 = "Kommunalwahl in Göttingen";
+var heading1 = "Kommunalwahl in Göttingen für einen neuen Stadtrat und Kreistag";
 
 
 // 	1.6.2. Zweite Ueberschrift / 1.6.2. Second Headline
 
-var heading2 = "Die Wahl zum neuen Stadtrat in Göttingen.";
+var heading2 = "Wahl-O-Mat mit den Fragen der <a href='http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html'>Klima-Wahlprüfsteine</a> des Göttinger Klimabündnis";
 
 
 // 	1.6.3. Kurzer Text um was es bei der Wahl geht / 1.6.3. Short (descriptive) text on what's the election about
 
-var explainingText = "Am 12. September 2021 finden in Nidersachsen Kommunalwahlen statt. Somit wird in Göttingen ein neuer Stadtrat und Kreistag gewählt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist keine Wahlempfehlung, sondern ein Informationsangebot zu Wahlen!"; 
+var explainingText = "Am 12. September 2021 finden in Niedersachsen Kommunalwahlen statt. Somit wird in Göttingen ein neuer Stadtrat und Kreistag gewählt. Sie k&ouml;nnen sich hier alle Parteipositionen anschauen und miteinander vergleichen. Dies ist keine Wahlempfehlung, sondern ein Informationsangebot zu Wahlen!"; 
 
 
 // 	--------------------------------------------------------------------
@@ -191,31 +191,20 @@ var explainingText = "Am 12. September 2021 finden in Nidersachsen Kommunalwahle
 
 // 	1.7.B.1: Allgemeines. "Angaben gemäß § 5 TMG" / General information
 
-var imprintGeneral = `<p>Muster e. V.<br /> 
-			Musterstra&szlig;e 111<br />
-			Geb&auml;ude 44<br />
-			90210 Musterstadt</p>
-
-			<p>Vereinsregister: VR 12 3456<br />
-			Registergericht: Amtsgericht Musterstadt</p>
-
-			<p><strong>Vertreten durch:</strong><br />
-			Vorstand: Dr. Harry Mustermann<br />
-			Luise Beispiel</p>`
+var imprintGeneral = `<p>Göttinger Klimabündnis<br /> 
+			<p><strong>siehe auch</strong><br />
+			<a href="https://goettinger-klimabuendnis.de/top/impressum/">https://goettinger-klimabuendnis.de/top/impressum/</a></p>`
 
 
 // 	1.7.B.2: Kontaktdaten / Contact details
 
-var imprintContact = `<p>Telefon: +49 (0) 123 44 55 66<br />
-			Telefax: +49 (0) 123 44 55 99<br />
-			E-Mail: mustermann@musterfirma.de<br />
-			Web: musterfirma.de</p>`
+var imprintContact = `<p><p>E-Mail: <a href='mailto:redaktion@goettinger-klimabuendnis.de'>redaktion@goettinger-klimabuendnis.de</a><br />
+			Web: https://goettinger-klimabuendnis.de</p>`
 
 
 //	1.7.B.3: (optional) Umsatzsteuer-ID / (optional) VAT-ID
 
-var imprintVATid = `<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-			DE 999 999 999</p>`
+var imprintVATid = ``
 
 
 //	1.7.B.4: 
@@ -230,31 +219,30 @@ var imprintDisputeResultion = `<p>Die Europäische Kommission stellt eine Plattf
 //	(optional) Redaktion: Person(en), die die Fragen ausgearbeitet hat
 //	(optional) Editor: Person(s), who worked on the questions
 
-var imprintEditors = `<p>Max Mustermann, Martina Mustermann, Harry Hirsch</p>
-		     <p> <a href='mailto:max@mustermann-politikfreund.de'>max@mustermann-politikfreund.de</a></p>`;
+var imprintEditors = `<p><a href='mailto:redaktion@goettinger-klimabuendnis.de'>redaktion@goettinger-klimabuendnis.de</a></p>`;
 
 
 //	1.7.B.6
 //	(optional) Technik: Person(en), die das System aufgesetzt hat
 //	(optional) Programming: Person(s), who set up the system
 
-var imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
-			<p> <a href='mailto:info@hans-wurst-webdesign-obsthausen.com'>E-Mailadresse</a> </p>`;
+//var imprintProgramming = `<p>Max Mustermann, Hans Wurst</p>
+//			<p> <a href='mailto:info@hans-wurst-webdesign-obsthausen.com'>E-Mailadresse</a> </p>`;
 
 
 //	1.7.B.7
 //	(optional) Quellenangaben zu den Bildern
 //	(optional) Sources of pictures
 
-var imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures with permission from: 
-			<br /> Wikipedia, Max Mustermann, Foto Franz Frankfurt, Neutrale Partei`;
+//var imprintPictures = `<p> Bilder mit freundlicher Genehmigung von / Pictures with permission from: 
+//			<br /> Wikipedia, `;
 
 
 //	1.7.B.8
 //	(optional) Link zu einer Datenschutzerklaerung beginnend mit http(s):- erlaubt die anonyme Statistik
 //	(optional) Link to a privacy policy starting with http(s):- allows the anonymous statistics
 
-var imprintPrivacyUrl = "https://www.hans-wurst-webdesign-obsthausen.com/datenschutz.html";
+var imprintPrivacyUrl = "https://goettinger-klimabuendnis.de/top/impressum/";
 
 
 //	--------------------------------------------------------------------

@@ -8,7 +8,8 @@ body {
 
 	/* background-color: #FFE08F;*/
 	background-color: #00E08F;
-	background-image: linear-gradient(#8F8F8F, #88B8FF); 
+	/*	background-image: linear-gradient(#8F8F8F, #88B8FF);  */
+	background-image: linear-gradient(#D8D8D8, #888888); 
     background-attachment: fixed;
 	}
 
