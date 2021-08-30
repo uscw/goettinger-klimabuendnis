@@ -20,7 +20,7 @@ Dennoch gibt es deutliche Unterschiede in der Herangehensweise und den Lösungss
 
 Es ist nun an den Bürger*innen dieser Stadt, die Positionen und Handlungsstrategien der Parteien zu Fragen des Klimawandels kritisch zu betrachten und für einen besseren Klimaschutz aktiv vom Wahlrecht Gebrauch zu machen.
 
-Das [Ergebnis der Auswertung der Umfrage](http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html) wird hiermit bekannt gegeben und auf den Web-Seiten des
+Das [Ergebnis der Auswertung der Umfrage](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html) wird hiermit bekannt gegeben und auf den Web-Seiten des
 Göttinger-Klimabündnis öffentlich zur Verfügung gestellt. 
 
 Es ist ebenfalls eine Version als [PDF-Dokument](/documents/PM_GöKlimabündnis_20210727.pdf)
