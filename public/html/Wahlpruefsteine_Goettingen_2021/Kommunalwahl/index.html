@@ -1,251 +1,186 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-  <title>Mat-O-Wahl</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Die Klima-Wahlprüfsteine zur Regionalwahl Göttingen 2021</title>
+<!-- 2021-07-26 Mo 18:33 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Ulrich Schwardmann" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
 
-  <meta name="keywords" content="Mat-O-Wahl, MatOWahl, Demokratie, Wahlen, elections, vote, Wahlbeteiligung, Fragebogen, Antworten, Positionen, These, Entscheidung, Hilfe, Politik, B&uuml;rgermeister, Stadtrat, Kommunalwahl, Fachschaftsrat, Studentenrat, StuRa, Studentenparlament, Studierendenparlament, StuPa, AStA, Kreisrat, Landrat, Volksabstimmung, Plebiszit, Klon, clone, Alternative, GPL, Open Source, JavaScript, Freeware, kostenlos, Election Compass, Voting Advice Application, VAA"/>
-  <meta name="robots" content="index, follow" />
-  <meta name="language" content="de" />
-  <meta name="Content-Language" content="de" />
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  body{color:#000; background-color:#fff; margin: auto}
+  #content{ /*Styling for any element with the id="container" */
+            max-width:800px; /* The width is fixed by pixels */
+            color:#000;
+	    border: 10px solid lightgrey;
+            background-color:lightgrey;
+            margin: auto }
+  #heading_banner{ 
+  width: 100%;
+  height: 240px;
+  }
+...
+}
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
 
-  <meta name="author" content="Mathias Steudtner"/>
-  <meta name="description" content="Mat-O-Wahl" />
-  
-	<!-- BOOTSTRAP + JQUERY --- START -->
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
 
-		<!-- ONLINE (deactivated) - Compiled and minified Bootstrap CSS -->
-		<!--	
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		-->
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
 
-		<!-- LOCAL COPY (alternative) - Compiled and minified Bootstrap CSS -->
-		<link rel="stylesheet" href="system/bootstrap4/css/bootstrap.min.css">
-
-		<!-- ONLINE (deactivated) - Compiled and minified Bootstrap + jQuery JavaScript -->
-		<!--
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		-->
-
-		<!-- LOCAL COPY (alternative) - Compiled and minified Bootstrap + jQuery JavaScript -->
-		<script src="system/jquery3/jquery-3.4.1.min.js"></script>
-		<script src="system/bootstrap4/js/bootstrap.min.js"></script>
-
-	<!-- BOOTSTRAP + JQUERY --- END -->
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
 
 
-	<!-- Mat-o-Wahl EINSTELLUNGEN / PREFERENCES (Javascript) -->
-	<script type="text/javascript" src="data/definition.js"></script>
-	
-	<!-- Mat-o-Wahl JAVASCRIPT und CSS - dynamisch eingebunden auf Basis DEFINITION.JS -->
-	<script type="text/javascript">
-	document.writeln("<link rel='stylesheet' type='text/css' href='styles/"+design+".css' />");
-
-	document.writeln("<script type='text/javascript' src='i18n/i18n_"+language+".js'><"+String.fromCharCode(47)+"script>");
-	// $.getScript( "i18n/i18n_"+language+".js", function( data, textStatus, jqxhr ){ }) 
-	// -> wäre eleganter aber lädt zu langsam / unzuverlässig
-	
-	</script>
-
-	<!-- Mat-o-Wahl CSS -->
-	<link rel="stylesheet" type="text/css" href="styles/speechbubble.css">
-	
-	<!-- Mat-o-Wahl JAVASCRIPT - immer / always -->
-	<script type="text/javascript" src="system/jquery.csv-0.8.9.min.js"></script>
-	<script type="text/javascript" src="system/general.js"></script>
-	<script type="text/javascript" src="system/output.js"></script>
-
-	<!-- Mat-o-Wahl JAVASCRIPT - Addon (optional) -->
-
-	<!--
-	<script type="text/javascript" src="extras/addon_results_textfilter_by_button.js"></script>
-	-->
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
 </head>
 <body>
-
-
-<div class="container container-fluid theme-showcase">
-
-	<!-- 1. BESCHREIBUNG / DESCRIPTION -->
-
 <div id="heading_banner">
-<p> <center><a href="http://goettinger-klimabuendnis.de"><img src="/img/banner/2019-07-Klima-Jurte-mit-Baum-Wahl-O-Mat.png" alt="2019-07-Klima-Jurte-mit-Baum-Wahl-O-Mat.png" width="1100" height="350"/></a></center>
+<p> <center><a href="http://goettinger-klimabuendnis.de"><img src="/img/banner/2019-07-Klima-Jurte-mit-Baum-Wahlprüfsteine.png" alt="2019-07-Klima-Jurte-mit-Baum-Wahlprüfsteine.png" width="820" height="240"/></a></center>
+</div>
+<div id="content">
+<h1 class="title">Der kommunale Wahl-O-Mat auf Basis der Klima-Wahlprüfsteine zur Regionalwahl Göttingen 2021</h1>
+
+
+<div class="figure">
+</p>
 </div>
 
-		<div class="row">
-			<div class="col">
 
-				<div id="descriptionAddonTop">
-					<!-- Platzhalter / Placeholder -->
-				</div>
+<p>
+  Hier finden Sie den
+  <a href="http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl/mat-o-wahl.html">Wahl-O-Mat
+    für die Göttinger Kommunalwahlen </a>, mit dem
+Wähler die Nähe ihrer eigenen klimapolitischen Einstellungen zu den Vorhaben
+  der verschiedenen Parteien ermitteln können.
+</p>
 
-				<div id="heading1">
-					<h1>&Uuml;berschrift zur Wahl/Thema der Wahl <br /> Main Headline </h1>
-				</div>
-
-				<div id="heading2">
-					<h2>Unter&uuml;berschrift <br /> Second headline</h2> 
-				</div>
-				
-				<div id="explanation">
-					<p>Kurze Beschreibung der Wahl, wer wird gew&auml;hlt, wann, warum, f&uuml;r wie lange, usw. <br /> Short (explaining) text on what's the election about</p>
-				</div>
-				
-				<div id="content" class="bubble">
-					<p>
-					Frage(n) zu den verschiedenen Positionen an die Parteien bzw. Kandidaten.
-					<br /> Question(s) on the different party/candidate positions
-					</p>
-				</div>
-
-				<div id="descriptionAddonBottom">
-					<!-- Platzhalter / Placeholder -->
-				</div>
-
-			
-			</div>
-		</div>
-
-		
-	<!-- 2. ERGEBNISSE / RESULTS -->
-
-		<div class="row">
-			<div class="col">
-	
-				<div id="resultsAddonTop">
-					<!-- Platzhalter / Placeholder -->
-				</div>
-
-				<div id="resultsHeading">
-					&Uuml;berschrift f&uuml;r die Ergebnisse/Resultate (ungenutzt) <br /> Headline for the results (unused) 
-				</div>
-				
-				<div id="resultsShort">
-					Ergebnisse / Resultate der Parteien in tabellarischer Form <br /> Table with results (short) - DOM / id = "resultsShortTable"
-				</div>
-
-				<div id="resultsLong">
-					Detaillierte Ergebnisse / Resultate mit eigener Meinung in tabellarischer Form <br /> Table with results (long / detailed)
-				</div>
-
-				<div id="resultsAddonBottom">
-					<!-- Platzhalter / Placeholder -->
-				</div>
+<p>
+  Dieser Wahl-O-Mat basiert auf den
+Antworten der Parteien auf die <a href="http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html">Klima-Wahlprüfsteine>/<a>, den Fragen zu Klimathemen, mit denen das Göttinger Klimabündnis mit Unterstützung des Ernährungsrates Göttingen allen Parteien die Möglichkeit gegeben hat, ihre Position zu klimapolitischen Zielen für die nächste Legislaturperiode nach der diesjährigen Kommunalwahl in Göttingen darzulegen. 
 
 
-			</div>
-		</div>
+Das für die Zwecke des Göttinger Wahl-O-Mat angepasste System (basierend auf der <a href="https://github.com/msteudtn/Mat-O-Wahl">Mat-O-Wahl-Software</a>) ermöglicht es, zu sehen, welche Partei den eigenen Position zu den Fragen am nächsten kommt. Aber auch die Argumente der Parteien zu den einzelnen Fragen können nachvollzogen werden, gegebenenfalls kann die eigene Position korrigiert werden, um so das neue Ergebnis abzulesen.  Dabei nimmt das System bei diesem sensiblen Thema auf die Privatsphäre in besonderem Maße Rücksicht, da alle Verarbeitungen innerhalb des Browsers der Nutzer*innen stattfinden und keinerlei Datenerhebung auf einem externen Server erfolgt.
 
-		
-	<!-- 3. BUTTONS -->
-		
-		<div class="row" id="voting">
-			<div class="col">
-				<button type="button" id="votingFullPro" class="btn
-				btn-blue5 btn-lg btn-block">[&#x2714;] FullPro</button>
-			</div>
+<h2>Hier geht es zum <a href="http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl/mat-o-wahl.html"> kommunalen Klima-Wahl-O-Mat </a> </h2>
 
-			<div class="w-100"></div>
-			<div class="col">
-				<button type="button" id="votingPro" class="btn btn-blue4 btn-lg btn-block">[&#x21D7;] Pro</button>
-			</div>
-
-			<div class="w-100"></div>
-			<div class="col">
-				<button type="button" id="votingNeutral" class="btn btn-blue3 btn-lg btn-block">[&#x25EF;] Neutral</button>
-			</div>
-
-			<div class="w-100"></div>
-			<div class="col">
-				<button type="button" id="votingContra" class="btn btn-blue2 btn-lg btn-block">[&#x21D8;] Contra</button>
-			</div>
-
-			<div class="w-100"></div>
-			<div class="col">
-				<button type="button" id="votingFullContra" class="btn btn-blue1 btn-lg btn-block">[&#x2716;] FullContra</button>
-			</div>
-
-			<!-- Force next columns to break to new line (Bootstrap 4.4+) -->
-			<div class="w-100"></div>
-
-			<div class="col">
-				<button type="button" id="votingSkip" class="btn btn-secondary btn-lg btn-block">[&#x21B7;] Skip</button>
-			</div>
-			
-			<div class="col">
-				<button type="button" id="votingDouble" onclick="fnChangeVotingDouble()" class="btn btn-outline-dark btn-lg btn-block">[x2] Important</button>
-			</div>
-		</div> 
-
-	<!-- 4. FORTSCHRITTSZÄHLER / PROGRESS COUNTER -->
-
-		<div class="progress" id="progress">
-			<div class="progress-bar" id="progress-bar" style="width:10%"></div>
-		</div>
-
-	
-		<div class="row">
-			<div class="col">
-			
-				<div id="jumpToQuestion" style="display:none; width:100%">
-					Gehe direkt zu Frage Nummer XY.
-					Jump to Question XY directly
-				</div>
-				
-			</div>
-		</div>
-
-		
-	<!-- 5. CHECKBOX: STATISTIK j/n / STATISTICS y/n -->		
-        <!-- 5. 
-		<div class="row" id="keepStats">
-			<div class="col">
-			
-				<div class="custom-control custom-switch">
-					<input type="checkbox" class="custom-control-input" id="keepStatsCheckbox" />
-					<label class="custom-control-label" for="keepStatsCheckbox" id="keepStatsQuestion">
-					Statistik erlauben? <br /> Allow statistics?
-					</label>
-				</div>
-				
-			</div>
-		</div>
-	-->
-	
-	<!-- 6. FUSSZEILE: IMPRESSUM, NEUSTART, SOCIAL MEDIA / FOOTER: IMPRINT, RESTART, SOCIAL MEDIA -->
-
-		<div class="row">	
-			<div class="col">
-				<a class="btn btn-outline-dark btn-block btn-sm" role="button" href="system/imprint.html" target="_blank" id="imprint">Button Impressum / Legal</a>
-			</div>
-
-			<div class="col" >
-				<a class='btn btn-outline-dark btn-block btn-sm' role='button' href='index.html' id="restart">Button Neustart / Restart</a>
-			</div>			
-			
-			<div class="col">
-				<a class="btn btn-block btn-sm
-				social-facebook" role='button' onclick="window.open('https://www.goettinger-klimabuendnis.de', '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Look at Göttinger Klimabündnis">
-				Göttinger Klimabündnis</a>
-			</div>
-
-			<div class="col">
-				<a class="btn btn-block btn-sm social-twitter" role='button' onclick="window.open('https://www.goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html', '_blank', 'location=yes,height=480,width=640,scrollbars=yes,status=yes'); return false;" title="Look at Göttinger Klima-Wahlprüfsteine 2021">
-				Klima-Wahlprüfsteine 2021 </a>
-			</div>
-		</div>
-	
+<div id="postamble" class="status">
+<p class="author">Author: Ulrich Schwardmann</p>
+<p class="date">Created: 2021-08-29 So 19:33</p>
 </div>
-
-	<script type="text/javascript">
-		  
-		$(document).ready(function() { 
-			fnStart(); 		
-		});
-
-	</script>	
-
 </body>
-</html> 
+</html>

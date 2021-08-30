@@ -13,7 +13,15 @@ echo $LG x $HT
 (( BLG = LG ))
 (( OFFSET = ( HT - BHT ) / 2 )) 
 
-echo size $SIZE
+echo size: $SIZE
+echo offset: $OFFSET
+
+echo -n "choose another offset (defaults to current offset): "
+read OFFSET1
+
+if [[ $OFFSET1 != "" ]]; then
+	(( OFFSET = $OFFSET1 ))
+fi 
 
 FNAME_BASE=`echo ${FNAME}|cut -f 1 -d "."`
 FNAME_ENDS=`echo ${FNAME}|cut -f 2 -d "."`

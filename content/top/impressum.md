@@ -37,10 +37,10 @@ draft: false
 
 # Impressum
 
-|Redaktionsanschrift:                        | Anbieter (§ 6 TDG) Verantwortlicher Redakteur:   |
-|--------------------------------------------|--------------------------------------------------|
-| Göttinger Klimabündnis                     | Ulrich Schwardmann                               |
-| www.goettinger-klimabuendnis.de            |  redaktion [at] goettinger-klimabuendnis.de |
+|Redaktionsanschrift:                   | Anbieter (§ 6 TDG):    | Adresse:   |
+|---------------------------------------|-----|--------------------------------------------------|
+| Göttinger Klimabündnis                | Ulrich Schwardmann     |  Geiststr. 2., 37073 Göttingen                             |
+| www.goettinger-klimabuendnis.de       | Verantwortlicher Redakteur    |  redaktion [at] goettinger-klimabuendnis.de |
 
 ## Erreichbarkeit 
 
