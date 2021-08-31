@@ -68,7 +68,7 @@ function fnStart()
 	// Neustart / Wiederholung
 	var jetzt = new Date();
 	var sekunden = jetzt.getTime(); 
-	$("#restart").attr("href","index.html?"+sekunden);
+	$("#restart").attr("href","mat-o-wahl.html?"+sekunden);
 	$("#restart").html(TEXT_RESTART);
 	
 	//////////////////////////////////////////////////////////////////
