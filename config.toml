@@ -1,4 +1,4 @@
-baseurl = "http://goettinger-klimabuendnis.de"
+baseurl = "https://goettinger-klimabuendnis.de"
 title = "Göttinger Klimabündnis"
 theme = [ "hugo-theme-cleanwhite", "hugo-theme-introduction" ]
 languageCode = "de-de"
