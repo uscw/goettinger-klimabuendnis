@@ -57,7 +57,7 @@ Klima-Wahl-O-Mat gibt es eine weitere Möglichkeit, sich auf diese
 Klimawahlen vorzubereiten und eine gut begründete Entscheidung zu
 treffen.
 
-Der [kommunale Klima-Wahl-O-Mat](http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen/Kommunalwahl) ist auf den Web-Seiten des
+Der [kommunale Klima-Wahl-O-Mat](http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl) ist auf den Web-Seiten des
 Göttinger-Klimabündnis zu finden. Er basiert auf dem Ergebnis der Auswertung der
 [Göttinger Klima-Wahlprüfsteine](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html)
 
