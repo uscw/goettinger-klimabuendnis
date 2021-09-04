@@ -6,10 +6,12 @@ abstract: "Es steht nun ein Wahl-O-Mat für die Göttinger Kommunalwahlen bereit
 ---
 
 
-Kommunaler Wahl-O-Mat auf Basis der Klima-Wahlprüfsteine
---------------------------------------------------------
+[Kommunaler Wahl-O-Mat](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl) auf Basis der [Klima-Wahlprüfsteine](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html)
+=====================
 
-#### Pressemitteilung des Göttinger Klimabündnis 
+
+Pressemitteilung des Göttinger Klimabündnis 
+--------------------------------------------------------
 
 Es steht nun ein Wahl-O-Mat für die Göttinger Kommunalwahlen bereit, mit
 dem Wähler die Nähe ihrer eigenen klimapolitischen Einstellungen zu den
@@ -57,7 +59,7 @@ Klima-Wahl-O-Mat gibt es eine weitere Möglichkeit, sich auf diese
 Klimawahlen vorzubereiten und eine gut begründete Entscheidung zu
 treffen.
 
-Der [kommunale Klima-Wahl-O-Mat](http://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl) ist auf den Web-Seiten des
+Der [kommunale Klima-Wahl-O-Mat](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/Kommunalwahl) ist auf den Web-Seiten des
 Göttinger-Klimabündnis zu finden. Er basiert auf dem Ergebnis der Auswertung der
 [Göttinger Klima-Wahlprüfsteine](https://goettinger-klimabuendnis.de/html/Wahlpruefsteine_Goettingen_2021/20210727-Antworten-Wahlpruefsteine.html)
 

@@ -3,7 +3,7 @@
 import sys
 from datetime import date, datetime, timedelta
 
-PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event/"
+PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/"
 
 
 def get_post():
