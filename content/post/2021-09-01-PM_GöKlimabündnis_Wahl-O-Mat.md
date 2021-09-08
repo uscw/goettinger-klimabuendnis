@@ -54,7 +54,14 @@ Koordinator des Göttinger-Klimabündnisses.
 Die Ereignisse des vergangenen Monats haben klar gemacht, welche
 Bedeutung der Klimawandel auch für unsere unmittelbare Umgebung hat und
 haben wird, aber auch, welche Notwendigkeiten zur Klimagasvermeidung und
-Klimaanpassung auf lokaler Ebene bestehen. Mit dem kommunalen
+Klimaanpassung auf lokaler Ebene bestehen. 
+
+Welche Prioritäten die derzeitige Ratsmehrheit verfolgt, ist gut am Beispiel
+des [Umgangs mit einem bewilligten Klimaanpassungs-Projekt](/post/2021-09-07-cheltenhampark) zu
+erkennen.
+
+
+Mit dem kommunalen
 Klima-Wahl-O-Mat gibt es eine weitere Möglichkeit, sich auf diese
 Klimawahlen vorzubereiten und eine gut begründete Entscheidung zu
 treffen.
