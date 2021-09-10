@@ -92,9 +92,7 @@
 
 
     <!-- Short About -->
-    <section class="visible-md visible-lg"> <!-- makes PoW unvisible at small devices-->
-    </section>
-    <section>
+    <section class="visible-md visible-lg"> <!-- <section> -->
         <hr><h5><a href="{{ .Site.Params.social.about }}">Bild der Woche</a></h5>
         <div class="short-about">
             {{ with .Site.Params.sidebar_pow }}
