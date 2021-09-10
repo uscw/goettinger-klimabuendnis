@@ -32,8 +32,8 @@ Wiederherstellung der Wallverbindungen gestrichen
 
 Die Wiederherstellung der Wallverbindungen, also ein entsiegelter
 Grüngürtel zwischen der Wallanlage am Cheltenham-Park über den
-Albani-Platz zum Deutschen Theater soll nun allerdings vom Rat dr Stadt
-ohne weitere
+Albani-Platz zum Deutschen Theater und einer Neugestaltung am Hiroshima-Platz
+soll nun allerdings vom Rat der Stadt ohne weitere
 Begründung ersatzlos gestrichen werden. Das Projektgeld dafür soll aber
 natürlich trotzdem ausgegeben werden, und zwar indem der Cheltenhampark
 umgebaut wird. Im wesentlichen soll der bestehende Spielplatz am
@@ -57,9 +57,9 @@ zweieinhalb Millionen Bundesmittel[^2] sollen für etwas eingeworben
 werden, was weder der biologischen Vielfalt, noch der Naherholung oder
 der Umweltbildung weiterhilft. Dem eigentlichen Zweck der
 Bundesausschreibung, der Klimaanpassung, wird das Projekt so überhaupt
-nicht gerecht. Vielmehr soll ein für alle gut funktionierendes
-Erholungsgebiet, vor allem für die ohnehin 
-schon fast überall vertriebene Jugend, umgebaggert werden für 
+nicht gerecht. Vielmehr soll ein für alle, vor allem für die ohnehin 
+schon fast überall vertriebene Jugend, gut funktionierendes
+Erholungsgebiet umgebaggert werden für 
 ein äusserst zweifelhaftes Endergebnis.
 
 
