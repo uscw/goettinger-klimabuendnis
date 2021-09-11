@@ -3,6 +3,8 @@ title: "PM: Kommunaler Klima-Wahlomat auf Basis der Wahlprüfsteine"
 subtitle: "Pressemitteilung des Göttinger Klimabündnis"
 date: 2021-09-01T1:00:00+02:00
 abstract: "Es steht nun ein Klima-Wahlomat für die Göttinger Kommunalwahlen bereit, mit dem Wähler die Nähe ihrer eigenen klimapolitischen Einstellungen zu den Vorhaben der verschiedenen Parteien ermitteln können."
+draft: false
+categories: [ "Wahlen" ]
 ---
 
 

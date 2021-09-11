@@ -3,6 +3,8 @@ title: "PM: Auswertung der Klima-Wahlprüfsteine für die Göttinger Kommunalwah
 subtitle: "Pressemitteilung des Göttinger Klimabündnis"
 date: 2021-07-26T1:00:00+02:00
 abstract: "Mit Unterstützung des Ernährungsrates Göttingen hat das Göttinger Klimabündnis eine Reihe von Fragen zu den klimarelevanten Vorhaben der Parteien für die nächste Legislaturperiode in Göttingen erarbeitet."
+draft: false
+categories: [ "Wahlen" ]
 ---
 PM: Auswertung der Klima-Wahlprüfsteine für die Göttinger Kommunalwahl 2021
 ===========================================
