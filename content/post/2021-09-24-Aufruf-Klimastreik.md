@@ -7,7 +7,7 @@ image: "img/banner/2021-06-04-Goettingen-Klimastreik_banner.jpg"
 draft: false
 ---
 
-![](/img/post/2021-09-24-Aufruf_Klimastreik_banner.jpg)
+![](/img/post/2021-09-24-Aufruf_Klimastreik_banner1.png)
 
 Aufruf zum Globalen Klimastreik
 ===========================
@@ -78,6 +78,6 @@ Klimagerechtigkeit möglich – denn wir sind #AlleFürsKlima.
 
 Wir sehen uns am 24. um 12 Uhr am Neuen Rathaus!
 ----------------
-
+![](/img/post/2021-09-24-Aufruf_Klimastreik_banner2.png)
 ![](/img/post/2021-09-24-Aufruf_Klimastreik_support.jpg)
 
