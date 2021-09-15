@@ -8,6 +8,9 @@ draft: false
 categories: [ "Kampagne" ]
 ---
 
+Göttinger Camp für Klimagerechtigkeit
+===============
+
 Am Samstag, den 11. September, wurde in Göttingen das Camp für Klimagerechtigkeit errichtet. Nach dem Erfolg vor zwei Jahren ist es nun das zweite Göttinger Klimacamp, diesmal nicht am Theaterplatz sondern in unmittelbarer Nähe des Neuen Rathauses und des Kreistages - als ständige Mahnung an die Politik gewissermaßen.
 
 ![](/img/post/2021-09-14-Camp_fuer_Klimagerechtigkeit1.jpg)
