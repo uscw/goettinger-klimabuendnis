@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rat und Ausschüsse on Göttinger Klimabündnis</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Rat und Ausschüsse on Göttinger Klimabündnis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Fri, 09 Apr 2021 18:50:34 +0100</lastBuildDate>
-    
-	<atom:link href="https://goettinger-klimabuendnis.de/categories/rat-und-aussch%C3%BCsse/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 09 Apr 2021 18:50:34 +0100</lastBuildDate><atom:link href="https://goettinger-klimabuendnis.de/categories/rat-und-aussch%C3%BCsse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hintergründe der Berechnungen zum Göttinger CO2-Budget</title>
       <link>https://goettinger-klimabuendnis.de/post/2021-03-23-infoinput-vom-g%C3%B6kb-im_umweltausschuss/</link>

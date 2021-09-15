@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verkehr on Göttinger Klimabündnis</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Verkehr on Göttinger Klimabündnis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 04 May 2021 08:50:34 +0100</lastBuildDate>
-    
-	<atom:link href="https://goettinger-klimabuendnis.de/categories/verkehr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 May 2021 08:50:34 +0100</lastBuildDate><atom:link href="https://goettinger-klimabuendnis.de/categories/verkehr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Das Klima-Urteil des Bundesverfassungsgericht hat auch Folgen für den Göttinger Klimaplan2030</title>
       <link>https://goettinger-klimabuendnis.de/post/2021-05-04-pm-bundesverfassungsgericht-klimaschutzgesetz/</link>
@@ -39,7 +35,7 @@ Der Beschluss des 1. Senats des Bundesverfassungsgericht vom 24. März 2021 (sie
       
       <guid>https://goettinger-klimabuendnis.de/post/2021-01-29-abnahme_des_radverkehrs_in_goettingen/</guid>
       <description>Bündnis bedauert Abnahme des Radverkehrs in Göttingen um 33% Bei der Auswertung der für 2020 jetzt vorliegenden Zahlen zum Göttinger Radverkehrsaufkommen [1] stellt das Bündnis für nachhaltige Stadtentwicklung mit Bedauern fest, dass die Corona-Pandemie in der Stadt zu einer starken Abnahme des Radverkehrs um etwa 33 % geführt hat.
-Während 2019 an den fünf Zählanlagen noch etwa 5,5 Millionen Fahrräder vorbeifuhren, brach diese Zahl 2020 auf 3,8 Millionen Räder ein.</description>
+Während 2019 an den fünf Zählanlagen noch etwa 5,5 Millionen Fahrräder vorbeifuhren, brach diese Zahl 2020 auf 3,8 Millionen Räder ein. An keiner Zählanlage wurde 2020 die magische Grenze von einer Milllion überschritten.</description>
     </item>
     
   </channel>

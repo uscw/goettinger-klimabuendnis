@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tops on Göttinger Klimabündnis</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Tops on Göttinger Klimabündnis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sat, 02 Mar 2019 17:46:36 +0100</lastBuildDate>
-    
-	<atom:link href="https://goettinger-klimabuendnis.de/top/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 02 Mar 2019 17:46:36 +0100</lastBuildDate><atom:link href="https://goettinger-klimabuendnis.de/top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Über Uns</title>
       <link>https://goettinger-klimabuendnis.de/top/impressum/</link>

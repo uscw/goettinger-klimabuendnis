@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wahlen on Göttinger Klimabündnis</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Wahlen on Göttinger Klimabündnis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 08 Sep 2021 12:50:34 +0100</lastBuildDate>
-    
-	<atom:link href="https://goettinger-klimabuendnis.de/categories/wahlen/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Sep 2021 12:50:34 +0100</lastBuildDate><atom:link href="https://goettinger-klimabuendnis.de/categories/wahlen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keine Anpassung urbaner Räume an den Klimawandel</title>
       <link>https://goettinger-klimabuendnis.de/post/2021-09-07-cheltenhampark/</link>
