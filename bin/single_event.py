@@ -316,13 +316,13 @@ class event():
             "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
             "image:         \"" + str(ev_dict[item]['image']) + "\"\n" + \
             "---\n" + \
-            "\n**Veranstaltung: " + self.pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr**\n" \
+            "\n**Veranstaltung: " + self.pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr, " + self.text2ascii(str(ev_dict[item]['place'])) + "**\n" \
             "\n" + str(ev_dict[item]['title']) + "\n===========\n"
             if str(ev_dict[item]['subtitle']) != "":
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
             if str(ev_dict[item]['locURL']) != "":
                 outstr += str(ev_dict[item]['text']) + \
-                          "Mehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
+                          "\nMehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
             print (outstr)
             outFF.write(outstr)
             outFF.close()
