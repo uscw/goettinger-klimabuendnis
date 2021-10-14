@@ -17,8 +17,14 @@ image:         "/img/banner/2020.06-Gaenseliesl.jpg"
 Die Rolle der Ökologie in katholischer Theologie und kirchlichem Leben heute
 ===========
 
-Ludger Loos und Ingrid Stampa in der Reihe RELIGION UND KLIMASCHUTZ
+Ludger Joos und Ingrid Stampa in der Reihe RELIGION UND KLIMASCHUTZ
 -----------
 
 Klimaschutz Göttingen e.V. veranstaltet die Vortragsreihe „RELIGION UND KLIMASCHUTZ“.
+
 Mehr Informationen beim [Veranstalter](https://www.klimaschutz-goettingen.de)
+
+Anmeldung zu den Veranstaltungen wird empfohlen unter
+[kontakt@klimaschutz-goettingen.de](mailto:kontakt@klimaschutz-goettingen.de).
+
+Es gelten die aktuellen Corona-Bedingungen. Einlass ist 30 min. vor Beginn.

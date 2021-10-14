@@ -24,3 +24,9 @@ Klimaschutz Göttingen e.V. startet mit der Vortragsreihe „RELIGION UND KLIMAS
 Am 11. Oktober wird Herr Friedrich Selter, Regionalbischof Sprengel Osnabrück zur Programmatik und Praxis der evangelisch-lutherischen Kirche in Bezug auf den Klimaschutz sprechen. Vielen wird er in der Region Göttingen noch bekannt sein, denn Herr Selter war bis Ende Februar Superintendent des evangelischen Kirchenkreises Göttingen.
 
 Mehr Informationen beim [Veranstalter](https://www.klimaschutz-goettingen.de)
+
+
+Anmeldung zu den Veranstaltungen wird empfohlen unter
+[kontakt@klimaschutz-goettingen.de](mailto:kontakt@klimaschutz-goettingen.de).
+
+Es gelten die aktuellen Corona-Bedingungen. Einlass ist 30 min. vor Beginn.

@@ -22,3 +22,9 @@ NN in der Reihe RELIGION UND KLIMASCHUTZ
 
 Klimaschutz Göttingen e.V. veranstaltet die Vortragsreihe „RELIGION UND KLIMASCHUTZ“.
 Mehr Informationen beim [Veranstalter](https://www.klimaschutz-goettingen.de)
+
+
+Anmeldung zu den Veranstaltungen wird empfohlen unter
+[kontakt@klimaschutz-goettingen.de](mailto:kontakt@klimaschutz-goettingen.de).
+
+Es gelten die aktuellen Corona-Bedingungen. Einlass ist 30 min. vor Beginn.
