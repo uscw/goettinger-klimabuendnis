@@ -6,13 +6,13 @@ date:          2021-10-11T18:15:00+02:00
 etime:         2021-10-11T20:00:00+02:00
 publishdate:   2021-10-04T00:00:00+01:00
 author:        "Klimaschutz Göttingen e.V."
-place:         "Altes Rathaus Goettingen Markt 8"
+place:         "Alte Bibliothek, Papendiek 14"
 URL:           "/2021/10/11/18/30/reihe_religion_und_klimaschutz_startet"
 locURL:        "https://www.klimaschutz-goettingen.de"
 image:         "/img/banner/2020.06-Gaenseliesl.jpg"
 ---
 
-**Veranstaltung: 11. Oktober 2021, 18:15 Uhr**
+**Veranstaltung: 11. Oktober 2021, 18:15 Uhr, "Alte Bibliothek, Papendiek 14**
 
 Die Evangelische Kirche und der Klimaschutz: Fortschritte, aber noch viel zu tun!
 ===========
