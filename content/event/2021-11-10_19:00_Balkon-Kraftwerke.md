@@ -6,13 +6,13 @@ date:          2021-11-10T19:00:00+01:00
 etime:         2021-11-10T20:30:00+01:00
 publishdate:   2021-11-03T00:00:00+01:00
 author:        "GUNZ"
-place:         "GUNZ Goettingen Geiststrasse 2"
+place:         "GUNZ Video-Konferenz"
 URL:           "/2021/11/10/19/00/balkon-kraftwerke"
 locURL:        "https://www.goettinger-umweltzentrum.de/"
 image:         "/img/banner/2019-07-Klima-Jurte-mit-Baum-1.jpg"
 ---
 
-**Veranstaltung: 10. November 2021, 19:00 Uhr, GUNZ Goettingen Geiststrasse 2**
+**Veranstaltung: 10. November 2021, 19:00 Uhr, GUNZ Video-Konferenz**
 
 Balkon-Kraftwerke
 ===========
