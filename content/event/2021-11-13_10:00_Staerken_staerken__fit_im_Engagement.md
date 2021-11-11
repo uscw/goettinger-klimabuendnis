@@ -23,4 +23,4 @@ Engagement stellt uns gelegentlich vor große Herausforderungen. Mit unseren kos
 
 Zum Einstieg in die Fortbildungsreihe finden wir gemeinsam heraus, was uns antreibt, was uns stresst und welche Wege zu einem gesunden Ich im Engagement führen können.
 
-Mehr Informationen beim [Veranstalter](http://hossfeld-coaching.de)
+Mehr Informationen beim [Veranstalter](mailto:info@hossfeld-coaching.de)
