@@ -1,0 +1,13 @@
+insgesamt 20
+drwxr-xr-x  3 uschwar1 users   18 14. Feb 2019  resources
+drwxr-xr-x  2 uschwar1 users   56 23. Feb 2019  archetypes
+drwxr-xr-x  4 uschwar1 users   38 22. Apr 2019  layouts
+drwxr-xr-x  5 uschwar1 users   97 12. Mai 2019  themes
+drwxr-xr-x  3 uschwar1 users   47 11. Apr 2021  data
+-rw-r--r--  1 uschwar1 users  144  3. Mai 2021  README.md
+drwxr-xr-x  7 uschwar1 users   91 20. Jul 14:13 content
+drwxr-xr-x  6 uschwar1 users   57 20. Jul 16:45 static
+drwxr-xr-x  2 uschwar1 users 4096  8. Okt 12:01 bin
+-rw-r--r--  1 uschwar1 users 5281 19. Nov 12:21 config.toml
+drwxr-xr-x 19 uschwar1 users 4096 25. Nov 13:12 public
+-rw-r--r--  1 uschwar1 users    0 25. Nov 13:26 bla
