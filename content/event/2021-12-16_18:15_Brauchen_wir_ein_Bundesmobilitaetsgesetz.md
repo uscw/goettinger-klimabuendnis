@@ -40,6 +40,4 @@ Programm
 
 19:20 Publikumsfragen
 
-Anmeldung unter https://klimaschutz-im-bundestag.de/veranstaltung/online-gespraech-mit-jan-werner-ueber-die-notwendigkeit-eines-bundesmobilitaetsgesetzes
-
-Mehr Informationen beim [Veranstalter](https://de.scientists4future.org/veranstaltungen/brauchen-wir-ein-bundesmobilitaetsgesetz/)
+Anmeldung und mehr Informationen beim [Veranstalter](https://klimaschutz-im-bundestag.de/veranstaltung/online-gespraech-mit-jan-werner-ueber-die-notwendigkeit-eines-bundesmobilitaetsgesetzes/)
