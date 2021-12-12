@@ -11,29 +11,29 @@ draft: false
  Entstehung, Struktur und Perspektiven des Göttinger Klimabündnis ...
 
 ## Vernetzte Gruppen
-| Klimagruppe                                                    | Web-Adresse                                                  | Mail-Adresse                                  |
-| -------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
-| BUND Göttingen                                                 | https://www.bund-goettingen.de/                              | mail [at] bund-goettingen.de                |
-| Craddle to Craddle Göttingen                                   | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/      | goettingen [at] ehrenamt.c2c.ngo            |
-| Ende-Gelände Göttingen                                         | https://www.ende-gelaende.org/en/get-involved/local-groups/  | goettingen [at] ende-gelaende.org           |
-| EPIZ Göttingen                                                 | https://epiz-goettingen.de                                   | info [at] epiz-goettingen.de                |
-| Extinction Rebellion Göttingen                                 | https://extinctionrebellion.de/og/goettingen/                | goettingen [at] extinctionrebellion.de      |
-| FossilFree Goettingen                                          | https://gofossilfree.org/de                                  | fossilfreegoettingen [at] riseup.net        |
-| Fridays for Future Göttingen                                   | https://fridaysforfuture.de/ortsgruppen/goettingen/          | fff_goettingen [at] riseup.net              |
-| GermanZero Göttingen                                           | https://www.germanzero.de/                                   | goettingenzero [at] posteo.de               |
-| Göttingen im Wandel                                            | http://tt-goettingen.de/                                     | info [at] tt-goettingen.de                  |
-| Greenpeace Göttingen                                           | https://www.goettingen.greenpeace.de/                        | info [at] goettingen.greenpeace.de          |
-| Health for Future Göttingen                                    | https://healthforfuture.de/health-for-future-ortsgruppen/    | healthforfuture_goe [at] posteo.de          |
-| JANUN Göttingen                                                | https://janun.de                                             | joern [at] janun.de                         |
-| Klimagruppe Basisdemokratische Linke Göttingen                 | https://www.inventati.org/blgoe/                             | klima-bl [at] riseup.net                    |
-| Klimaschutz Göttingen e.V.                                     | https://klimaschutz-goettingen.de/                           | kontakt [at] klimaschutz-goettingen.de      |
-| Kritische Wirtschaftswissenschaften Göttingen                  | https://kriwigoe.de/                                         | info [at] kriwigoe.de                       |
-| Lampedusa-Bündnis Göttingen                                    | http://papiere-fuer-alle.org/refugees-welcome-goettingen     | refugeewellcome [at] lists.riseup.net       |
-| Naturfreunde Göttingen                                         | https://naturfreunde-goettingen.de                           | info [at] naturfreunde-goettingen.de        |
-| Parents for Future Göttingen                                   | https://parentsforfuture.de/de/g%C3%B6ttingen                | p4f-goe [at] lists.gwdg.de                  |
-| Partizipative Initiative für eine lebenwerte Zukunft Göttingen | http://www.pilz.uni-goettingen.de/                           | info [at] pilz.uni-goettingen.de            |
-| Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                            | oekologie [at] asta.uni-goettingen.de       |
-| Scientists for Future Göttingen                                | https://www.scientists4future.org/mitmachen/regionalgruppen/ | goettingen [at] scientists4future.org       |
+| Klimagruppe                                                      | Web-Adresse                                                        | Mail-Adresse                                  |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------- |
+| BUND Göttingen                                                   | https://www.bund-goettingen.de/                                    | mail [at] bund-goettingen.de                |
+| Craddle to Craddle Göttingen                                     | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/            | goettingen [at] ehrenamt.c2c.ngo            |
+| Ende-Gelände Göttingen                                           | https://www.ende-gelaende.org/en/get-involved/local-groups/        | goettingen [at] ende-gelaende.org           |
+| EPIZ Göttingen                                                   | https://epiz-goettingen.de                                         | info [at] epiz-goettingen.de                |
+| Extinction Rebellion Göttingen                                   | https://extinctionrebellion.de/og/goettingen/                      | goettingen [at] extinctionrebellion.de      |
+| FossilFree Goettingen                                            | https://gofossilfree.org/de                                        | fossilfreegoettingen [at] riseup.net        |
+| Fridays for Future Göttingen                                     | https://fridaysforfuture.de/ortsgruppen/goettingen/                | fff_goettingen [at] riseup.net              |
+| GermanZero Göttingen                                             | https://www.germanzero.de/ https://www.goettingen-klimaneutral.de/ | goettingenzero [at] posteo.de               |
+| Göttingen im Wandel                                              | http://tt-goettingen.de/                                           | info [at] tt-goettingen.de                  |
+| Greenpeace Göttingen                                             | https://www.goettingen.greenpeace.de/                              | info [at] goettingen.greenpeace.de          |
+| Health for Future Göttingen                                      | https://healthforfuture.de/health-for-future-ortsgruppen/          | healthforfuture_goe [at] posteo.de          |
+| JANUN Göttingen                                                  | https://janun.de                                                   | joern [at] janun.de                         |
+| Klimagruppe Basisdemokratische Linke Göttingen                   | https://www.inventati.org/blgoe/                                   | klima-bl [at] riseup.net                    |
+| Klimaschutz Göttingen e.V.                                       | https://klimaschutz-goettingen.de/                                 | kontakt [at] klimaschutz-goettingen.de      |
+| Kritische Wirtschaftswissenschaften Göttingen                    | https://kriwigoe.de/                                               | info [at] kriwigoe.de                       |
+| Lampedusa-Bündnis Göttingen                                      | http://papiere-fuer-alle.org/refugees-welcome-goettingen           | refugeewellcome [at] lists.riseup.net       |
+| Naturfreunde Göttingen                                           | https://naturfreunde-goettingen.de                                 | info [at] naturfreunde-goettingen.de        |
+| Parents for Future Göttingen                                     | https://parentsforfuture.de/de/g%C3%B6ttingen                      | p4f-goe [at] lists.gwdg.de                  |
+| Partizipative Initiative für eine lebenwerte Zukunft Göttingen   | http://www.pilz.uni-goettingen.de/                                 | info [at] pilz.uni-goettingen.de            |
+| Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                                  | oekologie [at] asta.uni-goettingen.de       |
+| Scientists for Future Göttingen                                  | https://www.scientists4future.org/mitmachen/regionalgruppen/       | goettingen [at] scientists4future.org       |
 
 # Impressum
 
