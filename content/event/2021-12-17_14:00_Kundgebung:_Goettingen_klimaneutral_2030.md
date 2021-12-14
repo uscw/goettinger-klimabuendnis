@@ -6,13 +6,13 @@ date:          2021-12-17T14:00:00+01:00
 etime:         2021-12-17T16:00:00+01:00
 publishdate:   2021-12-14T00:00:00+01:00
 author:        "GöttingenZero"
-place:         "verm. Gaenseliesl Goettingen"
+place:         "vermutlich Gaenseliesl Goettingen"
 URL:           "/2021/12/17/14/00/kundgebung:_goettingen_klimaneutral_2030"
 locURL:        ""
 image:         "/img/banner/2020.06-Gaenseliesl.jpg"
 ---
 
-**Veranstaltung: 17. Dezember 2021, 14:00 Uhr, verm. Gaenseliesl Goettingen**
+**Veranstaltung: 17. Dezember 2021, 14:00 Uhr, vermutlich Gaenseliesl Goettingen**
 
 Kundgebung: Göttingen klimaneutral 2030
 ===========
