@@ -30,9 +30,10 @@ bestätigt.
 Diese Umkehr in der Klimapolitik der Stadt geht auf die Initiative der Zivilbevölkerung
 zurück, speziell auf die Mobilisierung für das Bürgerbegehren zur Klimaneutralität 2030.
 
-Mit dieser Kundgebung soll deutlich gemacht weden:
+Mit dieser Kundgebung soll deutlich gemacht werden:
 
-- die Initiative der Zivilbevölkerung ist notwendig.
+- die Initiative der Zivilbevölkerung ist notwendig für eine angemessene
+  Klimapolitik
 - mit dem Beschluss ist es nicht getan, wir werden die nächsten Schritte weiter beobachten müssen
 - wir fordern daher die Einrichtung eines Bürger:innen-Rat, der die nun notwendigen Prozesse kritisch begleitet.
 
