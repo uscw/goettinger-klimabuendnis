@@ -5,6 +5,7 @@ subtitle:      "Pressemitteilung des Bündnis für nachhaltige Stadtentwicklung"
 date:          2021-11-30T10:25:00+01:00
 publishdate:   2021-08-22T00:00:00+01:00
 author:        "Bündnis für nachhaltige Stadtentwicklung"
+description:       "Der seit Monaten erwartete EU-Call für dasAntragsverfahren..."
 draft:        false
 ---
 
