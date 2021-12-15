@@ -20,6 +20,10 @@ Kundgebung: Göttingen klimaneutral 2030
 zum Beschluss der entsprechenden Verwaltungsvorlage in der Ratssitzung
 -----------
 
+
+![Ratsbeschluss 17.12. Klimaneutral bis 2030](/img/event/Ratsbeschluss17-12-Klimaneutral_bis_2030.png)
+
+
 Hintergrund:
 -----------
 
