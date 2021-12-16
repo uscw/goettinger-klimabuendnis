@@ -8,12 +8,6 @@ author:        "Bündnis für nachhaltige Stadtentwicklung"
 draft:        false
 ---
 
-BfnS sieht in EU-Antragsbedingungen Niederlage für Ratsparteien und Verwaltung
-===========
-
-Pressemitteilung des Bündnis für nachhaltige Stadtentwicklung
------------
-
 Der seit Monaten erwartete EU-Call für das Antragsverfahren "100 Climate-Neutral and Smart Cities by 2030" wurde zum 29.11.2021 in Brüssel veröffentlicht [1]. Eine Teilnahme am Antragsverfahren unterliegt zwei zwingenden Teilnahmebedingungen: Die Stadt muss über 50.000 Einwohner haben und sie muss die 100 %ige Klimaneutralität bis 2030 als Zielsetzung festgeschrieben haben. 
 
 Das Bündnis für nachhaltige Stadtentwicklung (BfnS) sieht sich in seiner Ansicht bestätigt, dass die Ratsparteien in Vorbereitung auf das EU-Antragsverfahren eine anzustrebende 100 %ige Klimaneutralität bis 2030 im Lauf des Jahres schon längst hätten beschließen müssen. Die Linken sowie Ratsmitglied Dr. Francisco Welter-Schultes (heute BfnS) hatten dies zur Ratssitzung am 12.02.2021 interfraktionell beantragt und die anderen Parteien vergeblich gebeten, den Antrag gemeinsam mit einzubringen. Stattdessen brachten Grüne, SPD und CDU ohne Absprache drei eigene Anträge ein, wobei SPD und Grüne ein Klimaziel von 65 % bis 2030 vorschlugen. Dem folgte die Verwaltung und ließ am 13.07.2021 im Umweltausschuss eine entsprechende Vorlage kompromisslos durchstimmen. 
@@ -40,7 +34,8 @@ https://ec.europa.eu/info/sites/default/files/research_and_innovation/funding/do
 Dort: 
 - Seite 4: January 2022: Call Closes
 - Seite 5 in Abschnitt 2.2:
-2.2.1 Eligibility criterion – city size and typology
-2.2.2 Eligibility criterion – ambition
+   - 2.2.1 Eligibility criterion – city size and typology
+   - 2.2.2 Eligibility criterion – ambition
+
 Dies sind die beiden Teilnahmevoraussetzungen. Zu 2.2.2 steht an anderer Stelle verklausuliert, dass für bundesdeutsche Städte ein Ratsbeschluss zwingend ist.
 
