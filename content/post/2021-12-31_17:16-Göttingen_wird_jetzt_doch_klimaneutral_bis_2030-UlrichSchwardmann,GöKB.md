@@ -45,7 +45,7 @@ der teilnehmenden Städte zur Klimaneutralität bis zum Jahr 2030
 vorsieht. Und die Eile der Stadt erklärt sich dadurch, dass dieses
 Bekenntnis bereits spätestens 2021, also jetzt, vorgelegen haben muss.
 
-Was wird aus dem Bürgerentscheid \"Klimaneutralität bis 2030 für Göttingen\"?
+Was wird aus dem Bürgerentscheid "Klimaneutralität bis 2030 für Göttingen"?
 -----------------------------------------------------------------------------
 
 Eine Rechtsauskunft, die GöttingenZero im Hinblick auf die Unterschiede
