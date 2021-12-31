@@ -88,3 +88,4 @@ if __name__ == '__main__':
     if Pst["url4infos"] != "":
         fo.write("[Weitere Informationen...](" + Pst["url4infos"] + ")"+ "\n")
     fo.close()
+    print ("Written to file:\n" + PostDir + post + ".md")
