@@ -23,10 +23,6 @@ if [[ $OFFSET1 != "" ]]; then
 	(( OFFSET = $OFFSET1 ))
 fi 
 
-FNAME_BASE=`echo ${FNAME}|cut -f 1 -d "."`
-FNAME_ENDS=`echo ${FNAME}|cut -f 2 -d "."`
-
-
 if (( LG > NORM_LG )); then
   (( RESIZE = NORM_LG * 1000 / LG ))
   (( BHT = BHT * RESIZE / 1000 ))
@@ -40,5 +36,10 @@ if (( HT > BHT )); then
   echo bsize $BSIZE
 fi
 
-echo convert -resize ${RESIZE}% -crop ${BSIZE} ${FNAME} ${FNAME_BASE}-1.${FNAME_ENDS}
 display -resize ${RESIZE}% -crop ${BSIZE} ${FNAME}
+
+
+FNAME_BASE=`echo ${FNAME}|cut -f 1 -d "."`
+FNAME_ENDS=`echo ${FNAME}|cut -f 2 -d "."`
+echo Ausschnitt korrekt? Dann:
+echo convert -resize ${RESIZE}% -crop ${BSIZE} ${FNAME} ${FNAME_BASE}-1.${FNAME_ENDS}
