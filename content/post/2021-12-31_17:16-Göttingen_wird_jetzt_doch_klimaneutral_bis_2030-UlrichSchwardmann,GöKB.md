@@ -40,7 +40,7 @@ Klimaneutralität bis 2030 ließ noch Interpretationsspielraum.
 
 Hintergrund für den Meinungsumschwung im Göttinger Rat ist die klare
 Ansage der EU mit ihrer zentralen Förderbedingung für die Teilnahme an
-der Ausschreibung „Horizon Europa"[^1], die ein eindeutiges Bekenntnis
+der Ausschreibung "Horizon Europe"[^1], die ein eindeutiges Bekenntnis
 der teilnehmenden Städte zur Klimaneutralität bis zum Jahr 2030
 vorsieht. Und die Eile der Stadt erklärt sich dadurch, dass dieses
 Bekenntnis bereits spätestens 2021, also jetzt, vorgelegen haben muss.
@@ -89,7 +89,7 @@ extrem hohen Flächenverbrauch pro zukünftigem Bewohner, die bei dieser
 Art Bebauung entsteht einerseits, und die Frage der Durchsetzung
 klimaneutraler Wärme- und Stromerzeugung andererseits. Ganz genau wie
 bei dem Einfamilienhaus-Neubaugebiet in Emden (NRW), das jüngst vom NABU
-mit dem diesjährigen Umwelt-Schmähpreis \"Dinosaurier des Jahres\"
+mit dem diesjährigen Umwelt-Schmähpreis "Dinosaurier des Jahres"
 bedacht worden ist[^3].
 
 Dieser Bebauungsplan wurde vom Rat der Stadt unverändert durchgewunken,
@@ -114,9 +114,9 @@ als in die geplanten Einfamilienhäuser einziehen könnten, und Maßnahmen
 gegen Starkregenereignisse.
 
 In der Diskussion zum Thema Neubaugebiet machte Tom Wedrins dann die
-Position der SPD deutlich: \"Wir haben zunächst die Überzeugung, Fragen
+Position der SPD deutlich: "Wir haben zunächst die Überzeugung, Fragen
 des Klimaschutzes und die Möglichkeiten, bezahlbaren Wohnraum zu
-schaffen, nicht gegeneinander auszuspielen.\"[^4]. Hatte nicht genau das
+schaffen, nicht gegeneinander auszuspielen."[^4]. Hatte nicht genau das
 der Antrag der Grünen versucht?
 
 Für die CDU stellte Olaf Feuerstein heraus: „Wenn ich mir den Klimaplan
@@ -272,7 +272,7 @@ Auch wenn der Rat sich offensichtlich noch nicht über die Konsequenzen
 im Klaren ist, ist nun der kurze Zeitrahmen für die Vermeidung von CO2
 für alle in Göttingen sichtbar geworden. Jeder Antrag im Rat wird den
 Blick auf diese Problematik richten. Allein die Vorbereitung auf die
-EU-Ausschreibung, dem Ziel der Entscheidung für Klimaneutralität bis
+EU-Ausschreibung, mit dem Ziel für Klimaneutralität bis
 2030, wird die Relevanz der einzelnen kommunalpolitischen Entscheidungen
 herausarbeiten.
 
