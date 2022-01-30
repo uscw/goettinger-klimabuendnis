@@ -10,6 +10,8 @@ place:         "Bad Sachsa"
 URL:           "/2021/07/25/10/45/einzigartige_landschaft_und_gipsabbau_im_spannungsfeld"
 locURL:        "mailto:mail@bund-goettingen.de"
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
+draft:         true
+categories: [ "Hilfe" ]
 ---
 
 **Veranstaltung: 25. Juli 2021, 10:45 Uhr**
