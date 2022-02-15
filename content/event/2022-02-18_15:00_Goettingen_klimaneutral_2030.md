@@ -1,7 +1,7 @@
 ---
 layout:        events
 title:         "Göttingen klimaneutral 2030"
-subtitle:      "Die große Diskrepanz zwischen Beschluss und Planung"
+subtitle:      "Stoppt das Greenwashing im Haushalt der Stadt"
 date:          2022-02-18T15:00:00+01:00
 etime:         2022-02-18T16:30:00+01:00
 publishdate:   2022-02-13T00:00:00+01:00
@@ -17,9 +17,10 @@ image:         "/img/banner/2021-12-17_Kundgebung_Rathaus_Goettingen_klimaneutra
 Göttingen klimaneutral 2030
 ===========
 
-Die große Diskrepanz zwischen Beschluss und Planung
+Stoppt das Greenwashing im Haushalt der Stadt
 -----------
 
+![Demo Göttingen klimaneutral 2030](/img/event/2022-02-13-GöKB_PM_Klimineutral2030.png)
 
 Die Göttinger Klimagruppen Gruppen Göttingen Zero, Greenpeace Göttingen, Health for Future Göttingen, Students for Future, Fridays for Future, Extinction Rebellion und Parents for Future wollen 
 hier auf die Diskrepanz zwischen den geschriebenen und gesprochenen Worten und den erfolgten und geplanten Taten
