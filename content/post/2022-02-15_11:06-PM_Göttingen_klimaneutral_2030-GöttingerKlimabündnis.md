@@ -5,6 +5,7 @@ subtitle:      "Pressemitteilung: Große Diskrepanz zwischen Beschluss und Planu
 date:          2022-02-15T11:06:00+01:00
 publishdate:   2022-02-14T00:00:00+01:00
 author:        "Göttinger Klimabündnis"
+image:         "/img/banner/2021-12-17_Kundgebung_Rathaus_Goettingen_klimaneutral_2030.jpg"
 draft:        false
 ---
 
