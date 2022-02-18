@@ -71,11 +71,11 @@ Klimaneutralität ( wie Sie dies beschreiben)  ist so nicht erkennbar!
 
 ![2022-02-18-Greenwashing_Demo](/img/post/2022-02-18-Greenwashing_Demo_2.jpg)
 
-Ein Wunschliste von Massnahmen aufzustellen ohne Festsetzung eines Zeitplans, 
+Eine Wunschliste von Massnahmen aufzustellen ohne Festsetzung eines Zeitplans, 
 einer Kostenanalyse und eine detaillierte Beschreibung des Klimaschutznutzens 
 stellt aus unserer Sicht eine ungenügende Auseinandersetzung mit der Thematik dar. 
 Vielleicht noch eine Bemerkung zu der Adressierung von Herrn Kimyon an
-Göttingen Zero heute im GT als Lobbygruppe:
+Göttingen Zero heute im GT als *"Lobbygruppe"*:
 
 > Wir verfolgen ausdrücklich keine privaten und finanzgetriebenen  Interessen
 sondern wir verstehen uns als einen Teil der Zivilgesellschaft, der Aufgaben
@@ -84,7 +84,7 @@ worden sollten.
 
 
 Es kann in Zukunft aber nicht darum gehen Schuldzuweisungen des Nichthandelns zu 
-artikulieren sondern es geht um etwas ganz anderes: 
+artikulieren, sondern es geht um etwas ganz anderes: 
 
 Unsere Stadt steckt in einem ausdrücklichen  Dilemma.
 ---------------
