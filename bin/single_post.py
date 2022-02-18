@@ -1,9 +1,12 @@
 #!/usr/bin/python
 
 import sys
+import os
 from datetime import date, datetime, timedelta
 
 PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/"
+homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
+banner_dir = "/img/banner"
 
 
 def get_post():
@@ -27,17 +30,26 @@ def get_post():
         text += line
     print ("URL f. weitere Informationen")
     url =  sys.stdin.readline()[:-1]
+
+    print ("Banner-Bild:")
+    for file in os.listdir(homeDir + "/static" + banner_dir):
+        print(file)
+    Image = sys.stdin.readline()[:-1]
+    if Image == "":
+        Image = cont["image"]
+    else:
+        Image = banner_dir + "/" + Image
     print ("Author")
     author =  sys.stdin.readline()[:-1]
     print ("Draft [FALSE|true]")
     draft =  sys.stdin.readline()[:-1]
-    if draft == "" or draft.lower() not in  ["false"|"true"]:
+    if draft == "" or draft.lower() not in  ["false","true"]:
         draft = "false"
     else:
          draft = draft.lower()
     
     
-    cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "author" : author, "draft" : draft}
+    cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "draft" : draft}
     curr_posts = {}
     curr_posts[str(Date) + "_" + Time + "-" + title.replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")  +  "-" + author.replace(" ","")] = cont
     return curr_posts
@@ -73,6 +85,8 @@ if __name__ == '__main__':
     fo.write("subtitle:      \"" + Pst["subtitle"] + "\""+ "\n")
     fo.write("date:          " + Pst["date"] + "T" + Pst["time"] + ":00+01:00"+ "\n")
     fo.write("publishdate:   " + get_publish_date(Pst["date"],publish_delta) + "T00:00:00+01:00"+ "\n")
+    if Pst["image"] != "":
+        fo.write("image:         \"" + Pst["image"] + "\""+ "\n")
     fo.write("author:        \"" + Pst["author"] + "\""+ "\n")
     fo.write("draft:        " + Pst["draft"] + "\n")
     fo.write("---"+ "\n")
