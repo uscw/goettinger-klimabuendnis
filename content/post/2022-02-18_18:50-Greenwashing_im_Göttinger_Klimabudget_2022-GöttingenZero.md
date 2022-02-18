@@ -4,7 +4,7 @@ title:         "Greenwashing im Göttinger Klimabudget 2022"
 subtitle:      "Redebeitrag von GöttingenZero auf der Kundgebung am 18.2.2022"
 date:          2022-02-18T18:50:00+01:00
 publishdate:   2021-11-10T00:00:00+01:00
-image:         "/img/banner/2021-12-17_Kundgebung_Rathaus_Goettingen_klimaneutral_2030.jpg"
+image:         "/img/banner/2022-02-18-Greenwashing_Demo.jpg"
 author:        "GöttingenZero"
 draft:        false
 ---
@@ -69,17 +69,22 @@ können grundsätzlich sinnvolle Massnahmen sein, haben aber gar nichts mit
 Klimaschutz und CO2 Emissionsreduktion zu tun. Eine Ebnung des Weges in die
 Klimaneutralität ( wie Sie dies beschreiben)  ist so nicht erkennbar!  
 
-Ein Wunschliste von Massnahmen aufzustellen ohne Festsetzung eines Zeitplans, einer Kostenanalyse und eine detaillierte Beschreibung des Klimaschutznutzens stellt aus unserer Sicht eine ungenügende Auseinandersetzung mit der Thematik dar. 
-Vielleicht noch eine Bemerkung zu dem Adressierung von Herrn Kimyon an
+![2022-02-18-Greenwashing_Demo](/img/post/2022-02-18-Greenwashing_Demo_2.jpg)
+
+Ein Wunschliste von Massnahmen aufzustellen ohne Festsetzung eines Zeitplans, 
+einer Kostenanalyse und eine detaillierte Beschreibung des Klimaschutznutzens 
+stellt aus unserer Sicht eine ungenügende Auseinandersetzung mit der Thematik dar. 
+Vielleicht noch eine Bemerkung zu der Adressierung von Herrn Kimyon an
 Göttingen Zero heute im GT als Lobbygruppe:
 
-Wir verfolgen ausdrücklich keine privaten und finanzgetriebenen  Interessen
+> Wir verfolgen ausdrücklich keine privaten und finanzgetriebenen  Interessen
 sondern wir verstehen uns als einen Teil der Zivilgesellschaft, der Aufgaben
 übernimmt, die grundsätzlich eigentlich von der Stadt und dem Rat erledigt
 worden sollten.
 
 
-Es kann in Zukunft aber nicht darum gehen Schuldzuweisungen des Nichthandelns zu artikulieren sondern es geht um etwas ganz anderes: 
+Es kann in Zukunft aber nicht darum gehen Schuldzuweisungen des Nichthandelns zu 
+artikulieren sondern es geht um etwas ganz anderes: 
 
 Unsere Stadt steckt in einem ausdrücklichen  Dilemma.
 ---------------
