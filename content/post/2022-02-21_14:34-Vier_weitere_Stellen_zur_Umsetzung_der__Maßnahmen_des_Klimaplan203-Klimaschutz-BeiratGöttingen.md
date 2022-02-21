@@ -133,11 +133,14 @@ a.
 - 1 Stelle für die Vorbereitung, Bearbeitung und Umsetzung der Sofortmaßnahme 4.5.2.1 „Parkraummanagement-Konzept“ und der Leitprojekte 4.3.3.1 „Busentwicklungsplan“, 4.3.3.2 „Taktverdichtung im ÖPNV“ und 4.7.2.1 „Mobilitäts-App“
 
 b.
+
 - 1 Stelle für die Vorbereitung, Bearbeitung und Umsetzung des Leitprojekts 3.1.1.1 „Pilotprojekt Agro-Photovoltaik“ und der Perspektivmaßnahme 3.1.1.2 „Photovoltaik auf Freiflächen“
 
 c.
+
 - 30.000 Euro (und in den Folgejahren 60.000 Euro) für die Bezahlung von Energieberatung, die bei der Energieagentur, den Stadtwerken oder anderen Dienstleistern beauftragt werden kann.
 
 d.
+
 - 1 Stelle oder 2 halbe Stellen für die Bearbeitung des Sofortprojekts 1.2.2.1 „Göttinger Klimaschutz-Standards im Neubau“ und dem Leitprojekt 2.1.1.1 Leitlinien für Energieeffizienz in kommunalen Liegenschaften“ sowie der Umsetzung konkreter Sanierungsmaßnahmen an städtischen Gebäuden
 
