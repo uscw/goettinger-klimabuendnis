@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Vier weitere Stellen zur Umsetzung der  Maßnahmen des Klimaplan203"
+title:         "Vier weitere Stellen zur Umsetzung der  Maßnahmen des Klimaplan2030"
 subtitle:      "Antrag des Klimaschutzbeirates an den Rat der Stadt Göttingen"
 date:          2022-02-21T14:34:00+01:00
 publishdate:   2021-11-13T00:00:00+01:00
