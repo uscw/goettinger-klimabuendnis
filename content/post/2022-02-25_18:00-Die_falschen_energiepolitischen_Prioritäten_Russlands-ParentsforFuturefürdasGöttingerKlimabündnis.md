@@ -168,7 +168,7 @@ empfindlich treffen. Dies gilt für Deutschland, die EU und weltweit.
 -   Solidarität mit dem ukrainischen Volk
 -   Stop aller Gas- und Öllieferungen aus Russland
 
-Dieser Beitrag wurde mit kleinen Änderungen als Rede auf der
+Dieser Beitrag wurde mit kleinen Kürzungen als Rede auf der
 Demonstration gegen Krieg, Grenzen und Imperien am 25.2.2021 gehalten.
 
 [^1]: siehe: Russland in Zahlen 2021, S.5,
