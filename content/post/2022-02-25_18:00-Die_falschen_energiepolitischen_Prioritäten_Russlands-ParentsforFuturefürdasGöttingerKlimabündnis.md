@@ -113,7 +113,7 @@ harte Sanktionen das Mittel der Wahl sind. Aber in dieser Erkenntnis
 werden bewusst oder unbewusst die fossilen Energien weitgehend
 ausgeblendet. Ein Stop der Gaslieferungen wird nicht als Sanktionsmittel
 der EU oder Deutschlands gegenüber Russland gesehen, sondern umgekehrt
-als Bedrohungsszenario einer mögliche Antwort Putin gehandelt. Das geht
+als Bedrohungsszenario einer möglichen Antwort Putins gehandelt. Das geht
 soweit, dass selbst die Sperrung des Zugangs zum internationalen
 Zahlungsverkehr (SWIFT) für Russland, einem erwiesenermaßen sehr
 wirkungsvollen Instrument, hauptsächlich deshalb von Deutschland und der
@@ -129,7 +129,7 @@ Wirtschaftsforschung: \"Mit diesen Sanktionen trifft der Westen
 Russlands Wirtschaft am stärksten\"[^4] vor zwei Tagen (Mittwoch,den
 23.2.2022) auf das genaue Gegenteil hingewiesen.
 
-Demnach hätte ein Handelsstopp mit Gas einen Einbruch der russischen
+> Demnach hätte ein Handelsstopp mit Gas einen Einbruch der russischen
 Wirtschaftsleistung um knapp 3 Prozent zur Folge, ein Handelsstopp mit
 Öl einen Einbruch um gut 1 Prozent. Für Deutschland und die EU wären die
 wirtschaftlichen Schäden in beiden Fällen hingegen äußerst gering.
@@ -137,7 +137,7 @@ wirtschaftlichen Schäden in beiden Fällen hingegen äußerst gering.
 Speziell bei einem Gasstop würde nach dieser Studie das
 Bruttoinlandsprodukt sogar leicht, um 0,1%, zulegen.
 
-Grund für das Plus ist, dass die westlichen Verbündeten die fehlenden
+> Grund für das Plus ist, dass die westlichen Verbündeten die fehlenden
 Importe Russlands durch Produkte der Bündnispartner ersetzen würden und
 hier Deutschland besonders wettbewerbsfähig ist. Im Falle eines
 Gasembargos hätte Deutschland beispielsweise bei der energieintensiven
@@ -169,7 +169,9 @@ empfindlich treffen. Dies gilt für Deutschland, die EU und weltweit.
 -   Stop aller Gas- und Öllieferungen aus Russland
 
 Dieser Beitrag wurde mit kleinen Kürzungen als Rede auf der
-Demonstration gegen Krieg, Grenzen und Imperien am 25.2.2021 gehalten.
+Demonstration gegen Krieg, Grenzen und Imperien am 25.2.2022 gehalten.
+
+Ulrich Schwardmann
 
 [^1]: siehe: Russland in Zahlen 2021, S.5,
     <https://russland.ahk.de/infothek/medien/russland-in-zahlen>
