@@ -147,7 +147,7 @@ besteht.
 
 Neben diesen Auswirkungen auf das BIP muss aber auch besonders
 hervorgehoben werden, dass derartige Sanktionen eben wegen der
-Staatsnähe der Lieferanten eine solche Entscheidung die Verantwortlichen
+Staatsnähe der Lieferanten die Verantwortlichen
 viel punktgenauer treffen würde und die direkten Auswirkungen auf das
 russische Volk geringer wären.
 
