@@ -1,13 +1,13 @@
 ---
 layout:        events
-title:         "Protest für Frieden in der Ukraine."
+title:         "Protest für Frieden in der Ukraine"
 subtitle:      "Eine Demonstration von Fridays for Future Göttingen"
 date:          2022-03-03T19:00:00+01:00
 etime:         2022-03-03T20:30:00+01:00
 publishdate:   2022-03-03T00:00:00+01:00
 author:        "Fridays for Future Göttingen"
 place:         "Gaenseliesel"
-URL:           "/2022/03/03/19/00/protest_fuer_frieden_in_der_ukraine."
+URL:           "/2022/03/03/19/00/protest_fuer_frieden_in_der_ukraine"
 locURL:        ""
 image:         "/img/banner/2020.06-Gaenseliesl.jpg"
 ---
