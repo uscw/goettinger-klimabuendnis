@@ -178,7 +178,7 @@
 <header class="intro-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <div class="tags">
                         
@@ -186,12 +186,12 @@
                     <h1>Gipskarst-Exkursion: Vom Himmel in die Hölle...</h1>
                     <h2 class="subheading">Exkursion im Thüringer Gipskarst – über den Himmelsberg in den Schlund der Kelle</h2>
                     <span class="meta">
-			veröffentlicht durch 
+			Posted by 
 			
 			    BUND Göttingen
 			 
-			am 
-			13.07.2021
+			on 
+			Saturday, July 17, 2021
                         
                     </span>
                 </div>
@@ -215,7 +215,7 @@
 
                 
                 <header>
-                    <h2>Inhalt</h2>
+                    <h2>TOC</h2>
                 </header>
                 <nav id="TableOfContents">
   <ul>
@@ -242,13 +242,13 @@ Treffpunkt: Bahnhof Woffleben</p>
                     
                     <li class="previous">
                         <a href="/2021/07/16/18/00/trinkwasser_und_klimawandel_-_was_kommt_da_noch_auf_uns_zu" data-toggle="tooltip" data-placement="top" title="Trinkwasser und Klimawandel - was kommt da noch auf uns zu?">&larr;
-                            Zurück </a>
+                            Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2021/07/23/19/00/freiheitsrechte_und_klimaschutz_-_das_urteil_des_bundesverfassungsgerichts" data-toggle="tooltip" data-placement="top" title="Freiheitsrechte und Klimaschutz - Das Urteil des Bundesverfassungsgerichts">Vor
-                             &rarr;</a>
+                        <a href="/2021/07/23/19/00/freiheitsrechte_und_klimaschutz_-_das_urteil_des_bundesverfassungsgerichts" data-toggle="tooltip" data-placement="top" title="Freiheitsrechte und Klimaschutz - Das Urteil des Bundesverfassungsgerichts">Next
+                            Post &rarr;</a>
                     </li>
                     
                 </ul>
@@ -304,7 +304,7 @@ Treffpunkt: Bahnhof Woffleben</p>
                 <ul class="list-inline text-center">
                    
                    <li>
-                       <a href="/2021/07/17/10/05/gipskarst-exkursion:_vom_himmel_in_die_hoelle.../index.xml" rel="alternate" type="application/rss+xml" title="Göttinger Klimabündnis" >
+                       <a href="" rel="alternate" type="application/rss+xml" title="Göttinger Klimabündnis" >
                            <span class="fa-stack fa-lg">
                                <i class="fa fa-circle fa-stack-2x"></i>
                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>

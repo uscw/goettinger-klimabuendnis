@@ -150,6 +150,8 @@ class event():
                 eTime += ":00+" + UTCplus            
             print ("Titel (" + cont["title"] + ")" )
             Title = sys.stdin.readline()[:-1]
+            while Title[-1] == ".":
+                Title = Title[:-1]
             if Title == "":
                 Title = cont["title"]
             print ("Untertitel (" + cont["subtitle"] + ")")
