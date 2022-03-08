@@ -1,0 +1,112 @@
+{{ define "main" }}
+<!-- Section Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Section Container -->
+      <div class="
+        col-lg-8 col-lg-offset-2
+        col-md-10 col-md-offset-1
+        post-container">
+
+        {{ $ds := ( slice ) }}
+        {{ range .Pages.ByDate }}
+          {{ if ( eq .File.Dir "event/" ) }}
+            {{ if ( le now .Date ) }}
+              {{ $ds = $ds | append  . }} <!-- The . represents an element in $array --> 
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $ps := ( slice ) }}
+        {{ range .Paginator.Pages.ByDate.Reverse }}
+          {{ if ( not ( eq .File.Dir "event/" )) }}
+            {{ $ps = $ps | append  . }} <!-- The . represents an element in $array --> 
+          {{ end }}
+        {{ end }}
+
+        {{ $lastDate := "00.00." }}
+        {{ $nowDate := now.Format (.Site.Params.dateFormat | default "02.01. ") }}
+        <!-- Events -->
+        {{if gt (len $ds) 0}}
+          <h1> Veranstaltungen </h1>
+          {{ range $ds.Reverse  }}
+            <div class="event-preview">
+            {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
+            {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
+                {{ if ( ne $evntDate $lastDate ) }}
+                    {{ if ( ne $lastDate "00.00." ) }}
+                      </dl>
+                    {{ end }}
+                    {{ if ( and ( eq $lastDate "00.00." ) ( eq $evntDate $nowDate ) ) }}
+                      <h2>  Heute, {{ $evntDate }} </h2>
+                    {{ else }}
+		      <!-- the following needs a file $SiteDir/data/days.yaml with '0: Sonntag\n1: Montag\n2: Dienstag\n3: Mittwoch\n4: Donnerstag\n5: Freitag\n6: Samstag' -->
+                      <h2> {{ index $.Site.Data.days (printf "%d" .Date.Weekday) }}, {{ $evntDate }} </h2>
+                    {{ end }}
+                    <dl>
+                    {{ $lastDate = $evntDate }}
+                {{ end }}
+                    <dt>
+                      <strong style="font-size:120%;"> {{ $evntTime }} </strong>
+                    </dt>
+                    <dd>
+                      <a href="{{ .Permalink }}"> <strong style="font-size:120%;"> {{ .Title }} </strong>, <em  style="font-size:120%;"> {{ .Params.place }}</em> </a>
+                      <br>
+                      <em  style="font-size:100%;"> {{ .Params.subtitle }} 
+                      <a href="{{ .Permalink }}"> ... mehr </a></em>
+                    </dd>
+            </div>
+          {{ end }} 
+          <br>
+          <br>          
+          <h2><a href="/top/event_archive/"> Frühere Veranstaltungen </a></h2>
+        {{ end }}       
+        </dl> <!-- finalize the row -->
+        <!-- end Events -->
+
+        <!-- Posts and other -->
+        {{ range $ps }}
+          <div class="post-preview">
+            <a href="{{ .Permalink }}">
+              <h2 class="post-title">
+                {{ .Title }} 
+              </h2>
+                {{ with .Params.subtitle }}
+              <h3 class="post-subtitle">
+                {{ . }}
+              </h3>
+                {{ end }}
+              <div class="post-content-preview">
+                {{ with .Description }}
+                  {{ . }}
+                {{ else }}
+                  {{ .Summary}}
+                {{ end }}
+        	  ... mehr <br>
+              </div>
+            </a>
+            <p class="post-meta">
+              veröffentlicht durch {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} am {{ .Date.Format "02.01.2006" }}
+            </p>
+          </div>
+        {{ end }}
+        {{ if ( not ( eq .File.Dir "event/" )) }}
+          {{ partial "pagination.html" . }}
+	{{ end }}	
+        <!-- end Posts and other -->
+	  
+        </div>
+        <!-- Sidebar Container -->
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            sidebar-container">
+        </div>
+    </div>
+  </div>
+</article>
+
+{{ end }}
+
+

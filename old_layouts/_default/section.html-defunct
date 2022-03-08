@@ -1,0 +1,141 @@
+{{ define "main" }}
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+  {{ $ds := ( slice ) }}
+  {{ range .Pages.ByDate }}
+    {{ if ( eq .Dir "event/" ) }}
+      {{ if ( le now .Date ) }}
+        {{ $ds = $ds | append  . }} <!-- The . represents an element in $array --> 
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+{{ range $ds }}
+
+        {{ $lastDate := "00.00." }}
+        {{ $nowDate := now.Format (.Site.Params.dateFormat | default "02.01. ") }}
+        {{if gt (len $ds) 0}}
+         {{ range $ds.Reverse  }}
+          {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
+          {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
+                {{ if ( ne $evntDate $lastDate ) }}
+                    {{ if ( ne $lastDate "00.00." ) }}
+                      </dl>
+                    {{ end }}
+                    {{ if ( and ( eq $lastDate "00.00." ) ( eq $evntDate $nowDate ) ) }}
+                      <h2>  Heute, {{ $evntDate }} </h2>
+                    {{ end }}
+                    <dl>
+                    {{ $lastDate = $evntDate }}
+                {{ end }}
+                    <dt>
+                      <strong style="font-size:120%;"> {{ $evntTime }} </strong>
+                      <a href="{{ .Params.locURL }}">
+                      <img src="/img/{{ .Params.icon }}" alt="{{ .Params.place }}" height="16" width="33"> 
+                      </a>
+                    </dt>
+                    <dd>
+                      <a href="{{ .Permalink }}"> <strong style="font-size:120%;"> {{ .Title }} </strong>, <em  style="font-size:120%;"> {{ .Params.place }}</em> </a>
+                      <br>
+                      <em  style="font-size:100%;"> {{ .Params.subtitle }} 
+                      <a href="{{ .Permalink }}"> ... mehr </a></em>
+                    </dd>
+         {{ end }}       
+        {{ end }}       
+                    </dl>
+
+{{ end }}
+
+  {{ $ps := ( slice ) }}
+  {{ range .Paginator.Pages.ByDate.Reverse }}
+    {{ if ( not ( eq .Dir "event/" )) }}
+      {{ $ps = $ps | append  . }} <!-- The . represents an element in $array --> 
+    {{ end }}
+  {{ end }}
+
+{{ range $ps }}
+  <div class="post-preview">
+    <a href="{{ .Permalink }}">
+      <h2 class="post-title">
+        {{ .Title }} 
+        {{ .Date }} 
+      </h2>
+        {{ with .Params.subtitle }}
+      <h3 class="post-subtitle">
+        {{ . }}
+      </h3>
+        {{ end }}
+      <div class="post-content-preview">
+        {{ with .Description }}
+          {{ . }}
+        {{ else }}
+          {{ .Summary}}
+        {{ end }}
+	  ... mehr <br>
+      </div>
+    </a>
+    <p class="post-meta">
+      veröffentlicht durch {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} am {{ .Date.Format "02.01.2006" }}
+    </p>
+  </div>
+{{ end }}
+{{ partial "pagination.html" . }}
+	      
+
+
+
+
+		
+            </div>
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                {{ if .Site.Params.featured_tags }}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        {{ $featured_condition_size := .Site.Params.featured_condition_size }}
+                        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                        {{ if gt (len $taxonomy.Pages) $featured_condition_size }}
+                        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+                        {{ $name }}
+                        </a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </section>
+                {{ end }}
+
+                <!-- Friends Blog -->
+                {{ if .Site.Params.friends }}
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        {{ range .Site.Params.friend_link }}
+                        <li><a target="_blank" href="{{.href}}">{{.title}}</a></li>
+                        {{ end }}
+                    </ul>
+                </section>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</article>
+
+{{ end }}
+
+

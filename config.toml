@@ -1,6 +1,7 @@
 baseurl = "https://goettinger-klimabuendnis.de"
 title = "Göttinger Klimabündnis"
-theme = [ "hugo-theme-cleanwhite", "hugo-theme-introduction" ]
+theme = [ "hugo-theme-cleanwhite", "hugo-theme-introduction", "bootstrap-bp-hugo-theme" ]
+# theme = [ "hugo-theme-cleanwhite" ]
 languageCode = "de-de"
 # Enable comments by entering your Disqus shortname
 #disqusShortname = ""
@@ -63,7 +64,6 @@ home = ["HTML", "RSS", "Algolia"]
   #sidebar_avatar = "img/picture-of-the-week.png"# use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_avatar = "img/pressekonferenz-ratsantraege-20210317.png"# names of pictures need to be lower case, use absolute URL, seeing it's used in both `/` and `/about/`
 
-
   featured_tags = true 
   featured_condition_size = 1 
 
@@ -74,6 +74,10 @@ home = ["HTML", "RSS", "Algolia"]
   recent_events = true
   summarylength = 60
   nexteventdays = 7
+
+  [taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
   [params.social]
   rss            = true 
@@ -117,12 +121,18 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.additional_menus]]
   title =  "THEMEN"
   href =  "/categories/"
+  [[params.additional_menus]]
+  title =  "ARCHIV"
+  href =  "/top/archive/"
 
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
+[permalinks]
+    categories =  "/:section/:slug"
 
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
