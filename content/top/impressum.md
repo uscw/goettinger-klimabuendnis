@@ -17,6 +17,7 @@ draft: false
 | Craddle to Craddle Göttingen                                     | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/            | goettingen [at] ehrenamt.c2c.ngo            |
 | Ende-Gelände Göttingen                                           | https://www.ende-gelaende.org/en/get-involved/local-groups/        | goettingen [at] ende-gelaende.org           |
 | EPIZ Göttingen                                                   | https://epiz-goettingen.de                                         | info [at] epiz-goettingen.de                |
+| Ernährungsrat i.G.                                               | https://www.ernaehrungsrat-goettingen.de                           | info@ernaehrungsrat-goettingen.de           |
 | Extinction Rebellion Göttingen                                   | https://extinctionrebellion.de/og/goettingen/                      | goettingen [at] extinctionrebellion.de      |
 | FossilFree Goettingen                                            | https://gofossilfree.org/de                                        | fossilfreegoettingen [at] riseup.net        |
 | Fridays for Future Göttingen                                     | https://fridaysforfuture.de/ortsgruppen/goettingen/                | fff_goettingen [at] riseup.net              |
@@ -32,7 +33,7 @@ draft: false
 | Naturfreunde Göttingen                                           | https://naturfreunde-goettingen.de                                 | info [at] naturfreunde-goettingen.de        |
 | Parents for Future Göttingen                                     | https://parentsforfuture.de/de/g%C3%B6ttingen                      | p4f-goe [at] lists.gwdg.de                  |
 | Partizipative Initiative für eine lebenwerte Zukunft Göttingen   | http://www.pilz.uni-goettingen.de/                                 | info [at] pilz.uni-goettingen.de            |
-| Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                                  | oekologie [at] asta.uni-goettingen.de       |
+| Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                                    | oekologie [at] asta.uni-goettingen.de       |
 | Scientists for Future Göttingen                                  | https://www.scientists4future.org/mitmachen/regionalgruppen/       | goettingen [at] scientists4future.org       |
 
 # Impressum
