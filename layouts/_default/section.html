@@ -30,7 +30,7 @@
         <!-- Events -->
         {{if gt (len $ds) 0}}
           <h1> Veranstaltungen </h1>
-          {{ range $ds.Reverse  }}
+          {{ range $ds  }}
             <div class="event-preview">
             {{ $evntDate := ( .Date.Format (.Site.Params.dateFormat | default "02.01. ") ) }}
             {{ $evntTime := ( .Date.Format (.Site.Params.dateFormat | default "15:04") ) }}
