@@ -13,9 +13,217 @@
       <pubDate>Sat, 10 Apr 2021 12:50:34 +0100</pubDate>
       
       <guid>https://goettinger-klimabuendnis.de/post/2021-03-10-wie_erstelle_ich_einen_neuen_artikel/</guid>
-      <description>Wie erstelle ich einen neuen Artikel Hilfe bei der Formatierung für die Webseite des Göttinger Klimabündnis Im folgenden gibt es ein paar Tipps, wie ihr Posts formatieren solltet, damit sie auf den Webseiten des Göttinger Klimabündnis optimal dargestellt werden, und wie die Arbeit der Redaktion entlastet werden kann.
-Natürlich garantiert eine ordentliche Formatierung zwar nicht die Veröffentlichung, aber ohne eine solche sinkt die Wahrscheinlichkeit dafür drastisch.
-Eine genauere Beschreibung mit Beispielen lässt sich auf dieser externen Seite finden.</description>
+      <description>&lt;h1 id=&#34;wie-erstelle-ich-einen-neuen-artikel&#34;&gt;Wie erstelle ich einen neuen Artikel&lt;/h1&gt;
+&lt;h2 id=&#34;hilfe-bei-der-formatierung-für-die-webseite-des-göttinger-klimabündnis&#34;&gt;Hilfe bei der Formatierung für die Webseite des Göttinger Klimabündnis&lt;/h2&gt;
+&lt;p&gt;Im folgenden gibt es ein paar Tipps, wie ihr Posts formatieren solltet, damit
+sie auf den Webseiten des Göttinger Klimabündnis optimal dargestellt werden,
+und wie die Arbeit der Redaktion entlastet werden kann.&lt;/p&gt;
+&lt;p&gt;Natürlich garantiert eine ordentliche Formatierung zwar nicht die
+Veröffentlichung, aber ohne eine solche sinkt die Wahrscheinlichkeit dafür
+drastisch.&lt;/p&gt;
+&lt;p&gt;Eine genauere Beschreibung mit Beispielen lässt sich
+&lt;a href=&#34;https://demo.hedgedoc.org/features?both&#34;&gt;auf dieser externen Seite&lt;/a&gt;
+finden.&lt;/p&gt;
+&lt;h2 id=&#34;der-header&#34;&gt;Der Header&lt;/h2&gt;
+&lt;p&gt;Jeder Post muss mit ein paar Metadaten versehen werden, damit er sinnvoll in
+die Webseiten einsortiert werden kann.&lt;/p&gt;
+&lt;h3 id=&#34;der-header-für-artikel&#34;&gt;Der Header für Artikel&lt;/h3&gt;
+&lt;p&gt;Zum Beispiel hat dieser Artikel den
+folgenden Header:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
+title: &amp;quot;Wie erstelle ich einen neuen Artikel für die Webseite des Göttinger Klimabündnis&amp;quot;
+subtitle: &amp;quot;Ein paar Tips zur Erstellung von Artikeln von der Redaktion&amp;quot;
+date: 2021-04-10T12:50:34+01:00
+abstract: &amp;quot;Auf dieser Seite wird erklärt, wie ein neuer Artikel für die Webseite des Göttinger Klimabündnis erstellt wird&amp;quot;
+draft: true
+categories: [ &amp;quot;Hilfe&amp;quot; ]
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;title:&lt;/strong&gt;&lt;/em&gt; Titel des Artikels (max. 80 Zeichen)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;subtitle:&lt;/strong&gt;&lt;/em&gt; Untertitel des Artikels (max. 120 Zeichen)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;date:&lt;/strong&gt;&lt;/em&gt; das Erscheinungs-Datum, Format: jjjj-mm-ttTHH:MM:SS+0A:00 , wobei A die Abweichung von Universal-Time ist (Sommerzeit +2h, Winterzeit +1h).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;abstract:&lt;/strong&gt;&lt;/em&gt; eine kurze Zusammenfassung des Textes (max. 200 Zeichen)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;categories:&lt;/strong&gt;&lt;/em&gt; eine Liste von Stichwörtern oder Kategorien die zu dem Artikel passen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;der-header-für-veranstaltungen&#34;&gt;Der Header für Veranstaltungen&lt;/h3&gt;
+&lt;p&gt;Hier werden zusätzlich noch weitere Daten, wie der Veranstaltungsort usw. gebraucht:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
+title:         &amp;quot;Klimaschutz-Tage Göttingen 2021&amp;quot;
+subtitle:      &amp;quot;den Rahmen für die Klimaschutz-Tage bietet die Stadt Göttingen&amp;quot;
+date:          2021-06-18T12:30:00+02:00
+etime:         2021-06-18T21:00:00+02:00
+author:        &amp;quot;Klimaschutz Göttingen&amp;quot;
+place:         &amp;quot;Goettingen&amp;quot;
+locURL:        &amp;quot;https://klimaschutz.goettingen.de/staticsite/staticsite.php?menuid=267&amp;amp;topmenu=14&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;date:&lt;/strong&gt;&lt;/em&gt; ist hier Datum und Beginn der Veranstaltung, nicht das Erscheinungs-Datum wie zuvor&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;etime:&lt;/strong&gt;&lt;/em&gt; ist hier Datum und ungefähre Ende der Veranstaltung&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;author:&lt;/strong&gt;&lt;/em&gt; gibt den Veranstalter an, und&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;place:&lt;/strong&gt;&lt;/em&gt; den Veranstaltungsort&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;locURL:&lt;/strong&gt;&lt;/em&gt; kann für weiterführende Links zu anderen Seiten verwendet werden.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mindestens vorhanden sein müssen Titel und das Datum mit der Uhrzeit, aber
+normalerweise reicht das natürlich als Information für die Besucher nicht
+aus. Dann muss entweder mit &lt;em&gt;&lt;strong&gt;locURL:&lt;/strong&gt;&lt;/em&gt; auf die externe Seite verlinkt
+werden, oder die notwendigen Infos müssen im Header oder im Text stehen.&lt;/p&gt;
+&lt;h3 id=&#34;titel-untertitle-zusammenfassung-und-datum&#34;&gt;Titel, Untertitle, Zusammenfassung und Datum&lt;/h3&gt;
+&lt;p&gt;sind oben hinreichend beschrieben.&lt;/p&gt;
+&lt;h3 id=&#34;stichwörter-oder-kategorien&#34;&gt;Stichwörter oder Kategorien&lt;/h3&gt;
+&lt;p&gt;Diese werden im Block Themen gesammelt, gegebenenfalls auch in ausgewählten
+Themen aus der Kopfleiste des Webseite.&lt;/p&gt;
+&lt;p&gt;Die Liste der Kategorien wird mit eckigen Klammern umschlossen, jede der
+Kategorien ist mit Anführungszeichen umschlossen und durch Kommas von den
+anderen getrennt.&lt;/p&gt;
+&lt;p&gt;Die derzeitige Liste der verfügbaren Kategorien ist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hilfe&lt;/li&gt;
+&lt;li&gt;Bauen, Wohnen&lt;/li&gt;
+&lt;li&gt;Energie&lt;/li&gt;
+&lt;li&gt;Gesundheit&lt;/li&gt;
+&lt;li&gt;Mobilität&lt;/li&gt;
+&lt;li&gt;Pressemitteilung&lt;/li&gt;
+&lt;li&gt;Monitoring, Controlling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aber dies ist im Moment noch weitgehend frei gestaltbar und wird später überarbeitet.&lt;/p&gt;
+&lt;h2 id=&#34;der-textteil-des-artikels-mithilfe-von-markdown&#34;&gt;Der Textteil des Artikels mithilfe von Markdown&lt;/h2&gt;
+&lt;p&gt;Um eine möglichst einfache und plattform-unabhängige Darstellung von Texten zu
+ermöglichen, wurde eine spezielle Beschreibungsform für die Textformattierung
+eingeführt, mit der zum Beispiel Überschriften, Einrückungen, Spiegelstriche,
+Hervorhebungen oder Absätze markiert,
+aber auch zum Beispiel Links auf andere
+Stellen im Text oder im Netz erstellt und auch Fotos eingebunden werden
+können.&lt;/p&gt;
+&lt;p&gt;Der volle Umfang dessen, was damit dargestellt werden kann, lässt sich zum
+Beispiel &lt;a href=&#34;https://demo.hedgedoc.org/features?both&#34;&gt;auf dieser Seite&lt;/a&gt; sowohl in
+einer Darstellung des ursprünglichen Markup-Textes links, als auch in der
+entsprechend formatierten Form rechts finden.&lt;/p&gt;
+&lt;p&gt;Die wichtigsten Themen seien hier im Folgenden kurz behandelt:&lt;/p&gt;
+&lt;h3 id=&#34;überschriften&#34;&gt;Überschriften&lt;/h3&gt;
+&lt;p&gt;werden durch &amp;lsquo;#&amp;rsquo;s am Anfang der Zeile festgelegt. Beispiel:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Wie erstelle ich einen neuen Artikel 
+## Hilfe bei der Formatierung für die Webseite des Göttinger Klimabündnis
+### Überschriften
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;absätze&#34;&gt;Absätze&lt;/h3&gt;
+&lt;p&gt;Ein neuer Absatz entsteht immer dann, wenn im Text eine Leerzeile vorkommt.&lt;/p&gt;
+&lt;h3 id=&#34;fett-schräg-durchgestrichen&#34;&gt;Fett, Schräg, Durchgestrichen&lt;/h3&gt;
+&lt;p&gt;Texttypen wie &lt;strong&gt;Fett&lt;/strong&gt;, &lt;strong&gt;fett&lt;/strong&gt;, &lt;em&gt;schräg&lt;/em&gt;, oder &lt;del&gt;durchgestrichen&lt;/del&gt; können
+mit bündig vor oder hintan gestellten Zeichen im laufenden Text ausgewählt werden, wie in:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;**Fett**, __fett__, *schräg*, oder ~~durchgestrichen~~
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Unterstreichungen sind nicht möglich.&lt;/p&gt;
+&lt;h3 id=&#34;spiegelpunkte&#34;&gt;Spiegelpunkte&lt;/h3&gt;
+&lt;p&gt;Spiegelpunkte brauchen einen eigenen Absatz, müssen also eine Leerzeile
+darüber und darunter haben.
+Gestaffelte Spiegelstriche werden&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;durch
+&lt;ul&gt;
+&lt;li&gt;die&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Nutzung
+&lt;ul&gt;
+&lt;li&gt;von&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Minuszeichen oder Sternen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;mit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Einrückungen durch drei Leerzeichen erzeugt, wie zum Beispiel mit&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+- durch
+   - die
+   * Nutzung
+      * von
+   * Minuszeichen oder Sternen
+- mit
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;einrückungen&#34;&gt;Einrückungen&lt;/h3&gt;
+&lt;p&gt;Einrückungen eignen sich zum Beispiel gut für die Markierung wörtlicher Rede.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sie brauchen ebenfalls einen eigenen Absatz, müssen also eine Leerzeile
+darüber und darunter haben und können durch das größer-Zeichen am Anfang der
+ersten Zeile des Absatzes erreicht werden,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;wie in:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+&amp;gt; Sie brauchen ebenfalls einen eigenen Absatz, müssen also eine Leerzeile
+darüber und darunter haben und können durch das größer-Zeichen am Anfang der
+ersten Zeile des Absatzes erreicht werden,
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;p&gt;Links auf andere Stellen im Text oder im Netz lassen sich
+durch einen Textteil in eckigen Klammern und der Hyperlink-Referenz
+in runden Klammern erzeugen, wie zum Beispiel im Hinweis für die
+weiterführenden Beispielen
+&lt;a href=&#34;https://demo.hedgedoc.org/features?both&#34;&gt;auf dieser externen Seite&lt;/a&gt;
+, das wie folgt dargestellt wird:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[auf dieser externen Seite](https://demo.hedgedoc.org/features?both)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Alle Links auf diesen Web-Seiten führen immer zur Öffnung eines neuen
+Browser-Fensters.&lt;/p&gt;
+&lt;h3 id=&#34;fotos&#34;&gt;Fotos&lt;/h3&gt;
+&lt;p&gt;Fotos lassen sich ähnlich wie Links einfügen, brauchen allerdings ein
+vorangestelltes &amp;ldquo;!&amp;rdquo; 
+  &lt;img src=&#34;https://goettinger-klimabuendnis.de/img/banner/deutsches-theater-nachts.jpg&#34; alt=&#34;Beispiel&#34;&gt;
+
+ und müssen
+auf ein Bild im Netz verweisen. Dies wird zum Beispiel wie folgt angegeben:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;... vorangestelltes &amp;quot;!&amp;quot; ![Beispiel](/img/deutsches-theater-nachts.jpg) und
+müssen ...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Der Text zwischen den eckigen Klammern wird genutzt, wenn das Bild vom Browser
+im Netz nicht gefunden wird.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wichtig:&lt;/strong&gt;
+Ein solches Bild kann zwar irgendwo liegen, aber dann ist unbedingt das &lt;strong&gt;Copyright&lt;/strong&gt; zu
+beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus extrernen Quellen
+genutzt werden, &lt;strong&gt;nur gemeinfreie Bilder&lt;/strong&gt; angegeben werden können.&lt;/p&gt;
+&lt;p&gt;Beim &lt;strong&gt;Einfügen von eigenen Bildern&lt;/strong&gt; in Texte müssen diese Bilder mit
+übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
+sollte dann in den runden Klammern eingetragen sein. Wenn es eigene
+Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.&lt;/p&gt;
+&lt;h3 id=&#34;tabellen&#34;&gt;Tabellen&lt;/h3&gt;
+&lt;p&gt;Tabellen&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;tic&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;tac&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;toe&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;du&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;em&gt;bist&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;dran&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|          | tic | tac | toe |
+|:--------:|:---:|:---:|:---:|
+| du       |  x  |     |  x  |
+| *bist*   |  o  |  o  |     |
+| **dran** |     |  o  |  x  |
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ulrich Schwardmann&lt;/p&gt;
+&lt;p&gt;Göttingen, den 10.4.2021&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;uScw&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
