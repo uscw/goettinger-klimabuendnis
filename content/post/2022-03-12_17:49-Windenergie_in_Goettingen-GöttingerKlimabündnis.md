@@ -173,8 +173,8 @@ Die Beschlussvorlage
 --------------
 
 Der Plan, der von der Verwaltung vor
-fast zehn Jahren (Ende 2012) erarbeitet wurde, war gut.
-Er wurde der Öffentlichkeit vorgestellt, und ihm wurde nach Ausräumen aller
+fast zehn Jahren (Ende 2012) erarbeitet wurde, war offenbar gut, denn 
+ihm wurde nach Vorstelung in der Öffentlichkeit und nach Ausräumen aller
 kritischen Punkte von fast [^3] allen betroffenen Ortsräten einstimmig
 zugestimmt.
 
