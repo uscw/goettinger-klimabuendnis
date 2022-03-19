@@ -28,7 +28,7 @@ Imperien.
 
 Nur wie? Die derzeitige Debatte verweist immer noch weitgehend auf
 fossil-immanente Lösungen, wie zum Beispiel andere Gaslieferanten zu
-suchen, LHG zu ermöglichen oder gar Kohle oder Atomkraft als die
+suchen, LNG zu ermöglichen oder gar Kohle oder Atomkraft als die
 Heilsbringer darzustellen.
 
 Seit mehr als fünfzig Jahren ist die Erderwärmung als Folge fossiler
