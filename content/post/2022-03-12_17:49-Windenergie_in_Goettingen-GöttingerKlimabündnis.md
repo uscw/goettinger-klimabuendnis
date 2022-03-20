@@ -99,7 +99,7 @@ Wie sieht die Situation in Göttingen aus?
 
 Wie gesagt: der Ausbau von Windkraft-Anlagen ist Göttinger Stadtpolitik.
 Es ist also die Frage, was hierbei in Göttingen wie schnell gemacht werden
-kann? Und es stellt sich heraus: wir können sofort im großen Stil loslegen loslegen.
+kann? Und es stellt sich heraus: wir können sofort im großen Stil loslegen.
 
 Der Plan ist ausgearbeitet
 -------------------------
@@ -113,8 +113,8 @@ Geeignete Flächen für Windkraft in Göttingen
 ============================================
 
 Welche Flächen im Stadtgebiet Göttingen für die Windkraft geeignet und
-vor allem nicht geeignte sind, war damals bereits von der Stadt und den
-Planungsbüros erarbeite worden. Wesentliche Kriterien waren und sind vor
+vor allem nicht geeignet sind, war damals bereits von der Stadt und den
+Planungsbüros erarbeitet worden. Wesentliche Kriterien waren und sind vor
 allem Naturschutz und Abstand zu Wohngebieten.
 
 Natur- und Landschaftsschutz
@@ -139,8 +139,6 @@ Abstand und Strassen, Richtfunkanlagen, Stromtrassen usw. mit jeweils
 Potentialflächen
 ----------------
 
-Die Restriktionen für die Ausweisung von Flächen für Windenergie sind
-
 Es sind insgesamt 11 sogenannte Potentialflächen von sehr
 unterschiedlicher Größe ausgewiesen worden, die zusammen genommen eine
 Fläche von fast 180 ha ergeben. Die genaue Lage der Flächen ist in der
@@ -152,7 +150,7 @@ ausgewiesen.
 Bei dem üblichen Richtwert von ca 0,5 Hektar pro moderner
 3MW-Windkraftanlage ist im Göttinger Stadtgebiet also Platz für ca. 360
 Windräder mit einer maximalen Leistung von über einem GigaWatt.
-Selbst wenn nur einer Anlage pro Hektar angesetzt wird,
+Selbst wenn nur eine Anlage pro Hektar angesetzt wird,
 liesse sich damit der Strombedarf Göttingens
 vollständig decken. Das ist ja mal ein Anfang.
 
@@ -174,7 +172,7 @@ Die Beschlussvorlage
 
 Der Plan, der von der Verwaltung vor
 fast zehn Jahren (Ende 2012) erarbeitet wurde, war offenbar gut, denn 
-ihm wurde nach Vorstelung in der Öffentlichkeit und nach Ausräumen aller
+ihm wurde nach Vorstellung in der Öffentlichkeit und nach Ausräumen aller
 kritischen Punkte von fast [^3] allen betroffenen Ortsräten einstimmig
 zugestimmt.
 
@@ -185,7 +183,7 @@ und Umweltausschuss beschlossen. Der nächste Schritt des geplanten Verfahrens
 war die Zustimmung des 
 damaligen Oberbürgermeisters Köhler (SPD) im Verwaltungsausschuss im Juni, um
 dann 
-im Rat im September endgültig beschlossen zu werden und Ende
+im Rat im September endgültig beschlossen und Ende
 Oktober im Amtsblatt rechtskräftig zu werden.
 
 Kassiert vom Oberbürgermeister?
