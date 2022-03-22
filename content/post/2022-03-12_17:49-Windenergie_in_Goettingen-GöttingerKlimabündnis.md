@@ -173,12 +173,12 @@ Die Beschlussvorlage
 Der Plan, der von der Verwaltung vor
 fast zehn Jahren (Ende 2012) erarbeitet wurde, war offenbar gut, denn 
 ihm wurde nach Vorstellung in der Öffentlichkeit und nach Ausräumen aller
-kritischen Punkte von fast [^3] allen betroffenen Ortsräten einstimmig
+kritischen Punkte von fast[^3] allen betroffenen Ortsräten einstimmig
 zugestimmt.
 
 ![Zustimmung der Ortsräte](/img/post/2013-05-23-Stand_Anhoerung_Ortsraete.png)
 
-Im  Mai und Juni 2013 wurde er nach eingehender Diskussion im Bau-
+Im  Mai und Juni 2013 wurde der Beschlussvorschlag[^4] nach eingehender Diskussion im Bau-
 und Umweltausschuss beschlossen. Der nächste Schritt des geplanten Verfahrens
 war die Zustimmung des 
 damaligen Oberbürgermeisters Köhler (SPD) im Verwaltungsausschuss im Juni, um
@@ -194,10 +194,11 @@ Bauausschuss tauchte die Beschlussvorlage in keiner Sitzung der Göttinger
 Ausschüsse mehr auf. Oberbürgermeisters Köhler hatte ihn offenbar im nicht
 öffentlichen Verwaltungsausschuss kassiert.
 
-Selbst In der sogenannten Ratsbeschlusskontrollliste
-[^4],
+Selbst In der sogenannten Ratsbeschlusskontrollliste[^5],
 dem zentralen Kontrollinstrument der wirkungsvollen Arbeit des Göttinger Stadtrates,
-wird dieser Vorgang fortan mit keinem Wort und keiner Vorlagennummer mehr erwähnt. 
+wird dieser Vorgang als verwaltungsseitig zurückgezogen/vertagt
+bezeichnet (was denn nun?) und 
+fortan mit keinem Wort und keiner Vorlagennummer mehr erwähnt. 
 Diese hervorragende Vorarbeit für die Windkraft in Göttingen ist also
 umfassend unter den Teppich gekehrt worden.
 
@@ -233,7 +234,8 @@ derzeit nach scharfen Sanktionen gegen die Kriegspolitik Russlands rufen.
 
 [^2]: <https://www.fachagentur-windenergie.de/aktuelles/detail/infraschall-bundesanstalt-korrigiert-rechenfehler/>
 
-[^3]: bis auf Groß Ellershausen/Hetjershausen/Knutbühren mit dem Wunsch
-    nach 500m mehr Abstand
+[^3]: bis auf Groß Ellershausen/Hetjershausen/Knutbühren mit dem Wunsch nach 500m mehr Abstand
 
-[^4]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
+[^4]: <https://ratsinfo.goettingen.de/bi/vo020.asp?VOLFDNR=8448>
+
+[^5]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
