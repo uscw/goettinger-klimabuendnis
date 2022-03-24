@@ -151,10 +151,10 @@ ausgewiesen.
 Bei einem Mindestabstand von einem Dreifachen des Rotordurchmessers[^6] und bei
 typischen 115-120m Rotordurchmesser in der 3MW-Klasse für Windräder betragt
 der Abstand also 345-360m. Damit lassen
-sich auf den elf Teilflächen vermutlich mehr als 70 Anlagen unterbringen
-mit einer maximalen Leistung von über 200MW. Selbst bei nur elf Prozent der
-Volllaststunden ergäbe dies einen Gesamtertrag von ca 200MWh/a. So liesse
-sich mehr als ein Drittel des Strombedarfs in Göttingens von 580MWh/a (2020)
+sich auf den elf Teilflächen vermutlich ca 45 Anlagen unterbringen
+mit einer maximalen Leistung von  135MW. Selbst bei nur elf Prozent der
+Volllaststunden ergäbe dies einen Gesamtertrag von ca 135MWh/a. So liesse
+sich fast ein Viertel des Strombedarfs in Göttingens von 580MWh/a (2020)
 decken. Das ist ja mal ein Anfang. 
 
 Windhöffigkeit
