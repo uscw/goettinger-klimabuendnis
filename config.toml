@@ -15,16 +15,18 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  # header_image = "img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
-  header_image = "img/banner/2021-02-05_welt_in_der_hand.jpg"
+  header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
+  # header_image = "img/banner/2021-02-05_welt_in_der_hand.jpg"
   # posts_image: see content/post/_index.md
   # events_image: see content/event/_index.md
   SEOTitle = "Göttinger Klimabündnis"
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
   slogan = "zur Vernetzung der Göttinger Klimainitiativen"
-  sidebar_pow = "img/pow/2022-02-18-Greenwashing_Demo.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_pow_description = "Ein klarer Auftrag an den Rat und die Stadtverwaltung Göttingens zur Kundgebung am 18.2.2022"
+  sidebar_pow = "img/pow/2022-03-Klimastreik_1.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_pow_description = "Klimastreik in Göttingen am 25.3.2022 mit mehr als zweitausend Teilnehmern"
+  #sidebar_pow = "img/pow/2022-02-18-Greenwashing_Demo.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Ein klarer Auftrag an den Rat und die Stadtverwaltung Göttingens zur Kundgebung am 18.2.2022"
   #sidebar_pow = "img/pow/2022-01-08_Lützerath_Demo_Gö2.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_pow_description = "Göttinger Gänseliesl nach der Kundgebung: 'Lützerath bleibt!' am 08.01.2022"
   #sidebar_pow = "img/pow/2022-01-08_Lützerath_Demo_Gö1.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
