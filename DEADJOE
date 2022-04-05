@@ -44,3 +44,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Sun Apr  3 20:34:18 2022
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+- 
+-
+; 
+
+
+- 
+�
+mathcal
+VALUE=DATE:2022
+Geb.:
+
+*** File '(Unnamed)'
+❑
+, 
+
+.
+\n\n
+  sidebar_pow_description = "
+[s
+mathscr
+VALUE=DATE:2021
+Geburtstag
+
+*** File '(Unnamed)'
+test.sh
+test.sh
+test.sh
+test.sh
+test.sh
+bin/scanarchiv
+bin/scanarchiv
+bin/scanarchiv
+bin/single_event.py
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2022-04-01_17:30__Luetzi_Sponti-Demo.md
+content/post/2022-03-29_15:57-Umgang_mit_Energie_in_der_momentanen_Lage-BündnisfürnachhaltigeStadtentwicklungGöttinge.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Umgang mit Energie in der momentanen Lage"
+title:         "PM: Umgang mit Energie in der momentanen Lage"
 subtitle:      "Pressemitteilung des Bündnis für nachhaltige Stadtentwicklung Göttingen"
 date:          2022-03-29T15:50:00+01:00
 publishdate:   2021-12-19T00:00:00+01:00
