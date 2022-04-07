@@ -28,7 +28,7 @@ Durchschnittlich kauft jede:r Deutsche jährlich 60 Kleidungsstücke. Wenn im Ja
 
 Wir wollen am 24.04. auf die katastrophalen Auswirkungen der Fast Fashion Branche auf Mensch und Umwelt aufmerksam machen und die Menschen für nachhaltige Alternativen begeistern. Denn wir brauchen nicht noch mehr Klamotten, die unsere Kleiderschränke verstopfen und nach ein paar Mal tragen weggeworfen werden, wir brauchen einen Systemwandel und ein Bewusstsein für die wertvollen Ressourcen unseres Planeten. Zu oft vergessen wir beim Shopping, welch lange Reise ein T-Shirt oder Jeans bereits hinter sich hat, bevor sie im Laden auf den Käufer/Käuferin wartet. Ganz zu schweigen von den CO2 Emissionen und der Wasserverbrauch, der oft mit der Produktion von Textilien einhergeht.
 
-wir veranstalten am 24.4. von 14h-17h im KAZ einen Kleidertausch und ein Repair Café für Kleidung.
+![Poster](/img/event/Poster_Kleidertausch_20220515.jpg)
 
 Bittet teilt unsere Einladung und kommt in großer Zahl.
 
