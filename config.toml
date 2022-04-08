@@ -75,7 +75,7 @@ home = ["HTML", "RSS", "Algolia"]
   recent_posts = true
   recent_events = true
   summarylength = 60
-  nexteventdays = 7
+  nexteventdays = 21
 
   [taxonomies]
   category = 'categories'
