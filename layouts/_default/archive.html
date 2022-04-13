@@ -11,6 +11,11 @@
             post-container
         ">
             <div class="archive-list">
+              <h1> Archiv der Mitteilungen </h1>
+              <h3 class="ref2events">
+              <a href="/top/event_archive/">
+              Zum Veranstaltungs-Archiv </a></h3>
+
                 {{ range ($pages.GroupByDate "2006") }}
                 {{ if gt .Key 1 }}
                     {{ $.Scratch.Set "count" 1 }}
@@ -34,6 +39,10 @@
 
                 {{ end }}
                 {{ end }}
+              <h3 class="ref2events">
+              <a href="/top/event_archive/">
+              Zum Veranstaltungs-Archiv </a></h3>
+
             </div>
        	</div>
 </div>
