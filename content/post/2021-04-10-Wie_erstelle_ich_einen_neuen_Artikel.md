@@ -214,13 +214,24 @@ müssen ...
 Der Text zwischen den eckigen Klammern wird genutzt, wenn das Bild vom Browser
 im Netz nicht gefunden wird.
 
-**Wichtig:** 
-Ein solches Bild kann zwar irgendwo liegen, aber dann ist unbedingt das **Copyright** zu
-beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus extrernen Quellen
-genutzt werden, **nur gemeinfreie Bilder** angegeben werden können.
+Die Größe eines Fotos 
+{{< figure src="/img/banner/deutsches-theater-nachts.jpg" alt="Beispiel" width="250px" >}}
+kann mittels einer Angabe wie zum Beispiel der folgenden eingestellt werden:
 
-Beim **Einfügen von eigenen Bildern** in Texte müssen diese Bilder mit
-übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
+```
+{ {< figure src="/img/banner/deutsches-theater-nachts.jpg" alt="Beispiel" width="250px"
+>} }
+```
+
+**Wichtig:** 
+Ein solches Bild kann bei entsprechedner Referenz zwar irgendwo liegen, 
+aber dann ist unbedingt das **Copyright** zu
+beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus externen Quellen
+genutzt werden, **nur gemeinfreie Bilder**, i.a. mit einer entsprechenden
+Quellenangabe, angegeben werden können.
+
+Beim **Einfügen von eigenen Bildern** in Texte müssen diese Bilder mit and
+die Redaktion übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
 sollte dann in den runden Klammern eingetragen sein. Wenn es eigene
 Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.
 

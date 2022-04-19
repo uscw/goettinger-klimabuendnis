@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 10 Apr 2021 12:50:34 +0100</lastBuildDate><atom:link href="https://goettinger-klimabuendnis.de/categories/hilfe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wie erstelle ich einen neuen Artikel für die Webseite des Göttinger Klimabündnis</title>
-      <link>https://goettinger-klimabuendnis.de/post/2021-03-10-wie_erstelle_ich_einen_neuen_artikel/</link>
+      <link>https://goettinger-klimabuendnis.de/post/2021-04-10-wie_erstelle_ich_einen_neuen_artikel/</link>
       <pubDate>Sat, 10 Apr 2021 12:50:34 +0100</pubDate>
       
-      <guid>https://goettinger-klimabuendnis.de/post/2021-03-10-wie_erstelle_ich_einen_neuen_artikel/</guid>
+      <guid>https://goettinger-klimabuendnis.de/post/2021-04-10-wie_erstelle_ich_einen_neuen_artikel/</guid>
       <description>&lt;h1 id=&#34;wie-erstelle-ich-einen-neuen-artikel&#34;&gt;Wie erstelle ich einen neuen Artikel&lt;/h1&gt;
 &lt;h2 id=&#34;hilfe-bei-der-formatierung-für-die-webseite-des-göttinger-klimabündnis&#34;&gt;Hilfe bei der Formatierung für die Webseite des Göttinger Klimabündnis&lt;/h2&gt;
 &lt;p&gt;Im folgenden gibt es ein paar Tipps, wie ihr Posts formatieren solltet, damit
@@ -174,12 +174,29 @@ auf ein Bild im Netz verweisen. Dies wird zum Beispiel wie folgt angegeben:&lt;/
 müssen ...
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Der Text zwischen den eckigen Klammern wird genutzt, wenn das Bild vom Browser
 im Netz nicht gefunden wird.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wichtig:&lt;/strong&gt;
-Ein solches Bild kann zwar irgendwo liegen, aber dann ist unbedingt das &lt;strong&gt;Copyright&lt;/strong&gt; zu
-beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus extrernen Quellen
-genutzt werden, &lt;strong&gt;nur gemeinfreie Bilder&lt;/strong&gt; angegeben werden können.&lt;/p&gt;
-&lt;p&gt;Beim &lt;strong&gt;Einfügen von eigenen Bildern&lt;/strong&gt; in Texte müssen diese Bilder mit
-übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
+&lt;p&gt;Die Größe eines Fotos
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://goettinger-klimabuendnis.de/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; style=&#34;max-width:250px&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://goettinger-klimabuendnis.de/img/banner/deutsches-theater-nachts.jpg&#34; alt=&#34;Beispiel&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://goettinger-klimabuendnis.de/img/banner/deutsches-theater-nachts.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+kann mittels einer Angabe wie zum Beispiel der folgenden eingestellt werden:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{ {&amp;lt; figure src=&amp;quot;/img/banner/deutsches-theater-nachts.jpg&amp;quot; alt=&amp;quot;Beispiel&amp;quot; width=&amp;quot;250px&amp;quot;
+&amp;gt;} }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Wichtig:&lt;/strong&gt;
+Ein solches Bild kann bei entsprechedner Referenz zwar irgendwo liegen,
+aber dann ist unbedingt das &lt;strong&gt;Copyright&lt;/strong&gt; zu
+beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus externen Quellen
+genutzt werden, &lt;strong&gt;nur gemeinfreie Bilder&lt;/strong&gt;, i.a. mit einer entsprechenden
+Quellenangabe, angegeben werden können.&lt;/p&gt;
+&lt;p&gt;Beim &lt;strong&gt;Einfügen von eigenen Bildern&lt;/strong&gt; in Texte müssen diese Bilder mit and
+die Redaktion übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
 sollte dann in den runden Klammern eingetragen sein. Wenn es eigene
 Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.&lt;/p&gt;
 &lt;h3 id=&#34;tabellen&#34;&gt;Tabellen&lt;/h3&gt;
