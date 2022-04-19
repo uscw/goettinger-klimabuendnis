@@ -6,6 +6,7 @@ date:          2022-02-25T18:00:00+01:00
 publishdate:   2021-11-17T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 author:        "Parents for Future für das Göttinger Klimabündnis"
+showtoc:      true
 draft:        false
 ---
 

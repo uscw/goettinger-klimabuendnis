@@ -6,6 +6,7 @@ date:          2022-03-12T17:49:00+01:00
 publishdate:   2021-12-02T00:00:00+01:00
 image:         "/img/banner/stadthalle-hier-1.jpg"
 author:        "Göttinger Klimabündnis"
+showtoc:      true
 draft:        false
 ---
 

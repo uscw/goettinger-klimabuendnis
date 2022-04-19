@@ -6,6 +6,7 @@ date:          2022-04-19T14:27:00+01:00
 publishdate:   2022-01-09T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 author:        "Scientists for Future Göttingen"
+showtoc:      true
 draft:        false
 ---
 

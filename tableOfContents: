@@ -142,8 +142,3 @@ params = ["categories", "tags"]
 
 [rss]
 Limit = 5
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    startLevel = 1

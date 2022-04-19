@@ -69,13 +69,14 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                {{ if (eq (.Param "showtoc") true) }}
+                <!--
+                {{ if not (eq (.Param "showtoc") false) }}
                 <header>
-                    <h2>Inhalt</h2>
+                    <h2>TOC</h2>
                 </header>
                 {{.TableOfContents}}
                 {{ end }}
-
+                -->
                 {{ .Content }}
 
                 {{ if .Site.Params.reward }}

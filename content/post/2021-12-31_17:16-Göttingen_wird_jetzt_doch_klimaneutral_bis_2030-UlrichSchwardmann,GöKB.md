@@ -6,6 +6,7 @@ date:          2021-12-31T17:16:00+01:00
 publishdate:   2021-09-22T00:00:00+01:00
 author:        "Ulrich Schwardmann, GöKB"
 image:         "/img/banner/021-11-30_Klimacamp_zu_Stadt_und_Landkreis-banner.jpg"
+showtoc:      true
 draft:        false
 ---
 
