@@ -23,6 +23,6 @@ alle, die der Veranstaltungen vor dem Rechner müde sind, können uns auf dem Ac
 
 Mehr Informationen unter:
 
-https://goettinger-klimabuendnis.de/2022/04/23/15/30/besuch_auf_dem_acker_der_stadtsolawi_goettingen_in_siekweg/
+https://goettinger-klimabuendnis.de/post/2022-04-22_1359-lust_auf_frisches_saisonales_und_biologisch_angebautes_obst_und_gem%C3%BCse_direkt_aus_eurer_stadt-stadtsolawig%C3%B6ttingen/
 
 und beim [Veranstalter](http://www.stadtsolawi.de)
