@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Die Windenergie im Göttinger Rat"
+title:         "Zu wenig Wind im Göttinger Rat"
 subtitle:      "Rede auf der FossilFreeRide-Demonstration"
 date:          2022-04-30T13:12:00+01:00
 publishdate:   2022-01-20T00:00:00+01:00
