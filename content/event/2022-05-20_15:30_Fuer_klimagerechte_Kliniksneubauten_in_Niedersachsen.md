@@ -17,7 +17,9 @@ image:         "/img/banner/2021-06-04-Goettingen-Klimastreik_banner.jpg"
 Für klimagerechte Kliniksneubauten in Niedersachsen
 ===========
 
-Demonstration und Petition
+Demonstration und [Petition](https://www.openpetition.de/petition/online/fuer-einen-klimaschonenden-bau-und-betrieb-der-neuen-universitaetskliniken-in-goettingen-und-hannove)
 -----------
 
 ![Demonstration und Petition](/img/event/2022-05-20-UMG_Plakat_Final.png)
+
+[PM und Aufruf von Fridays for Future Hannover](/post/2022-05-05_1203-demo_für_nachhaltige_klinikbauten-fridaysforfuturehannover/)
