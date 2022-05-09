@@ -51,7 +51,7 @@ def get_post():
     
     cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "draft" : draft}
     curr_posts = {}
-    curr_posts[str(Date) + "_" + Time + "-" + title.replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")  +  "-" + author.replace(" ","")] = cont
+    curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")] = cont
     return curr_posts
 
 def get_publish_date(date_str, publish_delta):
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
     fo = open(PostDir + post + ".md", "w")
     fo.write("---"+ "\n")
-    fo.write("layout:        events"+ "\n")
+    fo.write("layout:        posts"+ "\n")
     fo.write("title:         \"" + Pst["title"] + "\""+ "\n")
     fo.write("subtitle:      \"" + Pst["subtitle"] + "\""+ "\n")
     fo.write("date:          " + Pst["date"] + "T" + Pst["time"] + ":00+01:00"+ "\n")
