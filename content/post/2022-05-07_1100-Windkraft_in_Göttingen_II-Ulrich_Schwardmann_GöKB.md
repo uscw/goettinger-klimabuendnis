@@ -24,7 +24,7 @@ sehr genau ausgearbeiteten Beschlussvorlage FB61/957/12 der Verwaltung im Jahr
 2013 geschehen, die immerhin Potentialflächen von fast 180ha in Göttingen
 ausgewiesen hatte, aber ohne Entscheidung geblieben ist.
 
-In der Ratsbeschlusskontrollliste[^RBK]
+In den Ratsanträgen (siehe Ratsbeschlusskontrollliste[^RBK])
 kommt seit 2013 der Begriff Wind nur noch im Begriff Gesch**wind**igkeit vor,
 wobei es hier weniger um die Geschwindigkeit hin zur Klimaneutralität der
 Stadt geht, sondern vornehmlich um die Diskussion, ob eine
@@ -49,7 +49,7 @@ deshalb nicht zum LSG, dessen Zweck ja der Landschaftsschutz, also ein
 ästhetischer Anspruch ist.
 ![ll](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_400m.png)
 
-Abwägung zwischen Klima- und Naturschutz
+Abwägung zwischen Klima-, Landschafts- und Naturschutz
 ------------
 
 Nach **Bundesnaturschutzgesetz** gilt: Für Windenergie in
