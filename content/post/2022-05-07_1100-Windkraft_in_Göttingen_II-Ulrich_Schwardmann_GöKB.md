@@ -1,16 +1,17 @@
 ---
-layout:        posts
+layout:        post
 title:         "Windkraft in Göttingen II"
 subtitle:      "Zur Energiewende muss auch Göttingen seinen Beitrag leisten"
 date:          2022-05-07T11:00:00+01:00
 publishdate:   2022-01-27T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 author:        "Ulrich Schwardmann, GöKB"
+showtoc:      true
 draft:        true
 ---
 
-Windkraft im Landschaftsschutzgebiet Leinetal
-==============
+# Windkraft im Landschaftsschutzgebiet Leinetal
+
 
 Dass  im Stadtgebiet Göttingens
 ein erhebliches Potential 
@@ -49,8 +50,7 @@ deshalb nicht zum LSG, dessen Zweck ja der Landschaftsschutz, also ein
 ästhetischer Anspruch ist.
 ![ll](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_400m.png)
 
-Abwägung zwischen Klima-, Landschafts- und Naturschutz
-------------
+## Klima- oder Landschaftsschutz
 
 Nach **Bundesnaturschutzgesetz** gilt: Für Windenergie in
 Landschaftsschutzgebieten gilt die Möglichkeit der **Zonierung**: Ausweisung von
@@ -69,7 +69,7 @@ einer Gesamtfläche von 82,69 ha für die Windkraftnutzung im LSG ausgewies.
 ![ll](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_1000m_und_Orte.png)
 
 Damit war eigentlich ein guter Kompromiss zwischen den Belangen des Klima- und
-des Naturschutz gefunden. Auch die Vertreterin des Naturschutzes im
+des Landschaftsschutz gefunden. Auch die Vertreterin des Naturschutzes im
 Umweltausschuss findet, dass die Zonierung einen gewissen Charme besäße, da
 man letztendlich keine Flächen aus dem LSG entlasse. Kritisch wird nur
 gesehen, dass die Vorgehensweise wegen der fehlenden Prüfung der
@@ -89,8 +89,8 @@ Auch der Klimaschutzbeirat empfiehlt in einem einstimmigen Beschluss den
 Fraktionen, dem Verfahren der Zonierung zuzustimmen.
 
 
-Und was machen die Parteien im Umweltausschuss? 
----------------
+## Und was machen die Parteien im Umweltausschuss? 
+
 
 Herr Dr. Scherer von der CDU und Frau Schüle Rennschuh,
 ebenfalls von der CDU und aktiv in der BI Gegenwind, lehnen das Verfahren im
@@ -119,10 +119,234 @@ Sie verstehe
 nicht, warum die SPD nicht die Konsequenz ziehe, das vorgeschlagene Verfahren
 abzulehnen, sondern es einfach „ruhen“ zu lassen.
 
-Das ist eben der Unterschied zwischen Klimaleugnern und Klimabehinderern.
+Hier verläuft in etwa die Grenzlinie zwischen Klimaleugnern und
+Klimabehinderern, aber sicherlich nicht die hin zu einer zukunftsgerechten
+Klimapolitik.
 
 
-Rechtliche Randbedingungen
+## Der Geschmack der Oberverwaltungsrichter
+
+Auf diese Politik der Behinderung klimagerechter Politik springt Anfang
+vorletzten Jahres das Oberverwaltungsgericht in Lüneburg auf mit der
+Feststellung, dass Windenergie in Landschaftsschutzgebieten in Niedersachsen
+verboten sind, weil (auch) wegen  der **Schönheit der Landschaft** oder ihrer
+besonderen Bedeutung für die Erholung unter Schutz gestellt wurden (siehe
+Appendix: Rechtliche Randbedingungen).
+
+Die Richter haben hier also in letzter Instanz festgestellt, dass Windräder
+ihren ästetischen Ansprüchen leider nicht genügen und mit diesem
+Geschmacks-Urteil die Möglichkeiten der Zonierung in Niedersachsen begraben -
+für alle Gegenwind-Initiativen und Klimabehinderer ein weiterer Erfolg der
+Verhinderungsstrategie der letzten Jahre, die das Land fest auf Kurs in die
+Klimakrise und in der energiepolitischen Abhängigkeit von Russland gehalten hat.
+
+# Windkraft und Naturschutz
+
+Aber es kann bei allen baulichen Eingriffen natürlich Zielkonflikte mit dem
+Natur-, speziell dem Artenschutz, geben. Daher darf dieses Thema nicht
+ausgeklammert werden. Die Frage ist eben, wie und unter welchen Prämissen die
+Zielkonflikte gelöst werden.
+
+Die vom Niedersächsischen Landkreistag eingesetzte Expertengruppe für
+Naturschutz und Windenergie empfiehlt in ihren 2011 für die Kommunen
+verfassten Richtlinien (S. 12) noch: "Im Interesse der Planungssicherheit
+sollten Vorranggebiete bzw. Sondergebiete für Windenergie nur dargestellt
+werden, wenn eine besondere Bedeutung dieser Gebiete für den Schutz der
+Avifauna, von Fledermäusen und des Landschaftsbildes nach den verfügbaren
+Erkenntnissen ausgeschlossen werden kann."  
+
+## Der Zielkonflikt in Göttingen
+
+In der Diskussion in Göttingen hatte die Biologische Schutzgemeinschaft (BSG)
+dem Fachdienst Stadt- und Verkehrsplanung der Stadt Göttingen eine
+[Stellungnahme](/documents/BSG_Stellungnahme_Windkraft1.pdf)
+zur ursprünglichen Beschlussvorlage FB61/957/12 der Verwaltung im Jahr
+2013 Planung vorgelegt, die die folgenden elf Potentialflächen über ca. 180 ha
+auswies.
+
+![Potentialflächen](/img/post/2013-05-23-BauAusschuss-Potentialflächen.jpg)
+
+Die BSG stellt hierin fest, dass sie der Windkraft
+grundsätzlich positiv gegenüber steht, aber eine umfassende Berücksichtigung
+und Prüfung der Umweltbelange, insbesondere des Artenschutzes, nötig ist, da
+durch die Windrotoren vor allem Vögel und Fledermäuse stark gefährdet sind,
+insbesondere Eulen und Greifvögel, allen voran der Rotmilan.
+
+Unter Betrachtung
+der naturschutzfachlichen Konflikte erschienen der BSG drei Potentialflächen als sehr kritisch:
+- Nr 1, Geismar/Diemarden: Konflikte: Rotmilan/Rebhuhn/Feldhamster/Landschaftsbild
+- Nr 4/5, Knutbühren: Konflikte Rotmilan, Vogelschutz, Fledermäuse
+- Nr 10, Deppoldshausen: Konflikte FFH, Milan, Wanderfalke, Fledermäuse, Kranich, Schwarzstorch, Landschaftsbild
+
+Damit reduzieren sich die potentiellen 180 ha um die größten und
+windintensivsten Flächen mit einer Größe von fast 112 ha auf etwas mehr als
+ein Drittel. Selbst die für die Zonierung
+vorgesehenen 80 ha würden sich auf höchstens die Hälfte reduzieren.
+
+Abgesehen davon, dass auch hier die Ästhetik des Landschaftsschutzes als ein
+wichtiges Kriterium mit Naturschutz verwechselt wurde, begnügen sich die
+Begründungen über lange Strecken damit, dass eine besondere Bedeutung dieser
+Gebiete für den Artenschutz nicht ausgeschlossen werden kann. 
+
+Inwieweit
+Rebhuhn und Feldhamster durch Windenergie gestört werden wird dabei nicht
+erläutert. Fragwürdig sind auch Formulierungen wie, "Auch für den
+Rotmilan ist der Bereich wichtig, in diesem Jahr gab es z. B. einen
+Brutversuch ..." oder "die wertvollen Wald- und Waldrandbereiche sind für
+Vögel und Fledermäuse wichtig" und "liegt sehr nah am FFH-Gebiet", wenn in den
+ausgewiesen Flächen zu all diesen Gebieten entsprechende Pufferzonen
+eingehalten werden.
+
+Aber entscheidend ist der Ansatz zu hinterfragen, dass
+Gebiete ausgeschlossen werden, weil ihre besondere Bedeutung für den
+Artenschutz nicht ausgeschlossen werden kann. In einer Zeit, wo
+der Klimawandel als der entscheidendste Faktor bei der Vernichtung von Arten
+erkannt wurde, lässt sich so nicht mehr gegen Massnahmen zur Verhinderung des
+Klimawandels argumentieren. Stichhaltig kann unter dieser existierenden
+konkreten globalen Bedrohung nur noch eine Argumentation sein,
+die ebenfalls konkrete lokale Bedrohungen des Artenschutzes benennen kann.
+Es bleibt zu hoffen, dass diese Erkenntnis sich auch bei den
+Naturschutzinitiativen durchsetzt.
+
+Neue energiepolitische Lage
+================
+
+Wir haben es also bei der Windenergie mit Konflikten im Artenschutz auf
+globaler und lokaler Skala und in der ästhetischen Wahrnehmung der Landschaft
+zu tun. 
+Wie sich der Klimawandel auf die Ästhetik der Landschaft auswirkt,
+kann in unseren Wäldern beobachtet werden. Es zeigt sich also wieder einmal:
+über Geschmack lässt sich  streiten. 
+Und diesen Streit
+scheuen nun die Bundesministerien für Umwelt, Naturschutz, nukleare Sicherheit
+und Verbraucehrschutz, sowie für Wirtschaft und Klimaschutz nicht mehr, wie
+am Aufmacher ihres Eckpunktepapiers zur Beschleunigung des
+naturverträglichen Ausbaus der Windenergie an Land
+von Anfang April deutlich wird:
+Windkraft kann das Landschaftbild deutlich bereichern.
+
+![ll](/img/post/2022-04-04-Naturverträglichen_Ausbau_der_Windenergie_an_Land_beschleunigen-Eckpunktepapier.png)
+
+
+Im Eckpunktepapier werden die beiden Konfliktfelder Landschaftsschutz und
+Naturschutz angegangen 
+wird die zukünftige Linie der Gesetzgebung
+skizziert
+
+*** Landschaftsschutzgebiete
+
+werden bei der Planung vollumfänglich betrachtet und
+Gebiete für Windenergie sollen dort verstärkt ausgewiesen werden. Innerhalb von Landschaftsschutzgebieten sollen künftig Windenergieanlagen bereits
+zugelassen werden können, wenn dies planerisch vorgesehen ist. Eine zusätzliche
+Ausnahme nach der Landschaftsschutzgebietsverordnung oder Befreiung nach
+Bundes-Naturschutzgesetz (§ 67) ist dann nicht mehr erforderlich.
+Dies allerdings gilt nicht, soweit Landschaftsschutzgebiete zugleich
+Natura-2000-Gebiete oder Weltkultur- und Weltnaturerbeflächen sind. 
+
+
+
+
+
+Im genannten Eckpunktepapier wird dem Naturschutz, namentlich dem
+Artenschutz in vielerlei Hinsicht Rechnung getragen.
+Der Zielkonflikt zwischen Energiewende und Artenschutz soll dabei
+aber aufgelöst
+werden, wobei hohe Standards für den Artenschutz bewahrt werden
+sollen. Insbesondere die europäischen Naturschutz-
+Richtlinien werden respektiert und bleiben unangetastet. Erreicht werden soll
+dies durch präzise und einheitliche Listen für die betroffenen Vogelarten, die
+Vermeidungsmaßnahmen und die jeweiligen Abstände
+und einem zusätzlichen
+Artenhilfsprogramm, in das die 
+Windenergie-Betreiber einzahlen, wenn sie die Ausnahmeregelung nutzen.
+Damit ist also gewissermaßen eine Beweisumkehr geplant: die besondere
+Bedeutung der Gebiete muss nachgewiesen werden, nicht dass sie nicht
+ausgeschlossen werden kann. 
+
+
+Neue energiepolitische Lage
+----------
+
+Derartige Argumente für den Naturschutz sind nicht grundsätzlich falsch, aber
+sie müssen dringend unter den
+gegenwärtigen Veränderungen der 
+energiepolitischen Lage neu bewertet werden: Der IPCC warnt in seinem neuesten, sechsten Bericht, dass der Zeitraum für die
+Abwendung katastrophaler Auswirkungen nur noch sehr klein ist.
+Die Wetterexperten der Vereinten Nationen rechnen damit, dass die globale
+Durchschnittstemperatur eines Jahres bis 2025 erstmals mehr als 1,5 Grad über
+dem vorindustriellen Niveau liegen könnte.
+
+Durch diese Veränderungen werden naturgeschützte Gebiete und Biotope in weit
+höherem Maße bedroht, als durch die Aufstellung von Windenergieanlagen. Jede
+Verhinderung einer Windenergieanlage trägt zu diesem Prozess bei, weil
+entsprechend mehr fossile Energie verwendet wird.
+
+Nach dem Einmarsch Russland in die Ukraine ist klar
+geworden: die Abhängigkeit von fossilen Brennstoffen ist nicht nur
+ein Klima- sondern auch ein Sicherheitsrisiko für unsere Gesellschaft.
+
+Den Landschaftschutz dem Klimaschutz vorzuziehen ist daher grob
+fahrlässig, klima- wie sicherheitspolitisch.
+Die Auswirkungen lassen sich in unseren Wäldern und in der Zögerlichkeit bei
+geeigneten Sanktionen erkennen.
+Im Spannungsfeld zwischen Klima- und Umweltschutz wird es zu einem 
+Kompromiss kommen müssen, und zwar überall, auch in Göttingen, sonst kommt
+diese Stadt ihren Verpflichtungen, die sie gegenüber ihren Bewohnern hat,
+nicht nach. Sobald aus dem Eckpunktepapier Gesetz geworden ist, muss mit der
+Umsetzung begonnen werden, bis dahin muss die Planung dafür gemacht werden,
+denn die Zeit rennt uns davon.
+
+Der vergessene Königsbühl
+-------------
+
+In der Diskussion um Landschaft-, Natur- und Klimaschutz der vergangenen Jahre
+ist allerdings eine Potentialfläche völlig aus dem Radar geraten, wohl
+weil sie in keinem Widerspruch zu Landschaft und Natur steht. Es handelt sich
+um die Fäche 9 der Bauschuttdeponie Königsbühl mit 3,36 ha Fläche, von der
+natürlich der größte Teil für Bauschutt benötigt wird. Das Gebiet liegt
+zwischen Weende und Lenglern direkt an der Autobahn und den Bahngleisen auf
+Göttinger Stadtgebiet.
+
+Warum dieses Gebiet seit 2015 in keiner Betrachtung mehr vorkam, ist
+einigermaßen unverständlich. Möglicherweise liegt es daran, dass Frau
+Östereich das Gebiet aus dem Zonierungsvorschlag für das LSG herausgenommen
+hatte, weil es ja gar nicht zum Landschaftschutzgebietes Leinetal gehört.
+
+Wie dem auch sei,  diese Fläche eignet sich für Windenergienutzung selbst
+unter den Prämissen des gegenwärtigen Haushaltsbündnissvertrages
+zwischen SPD, CDU und FDP, indem ja auf Seite 7
+festgehalten wurde:
+
+> In Kooperation mit den Stadtwerken und mit benachbarten Gemeinden wird nach
+Flächen, im besten Fall entlang der Autobahn, für großflächige 
+Freiflächenphotovoltaikanlagen und Windkraftanlagen gesucht.
+
+Hier kann das Haushaltsbündnis ihren heeren Worten also unmittelbar Taten folgen
+lassen, und zügig eine Windenergieanlage errichten lassen. Lediglich die
+Göttinger Entsorgungsbetriebe müssten noch überzeugt werden. Aber das sollte
+mit einer 
+Beteiligung am Erlös ja möglich sein. Vielleicht kann hier auch zusammen mit
+der Nachbargemeinde Lenglern ein Windkraft-Zwilling auf der gegenüberliegenden
+Seite der Autobahn vereinbart werden: Ein zeitgemäßes Tor in die
+energiepolitische Zukunft Göttingens.
+
+Referenzen
+==============
+
+[^WiG]: <https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/>
+
+[^RBK]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
+
+[^LSGZon]: Vorlage-Nr: FB61/1153/15 vom 23.02.2015:
+    <https://ratsinfo.goettingen.de/bi/___tmp/tmp/45081036892549647/892549647/00171621/21.pdf>
+
+[^OVGL20]: OVG Lüneburg, Urteil vom 26.02.20 - 12 KN 182/17: <https://www.rechtsprechung.niedersachsen.de/jportal/portal/page/bsndprod.psml?doc.id=MWRE200001083&st=null&showdoccase=1>
+
+[^WEE16]: https://www.umwelt.niedersachsen.de/download/96713/Planung_und_Genehmigung_von_Windenergieanlagen_an_Land_in_Niedersachsen_und_Hinweise_fuer_die_Zielsetzung_und_Anwendung_Windenergieerlass_Ministerialblatt_vom_24.02.2016_.pdf]]. 
+
+
+
+Appendix: Rechtliche Randbedingungen
 ================
 
 Der sogenannte Windenergieerlass des niedersächsischen Ministeriums für Umwelt, 
@@ -197,45 +421,3 @@ Tabuzonen und Landschaftsschutzgebiete
   Konzentrationszonenplanung ein, weil Landschaftsschutzgebiete (auch) wegen
   der **Schönheit der Landschaft** oder ihrer
   besonderen Bedeutung für die Erholung unter Schutz gestellt wurden. 
-
-Der Geschmack der Oberverwaltungsrichter
-=============
-
-Damit haben die Richter in letzter Instanz festgestellt, dass Windräder ihren
-ästetischen Ansprüchen leider nicht genügen. Und mit diesem Geschmacks-Urteil 
-waren nun die Möglichkeiten der Zonierung in Niedersachsen begraben. Für alle
-Gegenwind-Initiativen und Klimabehinderern ein weiterer Erfolg der
-Verhinderungsstrategie der letzten Jahre, die das Land fest auf Kurs in die
-Klimakrise und in der energiepolitischen Abhängigkeit von Russland gehalten hat.
-
-Aber über Geschmack lässt sich bekanntermaßen streiten. Und diesen Streit
-scheuen die Bundesministerien für Umwelt, Naturschutz, nukleare Sicherheit
-und Verbraucehrschutz, sowie für Wirtschaft und Klimaschutz nicht. Dies wird
-am Aufmacher ihres Eckpunktepapiers zur Beschleunigung des
-naturverträglichen Ausbaus der Windenergie an Land
-von Anfang April deutlich:
-Windkraft kann das Landschaftbild deutlich bereichern.
-
-![ll](/img/post/2022-04-04-Naturverträglichen_Ausbau_der_Windenergie_an_Land_beschleunigen-Eckpunktepapier.png)
-
-In diesem Eckpunktepapier wird die zukünftige Linie der Gesetzgebung
-skizziert:  Landschaftsschutzgebiete werden bei der Planung vollumfänglich betrachtet und
-Gebiete für Windenergie sollen dort verstärkt ausgewiesen werden. Innerhalb von Landschaftsschutzgebieten sollen künftig Windenergieanlagen bereits
-zugelassen werden können, wenn dies planerisch vorgesehen ist. Eine zusätzliche
-Ausnahme nach der Landschaftsschutzgebietsverordnung oder Befreiung nach
-Bundes-Naturschutzgesetz (§ 67) ist dann nicht mehr erforderlich.
-Dies allerdings gilt nicht, soweit Landschaftsschutzgebiete zugleich
-Natura-2000-Gebiete oder Weltkultur- und Weltnaturerbeflächen sind. 
-
-
-
-[^WiG]: <https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/>
-
-[^RBK]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
-
-[^LSGZon]: Vorlage-Nr: FB61/1153/15 vom 23.02.2015:
-    <https://ratsinfo.goettingen.de/bi/___tmp/tmp/45081036892549647/892549647/00171621/21.pdf>
-
-[^OVGL20]: OVG Lüneburg, Urteil vom 26.02.20 - 12 KN 182/17: <https://www.rechtsprechung.niedersachsen.de/jportal/portal/page/bsndprod.psml?doc.id=MWRE200001083&st=null&showdoccase=1>
-
-[^WEE16]: https://www.umwelt.niedersachsen.de/download/96713/Planung_und_Genehmigung_von_Windenergieanlagen_an_Land_in_Niedersachsen_und_Hinweise_fuer_die_Zielsetzung_und_Anwendung_Windenergieerlass_Ministerialblatt_vom_24.02.2016_.pdf]]. 

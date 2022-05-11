@@ -21,7 +21,7 @@ Süden liegt.
 Hier gibt es viele freie Flächen. Selbst wenn Wälder
 ausgespart und 1000m Abstand 
 von Wohngebieten und Rotmilanvorkommen eingehalten  werden, 
-können elf Potentialflächen ausgewiesen werden:
+können [elf Potentialflächen](https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/) ausgewiesen werden:
 zusammen genommen eine Fläche von fast 180 ha. 
 Dies ist seit zehn Jahren bekannt und die
 sogenannte Windhöffigkeit ist nicht schlecht: darauf könnte mit modernen

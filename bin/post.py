@@ -7,7 +7,7 @@ from datetime import date, datetime, timedelta
 PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/"
 homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 banner_dir = "/img/banner"
-
+default_banner = "/img/banner/2021-12-17_Kundgebung_Rathaus_Goettingen_klimaneutral_2030.jpg"
 
 def get_post():
     today = datetime.now().strftime('%Y-%m-%d')
@@ -36,20 +36,22 @@ def get_post():
         print(file)
     Image = sys.stdin.readline()[:-1]
     if Image == "":
-        Image = cont["image"]
+        Image = default_banner
     else:
         Image = banner_dir + "/" + Image
     print ("Author")
     author =  sys.stdin.readline()[:-1]
+    print ("Show Table of Content [false|TRUE]")
+    showtoc =  sys.stdin.readline()[:-1].lower()
+    if showtoc == "" or showtoc not in  ["false","true"]:
+        showtoc = "true"
     print ("Draft [FALSE|true]")
-    draft =  sys.stdin.readline()[:-1]
-    if draft == "" or draft.lower() not in  ["false","true"]:
+    draft =  sys.stdin.readline()[:-1].lower()
+    if draft == "" or draft not in  ["false","true"]:
         draft = "false"
-    else:
-         draft = draft.lower()
+     
     
-    
-    cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "draft" : draft}
+    cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "showtoc" : showtoc, "draft" : draft}
     curr_posts = {}
     curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")] = cont
     return curr_posts
@@ -88,6 +90,7 @@ if __name__ == '__main__':
     if Pst["image"] != "":
         fo.write("image:         \"" + Pst["image"] + "\""+ "\n")
     fo.write("author:        \"" + Pst["author"] + "\""+ "\n")
+    fo.write("showtoc:      " + Pst["showtoc"] + "\n")
     fo.write("draft:        " + Pst["draft"] + "\n")
     fo.write("---"+ "\n")
     fo.write(""+ "\n")
