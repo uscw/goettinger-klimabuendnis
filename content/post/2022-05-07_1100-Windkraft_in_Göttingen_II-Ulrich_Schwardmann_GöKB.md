@@ -2,12 +2,12 @@
 layout:        post
 title:         "Windkraft in Göttingen II"
 subtitle:      "Zur Energiewende muss auch Göttingen seinen Beitrag leisten"
-date:          2022-05-07T11:00:00+01:00
+date:          2022-05-12T11:00:00+01:00
 publishdate:   2022-01-27T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 author:        "Ulrich Schwardmann, GöKB"
 showtoc:      true
-draft:        true
+draft:        false
 ---
 
 # Windkraft im Landschaftsschutzgebiet Leinetal
@@ -26,14 +26,14 @@ sehr genau ausgearbeiteten Beschlussvorlage FB61/957/12 der Verwaltung im Jahr
 ausgewiesen hatte, aber ohne Entscheidung geblieben ist.
 
 In den Ratsanträgen (siehe Ratsbeschlusskontrollliste[^RBK])
-kommt seit 2013 der Begriff Wind nur noch im Begriff Gesch**wind**igkeit vor,
-wobei es hier weniger um die Geschwindigkeit hin zur Klimaneutralität der
-Stadt geht, sondern vornehmlich um die Diskussion, ob eine
+kommt seit 2013 der Begriff Wind nur noch im Begriff Gesch**wind**igkeit vor.
+Dabei geht es hier weniger um die Geschwindigkeit hin zur Klimaneutralität der
+Stadt, sondern vornehmlich um die Diskussion, ob eine
 Geschwindigkeitreduktion 
 im motorisierten Individualverkehr rechtlich überhaupt möglich ist.
 
-Aber auch wenn das Thema Windenergie vom Radar der Arbeit des Göttinger Stadtrates
-verschwunden war, gab es "im Untergrund" immer noch Aktivitäten,
+Aber auch wenn das Thema Windenergie vom Radar der Arbeit des Göttinger
+Stadtrates verschwunden war, gab es "im Untergrund" immer noch Aktivitäten,
 die die Versprechungen des Masterplan 100% Klimaschutz noch nicht aufgegeben
 hatten. Denn nur zwei Jahre später brachte die Verwaltung eine neue Vorlage in
 den Umweltausschuss ein. Dieser Antrag zur 'Zonierung des
@@ -43,12 +43,13 @@ Landschaftsschutzgebieten zulässig ist, bzw. wie der Bau möglich gemacht
 werden kann. Das Landschaftsschutzgebiet Leinetal (LSG) überdeckt nämlich
 erhebliche Teile des Göttinger Stadtgebietes.
 
-In der folgenden Grafik sind das LSG hellgrau und
-Wohngebiete hellrot und mit einer 400m Tabuzone dargestellt. Die weisse Fläche
-im Osten der Stadt ist das Naturschutzgebiet Göttinger Walds und gehört
+In der folgenden Grafik sind das LSG hellgrün und die
+Wohngebiete dunkelgrau dargestellt. 
+Im Osten der Stadt ist das Naturschutzgebiet Göttinger Wald mit einem
+Vogelschutzgebiet im Bereich der Mackenröder Spitze und gehört
 deshalb nicht zum LSG, dessen Zweck ja der Landschaftsschutz, also ein
-ästhetischer Anspruch ist.
-![ll](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_400m.png)
+ästhetischer Anspruch ist. Im Osten liegt auch ein ausgedehntes Fauna-Flora-Habitat-Gebiet.
+![GoettingerSchutzgebiete](/img/post/2015-04-28-UmweltAusschuss-GoettingerSchutzgebiete.png)
 
 ## Klima- oder Landschaftsschutz
 
@@ -66,7 +67,7 @@ Formulierungsvorschlag für eine Änderung der Verordnung der Stadt Göttingen
 über das Landschaftsschutzgebiet „Leinetal“ gemacht, der vier Standorte mit
 einer Gesamtfläche von 82,69 ha für die Windkraftnutzung im LSG ausgewies.
 
-![ll](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_1000m_und_Orte.png)
+![ZonierungLSG](/img/post/2015-04-28-UmweltAusschuss-ZonierungLSG_Stadtgebiet_mit_LSG_Wohngebiete_und_1000m_und_Orte.png)
 
 Damit war eigentlich ein guter Kompromiss zwischen den Belangen des Klima- und
 des Landschaftsschutz gefunden. Auch die Vertreterin des Naturschutzes im
@@ -155,7 +156,7 @@ werden, wenn eine besondere Bedeutung dieser Gebiete für den Schutz der
 Avifauna, von Fledermäusen und des Landschaftsbildes nach den verfügbaren
 Erkenntnissen ausgeschlossen werden kann."  
 
-## Der Zielkonflikt in Göttingen
+## Wie sieht der Zielkonflikt in Göttingen aus?
 
 In der Diskussion in Göttingen hatte die Biologische Schutzgemeinschaft (BSG)
 dem Fachdienst Stadt- und Verkehrsplanung der Stadt Göttingen eine
@@ -180,16 +181,14 @@ der naturschutzfachlichen Konflikte erschienen der BSG drei Potentialflächen al
 
 Damit reduzieren sich die potentiellen 180 ha um die größten und
 windintensivsten Flächen mit einer Größe von fast 112 ha auf etwas mehr als
-ein Drittel. Selbst die für die Zonierung
-vorgesehenen 80 ha würden sich auf höchstens die Hälfte reduzieren.
+ein Drittel.
 
-Abgesehen davon, dass auch hier die Ästhetik des Landschaftsschutzes als ein
-wichtiges Kriterium mit Naturschutz verwechselt wurde, begnügen sich die
-Begründungen über lange Strecken damit, dass eine besondere Bedeutung dieser
-Gebiete für den Artenschutz nicht ausgeschlossen werden kann. 
-
+Abgesehen davon, dass auch in dieser Stellungnahme
+die Ästhetik des Landschaftsschutzes als ein
+wichtiges Kriterium mit Naturschutz verwechselt wurde, ist die
+Argumentation zum Naturschutz oft nicht gut belegt.
 Inwieweit
-Rebhuhn und Feldhamster durch Windenergie gestört werden wird dabei nicht
+Rebhuhn und Feldhamster durch Windenergie gestört werden, wird nicht
 erläutert. Fragwürdig sind auch Formulierungen wie, "Auch für den
 Rotmilan ist der Bereich wichtig, in diesem Jahr gab es z. B. einen
 Brutversuch ..." oder "die wertvollen Wald- und Waldrandbereiche sind für
@@ -197,57 +196,64 @@ Vögel und Fledermäuse wichtig" und "liegt sehr nah am FFH-Gebiet", wenn in den
 ausgewiesen Flächen zu all diesen Gebieten entsprechende Pufferzonen
 eingehalten werden.
 
-Aber entscheidend ist der Ansatz zu hinterfragen, dass
-Gebiete ausgeschlossen werden, weil ihre besondere Bedeutung für den
-Artenschutz nicht ausgeschlossen werden kann. In einer Zeit, wo
+## Lokale versus globale Bedrohungen
+
+Aber vor allem wird oft eine Gefahr für den Artenschutz nicht nachgewiesen,
+sondern die 
+Begründungen begnügen sich über lange Strecken damit, dass eine besondere
+Bedeutung dieser 
+Gebiete für den Artenschutz nicht ausgeschlossen werden kann. 
+In einer Zeit, wo
 der Klimawandel als der entscheidendste Faktor bei der Vernichtung von Arten
 erkannt wurde, lässt sich so nicht mehr gegen Massnahmen zur Verhinderung des
-Klimawandels argumentieren. Stichhaltig kann unter dieser existierenden
-konkreten globalen Bedrohung nur noch eine Argumentation sein,
+Klimawandels argumentieren.
+
+Stichhaltig kann unter dieser existierenden und immer mehr 
+konkretisierenden globalen Bedrohung nur noch eine Argumentation sein,
 die ebenfalls konkrete lokale Bedrohungen des Artenschutzes benennen kann.
 Es bleibt zu hoffen, dass diese Erkenntnis sich auch bei den
 Naturschutzinitiativen durchsetzt.
 
-Neue energiepolitische Lage
+Eine neue energiepolitische Lage
 ================
 
 Wir haben es also bei der Windenergie mit Konflikten im Artenschutz auf
 globaler und lokaler Skala und in der ästhetischen Wahrnehmung der Landschaft
 zu tun. 
 Wie sich der Klimawandel auf die Ästhetik der Landschaft auswirkt,
-kann in unseren Wäldern beobachtet werden. Es zeigt sich also wieder einmal:
-über Geschmack lässt sich  streiten. 
+kann in unseren Wäldern beobachtet werden. Es zeigt sich also auch wieder
+einmal: über Geschmack lässt sich  streiten.
+
 Und diesen Streit
 scheuen nun die Bundesministerien für Umwelt, Naturschutz, nukleare Sicherheit
-und Verbraucehrschutz, sowie für Wirtschaft und Klimaschutz nicht mehr, wie
-am Aufmacher ihres Eckpunktepapiers zur Beschleunigung des
+und Verbraucehrschutz, sowie für Wirtschaft und Klimaschutz nun nicht mehr, wie
+am Inhalt, aber auch schon am Aufmacher ihres Eckpunktepapiers zur
+Beschleunigung des 
 naturverträglichen Ausbaus der Windenergie an Land
 von Anfang April deutlich wird:
 Windkraft kann das Landschaftbild deutlich bereichern.
 
-![ll](/img/post/2022-04-04-Naturverträglichen_Ausbau_der_Windenergie_an_Land_beschleunigen-Eckpunktepapier.png)
+![CoverEckpunktepapier](/img/post/2022-04-04-Naturverträglichen_Ausbau_der_Windenergie_an_Land_beschleunigen-Eckpunktepapier.png)
 
 
-Im Eckpunktepapier werden die beiden Konfliktfelder Landschaftsschutz und
-Naturschutz angegangen 
-wird die zukünftige Linie der Gesetzgebung
-skizziert
+Im Eckpunktepapier wird die zukünftige Linie der Gesetzgebung hinsichtlich der
+beiden Konfliktfelder Landschaftsschutz und Naturschutz skizziert.
 
-*** Landschaftsschutzgebiete
 
-werden bei der Planung vollumfänglich betrachtet und
-Gebiete für Windenergie sollen dort verstärkt ausgewiesen werden. Innerhalb von Landschaftsschutzgebieten sollen künftig Windenergieanlagen bereits
+## Landschafts- und Naturschutzgebiete
+
+werden im genannten Eckpunktepapier bei der Planung vollumfänglich betrachtet
+und Gebiete für Windenergie sollen dort verstärkt ausgewiesen
+werden. Innerhalb von Landschaftsschutzgebieten sollen künftig
+Windenergieanlagen bereits 
 zugelassen werden können, wenn dies planerisch vorgesehen ist. Eine zusätzliche
 Ausnahme nach der Landschaftsschutzgebietsverordnung oder Befreiung nach
 Bundes-Naturschutzgesetz (§ 67) ist dann nicht mehr erforderlich.
-Dies allerdings gilt nicht, soweit Landschaftsschutzgebiete zugleich
-Natura-2000-Gebiete oder Weltkultur- und Weltnaturerbeflächen sind. 
+Dies allerdings gilt aber natürlich nicht, soweit Landschaftsschutzgebiete
+zugleich Natura-2000-Gebiete oder Weltkultur- und Weltnaturerbeflächen sind. 
+Hier hat der Naturschutz Gorrang.
 
-
-
-
-
-Im genannten Eckpunktepapier wird dem Naturschutz, namentlich dem
+Überhaupt wird dem Naturschutz, namentlich dem
 Artenschutz in vielerlei Hinsicht Rechnung getragen.
 Der Zielkonflikt zwischen Energiewende und Artenschutz soll dabei
 aber aufgelöst
@@ -259,40 +265,46 @@ Vermeidungsmaßnahmen und die jeweiligen Abstände
 und einem zusätzlichen
 Artenhilfsprogramm, in das die 
 Windenergie-Betreiber einzahlen, wenn sie die Ausnahmeregelung nutzen.
+
 Damit ist also gewissermaßen eine Beweisumkehr geplant: die besondere
-Bedeutung der Gebiete muss nachgewiesen werden, nicht dass sie nicht
-ausgeschlossen werden kann. 
+Bedeutung der Gebiete für den Artenschutz muss nachgewiesen werden, nicht dass
+sie nicht 
+ausgeschlossen werden kann. Damit wären wohl im Falle der Stellungnahme der BSG
+die Göttinger Potentialflächen alle für die Windkraft nutzbar.
 
-
-Neue energiepolitische Lage
-----------
-
-Derartige Argumente für den Naturschutz sind nicht grundsätzlich falsch, aber
-sie müssen dringend unter den
+Diese Umkehr der Beweislast ist dringend notwendig unter den 
 gegenwärtigen Veränderungen der 
-energiepolitischen Lage neu bewertet werden: Der IPCC warnt in seinem neuesten, sechsten Bericht, dass der Zeitraum für die
-Abwendung katastrophaler Auswirkungen nur noch sehr klein ist.
-Die Wetterexperten der Vereinten Nationen rechnen damit, dass die globale
-Durchschnittstemperatur eines Jahres bis 2025 erstmals mehr als 1,5 Grad über
-dem vorindustriellen Niveau liegen könnte.
+energiepolitischen Lage:
+- Der IPCC warnt in seinem neuesten, sechsten Bericht, dass der Zeitraum für die
+  Abwendung katastrophaler Auswirkungen nur noch sehr klein ist (Sechster
+  IPCC-Sachstandsbericht – AR6)[^IPCC6]
+- Die Wetterexperten der Vereinten Nationen  (World Metereological
+Organisation, WMO)[^WMO22] rechnen damit, dass die globale
+  Durchschnittstemperatur eines Jahres bis 2025 erstmals mehr als 1,5 Grad über
+  dem vorindustriellen Niveau liegen könnte.
+- Zahl und Dauer von Dürreperioden ist laut UN-Dürrebericht weltweit seit dem
+  Jahr 2000 um 29% gestiegen.[^UNDN]
 
 Durch diese Veränderungen werden naturgeschützte Gebiete und Biotope in weit
 höherem Maße bedroht, als durch die Aufstellung von Windenergieanlagen. Jede
 Verhinderung einer Windenergieanlage trägt zu diesem Prozess bei, weil
 entsprechend mehr fossile Energie verwendet wird.
 
-Nach dem Einmarsch Russland in die Ukraine ist klar
-geworden: die Abhängigkeit von fossilen Brennstoffen ist nicht nur
+Nach dem Einmarsch Russland in die Ukraine dürfte auch der/dem Letzten klar
+geworden sein: die Abhängigkeit von fossilen Brennstoffen ist nicht nur
 ein Klima- sondern auch ein Sicherheitsrisiko für unsere Gesellschaft.
 
-Den Landschaftschutz dem Klimaschutz vorzuziehen ist daher grob
+Den Landschaftschutz dem Klimaschutz vorzuziehen, ist daher grob
 fahrlässig, klima- wie sicherheitspolitisch.
 Die Auswirkungen lassen sich in unseren Wäldern und in der Zögerlichkeit bei
 geeigneten Sanktionen erkennen.
 Im Spannungsfeld zwischen Klima- und Umweltschutz wird es zu einem 
-Kompromiss kommen müssen, und zwar überall, auch in Göttingen, sonst kommt
-diese Stadt ihren Verpflichtungen, die sie gegenüber ihren Bewohnern hat,
-nicht nach. Sobald aus dem Eckpunktepapier Gesetz geworden ist, muss mit der
+Kompromiss kommen müssen, und zwar überall, auch in Göttingen. Sonst kommt
+diese Stadt ihren Verpflichtungen nicht nach, die sie gegenüber ihren
+Bewohnern aber auch den Bewohnern in wesentlich vulnerableren Gebieten der
+Erde gegenüber hat.
+
+Sobald aus dem Eckpunktepapier Gesetz geworden ist, muss mit der
 Umsetzung begonnen werden, bis dahin muss die Planung dafür gemacht werden,
 denn die Zeit rennt uns davon.
 
@@ -312,6 +324,8 @@ einigermaßen unverständlich. Möglicherweise liegt es daran, dass Frau
 Östereich das Gebiet aus dem Zonierungsvorschlag für das LSG herausgenommen
 hatte, weil es ja gar nicht zum Landschaftschutzgebietes Leinetal gehört.
 
+![Königsbühl](/img/post/GEB_Königsbühl_100m.png)
+
 Wie dem auch sei,  diese Fläche eignet sich für Windenergienutzung selbst
 unter den Prämissen des gegenwärtigen Haushaltsbündnissvertrages
 zwischen SPD, CDU und FDP, indem ja auf Seite 7
@@ -330,24 +344,12 @@ der Nachbargemeinde Lenglern ein Windkraft-Zwilling auf der gegenüberliegenden
 Seite der Autobahn vereinbart werden: Ein zeitgemäßes Tor in die
 energiepolitische Zukunft Göttingens.
 
-Referenzen
-==============
+Ulrich Schwardmann, Göttinger Klimabündnis
 
-[^WiG]: <https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/>
+Anhänge
+==================
 
-[^RBK]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
-
-[^LSGZon]: Vorlage-Nr: FB61/1153/15 vom 23.02.2015:
-    <https://ratsinfo.goettingen.de/bi/___tmp/tmp/45081036892549647/892549647/00171621/21.pdf>
-
-[^OVGL20]: OVG Lüneburg, Urteil vom 26.02.20 - 12 KN 182/17: <https://www.rechtsprechung.niedersachsen.de/jportal/portal/page/bsndprod.psml?doc.id=MWRE200001083&st=null&showdoccase=1>
-
-[^WEE16]: https://www.umwelt.niedersachsen.de/download/96713/Planung_und_Genehmigung_von_Windenergieanlagen_an_Land_in_Niedersachsen_und_Hinweise_fuer_die_Zielsetzung_und_Anwendung_Windenergieerlass_Ministerialblatt_vom_24.02.2016_.pdf]]. 
-
-
-
-Appendix: Rechtliche Randbedingungen
-================
+## Appendix 1: Rechtliche Randbedingungen
 
 Der sogenannte Windenergieerlass des niedersächsischen Ministeriums für Umwelt, 
 Energie und Klimaschutz ist das entscheidende landesweite Regelwerk
@@ -357,8 +359,8 @@ wurde erstmals am 24.02.2016 im Niedersächsischen Ministerialblatt unter dem
 Kennzeichen MU-52-29211/1/300 veröffentlicht [^WEE16]
 
 
-Tabuzonen und Landschaftsschutzgebiete
---------
+### Tabuzonen und Landschaftsschutzgebiete
+
 
 > **Harte Tabuzonen** (Erlass 2016, Seite 193, Tabelle 3, Anlage 2) sind
     Gebiete mit Abstand zu Wohnbebauung unterhalb der doppelten Gesamthöhe der
@@ -421,3 +423,24 @@ Tabuzonen und Landschaftsschutzgebiete
   Konzentrationszonenplanung ein, weil Landschaftsschutzgebiete (auch) wegen
   der **Schönheit der Landschaft** oder ihrer
   besonderen Bedeutung für die Erholung unter Schutz gestellt wurden. 
+
+
+## Appendix 2: Referenzen
+
+[^WiG]: <https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/>
+
+[^RBK]: <https://www.goettingen.de/pics/medien/1_1502701224/Ratsbeschlusskontrollliste__Stand_Dezember_2019.pdf>
+
+[^LSGZon]: Vorlage-Nr: FB61/1153/15 vom 23.02.2015:
+    <https://ratsinfo.goettingen.de/bi/___tmp/tmp/45081036892549647/892549647/00171621/21.pdf>
+
+[^OVGL20]: OVG Lüneburg, Urteil vom 26.02.20 - 12 KN 182/17: <https://www.rechtsprechung.niedersachsen.de/jportal/portal/page/bsndprod.psml?doc.id=MWRE200001083&st=null&showdoccase=1>
+
+[^WEE16]: https://www.umwelt.niedersachsen.de/download/96713/Planung_und_Genehmigung_von_Windenergieanlagen_an_Land_in_Niedersachsen_und_Hinweise_fuer_die_Zielsetzung_und_Anwendung_Windenergieerlass_Ministerialblatt_vom_24.02.2016_.pdf]]. 
+
+[^IPCC6]: https://www.de-ipcc.de/250.php und
+https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf
+
+[^UNDN]: https://www.unccd.int/sites/default/files/2022-05/Drought%20in%20Numbers.pdf
+
+[^WMO22]: https://public.wmo.int/en/media/press-release/wmo-update-5050-chance-of-global-temperature-temporarily-reaching-15%C2%B0c-threshold
