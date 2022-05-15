@@ -329,7 +329,7 @@ LSG herausgenommen
 hatte, weil es ja gar nicht zum Landschaftschutzgebietes Leinetal gehört, und
 das Gebiet damit aus der politische Diskussion geraten war.
 
-![Königsbühl](/img/post/GEB_Königsbühl_100m.png)
+![Königsbühl](/img/post/2022-05-07-GEB_Königsbühl_100m.png)
 
 Wie dem auch sei, diese Fläche eignet sich für Windenergienutzung selbst
 unter den Prämissen des gegenwärtigen Haushaltsbündnissvertrages
