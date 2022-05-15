@@ -2,7 +2,7 @@
 layout:        post
 title:         "Windkraft in Göttingen II"
 subtitle:      "Zur Energiewende muss auch Göttingen seinen Beitrag leisten"
-date:          2022-05-12T11:00:00+01:00
+date:          2022-05-13T11:00:00+01:00
 publishdate:   2022-01-27T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 author:        "Ulrich Schwardmann, GöKB"
@@ -12,12 +12,11 @@ draft:        false
 
 # Windkraft im Landschaftsschutzgebiet Leinetal
 
-
 Ohne Windkraft kommen wir mit erneuerbaren Energien nicht über den Winter. Dass  im Stadtgebiet Göttingens
 ein erhebliches Potential 
-für Windkraft  vorhanden ist und es in den
+für Windkraft vorhanden ist und es in den
 Ortsräten ein großes Interesse gab, dieses Potential auch zu nutzen,
-konnte im Artikel zu [Windkraft in Göttingen](https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/)[^WiG] gezeigt werden,
+konnte im Artikel zu [Windkraft in Göttingen](https://goettinger-klimabuendnis.de/post/2022-03-12_1749-windenergie_in_goettingen-g%C3%B6ttingerklimab%C3%BCndnis/)[^WiG] gezeigt werden.
 
 Andererseits ist aber auch deutlich geworden, dass die Politik dieses Thema
 trotzdem unter den Teppich zu kehren versucht. So war es mit der
@@ -238,13 +237,15 @@ Windkraft kann das Landschaftbild deutlich bereichern.
 ![CoverEckpunktepapier](/img/post/2022-04-04-Naturverträglichen_Ausbau_der_Windenergie_an_Land_beschleunigen-Eckpunktepapier.png)
 
 
-Im Eckpunktepapier wird die zukünftige Linie der Gesetzgebung hinsichtlich der
-beiden Konfliktfelder Landschaftsschutz und Naturschutz skizziert.
+Im Eckpunktepapier[^EPP22] wird die zukünftige Linie der Gesetzgebung
+hinsichtlich der beiden Konfliktfelder Landschaftsschutz und Naturschutz
+skizziert. 
 
 
 ## Landschafts- und Naturschutzgebiete
 
-werden im genannten Eckpunktepapier bei der Planung vollumfänglich betrachtet
+werden im genannten Eckpunktepapier[^EPP22] bei der Planung vollumfänglich
+betrachtet 
 und Gebiete für Windenergie sollen dort verstärkt ausgewiesen
 werden. Innerhalb von Landschaftsschutzgebieten sollen künftig
 Windenergieanlagen bereits 
@@ -253,7 +254,7 @@ Ausnahme nach der Landschaftsschutzgebietsverordnung oder Befreiung nach
 Bundes-Naturschutzgesetz (§ 67) ist dann nicht mehr erforderlich.
 Dies allerdings gilt aber natürlich nicht, soweit Landschaftsschutzgebiete
 zugleich Natura-2000-Gebiete oder Weltkultur- und Weltnaturerbeflächen sind. 
-Hier hat der Naturschutz Gorrang.
+Hier hat der Naturschutz Vorrang.
 
 Überhaupt wird dem Naturschutz, namentlich dem
 Artenschutz in vielerlei Hinsicht Rechnung getragen.
@@ -323,12 +324,14 @@ Göttinger Stadtgebiet.
 
 Warum dieses Gebiet seit 2015 in keiner Betrachtung mehr vorkam, ist
 einigermaßen unverständlich. Möglicherweise liegt es daran, dass Frau
-Östereich das Gebiet aus dem Zonierungsvorschlag für das LSG herausgenommen
-hatte, weil es ja gar nicht zum Landschaftschutzgebietes Leinetal gehört.
+Östereich in ihrem Gutachten das Gebiet aus dem Zonierungsvorschlag für das
+LSG herausgenommen 
+hatte, weil es ja gar nicht zum Landschaftschutzgebietes Leinetal gehört, und
+das Gebiet damit aus der politische Diskussion geraten war.
 
 ![Königsbühl](/img/post/GEB_Königsbühl_100m.png)
 
-Wie dem auch sei,  diese Fläche eignet sich für Windenergienutzung selbst
+Wie dem auch sei, diese Fläche eignet sich für Windenergienutzung selbst
 unter den Prämissen des gegenwärtigen Haushaltsbündnissvertrages
 zwischen SPD, CDU und FDP, indem ja auf Seite 7
 festgehalten wurde:
@@ -344,7 +347,7 @@ mit einer
 Beteiligung am Erlös ja möglich sein. Vielleicht kann hier auch zusammen mit
 der Nachbargemeinde Lenglern ein Windkraft-Zwilling auf der gegenüberliegenden
 Seite der Autobahn vereinbart werden: Ein zeitgemäßes Tor in die
-energiepolitische Zukunft Göttingens.
+energiepolitische Zukunft der Region Göttingen.
 
 Ulrich Schwardmann, Göttinger Klimabündnis
 
@@ -424,7 +427,24 @@ Kennzeichen MU-52-29211/1/300 veröffentlicht [^WEE16]
   Windenergie und stuft Landschaftsschutzgebiete als harte Tabuzonen in der
   Konzentrationszonenplanung ein, weil Landschaftsschutzgebiete (auch) wegen
   der **Schönheit der Landschaft** oder ihrer
-  besonderen Bedeutung für die Erholung unter Schutz gestellt wurden. 
+  besonderen Bedeutung für die Erholung unter Schutz gestellt wurden.
+
+> Im sogenannten **Osterpaket**[^OP22], einem Gesetzespaket mit Änderungen an
+  verschiedenen Gesetzen, das dem Bundestag
+  jetzt zur Verabschiedung vorgelegt wird, soll der Ausbau der erneuerbaren
+  Energien an Land und 
+  auf See "auf ein völlig neues Niveau" gehoben werden. Das Zwischenziel, 2%
+  der Landesfläche für die Windkraft zu nutzen, wird bekräftigt. Insbesondere
+  sollen 
+  Genehmigungsverfahren vereinfacht werden. Hier wird das Konfliktfeld Klima-,
+  Landschafts- und Naturschutz allerdings noch nicht eingehender betrachtet.
+
+> Dieses Konfliktfeld wird nun im **Eckpunktepapier**[^EPP22] in den Fokus
+  genommen. Insbesondere sollen Gesetzeninitiativen auf den Weg gebracht
+  werden, die es ermöglichen auch in Landschaftsschutzgebieten Flächen für
+  Windenergie sollen dort verstärkt auszuweisen. Ausserdem muss im Einzelfall
+  die besondere Bedeutung der Gebiete für den Artenschutz nachgewiesen werden. 
+  Es reicht nicht mehr, dass sie nicht ausgeschlossen werden kann.
 
 
 ## Appendix 2: Referenzen
@@ -446,3 +466,10 @@ https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf
 [^UNDN]: https://www.unccd.int/sites/default/files/2022-05/Drought%20in%20Numbers.pdf
 
 [^WMO22]: https://public.wmo.int/en/media/press-release/wmo-update-5050-chance-of-global-temperature-temporarily-reaching-15%C2%B0c-threshold
+
+[^OP22]: https://www.bmwk.de/Redaktion/DE/Downloads/Energie/0406_ueberblickspapier_osterpaket.pdf
+
+[^EPP22]: https://www.bmuv.de/fileadmin/Daten_BMU/Download_PDF/Artenschutz/eckpunkte_windenergie_land_artenschutz_bf.pdf
+
+
+
