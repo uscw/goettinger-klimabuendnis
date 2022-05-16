@@ -23,8 +23,10 @@ home = ["HTML", "RSS", "Algolia"]
   description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
   keyword = "Göttinger Klimabündnis"
   slogan = "zur Vernetzung der Göttinger Klimainitiativen"
-  sidebar_pow = "img/pow/2022-04-30-FossilFreeRide.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_pow_description = "Lift your Bike beim FossilFree-Ride in Göttingen am 30.4.2022"
+  sidebar_pow = "img/pow/2022-05-14-Klimacamp2022_2.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_pow_description = "Das Klimacamp Göttingen steht seit dem 12.05.2022 wieder direkt gegenüber von Kreistag und Rathaus am Gauß-Weber-Wall: https://klimacampgoettingen.noblogs.org/"
+  #sidebar_pow = "img/pow/2022-04-30-FossilFreeRide.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Lift your Bike beim FossilFree-Ride in Göttingen am 30.4.2022"
   #sidebar_pow = "img/pow/2022-03-Klimastreik_1.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_pow_description = "Klimastreik in Göttingen am 25.3.2022 mit mehr als zweitausend Teilnehmern"
   #sidebar_pow = "img/pow/2022-02-18-Greenwashing_Demo.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
@@ -63,7 +65,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = [" BUND Göttingen"," Craddle to Craddle Göttingen", " Ende-Gelände Göttingen", " EPIZ Göttingen", "Ernährungsrat i.G.", " Extinction Rebellion Göttingen", " FossilFree Goettingen", " Fridays for Future Göttingen", " GermanZero Göttingen", " Göttingen im Wandel", " Greenpeace Göttingen", " Grüne Hochschulgruppe Göttingen", " Health for Future Göttingen", " JANUN Göttingen", " Klimagruppe Basisdemokratische Linke Göttingen", " Klimaschutz Göttingen e.V", " Kritische Wirtschaftswissenschaften Göttingen", " Lampedusa-Bündnis Göttingen", " Naturfreunde Göttingen", " Parents for Future Göttingen", " Partizipative Initiative für eine lebenswerte Zukunft Göttingen", "Referat für Ökologie und Nachhaltigkeit (AStA der Uni Gö)", " Scientists for Future Göttingen"]
+  sidebar_about_description = [" BUND Göttingen"," Craddle to Craddle Göttingen", " Ende-Gelände Göttingen", " EPIZ Göttingen", "Ernährungsrat i.G.", " Extinction Rebellion Göttingen", " FossilFree Goettingen", " Fridays for Future Göttingen", " Gemeinwohl-Ökonomie Göttingen", " GermanZero Göttingen", " Göttingen im Wandel", " Greenpeace Göttingen", " Grüne Hochschulgruppe Göttingen", " Health for Future Göttingen", " JANUN Göttingen", " Klimagruppe Basisdemokratische Linke Göttingen", " Klimaschutz Göttingen e.V", " Kritische Wirtschaftswissenschaften Göttingen", " Lampedusa-Bündnis Göttingen", " Naturfreunde Göttingen", " Parents for Future Göttingen", " Partizipative Initiative für eine lebenswerte Zukunft Göttingen", "Referat für Ökologie und Nachhaltigkeit (AStA der Uni Gö)", " Scientists for Future Göttingen"]
   #sidebar_avatar = "img/goest-logo.png"# use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_avatar = "img/picture-of-the-week.png"# use absolute URL, seeing it's used in both `/` and `/about/`
   #sidebar_avatar = "img/pressekonferenz-ratsantraege-20210317.png"# names of pictures need to be lower case, use absolute URL, seeing it's used in both `/` and `/about/`

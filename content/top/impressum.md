@@ -21,6 +21,7 @@ draft: false
 | Extinction Rebellion Göttingen                                   | https://extinctionrebellion.de/og/goettingen/                      | goettingen [at] extinctionrebellion.de      |
 | FossilFree Goettingen                                            | https://gofossilfree.org/de                                        | fossilfreegoettingen [at] riseup.net        |
 | Fridays for Future Göttingen                                     | https://fridaysforfuture.de/ortsgruppen/goettingen/                | fff_goettingen [at] riseup.net              |
+| Gemeinwohl-Ökonomie Göttingen                                    | https://web.ecogood.org/de/goettingen/                             | |
 | GermanZero Göttingen                                             | https://www.germanzero.de/ https://www.goettingen-klimaneutral.de/ | goettingenzero [at] posteo.de               |
 | Göttingen im Wandel                                              | http://tt-goettingen.de/                                           | info [at] tt-goettingen.de                  |
 | Greenpeace Göttingen                                             | https://www.goettingen.greenpeace.de/                              | info [at] goettingen.greenpeace.de          |
