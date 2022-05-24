@@ -30,3 +30,5 @@ Die Tendenz, sich in individuellen Identifikationen und Interessen zu verlieren 
 Daran anschließend/Darauf aufbauend wollen wir gemeinsam überlegen und diskutieren, wie/warum/ was das für die Klimabewegung bedeutet bzw. bedeuten könnte.
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/klasse-und-klima/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

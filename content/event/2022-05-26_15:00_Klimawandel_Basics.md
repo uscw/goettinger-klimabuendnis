@@ -24,3 +24,5 @@ Wir wollen uns anschauen was der Klimawandel ist und warum der menschengemachte 
 Dies ist eine Einführungsveranstaltung für alle, die in das Thema einsteigen wollen, offen für Kinder und Jugendliche. Wir verwenden leichte Sprache.
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/klimawandel-basics-fuer-jugendliche/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

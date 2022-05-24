@@ -24,3 +24,5 @@ In einem Aktionstraining (Oft NVDA-Training genannt) werden dir die wichtigsten 
 
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/aktionstraining/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

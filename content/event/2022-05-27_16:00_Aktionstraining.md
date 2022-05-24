@@ -43,3 +43,5 @@ forward to seeing you!
 Ende Gelände and Basisdemokratische Linke
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/aktionstraining-eg/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

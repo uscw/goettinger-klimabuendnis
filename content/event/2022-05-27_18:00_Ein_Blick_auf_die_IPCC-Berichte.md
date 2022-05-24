@@ -30,3 +30,5 @@ Den Berichten entsprechend lässt sich der Vortrag in die folgenden Themen unter
 Am Ende der Veranstaltung freuen wir uns über eine offene Diskussion zu den Themen.
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/Kategorie/vortrag/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

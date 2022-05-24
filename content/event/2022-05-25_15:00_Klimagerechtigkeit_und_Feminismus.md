@@ -23,3 +23,5 @@ Workshop im Klimacamp 2022
 
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/klimagerechtigkeit-und-feminismus/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)

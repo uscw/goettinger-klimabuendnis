@@ -32,3 +32,5 @@ Wir hatten so an den Zeitraum von 10-18 Uhr gedacht – kommt einfach
 dazu, wann und für welche Zeitspanne es für euch am besten machbar ist.
 
 Mehr Informationen beim [Veranstalter](https://klimacampgoettingen.noblogs.org/Programm/)
+
+![Flyer](/img/event/2022-05-20_Klimacamp2022_Programm_Flyer.jpg)
