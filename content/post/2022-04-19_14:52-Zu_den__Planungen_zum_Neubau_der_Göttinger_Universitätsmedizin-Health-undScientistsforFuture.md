@@ -5,7 +5,7 @@ subtitle:      "Offener Brief einer Allianz aus regionalen Umwelt-, Klima- & Res
 date:          2022-04-19T14:52:00+01:00
 publishdate:   2022-01-09T00:00:00+01:00
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
-author:        "Health- und Scientists for Future"
+author:        "Arbeitsgruppe 'Nds. Kliniken for Future'"
 draft:        false
 ---
 
@@ -48,6 +48,16 @@ Die Universität bekennt sich: „Die Universitätsmedizin wird möglichst viele
 
 Setzen Sie sich daher bitte mit all Ihrer Kraft dafür ein, die Weichen für Göttingens Zukunft richtig zu stellen. 
  
+{{< figure src="/img/icon/h4f_goe_O.png" alt="h4f_goe" width="150px" >}} 
+{{< figure src="/img/icon/h4f_han_O.png" alt="h4f_han" width="150px" >}}
+{{< figure src="/img/icon/S4F_goe_disclaimer.png" alt="s4f_goe" width="350px" >}}
+{{< figure src="/img/icon/p4f_goe.png" alt="p4f_goe" width="150px" >}} 
+{{< figure src="/img/icon/fff_goe_O.png" alt="fff_goe" width="150px" >}} 
+{{< figure src="/img/icon/goe0.png" alt="goe0" width="350px" >}} 
+{{< figure src="/img/icon/xr_goe.png" alt="xr_goe" width="350px" >}} 
+{{< figure src="/img/icon/gp_goe.png" alt="gp_goe" width="350px" >}} 
+{{< figure src="/img/icon/bund_goe.png" alt="bund_goe" width="350px" >}} 
+{{< figure src="/img/icon/naturfreunde_goe.png" alt="naturfreunde_goe" width="350px" >}} 
 
 Quellen:
 ---------
