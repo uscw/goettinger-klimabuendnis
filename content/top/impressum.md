@@ -28,6 +28,7 @@ draft: false
 | Health for Future Göttingen                                      | https://healthforfuture.de/health-for-future-ortsgruppen/          | healthforfuture_goe [at] posteo.de          |
 | JANUN Göttingen                                                  | https://janun.de                                                   | joern [at] janun.de                         |
 | Klimagruppe Basisdemokratische Linke Göttingen                   | https://www.inventati.org/blgoe/                                   | klima-bl [at] riseup.net                    |
+| Klimagruppe in der Ev.-Reformierten Gemeinde Göttingen           |                                                                    |                                             |
 | Klimaschutz Göttingen e.V.                                       | https://klimaschutz-goettingen.de/                                 | kontakt [at] klimaschutz-goettingen.de      |
 | Kritische Wirtschaftswissenschaften Göttingen                    | https://kriwigoe.de/                                               | info [at] kriwigoe.de                       |
 | Lampedusa-Bündnis Göttingen                                      | http://papiere-fuer-alle.org/refugees-welcome-goettingen           | refugeewellcome [at] lists.riseup.net       |
