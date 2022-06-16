@@ -24,7 +24,7 @@ Die Wohnraumagentur der Stadt Göttingen veranstaltet unter Beteiligung der BUND
 
 Die Wohnfläche pro Person ist in den vergangenen Jahrzehnten fortlaufend gewachsen. Für das Erreichen der Klimaziele ist ein Umdenken angesagt. Der Neubau von Häusern und Infrastruktur verbraucht Material und erzeugt Emissionen. Dabei ist das Potenzial, bestehende Gebäude zielgenau zu nutzen, längst nicht ausgeschöpft. Die Stadt Göttingen fördert als eine von drei Pilotkommunen im Projekt OptiWohn suffiziente Wohnformen, also flächensparende Konzepte bei hoher Wohnqualität.
 
-
+![Podiumsdiskussion Stadtentwicklung](/img/event/2022-06-21-Wohnen_und_Klima_Banner.png)
 
 - Wie steht es um Wohnkonzepte in Göttingen?
 - Wie gelingt eine bessere Nutzung des Bestandes?
