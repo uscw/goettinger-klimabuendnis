@@ -48,11 +48,11 @@ Die Universität bekennt sich: „Die Universitätsmedizin wird möglichst viele
 
 Setzen Sie sich daher bitte mit all Ihrer Kraft dafür ein, die Weichen für Göttingens Zukunft richtig zu stellen. 
  
-{{< figure src="/img/icon/h4f_goe_O.png" alt="h4f_goe" width="150px" >}} 
-{{< figure src="/img/icon/h4f_han_O.png" alt="h4f_han" width="150px" >}}
+{{< figure src="/img/icon/h4f_goe_tr.png" alt="h4f_goe" width="150px" >}} 
+{{< figure src="/img/icon/h4f_han_tr.png" alt="h4f_han" width="150px" >}}
 {{< figure src="/img/icon/S4F_goe_disclaimer.png" alt="s4f_goe" width="350px" >}}
 {{< figure src="/img/icon/p4f_goe.png" alt="p4f_goe" width="150px" >}} 
-{{< figure src="/img/icon/fff_goe_O.png" alt="fff_goe" width="150px" >}} 
+{{< figure src="/img/icon/fff_goe_tr.png" alt="fff_goe" width="150px" >}} 
 {{< figure src="/img/icon/goe0.png" alt="goe0" width="350px" >}} 
 {{< figure src="/img/icon/xr_goe.png" alt="xr_goe" width="350px" >}} 
 {{< figure src="/img/icon/gp_goe.png" alt="gp_goe" width="350px" >}} 
