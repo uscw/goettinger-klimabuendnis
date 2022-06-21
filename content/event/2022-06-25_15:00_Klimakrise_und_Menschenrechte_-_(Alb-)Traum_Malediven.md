@@ -20,8 +20,10 @@ Klimakrise und Menschenrechte - (Alb-)Traum Malediven
 Eine Veranstaltung von amnesty international, Fridays for Future und dem Göttinger Klimabündnis  auf den Klimaschutztagen 2022
 -----------
 
-Klimaveränderungen, verursacht meist durch die Gesellschaften des Nordens, treffen vor allem die Menschen im globalen Süden. Sie treffen sie auf sehr  
+Klimaveränderungen, verursacht meist durch die Gesellschaften des Nordens, treffen vor allem die Menschen im globalen Süden. Sie treffen sie auf sehr
 unterschiedliche Weise und sie destabilisieren ganze Gesellschaften.
+
+![Klimakrise Malediven](/img/event/2022-06-25_Klimakrise_Malediven.jpg)
 
 In dieser Veranstaltung beschreiben Aktivistinnen aus ihrem Leben auf den Malediven, wie hier der Anstieg des Meeresspiegels Existenzen vor Ort
 vernichtet und wie dies zu einer zunehmenden Zerrüttung der
@@ -38,3 +40,5 @@ und die mittlerweile in Deutschland lebt, authentisch beschrieben.
 Im Anschluss gibt es Raum für Diskussionen mit dem Publikum.  
 
 Mehr Informationen beim [Veranstalter](https://klimaschutz.goettingen.de/pics/medien/1_1653385757/GOE_Klimatage_2022_Fly_16S_web.pdf)
+
+
