@@ -22,5 +22,6 @@ Ein Beitrag
 Die neue Bundesregierung hat keinen Plan, wie Deutschland
 seinen Beitrag zur Einhaltung des 1,5-Grad-Limits leisten könnte. GermanZero e.V. hat ein 1,5-Grad-Gesetzespaket geschrieben, das die erforderlichen Gesetzesänderungen aufzeigt.
 
+![1,5-Grad](/img/event/2022-06-24-Vortrag_1_5Grad.jpg)
 
 Mehr Informationen beim [Veranstalter](https://klimaschutz.goettingen.de/pics/medien/1_1653385757/GOE_Klimatage_2022_Fly_16S_web.pdf)
