@@ -1,3 +1,5 @@
+Lea Nesselhauf von GermanZero erklärt im Göttinger Ratssaal 'Was wir tun müssten, wenn wir 1,5-Grad ernst nähmen'![2022-06-24-LeaNesselhauf_GermaZero.jpg](/img/pow/2022-06-24-LeaNesselhauf_GermaZero.jpg)
+------------------
 Das Klimacamp Göttingen (https://klimacampgoettingen.noblogs.org/) steht seit dem 12.05.2022 wieder direkt gegenüber von Kreistag und Rathaus am Gauß-Weber-Wall![2022-05-14-Klimacamp2022_2.jpg](/img/pow/2022-05-14-Klimacamp2022_2.jpg)
 ------------------
 Lift your Bike beim FossilFree-Ride in Göttingen am 30.4.2022![2022-04-30-FossilFreeRide.jpg](/img/pow/2022-04-30-FossilFreeRide.jpg)
