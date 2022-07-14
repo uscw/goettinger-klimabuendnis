@@ -2,7 +2,7 @@
 layout:        posts
 title:         "Umfangreiche Verbesserungen für den Radverkehr in Göttingen sind notwendig"
 subtitle:      "Klimaschutz-Beirat stellt Antrag im Umweltausschuss"
-date:          2022-07-14T17:34:00+01:00
+date:          2022-07-14T16:34:00+01:00
 publishdate:   2022-04-05T00:00:00+01:00
 image:         "/img/banner/2022-03-20_KidicalMass.png"
 author:        "Klimaschutz-Beirat"

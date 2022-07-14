@@ -2,7 +2,7 @@
 layout:        posts
 title:         "Umweltausschuss beschließt Resolutionsvorschlag des Klimaschutz-Beirates zum klimaneutralen UMG-Neubau"
 subtitle:      ""
-date:          2022-07-14T17:35:00+01:00
+date:          2022-07-14T16:35:00+01:00
 publishdate:   2022-04-05T00:00:00+01:00
 image:         "/img/banner/2022-02-18-Greenwashing_Demo.jpg"
 author:        "Klimaschutzbeirat"
