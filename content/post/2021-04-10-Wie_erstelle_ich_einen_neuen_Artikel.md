@@ -168,6 +168,26 @@ Einrückungen durch drei Leerzeichen erzeugt, wie zum Beispiel mit
 
 ```
 
+### Nummerierungen
+
+1. Nummerierungen
+   1. können
+   2. auch
+2. eingerückt
+   1. werden
+
+```
+
+1. Nummerierungen
+   1. können
+   2. auch
+2. eingerückt
+   1. werden
+
+```
+
+
+
 ### Einrückungen
 
 Einrückungen eignen sich zum Beispiel gut für die Markierung wörtlicher Rede.

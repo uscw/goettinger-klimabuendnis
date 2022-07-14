@@ -9947,6 +9947,27 @@ Gestaffelte Spiegelstriche werden&lt;/p&gt;
    * Minuszeichen oder Sternen
 - mit
 
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;nummerierungen&#34;&gt;Nummerierungen&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Nummerierungen
+&lt;ol&gt;
+&lt;li&gt;können&lt;/li&gt;
+&lt;li&gt;auch&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;eingerückt
+&lt;ol&gt;
+&lt;li&gt;werden&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+1. Nummerierungen
+   1. können
+   2. auch
+2. eingerückt
+   1. werden
+
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;einrückungen&#34;&gt;Einrückungen&lt;/h3&gt;
 &lt;p&gt;Einrückungen eignen sich zum Beispiel gut für die Markierung wörtlicher Rede.&lt;/p&gt;
 &lt;blockquote&gt;
