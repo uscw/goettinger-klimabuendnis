@@ -1,7 +1,7 @@
 ---
 layout:        events
-title:         "Naturschutz praktisch: Quellsumpf Harste, Vortrag"
-subtitle:      "Vortrag der Biologischen Schutzgemeinschaft"
+title:         "Naturschutz praktisch: Quellsumpf Harste"
+subtitle:      "Exkursion der Biologischen Schutzgemeinschaft"
 date:          2022-09-10T10:00:00+02:00
 etime:         2022-09-10T14:00:00+02:00
 publishdate:   2022-07-26T00:00:00+01:00
@@ -19,7 +19,6 @@ Naturschutz praktisch: Quellsumpf Harste
 
 Exkursion der Biologischen Schutzgemeinschaft
 -----------
-Vortrag
 
 Dieser Kalk-Quellsumpf ist einer von zwei Wuchsorten der Sumpf-Stendelwurz im Raum Göttingen. Dort gibt es den sehr seltenen, meist nur kleinflächig vorkommenden Biotoptyp „Cratoneurion“, benannt nach dem kalkabscheidenden Moos Cratoneuron commutatum. Wie in den letzten Jahren wollen wir die Fläche heute mähen und abräumen.
 
