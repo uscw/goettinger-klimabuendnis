@@ -2,8 +2,8 @@
 layout:        events
 title:         "Global Climate Strike"
 subtitle:      "Ruf nach Klimagerechtigkeit, nach echten sozialen Lösungen"
-date:          2022-09-23T11:00:00+02:00
-etime:         2022-09-23T13:00:00+02:00
+date:          2022-09-23T12:00:00+02:00
+etime:         2022-09-23T14:00:00+02:00
 publishdate:   2022-07-24T00:00:00+01:00
 author:        "Fridays for Future"
 place:         "Goettingen"
@@ -12,7 +12,7 @@ locURL:        "https://news.fff.link/mailing/170/5596067/3070905/22159/c43330a9
 image:         "/img/banner/2021-06-04-Goettingen-Klimastreik_banner.jpg"
 ---
 
-**Veranstaltung: 23. September 2022, 11:00 Uhr, Goettingen**
+**Veranstaltung: 23. September 2022, 12:00 Uhr, Auditorium, Goettingen**
 
 Global Climate Strike
 ===========
