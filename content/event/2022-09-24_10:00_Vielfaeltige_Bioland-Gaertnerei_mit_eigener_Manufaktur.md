@@ -6,13 +6,13 @@ date:          2022-09-24T10:00:00+02:00
 etime:         2022-09-24T14:00:00+02:00
 publishdate:   2022-09-14T00:00:00+01:00
 author:        "BUND Kreisgruppe Göttingen"
-place:         "wird bei Anmeldung bekannt gegeben"
+place:         "Ort wird bei Anmeldung bekannt gegeben"
 URL:           "/2022/09/24/10/00/vielfaeltige_bioland-gaertnerei_mit_eigener_manufaktur"
 locURL:        "https://www.bund-goettingen.de/"
 image:         "/img/banner/2022-09-10-Essen-Glueck.png"
 ---
 
-**Veranstaltung: 24. September 2022, 10:00 Uhr, wird bei Anmeldung bekannt gegeben**
+**Veranstaltung: 24. September 2022, 10:00 Uhr, Ort wird bei Anmeldung bekannt gegeben**
 
 Vielfältige Bioland-Gärtnerei mit eigener Manufaktur!
 ===========
@@ -25,7 +25,7 @@ Wir bauen vielfältige, samenfeste Sorten an; dabei liegt unser Fokus auf Knobla
 
 Im Herbst verarbeiten wir unser Gemüse in unserer eigenen Manufaktur zu veganen Brotaufstrichen, Chilisaucen und Dips, wie unserer köstlichen Aioli. Wir begleiten unser Gemüse also vom Samen bis ins Glas. Die Verarbeitung beruht auf schonender Handarbeit ohne die Verwendung jeglicher Zusatzstoffe. Wir erzeugen gesunde, nachhaltige und qualitativ hochwertige Produkte aus unserem selbst angebauten Gemüse."
 
-Neugierig geworden? Wir bitten um Anmeldung bei uns in der Geschäftsstelle! Der Treffpunkt wird bei Anmeldung bekannt gegeben.
+Neugierig geworden? Wir bitten um Anmeldung bei uns in der Geschäftsstelle! 
 
 https://www.bund-goettingen.de/service/kontakt/
 
