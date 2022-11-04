@@ -21,12 +21,12 @@ draft: false
 | Extinction Rebellion Göttingen                                   | https://extinctionrebellion.de/og/goettingen/                      | goettingen [at] extinctionrebellion.de      |
 | FossilFree Goettingen                                            | https://gofossilfree.org/de                                        | fossilfreegoettingen [at] riseup.net        |
 | Fridays for Future Göttingen                                     | https://fridaysforfuture.de/ortsgruppen/goettingen/                | fff_goettingen [at] riseup.net              |
-| Gemeinwohl-Ökonomie Göttingen                                    | https://web.ecogood.org/de/goettingen/                             | |
+| Gemeinwohl-Ökonomie Göttingen                                    | https://web.ecogood.org/de/goettingen/                             |                                             |
 | GermanZero Göttingen                                             | https://www.germanzero.de/ https://www.goettingen-klimaneutral.de/ | goettingenzero [at] posteo.de               |
 | Göttingen im Wandel                                              | http://tt-goettingen.de/                                           | info [at] tt-goettingen.de                  |
 | Greenpeace Göttingen                                             | https://www.goettingen.greenpeace.de/                              | info [at] goettingen.greenpeace.de          |
 | Health for Future Göttingen                                      | https://healthforfuture.de/health-for-future-ortsgruppen/          | healthforfuture_goe [at] posteo.de          |
-| JANUN Göttingen                                                  | https://janun.de                                                   | joern [at] janun.de                         |
+| JANUN Göttingen                                                  | http://janun.de/de/netzwerk-projekte/janun-g%C3%B6ttingen/         | goettingen [at] janun.de                    |
 | Klimagruppe Basisdemokratische Linke Göttingen                   | https://www.inventati.org/blgoe/                                   | klima-bl [at] riseup.net                    |
 | Klimagruppe in der Ev.-Reformierten Gemeinde Göttingen           |                                                                    |                                             |
 | Klimaschutz Göttingen e.V.                                       | https://klimaschutz-goettingen.de/                                 | kontakt [at] klimaschutz-goettingen.de      |
@@ -37,6 +37,7 @@ draft: false
 | Partizipative Initiative für eine lebenwerte Zukunft Göttingen   | http://www.pilz.uni-goettingen.de/                                 | info [at] pilz.uni-goettingen.de            |
 | Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                                    | oekologie [at] asta.uni-goettingen.de       |
 | Scientists for Future Göttingen                                  | https://www.scientists4future.org/mitmachen/regionalgruppen/       | goettingen [at] scientists4future.org       |
+| Students for Future Göttingen                                    | https://studentsforfuture.info/ortsgruppe/                         | sff_goettingen@riseup.net                   |
 
 # Impressum
 
