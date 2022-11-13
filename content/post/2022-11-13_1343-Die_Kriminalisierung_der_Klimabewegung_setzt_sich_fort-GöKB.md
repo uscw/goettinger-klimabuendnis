@@ -10,26 +10,26 @@ showtoc:      true
 draft:        false
 ---
 
-# Die Wut der Klimaschutzblockierer
+# Die Wut der Klimaschutzblockierer\*innen
 
 Die aufgeheizte politische Debatte um die angebliche Verantwortung der
-Strassenblockierer in Berlin für den Tod einer Radfahrerin hat den Weg
-geebnet für eine neue Welle der Kriminalisierung von Klimaaktivisten.
+Strassenblockierer\*innen in Berlin für den Tod einer Radfahrerin hat den Weg
+geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen.
 Auch eine Klarstellung der Feuerwehr, dass die Ersthilfe der zu Tode
 gekommenen Frau durch eine Notärztin bereits früh nach dem Unfall
 gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der
 mit Bergungsgerät zur Unfallstelle unterwegs war, laut der Notärztin
 nichts am Tod der Frau hätte ändern können, konnte die Behauptung nicht mehr aufhalten:
-die Blockierer und nicht ein Betonmischer in einem für
+die Blockierer\*innen und nicht ein Betonmischer in einem für
 Nicht-Motorisierte höchst gefährlichen Strassenverkehr (jährlich fast 100.000
-verletzte Radfahrer und mehr als 400 Tote in Deutschland) seien schuld
+verletzte Radfahrer\*innen und mehr als 400 Tote in Deutschland) seien schuld
 an dem Unfall und seinen Folgen.
 
-Die Wut populistischer Politiker, insbesondere diejenigen, die sich im
-Widerstand gegen wirksame Klimaschutzmaßnahmen, vor allem im Verkehr,
+Die Wut populistischer Politiker\*innen, insbesondere diejenigen, die sich im
+Widerstand gegen wirksame Klimaschutzmaßnahmen
 hervorgetan haben, konnte sich Bahn brechen. Es war von der Klima-RAF
 die Rede (Dobrindt, ehem. Bundesverkehrsminister).
-Es sind diese Klimaschutzblockierer,
+Es sind diese Klimaschutzblockierer\*innen,
 die eine ernsthafte Gefahr in diesem Land darstellen. Für sie ist nun
 endlich nicht mehr der Kampf gegen die Erderwärmung das Thema, sondern
 der Kampf gegen diejenigen, die auf die verheerenden Folgen der
@@ -38,7 +38,7 @@ ignoriert werden kann.
 
 # Die intergenerative Klimaungerechtigkeit
 
-Das Bundesverfassungsgericht hat am 24. März 2021 klar in Abwägungen der generationsübergreifenden verfassungsmäßigen Freiheiten dargelegt, dass nicht eine Generation durch Untätigkeit den nächsten Generationen radikale Lasten aufbürden darf, die deren Leben umfassenden Freiheitseinbußen aussetzen würde. (siehe dazu auch [Die Folgen des Klima-Urteils vom Bundesverfassungsgericht für den Göttinger Klimaplan2030](/post/2021-05-04-pm-bundesverfassungsgericht-klimaschutzgesetz/))
+Das Bundesverfassungsgericht hat am 24. März 2021 in Abwägungen der generationsübergreifenden verfassungsmäßigen Freiheiten klar dargelegt, dass nicht eine Generation durch Untätigkeit den nächsten Generationen radikale Lasten aufbürden darf, die deren Leben umfassenden Freiheitseinbußen aussetzen würde. (siehe dazu auch [Die Folgen des Klima-Urteils vom Bundesverfassungsgericht für den Göttinger Klimaplan2030](/post/2021-05-04-pm-bundesverfassungsgericht-klimaschutzgesetz/))
 
 An dem Konflikt der Strassenblockaden wird deutlich, wie weit die Untätigen auf ihrer Untätigkeit beharren, indem sie Umstände skandalisieren, die sie selbst
 ansonsten achselzuckend zur Kenntnis nehmen - ja für die sie, wie im Fall von Dobrindt als ein Bundesverkehrsminister, jahrelang selbst hätten Verantwortung übernehmen können. Es wird also deutlich, wie weit diese Untätigen der nächsten Generation ihre Lasten aufbürden wollen, wie sehr sie also bewusst gegen die Verfassung verstossen wollen, und das mit Gesetzen begründen wollen.
@@ -47,12 +47,12 @@ ansonsten achselzuckend zur Kenntnis nehmen - ja für die sie, wie im Fall von D
 
 Im Fall der getöteten Radfahrerin wird bewusst Hysterie geschürt. Hysterie ist eine bewährte Methode der Diskursverschiebung. 
 
-In den vergangenen Tagen wurde versucht, eine neue bundesdeutsche
+In den vergangenen Tagen wurde so versucht, eine neue bundesdeutsche
 Stimmungslage zu erzeugen, die immerhin schon dazu geführt hat, dass
 ohne eine kritische Medienöffentlichkeit eine Ungeheuerlichkeit möglich
 wurde, die noch vor Kurzem undenkbar war bzw. von der immer wieder
 behauptet wurde, dass sie keinesfalls eintreten werde. Zunächst acht und
-mittlerweile vierzehn Klimaschützer wurden ohne Gerichtsverfahren
+mittlerweile vierzehn Klimaschützer\*innen wurden ohne Gerichtsverfahren
 (lediglich Richteranhörung) allein auf Grundlage der polizeilicher
 Einschätzung, dass die Klimaschützer ihren friedlichen Protest
 wiederholen werden, für bis zu dreizig Tage ins Gefängnis geworfen.
@@ -61,16 +61,16 @@ Strassenblockaden in München beteiligt hab, kommt aus Göttingen: Lars.
 
 Gesetzlich möglich ist dies infolge der Verschärfung der
 Polizeiaufgabengesetze in den letzten Jahren, von denen alle Verantwortlichen
-immer wieder behauptet haben, dass sie keinesfalls als Instrument gegen
+immer wieder behauptet haben, dass sie es keinesfalls als Instrument gegen
 Klimaschützer eingesetzt werden.
 
 Dass dies eine bewusste Täuschung der Öffentlichkeit war, hatte sich
 schon beim Hambacher Forst gezeigt, wo in Nordrhein-Westfalen dieses
 neue polizeiliche Instrument als Erstes schon wenige Wochen nach dem
-Inkrafttreten gegen Klimaschützer eingesetzt wurde.
+Inkrafttreten gegen Klimaschützer\*innen eingesetzt wurde.
 
 Die bayrische Grünen-Landtagsfraktionschefin Katharina Schulze fragte
-dazu:
+zu den Inhaftierungen in Bayern:
 > \"Wir sind gespannt, ob bald mit gleicher Härte gegen
 Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer vorgegangen wird.\"
 
@@ -80,25 +80,24 @@ sehr, sehr selten, dass das angewendet wird, das ist wirklich ein großer
 Ausnahmefall\"
 
 (ein Polizeisprecher am Freitag, den 4.11., zur Deutschen
-Presse-Agentur). Wie gesagt, seit dem ist es in Bayern schon vierzehn
-Mal angewendet worden.
+Presse-Agentur). Nein, gegen Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer soll keinesfalls vorgegangen werden. Es wurde vielmehr seitdem in Bayern schon vierzehn Mal gegen Klimaschützer\*innen angewendet.
 
 # 30 Tage ins Gefängnis
 
 Dass die Inhaftierung in Bayern besonders lang ist (dreizig Tage, in
 anderen Bundesländern meist zwei Wochen), macht diese Fälle besonders
 drastisch. Aber auch das verschiebt den Diskurs: in den meisten
-Äusserungen von Politikern wird nun nur die Länge von einem Monat als das
+Äusserungen von Politiker\*innen wird nun nur die Länge von einem Monat als das
 Problem dargestellt und die Bayern darauf hingewiesen, dass ihre
 Regelung besonders weitgehend ist. Als ob sie das nicht selber genau so
 haben wollten.
 
 Das Vorgehen der Länder als solches wird nicht ernsthaft in
 Frage gestellt. Die mehrwöchige Haft für Klimaschützer kann so zum
-selbstverständlichen Instrument der Innenminister werden. So wird der
+selbstverständlichen Instrument der Innenminister\*innen werden. So wird der
 wachsende Konflikt, der sich aus den notwendigen
 Maßnahmen zur Klimapolitik und den Ergebnissen der realen Politik des
-Bundes und der Länder, bis hin zu den Kommunen ergibt, mit dem staatlichen Gewaltmonopol ausgetragen.
+Bundes und der Länder, bis hin zu den Kommunen ergibt, über das staatlichen Gewaltmonopol ausgetragen.
 
 Solche Maßnahmen lassen sich nur durch eine
 Diskursverschiebung durch Stimmungsmache erreichen. Wir kennen bereits einiger
@@ -106,11 +105,11 @@ solcher Kipppunkte, vor allem im Zusammenhang der Asylpolitik. Hier nun
 wird der bedauernswerte Tod der
 Radfahrerin in Berlin von den Gegnern wirksamer Klimapolitik funktionalisiert.
 
-# Vom Kampf gegen die Erderwärmung zum Kampf gegen Klimaschützer
+# Vom Kampf gegen die Erderwärmung zum Kampf gegen Klimaschützer\*innen
 
 Hier liegt ein offensichtliches Missverhältnis zwischen dem Anliegen
 von Verfassungsrang der
-Klimaschützer und der Aufgeregtheit bei ihrer Verunglimpfung, selbst
+Klimaschützer\*innen und der Aufgeregtheit bei ihrer Verunglimpfung, selbst
 nach der Klarstellung durch die Berliner Feuerwehr, vor. Dies ist auch
 den aufgeklärten Medien nicht entgangen. Auch das Göttinger Tageblatt
 hat dazu in Berichten und Kommentaren Stellung bezogen. Und wie krass
@@ -121,11 +120,13 @@ Lebens - und sind dabei zu verlieren.\"
 
 Aber die weitergehenden Folgen der Diskursverschiebung,
 nämlich die selbstverständliche
-wochenlange Inhaftierung von Klimaschützern ohne Gerichtsverfahren ist
-eine wesentlich gefährlichere Entwicklung für den Klimaschutz und unsere Demokratie, denn sie treibt den Preis für wirksamen Protest extrem hoch.
+wochenlange Inhaftierung von Klimaschützer\*innen ohne Gerichtsverfahren ist
+eine wesentlich gefährlichere Entwicklung für den Klimaschutz
+und unsere Demokratie, denn sie treibt den Preis für wirksamen Protest
+extrem hoch. 
 Und dies ist bei den Medien bislang
 weitgehend ignoriert worden. Nur in Bayern und Berlin wurde darüber
-berichtet, ohne dabei allerdings das Vorgehen ernsthaft in Frage zu
+berichtet, ohne dabei allerdings das Vorgehen selbst ernsthaft in Frage zu
 stellen.
 
 # Eine sehr ernste Bedrohung der Klimaschutzbewegung
@@ -134,9 +135,9 @@ Es geht sowohl bei der Diskursverschiebung, als auch bei der
 Massivität der Kriminalisierung darum, die 
 Klimaschutzbewegung mundtot zu machen. Und dies in einer Phase,
 in der die Widersprüche immer
-deutlicher werden.
+deutlicher werden, wie in den klimabedingten Schreckensmeldungen  der letzten Monate und der Fülle der Warnungen, dass die Entwicklungen bereits jetzt wesentlich schlimmer sind, als bisher prognostiziert, und dass die CO2-Vermeidung wesentlich geringer ist, als vereinbart.
 
-Die Rote Hilfe in Göttingen (siehe auch ihre [Stellungnahme](https://rote-hilfe.de/news/bundesvorstand/1211-polizeistaatsmethoden-praeventivhaft-gegen-klima-aktivist-innen-in-bayern) zu dem Thema) schreibt dazu sehr richtig:
+Die Rote Hilfe in Göttingen (siehe auch ihre [Stellungnahme](https://rote-hilfe.de/news/bundesvorstand/1211-polizeistaatsmethoden-praeventivhaft-gegen-klima-aktivist-innen-in-bayern) zu dem Thema) schreibt zum Thema Kriminalisierung sehr richtig:
 > Wie immer gilt
 \"Betroffen sind einige, gemeint sind wir Alle\".
 
