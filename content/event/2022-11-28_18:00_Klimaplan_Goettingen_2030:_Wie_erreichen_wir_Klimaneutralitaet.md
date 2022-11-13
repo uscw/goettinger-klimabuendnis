@@ -1,7 +1,7 @@
 ---
 layout:        events
 title:         "Klimaplan Göttingen 2030: Wie erreichen wir Klimaneutralität?"
-subtitle:      "Stiftung Förderwerksübergreifende und hochschulöffentliche Veranstaltung"
+subtitle:      "Förderwerksübergreifende und hochschulöffentliche Veranstaltung"
 date:          2022-11-28T18:00:00+01:00
 etime:         2022-11-28T20:00:00+01:00
 publishdate:   2022-11-13T00:00:00+01:00
