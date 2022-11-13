@@ -23,4 +23,12 @@ Veranstaltung mit Staatssekretär Stefan Wenzel u.a. im Rahmen von 'Klimakrise, 
 Veranstaltung mit OB Petra Broistedt u.a. im Rahmen von "Klimakrise, wie weiter?"
 -----------
 
-Mehr Informationen beim [Veranstalter](https://www.dt-goettingen.de)
+In Gesprächen mit dem neuen Parlamentarische Staats-
+sekretär im Ministerium für Wirtschaft und Klimaschutz Stefan
+Wenzel und anderen wird es um die Frage gehen, ob die neue
+Bundesregierung alles tut, um den Klimaschutz voranzu-
+bringen, bürokratische Hemmnisse abzubauen und die
+Geschwindigkeit bei der Umsetzung deutlich zu erhöhen.
+
+Mehr Informationen beim
+[Veranstalter](https://www.dt-goettingen.de/stueck/klimakrise-wie-weiter)

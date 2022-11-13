@@ -20,5 +20,15 @@ Der Klimaplan der Stadt Göttingen – klimaneutral bis 2030?
 Veranstaltung mit OB Petra Broistedt u.a. im Rahmen von "Klimakrise, wie weiter?"
 -----------
 
+Die neue Oberbürgermeisterin Petra Broistedt wird zusam -
+men mit diversen Fachleuten (Dinah Epperlein, Leiterin des
+Referats für nachhaltige Stadtentwicklung, Gerd Rappenecker,
+Stadtwerke-Vorstand, Ingo Voges, Geschäftsführer Windkraft
+Dimarden GmbH, Frithjof Look, Baudezernent, Claudia Leuner-
+Haverich, Städtische Wohnungsbau, Maik Lindemann, Leiter
+Verkehrsplanung und Thomas Zimmermann, Göttinger Ver-
+kehrsbetriebe) Rede und Antwort stehen zum Klimaplan der
+Stadt, zu Fragen der zukünftigen Energieerzeugung, zu den
+Themen Sanieren-Heizen-Bauen und zur Mobilitätswende.
 
-Mehr Informationen beim [Veranstalter](https://www.dt-goettingen.de)
+Mehr Informationen beim [Veranstalter](https://www.dt-goettingen.de/stueck/klimakrise-wie-weiter)
