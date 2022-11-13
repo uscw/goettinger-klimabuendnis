@@ -56,7 +56,8 @@ mittlerweile vierzehn Klimaschützer wurden ohne Gerichtsverfahren
 (lediglich Richteranhörung) allein auf Grundlage der polizeilicher
 Einschätzung, dass die Klimaschützer ihren friedlichen Protest
 wiederholen werden, für bis zu dreizig Tage ins Gefängnis geworfen.
-Selbst eine achtzehnjährige Schülerin ist darunter, allerding mit einer kürzeren Inhaftierung.
+Selbst eine achtzehnjährige Schülerin ist darunter, allerding mit einer kürzeren Inhaftierung. Und einer derjenigen, die sich an den
+Strassenblockaden in München beteiligt hab, kommt aus Göttingen: Lars.
 
 Gesetzlich möglich ist dies infolge der Verschärfung der
 Polizeiaufgabengesetze in den letzten Jahren, von denen alle Verantwortlichen
@@ -158,17 +159,6 @@ Klimaschutzbewegung, sowohl gegen die unzureichende derzeitige
 Klimapolitik als auch für die Freilassung der inhaftierten
 Klimaaktivist\*innen. Wir müssen hier aktiv werden.
 
-# Die persönliche Stellungnahme eines Göttinger Inhaftierten
-
-
-{{< video src="/img/video/2022-11-06-Lars-Goe.mp4" type="video/mp4" preload="auto" >}}
-
-Ein Mitglied der Gruppe der \"Letzten Generation\", die sich an den
-Strassenblockaden in München beteiligt hat, kommt aus Göttingen: Lars.
-Er hat in den Tagen vor seiner Inhaftierung ein Video verfasst, in dem
-er darlegt, wie er die Gefahr einschätzt, die durch die gegenwärtige
-Klimapolitik entsteht und warum er zu dieser Form des Protestes greift,
-greifen muss.
 
 Ulrich und Ulla Schwardmann, Göttinger Klimabündnis
 
