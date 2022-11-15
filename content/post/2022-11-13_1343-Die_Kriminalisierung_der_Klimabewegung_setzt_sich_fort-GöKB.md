@@ -12,18 +12,7 @@ draft:        false
 
 # Die Wut der Klimaschutzblockierer\*innen
 
-Die aufgeheizte politische Debatte um die angebliche Verantwortung der
-Strassenblockierer\*innen in Berlin für den Tod einer Radfahrerin hat den Weg
-geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen.
-Auch eine Klarstellung der Feuerwehr, dass die Ersthilfe der zu Tode
-gekommenen Frau durch eine Notärztin bereits früh nach dem Unfall
-gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der
-mit Bergungsgerät zur Unfallstelle unterwegs war, laut der Notärztin
-nichts am Tod der Frau hätte ändern können, konnte die Behauptung nicht mehr aufhalten:
-die Blockierer\*innen und nicht ein Betonmischer in einem für
-Nicht-Motorisierte höchst gefährlichen Strassenverkehr (jährlich fast 100.000
-verletzte Radfahrer\*innen und mehr als 400 Tote in Deutschland) seien schuld
-an dem Unfall und seinen Folgen.
+Die aufgeheizte Debatte um die angebliche Verantwortung der Letzten Generation für den Tod einer Radfahrerin in Berlin hat den Weg geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen. Die Feuerwehr stellte klar, dass die Ersthilfe der Frau durch eine Notärztin bereits früh nach dem Unfall gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der mit Bergungsgerät zur Unfallstelle unterwegs war, nichts am Tod der Frau hätte ändern können. Die die Behauptung war jedoch nicht mehr aufhalten: Die Blockierer\*innen und nicht ein Betonmischer seien Schuld an dem Unfall und seinen Folgen. Der für Nicht-Motorisierte höchst gefährlche Strassenverkehr mit jährlich fast 100.000 verletzte Radfahrer\*innen und mehr als 400 Tote in Deutschland und die seit langen beannten besonderen Gefahren durch den Schwerlastverkehr werden komplett ausgeblendet.
 
 Die Wut populistischer Politiker\*innen, insbesondere diejenigen, die sich im
 Widerstand gegen wirksame Klimaschutzmaßnahmen
@@ -54,15 +43,15 @@ wurde, die noch vor Kurzem undenkbar war bzw. von der immer wieder
 behauptet wurde, dass sie keinesfalls eintreten werde. Zunächst acht und
 mittlerweile vierzehn Klimaschützer\*innen wurden ohne Gerichtsverfahren
 (lediglich Richteranhörung) allein auf Grundlage der polizeilicher
-Einschätzung, dass die Klimaschützer ihren friedlichen Protest
-wiederholen werden, für bis zu dreizig Tage ins Gefängnis geworfen.
+Einschätzung, dass die Klimaschützer\*innen ihren friedlichen Protest
+wiederholen werden, für bis zu dreißig Tage ins Gefängnis geworfen.
 Selbst eine achtzehnjährige Schülerin ist darunter, allerding mit einer kürzeren Inhaftierung. Und einer derjenigen, die sich an den
 Strassenblockaden in München beteiligt hab, kommt aus Göttingen: Lars.
 
 Gesetzlich möglich ist dies infolge der Verschärfung der
 Polizeiaufgabengesetze in den letzten Jahren, von denen alle Verantwortlichen
 immer wieder behauptet haben, dass sie es keinesfalls als Instrument gegen
-Klimaschützer eingesetzt werden.
+Klimaschützer\*innen eingesetzt werden.
 
 Dass dies eine bewusste Täuschung der Öffentlichkeit war, hatte sich
 schon beim Hambacher Forst gezeigt, wo in Nordrhein-Westfalen dieses
@@ -80,11 +69,11 @@ sehr, sehr selten, dass das angewendet wird, das ist wirklich ein großer
 Ausnahmefall\"
 
 (ein Polizeisprecher am Freitag, den 4.11., zur Deutschen
-Presse-Agentur). Nein, gegen Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer soll keinesfalls vorgegangen werden. Es wurde vielmehr seitdem in Bayern schon vierzehn Mal gegen Klimaschützer\*innen angewendet.
+Presse-Agentur). Nein, gegen Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer soll keinesfalls vorgegangen werden. Es wurde vielmehr seitdem in Bayern schon mindestens vierzehn Mal gegen Klimaschützer\*innen angewendet.
 
 # 30 Tage ins Gefängnis
 
-Dass die Inhaftierung in Bayern besonders lang ist (dreizig Tage, in
+Dass die Inhaftierung in Bayern besonders lang ist (dreißig Tage, in
 anderen Bundesländern meist zwei Wochen), macht diese Fälle besonders
 drastisch. Aber auch das verschiebt den Diskurs: in den meisten
 Äusserungen von Politiker\*innen wird nun nur die Länge von einem Monat als das
@@ -93,7 +82,7 @@ Regelung besonders weitgehend ist. Als ob sie das nicht selber genau so
 haben wollten.
 
 Das Vorgehen der Länder als solches wird nicht ernsthaft in
-Frage gestellt. Die mehrwöchige Haft für Klimaschützer kann so zum
+Frage gestellt. Die mehrwöchige Haft für Klimaschützer\*innen kann so zum
 selbstverständlichen Instrument der Innenminister\*innen werden. So wird der
 wachsende Konflikt, der sich aus den notwendigen
 Maßnahmen zur Klimapolitik und den Ergebnissen der realen Politik des
@@ -103,7 +92,7 @@ Solche Maßnahmen lassen sich nur durch eine
 Diskursverschiebung durch Stimmungsmache erreichen. Wir kennen bereits einiger
 solcher Kipppunkte, vor allem im Zusammenhang der Asylpolitik. Hier nun
 wird der bedauernswerte Tod der
-Radfahrerin in Berlin von den Gegnern wirksamer Klimapolitik funktionalisiert.
+Radfahrerin in Berlin von den Gegnern wirksamer Klimapolitik instrumentalisiert.
 
 # Vom Kampf gegen die Erderwärmung zum Kampf gegen Klimaschützer\*innen
 
@@ -133,9 +122,8 @@ stellen.
 
 Es geht sowohl bei der Diskursverschiebung, als auch bei der 
 Massivität der Kriminalisierung darum, die 
-Klimaschutzbewegung mundtot zu machen. Und dies in einer Phase,
-in der die Widersprüche immer
-deutlicher werden, wie in den klimabedingten Schreckensmeldungen  der letzten Monate und der Fülle der Warnungen, dass die Entwicklungen bereits jetzt wesentlich schlimmer sind, als bisher prognostiziert, und dass die CO2-Vermeidung wesentlich geringer ist, als vereinbart.
+Klimaschutzbewegung mundtot zu machen.
+Und dies in einer Phase, in der die Widersprüche immer deutlicher werden: Die letzten Monate waren geprägt von klimabedingten Schreckensmeldungen und einer Fülle der Warnungen, dass die Entwicklungen bereits jetzt wesentlich schlimmer sind, als bisher prognostiziert. Hinzu kommt, dass die CO2-Vermeidung wesentlich geringer ist, als vereinbart und das deutsche Klimaziel bis 2030 höchstwahrscheinlich verpasst werden wird.
 
 Die Rote Hilfe in Göttingen (siehe auch ihre [Stellungnahme](https://rote-hilfe.de/news/bundesvorstand/1211-polizeistaatsmethoden-praeventivhaft-gegen-klima-aktivist-innen-in-bayern) zu dem Thema) schreibt zum Thema Kriminalisierung sehr richtig:
 > Wie immer gilt
