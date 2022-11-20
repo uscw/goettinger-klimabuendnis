@@ -1,7 +1,7 @@
 ---
 layout:        posts
 title:         "Die Kriminalisierung der Klimabewegung setzt sich fort"
-subtitle:      "Auch ein Göttinger ist nun wegen einer Strassenblockade im Gefängnis"
+subtitle:      "Auch ein Göttinger ist nun wegen einer Straßenblockade im Gefängnis"
 date:          2022-11-13T13:43:00+01:00
 publishdate:   2022-08-05T00:00:00+01:00
 image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
@@ -12,9 +12,9 @@ draft:        false
 
 # Die Wut der Klimaschutzblockierer\*innen
 
-Die aufgeheizte Debatte um die angebliche Verantwortung der Letzten Generation für den Tod einer Radfahrerin in Berlin hat den Weg geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen. Die Feuerwehr stellte klar, dass die Ersthilfe der Frau durch eine Notärztin bereits früh nach dem Unfall gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der mit Bergungsgerät zur Unfallstelle unterwegs war, nichts am Tod der Frau hätte ändern können. Die Behauptung war jedoch nicht mehr aufhalten: Die Blockierer\*innen und nicht ein Betonmischer seien Schuld an dem Unfall und seinen Folgen. Der für Nicht-Motorisierte höchst gefährlche Strassenverkehr mit jährlich fast 100.000 verletzte Radfahrer\*innen und mehr als 400 Tote in Deutschland und die seit langen bekannten, aber von der Verkehrspolitik ignorierten besonderen Gefahren durch den Schwerlastverkehr werden hier komplett ausgeblendet.
+Die aufgeheizte Debatte um die angebliche Verantwortung der Letzten Generation für den Tod einer Radfahrerin in Berlin hat den Weg geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen. Die Feuerwehr stellte klar, dass die Ersthilfe der Frau durch eine Notärztin bereits früh nach dem Unfall gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der mit Bergungsgerät zur Unfallstelle unterwegs war, nichts am Tod der Frau hätte ändern können. Die Behauptung war jedoch nicht mehr aufzuhalten: Die Blockierer\*innen und nicht ein Betonmischer seien Schuld an dem Unfall und seinen Folgen. Der für Nicht-Motorisierte höchst gefährliche Straßenverkehr mit jährlich fast 100.000 verletzten Radfahrer\*innen und mehr als 400 Toten in Deutschland und die seit langen bekannten, aber von der Verkehrspolitik ignorierten besonderen Gefahren durch den Schwerlastverkehr werden hier komplett ausgeblendet.
 
-Die Wut populistischer Politiker\*innen, insbesondere diejenigen, die sich im
+Die Wut populistischer Politiker\*innen, insbesondere derjenigen, die sich im
 Widerstand gegen wirksame Klimaschutzmaßnahmen
 hervorgetan haben, konnte sich Bahn brechen. Es war von der Klima-RAF
 die Rede (Dobrindt, ehem. Bundesverkehrsminister).
@@ -29,8 +29,8 @@ ignoriert werden kann.
 
 Das Bundesverfassungsgericht hat am 24. März 2021 in Abwägungen der generationsübergreifenden verfassungsmäßigen Freiheiten klar dargelegt, dass nicht eine Generation durch Untätigkeit den nächsten Generationen radikale Lasten aufbürden darf, die deren Leben umfassenden Freiheitseinbußen aussetzen würde. (siehe dazu auch [Die Folgen des Klima-Urteils vom Bundesverfassungsgericht für den Göttinger Klimaplan2030](/post/2021-05-04-pm-bundesverfassungsgericht-klimaschutzgesetz/))
 
-An dem Konflikt der Strassenblockaden wird deutlich, wie weit die Untätigen auf ihrer Untätigkeit beharren, indem sie Umstände skandalisieren, die sie selbst
-ansonsten achselzuckend zur Kenntnis nehmen - ja für die sie, wie im Fall von Dobrindt als ein Bundesverkehrsminister, jahrelang selbst hätten Verantwortung übernehmen können. Es wird also deutlich, wie weit diese Untätigen der nächsten Generation ihre Lasten aufbürden wollen, wie sehr sie also bewusst gegen die Verfassung verstossen wollen, und das mit Gesetzen begründen wollen.
+An dem Konflikt der Straßenblockaden wird deutlich, wie weit die Untätigen auf ihrer Untätigkeit beharren, indem sie Umstände skandalisieren, die sie selbst
+ansonsten achselzuckend zur Kenntnis nehmen - ja für die sie, wie im Fall von Dobrindt als ein Bundesverkehrsminister, jahrelang selbst hätten Verantwortung übernehmen können. Es wird also deutlich, wie weit diese Untätigen der nächsten Generation ihre Lasten aufbürden wollen, wie sehr sie also bewusst gegen die Verfassung verstoßen wollen, und das mit Gesetzen begründen wollen.
 
 # Hysterie und Polizeiaufgabengesetze
 
@@ -45,8 +45,8 @@ mittlerweile vierzehn Klimaschützer\*innen wurden ohne Gerichtsverfahren
 (lediglich Richteranhörung) allein auf Grundlage der polizeilicher
 Einschätzung, dass die Klimaschützer\*innen ihren friedlichen Protest
 wiederholen werden, für bis zu dreißig Tage ins Gefängnis geworfen.
-Selbst eine achtzehnjährige Schülerin ist darunter, allerding mit einer kürzeren Inhaftierung. Und einer derjenigen, die sich an den
-Strassenblockaden in München beteiligt hab, kommt aus Göttingen: Lars.
+Selbst eine achtzehnjährige Schülerin ist darunter, allerdings mit einer kürzeren Inhaftierung. Und einer derjenigen, die sich an den
+Straßenblockaden in München beteiligt haben, kommt aus Göttingen: Lars.
 
 Gesetzlich möglich ist dies infolge der Verschärfung der
 Polizeiaufgabengesetze in den letzten Jahren, von denen alle Verantwortlichen
@@ -69,14 +69,14 @@ sehr, sehr selten, dass das angewendet wird, das ist wirklich ein großer
 Ausnahmefall\"
 
 (ein Polizeisprecher am Freitag, den 4.11., zur Deutschen
-Presse-Agentur). Nein, gegen Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer soll keinesfalls vorgegangen werden. Es wurde vielmehr seitdem in Bayern schon mindestens vierzehn Mal gegen Klimaschützer\*innen angewendet.
+Presse-Agentur). Nein, gegen Zweite-Reihe-Parker oder Rettungsgassen-Verhinderer soll keinesfalls vorgegangen werden. Aber das Polizeiaufgabengesetz wurde seitdem in Bayern schon mindestens vierzehn Mal gegen Klimaschützer\*innen angewendet.
 
 # 30 Tage ins Gefängnis
 
 Dass die Inhaftierung in Bayern besonders lang ist (dreißig Tage, in
 anderen Bundesländern meist zwei Wochen), macht diese Fälle besonders
 drastisch. Aber auch das verschiebt den Diskurs: in den meisten
-Äusserungen von Politiker\*innen wird nun nur die Länge von einem Monat als das
+Äußerungen von Politiker\*innen wird nun nur die Länge von einem Monat als das
 Problem dargestellt und die Bayern darauf hingewiesen, dass ihre
 Regelung besonders weitgehend ist. Als ob sie das nicht selber genau so
 haben wollten.
@@ -153,7 +153,7 @@ Ulrich und Ulla Schwardmann, Göttinger Klimabündnis
 
 # Die Begründung von Lars aus Göttingen
 
-Lars aus Göttingen begründet seine Teilnahme an der Strassenblockade in München im folgenden Video:
+Lars aus Göttingen begründet seine Teilnahme an der Straßenblockade in München im folgenden Video:
  
 {{< youtube W7BN8rLsfQw >}}
 
