@@ -5,7 +5,7 @@ subtitle:      "Auch ein Göttinger ist nun wegen einer Straßenblockade im Gef�
 date:          2022-11-13T13:43:00+01:00
 publishdate:   2022-08-05T00:00:00+01:00
 image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
-author:        "GöKB, Ulrich und Ulla Schwardmann"
+author:        "GöKB"
 showtoc:      true
 draft:        false
 ---
@@ -149,7 +149,7 @@ Klimapolitik als auch für die Freilassung der inhaftierten
 Klimaaktivist\*innen. Wir müssen hier aktiv werden.
 
 
-Ulrich und Ulla Schwardmann, Göttinger Klimabündnis
+Göttinger Klimabündnis
 
 # Die Begründung von Lars aus Göttingen
 
