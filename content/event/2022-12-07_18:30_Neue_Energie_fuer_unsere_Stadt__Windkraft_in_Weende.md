@@ -17,7 +17,7 @@ image:         "/img/banner/2022-05-08-Windkraft-ueber-Kornfeld.jpg"
 Neue Energie für unsere Stadt – Windkraft in Weende
 ===========
 
-Die Grüne Stadtratsfraktion laden ein zur Diskussion
+Die Grüne Stadtratsfraktion lädt ein zur Diskussion
 -----------
 Liebe Freund*innen, liebe GRÜNE, liebe Interessierte, 
 
