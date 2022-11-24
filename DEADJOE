@@ -1,0 +1,46 @@
+
+*** These modified files were found in JOE when it aborted on Wed Nov 23 22:30:01 2022
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+datetime(2020, 1, 1, -1, 0)
+datetime(2019, 12, 31, 23, 0)
+
+zipcodes_singlelines.
+zipcodes_array.
+;"E17";1
+;
+- 
+\*
+\*
+
+*** File '(Unnamed)'
+multiline_zipcodes.
+multiline-zipcodes.
+multiline-zipcode.
+ 
+;1;1
+;-
+● 
+-
+**
+*
+
+*** File '(Unnamed)'
+content/post/2022-11-13_1343-Die_Kriminalisierung_der_Klimabewegung_setzt_sich_fort-GöKB.md
+config.toml
+content/post/2022-11-21_1320-Offener_Brief_der_Göttinger_Klimagruppen-Göttinger_Klimabündnis.md
+content/post/2022-11-21_1320-Offener_Brief_der_Göttinger_Klimagruppen-Göttinger_Klimabündnis.md
+content/post/2022-11-21_1320-Offener_Brief_der_Göttinger_Klimagruppen-Göttinger_Klimabündnis.md
+content/post/2022-11-13_1343-Die_Kriminalisierung_der_Klimabewegung_setzt_sich_fort-GöKB.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2022-11-23_1107-Gemeinsame_Pflanzaktion_des_BUND_und_der_Stadt_Göttingen-BUND_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2022-12-07_18:30_Neue_Energie_fuer_unsere_Stadt__Windkraft_in_Weende.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2022-12-07_18:30_Neue_Energie_fuer_unsere_Stadt__Windkraft_in_Weende.md
+bin/event.py
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2022-12-06_11:00_Zukunftsforum_Goettingen_Die_Strasse_ist_fuer_alle_da.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
