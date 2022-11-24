@@ -24,7 +24,7 @@ Ein Ratsantrag von 2021 zur Beauftragung eines Gutachtens zum Thema Straßenbahn
 CDU und SPD vertraten am 30.08.2022 im Umweltausschuss die Auffassung, der Busverkehr sei bereits gut genug ausgebaut und die Probleme würden sich von alleine lösen. 
 
  
-Planungsvorschlag des BfnS für ein Straßenbahnnetz in Göttingen, beestehend aus drei Linien:
+Planungsvorschlag des BfnS für ein Straßenbahnnetz in Göttingen, bestehend aus drei Linien:
 
 ![Bild BfnS-Vorschlag Strassenbahn](/img/post/2022-11-18-bfns-vorschlag-strassenbahn.jpg)
 
