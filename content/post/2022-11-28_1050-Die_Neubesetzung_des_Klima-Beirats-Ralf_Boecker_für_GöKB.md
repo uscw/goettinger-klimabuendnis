@@ -141,7 +141,8 @@ In der Rubrik Gesundheit eingeordnet finden sich neben der schon bisher
    Greenpeace Göttingen und GöttingenZero aufgrund ihrer beruflichen
    Qualifikation. 
 
-Mit dem Ausscheiden von Prof. Dr. Martin Kappas wächst diese Gruppe von zwei
+Mit dem Ausscheiden des bislang einzigen Mitgliedes in diesm Bereich wächst
+diese Gruppe 
 auf drei Personen, wobei deren Zuordnung aufgrund ihrer Heilberufe eher
 willkürlich scheint, da sie eigentlich jeweils Umwelt-Organisationen
 vertreten. Deren benannte Stellvertreter sollen jedoch hier wegen ihrer
