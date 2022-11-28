@@ -1,13 +1,13 @@
 ---
 layout:        posts
 title:         "Die Neubesetzung des Klima-Beirats"
-subtitle:      "Klimaanpassung statt Klimascutz, weniger Einfluss der Initiativen, der Jugend, der Frauen"
+subtitle:      "Klimaanpassung statt Klimaschutz, weniger Einfluss der Jugend, der Frauen, der Initiativen"
 date:          2022-11-28T10:50:00+01:00
 publishdate:   2022-08-20T00:00:00+01:00
 image:         "/img/banner/stadthalle-hier-1.jpg"
 author:        "Ralf Boecker für GöKB"
 showtoc:      true
-draft:        true
+draft:        false
 ---
 
 # Ein schneller Beschluss für ein fragwürdiges Vorgehen
@@ -29,7 +29,7 @@ einen möglichst effektiv arbeitsfähigen Beirat zu erreichen...
 Eine eingehende Bewertung erfordert eine Analyse der Veränderungen im (etwas
 mühsamen) Vergleich gegenüber der
 [bisherigen Besetzung des Klimaschutz-Beirats (2020~22)](https://nachhaltigkeit.goettingen.de/portal/seiten/klimaschutz-beirat-900000811-25480.html)
-mit der Tabelle der [27 bisherigen Mitglieder](https://nachhaltigkeit.goettingen.de/downloads/datei/OTAwMDA0MTk4Oy07L3Vzci9sb2NhbC9odHRwZC92aHRkb2NzL2dvZXR0aW5nZW4vZ29ldHRpbmdlbi9tZWRpZW4vZG9rdW1lbnRlLzIwMjJfMDhfMjhfa2xpbWFzY2h1dHpfYmVpcmF0X3p1c2FtbWVuc2V0enVuZ18yMDIwXzIwMjIucGRm).
+mit der Tabelle der [27 bisherigen Mitglieder](/documents/2022_08_28_klimaschutz_beirat_zusammensetzung_2020_2022.pdf)
 
 Gemäß Vorschlag der Verwaltung 
 würde der Klima-Beirat von bisher 27 auf 30 Sitze vergrößert, von denen 20
@@ -79,7 +79,7 @@ Paulus" mehr in Richtung Klimaschutz bewegen zu können (wie wohl
 beabsichtigt), wäre eine ausgewogenere Besetzung notwendig, v.a. mit weiteren
 thematisch einschlägig versierten & engagierten Vertretern der
 Naturschutz-Verbände  (NABU, BUND, JANUN) oder vom Ernährungsbeirat, sowie aus
-den Bereichen Agroforstwirtschaft (z.B. Uni: Prof. Norbert Lamersdorf),
+den Bereichen Agroforstwirtschaft, z.B. aus der Uni,
 ökologische Landwirtschaft (z.B. Streuobst e.V.?) und deren
 Vertriebsorganisationen (z.B. Naturkost Elkershausen?)
 
@@ -91,7 +91,7 @@ Vertreter im künftigen Klima-Beirat eher als Bremser der weiteren Bemühungen
 um Klimaschutz erweisen! 
 
 
-  Von bisher 27 Sitzen sollen 20 unverändert bleiben, bzw. lediglich mit neuen
+ Von bisher 27 Sitzen sollen 20 unverändert bleiben, bzw. lediglich mit neuen
 Vertretern der gleichen Organisation besetzt werden  
 (davon wurden 12 Personen im Vorfeld festgesetzt und ohne neue Bewerbung
 übernommen). 
@@ -121,8 +121,7 @@ Immerhin verschieben sich dadurch die politischen Gewichte tendenziell
 deutlich zu traditionell wirtschaftsliberal konservativen Positionen.
 
 Alternativ & diverser könnten evtl. auch noch Vertreter innovativer
-Wirtschaftszweige angesprochen und zur Bewerbung eingeladen werden  
-(z.B. Ingenieurbüros für Energieeffizienz &Solartechnik, der VDI oder
+Wirtschaftszweige angesprochen und zur Bewerbung eingeladen werden  (z.B. Ingenieurbüros für Energieeffizienz & Solartechnik, der VDI oder
 Startraum Göttingen etc.).
 
 ## Bereich Energie- & Umweltinitiativen
@@ -141,8 +140,7 @@ In der Rubrik Gesundheit eingeordnet finden sich neben der schon bisher
    Greenpeace Göttingen und GöttingenZero aufgrund ihrer beruflichen
    Qualifikation. 
 
-Mit dem Ausscheiden des bislang einzigen Mitgliedes in diesm Bereich wächst
-diese Gruppe 
+Mit dem Ausscheiden des bislang einzigen Mitgliedes wächst diese Gruppe
 auf drei Personen, wobei deren Zuordnung aufgrund ihrer Heilberufe eher
 willkürlich scheint, da sie eigentlich jeweils Umwelt-Organisationen
 vertreten. Deren benannte Stellvertreter sollen jedoch hier wegen ihrer
@@ -236,5 +234,5 @@ dagegen, dass der Rat jeweils so viele Mitglieder beruft, wie sich engagierte
 Bewerber finden, die den Beirat mit ihrer effektiven Mitarbeit zu bereichern
 versprechen. 
 
-Ralf Boecker
+Ralf Boecker für GöKB
 
