@@ -7,7 +7,7 @@ publishdate:   2022-08-20T00:00:00+01:00
 image:         "/img/banner/stadthalle-hier-1.jpg"
 author:        "Ralf Boecker für GöKB"
 showtoc:      true
-draft:        true
+draft:        false
 ---
 
 # Ein schneller Beschluss für ein fragwürdiges Vorgehen
