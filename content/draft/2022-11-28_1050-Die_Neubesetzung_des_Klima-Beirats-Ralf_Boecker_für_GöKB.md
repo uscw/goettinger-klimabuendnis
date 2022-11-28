@@ -79,7 +79,7 @@ Paulus" mehr in Richtung Klimaschutz bewegen zu können (wie wohl
 beabsichtigt), wäre eine ausgewogenere Besetzung notwendig, v.a. mit weiteren
 thematisch einschlägig versierten & engagierten Vertretern der
 Naturschutz-Verbände  (NABU, BUND, JANUN) oder vom Ernährungsbeirat, sowie aus
-den Bereichen Agroforstwirtschaft (z.B. Uni: Prof. Norbert Lamersdorf),
+den Bereichen Agroforstwirtschaft, z.B. aus der Uni,
 ökologische Landwirtschaft (z.B. Streuobst e.V.?) und deren
 Vertriebsorganisationen (z.B. Naturkost Elkershausen?)
 
@@ -141,7 +141,7 @@ In der Rubrik Gesundheit eingeordnet finden sich neben der schon bisher
    Greenpeace Göttingen und GöttingenZero aufgrund ihrer beruflichen
    Qualifikation. 
 
-Mit dem Ausscheiden von Prof. Dr. Martin Kappas wächst diese Gruppe von zwei
+Mit dem Ausscheiden des bislang einzigen Mitgliedes wächst diese Gruppe
 auf drei Personen, wobei deren Zuordnung aufgrund ihrer Heilberufe eher
 willkürlich scheint, da sie eigentlich jeweils Umwelt-Organisationen
 vertreten. Deren benannte Stellvertreter sollen jedoch hier wegen ihrer
