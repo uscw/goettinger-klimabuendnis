@@ -8,7 +8,7 @@ publishdate:   2022-11-23T00:00:00+01:00
 author:        "Grüne Stadtratsfraktion Göttingen"
 place:         "TUSPO Weende Vereinsheim Springstrasse 115 37077 Goettingen-Weende"
 URL:           "/2022/12/07/18/30/neue_energie_fuer_unsere_stadt__windkraft_in_weende"
-locURL:        "https://www.gruene-goettingen.de/stadtrat/"
+locURL:		"https://www.gruene-goettingen.de/infos/kontakt/newsdarstellung/neue-energie-fuer-unsere-stadt/"
 image:         "/img/banner/2022-05-08-Windkraft-ueber-Kornfeld.jpg"
 ---
 
@@ -39,4 +39,4 @@ Wir freuen uns auf Ihre und eure Teilnahme. Gerne können Sie die Einladung an I
 Herzlichst eure grüne Stadtratsfraktion
 und eure grünen Mitglieder des Ortsrates Weende 
 
-Mehr Informationen beim [Veranstalter](https://www.gruene-goettingen.de/stadtrat/)
+Mehr Informationen beim [Veranstalter](https://www.gruene-goettingen.de/infos/kontakt/newsdarstellung/neue-energie-fuer-unsere-stadt)
