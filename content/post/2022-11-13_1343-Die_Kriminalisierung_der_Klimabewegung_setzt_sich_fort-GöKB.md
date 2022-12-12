@@ -5,14 +5,15 @@ subtitle:      "Auch ein Göttinger ist nun wegen einer Straßenblockade im Gef�
 date:          2022-11-13T13:43:00+01:00
 publishdate:   2022-08-05T00:00:00+01:00
 image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
-author:        "GöKB"
+author:        "GöKB, Ulrich und Ulla Schwardmann"
 showtoc:      true
 draft:        false
 ---
 
 # Die Wut der Klimaschutzblockierer\*innen
 
-Die aufgeheizte Debatte um die angebliche Verantwortung der Letzten Generation für den Tod einer Radfahrerin in Berlin hat den Weg geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen. Die Feuerwehr stellte klar, dass die Ersthilfe der Frau durch eine Notärztin bereits früh nach dem Unfall gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der mit Bergungsgerät zur Unfallstelle unterwegs war, nichts am Tod der Frau hätte ändern können. Die Behauptung war jedoch nicht mehr aufzuhalten: Die Blockierer\*innen und nicht ein Betonmischer seien Schuld an dem Unfall und seinen Folgen. Der für Nicht-Motorisierte höchst gefährliche Straßenverkehr mit jährlich fast 100.000 verletzten Radfahrer\*innen und mehr als 400 Toten in Deutschland und die seit langen bekannten, aber von der Verkehrspolitik ignorierten besonderen Gefahren durch den Schwerlastverkehr werden hier komplett ausgeblendet.
+Die aufgeheizte Debatte um die angebliche Verantwortung der Letzten Generation für den Tod einer Radfahrerin in Berlin hat den Weg geebnet für eine neue Welle der Kriminalisierung von Klimaaktivist\*innen. Die Feuerwehr stellte klar, dass die Ersthilfe der Frau durch eine Notärztin bereits früh nach dem Unfall gewährleistet war und dass der behinderte Rüstwagen der Feuerwehr, der mit Bergungsgerät zur Unfallstelle unterwegs war, nichts am Tod der Frau hätte ändern können. Die Behauptung war jedoch nicht mehr
+aufzuhalten: Die Blockierer\*innen und nicht ein Betonmischer seien Schuld an dem Unfall und seinen Folgen. Der für Nicht-Motorisierte höchst gefährliche Straßenverkehr mit jährlich fast 100.000 verletzten Radfahrer\*innen und mehr als 400 Toten in Deutschland und die seit langen bekannten, aber von der Verkehrspolitik ignorierten besonderen Gefahren durch den Schwerlastverkehr werden hier komplett ausgeblendet.
 
 Die Wut populistischer Politiker\*innen, insbesondere derjenigen, die sich im
 Widerstand gegen wirksame Klimaschutzmaßnahmen
@@ -149,7 +150,7 @@ Klimapolitik als auch für die Freilassung der inhaftierten
 Klimaaktivist\*innen. Wir müssen hier aktiv werden.
 
 
-Göttinger Klimabündnis
+Ulrich und Ulla Schwardmann, Göttinger Klimabündnis
 
 # Die Begründung von Lars aus Göttingen
 
