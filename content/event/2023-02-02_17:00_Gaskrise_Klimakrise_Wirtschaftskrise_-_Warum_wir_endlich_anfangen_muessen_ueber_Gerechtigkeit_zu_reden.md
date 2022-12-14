@@ -2,17 +2,17 @@
 layout:        events
 title:         "Gaskrise, Klimakrise, Wirtschaftskrise - Warum wir endlich anfangen müssen über Gerechtigkeit zu reden"
 subtitle:      "Vortragsreihe des Referat für Klimagerechtigkeit des AStA Göttingen"
-date:          2023-02-23T17:00:00+01:00
-etime:         2023-02-23T19:00:00+01:00
+date:          2023-02-02T17:00:00+01:00
+etime:         2023-02-02T19:00:00+01:00
 publishdate:   2022-12-09T00:00:00+01:00
 author:        "Referat für Klimagerechtigkeit des AStA Göttingen"
 place:         "ZHG 010 Universitaet Goettingen"
-URL:           "/2023/02/23/17/00/gaskrise_klimakrise_wirtschaftskrise_-_warum_wir_endlich_anfangen_muessen_ueber_gerechtigkeit_zu_reden"
+URL:           "/2023/02/02/17/00/gaskrise_klimakrise_wirtschaftskrise_-_warum_wir_endlich_anfangen_muessen_ueber_gerechtigkeit_zu_reden"
 locURL:        "mailto:oekologie@asta.uni-goettingen.de"
 image:         "/img/banner/2021-09-Goettingen-Klimastreik-Indigene.jpg"
 ---
 
-**Veranstaltung: 23. Februar 2023, 17:00 Uhr, ZHG 010 Universitaet Goettingen**
+**Veranstaltung: 02. Februar 2023, 17:00 Uhr, ZHG 010 Universitaet Goettingen**
 
 Gaskrise, Klimakrise, Wirtschaftskrise - Warum wir endlich anfangen müssen über Gerechtigkeit zu reden
 ===========
