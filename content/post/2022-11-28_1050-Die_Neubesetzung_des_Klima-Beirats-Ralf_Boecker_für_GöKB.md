@@ -16,7 +16,8 @@ Scheinbar um die Neubesetzung des Klima-Beirats für die nächsten drei Jahre
 als reine Formalie rasch durchzuwinken soll am kommenden 
 [Di. 29.11.22 im Ausschuss für Umwelt, Klimaschutz & Mobilität](https://www.goettingen.de/allris/to010.asp?SILFDNR=5634)
 als TOP Ö16  (am Ende einer anstrengenden Tagesordnung!) und endgültig schon am
-16.12.22 im Rat der [Besetzungsvorschlag für den Klima-Beirat 2023~26](https://www.goettingen.de/allris/vo020.asp?VOLFDNR=24851)
+16.12.22 im Rat der [Besetzungsvorschlag für den Klima-Beirat
+2023~26](/documents/2022_08_28_klimaschutz_beirat_zusammensetzung_2020_2022.pdf)
 beschlossen werden. Die Beschlussvorlage der Verwaltung nennt lediglich die
 vorgeschlagene Neubesetzung. 
 
