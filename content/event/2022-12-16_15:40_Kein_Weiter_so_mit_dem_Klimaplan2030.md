@@ -22,7 +22,9 @@ Kundgebung vor der Ratssitzung im Neuen Rathaus
 
 In der Ratssitzung soll der Antrag "Klimaplan umsetzen und mit erneuerbaren Energien in die Zukunft!"
 des Haushaltsbündnisses aus SPD, CDU und FDP beschlossen werden.
-In diesem Antrag wird zwar Die Klimakrise ist eine der, wenn nicht die größte Herausforderung unserer Zeit benannt. 
+In diesem Antrag wird zwar die Klimakrise als eine der, wenn nicht die größte Herausforderung unserer Zeit
+benannt, aber die Maßnahmen bleiben bei entscheidenden Punkten auf der Linie
+bisheriger Klimaschutzvermeidung.
 
 Auch wenn es einen Ratsbeschluss zur Klimaneutralität Göttingens bis 2030
 gibt, versteckt sich der Antrag hinter den Zielen des sogenannten Klimaplan2030, der zur
