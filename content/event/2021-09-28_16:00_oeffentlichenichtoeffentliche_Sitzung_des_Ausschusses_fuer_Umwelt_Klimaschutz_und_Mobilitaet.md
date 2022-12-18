@@ -9,7 +9,7 @@ author:     "Stadt Göttingen"
 place:         "Videokonferenz"
 URL:           "/2021/09/28/16/00/oeffentlichenichtoeffentliche_sitzung_des_ausschusses_fuer_umwelt_klimaschutz_und_mobilitaet"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_6.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_6.jpg"
 ---
 
 **Veranstaltung: 28. September 2021, 16:00 Uhr**

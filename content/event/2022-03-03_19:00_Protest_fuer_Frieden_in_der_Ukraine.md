@@ -9,7 +9,7 @@ author:        "Fridays for Future Göttingen"
 place:         "Gaenseliesel"
 URL:           "/2022/03/03/19/00/protest_fuer_frieden_in_der_ukraine"
 locURL:        ""
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 03. März 2022, 19:00 Uhr, Gaenseliesel**

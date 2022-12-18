@@ -9,7 +9,7 @@ author:        "Göttingen"
 place:         "auf Anfrage: training [at] extinctionrebellion.de"
 URL:           "/2021/05/02/18/00/xr_gewaltfreie_kommunikation"
 locURL:        "https://extinctionrebellion.de/veranstaltungen/ag-training/gewaltfreie-kommunikation/5497/"
-image: "img/banner/2021.04-Göttingen_Kreidebilder_1.jpg"
+image: "img/banner/2021-04-24-Göttingen_Kreidebilder_1.jpg"
 ---
 
 **Veranstaltung: 02. Mai 2021, 18:00 Uhr**

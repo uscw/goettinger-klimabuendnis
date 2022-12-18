@@ -9,7 +9,7 @@ author:        "Lea Bonasera"
 place:         "Zentralcampus Goettingen - ZHG Hoersaal 001"
 URL:           "/2021/11/19/18/30/strategie_der_gruppe_aufstand_der_letzten_generation"
 locURL:        "https://letztegeneration.de/forderungen/"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_3.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
 ---
 
 **Veranstaltung: 19. November 2021, 18:30 Uhr, Zentralcampus Goettingen - ZHG Hoersaal 001**

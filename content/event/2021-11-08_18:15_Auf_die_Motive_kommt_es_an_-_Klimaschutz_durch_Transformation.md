@@ -9,7 +9,7 @@ author:        "Klimaschutz Göttingen e.V."
 place:         "Alte Bibliothek, Papendiek 14"
 URL:           "/2021/11/08/18/15/auf_die_motive_kommt_es_an_-_klimaschutz_durch_transformation"
 locURL:        "https://www.klimaschutz-goettingen.de"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 08. November 2021, 18:15 Uhr, Alte Bibliothek, Papendiek 14**

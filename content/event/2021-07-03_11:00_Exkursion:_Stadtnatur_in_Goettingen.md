@@ -8,7 +8,7 @@ publishdate:   2021-06-28T00:00:00+01:00
 author:        "BUND Göttingen"
 place:         "Goettingen"
 URL:           "/2021/07/03/11/00/exkursion:_stadtnatur_in_goettingen"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_3.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
 ---
 
 **Veranstaltung: 03. Juli 2021, 11:00 Uhr**

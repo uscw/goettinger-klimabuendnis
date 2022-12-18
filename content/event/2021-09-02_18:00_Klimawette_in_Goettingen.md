@@ -9,7 +9,7 @@ author:        "Orgateam der Klimawette"
 place:         "Goettingen Rathaus"
 URL:           "/2021/09/02/18/00/klimawette_in_goettingen"
 locURL:        "http://www.dieklimawette.de/sommertour"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 02. September 2021, 18:00 Uhr**

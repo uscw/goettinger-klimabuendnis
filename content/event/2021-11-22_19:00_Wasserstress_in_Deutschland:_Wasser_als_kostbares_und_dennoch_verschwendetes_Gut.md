@@ -9,7 +9,7 @@ author:        "Referat für Ökologie, Nachhaltigkeit und Gesellschaft des AStA
 place:         "Universitaet Goettingen ZHG 103"
 URL:           "/2021/11/22/19/00/wasserstress_in_deutschland:_wasser_als_kostbares_und_dennoch_verschwendetes_gut"
 locURL:        "https://www.nachhaltigkeitswochen-norden.de/"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 22. November 2021, 19:00 Uhr, Universitaet Goettingen ZHG 103**

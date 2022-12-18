@@ -9,7 +9,7 @@ author:        "Alle Dörfer BLEIBEN"
 place:         "Luetzerath"
 URL:           "/2022/04/23/12/00/grossdemonstration_nach_luetzerath"
 locURL:        "https://www.alle-doerfer-bleiben.de/aktionen/"
-image:         "/img/banner/2022-03-Klimastreik_1.jpg"
+image:         "/img/banner/2022-03-28-Klimastreik_1.jpg"
 ---
 
 **Veranstaltung: 23. April 2022, 12:00 Uhr, Luetzerath**

@@ -9,7 +9,7 @@ author:        "Klimaschutz Göttingen e.V."
 place:         "Altes Rathaus, Markt 8 Göttingen"
 URL:           "/2022/03/07/18/15/abschlussveranstaltung_-_anspruch_und_wirklichkeit:"
 locURL:        "https://www.klimaschutz-goettingen.de"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 07. März 2022, 18:15 Uhr, Altes Rathaus, Markt 8, Göttingen**

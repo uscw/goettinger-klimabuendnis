@@ -9,7 +9,7 @@ author:     "Stadt Göttingen"
 place:         "Ratssaal der Stadt"
 URL:           "/2021/07/08/16/00/oeffentliche__nichtoeffentliche_sitzung_des_ausschusses_fuer_bauen_planung_und_grundstuecke"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 08. Juli 2021, 16:00 Uhr**

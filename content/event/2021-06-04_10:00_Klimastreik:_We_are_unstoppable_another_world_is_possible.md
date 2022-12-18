@@ -9,7 +9,7 @@ author:        "FFF"
 place:         "Goettingen Neues Rathaus"
 URL:           "/2021/06/04/10/00/klimastreik:_we_are_unstoppable_another_world_is_possible"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 04. Juni 2021, 10:00 Uhr**

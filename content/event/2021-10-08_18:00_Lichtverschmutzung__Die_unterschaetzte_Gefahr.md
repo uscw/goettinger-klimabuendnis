@@ -9,7 +9,7 @@ author:        "GUNZ"
 place:         "GUNZ, "
 URL:           "/2021/10/08/18/00/lichtverschmutzung__die_unterschaetzte_gefahr"
 locURL:        "mailto:mail@goettinger-umweltzentrum.de"
-image:         "/img/banner/deutsches-theater-nachts.jpg"
+image:         "/img/banner/2019-05-13-deutsches-theater-nachts.jpg"
 ---
 
 **Veranstaltung: 08. Oktober 2021, 18:00 Uhr**

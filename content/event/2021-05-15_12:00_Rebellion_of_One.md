@@ -9,7 +9,7 @@ author:        "XR Göttingen"
 place:         "Teilnahme training [at] extinctionrebellion.de"
 URL:           "/2021/05/15/12/00/rebellion_of_one"
 locURL:        "https://extinctionrebellion.de/veranstaltungen/xr_de/rebellion-one/5602/"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 15. Mai 2021, 12:00 Uhr**

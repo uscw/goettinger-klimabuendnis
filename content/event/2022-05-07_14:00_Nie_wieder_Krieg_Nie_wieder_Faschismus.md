@@ -9,7 +9,7 @@ author:        "GÖTTINGENALI Antifaschistische Linke International"
 place:         "MARKTGAENSELIESEL"
 URL:           "/2022/05/07/14/00/nie_wieder_krieg_nie_wieder_faschismus"
 locURL:        "https://WWW.INVENTATI.ORG/ALI"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 07. Mai 2022, 14:00 Uhr, MARKTGAENSELIESEL**

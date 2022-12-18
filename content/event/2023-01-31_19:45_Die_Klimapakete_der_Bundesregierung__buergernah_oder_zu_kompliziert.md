@@ -9,7 +9,7 @@ author:        "Scientists for Future, Klimaschutzbeirat, KUNST Göttingen"
 place:         "Deutsches Theater Goettingen"
 URL:           "/2023/01/31/19/45/die_klimapakete_der_bundesregierung__buergernah_oder_zu_kompliziert"
 locURL:        "https://www.dt-goettingen.de"
-image:         "/img/banner/deutsches-theater-nachts.jpg"
+image:         "/img/banner/2019-05-13-deutsches-theater-nachts.jpg"
 ---
 
 **Veranstaltung: 31. Januar 2023, 19:45 Uhr, Deutsches Theater Goettingen**

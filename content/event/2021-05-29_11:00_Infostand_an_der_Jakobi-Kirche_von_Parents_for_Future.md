@@ -8,7 +8,7 @@ publishdate:   2021-05-26T00:00:00+01:00
 author:        "Göttinger Klimabündnis"
 place:         "an der Jacobi-Kirche"
 URL:           "/2021/05/29/11/00/infostand_an_der_jakobi-kirche_von_parents_for_future"
-image:         "/img/banner/2021-03-Pressekonferenz-Ratsantraege-174721.png"
+image:         "/img/banner/2021-03-11-Pressekonferenz-Ratsantraege.png"
 ---
 
 **Veranstaltung: 29. Mai 2021, 11:00 Uhr**

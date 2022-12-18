@@ -9,7 +9,7 @@ author:        "GUNZ, ProBahn + ADFC + VCD + BfnS AG Verkehr"
 place:         "GUNZ Seminarraum Geiststrasse 2 Goettingen"
 URL:           "/2021/11/10/16/30/verkehrswende_fuer_soziale_mobilitaetsgerechtigkeit_in_goettingen"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 10. November 2021, 16:30 Uhr, GUNZ Seminarraum Geiststrasse 2 Goettingen**

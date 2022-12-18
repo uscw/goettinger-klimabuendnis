@@ -9,7 +9,7 @@ author:        "Referat für Klimagerechtigkeit des AStA Göttingen"
 place:         "ZHG 103 Universitaet Goettingen"
 URL:           "/2022/12/15/16/15/gaskrise_klimakrise_wirtschaftskrise_-_warum_wir_endlich_anfangen_muessen_ueber_gerechtigkeit_zu_reden"
 locURL:        "mailto:oekologie@asta.uni-goettingen.de"
-image:         "/img/banner/2021-09-Goettingen-Klimastreik-Indigene.jpg"
+image:         "/img/banner/2021-09-21-Goettingen-Klimastreik-Indigene.jpg"
 ---
 
 **Veranstaltung: 15. Dezember 2022, 16:15 Uhr, ZHG 011 Universitaet Goettingen**

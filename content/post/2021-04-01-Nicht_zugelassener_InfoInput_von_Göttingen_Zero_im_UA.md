@@ -4,7 +4,7 @@ title: "Nicht zugelassener Info-Input von Göttingen Zero im UA am 23.3.2021"
 subtitle: ""
 date: 2021-04-01T18:50:34+01:00
 abstract: "... Wenn wir nicht aufhören, Bedenken zu tragen und nicht endlich beginnen, Optionen zu betrachten, wie wir das scheinbar Unmoegliche möglich machen können, dann wird das nie was. ..."
-image: "img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image: "img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 draft: false
 categories: [ "Rat und Ausschüsse" ]
 ---

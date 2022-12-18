@@ -171,8 +171,11 @@ class event():
             if Author == "":
                 Author = cont["author"]
             print ("Banner-Bild (" + cont["image"] + ")")
-            for file in os.listdir(homeDir + "/static" + banner_dir):
-                print(file)
+            dirlist = os.listdir(homeDir + "/static" + banner_dir)
+            dirlist.sort()
+            for file in dirlist:
+                if file.startswith("20"):
+                    print(file)
             Image = sys.stdin.readline()[:-1]
             if Image == "":
                  Image = cont["image"]

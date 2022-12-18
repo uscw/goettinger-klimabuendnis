@@ -9,7 +9,7 @@ author:        "Klimaschutz Göttingen e.V."
 place:         "Göttingen"
 URL:           "/2022/01/17/18/15/klimaschutz_im_islam_-_muslime_in_verantwortung"
 locURL:        "https://www.klimaschutz-goettingen.de"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 17. Januar 2022, 18:15 Uhr**

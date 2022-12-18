@@ -9,7 +9,7 @@ author:        "Referat für Ökologie, Nachhaltigkeit und Gesellschaft des AStA
 place:         "Universitaet Goettingen ZHG 103"
 URL:           "/2021/11/23/19/15/konsumkritik-kritik_vortrag_von_redical_m"
 locURL:        "https://www.nachhaltigkeitswochen-norden.de/"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 23. November 2021, 19:15 Uhr, Universitaet Goettingen ZHG 103**

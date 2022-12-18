@@ -9,7 +9,7 @@ author:     "Stadt Göttingen"
 place:         "Videokonferenz"
 URL:           "/2021/11/18/16/00/oeffentliche__nichtoeffentliche_sitzung_des_ausschusses_fuer_bauen_planung_und_grundstuecke"
 locURL:        "https://www.goettingen.de/rathaus/oeffentliche-sitzungen.html"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_2.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_2.jpg"
 ---
 
 **Veranstaltung: 18. November 2021, 16:00 Uhr**

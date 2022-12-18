@@ -9,7 +9,7 @@ author:        "Klimaschutz Göttingen e.V."
 place:         "Göttingen"
 URL:           "/2022/02/14/18/15/die_rolle_der_oekologie_in_katholischer_theologie_und_kirchlichem_leben_heute"
 locURL:        "https://www.klimaschutz-goettingen.de"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 14. Febuar 2022, 18:15 Uhr**

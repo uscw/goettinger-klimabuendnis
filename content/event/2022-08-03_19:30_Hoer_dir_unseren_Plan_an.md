@@ -9,7 +9,7 @@ author:        "Letzte Generation"
 place:         "ZHG 1.140, Platz der Göttinger Sieben 5, Göttingen"
 URL:           "/2022/08/03/19/30/hoer_dir_unseren_plan_an"
 locURL:        "<https://listi.jpberlin.de/mailman/private/schoener-leben/attachments/20220728/f0c132f7/attachment-0001.htm>"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_3.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
 ---
 
 **Veranstaltung: 03. August 2022, 19:30 Uhr, Zentrales Hörsaalgebäude, ZHG

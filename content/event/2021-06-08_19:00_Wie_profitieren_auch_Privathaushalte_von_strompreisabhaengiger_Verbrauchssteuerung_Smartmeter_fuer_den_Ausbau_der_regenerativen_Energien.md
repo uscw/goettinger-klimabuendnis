@@ -9,7 +9,7 @@ author:        "scientists4future Göttingen"
 place:         "Video-Konferenz"
 URL:           "/2021/06/08/19/00/wie_profitieren_auch_privathaushalte_von_strompreisabhaengiger_verbrauchssteuerung_smartmeter_fuer_den_ausbau_der_regenerativen_energien"
 locURL:        "https://Goettingen.scientists4future.org"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 08. Juni 2021, 19:00 Uhr**

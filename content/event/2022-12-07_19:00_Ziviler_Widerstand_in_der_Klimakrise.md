@@ -9,7 +9,7 @@ author:        "Letzte Generation"
 place:         "Im Apex (Burgstr. 46) Goettingen"
 URL:           "/2022/12/07/19/00/ziviler_widerstand_in_der_klimakrise"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_3.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
 ---
 
 **Veranstaltung: 07. Dezember 2022, 19:00 Uhr, Im Apex (Burgstr. 46) Goettingen**

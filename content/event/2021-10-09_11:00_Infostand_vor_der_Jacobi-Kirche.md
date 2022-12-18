@@ -9,7 +9,7 @@ author:        "Göttinger Klimabündnis"
 place:         "Jacobi-Kirche"
 URL:           "/2021/10/09/11/00/infostand_vor_der_jacobi-kirche"
 locURL:        "http://goettinger-klimabuendnis.de"
-image:         "/img/banner/2021-03-Pressekonferenz-Ratsantraege-174721.png"
+image:         "/img/banner/2021-03-11-Pressekonferenz-Ratsantraege.png"
 ---
 
 **Veranstaltung: 09. Oktober 2021, 11:00 Uhr**

@@ -9,7 +9,7 @@ author:        "Scientists for Future, Klimaschutzbeirat, KUNST Göttingen"
 place:         "Deutsches Theater Goettingen"
 URL:           "/2022/11/22/19/45/der_klimaplan_der_stadt_goettingen__klimaneutral_bis_2030"
 locURL:        "https://www.dt-goettingen.de"
-image:         "/img/banner/deutsches-theater-nachts.jpg"
+image:         "/img/banner/2019-05-13-deutsches-theater-nachts.jpg"
 ---
 
 **Veranstaltung: 22. November 2022, 19:45 Uhr, Deutsches Theater Goettingen**

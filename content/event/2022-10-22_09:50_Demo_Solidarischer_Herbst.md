@@ -9,7 +9,7 @@ author:        "BUND"
 place:         "Bahnhofsvorplatz Goettingen"
 URL:           "/2022/10/22/09/50/demo_solidarischer_herbst"
 locURL:        "https://www.bund-goettingen.de"
-image:         "/img/banner/2022-03-Klimastreik_1.jpg"
+image:         "/img/banner/2022-03-28-Klimastreik_1.jpg"
 ---
 
 **Veranstaltung: 22. Oktober 2022, 09:50 Uhr, Bahnhofsvorplatz Goettingen**

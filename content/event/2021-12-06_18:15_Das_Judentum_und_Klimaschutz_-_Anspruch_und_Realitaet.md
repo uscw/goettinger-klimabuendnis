@@ -9,7 +9,7 @@ author:        "Klimaschutz Göttingen e.V."
 place:         "Videokonferenz"
 URL:           "/2021/12/06/18/15/das_judentum_und_klimaschutz_-_anspruch_und_realitaet"
 locURL:        "https://www.klimaschutz-goettingen.de"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 06. Dezember 2021, 18:15 Uhr, nun als Videokonferenz**

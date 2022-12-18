@@ -9,7 +9,7 @@ author:        "Greenpeace Göttingen"
 place:         "Goettingen"
 URL:           "/2021/08/23/16/00/greenpeace_listening_tour"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_6.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_6.jpg"
 ---
 
 **Veranstaltung: 23. August 2021, 16:00 Uhr**

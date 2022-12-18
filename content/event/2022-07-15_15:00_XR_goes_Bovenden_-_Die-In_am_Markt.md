@@ -9,7 +9,7 @@ author:        "XR Göttingen"
 place:         "Nahe des Wochenmarktes in Bovenden (Treffpunkt Bushaltestelle Rathaus Bovenden) "
 URL:           "/2022/07/15/15/00/xr_goes_bovenden_-_die-in_am_markt"
 locURL:        "https://extinctionrebellion.de/veranstaltungen/g%C3%B6ttingen/xr-goes-bovenden-die-am-markt/7799/"
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 15. Juli 2022, 15:00 Uhr, Nahe des Wochenmarktes in Bovenden (Treffpunkt Bushaltestelle Rathaus Bovenden)**

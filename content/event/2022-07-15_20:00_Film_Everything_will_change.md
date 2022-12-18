@@ -9,7 +9,7 @@ author:        "Göttingen Zero"
 place:         "Lumire Goettingen"
 URL:           "/2022/07/15/20/00/film_everything_will_change"
 locURL:        "https://lumiere-melies.de/lumiere-programm/"
-image:         "/img/banner/deutsches-theater-nachts.jpg"
+image:         "/img/banner/2019-05-13-deutsches-theater-nachts.jpg"
 ---
 
 **Veranstaltung: 15. Juli 2022, 20:00 Uhr, Lumière Göttingen**

@@ -9,7 +9,7 @@ author:        "Fridays for Future"
 place:         "Göttingen Gänseliesel"
 URL:           "/2021/09/10/13/00/mobitag_zum_global_climate_strike"
 locURL:        ""
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 10. September 2021, 13:00 Uhr**

@@ -9,7 +9,7 @@ author:        "Health4Future Göttingen "
 place:         "vor der Sparkassen Arena"
 URL:           "/2021/06/18/16/00/demo_vor_dem_neuen_rathaus_zur_ratssitzung"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_4.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 ---
 
 **Veranstaltung: 18. Juni 2021, 16:00 Uhr**

@@ -9,7 +9,7 @@ author:        "GöttingenZero"
 place:         "vermutlich Gaenseliesl Goettingen"
 URL:           "/2021/12/17/14/00/kundgebung:_goettingen_klimaneutral_2030"
 locURL:        ""
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 ---
 
 **Veranstaltung: 17. Dezember 2021, 14:00 Uhr, vermutlich Gaenseliesl Goettingen**

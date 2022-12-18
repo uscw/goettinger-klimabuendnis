@@ -9,7 +9,7 @@ author:        "XR Families"
 place:         "Neues Rathaus Goettingen"
 URL:           "/2022/12/16/15/40/kein_weiter_so_mit_dem_klimaplan2030"
 locURL:        ""
-image:         "/img/banner/2021-03-Pressekonferenz-Ratsantraege-174721.png"
+image:         "/img/banner/2021-03-11-Pressekonferenz-Ratsantraege.png"
 ---
 
 **Veranstaltung: 16. Dezember 2022, 15:40 Uhr, Neues Rathaus Goettingen**

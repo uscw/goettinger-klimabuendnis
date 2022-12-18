@@ -9,7 +9,7 @@ author:        "Letzte Generation"
 place:         "Im Verfügungsgebäude 4.101 der Universität, Platz der Göttinger Sieben 7)"
 URL:           "/2022/11/29/19/00/ziviler_widerstand_in_der_klimakrise"
 locURL:        ""
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_3.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
 ---
 
 **Veranstaltung: 29. November 2022, 19:00 Uhr, Im Verfügungsgebäude 4.101 der Universität, Platz der Göttinger Sieben 7)**

@@ -4,7 +4,7 @@ title:         "Offener Brief der Göttinger Klimagruppen:"
 subtitle:      "Die Kriminalisierung der Klimabewegung setzt sich fort"
 date:          2022-11-21T13:20:00+01:00
 publishdate:   2022-08-13T00:00:00+01:00
-image:         "/img/banner/2021.04-Göttingen_Kreidebilder_5.jpg"
+image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_5.jpg"
 author:        "Göttinger Klimabündnis"
 showtoc:      false
 draft:        false

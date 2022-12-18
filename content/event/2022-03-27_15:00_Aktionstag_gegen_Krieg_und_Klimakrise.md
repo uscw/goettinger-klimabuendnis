@@ -8,7 +8,7 @@ publishdate:   2022-03-23T00:00:00+01:00
 author:        "SystemAusfall.org"
 place:         "Gaenseliesel Goettingen"
 URL:           "/2022/03/27/15/00/aktionstag_gegen_krieg_und_klimakrise"
-image:         "/img/banner/2020.06-Gaenseliesl.jpg"
+image:         "/img/banner/2020-06-13-Gaenseliesl.jpg"
 draft:        true
 ---
 
