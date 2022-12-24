@@ -1,3 +1,9 @@
+Lautstarke Demo zum Abschluss der Besetzung des Felix-Klein-Gymnasiums Göttingen durch End Fossil : Occupy![2022-12-23-Demo-FKG-Besetzung-Rathaus-1.jpg](/img/pow/2022-12-23-Demo-FKG-Besetzung-Rathaus-1.jpg)
+------------------
+Aussagen auf der Solidaritäts-Demo am 17.12.2022: Was, wenn die Regierung das nicht im Griff hat? - Klimademo - #reichthaltnicht - sofortige Freilassung aller inhaftierten Klimaaktivisten - ein Ende der Kriminalisierung der Klimagerechtigkeitsbewegung - Erhalt des Dorfes Lützerath![2022-12-17-Solidaritaet_Letzte_Generation.jpg](/img/pow/2022-12-17-Solidaritaet_Letzte_Generation.jpg)
+------------------
+Emsiges Buddeln bei der Baumpflanzaktion von Parents for Future auf der Streuobstwiese der Albani Gemeinde am 19.11.2022![2022-11-19-P4F_Pflanzaktion.JPG](/img/pow/2022-11-19-P4F_Pflanzaktion.JPG)
+------------------
 Lea Nesselhauf von GermanZero erklärt im Göttinger Ratssaal 'Was wir tun müssten, wenn wir 1,5-Grad ernst nähmen'![2022-06-24-LeaNesselhauf_GermaZero.jpg](/img/pow/2022-06-24-LeaNesselhauf_GermaZero.jpg)
 ------------------
 Das Klimacamp Göttingen (https://klimacampgoettingen.noblogs.org/) steht seit dem 12.05.2022 wieder direkt gegenüber von Kreistag und Rathaus am Gauß-Weber-Wall![2022-05-14-Klimacamp2022_2.jpg](/img/pow/2022-05-14-Klimacamp2022_2.jpg)
