@@ -1,3 +1,5 @@
+Heimatglühen: Auch in Partielaune finden sich manchmal treffende Beschreibungen für die derzeit größte Herausforderung der Menschheit. (Mahnwache Lützerath am Rathaus am 7.1.2023)![2023-01-07-Heimatgluehen.jpg](/img/pow/2023-01-07-Heimatgluehen.jpg)
+------------------
 Lautstarke Demo zum Abschluss der Besetzung des Felix-Klein-Gymnasiums Göttingen durch End Fossil : Occupy![2022-12-23-Demo-FKG-Besetzung-Rathaus-1.jpg](/img/pow/2022-12-23-Demo-FKG-Besetzung-Rathaus-1.jpg)
 ------------------
 Aussagen auf der Solidaritäts-Demo am 17.12.2022: Was, wenn die Regierung das nicht im Griff hat? - Klimademo - #reichthaltnicht - sofortige Freilassung aller inhaftierten Klimaaktivisten - ein Ende der Kriminalisierung der Klimagerechtigkeitsbewegung - Erhalt des Dorfes Lützerath![2022-12-17-Solidaritaet_Letzte_Generation.jpg](/img/pow/2022-12-17-Solidaritaet_Letzte_Generation.jpg)

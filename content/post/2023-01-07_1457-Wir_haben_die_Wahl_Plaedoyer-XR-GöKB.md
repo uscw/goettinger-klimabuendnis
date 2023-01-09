@@ -7,7 +7,7 @@ publishdate:   2022-09-29T00:00:00+01:00
 image:         "/img/banner/2022-12-17-Solidaritaet-Letzte-Generation.png"
 author:        "XR und GöKB"
 showtoc:      false
-draft:        false
+draft:        true
 ---
 
 Am 4.1.23 fand eine Gerichtsverhandlung gegen mich statt.
@@ -187,7 +187,7 @@ das wir den Wandel zu einer nachhaltigen Welt hinkriegen. Bitte denken Sie an zu
 Generationen, an bedrohte Tier- und Pflanzenarten, an die wunderschönen Ökosysteme, die es hier
 überall gibt, wenn Sie jetzt urteilen. Danke
 
-Nach dem PLädoyer und einer Pause erklärte die Richterin noch, dass der Bußgeldbescheid ohnehin durch die Staatsanwaltschaft
+Nach dem Plädoyer und einer Pause erklärte die Richterin noch, dass der Bußgeldbescheid ohnehin durch die Staatsanwaltschaft
 weitergeleitet worden war, daher hatte diese den bereits geprüft und hätte selbstständig eine
 Nötigungsklage gestarten, wenn dies nötig gewesen wäre. 
 
