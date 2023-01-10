@@ -27,9 +27,12 @@ Die aktuellsten Informationen finden sich beim [Veranstalter](https://www.alle-d
 
 ## Mit Zug und Bus
 mit dem Zug nach Hannover und ab da zusammen mit dem Bus weiter :)
+Abfahrt Göttingen 05:04, Ankunft Hannover Hbf 06:24, 
 
-Bus in Hannover: 7 Uhr Abfahrt (Treffen 6:30) am Trammplatz 1
-    Busticket unter https://fridaysforfuture-hannover.de/shop/
+Bus in Hannover: 7 Uhr Abfahrt (Treffen 6:30) am Trammplatz 1, ca. 1,5 km
+Fussweg südlich vom Hbf.
+
+Busticket unter https://fridaysforfuture-hannover.de/shop/
 
 ## Shuttles
 Es wird Shuttle-Busse von den Bahnhöfen Erkelenz und Hochneukirch zur Demo und zurück geben.
