@@ -18,6 +18,10 @@ und den Menschen geschah, die aus ihren Dörfern vertrieben worden sind.
 Die Fotografin hat uns gestattet diese Fotos hier bis Mitte des
 Jahres auszustellen. Vielen Dank dafür.
 
+Die Aufnahmen sind in höherer Aufösung auch auf der 
+[Homepage der Fotografin](https://www.ostkreuz.de/fotoserien/photographer/jordis-antonia-schloesser/) zu
+finden.
+
 Begleittext von Greenpeace
 -----------------
 ![](/img/post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12-0.jpg)
