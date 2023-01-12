@@ -7,7 +7,7 @@ publishdate:   2022-09-29T00:00:00+01:00
 image:         "/img/banner/2022-12-17-Solidaritaet-Letzte-Generation.png"
 author:        "XR und GöKB"
 showtoc:      false
-draft:        true
+draft:        false
 ---
 
 Am 4.1.23 fand eine Gerichtsverhandlung gegen mich statt.
