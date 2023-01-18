@@ -4,7 +4,7 @@ title:         "Kohle macht krank"
 subtitle:      "Health for Future fordert ein Abrissmoratorium für Lützerath"
 date:          2023-01-06T9:00:00+01:00
 publishdate:   2022-09-28T00:00:00+01:00
-image:         "/img/banner/2018.10-Kohlebagger_in_Hambach.jpg"
+image:         "/img/banner/2023-01-14-Lützerath.png"
 author:        "Health for Future"
 showtoc:      false
 draft:        false
