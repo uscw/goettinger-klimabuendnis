@@ -41,10 +41,10 @@ def get_post():
         Image = banner_dir + "/" + Image
     print ("Author")
     author =  sys.stdin.readline()[:-1]
-    print ("Show Table of Content [false|TRUE]")
+    print ("Show Table of Content [FALSE|true]")
     showtoc =  sys.stdin.readline()[:-1].lower()
     if showtoc == "" or showtoc not in  ["false","true"]:
-        showtoc = "true"
+        showtoc = "false"
     print ("Draft [FALSE|true]")
     draft =  sys.stdin.readline()[:-1].lower()
     if draft == "" or draft not in  ["false","true"]:
@@ -53,7 +53,7 @@ def get_post():
     
     cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "showtoc" : showtoc, "draft" : draft}
     curr_posts = {}
-    curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","")] = cont
+    curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","")] = cont
     return curr_posts
 
 def get_publish_date(date_str, publish_delta):
@@ -81,6 +81,7 @@ if __name__ == '__main__':
         LocIcon = ""
 
     fo = open(PostDir + post + ".md", "w")
+    
     fo.write("---"+ "\n")
     fo.write("layout:        posts"+ "\n")
     fo.write("title:         \"" + Pst["title"] + "\""+ "\n")
