@@ -44,3 +44,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Mon Jan 30 22:30:02 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+ 
+;
+;
+    
+numberDataPoints-1
+.
+;
+.
+,
+controlling/grafiken/test
+
+*** File '(Unnamed)'
+\n
+\n
+\n
+29
+,
+	
+,
+.
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+
+*** File '(Unnamed)'
+/home/uschwar1/bla.csv
+/home/uschwar1/bla.csv
+/home/uschwar1/bla.csv
+/home/uschwar1/bla.csv
+Verkehr/goesis_oepnv.csv
+Verkehr/goesis_oepnv.csv
+Verkehr/goesis_oepnv.csv
+/home/uschwar1/bla.csv
+content/controlling/2023-01-30-Test.md
+content/post/2022-01-20_11:21-Fotoausstellung_Braunkohlerevier_Greenpeace_Schloesser.md
+content/controlling/2023-01-30-Test.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

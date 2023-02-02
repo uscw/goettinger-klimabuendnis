@@ -20,6 +20,8 @@ Die Klimapakete der Bundesregierung – bürgernah oder zu kompliziert?
 Veranstaltung mit Staatssekretär Stefan Wenzel u.a. im Rahmen von 'Klimakrise, wie weiter?'
 -----------
 
+[**Aufzeichnungen des Lifestreams**](https://www.youtube.com/watch?v=UCGQItJeDlM)
+
 Nachdem es in der 1. Veranstaltung der Reihe "Klimakrise -  wie weiter?" im Deutschen Theater Göttingen um die Klimapolitik der Stadt Göttingen und den Klimaplan 2030 ging, soll in der 2. Veranstaltung die Bundesklimaschutzpolitik und ihre Auswirkungen auf Göttingen beleuchtet werden. Unter der Überschrift „die Klimapakete der Bundesregierung – bürgernah oder zu kompliziert?° werden in Einführungsvorträgen verschiedene Themenbereiche der aktuellen Klimapolitik dargestellt und jeweils anschließend dazu der neue parlamentarische Staatssekretär im Ministerium für Wirtschaft und Klimaschutz, Stefan Wenzel, befragt. 
 
 ![Stefan-Wenzel](/img/event/2023-01-31-Stefan-Wenzel.jpg)
