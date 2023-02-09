@@ -40,6 +40,7 @@ class event():
         header = False
         image = ""
         text = ""
+        self.file = file
         if file != None:
             fd = open(file)
             pre_text = ""
@@ -125,8 +126,11 @@ class event():
         self.month = Date.split("-")[1]
         if self.month > "03" and self.month < "11":
             UTCplus = "02:00"
-        print ("Weitere Angaben ändern? (J|n)")
-        ans = sys.stdin.readline()[:-1]
+        if self.file != None:
+            print ("Weitere Angaben ändern? (J|n)")
+            ans = sys.stdin.readline()[:-1]
+        else:
+            ans = "j"
         if ans.lower() != "n":
             time = cont["time"].split(":")[0] + ":" + cont["time"].split(":")[1]
             print ("Uhrzeit: (" + time + ")" )
