@@ -17,6 +17,8 @@ cp ${DDIR}/public/404.html ${DDIR}/public/50x.html # ssl error page also needed
 cd ${DDIR}
 
 docker build . -t ${TAG}
-docker stop  ${TAG}
-docker run -d --name ${TAG} -p 80:80 -p 443:443 --rm ${TAG}
-docker image prune -a -f
+if [[ $? == 0 ]]; then
+  docker stop  ${TAG}
+  docker run -d --name ${TAG} -p 80:80 -p 443:443 --rm ${TAG}
+  docker image prune -a -f
+fi
