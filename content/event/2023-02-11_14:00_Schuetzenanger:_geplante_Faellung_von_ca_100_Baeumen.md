@@ -7,7 +7,7 @@ etime:         2023-02-11T16:00:00+01:00
 publishdate:   2023-02-09T00:00:00+01:00
 author:        "GöKB"
 place:         "am Clubhaus des 1. SC Goettingen am Maschsportpark Schuetzenanger"
-URL:           "/2023/02/11/14/00/schuetzenanger:_geplante_faellung_von_ca._100_baeumen"
+URL:           "/2023/02/11/14/00/schuetzenanger_geplante_faellung_von_ca_100_baeumen"
 locURL:        ""
 image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
 ---
