@@ -90,3 +90,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri Feb 10 22:30:02 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+;
+    
+numberDataPoints-1
+.
+;
+.
+,
+controlling/grafiken/test
+* 20
+;
+
+*** File '(Unnamed)'
+,
+	
+,
+.
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+\n
+* 20
+.
+ 
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-02-11_14:00_Schuetzenanger:_geplante_Faellung_von_ca_100_Baeumen.md
+bin/commit_changes_to_GIT.sh
+bin/docker_reload.sh
+config.toml
+config.toml
+config.toml
+config.toml-calendar-test
+config.tom
+config.toml
+config.toml
+content/event/2023-02-11_14:00_Schuetzenanger:_geplante_Faellung_von_ca_100_Baeumen.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

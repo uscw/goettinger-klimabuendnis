@@ -12,8 +12,8 @@ paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
-event = [ "Calendar"]
+home = ["HTML", "RSS", "Algolia", "Calendar"]
+
 
 [params]
   header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
@@ -149,11 +149,22 @@ event = [ "Calendar"]
   title =  "ARCHIV"
   href =  "/top/archive/"
 
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+
+
+[outputFormats]
+
+  [outputFormats.Algolia]
+    baseName = "algolia"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
+
+  [outputFormats.Calendar]
+    baseName = 'WebCal'
+    isPlainText = true
+    mediaType = 'text/calendar'
+    protocol = 'webcal://'
+#    suffixes = ['ics']
 
 [permalinks]
     categories =  "/:section/:slug"
