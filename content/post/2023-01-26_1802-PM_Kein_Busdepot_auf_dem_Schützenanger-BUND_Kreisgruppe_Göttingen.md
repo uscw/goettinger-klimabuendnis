@@ -21,8 +21,9 @@ Der Schützenanger ist aus Sicht des BUND keinesfalls geeignet, um dort ein Busd
 
 Die rund 100 Bäume im besten Baumalter sowie breitflächige Gehölzriegel mit Wildsträuchern dürfen in Zeiten von Klimakrise und notwendiger Klimafolgenanpassung nicht gefällt werden. Der Baumbestand ist innerhalb der Innenstadt als einmalig anzusehen, da er eine immense Bedeutung für das innerstädtische Kleinklima hat, indem die Bäume Kohlendioxid in Sauerstoff umwandeln und während Hitzeperioden zur Kühlung der Umgebung beitragen.
 
-![Planung ZOB Schützenangerin OSM Kartenausschnitt](/img/post/2023-01-24-Planung_ZOB_Schützenanger_in_OSM_Katenausschnitt.png)
-*Abb2: Planung des ZOB Schützenanger (maßstabsgetreue Einbettung der Verwaltungsplanung in einen OSM-Kartenausschnitt )*
+![Planung ZOB Schützenangerin OSM Kartenausschnitt](/img/post/2023-01-24-Planung_ZOB_Schützenanger_OSM.png)
+*Abb2: Planung des ZOB Schützenanger (maßstabsgetreue Einbettung der Verwaltungsplanung in einen
+!OSM-Kartenausschnitt, Karte hergestellt aus OpenStreetMap-Daten | Lizenz: [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/) )*
 
 Zudem beherbergt der Schützenanger die einzige Mausohren-Fledermauswochenstube der gesamten Göttinger Umgebung, die bereits einmal wegen des Umbaumaßnahmen im Maschmühlenweg umsiedeln musste. Langsam erholt sich diese Kolonie und ist in ihrer Ausprägung einzigartig, sodass auch aus Perspektive des Artenschutz eine Fällung der Bäume verheerende Folgen hätte.
 
