@@ -136,3 +136,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Wed Feb 15 22:30:02 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+    
+numberDataPoints-1
+.
+;
+.
+,
+controlling/grafiken/test
+* 20
+;
+"
+
+*** File '(Unnamed)'
+	
+,
+.
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+\n
+* 20
+.
+ 
+@"
+
+*** File '(Unnamed)'
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+srv.cfg
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+content/post/2023-01-26_1802-PM_Kein_Busdepot_auf_dem_Schützenanger-BUND_Kreisgruppe_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-14_0327-PM_BfnS_kritisiert_Umweltgutachten_für_geplantes_Baugebiet_in_Nikolausberg-Bündnis_für_nachhaltige_Stadtentwicklung_Göttingen.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+srv.cfg
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-15_1442-PM_BfnS-Ratsantrag_fordert_Quantifizierung_von_Klimaschäden_durch_Großbauprojekte-BfnS.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
