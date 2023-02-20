@@ -1,3 +1,5 @@
+Wer ist hier der Klimaterrorist? Seitdem der Begriff zum Unwort des Jahres 2022 wurde, steht diese Frage offen im politischen Raum der BRD, hier beim Düsseldorfer Karneval am 20.20.2023![2023-02-20-Wer_ist_hier_der_Klimaterrorist.png](/img/pow/2023-02-20-Wer_ist_hier_der_Klimaterrorist.png)
+------------------
 Lützi lebt am Wilhelmsplatz. Seit dem 18.1.2023 ist die Platane am Wilhelmsplatz von Klimaschützern aus verschiedenen Göttinger Klimainitiativen in Solidarität mit Lützerath besetzt.![2023-01-19-Lützi-lebt-am-Willi.jpg](/img/pow/2023-01-19-Lützi-lebt-am-Willi.jpg)
 ------------------
 Heimatglühen: Auch in Partielaune finden sich manchmal treffende Beschreibungen für die derzeit größte Herausforderung der Menschheit. (Mahnwache Lützerath am Rathaus am 7.1.2023)![2023-01-07-Heimatgluehen.jpg](/img/pow/2023-01-07-Heimatgluehen.jpg)
