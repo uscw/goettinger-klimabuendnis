@@ -23,6 +23,8 @@ Für den 03. März 2023 ruft Fridays For Future zum 12. Mal global zum Klimastre
 
 Überall auf der Welt zeigt sich, die Klimakrise verschärft sich weiter, immer mehr Menschen werden vertrieben. Wir wissen: Jedes weitere Zehntel Grad Erderwärmung, jede weitere politische Fehlentscheidung bedeutet mehr Zerstörung und eskalierende Krisen. In jüngster Vergangenheit wurde uns am Beispiel der Zerstörung von Lützerath erneut gezeigt, dass klimapolitische Versprechen nicht eingehalten werden. Deswegen müssen wir den Wandel zu einer klimagerechten Zukunft selbst erkämpfen, denn #TomorrowIsTooLate. Morgen ist es zu spät.
 
+![SharePic](/img/event/2023-03-03-Sharepic_Klimastreik.png)
+
 Die Verkehrswende ist einer der entscheidenden Schritte, um fossile Brennstoffe in enormem Ausmaß einzusparen. Trotzdem ist der Verkehrssektor der einzige, in dem die Emissionen noch weiter steigen. Es ist offensichtlich: Wir brauchen keine neuen Autobahnen, sondern einen ÖPNV, der für alle funktioniert. Die Jobs im ÖPNV sind dabei alles andere als zukunftssicher: Hohe Arbeitsbelastung und zu kurz bemessene Streckenpläne treffen auf zu geringe Gehälter. Es entscheiden sich bei weitem nicht genügend junge Menschen für diesen Beruf - kein Wunder! Und alleine hier in Göttingen gehen mehr als die Hälfte der
 Busfahrer\*innen vor 2030 in Rente. Am 03.03. rufen wir daher als großes Streikbündnis gemeinsam mit den
 Kolleg\*innen im ÖPNV und ihrer Gewerkschaft Ver.di zu einem bundesweiten ÖPNV Aktionstag auf. Unter dem Motto #WirFahrenZusammen wollen wir gemeinsam gute Arbeitsbedingungen erkämpfen. Denn ohne
@@ -34,3 +36,10 @@ Arbeiter\*innen unsere Solidarität. Denn ihre Jobs sind unsere Zukunft. Lassen 
 Deshalb lasst uns am 3.3. gemeinsam für Klimagerechtigkeit, bessere Arbeitsbedingungen und eine klimagerechte Verkehrswende auf die Straße gehen - aus Schulen, Unis und Betrieben!
 
 Mehr Informationen beim [Veranstalter](https://fridaysforfuture.de/globaler-klimastreik/)
+
+Die Originaldateien für Poster und Flyer sind hier für zwei Wochen zu
+finden:
+
+[Flyer](/img/event/2023-03-03-Flyer_Klimastreik.pdf)
+
+[Poster](/img/event/2023-03-03-Poster_Klimastreik.pdf) 
