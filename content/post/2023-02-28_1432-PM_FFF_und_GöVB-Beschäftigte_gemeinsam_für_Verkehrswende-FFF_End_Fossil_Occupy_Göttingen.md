@@ -12,7 +12,7 @@ draft:        false
 
 
 FFF, End Fossil Occupy Göttingen und Beschäftigte der Göttinger
-Verkehrsbetriebe werden mit einem gemeinsamen Kilma- und Warnstreik  für
+Verkehrsbetriebe werden mit einem gemeinsamen Klima- und Warnstreik  für
 eine sozial-ökologische Verkehrswende diesen Freitag den 03.03.
 demonstrieren.
 
@@ -41,7 +41,7 @@ Beschäftigten in ihrem Kampf für bessere Löhne und Arbeitsbedingungen."
 ![SharePic](/img/event/2023-03-03-Sharepic_Klimastreik.png)
 
 "Während Konzerne Rekordgewinne mit den Krisen machen, ist es nichts
-neues das die Politik unfähig ist schnelle, wirksame und gerechte
+Neues, dass die Politik unfähig ist, schnelle, wirksame und gerechte
 Antworten auf eben diese Krisen zu finden. Das gleiche Muster findet
 sich in ÖPNV sowie in Pflege, Post, Kitas und vielen weiteren Bereichen
 wieder: Jeder einzelne Fortschritt, jede einzelne Verbesserung der Löhne
@@ -57,7 +57,7 @@ Nach Sternmärschen vom HG Haupthaus & Junior, dem OHG, FKG, MPG, und IGS
 Geismar wird die Demonstration um 12 Uhr startend vom Neuen Rathaus
 durch die Innenstadt und wieder zum Rathaus ziehen.
 
-Neben den Veranstalter*innen rufen viele weitere Gruppen zum Klimastreik
+Neben den Veranstalter\*innen rufen viele weitere Gruppen zum Klimastreik
 auf, u.a. Ende Gelände Göttingen, Göttingen Zero, BUND, Parents 4
 Future, Basisdemokratische Linke, Sozialistische Perspektive und viele
 weitere.
