@@ -17,7 +17,7 @@ image:         "/img/banner/2022-03-28-Klimastreik_1.jpg"
 Globaler Klimastreik
 ===========
 
-#TomorrowIsToLate, Alle auf die Straße
+\#TomorrowIsToLate, Alle auf die Straße
 -----------
 Für den 03. März 2023 ruft Fridays For Future zum 12. Mal global zum Klimastreik auf. Auch in Göttingen gehen wir als großes Streikbündnis auf die Straße!
 
@@ -34,6 +34,20 @@ In einer Zeit, in der die breite Mehrheit mit Preissteigerungen zu kämpfen hat 
 Arbeiter\*innen unsere Solidarität. Denn ihre Jobs sind unsere Zukunft. Lassen wir uns nicht spalten: wir zeigen, dass Klima- und soziale Gerechtigkeit zusammen gehören und kämpfen als breite, vereinte Bewegung auf der Straße.
 
 Deshalb lasst uns am 3.3. gemeinsam für Klimagerechtigkeit, bessere Arbeitsbedingungen und eine klimagerechte Verkehrswende auf die Straße gehen - aus Schulen, Unis und Betrieben!
+
+Neben den Veranstalter*innen rufen viele weitere Gruppen zum Klimastreik
+auf, u.a. Ende Gelände Göttingen, Göttingen Zero, BUND, Parents 4
+Future, Basisdemokratische Linke, Sozialistische Perspektive und viele
+weitere.
+
+
+Route
+------
+
+Nach Sternmärschen vom HG Haupthaus & Junior, dem OHG, FKG, MPG, und IGS
+Geismar wird die Demonstration um 12 Uhr startend vom Neuen Rathaus
+durch die Innenstadt und wieder zum Rathaus ziehen.
+
 
 Mehr Informationen beim [Veranstalter](https://fridaysforfuture.de/globaler-klimastreik/)
 
