@@ -1,0 +1,34 @@
+---
+layout:        posts
+title:         "PM: Anträge des Klimaschutz-Beirates zum Haushalt 2023 - 24"
+subtitle:      "'Wenn die Stadt ihren eigenen Klimaplan ernst nimmt, muss mehr geschehen als bisher geplant'"
+date:          2023-02-28T18:07:00+01:00
+publishdate:   2022-11-20T00:00:00+01:00
+image:         "/img/banner/2019-03-09-LilaLichtenberg_1405a.jpg"
+author:        "Klimaschutz-Beirat der Stadt Göttingen"
+showtoc:      false
+draft:        false
+---
+
+Im letzten Jahr hat der Rat beschlossen, dass zu den Haushaltsberatungen dem Klimaschutz-Beirat i(KSB) in einer Sondersitzung mit den Fraktionen des Rates die Möglichkeit gegeben wird, Vorschläge für Haushaltsanträge im Bereich Klimaschutz vorzulegen, insbesondere zu Themen aus dem Bau- und Personalbereich, da der KSB keinen Sitz in den zugehörigen Fachausschüssen hat, um dort selber Anträge zu stellen.
+
+In 3 AG-Sitzungen (Mobilität, Energieerzeugung, Bauen) und einer Sondersitzung des KSB hat der KSB eine Reihe von Anträgen erarbeitet und beschlossen, da aus Sicht des KSB deutlich mehr Maßnahmen nötig sind, um das vom Rat beschlossene Ziel der Klimaneutralität bis 2030 auch nur annähernd zu erreichen. Diese Vorschläge wurden den Fraktionen am 30.1.23 in der angesprochenen Sondersitzung vorgetragen in der Hoffnung, dass die Fraktionen die Anträge übernehmen.
+
+Laut Klimaplan muss zur Erreichung der Klimaziele in der Stadt Göttingen der Ausbau der Photovoltaik im Vergleich zu den letzten 4 Jahren um den Faktor 35 (!) erhöht werden. Daher fordert der KSB 1 Stelle für aufsuchende Solarberatung und Hilfe bei Projektierungen insbesondere von größeren PV-Anlagen (Bereich Gewerbe, Parkplätze etc.). Eine weitere Stelle ist für die beschleunigte Erstellung von B-Plänen für Freiflächen-PV-Anlagen nötig. Laut Verwaltung wird allein für die B-Plan-Erstellung des ersten PV-Pilotprojektes 2-3 Jahre benötigt. Es müssen in den nächsten 10 Jahren aus Sicht des KSB aber 3 B-Plan-Verfahren für PV-Anlagen pro Jahr durchgeführt werden!
+
+Deutlich zu langsam geht auch die Gebäudesanierung voran. Laut Klimaplan muss die Sanierungsrate von ca 1% pro Jahr auf mind. 4 % gesteigert werden. Dies gilt auch für die städt. Gebäude, zumal die Stadt mit gutem Beispiel vorangehen muss. Daher fordert der KSB einen Topf für energetische Sanierung städt. Gebäude in Höhe von 2 Mill. Euro und eine Stelle für die Erfassung des Sanierungsbedarfs und die Durchführung.
+
+Die Wärmeleitplanung, die u.a. absolut wichtig für Festlegung von Gebieten mit zukünftiger Fernwärmeversorgung ist, sollte bereits 2022 vorbereitet werden und 2023 beginnen; laut Controllingliste der Verwaltung musste sie wg. fehlendem Personal verschoben werden. Ab 2024 bezuschusst das Land eine Stelle dafür; damit aber sofort begonnen werden kann, sollte die Stelle sofort ausgeschrieben und besetzt werden und die Kosten dafür im HH zusätzlich bereit- gestellt werden. 
+
+Mit dem Klimafond unterstützt die Stadt BürgerInnen beim Bau von Dach- und Balkon-PV-Anlagen. Nun wird zusätzlich die Gebäudesanierung gefördert, was sehr wichtig ist, aber auch zu erheblich mehr Anträgen führen wird. Daher soll der Fond nach Ansicht des KSB auf 1 Mill. Euro pro Jahr aufgestockt werden.. 
+
+Die Umsetzung des Klimaplans hängt ganz entscheidend von der Mitwirkung der Göttinger Bevölkerung ab. Aus den Erfahrungen mit der Veranstaltungsreihen „Klimakrise – was tun?“ und „Klimakrise –wie weiter“ im DT wissen wir, dass in der Göttinger Bevölkerung nur sehr wenig über den Klimaplan der Stadt und die darin beschriebene Notwendigkeit, dass vor allem auch Göttinger BürgerInnen aktiv handeln müssen (Sanieren, PV-Dachanlagen, Energie sparen, Wärmepumpen etc.), bekannt ist. Hier ist viel mehr Öffentlichkeitsarbeit nötig, die derzeit vom Nachhaltigkeitsreferat nicht geleistet werden kann. Auch hier soll eine zusätzliche Stelle helfen.
+
+Aber auch die Beratungskapazitäten der Energieagentur Region Göttingen reichen nicht aus, um  die vielen Beratungswünsche für Klimaschutzmaßnahmen erfüllen zu können (aktuelle Wartezeiten für Beratungstermine fast 1 Jahr!). Deshalb will der KSB deutlich mehr Geld für Personal, Kampagnen und Öffentlichkeitsarbeit bei der Agentur zur Verfügung stellen und den Zuschuss der Stadt um weitere 60.000 Euro erhöhen.
+
+Im letzten Controlling-Report der Verwaltung konstatiert die Verwaltung an mehreren Stellen, dass die Ziele des Klimaplans wegen Personalmangels bei einer Reihe von Leitprojekten (Klimaschutz-Standards im Neubau“, „Modellquartier energetische Bestandssanierung“, „Modellquartier Neubau“, „Kampagnen der Energieagentur“, „Nachhaltigkeit im städtischen Handeln“, „PV auf Freiflächen“ oder „Wärmeleitplanung“) nicht erreicht bzw. um mehr als ein Jahr verschoben werden mussten („erste Überlegungen“, „Projektgruppe wird eingerichtet“). Vor dem Hintergrund, dass z. B. laut Klimaplan nun jedes Jahr 2 neue Quartierssanierungsprojekte dazukommen sollen und mit dem Modellquartier klimaneutrales Gewerbegebiet noch gar nicht begonnen wurde, fordert der KSB auch hier eine zusätzliche Stelle im Nachhaltigkeitsreferat, um schneller voran zu kommen.
+
+Schließlich möchte der KSB 500.000 Euro für den Bau der dringend benötigten Fahrradabstell-Anlagen an Göttinger Schulen in den HH stellen. Die Planungen liegen vor, werden aber aus Personalmangel nicht umgesetzt. Das ist gerade vor dem Hintergrund, dass SchülerInnen für den Klimaschutz sensibilisiert werden sollen und diese nun nach jahrelangen Planungen noch immer keine Umsetzungen erleben, besonders peinlich. 
+
+„Wenn die Stadt ihren eigenen Klimaplan ernst nimmt, muss mehr geschehen als bisher geplant, Dazu braucht es sowohl mehr Personal als auch an manchen Stellen mehr Geld. Deshalb fordert der KSB alle Fraktionen auf, den Haushaltsplan entsprechend der Forderungen des KSB zu ergänzen!“ erklärte der Vorstand abschließend.
+
