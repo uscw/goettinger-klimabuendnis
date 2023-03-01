@@ -47,11 +47,8 @@ Route
 Nach Sternmärschen vom HG Haupthaus & Junior, dem OHG, FKG, MPG, und IGS
 Geismar wird die Demonstration um 12 Uhr startend vom Neuen Rathaus (Auftaktkundgebung)
 über Kurze-Geismar-Str. – Jüdenstr. – Weender Str. – Berliner Str./Bürgerstr. (Zwischenkundgebung) – Groner-Tor-Str. – Groner Str. – Lange-Geismar-Str. – Kurze-Geismar-Str.
-wieder zu Neues Rathaus (Abschlusskundgebung) führen
+wieder zum Neuen Rathaus (Abschlusskundgebung) führen
 
-
-
-durch die Innenstadt und wieder zum Rathaus ziehen.
 
 
 Mehr Informationen beim [Veranstalter](https://fridaysforfuture.de/globaler-klimastreik/)
