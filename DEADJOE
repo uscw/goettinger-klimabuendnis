@@ -182,3 +182,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb 28 22:30:01 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+    
+numberDataPoints-1
+.
+;
+.
+,
+controlling/grafiken/test
+* 20
+;
+"
+
+*** File '(Unnamed)'
+	
+,
+.
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+\n
+* 20
+.
+ 
+@"
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-24_1321-PM_Göttinger_Schützenanger_bleibt_grün-BUND.md
+content/event/2023-02-26_19:00_Wir_alle_sind_die_letzte_Generation_vor_den_Kipppunkten._Was_wirst_du_Tun.md
+content/event/2023-02-26_19:00_Wir_alle_sind_die_letzte_Generation_vor_den_Kipppunkten._Was_wirst_du_Tun.md
+content/event/2023-03-03_12:00_Globaler_Klimastreik.md
+bla
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-28_1432-PM_FFF_und_GöVB-Beschäftigte_gemeinsam_für_Verkehrswende-FFF_End_Fossil_Occupy_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-28_1807-PM_Anträge_des_Klimaschutz-Beirates_zum_Haushalt_202324-Klimaschutz-Beirat_der_Stadt_Göttingen.md
+content/post/2023-02-28_2032-PM_FFF_und_GöVB-Beschäftigte_gemeinsam_für_Verkehrswende-FFF_End_Fossil_Occupy_Göttingen.md
+2023-02-28_1807-PM_Anträge_des_Klimaschutz-Beirates_zum_Haushalt_2023_-_24-Klimaschutz-Beirat_der_Stadt_Göttingen.md
+2023-02-28_1807-PM_Anträge_des_Klimaschutz-Beirates_zum_Haushalt_202324-Klimaschutz-Beirat_der_Stadt_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-02-28_2123-PM_FFF_und_GöVB-Beschäftigte_gemeinsam_für_Verkehrswende-FFF_End_Fossil_Occupy_Göttingen_und_Beschäftigte_der_Göttinger.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
