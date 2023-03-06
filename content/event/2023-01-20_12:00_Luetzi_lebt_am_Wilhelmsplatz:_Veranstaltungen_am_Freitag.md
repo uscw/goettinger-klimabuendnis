@@ -9,7 +9,7 @@ author:        "GöKB"
 place:         "Wilhelmsplatz Goettingen"
 URL:           "/2023/01/20/12/00/luetzi_lebt_am_wilhelmsplatz:_veranstaltungen_am_freitag_und_samstag"
 locURL:        ""
-image:         "/img/banner/2023-01-14-Lützerath.png"
+image:         "/img/banner/2023-01-14-Lützerath.jpg"
 ---
 
 **Veranstaltung: 20. Januar 2023, 12:00 Uhr, Wilhelmsplatz Goettingen**

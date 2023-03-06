@@ -9,7 +9,7 @@ author:        "Alle Dörfer Bleiben"
 place:         "Luetzerath oder Keyenberg (abhaengig von der Erreichbarkeit von Luetzerath)"
 URL:           "/2023/01/14/12/00/grossdemo:_auf_nach_luetzerath"
 locURL:        "https://www.alle-doerfer-bleiben.de/demo/"
-image:         "/img/banner/2023-01-14-Lützerath.png"
+image:         "/img/banner/2023-01-14-Lützerath.jpg"
 showtoc:      true
 ---
 

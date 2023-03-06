@@ -4,7 +4,7 @@ title:         "PM: Göttinger Bündnis 90/ Die Grünen Parteibüro mit doppelte
 subtitle:      "Die Kohle muss im Boden bleiben - fossilen Kapitalismus abschaffen!"
 date:          2023-01-23T13:36:00+01:00
 publishdate:   2022-10-15T00:00:00+01:00
-image:         "/img/banner/2023-01-14-Lützerath.png"
+image:         "/img/banner/2023-01-14-Lützerath.jpg"
 author:        "BL, Ende Gelände, End Fossil und FFF Göttingen"
 showtoc:      false
 draft:        false

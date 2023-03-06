@@ -5,7 +5,7 @@ subtitle:      "Die Fotoausstellung von Jordis A. Schlösser und Greenpeace zum 
 date:          2022-01-20T11:21:00+01:00
 publishdate:   2022-01-20T00:00:00+01:00
 author:        "Greenpeace"
-image:         "/img/banner/2023-01-14-Lützerath.png"
+image:         "/img/banner/2023-01-14-Lützerath.jpg"
 draft:        false
 ---
 
