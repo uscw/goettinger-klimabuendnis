@@ -79,10 +79,6 @@ Tel.: 0551-4002784 / -4002785
 
 grueneratsfraktion@goettingen.de
 
-www.gruene-goettingen.de/stadtrat/
 
- 
 
- 
-
-Mehr Informationen beim [Veranstalter](www.gruene-goettingen.de/stadtrat/)
+Mehr Informationen beim [Veranstalter](https://www.gruene-goettingen.de/fraktionen/stadtrat/veranstaltungen)
