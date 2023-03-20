@@ -1,0 +1,46 @@
+
+*** These modified files were found in JOE when it aborted on Sun Mar 19 22:30:01 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+;
+.
+,
+controlling/grafiken/test
+* 20
+;
+"
+,
+,
+,
+
+*** File '(Unnamed)'
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+\n
+* 20
+.
+ 
+@"
+ - ,
+ -
+ -
+
+*** File '(Unnamed)'
+DOIP_socketserver_implementation_xmpl_20230217.py
+/tmp/Certs/otherkeys/sonstiges.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-03-16_18:00_Klimaschutz_geht_nicht_ohne_sehr_gute_Wissenschaft_und_Technik.md
+test.py
+logging_test.py
+logging_test.py
+logging_test.py
+Uroflow.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-03-19_1757-Eine_Teilnehmerin_von_Strassenblockaden_vor_dem_Göttinger_Gericht-GöKB.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-03-19_1757-Eine_Teilnehmerin_von_Strassenblockaden_vor_dem_Göttinger_Gericht-GöKB.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-03-19_1757-Eine_Teilnehmerin_von_Strassenblockaden_vor_dem_Göttinger_Gericht-GöKB.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
