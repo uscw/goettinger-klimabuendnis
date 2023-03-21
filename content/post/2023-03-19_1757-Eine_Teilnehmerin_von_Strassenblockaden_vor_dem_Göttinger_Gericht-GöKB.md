@@ -1,7 +1,7 @@
 ---
 layout:        posts
 title:         "Eine Teilnehmerin von Strassenblockaden vor dem Göttinger Amtsgericht"
-subtitle:      "Auszüge aus ihren Stellungnahmen vom 10.2.2023"
+subtitle:      "Auszüge aus ihren Stellungnahmen vom 10.3.2023"
 date:          2023-03-19T17:57:00+01:00
 publishdate:   2022-12-09T00:00:00+01:00
 image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_3.jpg"
