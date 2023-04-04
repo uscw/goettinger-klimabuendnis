@@ -53,7 +53,7 @@ def get_post():
     
     cont = {"date" : Date, "time" : Time, "title" : title, "subtitle" : subtitle, "text" : text, "url4infos" : url, "image" : Image, "author" : author, "showtoc" : showtoc, "draft" : draft}
     curr_posts = {}
-    curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","")] = cont
+    curr_posts[(str(Date) + "_" + Time + "-" + title  +  "-" + author).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","")] = cont
     return curr_posts
 
 def get_publish_date(date_str, publish_delta):

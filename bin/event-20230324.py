@@ -310,7 +310,7 @@ class event():
         for item in ev_dict:
             dlist = str(ev_dict[item]['date']).split("-")
             tlist = str(ev_dict[item]['time']).split(":")
-            outFN = outDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + ":" + tlist[1] + "_" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","") + ".md"
+            outFN = outDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + ":" + tlist[1] + "_" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_") + ".md"
             outFF = open(outFN, "w")
             outstr = "---\n" + \
             "layout:        events\n" + \
