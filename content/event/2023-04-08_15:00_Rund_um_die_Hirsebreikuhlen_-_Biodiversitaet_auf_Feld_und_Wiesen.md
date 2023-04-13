@@ -9,7 +9,7 @@ author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Werderhof Bruecke ueber die Garte Goettingen"
 URL:           "/2023/04/08/15/00/rund_um_die_hirsebreikuhlen_-_biodiversitaet_auf_feld_und_wiesen"
 locURL:        "http://www.biologische-schutzgemeinschaft.de"
-image:         "/img/banner/2021-02-05_welt_in_der_hand.jpg"
+image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
 
 **Veranstaltung: 08. April 2023, 15:00 Uhr, Werderhof Bruecke ueber die Garte Goettingen**

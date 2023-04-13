@@ -115,17 +115,14 @@ class event():
         curr_events = {}
         curr_events[date + "_" + Time +  "_" + Place.replace(" ","").replace(",","")] = cont        
         return curr_events
-    
+
     def get_new_event(self,cont):
         
         print ("Datum (" + cont["date"] + ")")
         Date = sys.stdin.readline()[:-1]
         if Date == "":
             Date = cont["date"]
-        UTCplus = "01:00"
-        self.month = Date.split("-")[1]
-        if self.month > "03" and self.month < "11":
-            UTCplus = "02:00"
+        UTCplus = self.get_UTC(Date)
         if self.file != None:
             print ("Weitere Angaben ändern? (J|n)")
             ans = sys.stdin.readline()[:-1]
@@ -212,7 +209,13 @@ class event():
         curr_events[str(Date) + "_" + Time +  "_" + Place.replace(" ","").replace(",","")] = cont
         return curr_events
             
-    
+    def get_UTC(self,date):
+        UTCplus = "01:00"
+        self.month = date.split("-")[1]
+        if self.month > "03" and self.month < "11":
+            UTCplus = "02:00"
+        return UTCplus
+        
     def get_publish_date(self,date_str, publish_delta):
         date = datetime.strptime(date_str, "%Y-%m-%d")
         today = datetime.now()
@@ -305,7 +308,7 @@ class event():
         return date_parts[2] + ". " + self.months[int(date_parts[1])-1] + " " + date_parts[0] + ", " + time_parts[0] + ":" + time_parts[1]
     
                
-    def dict2eventMD(self,ev_dict, publish_delta):
+    def dict2eventMD(self,ev_dict,publish_delta=100,outDir=outDir):
     
         for item in ev_dict:
             dlist = str(ev_dict[item]['date']).split("-")
@@ -321,7 +324,7 @@ class event():
             "publishdate:   " + self.get_publish_date(ev_dict[item]['date'],publish_delta) + "T00:00:00+01:00\n" + \
             "author:        \"" + str(ev_dict[item]['author']) + "\"\n" + \
             "place:         \"" + self.text2ascii(str(ev_dict[item]['place'])) + "\"\n" + \
-            "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").lower() + "\"\n" + \
+            "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(":","_").replace(";","_").replace(",","_").replace(".","_").lower() + "\"\n" + \
             "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
             "image:         \"" + str(ev_dict[item]['image']) + "\"\n" + \
             "---\n" + \
@@ -349,7 +352,7 @@ class event():
                 nextDate = recurringDates(evt["date"],sys.argv[2]).nextDate
                 rDate = nextDate.strftime('%Y-%m-%d')
                 new_evt = self.get_next_recurring_event(evt,rDate)
-            outFN = self.dict2eventMD(new_evt, publish_delta)
+            outFN = self.dict2eventMD(new_evt, publish_delta=publish_delta)
             print( "Written to: " + outFN)
             print ("#######################################")
             print("use output file for next event [y|N]:")

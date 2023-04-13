@@ -29,3 +29,4 @@ Mitbringen bitte nicht mehr als drei Stücke pro Person
 Bitte denkt  in den Innenräumen an eine FFP2-Maske. 
 
 ![Kleidertausch](/img/event/2022-09-17-Kleidertausch.png)
+
