@@ -1,3 +1,5 @@
+In Göttingen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, der für Fahrräder das Rechtsabbiegen bei Rot erlaubt. Francisco Welter-Schultes, Mitglied des Rates: 'Nach neun Jahren und vier Ratsanträgen schafft es die Stadt, ein einziges Verkehrsschild anzubringen. Die Verkehrswende in Göttingen schreitet zu langsam voran.'![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
+------------------
 Am 3.3.203 nahmen über 2000 Menschen und ca. 70 Beschäftigte der Göttinger Verkehrsbetriebe unter dem Motto #WirFahrenZusammen denn #TommorrowIsToLate am globalen Klimastreik in Göttingen teil.![2023-03-03-Klimastreik-3.jpg](/img/pow/2023-03-03-Klimastreik-3.jpg)
 ------------------
 Wer ist hier der Klimaterrorist? Seitdem der Begriff zum Unwort des Jahres 2022 wurde, steht diese Frage offen im politischen Raum der BRD, hier beim Düsseldorfer Karneval am 20.20.2023![2023-02-20-Wer_ist_hier_der_Klimaterrorist.png](/img/pow/2023-02-20-Wer_ist_hier_der_Klimaterrorist.png)
