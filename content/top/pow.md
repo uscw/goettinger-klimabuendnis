@@ -1,4 +1,4 @@
-In Göttingen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, der für Fahrräder das Rechtsabbiegen bei Rot erlaubt. Francisco Welter-Schultes, Mitglied des Rates: 'Nach neun Jahren und vier Ratsanträgen schafft es die Stadt, ein einziges Verkehrsschild anzubringen. Die Verkehrswende in Göttingen schreitet zu langsam voran.'![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
+Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt.![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
 ------------------
 Am 3.3.203 nahmen über 2000 Menschen und ca. 70 Beschäftigte der Göttinger Verkehrsbetriebe unter dem Motto #WirFahrenZusammen denn #TommorrowIsToLate am globalen Klimastreik in Göttingen teil.![2023-03-03-Klimastreik-3.jpg](/img/pow/2023-03-03-Klimastreik-3.jpg)
 ------------------
@@ -38,11 +38,9 @@ Banner-Drop auf dem FFF-Mobitag am 10.9.![2021-09-10-fff-mobitag.jpg](/img/pow/2
 ------------------
 Der Kanzlerkandidat der CDU erklärt die Ergebnisse seiner Klimapolitik (Impressionistische Nachzeichnung einer Fotographie von Rolf Vennenbernd/dpa)![2021-08-09-Laschet_vor_Müllberg.png](/img/pow/2021-08-09-Laschet_vor_Müllberg.png)
 ------------------
-Eine kleine Fitness-Übung beim Stand von Health for Future  zum Markt der Klimaschutztage am 19.6.2021![2021-06-19-Klimaschutztage_2021_H4F_Aktion.jpg](/img/pow/2021-06-19-Klimaschutztage_2021_H4F_Aktion.jpg)
-------------------
 Akrobatik Aktion von Health for Future zu den Klimaschutztagen am 19.6.2021![2021-06-19-Klimaschutztage_2021_H4F_Aktion.jpg](/img/pow/2021-06-19-Klimaschutztage_2021_H4F_Aktion.jpg)
 ------------------
-Demo zum Göttinger Klimastreik am 4.6.2021![2021-06-04-Göttingen-Klimastreik_ori.jpg![2021-06-04-Göttingen-Klimastreik_ori.jpg](/img/pow/2021-06-04-Göttingen-Klimastreik_ori.jpg)
+Demo zum Göttinger Klimastreik am 4.6.2021![2021-06-04-Göttingen-Klimastreik_ori.jpg](/img/pow/2021-06-04-Göttingen-Klimastreik_ori.jpg)
 ------------------
 Fahrrad-Demo von Fridays for Future am 15.4.2021![2021-04-15-fff-goe0-fahrraddemo_ori.jpg](/img/pow/2021-04-15-fff-goe0-fahrraddemo_ori.jpg)
 ------------------
