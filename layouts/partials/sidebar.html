@@ -63,8 +63,7 @@
       </section>
       {{ end }}
 
-      {{- $today_evnt := where .Site.RegularPages "Section" "in" (.Site.Params.eventSections | default (slice "event")) }}
-      {{ $today_evnt := .Site.RegularPages }}
+      {{ $today_evnt := where .Site.RegularPages "Section" "in" (.Site.Params.eventSections | default (slice "event")) }}
       {{- $today_evnt_num := (.Site.Params.widgets.recent_num | default 15) }}
       {{ $datedelta := int .Site.Params.nexteventdays }}
       {{ $datefromnow := now.AddDate 0 0 $datedelta }}
