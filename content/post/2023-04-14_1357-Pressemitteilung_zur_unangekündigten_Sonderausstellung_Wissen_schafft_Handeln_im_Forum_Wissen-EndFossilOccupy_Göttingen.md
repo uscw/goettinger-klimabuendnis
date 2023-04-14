@@ -14,6 +14,8 @@ Die Gruppe EndFossil:Occupy! Göttingen präsentiert seit heute im Forum Wissen 
 
 Das Verhalten von Politik und Gesellschaft steht in keinem Verhältnis zu der existenziellen Bedrohung unserer Lebensgrundlagen durch den Klimawandel. Obwohl die Konsequenzen für Mensch und Natur seit Jahrzehnten bekannt sind, werden Fehler der Vergangenheit fortgeführt. Die Sonderausstellung beschäftigt sich deshalb mit einer der drängensten Fragen unserer Zeit: "Wie kommen wir vom Wissen zum Handeln?"
 
+![Forum Wissen](/img/post/2023-04-14-ForumWissen.jpg)
+
 
 "Das Forum Wissen stellt die Frage: 'Wie wird Wissen geschaffen?' Es ist absurd, im kollektiven Besitz dieses Wissens zu sein, ja sogar die Zusammenfassung des IPCC für politische Entscheidungsträger*innen selbst zu unterzeichnen und nicht zu handeln. Ganz im Gegenteil wird weiter an der eigenen Zerstörung mitzuwirken, weil wir entweder in den fossilen Systemen gefangen sind oder egoistischer, kurzfristige Gewinne nutzen. Die Umsetzung dieses Wissens in entsprechendes Handeln findet also viel zu selten, viel zu langsam oder oft gar nicht statt.
 Die für uns relevante Fragestellung ist demnach: 'Wie kommen wir vom Wissen zum Handeln?'", meint Aktivist Jonathan Groß.
