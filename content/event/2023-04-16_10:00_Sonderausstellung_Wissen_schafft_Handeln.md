@@ -12,12 +12,12 @@ locURL:        "https://goettingen.endfossil.de/"
 image:         "/img/banner/2019-03-09-LilaLichtenberg_1405a.jpg"
 ---
 
-**Veranstaltung: 16. April 2023, 10:00 Uhr, Forum Wissen Bahnhofsvorplatz Goettingen**
+**Veranstaltung: 16. April 2023, 10:00 Uhr, Forum Wissen Bahnhofsvorplatz Goettingen, Kostenloser Eintritt! Fr-So 10-18 Uhr**
 
 Sonderausstellung “Wissen schafft Handeln”
 ===========
 
-Die Sonderausstellung beschäftigt sich mit einer der drängensten Fragen unserer Zeit: “Wie kommen wir vom Wissen zum Hande
+Die Sonderausstellung beschäftigt sich mit einer der drängensten Fragen unserer Zeit: “Wie kommen wir vom Wissen zum Handeln?
 -----------
 
 Die Gruppe EndFossil:Occupy! Göttingen präsentiert im Forum Wissen die selbstkuratierte Sonderausstellung “Wissen schafft Handeln”, welche sich mit der Klimakrise auseinandersetzt. Mit ihrer Aktion möchte die Gruppe die Gesellschaft und all ihre Akteur*innen vom Wissen zum Handeln bewegen.
