@@ -1,3 +1,5 @@
+Am Freitag den 14. April 2023 hatte EndFossil: Occupy! das Forum Wissen mit einer Klima-Sonderausstellung 'Wissen schafft Handeln' besetzt.![2023-04-14-ForumWissenHandelnInnen.jpg](/img/pow/2023-04-14-ForumWissenHandelnInnen.jpg)
+------------------
 Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt.![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
 ------------------
 Am 3.3.203 nahmen über 2000 Menschen und ca. 70 Beschäftigte der Göttinger Verkehrsbetriebe unter dem Motto #WirFahrenZusammen denn #TommorrowIsToLate am globalen Klimastreik in Göttingen teil.![2023-03-03-Klimastreik-3.jpg](/img/pow/2023-03-03-Klimastreik-3.jpg)
