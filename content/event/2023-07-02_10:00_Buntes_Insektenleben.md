@@ -8,7 +8,7 @@ publishdate:   2023-04-13T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Schranke Wildgehege Kehr"
 URL:           "/2023/07/02/10/00/buntes_insektenleben"
-locURL:        "http://www.biologische-schutzgemeinschaft.de/programm"
+locURL:        "http://www.biologische-schutzgemeinschaft.de/program.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
 
@@ -32,4 +32,4 @@ Biologische Schutzgemeinschaft Göttingen e.V. (BSG)
 
 GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 
-Mehr Informationen beim [Veranstalter](http://www.biologische-schutzgemeinschaft.de/programm)
+Mehr Informationen beim [Veranstalter](http://www.biologische-schutzgemeinschaft.de/program.html)

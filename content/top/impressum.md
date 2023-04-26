@@ -13,6 +13,7 @@ draft: false
 ## Vernetzte Gruppen
 | Klimagruppe                                                      | Web-Adresse                                                        | Mail-Adresse                                  |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------- |
+| Biologische Schutzgemeinschaft Göttingen e.V.                    | https://www.biologische-schutzgemeinschaft.de/                     | mail [at] biologische-schutzgemeinschaft.de |
 | BUND Göttingen                                                   | https://www.bund-goettingen.de/                                    | mail [at] bund-goettingen.de                |
 | Craddle to Craddle Göttingen                                     | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/            | goettingen [at] ehrenamt.c2c.ngo            |
 | Ende-Gelände Göttingen                                           | https://www.ende-gelaende.org/en/get-involved/local-groups/        | goettingen [at] ende-gelaende.org           |
