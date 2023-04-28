@@ -1,7 +1,7 @@
 ---
 layout:        posts
 title:         "PM: BfnS sieht in ADFC-Fahrradtest Hinweis für Handlungsdefizite in jüngster Zeit"
-subtitle:      "Bei"
+subtitle:      "Bei 'Fahrradförderung in jüngster Zeit' hat sich Göttingen stark verschlechtert"
 date:          2023-04-28T00:28:00+01:00
 publishdate:   2023-01-18T00:00:00+01:00
 image:         "/img/banner/2022-03-20_KidicalMass.png"
