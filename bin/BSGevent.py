@@ -40,7 +40,7 @@ class eventBSG():
         self.url = ""
         self.place = ""
         self.author = "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
-        self.locURL = "http://www.biologische-schutzgemeinschaft.de/programm"
+        self.locURL = "http://www.biologische-schutzgemeinschaft.de/programm.html"
         self.header = False
         self.image = "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
         self.text = """
