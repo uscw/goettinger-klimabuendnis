@@ -7,7 +7,7 @@ etime:         2023-06-08T15:00:00+02:00
 publishdate:   2023-05-02T00:00:00+01:00
 author:        "Ernährungsrat Göttingen"
 place:         "Alumni Student Garden Kiesseestrasse Allotment 43 37083 Goettingen"
-URL:           "/2023/06/08/13/00/besuch_im_regionalen_bio-betrieb_brothof_waake"
+URL:           "/2023/06/08/13/00/besuch_im_regionalen_bio-betrieb_Käsehof_Landolfshausen"
 locURL:        "https://www.ernahrungsrat-goettingen.de"
 image:         "/img/banner/2022-10-04_Peperoni.jpg"
 ---
