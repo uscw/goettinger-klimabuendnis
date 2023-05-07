@@ -44,3 +44,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri May  5 22:30:02 2023
+*** JOE was aborted by UNIX signal 15
+
+*** File '(Unnamed)'
+;
+.
+,
+controlling/grafiken/test
+* 20
+;
+"
+,
+,
+,
+
+*** File '(Unnamed)'
+post/Kohle_Wanderausstellung_2022/ANSICHT_Q00491_Kohle_Banner_Wanderausstellung_Doerfer_2020_v7_16.57.12
+http://localhost:1313
+\n
+* 20
+.
+ 
+@"
+ - ,
+ -
+ -
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+test.txt
+test.txt
+testB.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-04_0330-PM_des_BfnS_JVA-Chaos_geht_in_die_nächste_Runde_und_Feuerwehr_und_Verwaltungsstelle_Geismar-Bündnis_für_nachhaltige_Stadtentwicklung.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-03_2309-Über_400_Demonstrationen_für_kinderfreundliche_Straßen_in_Deutschland-Kidical_Mass_Aktionsbündnis.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-03_2309-Über_400_Demonstrationen_für_kinderfreundliche_Straßen_in_Deutschland-Kidical_Mass_Aktionsbündnis.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-03_2309-Über_400_Demonstrationen_für_kinderfreundliche_Straßen_in_Deutschland-Kidical_Mass_Aktionsbündnis.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
