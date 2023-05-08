@@ -15,7 +15,7 @@ draft: false
 | ---------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------- |
 | Biologische Schutzgemeinschaft Göttingen e.V.                    | https://www.biologische-schutzgemeinschaft.de/                     | mail [at] biologische-schutzgemeinschaft.de |
 | BUND Göttingen                                                   | https://www.bund-goettingen.de/                                    | mail [at] bund-goettingen.de                |
-| Craddle to Craddle Göttingen                                     | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/            | goettingen [at] ehrenamt.c2c.ngo            |
+| Cradle to Cradle Göttingen                                       | https://c2c-ev.de/mitmachen/regionalgruppen/goettingen/            | goettingen [at] ehrenamt.c2c.ngo            |
 | Ende-Gelände Göttingen                                           | https://www.ende-gelaende.org/en/get-involved/local-groups/        | goettingen [at] ende-gelaende.org           |
 | EPIZ Göttingen                                                   | https://epiz-goettingen.de                                         | info [at] epiz-goettingen.de                |
 | Ernährungsrat i.G.                                               | https://www.ernaehrungsrat-goettingen.de                           | info@ernaehrungsrat-goettingen.de           |
