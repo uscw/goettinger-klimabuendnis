@@ -1,3 +1,5 @@
+Am Montag den 8. Mai 2023 wurde das Otto-Hahn-Gymnasium von Schüler*innen der Bewegung End Fossil: Occupy! besetzt![2023-05-08-OHG_besetzt1.jpg](/img/pow/2023-05-08-OHG_besetzt1.jpg)
+------------------
 Am Freitag den 14. April 2023 hatte EndFossil: Occupy! das Forum Wissen mit einer Klima-Sonderausstellung 'Wissen schafft Handeln' besetzt.![2023-04-14-ForumWissenHandelnInnen.jpg](/img/pow/2023-04-14-ForumWissenHandelnInnen.jpg)
 ------------------
 Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt.![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
