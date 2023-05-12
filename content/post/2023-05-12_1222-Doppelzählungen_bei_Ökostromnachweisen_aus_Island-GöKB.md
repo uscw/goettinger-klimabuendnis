@@ -65,3 +65,5 @@ Auch dort wird manchmal derselbe Ökostrom in Geschäftsberichten von Unternehme
 und gleichzeitig in Form von Herkunftsnachweisen exportiert. 
 
 Hier wird eine neuerliche Evaluierung durch die AIB mit Spannung erwartet.  
+
+Ulrich Schwardmann, GöKB
