@@ -31,7 +31,8 @@ Island produziert aber insgesamt nur etwa 19 Terawattstunden.
 Mindestens 8TW grüner Strom ist eigentlich dreckig
 -------------
 
-Damit werden mindestens 8 Terawattstunden, als grüner Islandstrom
+Damit werden mindestens 8 Terawattstunden, das ist etwa dreieinhalb Prozent
+der erneuerbaren Bruttostromstromerzeugung in Deutschland, als grüner Islandstrom
 deklariert, ist aber in Wahrheit dreckiger europäischer Strom, meist
 aus Kohle.
 
@@ -54,12 +55,12 @@ Nicht nur Island, auch Norwegen in Verdacht
 --------------  
 
 Der österreichische Stromkonzerns Verbund, zu 51 Prozent im Besitz des
-Staates Österreich,  ließ demnach bereits vor mehreren Jahren ein 
+Staates Österreich,  ließ bereits vor mehreren Jahren ein 
 Rechtsgutachten erstellen, in dem die Situation in Norwegen unter die Lupe
 genommen wurde.
 
 [Ergebnis](https://www.golem.de/news/erneuerbare-energien-islands-oekostromzertifikate-werden-nicht-mehr-anerkannt-2305-174011-3.html): 
-in Norwegen bestehen Probleme mit Doppelzählungen von Ökostrom, 
+auch in Norwegen bestehen Probleme mit Doppelzählungen von Ökostrom, 
 die ganz ähnlich zu denen in Island sind. 
 Auch dort wird manchmal derselbe Ökostrom in Geschäftsberichten von Unternehmen verrechnet 
 und gleichzeitig in Form von Herkunftsnachweisen exportiert. 
