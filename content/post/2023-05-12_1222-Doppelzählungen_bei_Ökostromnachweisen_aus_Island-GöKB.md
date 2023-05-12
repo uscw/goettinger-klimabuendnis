@@ -20,7 +20,8 @@ Alle drei Aluminiumunternehmen – Rio Tinto, Alcoa und Nordural – werben dami
 Handel mit Herkunftsnachweisen
 ------------
 
-Island exportiert gleichzeitig in großen Mengen Herkunftsnachweise für erneuerbare Energien, 
+Island exportiert gleichzeitig in großen Mengen Herkunftsnachweise
+(guarantees of origin, GO) für erneuerbare Energien, 
 mit dem Stromanbieter z.B. in Deutschland virtuell Strom aus erneuerbaren Energien verkaufen, 
 indem gleichzeitig entsprechender Strom in Island als fossil deklariert wird.
 
