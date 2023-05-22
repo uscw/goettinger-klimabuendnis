@@ -162,7 +162,10 @@ class event():
             print ("URL (" + cont["locURL"] + ")")
             LocURL =  sys.stdin.readline()[:-1]
             if LocURL == "":
-                LocURL = cont["locURL"]
+                try:
+                    LocURL = cont["locURL"]
+                except:
+                    LocURL = ""
             print ("Ort (" + cont["place"] + ")")
             Place =  sys.stdin.readline()[:-1]
             if Place == "":
@@ -332,8 +335,10 @@ class event():
             "\n" + str(ev_dict[item]['title']) + "\n===========\n"
             if str(ev_dict[item]['subtitle']) != "":
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
+            if str(ev_dict[item]['text']) != "":
+                outstr += str(ev_dict[item]['text']) + "\n"
             if str(ev_dict[item]['locURL']) != "":
-                outstr += str(ev_dict[item]['text']) + \
+                outstr += str(ev_dict[item]['locURL']) + \
                           "\nMehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
             print (outstr)
             outFF.write(outstr)
