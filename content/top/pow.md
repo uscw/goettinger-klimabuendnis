@@ -1,3 +1,5 @@
+Am 25.05.2023 fanden auf der Solidaritäts-Demonstration gegen die Kriminalisierung der Letzten Generation etwa 500 Demonstranten klare Worte zu den Razzien am Vortag![2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg](/img/pow/2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg)
+------------------
 Am Montag den 8. Mai 2023 wurde das Otto-Hahn-Gymnasium von Schüler*innen der Bewegung End Fossil: Occupy! besetzt![2023-05-08-OHG_besetzt1.jpg](/img/pow/2023-05-08-OHG_besetzt1.jpg)
 ------------------
 Am Freitag den 14. April 2023 hatte EndFossil: Occupy! das Forum Wissen mit einer Klima-Sonderausstellung 'Wissen schafft Handeln' besetzt.![2023-04-14-ForumWissenHandelnInnen.jpg](/img/pow/2023-04-14-ForumWissenHandelnInnen.jpg)
