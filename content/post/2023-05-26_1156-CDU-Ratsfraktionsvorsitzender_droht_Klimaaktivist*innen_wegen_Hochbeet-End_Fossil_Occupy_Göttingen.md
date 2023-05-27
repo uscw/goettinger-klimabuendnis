@@ -35,8 +35,8 @@ Keine Woche später sind die Aktivist\*innen erneut als Sapßguerilla-Gärtner\*
 
 
 # Weitere Informationen:
-End Fossil: Occupy! Göttingen: https://goettingen.endfossil.de/
-Unangekündigte Sonderausstellung im Forum Wissen: https://vonwegenverlag.de/vom-wissen-zum-handeln
-2. Unibesetzung von End Fossil: Occupy! Göttingen im Mai 2023: https://vonwegenverlag.de/EndFossil-Uni-Goettingen
-Hochbeet bauen mit End Fossil am Forum Wissen: https://www.youtube.com/@ClimateGorillia
+- End Fossil: Occupy! Göttingen: https://goettingen.endfossil.de/
+- Unangekündigte Sonderausstellung im Forum Wissen: https://vonwegenverlag.de/vom-wissen-zum-handeln
+- 2. Unibesetzung von End Fossil: Occupy! Göttingen im Mai 2023: https://vonwegenverlag.de/EndFossil-Uni-Goettingen
+- Hochbeet bauen mit End Fossil am Forum Wissen: https://www.youtube.com/@ClimateGorillia
 

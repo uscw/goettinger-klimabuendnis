@@ -136,3 +136,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri May 26 22:30:02 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+* 20
+;
+"
+,
+,
+,
+- 
+\*
+\\*
+\\*
+
+*** File '(Unnamed)'
+.
+ 
+@"
+ - ,
+ -
+ -
+•               
+*
+*
+*
+
+*** File '(Unnamed)'
+P4F.txt
+P4F.txt
+GP.txt
+bin/event.py
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-06-21_14:00_Jaeten_fuer_das_Klima.md
+bin/event.py
+home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-25_1346-Solidarität_mit_der_Letzten_Generation-End_Fossil_Occupy_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-25_1346-Solidarität_mit_der_Letzten_Generation-End_Fossil_Occupy_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-05-25_18:00_Unsere_Solidaritaet_gegen_ihre_Repression.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-26_1156-CDU-Ratsfraktionsvorsitzender_droht_Klimaaktivist*innen_wegen_Hochbeet-End_Fossil_Occupy_Göttingen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-05-26_1156-CDU-Ratsfraktionsvorsitzender_droht_Klimaaktivist*innen_wegen_Hochbeet-End_Fossil_Occupy_Göttingen.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
