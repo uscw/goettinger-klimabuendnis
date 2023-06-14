@@ -53,9 +53,3 @@ wieder zum Neuen Rathaus (Abschlusskundgebung) führen
 
 Mehr Informationen beim [Veranstalter](https://fridaysforfuture.de/globaler-klimastreik/)
 
-Die Originaldateien für Poster und Flyer sind hier für zwei Wochen zu
-finden:
-
-[Flyer](/img/event/2023-03-03-Flyer_Klimastreik.pdf)
-
-[Poster](/img/event/2023-03-03-Poster_Klimastreik.pdf) 
