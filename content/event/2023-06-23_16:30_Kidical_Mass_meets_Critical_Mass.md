@@ -25,3 +25,34 @@ Für ein besseres Fahrrad-Klima
 
 ![Kidical Mass meets Critical
 !Mass](/img/event/2023-06-23-KidicalMassMeetsCriticalMass.png)
+
+ Liebe Radfreund*innen,
+
+zum Ende der Klimaschutztage in Göttingen veranstaltet das
+Aktionsbündnis Kidical Mass Göttingen unterstützt von verschiedenen
+Natur- und Klimaschutzgruppen am Freitag den 23.06.2023 AB 16:30 UHR
+eine bunte Fahrraddemo. Die Vorzüge des Fahrradfahrens sind
+vielfältig: klimaschonend, umweltfreundlich, flexibel, leise,
+sozialverträglich, kommunikativ, günstig, platzsparend, … Fahrräder
+sind die ideale Teillösung für mehr Klimaschutz im Verkehrssektor.
+
+Doch damit Fahrradfahren auch Spaß bereitet, braucht es eine
+fahrradfreundliche Infrastruktur. Das Aktionsbündnis Kidical Mass
+fordert eine sofortige Verkehrswende. Die Umfrage des ADFC-Fahrradklima
+zeigt, dass es auch in Göttingen noch viel zu tun gibt (Gesamtnote:
+ausreichend mit 3,5; Sicherheit: ausreichend mit 4,0).
+
+An diesem Freitag geht es wieder vom Deutschen Theater aus über eine
+ca. 5km lange Radtour zum Neuen Rathaus. Teilt diese Informationen und
+den angehängten Flyer und radelt mit für ein besseres Fahrrad-Klima.
+Bringt gerne Banner, Plakate, Fahnen oder Luftballons mit, damit wir
+eine schöne bunte Fahrraddemo für Umwelt- und Klimaschutz werden.
+
+Mit freundlichen Grüßen
+
+Dagmar Finckh
+
+(Organisatorin Kidical Mass Göttingen)
+
+ P.s: Die gefahrenen Kilometer direkt beim Schul- oder Stadtradeln
+eintragen 
