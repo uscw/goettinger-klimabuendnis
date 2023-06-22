@@ -1,3 +1,5 @@
+Zum Klimaschutzmarkt fliesst 'tödliches Erdöl statt Wasser' im Gänseliesl am 17.06.2023. Große Empörung bei gleichzeitiger Untätigkeit der Verantwortlichen.![2023-06-22-LG_Erdöl_statt_Wasser.jpg](/img/pow/2023-06-22-LG_Erdöl_statt_Wasser.jpg)
+------------------
 Am 25.05.2023 fanden auf der Solidaritäts-Demonstration gegen die Kriminalisierung der Letzten Generation etwa 500 Demonstranten klare Worte zu den Razzien am Vortag![2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg](/img/pow/2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg)
 ------------------
 Am Montag den 8. Mai 2023 wurde das Otto-Hahn-Gymnasium von Schüler*innen der Bewegung End Fossil: Occupy! besetzt![2023-05-08-OHG_besetzt1.jpg](/img/pow/2023-05-08-OHG_besetzt1.jpg)
