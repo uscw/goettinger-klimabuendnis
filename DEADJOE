@@ -182,3 +182,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Thu Jun 22 22:30:01 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+"
+,
+,
+,
+- 
+\*
+\\*
+\\*
+- 
+\\*
+
+*** File '(Unnamed)'
+@"
+ - ,
+ -
+ -
+•               
+*
+*
+*
+????
+*
+
+*** File '(Unnamed)'
+content/top/impressum.md
+ownCloud/AO/Sonstiges/prv/Klima/GöKlimaBündnis/FlyerPlakate/2023_Klimaschutztage/H4F.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-06-23_16:30_Kidical_Mass_meets_Critical_Mass.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-06-09_16:30_Wie_heizen_wir_in_Zukunft_klimaneutral.md
+content/event/2023-03-03_12:00_Globaler_Klimastreik.md
+content/event/2023-03-03_12:00_Globaler_Klimastreik.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+ownCloud/Reisen/BahnGutscheine/bahn_StornoCYDCQ4Z.txt
+content/event/2023-06-23_16:30_Kidical_Mass_meets_Critical_Mass.md
+content/post/2023-06-21_0056-BfnS_fordert_Bürgerbeteiligung_für_grundlegende_Entscheidung_am_Weender_Tor-Bündnis_für_nachhaltige_Stadtentwicklung_Göttingen.md
+config.toml
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
