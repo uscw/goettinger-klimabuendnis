@@ -20,4 +20,12 @@ Der Bauausschuss könnte am Donnerstag noch eingreifen und zu Details aus der ei
 
 Das BfnS kritisiert auch, dass angesichts dessen, dass der Fraktionsvorsitzende einer der drei Parteien des Haushaltsbündnisses durch seine Rolle in der Investorenfirma ein persönliches Interesse an dem Beschluss hat, im Bauausschuss keine Chance besteht, an den investorengesteuerten Plänen noch etwas substanziell zu ändern. Zu offensichtlich ist, dass die Planungsinhalte im SPD-CDU-FDP-Haushaltsbündnis ausgehandelt wurden. 
 
+Richtigstellung des BfnS vom 26.06.2023
+-------
+
+Das BfnS nimmt die Aussagen des letzten Absatzes aus der Pressemitteilung vom 20.06.2023
+vollumfänglich zurück und erklärt, dass keiner der Fraktionsvorsitzenden der drei Parteien des
+Haushaltsbündnisses eine Rolle in der Investorenfirma am Weender Tor hat, und folglich auch keine
+Grundlage besteht anzunehmen, dass eine der in Frage kommenden Personen ein persönliches
+Interesse an dem Beschluss haben kann.
 

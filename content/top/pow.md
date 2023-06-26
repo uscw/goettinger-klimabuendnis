@@ -1,3 +1,5 @@
+Zum Ende der Klimawoche mit heftigem Unwetter und Starkregen findet am 23.06.2023 eine KidicalMass-Fahrraddemo statt![2023-06-23-KidicalMass.jpg](/img/pow/2023-06-23-KidicalMass.jpg)
+------------------
 Zum Klimaschutzmarkt fliesst 'tödliches Erdöl statt Wasser' im Gänseliesl am 17.06.2023. Große Empörung bei gleichzeitiger Untätigkeit der Verantwortlichen.![2023-06-22-LG_Erdöl_statt_Wasser.jpg](/img/pow/2023-06-22-LG_Erdöl_statt_Wasser.jpg)
 ------------------
 Am 25.05.2023 fanden auf der Solidaritäts-Demonstration gegen die Kriminalisierung der Letzten Generation etwa 500 Demonstranten klare Worte zu den Razzien am Vortag![2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg](/img/pow/2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg)
