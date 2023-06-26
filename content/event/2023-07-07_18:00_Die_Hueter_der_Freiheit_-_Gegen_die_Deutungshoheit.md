@@ -21,6 +21,8 @@ Theaterstück u.a. zu den Folgen des Mercosur-Abkommens
 -----------
 Auf satirische und anschauliche Weise werden die sozialen und ökologischen Folgen unseres derzeitigen Wirtschaftssystems sichtbar gemacht. In rund 90 Minuten und zwei Akten entlarvt das Theaterstück die Lobby-Strategien großer Konzerne, deckt am Beispiel der fossilen Energiewirtschaft die Profiteure einer auf Ausbeutung und Wachstum beruhenden neoliberalen Politik auf und erklärt, wie das Mercosur-Abkommen globale Ungleichheit verstärkt. 
 
+![Hüter der Freiheit](/img/event/2023-07-07-Hüter_der_Freiheit.jpg)
+
 Im Anschluss ist eine ca. 30-minütige Diskussion geplant. 
 
 Produktion/Text: Christian Eldagsen 
