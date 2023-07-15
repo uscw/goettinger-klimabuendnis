@@ -1,3 +1,5 @@
+Privatisierung des Gänseliesels. Eine Protestaktion von End Fossil: Occupy! Göttingen. Die Göttinger Staatsanwaltschaft will mitspielen. Der Vorwurf:  Unterschlagung![2023-07-15-Privatisierung_des_Gänseliesels.jpg](/img/pow/2023-07-15-Privatisierung_des_Gänseliesels.jpg)
+------------------
 Zum Ende der Klimawoche mit heftigem Unwetter und Starkregen findet am 23.06.2023 eine KidicalMass-Fahrraddemo statt![2023-06-23-KidicalMass.jpg](/img/pow/2023-06-23-KidicalMass.jpg)
 ------------------
 Zum Klimaschutzmarkt fliesst 'tödliches Erdöl statt Wasser' im Gänseliesl am 17.06.2023. Große Empörung bei gleichzeitiger Untätigkeit der Verantwortlichen.![2023-06-22-LG_Erdöl_statt_Wasser.jpg](/img/pow/2023-06-22-LG_Erdöl_statt_Wasser.jpg)

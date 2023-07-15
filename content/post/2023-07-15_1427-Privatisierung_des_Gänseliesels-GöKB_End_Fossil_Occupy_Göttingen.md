@@ -1,7 +1,7 @@
 ---
 layout:        posts
 title:         "Privatisierung des Gänseliesels"
-subtitle:      "Staatsanwaltschaft darf mitspielen. Der Vorwurf: Unterschlagung"
+subtitle:      "Staatsanwaltschaft will mitspielen. Der Vorwurf: Unterschlagung"
 date:          2023-07-15T14:27:00+01:00
 publishdate:   2023-04-06T00:00:00+01:00
 image:         "/img/banner/2023-07-15-Privatisierung_des_Gänseliesels.jpg"
@@ -15,7 +15,7 @@ draft:        false
 
 Aktivist*innen von End Fossil: Occupy! Göttingen machten am heutigen Samstag um 13 Uhr eine weitere Protestaktion am Gänselieselbrunnen in der Göttinger Innenstadt. Um die globale Privatisierung von Wasserquellen zu kritisieren, privatisiert die Gruppe am Samstag, den 15.07.2023, den Gänselieselbrunnen symbolisch selbst und spiegelt damit den kommerzialisierten Umgang mit der Ressource Wasser wieder. Sie umzäunen den Brunnen und verkaufen, als schicke Geschäftsmenschen verkleidet, das Brunnenwasser des Wahrzeichens in der heißen Mittagssonne für 5,99 Euro pro Flasche.
 
-## Staatsanwaltschaft darf mitspielen. Der Vorwurf: Unterschlagung
+## Staatsanwaltschaft will  mitspielen. Der Vorwurf: Unterschlagung
 
 Offensichtlich wollten Polizei und die Staatsanwaltschaft Göttingen gerne mitspielen bei
 dieser von vielen Passanten amüsiert und erfreut aufgenommenen Aktion. Die
@@ -33,10 +33,11 @@ Aber es sei hier auch auf die noch weitgehend unbekannte Gefahr hingewiesen,
 die sich für Passanten ergibt, die sich unter Hitze des Klimawandels
 über die erfrischende Wirkung des
 kühlen Brunnenwassers erfreuen wollen. Trotz der schlechten Qualität des
-Wassers handelt es sich um den Tatbestand der
+Wassers handelt es sich offensichtlich um den Tatbestand der
 Unterschlagung, sobald die im Brunnen erfrischte Hand dort wieder herausgenomen
-wird. Wie die Gewerkschaft der Polizei auf diese weitere Verrechtlichung im
-Öffentlichen Raum reagieren wird, lässt sich schon jetzt erahnen.
+wird. Diese weitere Verrechtlichung im
+öffentlichen Raum ist somit auch gleich ein herber Rückschlag für die
+Klimaanpassungs-Bemühungen der Stadt.
 
 ![Privatisierung_des_Gänseliesels](/img/post/2023-07-15-Privatisierung_des_Gänseliesels.jpg)
 
