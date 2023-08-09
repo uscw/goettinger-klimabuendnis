@@ -174,10 +174,11 @@ Immerhin zeigt sich hier, was bereits auf freiwilliger Basis möglich ist.
 
 ## Erhöhungen bei der Elektrizität wegen Kohleverstromung 
 Allerdings ist stattdessen der CO2-Anteil des Stroms deutlich gestiegen.
-Tatsächlich geht dies allein auf den höheren Kohleanteil im Strom zurück,
-denn der verbrauchte Strom ist gegenüber dem Vorjahr weitgehend gleich
+Tatsächlich geht dies allein auf den höheren Kohleanteil bei der
+Stromerzeugung zurück, denn der in Göttingen verbrauchte Strom
+ist gegenüber dem Vorjahr weitgehend gleich
 geblieben. Er ist aber eben auch nicht gesunken, wie es nötig wäre,
-sondern gegeüber 2021 sogar gestiegen.
-auch nicht gesunken
+sondern im Vergleich mit 2021 sogar gestiegen.
+
 
 *Göttinger Klimabündnis, 9.8.2023*
