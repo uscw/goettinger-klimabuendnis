@@ -1,0 +1,492 @@
+---
+layout:        events
+title:         "Klima-Controlling"
+subtitle:      "in Göttingen"
+date:          2023-01-30T11:21:00+01:00
+publishdate:   2023-01-30T00:00:00+01:00
+author:        "GöKB"
+image:         "/img/banner/2023-01-14-Lützerath.jpg"
+draft:        false
+showtoc:      true
+---
+
+# Die aktuellen Monitoring-Daten
+
+Auf Basis der jährlichen Daten des Referats für Wahlen und Statistik der
+Stadt Göttingen lassen sich die meisten der CO2-Emissionen der Stadt
+Göttingen der vergangenen Jahre seit 1999 ermitteln. Dies sind auch
+gleichzeitig im Wesentliche die Treibhausgas(THG)-Emissionen, die für
+die Klimabilanz berücksichtigt werden müssen, da der Anteil anderer
+Treibhausgase durch die Landwirtchaft nur verschwindend gering ist.
+
+Die Entwicklung über die letzten 15 Jahre ist in der Abbildung
+
+![THG-Emissionen in
+Göttingen](/img/controlling/THG-Ausstoss_durch_Energie_und_Verkehr_in_Göttingen_seit_2008.png)
+**THG-Emissionen in Göttingen in Kilotonnen**
+
+zu sehen.
+
+Für den Wärme-Energieträger mit dem höchsten CO2-Ausstoß, dem Gas,
+können die Beträge exakt aus den statistischen Erhebungen der Stadt
+ermittelt werden. Obwohl bei der Fernwärme in Göttingen ein gewisser
+Anteil aus Biogas besteht, wird hier ebenfalls von einem reinen
+Naturgasbetrieb ausgegangen, da der Anteil gering ist und die
+CO2-Neutralität von Biogas umstritten ist.
+
+Öl spielt hier ebenfalls nur eine geringe Rolle. Hierzu gibt es
+lediglich Daten ältere Daten, in denen der Anteil 7% des CO2-Ausstoß
+durch Wärme betrug. Dieser Anteil wurde über die Jahre beibehalten.
+
+Auch aus den statistischen Erhebungen für Strom lässt sich der
+CO2-Ausstoß exakt ermitteln über den sogenannten deutschen Strommix, der
+besagt wieviel von den verschiedenen Energieträgern in den Jahren für
+die Kilowattstunde im Mittel verwendet wurde, und wieviel CO2 damit
+emittiert wurde.
+
+Für die letzten fünf Jahre sind die Ergebnisse in der folgenden Tabelle
+zusammengefasst.
+
+  CO2-Bilanz      2018    2019    2020      2021    2022
+  --------------- ------- ------- --------- ------- -------
+  Gas             332.4   329.8   339.8     350.8   301.6
+  Strom           305.5   253.1   221.7     217.5   241.1
+  Fernwärme       18.4    17.8    17.5562   20.2    20.2
+  Öl              26.4    26.2    26.9      27.9    24.2
+  Summe Energie   682.7   626.8   606.0     616.5   587.1
+  Verkehr         259.5   257.9   229.4     230.1   228.4
+  Gesamt          942.3   884.7   835.4     846.6   815.5
+
+Sowohl in der Tabelle wie in der Grafik sind auch Daten für den Verkehr
+aufgeführt. Dieser Anteil beruht auf einer plausiblen Schätzung. Warum
+die Schätzung plausibel ist, warum andere bisherige Schätzungen weit
+weniger plausibel sind und wie sich die hier vorgestellten von den
+anderen unterscheiden, wird in einem gesonderten Abschnitt behandelt.
+
+# Warum ist ein Klima-Monitoring durch das Göttinger Klimabündnis notwendig?
+
+Der Rat der Stadt hat am \### beschlossen, ...
+
+# Grundlagen des kommunalen Göttinger Klima-Monitoring und Controlling
+
+Eine Politik für kommunalen Klimaschutz, z.b. in Göttingen, richtet sich
+auf die Vermeidung von Treibhausgasen (THG), vielerorts, wie auch in
+Göttingen, bezieht sich dies fast ausnahmslos auf CO~2~-Vermeidung. Eine
+solche Klimapolitik muss zwischen den folgenden Handlungsebenen
+unterscheiden:
+
+-   Notwendigkeiten
+-   Zielvorgaben
+-   Maßnahmen
+-   reale THG-Entwicklung
+
+Letztlich von Bedeutung für die Erderwärmung ist natürlich die reale
+Entwicklung der Treibhausgase, deren maximale Gesamtmenge durch die
+Pariser Klimaziele und die vom IPCC zu diesen Zielen berechneten
+CO~2~-Budgets begrenzt ist. Alle politische Handlung muss daher darauf
+ausgerichtet sein, dass die THG-Entwicklung mit den Notwendigkeiten des
+CO~2~-Budgets übereinstimmt. Sowohl global wie auch das bundesweit kann
+über das CO~2~-Budget wie auch über THG-Entwicklung wenig gestritten
+werden. Beides ist wissenchaftlich fundiert festgelegt und gemessen.
+
+## Welche Daten gehen in das Klima-Monitoring ein?
+
+### Das Territorialprinzip
+
+Für das Herunterbrechen dieser beiden Aspekte auf die kommunale Ebene
+braucht es aber einer gewissen Analyse und der Einführung von Standards.
+Dies geschah zunächst auf der Ebene der Messung der realen kommunalen
+THG-Entwicklung, indem das sogenannte endenergiebasierte
+Territorialprinzip (
+[BISKO-Standard](https://www.ifeu.de/fileadmin/uploads/BISKO_Methodenpapier_kurz_ifeu_Nov19.pdf)
+) zugrunde gelegt wurde, was besagt, dass alle anfallenden Verbräuche
+auf Ebene der Endenergie (Energie, die z.B. am Hauszähler gemessen wird)
+berücksichtigt und die THG-Emissionen über spezifische Emissionsfaktoren
+berechnet werden.
+
+Graue Energie, das heißt Energie, die bei der Herstellung von Gütern
+benötigt wird, wird nicht bilanziert, auch wenn dieser Anteil gerade für
+Kommunen mit geringem Anteil produzierenden Gewerbes, wie Göttingen,
+beträchtlich sein kann.
+
+### Alternative Herangehensweisen
+
+z.B. Abfall. Siehe Berechnung der EU.
+
+# Controlling
+
+## Das CO~2~-Budget
+
+Entsprechend der Auswahl der muss dann natürlich für das entsprechende
+kommunale CO~2~-Budget die gleiche Vorgehensweise gewählt werden. Hier
+kann nicht die Aufteilung des bundesweiten Budgets anhand der
+Einwohnerzahl genommen werden, sondern dies muss natürlich auf die
+kommunale Auswahl der THG-Emissionen durch das Territorialprinzip
+normiert werden.
+
+## Ergebnislücke, Planungsslücke und Zielpfadlücke
+
+Von der realer Entwicklung gilt es nun einen politischen Rahmen hin zu
+den Notwendigkeiten durchzusetzen. Dazu stehen der Politik zwei
+Instrumente zu Verfügung, die Festlegung von Zielen und die Festlegung
+konkreter Maßnahmen. Die Ziele müssen dabei natürlich mit den
+Notwendigkeiten übereinstimmen, die angestrebten Ersparnisse durch
+Maßnahmen die Ziele erfüllen und die reale Entwicklung den angestrebten
+Ersparnisse durch Maßnahmen entsprechen. Ist dies der Fall wird die
+reale Entwicklung die notwendigen Bedingungen erfüllen.
+
+![](/home/uschwar1/ownCloud/AO/Sonstiges/prv/Klima/CO2_Budget/Planungs_Ziel_Luecken.png)
+
+Aber umgekehrt können die Ergebnisse der realen Entwicklung die
+angestrebten Ersparnisse durch geplante Maßnahmen verfehlen
+(Ergebnislücke), es können die geplanten Maßnahmem die Ziele im Zielpfad
+verfehlen (Planungslücke), aber es könne auch die auch schon die Ziele
+im Zielpfad die Notwendigkeiten verfehlen (Zielpfadlücke). In allen
+diesen Fällen müssen die Differenzen zwischen Erreichtem und zu
+Erreichenden überprüft und, wenn nötig entsprechend angepasst werden.
+
+## Aufgaben des Monitoring und Controlling
+
+Letztlich soll durch Monitoring und Controlling die Lücke zwischen den
+Notwendigkeiten durch das CO~2~-Budget und der realen THG-Entwicklung
+sichtbar gemacht werden.
+
+Real gemessen werden die THG-Emissionen im **Monitoring**. Damit lässt
+sich dann der Rest des CO~2~-Budget bestimmen, der nach einer Messung
+noch zur Verfügung steht - es lassen sich also die Notwendigkeiten
+aktualisieren. Im BISKO-Standard ist festgeschrieben, dass die
+Endenergie mindestens im Abstand von fünf Jahren gemessen wird. Aber was
+dabei wie genau gemessen werden soll, insbesondere die zugrundegelegten
+Indikatoren, wird dort nicht bestimmt.
+
+Noch weniger wird in diesem Standard über Maßnahmen und Ziele gesagt und
+demzufolge gibt es auch keine Aussagen zu Maßnahmen-, Ziel- oder
+Planungsslücken, die aber für die kommunale Politik eine entscheidende
+Rolle spielen.
+
+Um den Zielen gerecht zu werden ist also wichtig, sich im Rahmen des
+Monitoring mit der Auswahl, Verfügbarkeit und Relevanz der Indikatoren
+zu beschäftigen, um die reale THG-Entwicklung zu kennen, als auch die
+Maßnahmen-, Ziel- oder Planungsslücken zu erfassen, die auf politischer
+Ebene zwischen Realität und Notwendigkeit stehen und damit dem
+Controlling zuzurechnen sind.
+
+Ein wichtiges Kriterium für die Auswahl der Indikatoren ist neben ihrer
+Aussagekraft allerdings auch die Verfügbarkeit, insbesondere die
+zeitiche Verfügbarkeit, denn wenn sich das Controlling auf Daten stützen
+muss, die, mehrere Jahre zurück liegen, kommen die nötigen
+Gegenmaßnahmen in vielen Fällen zu spät. Eine solche Kenntnislücke von
+zum Beispiel über zwei Jahren beträgt deutlich mehr als 10% der Zeit,
+die noch für die Erreichung der Pariser Klimaziele verbleiben, und erst
+danach würden politische Maßnahmen ergriffen werden, die auf
+Fehlentwicklungen reagieren.
+
+# Parameter zur Messung von kommunalem Klimaschutz in Göttingen
+
+In diesem Abschnitt werden die wichtigsten Indikatoren vorgestellt, die
+Treibhausgase im Stadtgebiet, möglicherweise auch deren Vermeidung,
+erfassen können.
+
+Hierbei werden Gewichtungen gemacht, die auf bisherigen Messungen in
+Göttingen beruhen. Die Gewichtungen selbst können daher nicht ohne
+Weiteres auf andere Kommunen übertragen werden, wohl aber das Verfahren,
+das zu ihrer Ermittlung geführt hat.
+
+## CO~2~-Entstehung in Göttingen
+
+In den im Masterplan 100% Klimaschutz beschriebenen Handlungsfeldern
+entsteht CO~2~ in Göttingen durch die folgenden Prozesse:
+
+-   **Haushalte** und **Gewerbe, Handel, Dienstleistungen:**
+    -   durch Wärmeerzeugung/Verbrennung (Heizung, Produktionsprozesse)
+    -   durch Strombenutzung (indirekt, nur wenn Strom fossil erzeugt)
+        (Licht,
+
+    Haushaltsgeräte, Maschinen)
+-   **Industrie:**
+    -   auch hier hauptsächliche Wärme und Strom
+    -   weitere Produktionsprozesse, die nicht auf Strom und
+        Ergas-Verbrennung beruhen
+
+    (auch Methan, NO~2~ und weitere Treibhausgase, Plastikerzeugung...)
+    spielen in Göttingen (vermutlich) keine große Rolle.
+-   **Verkehr:** Verbrennungsmotoren, E-Motoren (indirekt, nur wenn
+    Strom fossil erzeugt wird)
+-   andere Bereiche (hier nicht betrachtet, da sie für Göttingen
+    praktisch nicht relevnt sind): Landwirtschaft (Kühe, Düngung etc.
+    (Methan, NO~2~), ...)
+
+### Entscheidende Emissionsquellen der Endenergie
+
+Von der Endenergie, die für Wärme und Strom anfällt, also allem ausser
+Verkehr, fielen 91% im Jahre 2018 auf die Emittenden Gas und
+konventioneller Strom, 5% auf Erdöl und restliche 4% werden derzeit
+regenerativ erzeugt (je 2% Strom und Wärme).
+
+Für die THG-Bilanz entscheidend sind hier also eigentlich nur die
+Emissionsquellen Strom und Gas. Für diese beiden Emittenden gibt es eine
+zentrale Erfassung, und auf Basis dieser beiden Emittenden lässt sich
+die THG-Bilanz bereits mit einer sehr hohen Genauigkeit abschätzen. Die
+summarischen Werte über die Handlungsfelder hinweg sind bereits
+spätestens nach einem Vierteljahr verfügbar in der Göttinger
+Jahresstatistik. Für Gas lassen sich die CO~2~-Emissionen anhand des
+Fachbuch Regenerative Energiesysteme und Umwelt-Bundesamtes ermitteln,
+und für Strom anhand des jährlich veröffentlichten
+[Strommix](https://www.umweltbundesamt.de/themen/klima-energie/energieversorgung/strom-waermeversorgung-in-zahlen?sprungmarke=Strommix#Strommix),
+ebenfalls vom Umwelt-Bundesamt.
+
+### Wärme und Strom
+
+Wärme und Strom zusammen brachten es im Jahr 2018 auf einen
+Endenergieverbrauch von 2.163.241 MWh, davon fielen 30% an Endenergie
+für Strom an, der Rest entfällt mit 51% auf Gas, 12% auf konventionelle
+(Gas-basierte) Fernwärme, 5% auf Öl und 2% auf regenerative Wärme. Damit
+macht der Gasverbrauch 63% der Endenergie aus. Bei der
+Wärmeerzeugung/Verbrennung spielen andere Brennstoffe als Erdgas also
+nur eine marginale Rolle. Ebenso kann Produktionsprozesswärme, die nicht
+über Erdgas erzeugt wird, für Göttingen vernachlässigt werden.
+
+Da die Verteilung von Erdgas und Strom zentral für Göttingen erfasst und
+jährlich veröffentlicht wird, lässt sich über diese beiden Zahlen 93%
+der THG-Emissionen ohne Verkehr für Göttingen ermitteln.
+
+### Verkehr
+
+Das Thema Verkehr wird in Göttingen nicht im Rahmen des Masterplans 100%
+Klimaschutz, sondern in einem gesonderten Verkehrsentwicklungsplans
+behandelt, der allerdings keine konkreten CO~2~-Emissionszahlen enthält
+und nach Erstellung im Jahre 2014 auch nicht entsprechend
+fortgeschrieben wurde.
+
+Die Endenergie-Bilanzen in den Evaluationsberichten im Bereich Verkehr
+beruhen auf bundesweiten Zahlen, einzig um die Vergleichbarkeit mit
+anderen Kommunen im Rahmen des BISKO-Standards zu gewährleisten. Sie
+können somit lokal nicht beeinflusst werden, werden daher auch für die
+kommunale politische Ziel- und Maßnahmensetzung weitestgehend
+ausgeblendet und verändern sich entsprechend des bundesweiten Trends
+praktisch nicht.
+
+Der Anteil des Verkehrs an den THG-Emissionen liegt seit 1990 weitgehend
+unverändert bei 190.000 t pro Jahr, ist im Laufe der Zeit anteilsmäßig
+signifikant gestiegen und macht im Jahr 2018 etwa 22% der THG-Bilanz
+Göttingens aus.
+
+Aufgrund der politischen Vernachlässigung dieses wichtigen
+Handlungsfeldes gibt es für Göttingen kaum Verkehrsdaten ausserhalb des
+ÖPNV. In Göttingen muss daher zur Gestaltung dieses Handlungsfeldes
+vollständig auf die Erfahrungen anderer Städte zurückgegriffen werden.
+
+\#############
+
+Beim Verkehr muss, basierend auf den Zahlen von 2018, von praktisch 100%
+Treibstoffverbrennung ausgegangen werden.
+
+1.  Stromverbrauch (30% in der Endenergiebilanz 2018 ohne Verkehr)
+    -   auch hier wird die Verteilung zentral für Göttingen erfasst. Für
+        die Ermittlung der THG-Bilanz können allerdings sehr
+        unterschiedliche Modelle angenommen werden:
+        -   BRD-Strommix
+        -   tatsächliche Emissionen abhängig vom Vertrag (z.B. Ökostrom
+            etc)
+        -   BRD-Strommix für die Gesamtmenge abzüglich in Göttingen
+            erzeugten Öko-Stroms
+2.  Verkehr
+    -   Verbrennungsmotoren (\>99,8% der in Göttingen zugelassenen
+        Fahrzeuge) und Elektro-Fahrzeuge
+    -   hier ist eine direkte Messung der Fahrleistung sehr schwierig
+    -   daher wird hier die anteilsmäßig bundesweite THG-Bilanz
+        angenommen.
+    -   Ob sich der Anteil auf die Anzahl Einwohner oder Fahrzeuge
+        bezieht, geht aus den Evaluationsberichten nicht hervor.
+    -   Die damit verbundenen geringen lokale Einflussmöglichkeiten
+        machen eine genauere Analyse der Möglichkeiten des Monitoring
+        notwendig.
+
+Das Handlungsfeld produzierendes Gewerbe stellt einen wesentlichen
+Faktor bei der THG-Bilanz dar und hat eine hohe Steigerungsrate bei der
+CO~2~-Emission bei gleichzeitig stark sinkender Beschäftigungszahl. Aber
+im Evaluationsbericht wird dieses Handlungsfeld kaum erwähnt, geschweige
+denn Lösungen angesprochen.
+
+Zudem liegt die THG-Bilanz im Evaluationsbericht um das Dreifache höher
+als eine Berechnung aufgrund der Daten des statistischen Landesamtes.
+Dies kann an anderen Daten oder an einer anderen Definition von
+produzierendem Gewerbe liegen. Hier wäre eine Schärfung der Definition
+des Handlungsfeldes und der Provinienz der Daten wichtig.
+
+## Mögliche Techniken für die Verminderung der CO~2~-Entstehung:
+
+### Wärme und Strom
+
+Die Heizung ist bei der Wärmeerzeugung der wichtigste Bereich. Eine
+Verminderung der CO~2~-Entstehung ist möglich durch
+
+-   Wärmegedämmte Neubauten
+-   Wärmedämmung von vorhandenen Gebäuden
+-   Klimaneutrale Erzeugung, insbesondere Solarthermie, Wärmepumpen,
+    Abwärmenutzung
+-   Zentralisierung der Erzeugung durch Fernwärme, Quartierswärme
+
+Die Verminderung der CO~2~-Entstehung bei der Verwendung von Sztrom ist
+möglich durch ihre klimaneutrale Erzeugung, sowohl lokal real als auch
+überregional virtuell:
+
+-   Solarpanels (Eigenverbrauch + Einspeisung)
+-   Ökostromverbrauch
+-   BHKW (nur das CO~2~ für die Wärme fällt an)
+
+### Verkehr
+
+Verminderung der CO~2~-Entstehung ist möglich durch:
+
+-   weniger mit fossiler Verbrennung gefahrene Personenkilometer im
+    Nahverkehr:
+-   E-Autos mit Ökostrom
+-   Carsharing
+-   Umstieg auf E-Bikes
+-   Umstieg auf ÖPNV
+-   Individualverkehrsflächenverknappung (Parkplätze, Radwege)
+-   Zunahme Personen im Regionalverkehr der DB und anderer (Metronom) im
+    Bhf Göttingen
+-   Weniger mit fossiler Verbrennung gefahrene Personenkilometer im
+    Fernverkehr:
+-   Zunahme des Fernverkehr der DB im Bhf Göttingen
+
+Da in diesem Bereich werden allerdings bei der derzeitigen Messung nur
+bundesweite Trends zu Veränderung der lokalen THG-Bilanz beitragen,
+werden lokale Anstrengungen durch die Fortschreibung des Masterplans
+bislang nur wenig stimuliert, was sehr unbefriedigend ist
+
+# Aktivierende Indikatoren zur Messung von Verminderungstechniken
+
+Im folgenden werden aktivierende Indikatoren bestimmt, die die Zunahme
+der Verminderungstechniken messen. Derartige Indikatoren können die
+Anstrengungen zur THG-Vermeidung innerhalb der Stadt angeben und damit
+einen Hinweis darauf geben, wie sich die Stadt in Bezug auf den
+bundesweiten Trend bewegt.
+
+Derartige Aussagen sind von besonderer Bedeutung bei solchen
+THG-Emissionsbereichen, die sich nur schwer quantifizieren lassen, wie
+im Verkehrsbereich, oder bei denen die Wirkung von anderen Effekten
+überlagert sein kann, wie im Bereich Wärme. Die Angaben für die
+Indikatoren verstehen sich jeweils pro Jahr
+
+## Wärme:
+
+-   wärmegedämmte Neubauten
+-   durchgeführte Wärmedämmungsmaßnahmen für vorhandene Gebäude
+-   installierte Solarthermieanlagen in Gö
+-   installierte Wärmepumpen
+-   installierte Abwärmenutzung
+-   installierte Fernwärmeversorgung
+-   installierte Quartierswärmeversorgung
+
+Oft wird bei dem notwendigen Ausmaß der Wärmedämmungsmaßnahmen auf
+mangelnde Fachkräfte zur Umsetzung hingewiesen. Diese Zahl kann durch
+Umschulungsmaßnahmen gesteuert werden, und derartige Maßnahmen müssen
+rechtzeitig angegangen werden. Daher ist die Anzahl der Fachkräfte hier
+ein wichtiger Indikator.
+
+### Mögliche Quellen für die Erhebung
+
+-   Städtisches Bauamt (Neubauten, Wärmedämmung)
+-   Energieagentur (Gebäude-Energieausweise)
+-   Auskunft Bauwirtschaft/regionale Branchenreports? (Wärmedämmung)
+-   Bundesweites Register?, Auskunft E-Wirtschaft/regionale
+    Branchenreports? (Wärmepum.)
+-   Stadtwerke (Abwärme. Fernwärme, Quartierswärme)
+
+## Strom:
+
+-   installierte PV-Leistung
+-   Zunahme Ökostromverträge
+-   installierte BHKW-Leistung
+
+Auch hier können mangelnde Fachkräfte Umsetzung behindern und daher ist
+die Anzahl der Fachkräfte in diesem Sektor ein wichtiger Indikator.
+
+### Mögliche Quellen für die Erhebung
+
+-   PV-Register
+-   EVUs (EAM?)
+-   Stadtwerke (BHKW)
+
+## Verkehr:
+
+-   Neuanmeldungen E-Autos
+-   Personenkilometer Carsharing (alle Anbieter)
+-   Umfang Umstieg auf E-Bikes
+-   Personenbeförderungskilometer Busse GöVB
+-   Zunahme Verkehrsflächen exklusiv nur Rad, Fußgänger, ÖPNV
+-   Personenbeförderungszahlen Bahnhof Göttingen Nah-, Fernverkehr
+
+### Mögliche Quellen für die Erhebung
+
+-   Stadt Meldestelle Autos
+-   Carsharing-Anbieter (u.a. Statdwerke)
+-   Umfrage E-Bike-Nutzung
+-   GöVB (Personenbeförderung)
+-   Städt. Bauamt (Verkehrsflächen nicht-Auto/Auto)
+-   DB
+
+# Fragen zur Fortschreibung des Masterplans
+
+Schlussendlich wird im dritten Abschnitt auf das bisherige Controlling
+im Masterplan eingegangen und es werden Fragen aufgeworfen, wie sich die
+Situation beim Controlling mit möglichst geringem Aufwand verbessern
+lässt.
+
+-   Wann genau sind die nach Handlungsfelder aufgeschlüsselten Zahlen
+    für den Strom- und Gasverbrauch eines Jahres verfügbar?
+-   Lassen sich die folgenden Indikatoren in die jährlichen Göttinger
+    Statistik-Daten aufnehmen?
+    -   Kraftfahrzeugbestand E-Fahrzeuge
+    -   Treibstoff-Verkauf in Göttingen
+    -   Photovoltaik-Fläche in Göttingen
+    -   mittlerer Primär-Energieverbrauch pro Quadratmeter Wohnfläche
+    -   Beschäftigte im Bereich Haus-Dämmung & Photovoltaik
+    -   nach Handlungsfelder aufgeschlüsselter Strom- und Gasverbrauch
+-   Bezieht sich die anteilsmäßig bundesweite THG-Bilanz im Verkehr auf
+    die Anzahl der Einwohner oder der Fahrzeuge?
+-   Können über die sekundären Indikatoren im Bereich Verkehr Masszahlen
+    für die Abweichung vom bundesweiten Trend entwickelt werden, um eine
+    bessere lokale Bilanzierung zu ermöglichen?
+-   Kann die Erhebung sekundärer Indikatoren im Bereich Verkehr,
+    insbesondere (automatisierte?) Vekehrszählungen an Knotenpunkten
+    ausgeweitet werden?
+-   Wie kann eine bessere THG-Bilanz im Industriesektor erreicht werden?
+    -   Auf welchen Daten beruht die THG-Bilanz der Industrie?
+    -   Wodurch sind die Unterschiede zwischen der THG-Bilanz im
+        Evaluationsbericht und der Berechnung aufgrund der Daten des
+        statistischen Landesamtes zu erklären?
+    -   Können die Industrieunternehmen zum Einverständnis der
+        Veröffentlichung ihrer jeweiligen Energiedaten gefragt werden?
+    -   Könnten die Industrieunternehmen Erfolgsgeschichten der
+        Verbesserung ihrer THG-Bilanz auf den Klimaschutz-Seiten der
+        Stadt Göttingen veröffentlichen?
+
+Controlling für 100% Klimaschutz, Ulrich Schwardmann, Göttingen, den
+8.1.2021
+
+
+Sektoren
+-----------
+- [Verkehr](/controlling/verkehr/2023-01-30-intro/)
+
+
+Grafiken
+-----------------
+
+[![](/img/controlling/grafiken/test-2.jpg)](/img/controlling/grafiken/test-2.jpg)
+[![](/img/controlling/grafiken/test-3.jpg)](/img/controlling/grafiken/test-3.jpg)
+[![](/img/controlling/grafiken/test-4.jpg)](/img/controlling/grafiken/test-4.jpg)
+[![](/img/controlling/grafiken/test-5.jpg)](/img/controlling/grafiken/test-5.jpg)
+[![](/img/controlling/grafiken/test-6.jpg)](/img/controlling/grafiken/test-6.jpg)
+[![](/img/controlling/grafiken/test-7.jpg)](/img/controlling/grafiken/test-7.jpg)
+[![](/img/controlling/grafiken/test-8.jpg)](/img/controlling/grafiken/test-8.jpg)
+[![](/img/controlling/grafiken/test-9.jpg)](/img/controlling/grafiken/test-9.jpg)
+[![](/img/controlling/grafiken/test-10.jpg)](/img/controlling/grafiken/test-10.jpg)
+
+
+
+[Weitere Informationen...](https://www.greenpeace.de/klimaschutz/energiewende/kohleausstieg/abgrund-heimat)
