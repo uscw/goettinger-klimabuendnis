@@ -57,8 +57,7 @@ willkürlich zu sein.
 die zum Beispiel für den persönlichen CO2-Fußabdruck genutzt werden,
 für alle Göttinger Bürger aufsummiert?
 - Weshalb spielt die Landwirtschaft als wichtiger Faktor in Göttingen keine Rolle?
-- Warum gehen nicht die Emissionen,
-die durch den Abfall in Göttingen entstehen, mit in die Bilanz einbezogen?
+- Warum gehen nicht die Emissionen, die durch den Abfall in Göttingen entstehen, mit in die Bilanz ein?
 
 Entscheidend bei der politischen Steuerung der THD-Reduktion sind drei Fragestellungen: 
 - eine Zielplanung,
@@ -74,7 +73,8 @@ Es ist zum Beispiel für eine Kommune unrealistsch, den persönliche CO2-Fußabd
 Aber die Daten der vor Ort verwendeten Energie zu ermitteln, ist in
 Zusammenarbeit mit den Energielieferanten durchaus realistisch und wird
 ohnehin schon von vielen Kommunen im Rahmen jährlicher Datenerhebungen
-gemacht. 
+gemacht. Auch lässt sich im Allgemeinen der THG-Eintrag durch
+landwirtschaftliche Betrieb ermitteln. Dieser spielt allerdings im Göttinger Stadtgebiet so gut wie keine Rolle.
 
 ## Das Territorialprinzip
 
@@ -89,11 +89,11 @@ berücksichtigt und die THG-Emissionen über spezifische Emissionsfaktoren
 berechnet werden.
 
 Graue Energie, das heißt Energie, die bei der Herstellung von Gütern
-benötigt wird, wird nicht bilanziert, auch wenn dieser Anteil gerade für
+benötigt wird, wird am Herstellungsort bilanziert. Der Anteil von CO2, das durch den Kauf von Gütern in die Kommune importiert wird, kann also gerade für
 Kommunen mit geringem Anteil produzierenden Gewerbes, wie Göttingen,
 beträchtlich sein kann. Genauso werden THG-Emissionen durch Abfallverwertung
 nach diesem Prinzip nicht da gemessen, wo der Abfall entsteht,
-sondern da zum Beispiel Abfall verbrannt wird.
+sondern zum Beispiel dort, wo Abfall verbrannt wird. 
 
 ## Die Wärmeenergie
 
