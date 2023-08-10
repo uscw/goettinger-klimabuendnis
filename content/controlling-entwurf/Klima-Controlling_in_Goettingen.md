@@ -12,11 +12,17 @@ showtoc:      true
 
 # Monitoring und Controlling durch das Göttinger Klimabündnis
 
-Das Göttinger Klimabündnis hat sich entschlossen, ein Monitoring und Controlling der aktuellen Klimaschutzdaten in Göttingen durchzuführen. Ein mindestens jährliches Monitoring, das die Daten des vergangenen Jahres nach einem halben Jahr, spätestens aber nach einem Jahr, liefert, ist für die Einschätzung der Lage im Klimaschutz und die Planung von Maßnahmen durch die Politik unbedingt notwendig.
+Das Göttinger Klimabündnis hat sich entschlossen, ein Monitoring und Controlling der aktuellen Klimaschutzdaten in Göttingen durchzuführen. Ein mindestens jährliches Monitoring, das die Daten des vergangenen Jahres nach einem halben Jahr, spätestens aber nach einem Jahr, liefert, ist für die Einschätzung der Lage im Klimaschutz und die Planung von Maßnahmen durch die Politik, also zur Erreichung der Klimaziele der Stadt unbedingt notwendig.
 
-Dieser Aufgabe ist die Stadt Göttingen in der Vergangenheit nur unregelmäßig und mit zum Teil erheblicher Verzögerung nachgekommen. Die von der Stadt derzeit veröffentlichten Klimadaten gehen auf das Jahr 2020 zurück. Einem Jahr, das aufgrund der Corona-Pandemie keinesfalls als statistisch aussagekräftig für Klimadaten angesehen werden kann. 
-Dieser Entschuss folgt nun, nachdem 
-auf eine etwa zwei Jahre alte Forderung aus den Reihen der Zivilgesellschaft, dass 
+Dieser Aufgabe ist die Stadt Göttingen in der Vergangenheit nur unregelmäßig und mit zum Teil erheblicher Verzögerung nachgekommen. Die von der Stadt derzeit veröffentlichten Klimadaten gehen auf das Jahr 2020 zurück. Einem Jahr, das aufgrund der Corona-Pandemie keinesfalls als statistisch aussagekräftig für Klimadaten angesehen werden kann.
+
+Dieser Entschuss des Klimabündnisses folgt nun, nachdem 
+auf eine mehr als zwei Jahre alte Forderung nach einem zeitnahen Monitoring
+und handlungsfähiges Controlling aus den Reihen der Zivilgesellschaft.
+Zwar wurde vor etwa einem Jahr ein Ratsbeschluss gefasst, ein regelmäßiges
+Monitoring einzurichten. Aber zur Aktualität der Daten wurde nichts weiter
+festgestellt und ein handlungsfähiges Controlling wurde abgelehnt, und
+damit de Facto der Wille zur Einhaltung der Klimaziel negiert. 
 
 ## Die aktuellen Monitoring-Daten
 
