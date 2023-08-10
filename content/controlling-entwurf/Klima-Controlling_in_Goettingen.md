@@ -60,21 +60,21 @@ für alle Göttinger Bürger aufsummiert?
 - Warum gehen nicht die Emissionen,
 die durch den Abfall in Göttingen entstehen, mit in die Bilanz einbezogen?
 
+Entscheidend bei der politischen Steuerung der THD-Reduktion sind drei Fragestellungen: 
+- eine Zielplanung,
+- die tatsächliche Entwicklung der THG-Emissionen und
+- die zu treffenden Maßnahmen um die Ziele zu erreichen.
 
+Um dies auf auf die kommunale Ebene herunterzubrechen,
+braucht es realistische, vor Ort messbare Indikatoren,
+eine gewissenhafte Analyse und die Einführung von Standards. Ausserdem ist
+eine Methode, die eine Vergleichbarkeit zwischen verschiedenen Kommunen ermöglicht wünschenswert, wenngleich nicht notwendig.
 
-Für das Herunterbrechen der beiden wesentlichen Aspekte zum Klimaschutz,
-die tatsächliche Entwicklung der THG-Emissionen und die zu treffenden
-Maßnahmen, 
-auf die kommunale Ebene
-braucht es realistisch vor Ort messbare Indikatoren, eine gewissenhafte Analyse
-und die Einführung von Standards.
-Zum Beispiel den persönliche CO2-Fußabdruck aller Bürger zu ermitteln,
-ist für eine Kommune unrealistsch.
-
+Es ist zum Beispiel für eine Kommune unrealistsch, den persönliche CO2-Fußabdruck aller Bürger zu ermitteln.
 Aber die Daten der vor Ort verwendeten Energie zu ermitteln, ist in
 Zusammenarbeit mit den Energielieferanten durchaus realistisch und wird
 ohnehin schon von vielen Kommunen im Rahmen jährlicher Datenerhebungen
-gemacht.
+gemacht. 
 
 ## Das Territorialprinzip
 
@@ -127,7 +127,8 @@ anderen unterscheiden, wird in einem gesonderten Abschnitt behandelt.
 # Vergleich mit den Daten der Stadt Göttingen
 
 Die hier auf Basis der elektrischen und Wärme-Energie berechneten
-Emissionsdaten stimmen mit den Daten, die die Stadt Göttingen zu
+Emissionsdaten (die Balken ohne die violetten Verkehrsdaten)
+stimmen mit den Daten, die die Stadt Göttingen zu
 bestimmten Zeiten veröffentlicht hat, sehr gut überein, wie die
 folgende Grafik deutlich macht.
 
@@ -135,18 +136,19 @@ folgende Grafik deutlich macht.
 *THG-Emissionen in Göttingen in Kilotonnen im Vergleich zu den städtischen Daten*
 
 Wo es allerdings zum Teil deutliche Abweichungen gibt, ist im Bereich Verkehr.
-Der Frage, warum das so ist, wird in einem Artikel nachgegangen.
-Im Wesentlichen liegt es daran, dass die Stadt sich seit Jahren weigert,
+Im Wesentlichen liegt dies daran, dass die Stadt sich seit Jahren weigert,
 im Bereich des Verkehrs auch nur minimale Datenerhebungen zu machen.
-Das bedeutet, dass keine verlässliche Daten vorliegen und Schätzungen
-vorgenommen werden müssen.
+Daher müssen die Verkehrsdaten sehr grob aus bundesweiten Entwickungen geschätzt werden. Wie die genau geschieht, ist für die Zahlen der Stadt zum Verkehr unbekannt und die starken Schwankungen er Zahlen über die Jahre, sprechen nicht unbedingt für eine hohe Zuverlässigkeit des städtischen Modells.
 
-Während den Schätzungen der hier vorliegenden Daten des Göttinger
-Klimabündnis ein einheitliches und plausibles Modell zugrunde liegt,
-ist über die Herkunft der von der Stadt verwendeten Daten überhaupt
-nichts bekannt, geschweige denn ist ein einheitliches Modell beschrieben.
-Hier werden die Verkehrsdaten nur als unbegründete prozentuale Anteile der
-Göttinger Gesamtemissionen angegeben.
+Die hier verwendeten Zahlen beruhen auf einem einheitlichen Modell, das
+ein eigener Artikel zu dem Thema beschreibt. Im Wesentlichen wird ein
+bestimmter Prozentsatz der durchschnittlichen Gesamtfahrleistung der
+angemeldeten KFZs aus Stadt und Umgebung für die Berechnung des CO2-Ausstoßes
+angesetzt. Die durchschnittliche Fahrleistung und der CO2-Ausstoß beruht auf
+bundesweiten Zahlen, womit auch der CO2-Verminderung bei E-Autos durch
+bundesweite Zahlen Rechnung getragen wird. Ohne eine regelmäßige lokale
+Verkehrsmessung und eine Angabe der gemeldeten KFZ nach Antriebsart
+lassen sich hier keine lokal spezifischeren Aussagen machen. 
 
 # Controlling
 
@@ -167,10 +169,12 @@ der Energiekrise des letzten Jahres getätigt wurden.
 Der tatsächliche
 Gasverbrauch im letzten Quartal ist von 555 GWh im Jahr 2021 auf
 455 GWh für 2022 zurückgegangen, was Einsparungen von 18% entspricht.
-Das ist zwar weniger als der Bundesdurchschnitt von 23%, aber es spiegelt
+Das ist zwar weniger als der Bundesdurchschnitt von 23% bis Ende 2022
+(siehe [ZDF 5.5.23](https://www.zdf.de/nachrichten/panorama/gasverbrauch-2022-rueckgang-studie-100.html)), aber es spiegelt
 den Umstand wieder, dass in der Industrie deutlich mehr gespart wurde als
 bei den Privathaushalten, und in Göttingen der Industrieanteil geringer ist.
-Immerhin zeigt sich hier, was bereits auf freiwilliger Basis möglich ist.
+Immerhin zeigt sich hier, was kurzfristig auf freiwilliger Basis möglich ist,
+wenn Menschen von der Richtigkeit überzeugt sind.
 
 ## Erhöhungen bei der Elektrizität wegen Kohleverstromung 
 Allerdings ist stattdessen der CO2-Anteil des Stroms deutlich gestiegen.
