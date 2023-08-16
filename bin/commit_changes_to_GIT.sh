@@ -34,5 +34,6 @@ echo "wait"; sleep 2
 
 cd ${ORIPWD}
 
+echo "ssh $SERVER_LOC /home/${SERVER_USR}/bin/docker_reload.sh"
 ssh $SERVER_LOC /home/${SERVER_USR}/bin/docker_reload.sh
 
