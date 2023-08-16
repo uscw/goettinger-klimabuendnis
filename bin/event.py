@@ -338,8 +338,7 @@ class event():
             if str(ev_dict[item]['text']) != "":
                 outstr += str(ev_dict[item]['text']) + "\n"
             if str(ev_dict[item]['locURL']) != "":
-                outstr += str(ev_dict[item]['locURL']) + \
-                          "\nMehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
+                outstr += "\nMehr Informationen beim [Veranstalter](" + str(ev_dict[item]['locURL']) + ")\n"
             print (outstr)
             outFF.write(outstr)
             outFF.close()

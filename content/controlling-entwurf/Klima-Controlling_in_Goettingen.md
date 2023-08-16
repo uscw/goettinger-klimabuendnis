@@ -23,7 +23,7 @@ nur zögerlich und letztlich unwirksam reagiert wurde.
 Zwar wurde vor etwa einem Jahr ein Ratsbeschluss gefasst, ein regelmäßiges
 Monitoring einzurichten. Aber zur Aktualität der Daten wurde nichts weiter
 festgestellt, ein handlungsfähiges Controlling wurde abgelehnt und
-damit de Facto der Wille zur Einhaltung der Klimaziel negiert. 
+damit de Facto der Wille zur Einhaltung der Klimaziele negiert. 
 
 ## Die aktuellen Monitoring-Daten
 
