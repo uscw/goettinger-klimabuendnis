@@ -129,7 +129,9 @@ Sowohl in der Tabelle wie in der Grafik sind auch Daten für den Verkehr
 aufgeführt. Dieser Anteil beruht auf einer plausiblen Schätzung. Warum
 die Schätzung plausibel ist, warum andere bisherige Schätzungen weit
 weniger plausibel sind und wie sich die hier vorgestellten von den
-anderen unterscheiden, wird in einem gesonderten Abschnitt behandelt.
+anderen unterscheiden, wird im gesonderten Abschnitt [Verkehrs-Monitoring in Göttingen](../verkehr)
+behandelt. Hier werden auch weitere Indikatoren, zum Beispiel zu
+Verkehrsflächen, Radwegen und ÖPNV untersucht.
 
 # Vergleich mit den Daten der Stadt Göttingen
 
