@@ -5,7 +5,7 @@ subtitle:      "Die aktuellen Zahlen"
 date:          2023-08-09T11:21:00+01:00
 publishdate:   2023-08-09T00:00:00+01:00
 author:        "Göttinger Klimabündnis"
-image:         "/img/banner/2023-01-14-Lützerath.jpg"
+image:         "/img/banner/2022-10-04_Peperoni.jpg"
 draft:        false
 showtoc:      true
 ---
@@ -66,7 +66,7 @@ für alle Göttinger Bürger aufsummiert?
 - Weshalb spielt die Landwirtschaft als wichtiger Faktor in Göttingen keine Rolle?
 - Warum gehen nicht die Emissionen, die durch den Abfall in Göttingen entstehen, mit in die Bilanz ein?
 
-Entscheidend bei der politischen Steuerung der THc-Reduktion sind drei Fragestellungen: 
+Entscheidend bei der politischen Steuerung der THD-Reduktion sind drei Fragestellungen: 
 - eine Zielplanung,
 - die tatsächliche Entwicklung der THG-Emissionen und
 - die zu treffenden Maßnahmen um die Ziele zu erreichen.
@@ -96,10 +96,9 @@ berücksichtigt und die THG-Emissionen über spezifische Emissionsfaktoren
 berechnet werden.
 
 Graue Energie, das heißt Energie, die bei der Herstellung von Gütern
-benötigt wird, wird am Herstellungsort bilanziert. Der Anteil von CO2, das 
-durch den Kauf von Gütern in die Kommune importiert wird, kann also gerade für
+benötigt wird, wird am Herstellungsort bilanziert. Der Anteil von CO2, das durch den Kauf von Gütern in die Kommune importiert wird, kann also gerade für
 Kommunen mit geringem Anteil produzierenden Gewerbes, wie Göttingen,
-beträchtlich sein. Genauso werden THG-Emissionen durch Abfallverwertung
+beträchtlich sein kann. Genauso werden THG-Emissionen durch Abfallverwertung
 nach diesem Prinzip nicht da gemessen, wo der Abfall entsteht,
 sondern zum Beispiel dort, wo Abfall verbrannt wird. 
 
@@ -189,8 +188,8 @@ Allerdings ist stattdessen der CO2-Anteil des Stroms deutlich gestiegen.
 Tatsächlich geht dies allein auf den höheren Kohleanteil bei der
 Stromerzeugung zurück, denn der in Göttingen verbrauchte Strom
 ist gegenüber dem Vorjahr weitgehend gleich
-geblieben. Er ist aber eben auch nicht gesunken, wie es nötig wäre.
-
+geblieben. Er ist aber eben auch nicht gesunken, wie es nötig wäre,
+sondern im Vergleich mit 2021 sogar gestiegen.
 
 
 *Göttinger Klimabündnis, 9.8.2023*
