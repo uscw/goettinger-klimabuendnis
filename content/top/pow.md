@@ -1,3 +1,5 @@
+Das gute Leben in der Stadt Göttingen: mit ein wenig politischem Willen lässt es sich selbst in der Betonwüste am Groner Tor im Spätsommer ganz gut aushalten (Klimastreik am 15.9.2023)![2023-09-15-Klimastreik_in_der_Haengematte.jpg](/img/pow/2023-09-15-Klimastreik_in_der_Haengematte.jpg)
+------------------
 GöttingenZero startet Unterschriftensammlung für fahrradfreundliche Stadt. Der Göttinger Radentscheid fordert Verbesserungen für den Fahrradverkehr auf Göttinger Straßen![2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg](/img/pow/2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg)
 ------------------
 Privatisierung des Gänseliesels. Eine Protestaktion von End Fossil: Occupy! Göttingen. Die Göttinger Staatsanwaltschaft will mitspielen. Der Vorwurf:  Unterschlagung![2023-07-15-Privatisierung_des_Gänseliesels.jpg](/img/pow/2023-07-15-Privatisierung_des_Gänseliesels.jpg)
