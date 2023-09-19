@@ -46,7 +46,7 @@ Schon in der Vergangenheit standen die einzelnen Klimagruppen in engem Kontakt z
 
 # Utopie
 
-![2023-09-15-GöttingenAutofrei Der PLan](/img/post/2023-09-15-GöttingenAutofrei_Utopie.png)
+![2023-09-15-GöttingenAutofrei Der Plan](/img/post/2023-09-15-GöttingenAutofrei_Utopie.png)
 
 # Forderungen des Bündnisses
 
