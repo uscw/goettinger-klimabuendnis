@@ -30,7 +30,12 @@ Sie sind also herzlich eingeladen.
 
 Die Klimagruppe der Ev.-Ref. Gemeinde Göttingen
 
-![Kommunale Wärmeplanung](/img/event/2023-10-11-Kommunale_Wärmeplanung.png)
+Wer nur den Vortrag hören und den bis zu 20 Akteur*innen beim Planspiel zusehen möchte, kommt
+einfach so. Wer auch mitspielen möchte, meldet sich bitte an:
+
+mailto:refoforfuture@gmx.de oder telefonisch 0177 7543753
+
+![Kommunale Wärmeplanung](/img/event/2023-10-11-Kommunale_Wärmeplanung.jpg)
 
 # Hintergründe
 
@@ -44,7 +49,7 @@ Die Klimaschutz- und Energieagentur Niedersachsen erklärt auf ihrer Homepage (A
 "Bis zum Jahr 2045 soll die Energieversorgung in Deutschland treibhausgasneutral sein. Dieses Ziel kann nur erreicht werden, wenn die Wärmeversorgung neu aufgestellt wird. Kommunen sind hier ein wichtiger Akteur. Mit der gesetzlichen Pflicht zur kommunalen Wärmeplanung für Mittel- und Oberzentren1 trägt Niedersachsen dieser zentralen Rolle der Kommunen Rechnung. Und auch im Bund ist die Einführung einer kommunalen Wärmeplanung in Vorbereitung. Der hier vorliegende Leitfaden soll Städte und Gemeinden beim Aufbau einer zukunftsfähigen
 Wärmeversorgung unterstützen.
  
-Derzeit entfällt mehr als die Hälfte unseres Ener- gieverbrauchs auf die Wärmeerzeugung. Knapp 90 Prozent davon werden mit fossilen Brennstoffen erzeugt. Dies ist aus ökologischer Sicht problematisch und gefährdet unsere Klimaschutzziele. Auch mit Blick auf unsere Versorgungssicherheit birgt die Importabhängigkeit von fossilen Brennstoffen viele Unsicherheiten.
+Derzeit entfällt mehr als die Hälfte unseres Energieverbrauchs auf die Wärmeerzeugung. Knapp 90 Prozent davon werden mit fossilen Brennstoffen erzeugt. Dies ist aus ökologischer Sicht problematisch und gefährdet unsere Klimaschutzziele. Auch mit Blick auf unsere Versorgungssicherheit birgt die Importabhängigkeit von fossilen Brennstoffen viele Unsicherheiten.
  
 Um die Klimaschutzziele zu erreichen, müssen zwei Säulen der Energie- und Wärmewende be- dient werden: Einerseits gilt es die Bedarfe durch mehr „Energieeffizienz“ zu senken, andererseits sind verbleibende Bedarfe durch die „Nutzung erneuerbarer Energien“ zu decken. Wichtig: Wird nur eine Säule bedient, gelingt die Energie- und Wärmewende nicht!
 
