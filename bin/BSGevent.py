@@ -79,10 +79,10 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
         for line in IP.readlines():
             line = line[:-1]
             if line == "":
-                isEvent = False
                 continue
             if lastline.strip() in ["Sommerprogramm", "Winterprogramm"]:
                 self.year = line.split()[-1:][0]
+                self.program_type = lastline.strip()
                 print ("Year: ", self.year)
             elif line.strip().startswith("Fortsetzung " + month):
                 isEvent = False
@@ -94,14 +94,17 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
                 isEvent = True
                 if evt_txt != None:
                     txt_cont.append(evt_txt)
-                evt_txt = [ line[len(line.strip().split()[0])+1:].strip() ]
+                evt_txt = [ line[len(line.strip().split()[0])+1:].strip() ] # first entry in evt_txt
             elif isEvent:
                 if lastline.strip().split()[0] in self.days:
-                    evt_txt.append(line.strip().split()[0])
-                    evt_txt.append(line.strip()[len(line.strip().split()[0])+1:].strip())
+                    if len(line.split(".")) != 3:
+                           evt_txt = [ line ] # first entry in evt_txt
+                    else:
+                           evt_txt.append(line.strip().split()[0]) # second entry in evt_txt
+                           evt_txt.append(line.strip()[len(line.strip().split()[0])+1:].strip()) # third entry in evt_txt
                     #evt_txt.append(line.strip())
                 else:
-                    evt_txt.append(line.strip())
+                    evt_txt.append(line.strip()) # all following entries in evt_txt
             lastline = line
         return txt_cont
 
@@ -115,6 +118,8 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
         d = parts[0]
         m = parts[1]
         y = self.year
+        if self.program_type == "Winterprogramm" and m in ["10","11","12"]:
+            y = str(int(y)-1)
         self.cont["date"] = y + "-" + m + "-" + d
         return self.cont["date"]
     
@@ -177,13 +182,18 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
         subsubtitle2 = ""
         if item[0].strip().lower().startswith("jahreshauptversammlung"):
             return None, None
-        if item[0].strip().lower().startswith("vortrag"):
+        subtitle = "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
+        if item[0].strip().lower().startswith("vortrag") and item[2] != "":
             title = "Vortrag: " + item[2]
-            subtitle = "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
+            subsubtitle1 = item[0]
+        elif item[0] != "":
+            title =  item[0]
+            subsubtitle1 = item[2]
+        elif item[2] != "":
+            title =  item[2]
             subsubtitle1 = item[0]
         else:
-            title = item[0]
-            subtitle = "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
+            title = item[3]
             subsubtitle1 = item[2]
         self.used_items.append(0)
         self.used_items.append(1)
@@ -249,7 +259,6 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 if __name__ == '__main__':
 
     ProgFile="/home/uschwar1/Downloads/Programm.txt"
-    publish_delta = 100
 
     EventBSG = eventBSG()
     txt_cont = EventBSG.get_event_from_file(file=ProgFile)
@@ -258,5 +267,8 @@ if __name__ == '__main__':
 
     Evt = event.event()
     # print (Evt.get_new_event(evt_list[0]))
+    # writes event files into directory /tmp/event
     eFN = Evt.dict2eventMD(evt_dict,publish_delta=200,outDir="/tmp/event")
-#    print (eFN)
+    # print (eFN)
+
+    
