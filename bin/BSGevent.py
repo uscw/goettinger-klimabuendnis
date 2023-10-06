@@ -78,12 +78,12 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
         # get event blocks
         for line in IP.readlines():
             line = line[:-1]
-            if lastline.strip() in ["Sommerprogramm", "Winterprogramm"]:
-                self.year = line.split()[-1:][0]
-                print ("Year: ", self.year)
             if line == "":
                 isEvent = False
                 continue
+            if lastline.strip() in ["Sommerprogramm", "Winterprogramm"]:
+                self.year = line.split()[-1:][0]
+                print ("Year: ", self.year)
             elif line.strip().startswith("Fortsetzung " + month):
                 isEvent = False
                 # print (" found: Fortsetzung " + month)
