@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Das neue Heizungsgestz - was bedeutet das für mich?"
+title:         "Das neue Heizungsgesetz - was bedeutet das für mich?"
 subtitle:      "Eine Veranstaltung des Stadtverband von Bündnis 90/Die Grünen"
 date:          2023-11-20T19:00:00+01:00
 etime:         2023-11-20T21:00:00+01:00
@@ -26,7 +26,7 @@ Der Stadtverband von Bündnis 90/Die Grünen hat hierfür eine Veranstaltung im 
 
 Am Montag, 20.11.2023, 19 Uhr, werden der Göttinger Bundestagsabgeordnete Jürgen Trittin sowie die Geschäftsführungen von 1komma5° Göttingen, der Stadtwerke Göttingen AG und der Energieagentur Göttingen über das Thema informieren und diskutieren. Im Fokus stehen die Themen Gesetzeslage und Förderung des GEGs, Energiewende und Technik, Wärmewende und Fernwärme sowie die Chancen für Hausbesitzerinnen und Hausbesitzer. Moderiert wird die Veranstaltung von der Landtagsabgeordneten Marie Kollenrott. Der Eintritt ist kostenlos, eine Anmeldung ist nicht nötig.
 
-![Heizungsgesetz](/img/static/event/2023-11-20-Heizungsveranstaltung.png)
+![Heizungsgesetz](/img/event/2023-11-20-Heizungsveranstaltung.png)
 
 
 Mehr Informationen beim [Veranstalter](https://www.gruene-goettingen.de)

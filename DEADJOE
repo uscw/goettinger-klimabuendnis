@@ -228,3 +228,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Mon Nov 20 22:30:01 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+\*
+\\*
+;
+;dummy;
+;
+;Business;;
+, 9,
+,
+;
+;Organisation;;
+
+*** File '(Unnamed)'
+*
+*
+ 
+;;
+ 
+;;;
+, ,
+         
+,
+;;
+
+*** File '(Unnamed)'
+ownCloud/AO/Sonstiges/prv/Finanzen/Gewerbe_DaReUS/TVÖD_Bund_2020.csv
+/home/uschwar1/bla1
+bin/BackupToDisk.sh
+bin/BackupToDisk.sh
+bin/BackupToDisk.sh
+/home/uschwar1/python_virtual_envs/python3.9/lib64/python3.9/site-packages/photocollage/gtkgui.py
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-11-15_18:30_Hecken_und_Baumlandschaften_in_Europa.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2023-11-20_19:00_Das_neue_Heizungsgestz_-_was_bedeutet_das_fuer_mich.md
+content/event/2023-11-20_19:00_Das_neue_Heizungsgestz_-_was_bedeutet_das_fuer_mich.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
