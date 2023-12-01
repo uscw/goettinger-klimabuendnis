@@ -20,8 +20,6 @@ Gemüsebau im Agroforst: Permakultur in der Praxis
 im Rahmen des Agroforst Mittwochs trägt vor: Falk Gärtner
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!

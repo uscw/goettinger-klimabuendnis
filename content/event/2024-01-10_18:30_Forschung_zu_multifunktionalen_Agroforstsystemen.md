@@ -20,8 +20,6 @@ Forschung zu multifunktionalen Agroforstsystemen
 im Rahmen des Agroforst Mittwochs trägt vor: Dr. Philipp Weckenbrock
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!

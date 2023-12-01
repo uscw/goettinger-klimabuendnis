@@ -20,8 +20,6 @@ Aufbäumen gegen die Dürre - Wie Pflanzen Regen machen und das Klima kühlen
 im Rahmen des Agroforst Mittwochs trägt vor: Stefan Schwarzer
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!

@@ -17,7 +17,7 @@ image:         "/img/banner/2022-09-10-Wurzelgemuese.png"
 Hecken und Baumlandschaften in Europa
 ===========
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
+im Rahmen des Agroforst Mittwochs trägt vor: Michael Grolm
 -----------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich

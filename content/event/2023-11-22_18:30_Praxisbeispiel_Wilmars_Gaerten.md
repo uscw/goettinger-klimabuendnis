@@ -20,8 +20,6 @@ Praxisbeispiel: Wilmars Gaerten
 im Rahmen des Agroforst Mittwochs trägt vor: Dr. Stefan Leu
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!

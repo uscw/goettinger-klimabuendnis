@@ -20,8 +20,6 @@ Rechtliches zu Agroforstsystemen in Deutschland
 im Rahmen des Agroforst Mittwochs trägt vor: Marina Klimke
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!

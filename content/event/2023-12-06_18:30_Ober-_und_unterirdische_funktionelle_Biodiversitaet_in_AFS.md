@@ -20,8 +20,6 @@ Ober- und unterirdische funktionelle Biodiversität in AFS
 im Rahmen des Agroforst Mittwochs trägt vor: Dr. Lukas Beule
 -----------
 
-imRahmen des Agroforst Mittwochs trägt vor: Michael Grolm
------------
 Die Universität Göttingen und die
 Agroforestry.Community laden dich
 zu spannenden Vorträgen ein!
