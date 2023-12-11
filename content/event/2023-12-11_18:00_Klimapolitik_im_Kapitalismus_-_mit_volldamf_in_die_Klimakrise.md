@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Klimapolitik im Kapitalismus - mit volldamf in die Klimakrise"
+title:         "Klimapolitik im Kapitalismus - mit Volldampf in die Klimakrise"
 subtitle:      "Eine Veranstaltung des AStA der Universität Göttingen"
 date:          2023-12-11T18:00:00+01:00
 etime:         2023-12-11T20:00:00+01:00
@@ -14,7 +14,7 @@ image:         "/img/banner/2022-02-28_Harzer_Nationalpark.jpg"
 
 **Veranstaltung: 11. Dezember 2023, 18:00 Uhr, ZHG 105 der Uni Goettingen**
 
-Klimapolitik im Kapitalismus - mit volldamf in die Klimakrise
+Klimapolitik im Kapitalismus - mit Volldampf in die Klimakrise
 ===========
 
 Eine Veranstaltung des AStA der Universität Göttingen
