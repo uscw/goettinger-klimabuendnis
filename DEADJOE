@@ -274,3 +274,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Wed Jan  3 22:30:01 2024
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+\*
+\\*
+;
+;dummy;
+;
+;Business;;
+, 9,
+,
+;
+;Organisation;;
+
+*** File '(Unnamed)'
+*
+*
+ 
+;;
+ 
+;;;
+, ,
+         
+,
+;;
+
+*** File '(Unnamed)'
+Zeitungsarchiv_Ueberblick.org
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-12-13_0958-Bisher_5000_Unterschriften_für_den_Radentscheid_-_nur_noch_wenige_Wochen_zum_Sammeln-GöttingenZero.md
+content/event/2024-01-31_18:00_Gruen_schrumpfen_oder_gruen_wachsen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2023-12-23_1236-Eilmitteilung_möglich_Anklage_wegen_Bildung_einer_kriminellen_Vereinigung-GöKB.md
+/tmp/Certs/otherkeys/logins.txt
+/tmp/Certs/otherkeys/logins.txt
+/home/uschwar1/bin/resize_pics_in_dir_60.sh
+/home/uschwar1/bin/resize_pics_in_dir_60.sh
+bla
+bin/event.py
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-01-20_6:30_Wir_haben_es_satt.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
