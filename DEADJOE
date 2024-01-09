@@ -320,3 +320,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Mon Jan  8 22:30:01 2024
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+\\*
+;
+;dummy;
+;
+;Business;;
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+
+*** File '(Unnamed)'
+*
+ 
+;;
+ 
+;;;
+, ,
+         
+,
+;;
+=DATE:2023
+
+*** File '(Unnamed)'
+bla
+bin/event.py
+content/post/2023-12-28_1652-Der_Radentscheid_erreicht_noch_vor_Ende_des_Jahres_6000_Unterschriften-GöttingenZero.md
+ownCloud/AO/Organisation/geburtstage2024.vcs
+ownCloud/AO/Organisation/Feiertage_DE_2022.ics
+ownCloud/AO/Organisation/Feiertage_DE_2022.ics
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-01-13_10:30_Querdenken_einfrieren.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+config.toml
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

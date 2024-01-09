@@ -1,3 +1,5 @@
+Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger Treckerspielplatz, auch Stimmen für eine nachhaltige Landwirtschaft, bei der natürlich Diesel auch keine Rolle mehr spielt.![2024-08-01-Bauernproteste2024.jpg](/img/pow/2024-08-01-Bauernproteste2024.jpg)
+------------------
 Das gute Leben in der Stadt Göttingen: mit ein wenig politischem Willen lässt es sich selbst in der Betonwüste am Groner Tor im Spätsommer ganz gut aushalten (Klimastreik am 15.9.2023)![2023-09-15-Klimastreik_in_der_Haengematte.jpg](/img/pow/2023-09-15-Klimastreik_in_der_Haengematte.jpg)
 ------------------
 GöttingenZero startet Unterschriftensammlung für fahrradfreundliche Stadt. Der Göttinger Radentscheid fordert Verbesserungen für den Fahrradverkehr auf Göttinger Straßen![2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg](/img/pow/2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg)
