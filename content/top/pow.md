@@ -1,4 +1,6 @@
-Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger Treckerspielplatz, auch Stimmen für eine nachhaltige Landwirtschaft, bei der natürlich Diesel auch keine Rolle mehr spielt.![2024-08-01-Bauernproteste2024.jpg](/img/pow/2024-08-01-Bauernproteste2024.jpg)
+Klare Ansage am Rande der Demo Göttingen bleibt antifaschistisch! - Gegen die AfD und ihre Vertreibungspläne am 21. Januar 2024 mit ca. 15.000 Teilnehmern![2024-01-21-Göttingen_AfD_Demo.jpg](/img/pow/2024-01-21-Göttingen_AfD_Demo.jpg)
+------------------
+Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger Treckerspielplatz, auch Stimmen für eine nachhaltige Landwirtschaft, bei der natürlich Diesel auch keine Rolle mehr spielt.![2024-01-08-Bauernproteste2024.jpg](/img/pow/2024-01-08-Bauernproteste2024.jpg)
 ------------------
 Das gute Leben in der Stadt Göttingen: mit ein wenig politischem Willen lässt es sich selbst in der Betonwüste am Groner Tor im Spätsommer ganz gut aushalten (Klimastreik am 15.9.2023)![2023-09-15-Klimastreik_in_der_Haengematte.jpg](/img/pow/2023-09-15-Klimastreik_in_der_Haengematte.jpg)
 ------------------
