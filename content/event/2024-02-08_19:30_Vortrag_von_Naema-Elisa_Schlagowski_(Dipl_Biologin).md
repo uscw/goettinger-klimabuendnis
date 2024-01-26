@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Vortrag von Naema-Elisa Schlagowski (Dipl. Biologin)"
+title:         "Naturschutz in intensiv bewirtschafteten Landschaften, Ergebnisse aus dem FRANZ-Projekt"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2024-02-08T19:30:00+02:00
 etime:         2024-02-08T21:30:00+02:00
@@ -14,12 +14,14 @@ image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 
 **Veranstaltung: 08. Februar 2024, 19:30 Uhr, Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2**
 
-Vortrag von Naema-Elisa Schlagowski (Dipl. Biologin)
+
+Naturschutz in intensiv bewirtschafteten Landschaften, Ergebnisse aus dem FRANZ-Projekt
 ===========
 
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
 
+Vortrag von Naema-Elisa Schlagowski (Dipl. Biologin)
 -------------
 
 Naturschutz in intensiv bewirtschafteten Landschaften
