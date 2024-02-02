@@ -1,3 +1,5 @@
+Am 2. Februar 2024 hinter der Feuertonne am Tor der GöVB: Verkehrswende geht nur mit den Beschäftigten! Beschäftigte und Klimaaktivist*innen verbinden ihre Kämpfe![2024-02-02-GöVB-Streik.jpg](/img/pow/2024-02-02-GöVB-Streik.jpg)
+------------------
 Klare Ansage am Rande der Demo Göttingen bleibt antifaschistisch! - Gegen die AfD und ihre Vertreibungspläne am 21. Januar 2024 mit ca. 15.000 Teilnehmern![2024-01-21-Göttingen_AfD_Demo.jpg](/img/pow/2024-01-21-Göttingen_AfD_Demo.jpg)
 ------------------
 Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger Treckerspielplatz, auch Stimmen für eine nachhaltige Landwirtschaft, bei der natürlich Diesel auch keine Rolle mehr spielt.![2024-01-08-Bauernproteste2024.jpg](/img/pow/2024-01-08-Bauernproteste2024.jpg)

@@ -6,12 +6,12 @@ echo $LG x $HT
 
 
 (( NORM_LG = 1800 ))
-(( NREL = 3 ))
+(( NREL = 25 )) # 10-fach
 
 (( IREL = LG * 1000 / HT ))
-(( BHT = LG / NREL ))
+(( BHT = LG * 10 / NREL ))
 (( BLG = LG ))
-(( OFFSET = ( HT - BHT ) / 2 )) 
+(( OFFSET = ( HT - BHT / 10 ) / 3 )) 
 
 echo size: $SIZE
 echo offset: $OFFSET
