@@ -14,7 +14,7 @@ image:         "/img/banner/2022-12-13-Windkraft_im_Winter.jpg"
 
 **Veranstaltung: 22. Februar 2024, 10:00 Uhr, Online und LandesSportbund Niedersachsen, Ferdinand-Wilhelm-Fricke Weg 10, 30169 Hannover**
 
-2. Niedersächsischer Wärmepumpentag
+Zweiter Niedersächsischer Wärmepumpentag
 ===========
 
 Fokus auf die Wohnungen in Mehrfamilienhäusern in Niedersachsen
