@@ -29,4 +29,4 @@ Die Öko-Modellregion Landkreis Göttingen will in der Region Bio-Wertschöpfung
 Wir laden Sie herzlich ein beim GUNZ-Vortrag mit anschließendem Austausch mehr von den Projektmanagerinnen der Öko-Modellregion Landkreis Göttingen zu erfahren. Unser Vortrag wird gehalten von Sarah Liv Luttmann und Amelie Quarz (Referat 05 Nachhaltige Regionalentwicklung des Landkreis Göttingen).
 
 
-Mehr Informationen beim [Veranstalter](www.goettinger-umweltzentrum.de )
+Mehr Informationen beim [Veranstalter](http://www.goettinger-umweltzentrum.de )
