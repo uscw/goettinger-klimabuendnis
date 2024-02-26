@@ -366,3 +366,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Tue Feb 20 22:30:02 2024
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+;
+;dummy;
+;
+;Business;;
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+_
+
+*** File '(Unnamed)'
+ 
+;;
+ 
+;;;
+, ,
+         
+,
+;;
+=DATE:2023
+-
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-02-12_12:30_UEbergabe_der_Unterschriften_fuer_beide_Buergerbegehren_des_Radentscheids.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-02-14_08:00_UEbergabe_der_Unterschriften_des_Buendnis_Wir_fahren_zusammen.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-02-22_10:00_2_Niedersaechsischer_Waermepumpentag.md
+config.toml
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+ownCloud/AO/Sonstiges/prv/Gesundheit/Urologie/Uroflow/Uroflow.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-02-24_10:00_Das_Freiwillige_OEkologische_Jahr_(FOEJ)_beim__BUND_JANUN_EPIZ_und_WPZ_Goettingen.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-02-21_19:30_Lebenswertes_Goettingen.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
