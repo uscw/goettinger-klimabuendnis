@@ -1,3 +1,5 @@
+Wir Fahren Zusammen am 1. März 2023: Zum Klimastreik demonstrieren mehr als 1200 Menschen zusammen mit Ver.di in Göttingen![2024-03-01-Wir_fahren_zusammen1.jpg](/img/pow/2024-03-01-Wir_fahren_zusammen1.jpg)
+------------------
 Die Übergabe der Unterschriften zum Göttinger Radentscheid an die Oberbürgermeisterin Broistedt am 12.2.2024. Die Anzahl der Unterschriften ist höher als die Anzahl Göttinger Stimmen für die CDU bei der letzten Landtagswahl.![2024-02-12-Uebergabe_Radentscheid.jpg](/img/pow/2024-02-12-Uebergabe_Radentscheid.jpg)
 ------------------
 Am 2. Februar 2024 hinter der Feuertonne am Tor der GöVB: Verkehrswende geht nur mit den Beschäftigten! Beschäftigte und Klimaaktivist*innen verbinden ihre Kämpfe![2024-02-02-GöVB-Streik.jpg](/img/pow/2024-02-02-GöVB-Streik.jpg)
