@@ -412,3 +412,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri Mar  1 22:30:01 2024
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+_
+Venedig 
+2024	
+Patras  
+:
+
+*** File '(Unnamed)'
+, ,
+         
+,
+;;
+=DATE:2023
+-
+Venedig
+2024
+Patras
+ : 
+
+*** File '(Unnamed)'
+Fähre_Ven-Pat.txt
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+ownCloud/AO/Sonstiges/prv/Haus_Beekweg34_37079Gö/Mängel/Offene_Punkte_202402.txt
+ownCloud/AO/Sonstiges/prv/Haus_Beekweg34_37079Gö/Mängel/Offene_Punkte_202402.txt
+ownCloud/AO/Sonstiges/prv/Haus_Beekweg34_37079Gö/Mängel/Offene_Punkte_202402.txt
+ownCloud/Reisen/2024.07-StBlasien/FeWo_Wälder_Details.txt
+Makefile
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+config.toml
+config.toml
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
