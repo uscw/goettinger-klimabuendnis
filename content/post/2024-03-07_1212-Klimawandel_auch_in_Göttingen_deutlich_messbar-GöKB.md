@@ -88,8 +88,8 @@ ist (an der gestrichelten Linie) erkennbar.
 ## Sonnenscheindauer
 
 Auch wenn Niedersachsen den zweifelhaften Ruhm errungen hat, im letzten Jahr nach Nordrhein-Westfalen das zweittrübste Bundesland
-gewesen zu sein, und dann Göttingen noch unter dem Durchschnittswert beider
-Bundesländer lag, gibt es doch Hoffnung für die Sonnenanbeter in Göttingen: 
+gewesen zu sein, und dann Göttingen auch noch den Durchschnittswert beider
+Bundesländer unterbot, gibt es doch Hoffnung für die Sonnenanbeter in Göttingen: 
 
 ![Sonnenscheindauer_Goettingen](/img/post/2023-03-04-Sonnenscheindauer_Goettingen.png)
 Bild 5: Durchschnittliche Sonnenscheindauer – 1954 bis 2023
@@ -122,3 +122,5 @@ zielführende Politik.
 
 U.Schwardmann (GöKB)
 
+*Referenzen, insbesondere alle Grafiken:*
+[Quartals-Journal 2023-03](https://duva-stg-extern.kdgoe.de/Informationsportal/Dokumente/Journal2023-3.pdf)
