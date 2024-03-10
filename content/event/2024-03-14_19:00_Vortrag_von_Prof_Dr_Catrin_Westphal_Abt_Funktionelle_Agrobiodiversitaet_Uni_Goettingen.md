@@ -2,7 +2,7 @@
 layout:        events
 title:         "Integration von Biodiversität und Ökosystemleistungen in Anbausysteme und Agrarlandschaften"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
-date:          2024-03-14T19:00:00+02:00
+date:          2024-03-14T19:30:00+02:00
 etime:         2024-03-14T21:00:00+02:00
 publishdate:   2023-10-06T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
@@ -12,7 +12,7 @@ locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
 
-**Veranstaltung: 14. März 2024, 19:00 Uhr, digital Anmeldung per mailbiologische-schutzgemeinschaft.de**
+**Veranstaltung: 14. März 2024, 19:30 Uhr, Geiststraße 2, 37073 Göttingen, Deutschland**
 
 Integration von Biodiversität und Ökosystemleistungen in Anbausysteme und Agrarlandschaften
 ===========
@@ -23,7 +23,7 @@ Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 Vortrag von Prof. Dr. Catrin Westphal, Abt. Funktionelle Agrobiodiversität Uni Göttingen
 -------------
 
-
+Veranstaltung findet um 19.30 Uhr in Präsenz statt.
 
 Wir bitten um Anmeldung zu den Veranstaltungen unter mail@biologische-schutzgemeinschaft.de
 
