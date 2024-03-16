@@ -458,3 +458,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Thu Mar 14 22:30:01 2024
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+_
+Venedig 
+2024	
+Patras  
+:
+
+*** File '(Unnamed)'
+, ,
+         
+,
+;;
+=DATE:2023
+-
+Venedig
+2024
+Patras
+ : 
+
+*** File '(Unnamed)'
+/tmp/CredentialsDTR-playground.txt
+bin/connect.sh
+/tmp/Certs/otherkeys/logins.txt
+content/event/2024-03-14_19:00_Vortrag_von_Prof_Dr_Catrin_Westphal_Abt_Funktionelle_Agrobiodiversitaet_Uni_Goettingen.md
+ownCloud/Reisen/2024.05-StBlasien/Buchungsbestätigung_WÄLDER.txt
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+.git/config
+ownCloud/AO/Sonstiges/prv/Klima/GöKlimaBündnis/Reden/Klimaschutz_und_Antifaschismus.org
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-03-16_12:00_Goettingen_gegen_Rechts.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-03-16_12:00_Goettingen_gegen_Rechts.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-14_1255-Stadtverwaltung_möchte_Fachbereich_„Stadtgrün_und_Umwelt“_aufgeben-BUND_BSG_NABU_und_die_Naturschutzbeauftragte_der_Stadt_Göttingen.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
