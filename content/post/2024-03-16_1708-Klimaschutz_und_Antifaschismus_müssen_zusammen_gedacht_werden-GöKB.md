@@ -4,7 +4,7 @@ title:         "Klimaschutz und Antifaschismus müssen zusammen gedacht werden"
 subtitle:      "Rede des Göttinger Klimabündnis auf der Antifa-Demo am 16.3."
 date:          2024-03-16T17:08:00+01:00
 publishdate:   2023-12-07T00:00:00+01:00
-image:         "/img/post/2024-03-16-Antifa-Demo-BGR.jpg"
+image:         "/img/banner/2024-03-16-Antifa-Demo-BGR.jpg"
 author:        "GöKB"
 showtoc:      true
 draft:        false
