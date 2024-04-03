@@ -504,3 +504,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Thu Mar 28 22:30:02 2024
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+_
+Venedig 
+2024	
+Patras  
+:
+
+*** File '(Unnamed)'
+, ,
+         
+,
+;;
+=DATE:2023
+-
+Venedig
+2024
+Patras
+ : 
+
+*** File '(Unnamed)'
+bla
+Dokumente/Sonstiges/GebRede.txt
+Dokumente/Sonstiges/Geburtstag70Rede.txt
+bla
+bla
+README.md
+PITcrud.html
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-27_1752-Eine_Kriminalisierung_der_letzten_Letzten_Generation_ist_nicht_rechtens-Letzte_Generation.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-27_1752-Eine_Kriminalisierung_der_letzten_Letzten_Generation_ist_nicht_rechtens-Letzte_Generation.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-28_1424-Göttingen_vierte_Deutsche_Stadt_der_Fossil_Fuel_Treaty_Initiative-GöKB.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-28_1424-Göttingen_vierte_Deutsche_Stadt_der_Fossil_Fuel_Treaty_Initiative-GöKB.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
