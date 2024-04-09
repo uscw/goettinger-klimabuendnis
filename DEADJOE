@@ -550,3 +550,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Sun Apr  7 22:30:02 2024
+*** JOE was aborted by UNIX signal 15
+
+*** File '(Unnamed)'
+, 9,
+,
+;
+;Organisation;;
+=DATE:2024
+_
+Venedig 
+2024	
+Patras  
+:
+
+*** File '(Unnamed)'
+, ,
+         
+,
+;;
+=DATE:2023
+-
+Venedig
+2024
+Patras
+ : 
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-03-28_1424-Göttingen_vierte_Deutsche_Stadt_der_Fossil_Fuel_Treaty_Initiative-GöKB.md
+Dokumente/Sonstiges/Geburtstag70Rede.txt
+ownCloud/AO/Sonstiges/prv/Finanzen/Schenkungen/Allgemeine_Regeln_2024.txt
+ownCloud/AO/Sonstiges/prv/Finanzen/Schenkungen/Allgemeine_Regeln_2024.txt
+Dokumente/Sonstiges/Geburtstag70Rede.txt
+PITcrud.txt
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-04-12_18:00_Klimaziele_der_Stadt_Goettingen_-_sind_sie_erreichbar.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/event//2024-04-12_18:00_Klimaziele_der_Stadt_Goettingen_-_sind_sie_erreichbar.md
+broschuereA4toA5.sh
+Facts_and_Methods_about_Equivalence_and_Similarity_of_Grammars.lyx
+config.toml
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
