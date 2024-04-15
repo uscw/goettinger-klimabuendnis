@@ -596,3 +596,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Sat Apr 13 22:30:02 2024
+*** JOE was aborted by UNIX signal 15
+
+*** File '(Unnamed)'
+,
+;
+;Organisation;;
+=DATE:2024
+_
+Venedig 
+2024	
+Patras  
+:
+24, 3,
+
+*** File '(Unnamed)'
+         
+,
+;;
+=DATE:2023
+-
+Venedig
+2024
+Patras
+ : 
+24, 2,
+
+*** File '(Unnamed)'
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-04-12_1041-GöttingenZero_kann_Radentscheid-Wahlkampf_starten-GöttingenZero.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-04-12_1041-GöttingenZero_kann_Radentscheid-Wahlkampf_starten-GöttingenZero.md
+/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/2024-04-12_1048-Kosten_des_Radentscheids-GöttingenZero.md
+/home/uschwar1/ownCloud/AO/Organisation/timestamps
+content/post/2024-04-12_1048-Kosten_des_Radentscheids-GöttingenZero.md
+content/post/2024-04-12_1048-Kosten_des_Radentscheids-GöttingenZero.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
