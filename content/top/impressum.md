@@ -36,6 +36,7 @@ draft: false
 | Naturfreunde Göttingen                                           | https://naturfreunde-goettingen.de                                 | info [at] naturfreunde-goettingen.de        |
 | Parents for Future Göttingen                                     | https://parentsforfuture.de/de/g%C3%B6ttingen                      | p4f-goe [at] lists.gwdg.de                  |
 | Partizipative Initiative für eine lebenwerte Zukunft Göttingen   | http://www.pilz.uni-goettingen.de/                                 | info [at] pilz.uni-goettingen.de            |
+| Psychologists for Future Göttingen                               | https://psychologistsforfuture.org                                 | goettingen [at] psychologistsforfuture.org  |
 | Referat für Ökologie und Nachhaltigkeit (AStA der Uni Göttingen) |                                                                    | oekologie [at] asta.uni-goettingen.de       |
 | Scientists for Future Göttingen                                  | https://www.scientists4future.org/mitmachen/regionalgruppen/       | goettingen [at] scientists4future.org       |
 | Students for Future Göttingen                                    | https://studentsforfuture.info/ortsgruppe/                         | sff_goettingen@riseup.net                   |
