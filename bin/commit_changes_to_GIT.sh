@@ -3,7 +3,7 @@ GITDIR="/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 GITPARENTDIR="/home/uschwar1/Dokumente"
 HUGO="/home/uschwar1/ownCloud/AC/html/hugo/hugo"
 SERVER_USR="gkb_user"
-SERVER_LOC="${SERVER_USR}@1b14c95.online-server.cloud"
+SERVER_LOC="${SERVER_USR}@goettinger-klimabuendnis.de"
 SERVER_DIR="Docker/nginx-alpine"
 
 # PoW-Archiv aktualisieren
