@@ -30,7 +30,7 @@ damit de Facto der Wille zur Einhaltung der Klimaziele negiert.
 Auf Basis der jährlichen Daten des Referats für Wahlen und Statistik der
 Stadt Göttingen lassen sich die meisten der CO2-Emissionen der Stadt
 Göttingen der vergangenen Jahre seit 1999 ermitteln. Dies sind auch
-gleichzeitig im Wesentliche die Treibhausgas(THG)-Emissionen, die für
+gleichzeitig im Wesentlichen die Treibhausgas(THG)-Emissionen, die für
 die Klimabilanz berücksichtigt werden müssen, da der Anteil anderer
 Treibhausgase durch die Landwirtchaft nur verschwindend gering ist.
 
@@ -41,7 +41,7 @@ Die Entwicklung über die letzten 15 Jahre ist in der Abbildung
 
 zu sehen.
 
-Für die letzten fünf Jahre sind die Ergebnisse auch in der folgenden Tabelle
+Für die letzten fünf Jahre sind die Ergebnisse in kt CO2 auch in der folgenden Tabelle
 zusammengefasst.
 
 | CO2-Bilanz    |  2018 |  2019 |    2020 |  2021 |  2022 |
@@ -66,7 +66,7 @@ für alle Göttinger Bürger aufsummiert?
 - Weshalb spielt die Landwirtschaft als wichtiger Faktor in Göttingen keine Rolle?
 - Warum gehen nicht die Emissionen, die durch den Abfall in Göttingen entstehen, mit in die Bilanz ein?
 
-Entscheidend bei der politischen Steuerung der THD-Reduktion sind drei Fragestellungen: 
+Entscheidend bei der politischen Steuerung der THG-Reduktion sind drei Fragestellungen: 
 - eine Zielplanung,
 - die tatsächliche Entwicklung der THG-Emissionen und
 - die zu treffenden Maßnahmen um die Ziele zu erreichen.
@@ -80,8 +80,7 @@ Es ist zum Beispiel für eine Kommune unrealistsch, den persönliche CO2-Fußabd
 Aber die Daten der vor Ort verwendeten Energie zu ermitteln, ist in
 Zusammenarbeit mit den Energielieferanten durchaus realistisch und wird
 ohnehin schon von vielen Kommunen im Rahmen jährlicher Datenerhebungen
-gemacht. Auch lässt sich im Allgemeinen der THG-Eintrag durch
-landwirtschaftliche Betrieb ermitteln. Dieser spielt allerdings im Göttinger Stadtgebiet so gut wie keine Rolle.
+gemacht. 
 
 ## Das Territorialprinzip
 
@@ -133,6 +132,18 @@ anderen unterscheiden, wird im gesonderten Abschnitt [Verkehrs-Monitoring in Gö
 behandelt. Hier werden auch weitere Indikatoren, zum Beispiel zu
 Verkehrsflächen, Radwegen und ÖPNV untersucht.
 
+##  Landwirtschaft
+
+Der THG-Eintrag durch
+landwirtschaftliche Betriebe lässt sich mit dem durchschnittlichen bundesdeutschen Wert pro Hektar
+(3,36 Tonnen pro Hektar bei jährlich 55,5 Mio. Tonnen auf 16,5 Mio. Hektar lt. Umweltbundesamt für 2022) 
+auf die 3995 Hektar landwirtschaftliche Fläche in Göttingen auf ca 13,5 kt
+CO2 pro Jahr grob abschätzen. 
+Dieser spielt daher im Göttinger Stadtgebiet mit einem Anteil von etwa 6% so gut wie keine Rolle, zumal
+die besonders THG-intensive Viehwirtschaft im Göttinger Raum nur in geringem
+Maße betrieben wird. Daher wurde dieser Bereich bei den bisherigen Erhebungen
+der Stadt und auch hier nicht berücksichtigt.
+
 # Vergleich mit den Daten der Stadt Göttingen
 
 Die hier auf Basis der elektrischen und Wärme-Energie berechneten
@@ -147,10 +158,14 @@ folgende Grafik deutlich macht.
 Wo es allerdings zum Teil deutliche Abweichungen gibt, ist im Bereich Verkehr.
 Im Wesentlichen liegt dies daran, dass die Stadt sich seit Jahren weigert,
 im Bereich des Verkehrs auch nur minimale Datenerhebungen zu machen.
-Daher müssen die Verkehrsdaten sehr grob aus bundesweiten Entwickungen geschätzt werden. Wie die genau geschieht, ist für die Zahlen der Stadt zum Verkehr unbekannt und die starken Schwankungen er Zahlen über die Jahre, sprechen nicht unbedingt für eine hohe Zuverlässigkeit des städtischen Modells.
+Daher müssen die Verkehrsdaten sehr grob aus bundesweiten Entwickungen geschätzt werden. 
+Wie dies genau geschieht, ist für die Zahlen der Stadt zum Verkehr unbekannt und die 
+starken Schwankungen der Zahlen über die Jahre, sprechen nicht unbedingt für eine hohe 
+Zuverlässigkeit des städtischen Modells.
 
 Die hier verwendeten Zahlen beruhen auf einem einheitlichen Modell, das
-ein eigener Artikel zu dem Thema beschreibt. Im Wesentlichen wird ein
+ein [eigener Artikel](/controlling/verkehr/) 
+zu dem Thema beschreibt. Im Wesentlichen wird ein
 bestimmter Prozentsatz der durchschnittlichen Gesamtfahrleistung der
 angemeldeten KFZs aus Stadt und Umgebung für die Berechnung des CO2-Ausstoßes
 angesetzt. Die durchschnittliche Fahrleistung und der CO2-Ausstoß beruht auf
@@ -187,11 +202,13 @@ wenn Menschen von der Richtigkeit überzeugt sind.
 
 ## Erhöhungen bei der Elektrizität wegen Kohleverstromung 
 Allerdings ist stattdessen der CO2-Anteil des Stroms deutlich gestiegen.
-Tatsächlich geht dies allein auf den höheren Kohleanteil bei der
-Stromerzeugung zurück, denn der in Göttingen verbrauchte Strom
-ist gegenüber dem Vorjahr weitgehend gleich
-geblieben. Er ist aber eben auch nicht gesunken, wie es nötig wäre,
-sondern im Vergleich mit 2021 sogar gestiegen.
+Tatsächlich geht dies hauptsächlich auf den höheren Kohleanteil bei der
+Stromerzeugung zurück, aber auch der in Göttingen verbrauchte Strom
+ist gegenüber dem Vorjahr leicht gestiegen. Diese Entwicklung kann bereits
+auf erste Substitutionen von THG-Emittenden im Wärme- und Verkehrsbereich
+durch Wärmepumpen und E-Autos hindeuten, kann aber auch an der verstärkten
+Nutzung von Heiz-Radiatoren im Winter liegen.
+
 
 
 *Göttinger Klimabündnis, 9.8.2023*

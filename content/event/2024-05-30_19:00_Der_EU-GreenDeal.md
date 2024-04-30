@@ -1,7 +1,7 @@
 ---
 layout:        events
 title:         "Der EU-GreenDeal"
-subtitle:      "Eine Diskussionsveranstaltung zur Lage der Europäischen Klimapolitik"
+subtitle:      "Eine Diskussionsveranstaltung zur Zukunft der Europäischen Klimapolitik"
 date:          2024-05-30T19:00:00+02:00
 etime:         2024-05-30T21:00:00+02:00
 publishdate:   2024-04-16T00:00:00+01:00
@@ -10,6 +10,7 @@ place:         "Altes Rathaus Goettingen"
 URL:           "/2024/05/30/19/00/der_eu-greendeal"
 locURL:        ""
 image:         "/img/banner/2022-12-13-Windkraft_im_Winter.jpg"
+showtoc:       true
 ---
 
 **Veranstaltung: 30. Mai 2024, 19:00 Uhr, Altes Rathaus Goettingen**
@@ -47,3 +48,10 @@ Vor ihrem Einstieg bei Agora arbeitete Lea Nesselhauf rund drei Jahre bei German
 Michael Bloss verhandelte die Koalitionsverträge für die Bereiche Klima, Energie und Industrie für die Regierungsbildung in Baden-Württemberg und auf Bundesebene im Jahr 2021 mit aus. 
 Er ist seit 2019 Mitglied des Europäischen Parlaments als Teil der Fraktion Die Grünen/EFA. Für seine Fraktion ist er Mitglied im Ausschuss für Industrie, Forschung und Energie sowie im Ausschuss für Umweltfragen, öffentliche Gesundheit und Lebensmittelsicherheit und hat in dieser Funktion den bisherigen Prozess des EU-GreenDeal entscheidend mitgestaltet. 
 
+# Anmeldung
+Wir bitten Sie, sich zur Teilnahme an der Veranstaltung in einer formlosen
+Mail mit einem Namen und der Anzahl der teilnehmenden Personen unter
+
+**redaktion [at] goettinger-klimabuendnis.de** 
+
+anzumelden.
