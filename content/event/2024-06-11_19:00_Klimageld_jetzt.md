@@ -29,3 +29,4 @@ Martin Henschel is aktiv in
 
 ATTAC in Zusammenarbeit mit LEB, BUND, ver.di Göttingen
 
+[Weitere Infos](https://attac.de/klimageld)
