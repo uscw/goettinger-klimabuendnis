@@ -1,3 +1,5 @@
+Verkehrswende zur KidicalMass-Demo am 3. Mai  2024: ein Ratsabgeordneter  gibt auf dem Weg zum Rathaus zwischen radfahrenden Kindern vom Fahrrad aus ein  Interview![2024-05-03-KidicalMass.jpg](/img/pow/2024-05-03-KidicalMass.jpg)
+------------------
 Bei der Ungehorsamen Versammlung am 5.4.2024 steht der Elefant im öffentlichen Raum:  das fossile Zeitalter muss endlich durch eine sozial gerechte und solidarische Klimapolitik überwunden werden.![2024-04-06-Demo_LetzteGeneration.jpg](/img/pow/2024-04-06-Demo_LetzteGeneration.jpg)
 ------------------
 Wir Fahren Zusammen am 1. März 2023: Zum Klimastreik demonstrieren mehr als 1200 Menschen zusammen mit Ver.di in Göttingen![2024-03-01-Wir_fahren_zusammen1.jpg](/img/pow/2024-03-01-Wir_fahren_zusammen1.jpg)
