@@ -63,3 +63,7 @@ Mail mit einem Namen und der Anzahl der teilnehmenden Personen unter
 **redaktion [at] goettinger-klimabuendnis.de** 
 
 anzumelden.
+
+Veranstalter: Das Göttinger Klimabündnis
+
+![EU-GreenDeal Sharepic](/img/event/2024-05-30-EU-GreenDeal.png)
