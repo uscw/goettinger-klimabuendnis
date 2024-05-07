@@ -80,7 +80,7 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
             line = line[:-1]
             if line == "":
                 continue
-            if lastline.strip() in ["Sommerprogramm", "Winterprogramm"]:
+            if lastline.strip() in ["Sommerprogramm", "Winterprogramm", "BSG Sommerprogramm", "BSG Winterprogramm"]:
                 self.year = line.split()[-1:][0]
                 self.program_type = lastline.strip()
                 print ("Year: ", self.year)
@@ -106,6 +106,8 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
                 else:
                     evt_txt.append(line.strip()) # all following entries in evt_txt
             lastline = line
+        if evt_txt != None:
+            txt_cont.append(evt_txt)
         return txt_cont
 
     def get_date(self,item):
@@ -258,8 +260,7 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 ##########################
 if __name__ == '__main__':
 
-    ProgFile="/home/uschwar1/Downloads/Programm.txt"
-
+    ProgFile="/home/uschwar1/Downloads/Programm_BSG_S2024.txt"
     EventBSG = eventBSG()
     txt_cont = EventBSG.get_event_from_file(file=ProgFile)
     evt_dict = EventBSG.get_event_components(txt_cont)
