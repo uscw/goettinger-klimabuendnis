@@ -3,7 +3,7 @@ layout:        posts
 title:         "PM: GöttingenZero protestiert gegen Plakatierverbot für Bürgerentscheide"
 subtitle:      "Göttingen setzt in Punkto direkter Demokratie eigene Akzente"
 date:          2024-05-05T10:12:00+01:00
-publishdate:   2024-01-26T00:00:00+01:00
+publishdate:   2024-05-05T10:12:00+01:00
 image:         "/img/banner/2023-06-23-KidicalMass.jpg"
 author:        "GöttingenZero"
 showtoc:      false

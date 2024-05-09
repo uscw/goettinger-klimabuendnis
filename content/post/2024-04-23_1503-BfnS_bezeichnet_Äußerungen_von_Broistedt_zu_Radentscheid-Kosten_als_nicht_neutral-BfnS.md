@@ -3,7 +3,7 @@ layout:        posts
 title:         "BfnS bezeichnet Äußerungen von Broistedt zu Radentscheid-Kosten als nicht neutral"
 subtitle:      "Pressemitteilung des Bündnis für nachhaltige Stadtentwicklung zum Thema 'Radentscheid-Kosten'"
 date:          2024-04-23T15:03:00+01:00
-publishdate:   2024-01-14T00:00:00+01:00
+publishdate:   2024-04-23T15:03:00+01:00
 image:         "/img/banner/2023-06-23-KidicalMass.jpg"
 author:        "BfnS"
 showtoc:      false

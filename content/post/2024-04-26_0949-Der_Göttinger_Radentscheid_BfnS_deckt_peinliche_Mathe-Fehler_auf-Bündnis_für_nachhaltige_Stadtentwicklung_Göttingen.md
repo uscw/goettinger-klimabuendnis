@@ -3,7 +3,7 @@ layout:        posts
 title:         "Der Göttinger Radentscheid: BfnS deckt peinliche Mathe-Fehler auf"
 subtitle:      "Pressemitteilung des Bündnis für nachhaltige Stadtentwicklung Göttingen"
 date:          2024-04-26T09:49:00+01:00
-publishdate:   2024-01-17T00:00:00+01:00
+publishdate:   2024-04-26T09:49:00+01:00
 image:         "/img/banner/2021-04-24-Göttingen_Kreidebilder_4.jpg"
 author:        "Bündnis für nachhaltige Stadtentwicklung Göttingen"
 showtoc:      true

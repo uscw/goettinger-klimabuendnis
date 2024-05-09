@@ -3,7 +3,7 @@ layout:        posts
 title:         "GöttingenZero wirft OB Broistedt ein Spiel mit falschen Zahlen vor"
 subtitle:      "PM von GöttingenZero zu angeblichen Kosten des Radentscheids"
 date:          2024-04-19T17:19:00+01:00
-publishdate:   2024-01-10T00:00:00+01:00
+publishdate:   2024-04-19T17:19:00+01:00
 image:         "/img/banner/2023-06-23-KidicalMass.jpg"
 author:        "GöttingenZero"
 showtoc:      false

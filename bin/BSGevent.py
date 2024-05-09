@@ -1,6 +1,21 @@
+import sys
 from datetime import date, datetime, timezone, timedelta
 #from event
 import event
+
+usage = """
+Input: Text file as output from pdftotext from Programm.pdf not sufficient
+It needs to be prepared: Typical program item:
+
+Samstag
+28.9.
+
+Naturschutz praktisch: Quellsumpf Scheden
+Vorkommen von Gelb-Seggen, Herbstzeitlose, Teufelsabbiss
+Breitblättrigem Knabenkraut und Fuchs' Knabenkraut.
+Treffen: 9 Uhr, Göttinger Umwelt- und Naturschutzzentrum, Geiststr. 2
+
+"""
 
 class eventBSG():
 
@@ -44,12 +59,15 @@ class eventBSG():
         self.header = False
         self.image = "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
         self.text = """
-Wir bitten um Anmeldung zu den Veranstaltungen unter mail@biologische-schutzgemeinschaft.de
+Wir bitten um **Anmeldung** zu den Veranstaltungen unter mail@biologische-schutzgemeinschaft.de
 
-Biologische Schutzgemeinschaft Göttingen e.V. (BSG)
--- Vereinigung für Natur- und Umweltschutz --
+Biologische Schutzgemeinschaft Göttingen e.V. (BSG)  
+-- Vereinigung für Natur- und Umweltschutz --  
 
-GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
+GUNZ  
+Geiststraße 2  
+37073 Göttingen  
+(Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 """
         self.cont = { "date" : self.date,
                  "time" : self.time,
@@ -68,7 +86,7 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
     
     def get_event_from_file(self,file=None):
         IP = open(file,"r")
-        month = ""
+        Month = ""
         out_data = self.cont
 
         lastline = ""
@@ -78,15 +96,15 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
         # get event blocks
         for line in IP.readlines():
             line = line[:-1]
-            if line == "":
+            if line == "" or line in self.months:
                 continue
             if lastline.strip() in ["Sommerprogramm", "Winterprogramm", "BSG Sommerprogramm", "BSG Winterprogramm"]:
                 self.year = line.split()[-1:][0]
                 self.program_type = lastline.strip()
                 print ("Year: ", self.year)
-            elif line.strip().startswith("Fortsetzung " + month):
+            elif line.strip().startswith("Fortsetzung " + Month):
                 isEvent = False
-                # print (" found: Fortsetzung " + month)
+                # print (" found: Fortsetzung " + Month)
                 continue
             elif line.split()[0] == "Sonstiges":
                 isEvent = False
@@ -261,6 +279,11 @@ GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 if __name__ == '__main__':
 
     ProgFile="/home/uschwar1/Downloads/Programm_BSG_S2024.txt"
+    if len(sys.argv) < 2:
+        print ("Usage: " + sys.argv[0] + " programm_file.txt\n\n" + usage)
+        sys.exit(1)
+    else:
+        ProgFile = sys.argv[1]
     EventBSG = eventBSG()
     txt_cont = EventBSG.get_event_from_file(file=ProgFile)
     evt_dict = EventBSG.get_event_components(txt_cont)

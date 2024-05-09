@@ -29,12 +29,15 @@ Teilnehmerbegrenzung auf 15 Personen, Anmeldung per mail@biologischeschutzgemein
 Nicht bei Regen
 
 
-Wir bitten um Anmeldung zu den Veranstaltungen unter mail@biologische-schutzgemeinschaft.de
+Wir bitten um **Anmeldung** zu den Veranstaltungen unter mail@biologische-schutzgemeinschaft.de
 
-Biologische Schutzgemeinschaft Göttingen e.V. (BSG)
--- Vereinigung für Natur- und Umweltschutz --
+Biologische Schutzgemeinschaft Göttingen e.V. (BSG)  
+-- Vereinigung für Natur- und Umweltschutz --  
 
-GUNZ, Geiststraße 2, 37073 Göttingen (Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
+GUNZ  
+Geiststraße 2  
+37073 Göttingen  
+(Bürozeiten: Jeden Mittwoch, 16-18 Uhr)
 
 
 Mehr Informationen beim [Veranstalter](http://www.biologische-schutzgemeinschaft.de/programm.html)

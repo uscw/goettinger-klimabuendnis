@@ -87,7 +87,8 @@ if __name__ == '__main__':
     fo.write("title:         \"" + Pst["title"] + "\""+ "\n")
     fo.write("subtitle:      \"" + Pst["subtitle"] + "\""+ "\n")
     fo.write("date:          " + Pst["date"] + "T" + Pst["time"] + ":00+01:00"+ "\n")
-    fo.write("publishdate:   " + get_publish_date(Pst["date"],publish_delta) + "T00:00:00+01:00"+ "\n")
+    fo.write("publishdate:   " + Pst["date"] + "T" + Pst["time"] + ":00+01:00"+ "\n")
+    # fo.write("publishdate:   " + get_publish_date(Pst["date"],publish_delta) + "T00:00:00+01:00"+ "\n")
     if Pst["image"] != "":
         fo.write("image:         \"" + Pst["image"] + "\""+ "\n")
     fo.write("author:        \"" + Pst["author"] + "\""+ "\n")

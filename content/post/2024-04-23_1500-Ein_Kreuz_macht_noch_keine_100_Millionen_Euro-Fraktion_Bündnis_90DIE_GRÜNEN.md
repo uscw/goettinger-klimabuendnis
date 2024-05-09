@@ -3,7 +3,7 @@ layout:        posts
 title:         "Ein Kreuz macht noch keine 100 Millionen Euro"
 subtitle:      "Pressemitteilung der Fraktion Bündnis 90/DIE GRÜNEN im Rat der Stadt Göttingen zum Radentscheid"
 date:          2024-04-23T15:00:00+01:00
-publishdate:   2024-01-14T00:00:00+01:00
+publishdate:   2024-04-23T15:00:00+01:00
 image:         "/img/banner/2023-06-23-KidicalMass.jpg"
 author:        "Fraktion Bündnis 90/DIE GRÜNEN"
 showtoc:      false
