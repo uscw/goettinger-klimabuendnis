@@ -3,7 +3,7 @@ layout:        posts
 title:         "PM: BfnS bedauert Aus für Stockleffmühlenprojekt"
 subtitle:      "Das Scheitern hat sich schon seit längerem angedeutet und hätte verhindert werden können."
 date:          2024-05-09T12:20:00+01:00
-publishdate:   2024-05-09T12:20:00+01:00
+publishdate:   2024-05-08T12:20:00+01:00
 image:         "/img/banner/2023-07-15-Privatisierung_des_Gänseliesels.jpg"
 author:        "BfnS"
 showtoc:      false
