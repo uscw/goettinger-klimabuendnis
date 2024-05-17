@@ -14,7 +14,7 @@ image:         "/img/banner/2023-06-22-LG_Erdöl_statt_Wasser.jpg"
 
 **Veranstaltung: 01. Juni 2024, 12:00 Uhr, Goettingen**
 
-2. Ungehorsame Versammlung
+Zweite Ungehorsame Versammlung
 ===========
 
 Letzte Generation ruft zur Teilnahme auf
