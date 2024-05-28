@@ -1,7 +1,7 @@
 ---
 layout:        events
-title:         "EU-weiter Klimastreik"
-subtitle:      "Klimagerechtigkeit und keine Pause in der europäischen Klimapolitik"
+title:         "EU-weiter Klimastreik in Göttingen"
+subtitle:      "zur Europawahl und gegen gewalttätige Angriffe auf  Politiker*innen"
 date:          2024-05-31T12:00:00+02:00
 etime:         2024-05-31T14:00:00+02:00
 publishdate:   2024-05-05T00:00:00+01:00
