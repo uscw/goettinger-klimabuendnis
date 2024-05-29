@@ -21,6 +21,8 @@ Letzte Generation ruft zur Teilnahme auf
 -----------
 Es ist wieder so weit: am 1.6. um 12:00 Uhr findet in Göttingen die 2. Ungehorsame Versammlung statt. Die letzte im April war ein voller Erfolg: die Polizei hat unser Recht auf Versammlungsfreiheit anerkannt und wir konnten 4 Stunden lang mit einem bunten  ernsthaften Programm am Geismar Tor auf die Bedrohung durch die Klimakrise und das Handlungsversagen der Bundesregierung aufmerksam machen. Vielen Dank an alle, die mit dabei waren!
 
+![UngehorsameVersammlung2](/img/event/2024-06-01-UngehorsameVersammlung2.jpg)
+
 Auch am 1.6. seid ihr wieder eingeladen, dazu zu stoßen und/oder einen Teil des Programms selbst zu gestalten. Gerne dürft ihr mit eigenen Symbolen/Farben/Fahnen/Infomaterial vorbeikommen und sichtbar sein. Wenn ihr euch vorstellen könnt, einen Redebeitrag oder andere Aktionen, wie z.B. Musik oder Kunst oder was euch gerade einfällt, beizusteuern, meldet euch gern bei mir. Wir würden uns darüber sehr freuen.
 
 Beim letzten Mal wurde die Versammlung von der Polizei umgehend anerkannt und ist damit mit der Teilnahme an einer angemeldeten Demonstration gleichzusetzen. 

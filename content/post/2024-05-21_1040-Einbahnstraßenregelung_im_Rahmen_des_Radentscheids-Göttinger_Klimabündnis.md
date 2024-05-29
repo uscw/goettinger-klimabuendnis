@@ -196,7 +196,11 @@ moderat und mit nur geringen Kosten realisierbar.
 
 Die Linie 150 zwischen Göttingen und Duderstadt nutzte früher ebenfalls
 den Friedländer Weg, fährt aber seit Umstellung auf die Schnellbuslinie
-in dem Bereich über die Geismar Landstr.
+in dem Bereich in den allermeisten Fällen über die Geismar Landstr.
+Lediglich zu Schulbeginn wird der Friedländerweg in Süd-Nord-Richtung
+befahren. In diesem Fall kann hier z.B. ebenfalls die Ausweichroute über die
+Münchhausenstr. genommen werden, um die Schulen zu erreichen. 
+In der Nord-Süd-Richtung bleibt alles, wie es ist.
 
 Die Nachtlinien N1 - N10 scheinen weder den Friedländer Weg noch den
 Düstere Eichenweg in Nord-Süd-Richtung zu befahren, die genaue
