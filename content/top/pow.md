@@ -16,9 +16,9 @@ Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger T
 ------------------
 Das gute Leben in der Stadt Göttingen: mit ein wenig politischem Willen lässt es sich selbst in der Betonwüste am Groner Tor im Spätsommer ganz gut aushalten (Klimastreik am 15.9.2023)![2023-09-15-Klimastreik_in_der_Haengematte.jpg](/img/pow/2023-09-15-Klimastreik_in_der_Haengematte.jpg)
 ------------------
-GöttingenZero startet Unterschriftensammlung für fahrradfreundliche Stadt. Der Göttinger Radentscheid fordert Verbesserungen für den Fahrradverkehr auf Göttinger Straßen![2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg](/img/pow/2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg)
+GöttingenZero startet am 1.9.2023 die Unterschriftensammlung für eine fahrradfreundliche Stadt. Der Göttinger Radentscheid fordert Verbesserungen für den Fahrradverkehr auf Göttinger Straßen![2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg](/img/pow/2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg)
 ------------------
-Privatisierung des Gänseliesels. Eine Protestaktion von End Fossil: Occupy! Göttingen. Die Göttinger Staatsanwaltschaft will mitspielen. Der Vorwurf:  Unterschlagung![2023-07-15-Privatisierung_des_Gänseliesels.jpg](/img/pow/2023-07-15-Privatisierung_des_Gänseliesels.jpg)
+Privatisierung des Gänseliesels. Eine Protestaktion von End Fossil: Occupy! Göttingen am 15.7.2023. Die Göttinger Staatsanwaltschaft will mitspielen. Der Vorwurf:  Unterschlagung![2023-07-15-Privatisierung_des_Gänseliesels.jpg](/img/pow/2023-07-15-Privatisierung_des_Gänseliesels.jpg)
 ------------------
 Zum Ende der Klimawoche mit heftigem Unwetter und Starkregen findet am 23.06.2023 eine KidicalMass-Fahrraddemo statt![2023-06-23-KidicalMass.jpg](/img/pow/2023-06-23-KidicalMass.jpg)
 ------------------
@@ -30,7 +30,7 @@ Am Montag den 8. Mai 2023 wurde das Otto-Hahn-Gymnasium von Schüler*innen der B
 ------------------
 Am Freitag den 14. April 2023 hatte EndFossil: Occupy! das Forum Wissen mit einer Klima-Sonderausstellung 'Wissen schafft Handeln' besetzt.![2023-04-14-ForumWissenHandelnInnen.jpg](/img/pow/2023-04-14-ForumWissenHandelnInnen.jpg)
 ------------------
-Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt.![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
+Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt. Es hielt immerhin zwei Wochen![2023-04-13-Fahrrad-Gruenpfeil.jpg](/img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg)
 ------------------
 Am 3.3.203 nahmen über 2000 Menschen und ca. 70 Beschäftigte der Göttinger Verkehrsbetriebe unter dem Motto #WirFahrenZusammen denn #TommorrowIsToLate am globalen Klimastreik in Göttingen teil.![2023-03-03-Klimastreik-3.jpg](/img/pow/2023-03-03-Klimastreik-3.jpg)
 ------------------
