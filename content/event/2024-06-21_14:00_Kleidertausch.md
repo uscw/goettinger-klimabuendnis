@@ -1,7 +1,7 @@
 ---
 layout:        events
 title:         "Kleidertausch"
-subtitle:      "Kein Feiertag für sinnlosen Konsum"
+subtitle:      "Gegen sinnlosen Konsum"
 date:          2024-06-21T14:00:00+02:00
 etime:         2024-06-21T18:00:00+02:00
 publishdate:   2024-06-06T00:00:00+01:00
@@ -17,14 +17,12 @@ image:         "/img/banner/2022-07-10-Kleidertausch.jpg"
 Kleidertausch
 ===========
 
-Kein Feiertag für sinnlosen Konsum
+Gegen sinnlosen Konsum
 -----------
 
-wir veranstalten am Sonntag, den 21.6.24 statt Kaufrausch einen Kleidertausch.
+wir veranstalten am Sonntag, den 21.6.24 einen Kleidertausch.
 
 ![Kleidertausch](/img/event/2024-06-21-Kleidertausch.png)
-
-Diesmal ohne Repair-Cafe und Siebdruck.
 
 Greenpeace Göttingen
 
