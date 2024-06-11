@@ -20,7 +20,11 @@ Kleidertausch
 Kein Feiertag für sinnlosen Konsum
 -----------
 
-wir veranstalten am GREEN-(BLACK) Friday, den 24.11. statt Kaufrausch einen Kleidertausch.
+wir veranstalten am Sonntag, den 21.6.24 statt Kaufrausch einen Kleidertausch.
+
+![Kleidertausch](/img/event/2024-06-21-Kleidertausch.png)
+
+Diesmal ohne Repair-Cafe und Siebdruck.
 
 Greenpeace Göttingen
 
