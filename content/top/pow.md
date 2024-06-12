@@ -1,3 +1,5 @@
+Noch am Abend der Auszählung am 9.6.2024 jubelt GöttingenZero über den errungenen Sieg beim Radentscheid 1. Mittlerweile ist das Ja für eine Trennung von Auto- und Radverkehr und der Vorzug von fahendem vor stehendem Verkehr auch von der Stadtverwaltung anerkannt worden.![2024-06-09-Radentscheid-gewonnen.jpg](/img/pow/2024-06-09-Radentscheid-gewonnen.jpg)
+------------------
 Seit Anfang Mai 2024 verkündet die Göttinger SPD in einem Flyer in aller Öffentlichkeit ihre Inkompetenz in Sachen Radverkehr, sowohl in ihren Vorschlägen wie in ihrer Kritik.![2024-06-02-Radentscheid-Gewächshaus.png](/img/pow/2024-06-02-Radentscheid-Gewächshaus.png)
 ------------------
 Verkehrswende zur KidicalMass-Demo am 3. Mai  2024: ein Ratsabgeordneter  gibt auf dem Weg zum Rathaus zwischen radfahrenden Kindern vom Fahrrad aus ein  Interview![2024-05-03-KidicalMass.jpg](/img/pow/2024-05-03-KidicalMass.jpg)
