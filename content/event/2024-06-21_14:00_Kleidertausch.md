@@ -20,7 +20,7 @@ Kleidertausch
 Gegen sinnlosen Konsum
 -----------
 
-wir veranstalten am Sonntag, den 21.6.24 einen Kleidertausch.
+wir veranstalten am Freitag, den 21.6.24 einen Kleidertausch.
 
 ![Kleidertausch](/img/event/2024-06-21-Kleidertausch.png)
 
