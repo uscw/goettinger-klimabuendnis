@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Monitoring zum Radentscheid 1 in Göttingen"
+title:         "ENTWURF: Monitoring zum Radentscheid 1 in Göttingen"
 subtitle:      "Zahlen zu Maßnahmen im Rad-Verkehr"
 date:          2024-07-10T11:21:00+01:00
 publishdate:   2024-07-10T00:00:00+01:00
@@ -10,6 +10,7 @@ draft:        false
 showtoc:      true
 ---
 
+# *ENTWURF:*
 # Monitoring der Maßnahmen der 34 Beschlusspunkte
 Bei der Umsetzung des Radentscheids muss nach der Art der Maßnahmen unterschieden werden.
 Diese lassen sich in verschiedene Kategorien einteilen. Einige sind unmittelbar umzusetzen, andere
@@ -110,7 +111,7 @@ Bike Lanes und Einbahnstraßen). Die bisherige Strategie des Mischverkehrs wird 
 Verkehrswende damit eingeleitet.
 
 ### Indikatoren
-
+TBD
 ## 2: Einhaltung und Umsetzung der ERA
 > Die aktuellen Empfehlungen für Radverkehrsanlagen (ERA) und der Publikation „Einladende
 Radverkehrsnetze“ des Bundes werden eingehalten und umgesetzt.
@@ -125,7 +126,7 @@ bislang nicht eingehalten. Dies muss sich in Zukunft ändern.
  
 
 ### Indikatoren
-
+TBD
 ## 3: Differenzierung innerhalb des Umweltverbundes
 > Die Aussage aus der „Generellen Strategie“ aus dem Verkehrsentwicklungsplan von 1999 (Kapitel 6.5),
 „Alle Verkehrsmittel des Umweltverbundes sind als Partner gleichberechtigt zu betrachten“, welche in der
@@ -147,7 +148,7 @@ hatte, ist nach dem Aussetzen der Strategie von 1999 umsetzbar und befindet sich
 Konflikt mit den städtischen Zielsetzungen. Diese sind durch den Radentscheid ersetzt worden.
 
 ### Indikatoren
-
+TBD
 ## 4: Vorrang für fließenden Radverkehr vor ruhendem Autoverkehr
 > Kfz-Parkplätze auf der Fahrbahn soll es nur dann geben, wenn der Platz für den Radverkehr nach den
 Empfehlungen für Radverkehrsanlagen (ERA) ausreichend breit ist. In den Nutzungsansprüchen erhält
@@ -162,7 +163,7 @@ auf Fahrradstraßen, und nicht nur auf neu anzulegende Straßen. Fuß- und Radve
 Raum vorhanden ist, können Straßenrandparkplätze angeboten werden.
 
 ### Indikatoren
-
+TBD
 ## 5: Temporäre Kfz-Durchfahrtverbote an Schulen
 > An Schulen sollen temporäre Kfz-Durchfahrtverbote ermöglicht werden.
 
@@ -173,7 +174,7 @@ Im Einzelfall ist zu prüfen, wo solche Durchfahrtverbote verkehrsrechtlich mög
 wären. Als Leitlinie stehen die Schutzbedürfnisse der Kinder im Vordergrund.
 
 ### Indikatoren
-
+TBD
 ## 6: Einhaltung der ERA auch ohne Inanspruchnahme von Fördermitteln
 > Die Stadt hält sich an die Standards der ERA - auch dann, wenn sie keine Fördermittel in Anspruch nimmt.
 
@@ -185,7 +186,7 @@ diese Richtlinien nicht nur dann eingehalten werden, wenn die Stadt Fördermitte
 dann zur Einhaltung gezwungen wird.
 
 ### Indikatoren
-
+TBD
 ## 7: Abmarkierung der Dooring-Zonen in Nicht-Fahrradstraßen
 > Ausnahmen: Der Abstand zwischen Radfahr- bzw. Schutzstreifen und längsseitig parkenden Kfz beträgt
 mindestens 0,75 m und wird abmarkiert.
@@ -202,7 +203,7 @@ entfernt. Die Räder der in Parkbuchten stehenden SUVs stehen meist bereits auf 
 Von den Rädern sind die 0,75 m abzumessen. Für Fahrradstraßen siehe Punkt 13.
 
 ### Indikatoren
-
+TBD
 ## 8: Schutzstreifen nur ohne Unterbrechungen
 > Schutzstreifen werden nur dann angelegt, wenn diese ununterbrochen über die gesamte Straßenlänge
 geführt werden können (Negativbeispiel Danziger Straße).
@@ -217,7 +218,7 @@ Mit "die gesamte Straßenlänge" ist immer ein Straßenabschnitt von einer Einm�
 gemeint (also nicht die gesamte Länge der Straße, die einen bestimmten Straßennamen trägt).
 
 ### Indikatoren
-
+TBD
 ## 9: Sanierung asphaltierter Radwege
 > Die Fahrbahnen asphaltierter Radwege werden im selben Turnus saniert wie Kfz-Fahrbahnen.
 
@@ -229,7 +230,7 @@ aufgetragen werden. Die Fahrbahndecken der hochbordigen Radwege an diesen Straß
 dann ebenfalls zu erneuern.
 
 ### Indikatoren
-
+TBD
 ## 10: Bauliche Ermöglichung späterer Radweg-Überdachungen
 > Bei Radwegebau sollen Überdachungen baulich ermöglicht werden.
 
@@ -242,7 +243,7 @@ Leitungen unter den Radwegen so verlegen soll, dass hinterher, wenn ein Investor
 Mitdenken und nicht durch Gedankenlosigkeit solche Vorhaben von vornherein unmöglich machen.
 
 ### Indikatoren
-
+TBD
 ## 11: Geschwindigkeitsreduzierende Maßnahmen in Fahrradstraßen
 > Bauliche Maßnahmen wie Aufpflasterungen oder Schleusen sorgen dafür, dass Autos nicht schneller als 30
 fahren.
@@ -255,7 +256,7 @@ können. Gleichzeitig sollen Fahrräder nicht ausgebremst werden (also keine Bod
 die ganze Straße gehen).
 
 ### Indikatoren
-
+TBD
 ## 12: Unterbinden von Kfz-Durchgangsverkehr in Fahrradstraßen
 > Nach Möglichkeit wird Kfz-Durchgangsverkehr unterbunden, z. B. durch Poller, Diagonalsperren oder
 aufeinander zulaufende Einbahnstraßen.
@@ -270,7 +271,7 @@ viel zu viel Kfz-Durchgangsverkehr illegal fährt), auf der Theodor-Heuss-Straß
 Straße. Bei Ausweisung des Greitwegs als Fahrradstraße wäre auch dort eine Sperre nötig.
 
 ### Indikatoren
-
+TBD
 ## 13: Abmarkierung der Dooring-Zonen in allen Fahrradstraßen
 
 > Zwischen Kfz-Parkflächen und Fahrgasse werden Sicherheitstrennstreifen abmarkiert (Vorbild
@@ -286,7 +287,7 @@ Statt Fahrradstraße: Tempo 30 und Fahrrad-Überholverbot
 
 
 ### Indikatoren
-
+TBD
 ## 14: Entfernen der Straßenrandparkplätze in engen Fahrradstraßen
 > Das Kfz-Parken wird reduziert, wenn die Regelbreite für die Fahrgasse von 4 m unterschritten wird.
 
@@ -298,7 +299,7 @@ dort 3,40 m). Die Parkplätze an solchen Fahrradstraßen sind zu entfernen. Anso
 solche Straßenzüge nicht als Fahrradstraßen ausweisen.
 
 ### Indikatoren
-
+TBD
 ## 15: Ertüchtigung bestehender Fahrradstraßen bis 2030
 > Bestehende Fahrradstraßen werden bis 2030 in diesem Sinne ertüchtigt.
 
@@ -310,7 +311,7 @@ diesem Beschlusspunkt bis 2030 vollständig umzusetzen. Für die Maßnahmen wird
  nach hinten ein zeitliches Limit vorgegeben.
 
 ### Indikatoren
-
+TBD
 ## 16: Mindestens 1,5 km Protected Bike Lanes pro Jahr
 > Auf wichtigen Abschnitten im Netz werden bis 2030 pro Jahr mindestens 1,5 km Protected Bike Lanes,
 durch Leitschwellen von der Kfz-Fahrspur abgegrenzte geschützte Radfahrstreifen, eingerichtet (Vorbild
@@ -347,7 +348,7 @@ diese Variante dann überall einheitlich zu verwenden.
 
 
 ### Indikatoren
-
+TBD
 ## 17: Protected Bike Lanes als Zweirichtungsradwege
 > Protected Bike Lanes können auch als Zweirichtungsradwege angelegt werden.
 
@@ -360,7 +361,7 @@ geringes Radverkehrsaufkommen, um Zweirichtungsradwege zu ermöglichen. Nach der
 sind Zweirichtungsradverkehre bei 2 Metern möglich.
 
 ### Indikatoren
-
+TBD
 ## 18: Einbahnstraßenausweisung (z. B. Merkelstraße/Friedländer Weg)
 > Wenn der Raum nicht ausreicht, werden Einbahnstraßen ausgewiesen (z. B. Merkelstraße und Friedländer
 Weg).
@@ -378,7 +379,7 @@ Dahlmannstraße, Düstere Eichen-Weg, Steinsgraben und Wörthstraße).
 Weitere Beispiele wären Straßenabschnitte Am Papenberg oder am Rosdorfer Weg.
 
 ### Indikatoren
-
+TBD
 ## 19: Direktes Linksabbiegen an Kreuzungen
 > An Ampelkreuzungen mit Mischverkehr erhalten Fahrräder einen vorgelagerten, farblich markierten
 Aufstellbereich. So wird direktes Linksabbiegen ermöglicht. Das indirekte Linksabbiegen wird als Standard
@@ -395,7 +396,7 @@ Der Radentscheid korrigiert an dieser Stelle die im RadVEP beschlossene Empfehlu
 indirektes Linksabbiegen.
 
 ### Indikatoren
-
+TBD
 ## 20: Ertüchtigung von mindestens zwei Kreuzungen pro Jahr
 > Jährlich werden bis 2030 mindestens zwei Kreuzungen in diesem Sinne ertüchtigt.
 
@@ -408,7 +409,7 @@ Gute Beispiele sehen wir an der Goßlerstraße Ecke Kreuzbergring, am Geismar To
 der Kreuzung Brauweg und Rosdorfer Weg.
 
 ### Indikatoren
-
+TBD
 ## 21: Aufpflasterungen bei Einmündungen von Nebenstraßen
 > Mündungen von Nebenstraßen werden bei Umbauten mit Geh- und Radwegaufpflasterungen versehen
 (Vorbild Gehrtstraße Düsseldorf).
@@ -445,7 +446,7 @@ vorige Zustand nicht den Beschlüssen des Radentscheids, ist die Ausführung ent
 anzupassen.
 
 ### Indikatoren
-
+TBD
 ## 23: Niveaugleiche Rampensteine an Bordsteinabsenkungen
 > An Bordsteinabsenkungen werden niveaugleiche Rampensteine verwendet (Negativbeispiel Hainholzweg).
 
@@ -463,7 +464,7 @@ berücksichtigt, dass die Grundstücke nicht nur mit dem Auto, sondern auch mit 
 angesteuert werden.
 
 ### Indikatoren
-
+TBD
 ## 24: Abschaffung aller Bettelampeln
 > Fuß- und Radverkehr bekommen immer dann Grün, wenn Autos auch Grün bekommen (keine "Bettelampeln" mehr).
 
@@ -479,7 +480,7 @@ Verwaltung hat keinen Handlungsspielraum mehr, Bettelampelschaltungen beizubehal
 nicht an adaptiv gesteuerten Ampeln. Die Sicherheit durch Verlässlichkeit hat Vorrang.
 
 ### Indikatoren
-
+TBD
 ## 25: Vorzeitige Grüngabe für Fuß- und Rad an Ampelkreuzungen
 > Alle Ampeln werden so programmiert, dass Fuß- und Radverkehr immer 1-2 Sekunden vor den
 rechtsabbiegenden Autos Grün bekommen und dass sie nicht unnötig lange Rot haben.
@@ -492,7 +493,7 @@ nachzuprogrammieren. Der Beschlusspunkt ist dann umzusetzen, wenn die Verwaltung
 erhält, dass eine Ampel nicht nach dieser Maßgabe geschalten ist.
 
 ### Indikatoren
-
+TBD
 ## 26: Trennung von Fahrrad- und Fußgängerampeln
 > Gegebenenfalls werden durch vom Fußverkehr getrennte Fahrradampeln installiert.
 
@@ -504,7 +505,7 @@ Ampel ankommen und die Fußgängerampel mit Fahrradsymbol genau in dem Moment au
 schaltet (Beispiele: Bürgerstraße Ecke Lotzestraße, Bürgerstraße Ecke Nikolaistraße).
 
 ### Indikatoren
-
+TBD
 ## 27: Fahrrad-Grünpfeile an allen rechtlich möglichen Standorten
 > Das Schild Fahrrad-Grünpfeil (Zeichen 721 StVO) wird überall angebracht, wo es verkehrsrechtlich möglich
 ist.
@@ -519,7 +520,7 @@ einen rechts abgehenden Radweg (32 Stellen), eine Radwegspur oder einen gemeinsa
 bei Rot rechts abbiegen.
 
 ### Indikatoren
-
+TBD
 ## 28: Überdachung von Fahrradständern
 > An Schulen, Sport- und Veranstaltungsstätten werden die Abstellanlagen überdacht.
 
@@ -531,7 +532,7 @@ ergänzt. Die Beauftragung zur Überdachung an Schulen geht an die Stadt. Die Zu
 Parkflächen städtischer Eigenbetriebe ist abzuklären.
 
 ### Indikatoren
-
+TBD
 ## 29: Fahrradbügel in der Fußgängerzone 1
 > In der Innenstadt werden Bügel zum Anschließen von Rädern auch in der inneren Fußgängerzone 1
 angebracht (Ratsantrag vom 13.12.2019).
@@ -542,7 +543,7 @@ angebracht (Ratsantrag vom 13.12.2019).
 Der Radentscheid beauftragt die Stadt direkt mit der Umsetzung des CDU-Antrags vom 13.12.2019.
 
 ### Indikatoren
-
+TBD
 ## 30: Priorisierung radverkehrsreicher Stadtstraßen (Bürgerstraße etc.)
 > Die knappen Personalresourcen werden zielgerichteter eingesetzt. Die Planung und Umgestaltung der
 radverkehrsreichen Stadtstraßen (Bürgerstraße, Rosdorfer Weg, Kasseler Landstraße) werden prioritär
@@ -558,7 +559,7 @@ bis zum Siekweg gemeint (einschließlich Groner Landstraße und Posthof).
 Der wichtigste Abschnitt der Bürgerstraße ist der zwischen Groner Tor und Rosdorfer Weg.
 
 ### Indikatoren
-
+TBD
 ## 31: Gleichberechtigung des Radverkehrs an Baustellen
 > An Baustellen werden die Verkehrsarten gleichberechtigt behandelt. Baulich wird auf temporäre
 Schutzstreifen auf der Fahrbahn übergeleitet.
@@ -570,7 +571,7 @@ Die Stadt wird beauftragt, bei Baustellen den Radverkehr besser als bislang zu b
 als vollwertige Verkehrsart anzuerkennen. Hierfür wäre Kontrollpersonal einzustellen.
 
 ### Indikatoren
-
+TBD
 ## 32: Neuer Winterdienst-Plan
 > Die Stadt erstellt einen neuen Winterdienst-Plan, der den Radverkehr besser berücksichtigt,
 
@@ -580,7 +581,7 @@ als vollwertige Verkehrsart anzuerkennen. Hierfür wäre Kontrollpersonal einzus
 Der Punkt beinhaltet auch die Anschaffung eines weiteren Räumfahrzeugs für die Radwege.
 
 ### Indikatoren
-
+TBD
 ## 33: Kein Schnee auf Radwege schieben
 > Die Stadt vermeidet es, Schnee auf Radwege zu schieben.
 
@@ -590,7 +591,7 @@ Der Punkt beinhaltet auch die Anschaffung eines weiteren Räumfahrzeugs für die
 Der Schnee soll in Straßen wie dem Nikolausberger Weg oder der Bürgerstraße von der KfzFahrbahn nicht mehr auf den Radweg geschoben werden.
 
 ### Indikatoren
-
+TBD
 ## 34: Wegweisung für Nebenstrecken
 > Die Wegweisung schildert, wenn Rat und Ortsräte dies erbeten, auch attraktive Nebenstrecken aus (wo es
 sinnvoll ist, nur in eine Richtung).
@@ -603,6 +604,6 @@ Umsetzung beauftragt. Die Schilder können mit dem Hinweis "Nebenstrecke" verseh
 brauchen nur von Wohngebieten ins Zentrum leiten, nicht zurück.
 
 ### Indikatoren
-
+TBD
 
 *GöttingenZero, BfnS, Göttinger Klimabündnis, 9.8.2023*
