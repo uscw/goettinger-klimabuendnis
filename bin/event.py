@@ -7,6 +7,21 @@ from dateutil.relativedelta import relativedelta
 homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 outDir = homeDir + "/content/event/"
 banner_dir = "/img/banner"
+def sysCommand(cmd):
+   """                                                                                                                          
+   executes a system command and prints out: return code, stdout and stderr                                                     
+   @param cmd type string: command to execute
+   @return out, err type string: output and errors from command
+   """
+   from subprocess import Popen, PIPE
+   # cmd = "ls -l ~/"                                                                                                           
+   p = Popen(cmd , shell=True, stdout=PIPE, stderr=PIPE)
+   out, err = p.communicate()
+   if p.returncode:
+      print ("Return code: ", p.returncode)
+   return out, err
+
+
 
 class event():
 
@@ -180,6 +195,7 @@ class event():
             for file in dirlist:
                 if file.startswith("20"):
                     print(file)
+            out, err = sysCommand("/bin/dolphin --new-window " + homeDir + "/static" + banner_dir)
             Image = sys.stdin.readline()[:-1]
             if Image == "":
                  Image = cont["image"]

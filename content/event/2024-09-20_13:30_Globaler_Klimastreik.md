@@ -9,7 +9,7 @@ author:        "GöKB"
 place:         "Auditorium Goettingen"
 URL:           "/2024/09/20/13/30/globaler_klimastreik"
 locURL:        ""
-image:         "/img/banner/2022-03-28-Klimastreik_1.jpg"
+image:         "/img/banner/2021-04-15-fff-goe0-fahrraddemo-1.jpg"
 ---
 
 **Veranstaltung: 20. September 2024, 13:30 Uhr, Auditorium Goettingen**
