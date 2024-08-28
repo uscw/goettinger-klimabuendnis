@@ -16,8 +16,8 @@ home = ["HTML", "RSS", "Algolia"]
 event = [ "Calendar"]
 
 [params]
-  header_image = "img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg"
-  # header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
+  # header_image = "img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg"
+  header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
   # header_image = "img/banner/2021-02-05_welt_in_der_hand.jpg"
   # posts_image: see content/post/_index.md
   # events_image: see content/event/_index.md
