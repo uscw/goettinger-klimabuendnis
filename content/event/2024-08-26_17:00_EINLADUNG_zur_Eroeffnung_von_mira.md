@@ -9,7 +9,7 @@ author:        "EPIZ und KAZ e.V."
 place:         "Weender Str. 56 am Nabel in Goettingen"
 URL:           "/2024/08/26/17/00/einladung_zur_eroeffnung_von_mira"
 locURL:        "https://sustainable-jetzt.de/mira.html"
-image:         "/img/banner/2023-12-04_KLIMart-Ausstellung.jpg"
+image:         "/img/banner/2021-05-09-Act_Now_Banner.png"
 showTOC:       true
 ---
 

@@ -1,3 +1,5 @@
+EPIZ und KAZ e.V. eröffnen mira! am 26.8.2024 in einem leerstehenden Ladenlokal am Nabel in Göttingen![2024-08-28-mira.jpg](/img/pow/2024-08-28-mira.jpg)
+------------------
 Der Krankenwagen 'Barwinka' aus der Region Charkiw kam am 10.8.2024 nach Göttingen. Nancy von den Organisatoren der Aktion macht neben all dem Leid auch noch einmal auf den gigantischen CO2-Ausstoß dieses Krieges aufmerksam.![2024-08-10-Barwinka_Rathaus.jpg](/img/pow/2024-08-10-Barwinka_Rathaus.jpg)
 ------------------
 Noch am Abend der Auszählung am 9.6.2024 jubelt GöttingenZero über den errungenen Sieg beim Radentscheid 1. Mittlerweile ist das Ja für eine Trennung von Auto- und Radverkehr und der Vorzug von fahendem vor stehendem Verkehr auch von der Stadtverwaltung anerkannt worden.![2024-06-09-Radentscheid-gewonnen.jpg](/img/pow/2024-06-09-Radentscheid-gewonnen.jpg)
