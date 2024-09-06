@@ -1,3 +1,5 @@
+Der Klimastreik ist der bessere Hitzeschutz. Der Aufruf zum  nächsten Klimastreik befand sich am 5.9.2024 im Hitzeschutz-Container der Stadt  allerdings nur für wenige Stunden, damit die Sicht auf die Graffities  nicht behindert  wird.![2024-09-05-Klimastreik_ist_Hitzeschutz.jpg](/img/pow/2024-09-05-Klimastreik_ist_Hitzeschutz.jpg)
+------------------
 EPIZ und KAZ e.V. eröffnen mira! am 26.8.2024 in einem leerstehenden Ladenlokal am Nabel in Göttingen![2024-08-28-mira.jpg](/img/pow/2024-08-28-mira.jpg)
 ------------------
 Der Krankenwagen 'Barwinka' aus der Region Charkiw kam am 10.8.2024 nach Göttingen. Nancy von den Organisatoren der Aktion macht neben all dem Leid auch noch einmal auf den gigantischen CO2-Ausstoß dieses Krieges aufmerksam.![2024-08-10-Barwinka_Rathaus.jpg](/img/pow/2024-08-10-Barwinka_Rathaus.jpg)
