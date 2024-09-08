@@ -51,8 +51,11 @@ Weiter-so gehen wir am Freitag, den 20. September mit Fridays For Future auf die
 Egal ob du schon oft dabei warst oder zum ersten Mal demonstrierst - wir brauchen dich!
 
 Die **Route der Demonstration** verläuft vom Auditorium über den  Nabel zur
-Goethe-Alle. Von dort über das Groner Tor und die Bürgerstraße zum Neuen
-Rathaus. 
+Goethe-Alle. Von dort über das Groner Tor und die Bürgerstraße zum
+Wochenmarkt.
 
-Im Anschluss findet um ca. 15:30 der ParkingDay in der Hospitalstr., Göttingen statt.
+Im Anschluss findet um ca. 15:30 der ParkingDay in der Hospitalstr. und am
+Wochemarkt, Göttingen statt, der wiederum in die KidicalMass von dort aus ab
+17:00 Uhr mündet.
 
+![Klimastreik, ParkingDay und KidicalMass](2024-09-20_KS-PD-KM.jpg)
