@@ -10,9 +10,11 @@ showtoc:      false
 draft:        false
 ---
 
-die Klimakrise ist gerade dieser Tage wieder offensichtlich erkennbar: mittlerweile die dritte Jahrhundertflut innerhalb von zwölf Monaten bedroht die Menschen in Deutschland, zig-Tausende Brände überall auf der Welt. Die Versicherungswirtschaft verzeichnet immer gigantischere volkswirtschaftliche Kosten. Es muss dringend mehr für den Klimaschutz getan werden, und gleichzeitig wird das Thema vedrängt, sowohl in der Gesellschaft wie in der Politik. Degegen demonstrieren wir:
+die Klimakrise ist gerade dieser Tage wieder offensichtlich erkennbar: mittlerweile die dritte Jahrhundertflut innerhalb von zwölf Monaten bedroht die Menschen in Deutschland, zig-Tausende Brände überall auf der Welt. Die Versicherungswirtschaft verzeichnet immer gigantischere volkswirtschaftliche Kosten. Es muss dringend mehr für den Klimaschutz getan werden, und gleichzeitig wird das Thema vedrängt, sowohl in der Gesellschaft wie in der Politik.
+Dagegen demonstrieren wir:
 
-Der **globale Klimastreik** im Herbst diesen Jahres wird organisiert vom Göttinger Klimabündnis unter dem Motto "Zusammen für unsere Zukunft" und findet am 
+Der **globale Klimastreik** im Herbst diesen Jahres wird organisiert vom Göttinger Klimabündnis
+und den Parents for Future unter dem Motto "Zusammen für unsere Zukunft" und findet am 
 
 **Freitag, den 20.9.2024 ab 13:30 Uhr am Auditorium**
 
