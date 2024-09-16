@@ -111,7 +111,7 @@ Während im Trend der KFZ-Bestand in der Stadt und bundesweit um etwa ein Prozen
 jährlich steigt, erhöht er sich jedes Jahr im Landkreis um etwa 1,4%. (Die starke 
 Erhöhung des KFZ-Bestandes des Landkreises im Jahr 2016 geht auf die Gebietsreform zurück.)
 
-![KFZ-Bestand Gö Stadt LK BRD](/img/controlling/MIV_Göttingen-Landkreis_Kraftfahrzeugbestand_Gö-Stadt_LK_BRD_gesamt_2008_2022.png)
+![KFZ-Bestand Gö Stadt LK BRD](/img/controlling/MIV_Göttingen-Landkreis_Kraftfahrzeugbestand_Gö-Stadt_LK_BRD_gesamt_2008_2023.png)
 *Abbildung 2: Kraftfahrzeugbestand in Göttingen Stadt, Landkreis und in der BRD*
 
 Diese Zahl passt wesentlich besser zu der Verkehrsmessung von 2013 und 2017 am Nonnenstieg 
@@ -151,17 +151,19 @@ Wie sich in der Abbildung 1 oben erkennen lässt, liegen diese Zahlen einerseits
 
 ## Schlussfolgerung: Nach Rückgang durch Corona bleiben Emissionen konstant
 
-Der bemerkenswerte Rückgang des CO2-Ausstoßes im Jahre 2020 ist natürlich auf die Corona-Pandemie zurückzuführen. Dass aber die Zahlen auch danach nicht wieder in die Höhe geschnellt sind, liegt für 2021 am bundesweiten Trend, dass die Jahresfahrleistung in dem Jahr gesunken ist. Für 2022 ist dann zwar die Jahresfahrleistung wieder gestiegen, dies konnte in em Jahr aber durch die dann geringeren Emissionen pro Kilometer, wohl wegen der größeren E-Fahrzeug-Flotte wieder ausgeglichen werden. Die Anzahl der gemeldeten KFZ ist hingegen stetig angestiegen, sowohl bundesweit als auch in Göttingen.  
+Der bemerkenswerte Rückgang des CO2-Ausstoßes im Jahre 2020 ist natürlich auf die Corona-Pandemie zurückzuführen. Dass aber die Zahlen auch danach nicht wieder in die Höhe geschnellt sind, liegt für 2021 am bundesweiten Trend, dass die Jahresfahrleistung in dem Jahr gesunken ist. Für 2022 ist dann zwar die Jahresfahrleistung wieder gestiegen, dies konnte in dem Jahr aber durch die dann geringeren Emissionen pro Kilometer, wohl wegen der größeren E-Fahrzeug-Flotte wieder ausgeglichen werden. Die Anzahl der gemeldeten KFZ ist hingegen stetig angestiegen, sowohl bundesweit als auch in Göttingen.
+
+Auch für 2023 wird der bestehende Trend im Kraftfahrzeugbestand sowohl im Landkreis, als auch in der Stadt fortgesetzt und auch der mittlere Kraftfahrzeugbestand in Deutschland befindet sich dazwischen und setzt den Trend fort.
 
 # Der öffentliche oder nicht-motorisierte Verkehr
 ## Verkehrsflächen, Radwege und Parkraum
 ### Der Parkraum in Göttingen hat erheblich zugenommen
 
-Auch wenn die Anzahl der Parkplätze in den letzten fünf Jahren und auch in den Jahren davor im Wesentlichen gleich geblieben ist, hat sich deren Anzahl im Jahre 2018 deutlich erhöht von 5587 auf 6883. Dies war eine Steigerung um fast ein Viertel. 
+Auch wenn die Anzahl der Parkplätze in den letzten fünf Jahren und auch in den Jahren davor im Wesentlichen gleich geblieben ist, hat sich deren Anzahl im Jahre 2018 deutlich erhöht um fast ein Viertel von zuvor 5587 auf 6783 und befindet sich seitdem auf diesem Niveau mit kleinen Schwankungen und 6786 im Jahre 2023.
 
 Entgegen allen Behauptungen von ProCity und Teilen des Göttinger Rates hat der innenstadtnahe Parkraum in Göttingen also erheblich zugenommen, was die Göttinger Innenstadt für den motorisierten Individualverkehr deutlich attraktiver gemacht hat. Trotzdem wird von den entsprechenden Interessengruppen über die wegbleibenden Kunden und die Verödung der Innenstadt durch mangelnde Parkplätze geklagt. Offensichtlich wird durch die Zahlen, dass es nicht an mangelndem Parkraum liegt. Vielmehr muss wohl umgekehrt davon ausgegangen werden, dass, wenn die Kunden wegbleiben und die Innenstadt verödet, dies auch mit dem hohen Verkehrsaufkommen in der Innenstadt zu tun haben könnte.
 
-![Verkehrsflächen, Radwege und Parkplätze](/img/controlling/Verkehrsflächen_Radwege_Parkplätze_2008_2022.png)
+![Verkehrsflächen, Radwege und Parkplätze](/img/controlling/Verkehrsflächen_Radwege_Parkplätze_2008_2023.png)
 *Abbildung 3: Verkehrsflächen, Radwege und Parkplätze in der Stadt Göttingen*
 
 ### Weniger Radwegeanteil an der gesamten Verkehrsfläche
@@ -172,25 +174,27 @@ Interessant sind übrigens die Zahlen für Verkehrs- und Radwegeflächen im Jahr
 
 ## Freiflächen und Erholungsräume
 
-Wichtig für die Aufenthaltsqualität, für die Resilienz einer Stadt gegenüber Klimeveränderungen, aber auch für die Attraktivität von Fussverkehr sind die Erholungs- und Freiflächen in einer Stadt. In Göttingen werden diese Flächen seit 2016 systematisch vernichtet, im Trend um 4,53% jährlich. Auch bei den Schutzgebieten gibt es einen deutlichen Schwund: 2019 wurde einer Teil der Landschaftsschutzgebiete aus diesem Schutzstaus entlassen, ein kleinerer Anteil davon gleichzeitig zu wertvollerem Naturschutzgebiet gemacht. Lediglich bei den Waldflächen in Göttingen gibt es eine minimale Steigerung.
+Wichtig für die Aufenthaltsqualität, für die Resilienz einer Stadt gegenüber Klimeveränderungen, aber auch für die Attraktivität von Fussverkehr sind die Erholungs- und Freiflächen in einer Stadt. In Göttingen werden diese Flächen seit 2016 systematisch vernichtet, im Trend um 4,87% jährlich. Auch bei den Schutzgebieten gibt es einen deutlichen Schwund: 2019 wurde einer Teil der Landschaftsschutzgebiete aus diesem Schutzstaus entlassen, ein kleinerer Anteil davon gleichzeitig zu wertvollerem Naturschutzgebiet gemacht. Lediglich bei den Waldflächen in Göttingen gibt es eine minimale Steigerung.
 
-![Freiflächen und Erholungsräume](/img/controlling/Erholungs_und_Freiflächen_2008_2022.png)
+![Freiflächen und Erholungsräume](/img/controlling/Erholungs_und_Freiflächen_2008_2023.png)
 *Abbildung 4: Freiflächen und Erholungsräume im Stadtgebiet Göttingen*
 
 
 ## Indikatoren für den öffentlichen Verkehr
 ### Bus
 
-Während das Liniennetz in Göttingen, einschließlich der Haltestellen, über die letzten Jahre systematisch ausgebaut wurde (im Trend um 3,86% jährlich mit einem deutlichen Schub im Jahre 2015), ist leider die Zahl der beförderten Personen im gleichen Zeitraum zurückgegangen (hier im Trend um 2,37%). Allerdings ist dies vor allem wohl auf die Zurückhaltung zum ÖPNV durch die Coronakrise zurückzuführen. Hiervon haben sich die Fahrgastzahlen bislang nicht erholt. Deutlich ist der Anstieg der Attraktivität des ÖPNV, gemessen in Fahrgastzahlen, hingegen nach Erweiterung des Liniennetzes im Jahre 2015. 
+Während das Liniennetz in Göttingen, einschließlich der Haltestellen, über die letzten Jahre systematisch ausgebaut wurde, im Zehnjahres-Trend um 2,62% jährlich etwas geringer als 2022, da der deutliche Schub im Jahre 2015 sich nun weniger stark auswirkt. Die Zahl der beförderten Personen ist leider im gleichen Zeitraum zurückgegangen (hier im Zehnjahres-Trend um mittlerweile 3,52%, da sich das niedrige Niveau nun schon länger hält). Dies lässt sich wohl nicht mehr allein auf die Zurückhaltung zum ÖPNV durch die Coronakrise zurückzuführen.
 
-![ÖPNV: Liniennetz, Personen, Haltestellen](/img/controlling/ÖPNV_Liniennetz_Personen_Haltestellen_2008_2022.png)
+Deutlich war der Anstieg der Attraktivität des ÖPNV, gemessen in Fahrgastzahlen, nach Erweiterung des Liniennetzes und der Haltepunkte im Jahre 2015. Seitdem ist das Liniennetz kontinuierlich erweitert worden, aber im Jahre 2022 wurde die Anzahl der Haltestellen reduziert. Gleichzeitig ist die Attraktivität des öffentlichen Verkehrs seitedem nicht mehr auf die von vor Corona gestiegen. 
+
+![ÖPNV: Liniennetz, Personen, Haltestellen](/img/controlling/ÖPNV_Liniennetz_Personen_Haltestellen_2008_2023.png)
 *Abbildung 5: ÖPNV: Liniennetz, beförderte Personen und Haltestellen*
 
 ### Bahn
 
 Die Anzahl der in Göttingen haltenden Regionalbahnen ist im Jahre 2017 drastisch eingebrochen, von vormals 234 auf 80.  Diese Kürzung führten alle Anbieter (DB, Metronom, Cantus und Nordwest-Bahn) in etwa gleichem Ausmass durch. Der Verlust an Fahrgelegenheiten beträgt fast ein Drittel, was insbesondere für die Region um Göttingen die Flucht in den Individualverkehr verstärkt haben dürfte.
 
-![Bahn: Nah- und Fernverkehr](/img/controlling/Bahn_Nah_und_Fernverkehr_2008_2022.png)
+![Bahn: Nah- und Fernverkehr](/img/controlling/Bahn_Nah_und_Fernverkehr_2008_2023.png)
 *Abbildung 6: Bahn: Der Nah- und Fernverkehr am Göttinger Bahnhof*
 
 
