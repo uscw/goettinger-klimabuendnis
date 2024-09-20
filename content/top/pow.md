@@ -1,3 +1,5 @@
+Ein kunterbunter Mond schaut auf die tieftraurige Erde (beim Klimastreik am 20.09.2024)![2024.09-Klimastreik-155029.jpg](/img/pow/2024.09-Klimastreik-155029.jpg)
+------------------
 Der Klimastreik ist der bessere Hitzeschutz. Der Aufruf zum  nächsten Klimastreik befand sich am 5.9.2024 im Hitzeschutz-Container der Stadt  allerdings nur für wenige Stunden, damit die Sicht auf die Graffities  nicht behindert  wird.![2024-09-05-Klimastreik_ist_Hitzeschutz.jpg](/img/pow/2024-09-05-Klimastreik_ist_Hitzeschutz.jpg)
 ------------------
 EPIZ und KAZ e.V. eröffnen mira! am 26.8.2024 in einem leerstehenden Ladenlokal am Nabel in Göttingen![2024-08-28-mira.jpg](/img/pow/2024-08-28-mira.jpg)
