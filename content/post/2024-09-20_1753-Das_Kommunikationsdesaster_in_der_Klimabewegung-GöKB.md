@@ -1,7 +1,7 @@
 ---
 layout:        posts
 title:         "Das Kommunikationsdesaster in der Klimabewegung"
-subtitle:      "Auszüge aus der Rede des Göttinger Klimabündnis zum Kliaklimastreik"
+subtitle:      "Auszüge aus der Rede des Göttinger Klimabündnis zum Klimastreik"
 date:          2024-09-20T17:53:00+01:00
 publishdate:   2024-09-19T00:00:00+01:00
 image:         "/img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg"
@@ -34,7 +34,7 @@ Das geschieht durch die Herstellung eines direkten Zusammenhangs von Umwelttheme
 
 und es gibt noch viele andere Ängste in der Bevölkerung wie Planwirtschaft, Sozialismus und auch die vor Gewalt und Kriegen, die noch genutzt werden können.
 
-Der Angriff auf den Klimaschutz wird hSerbeigeführt durch diese Skandalisierungen und Fehlinformationen - eine sehr bewusste Strategie der Klimaschutzverhinderer der fossilen Lobby. Diese Gegner besitzen eine immense Überlegenheit in Sachen Geld, wirtschaftliche, politische und journalistische Einflussmöglichkeiten. Und der Angriff ist fulminant und absolut skrupellos.
+Der Angriff auf den Klimaschutz wird herbeigeführt durch diese Skandalisierungen und Fehlinformationen - eine sehr bewusste Strategie der Klimaschutzverhinderer der fossilen Lobby. Diese Gegner besitzen eine immense Überlegenheit in Sachen Geld, wirtschaftliche, politische und journalistische Einflussmöglichkeiten. Und der Angriff ist fulminant und absolut skrupellos.
 
 Wir müssen uns ehrlich machen. Wir wissen schon lange, wer diese Gegner sind und was sie vorhaben. Es geht ihnen um die Deutungshoheit über die Maßnahmen gegen die Klimakrise. Da die Fakten über die Auswirkungen und die Verursacher dieser Krise ziemlich offensichtlich sind, ist ihre einzige Möglichkeit die großangelegte Vernebelung und die gegenseitige Aufwiegelung. Genau das ist es, was sie tun. Aber wir haben wohl nicht mit dieser unverhohlenen Dreistigkeit und deren Wirksamkeit gerechnet.
 

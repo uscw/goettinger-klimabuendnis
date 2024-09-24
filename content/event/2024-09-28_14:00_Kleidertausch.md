@@ -22,7 +22,7 @@ Im Rahmen der Fairen Woche und des GUNZ Open
 
 veranstalten wir am Freitag, den 28.9.24 einen Kleidertausch.
 
-![Kleidertausch](/img/event/2024-06-21-Kleidertausch.png)
+![Kleidertausch](/img/event/2024-09-28-Kleidertausch.png)
 
 Greenpeace Göttingen
 

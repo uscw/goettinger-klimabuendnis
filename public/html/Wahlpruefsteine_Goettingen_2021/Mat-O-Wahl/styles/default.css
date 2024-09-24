@@ -1,0 +1,121 @@
+
+/* BODY: Hintergrundfarbe, Schriftart, -groesse und -farbe */
+/* BODY: background color, font, size and color */
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10pt; 
+	color:#000000; 
+
+	background-color: #FFE08F;
+	background-image: linear-gradient(#EFC04F, #FFE08F); 
+    background-attachment: fixed;
+	}
+
+/* UeBERSCHRIFTEN */
+/* HEADLINES */
+h1 { font-size:150%;}
+h2 { font-size:120%; text-decoration: underline dotted; margin-top: 0.5em; margin-bottom: 0.5em;}
+h3 { font-size:110%;}
+
+/* LINK-Farbe */
+/* LINK-color */
+a { color:#000000; text-decoration:underline;}
+a:link { color:#000000; } 
+a:visited { color:#808080; }
+a:active { color:#FF0000; }
+a:hover { color:#FF0000; text-decoration:none; }
+
+/* TABELLEN */
+/* TABLES */
+table { }
+
+td { 
+	border: 1px solid #C0C0C0; 
+	padding: 5px;	
+	border-radius: 3px;
+	font-size:110%;
+ 	}
+
+/* gerade Spalten auf Ergebnisseite in anderer Farbe */
+/* even rows on result-page in different color */
+tr:nth-child(even) {
+	background: #FFE08F;
+	}
+
+	
+/* Ueberschrift zur Wahl/Thema der Wahl - Formate schon durch <h1> und <h2> geregelt */
+/* Headline for the election/topic - formats already defined by <h1> and <h2> */
+#heading {} 
+
+
+/* Kurze Beschreibung der Wahl */
+/* Short explanation of election */
+#explanation { color: #404040; }
+
+/* Anzeige der aktuellen Frage */
+/* Current question */
+#content { 
+	font-size: 150%; 
+	}
+
+/* Farben für Sprechblase.- Form und andere Einstellungen in Datei speechbubble.css */
+/* Colors of the speech bubble.- Form and further settings in file speechbubble.css */
+
+.bubble { background: #FFE08F; 	border: #000000 solid 1px; }
+.bubble:after { border-color: #FFE08F transparent; }
+.bubble:before { border-color: #000000 transparent; }
+
+
+/* VOTING-Tabelle mit den Knoepfen Ja / Nein / Egal / Ueberspringen / Doppelt */
+/* VOTING-Table with buttons Yes / No / No Opinion / Skip / Twice */
+#voting { margin-top:10px; }
+
+#votingPro, #votingNeutral, #votingContra, #votingSkip, #votingDouble { 
+	/* cursor:pointer; */
+	}
+
+#votingSkip, #votingDouble { 
+	/* font-size:110%; */
+	}
+
+/* Statistik */
+/* Statistics */
+#keepStats { 
+	margin-top:10px; 
+	font-size:90%; 
+	}
+
+	
+/* BOOTSTRAP */
+.progress {
+	margin: 8px;
+}
+.btn {
+	margin: 0.5em;
+}
+.row {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+
+/* Social Media DIV und zugehoerige Buttons */
+/* Social media DIV and corresponding buttons */
+.social-facebook {
+    background: #4560a3;
+	color: #c0c0c0;
+}
+
+.social-twitter {
+    background: #68ace3;
+	color: #fff;
+}
+
+.social-mail {
+    background: #c6c6c6;
+	color: #fff;
+}
+.btn-danger:hover{color:#fff;background-color:#c82333;border-color:#bd2130}.btn-danger.focus,
+.btn-danger:focus{color:#fff;background-color:#c82333;border-color:#bd2130;box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}.btn-danger.disabled,
+.btn-blue1:hover{color:#fff;background-color:#00ffff;border-color:#bd2130}.btn-blue1.focus,
+.btn-blue1:focus{color:#fff;background-color:#00ffff;border-color:#bd2130;box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}.btn-blue1.disabled,
