@@ -8,7 +8,7 @@ TAG="goettinger-klimabuendnis"
 cd ${PDIR}
 rm -r public
 /usr/bin/git checkout . # to remove all local changes (which are never authorative)
-/usr/bin/git pull origin main
+/usr/bin/git pull origin master
 ${HUGO}
 
 rm -r ${DDIR}/public
