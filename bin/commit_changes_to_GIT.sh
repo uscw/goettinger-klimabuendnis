@@ -29,7 +29,7 @@ git add --all
 git commit -m "${inp}"
 #git push origin master
 git push origin main
-exit 1
+
 rsync -avze ssh --delete public ${SERVER_LOC}:${SERVER_DIR}
 echo "wait"; sleep 2
 
