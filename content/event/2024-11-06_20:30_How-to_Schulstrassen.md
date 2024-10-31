@@ -23,7 +23,6 @@ Onlineworkshop von KidicalMass Göttingen
 
 ![How To Schulstraßen](/img/event/2024-11-06-Schulstrassen.png)
 
-🎈Online-Workshop "How To Schulstraßen" nächste Woche Mittwoch, 6.11.2024, 20:30 Uhr
 
-🎈Anmeldung hund 
-mehr Informationen beim [Veranstalter](https://kidicalmass.jotform.com/242705626409357)
+🎈Anmeldung 
+und mehr Informationen beim [Veranstalter](https://kidicalmass.jotform.com/242705626409357)
