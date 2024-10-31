@@ -21,6 +21,8 @@ Onlineworkshop von KidicalMass Göttingen
 -----------
 🎈Wenn ihr mehr über Schulstraßen (Aktionen) erfahren oder hören möchtet, was sich in den letzten Monaten getan hat, dann kommt zum
 
+![How To Schulstraßen](/img/event/2024-11-06-Schulstrassen.png)
+
 🎈Online-Workshop "How To Schulstraßen" nächste Woche Mittwoch, 6.11.2024, 20:30 Uhr
 
 🎈Anmeldung hund 
