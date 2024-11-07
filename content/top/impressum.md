@@ -29,7 +29,7 @@ showtoc: true
 | Gemeinwohl-Ökonomie Göttingen                                    | https://web.ecogood.org/de/goettingen/                             |                                             |
 | GermanZero Göttingen                                             | https://www.germanzero.de/ https://www.goettingen-klimaneutral.de/ | goettingenzero [at] posteo.de               |
 | Göttingen im Wandel                                              | http://tt-goettingen.de/                                           | info [at] tt-goettingen.de                  |
-| Greenpeace Göttingen                                             | https://www.goettingen.greenpeace.de/                              | info [at] goettingen.greenpeace.de          |
+| Greenpeace Göttingen                                             | https://greenwire.greenpeace.de/greenpeace-goettingen/             | info [at] goettingen.greenpeace.de          |
 | Health for Future Göttingen                                      | https://healthforfuture.de/health-for-future-ortsgruppen/          | healthforfuture_goe [at] posteo.de          |
 | JANUN Göttingen                                                  | http://janun.de/de/netzwerk-projekte/janun-g%C3%B6ttingen/         | goettingen [at] janun.de                    |
 | Klimagruppe Basisdemokratische Linke Göttingen                   | https://www.inventati.org/blgoe/                                   | klima-bl [at] riseup.net                    |
