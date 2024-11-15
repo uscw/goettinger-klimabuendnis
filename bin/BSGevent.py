@@ -4,6 +4,8 @@ from datetime import date, datetime, timezone, timedelta
 import event
 
 usage = """
+siehe https://www.biologische-schutzgemeinschaft.de/files/Programm.pdf
+
 Input: Text file as output from pdftotext from Programm.pdf not sufficient
 It needs to be prepared: Typical program item:
 
@@ -149,17 +151,19 @@ Geiststraße 2
         t_alt = ""
         lastword = ""
         llastword = ""
+        place = ""
         k = 0
         for subitem in item:
             # cont = self.reset_event()
             words = subitem.replace("  "," ").replace("Treffen:","Treffen: ").split()
             for word in words:
                 if word.strip().replace(",","").replace(";","").replace(".","").replace("!","").replace(":","") == "Uhr":
-                    self.used_items.append(k)
+                    # self.used_items.append(k)
                     t_alt = lastword
-                    if llastword == "Treffen:":
-                        t_str = lastword.replace(",","").replace(";","").replace("!","")
-                    place = subitem[subitem.find("Uhr") + 4:].strip()
+                    if llastword in ["Treffen:", "Treffen"]:
+                        t_str = lastword # .replace(",","").replace(";","").replace("!","")
+                    if place == "":
+                        place = subitem[subitem.find("Uhr") + 4:].strip()
                 llastword = lastword
                 lastword = word
             if t_str == "" and t_alt != "":
@@ -220,10 +224,11 @@ Geiststraße 2
         self.used_items.append(2)
         if subsubtitle1 == subsubtitle2:
             subsubtitle2 = ""
-        if subsubtitle2.startswith("Leitung:"):
-            subsubtitlet = subsubtitle2
-            subsubtitle2 = subsubtitle1
-            subsubtitle1 = subsubtitlet
+        for line in item:
+            if line.startswith("Leitung:"):
+                subsubtitlet = line
+                subsubtitle2 = subsubtitle1
+                subsubtitle1 = subsubtitlet
         self.cont["title"] = title
         self.cont["subtitle"] = subtitle
         return subsubtitle1, subsubtitle2
@@ -278,10 +283,11 @@ Geiststraße 2
 ##########################
 if __name__ == '__main__':
 
-    ProgFile="/home/uschwar1/Downloads/Programm_BSG_S2024.txt"
+    ProgFile="/home/uschwar1/Downloads/Programm_BSG_W2024.txt"
     if len(sys.argv) < 2:
         print ("Usage: " + sys.argv[0] + " programm_file.txt\n\n" + usage)
-        sys.exit(1)
+        # use default
+        # sys.exit(1)
     else:
         ProgFile = sys.argv[1]
     EventBSG = eventBSG()

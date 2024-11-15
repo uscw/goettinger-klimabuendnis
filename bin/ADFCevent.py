@@ -4,6 +4,9 @@ from datetime import date, datetime, timezone, timedelta
 import event
 
 usage = """
+Der ADFC Kreisverband Göttingen bietet von April bis Oktober Radtouren an.
+
+
 Input: Text file as output from pdftotext from Programm.pdf not sufficient
 It needs to be prepared: Typical program item:
 
@@ -219,8 +222,9 @@ if __name__ == '__main__':
 
     ProgFile="/home/uschwar1/Downloads/ADFC_S2024.txt"
     if len(sys.argv) < 2:
-        print ("Usage: " + sys.argv[0] + " programm_file.txt\n\n" + usage)
-        sys.exit(1)
+        print ("Usage: " + sys.argv[0] + " programm_file.txt\n\n")
+        # sys.exit(1)
+        # use default
     else:
         ProgFile = sys.argv[1]
     EventADFC = eventADFC()
