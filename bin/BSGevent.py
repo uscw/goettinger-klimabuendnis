@@ -15,6 +15,8 @@ Samstag
 Naturschutz praktisch: Quellsumpf Scheden
 Vorkommen von Gelb-Seggen, Herbstzeitlose, Teufelsabbiss
 Breitblättrigem Knabenkraut und Fuchs' Knabenkraut.
+Leitung: Anne Elser, Rómulo Aramayo Schenk, Tel. 05504 937 28 98,
+E-mail naturschutz-reiffenhausen@posteo.de.
 Treffen: 9 Uhr, Göttinger Umwelt- und Naturschutzzentrum, Geiststr. 2
 
 """

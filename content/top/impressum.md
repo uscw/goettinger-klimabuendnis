@@ -35,7 +35,7 @@ showtoc: true
 | Klimagruppe Basisdemokratische Linke Göttingen                   | https://www.inventati.org/blgoe/                                   | klima-bl [at] riseup.net                    |
 | Klimagruppe in der Ev.-Reformierten Gemeinde Göttingen           |                                                                    |                                             |
 | Klimaschutz Göttingen e.V.                                       | https://klimaschutz-goettingen.de/                                 | kontakt [at] klimaschutz-goettingen.de      |
-| Kritische Wirtschaftswissenschaften Göttingen                    | https://kriwigoe.de/                                               | info [at] kriwigoe.de                       |
+| Kritische Wirtschaftswissenschaften Göttingen                    | https://kriwigoe.de/                                               | kriwi [at] wiwi.uni-goettingen.de           |
 | Lampedusa-Bündnis Göttingen                                      | http://papiere-fuer-alle.org/refugees-welcome-goettingen           | refugeewellcome [at] lists.riseup.net       |
 | Naturfreunde Göttingen                                           | https://naturfreunde-goettingen.de                                 | info [at] naturfreunde-goettingen.de        |
 | Parents for Future Göttingen                                     | https://parentsforfuture.de/de/g%C3%B6ttingen                      | p4f-goe [at] lists.gwdg.de                  |
