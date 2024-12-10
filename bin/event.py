@@ -195,8 +195,8 @@ class event():
             for file in dirlist:
                 if file.startswith("20"):
                     print(file)
-            print ("/bin/dolphin --new-window " + homeDir + "/static" + banner_dir)
-            # out, err = sysCommand("/bin/dolphin --new-window " + homeDir + "/static" + banner_dir)
+            print ("/usr/bin/gwenview " + homeDir + "/static" + banner_dir)
+            # out, err = sysCommand("/usr/bin/gwenview " + homeDir + "/static" + banner_dir)
             Image = sys.stdin.readline()[:-1]
             if Image == "":
                  Image = cont["image"]
