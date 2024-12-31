@@ -1,6 +1,8 @@
+Zum Neuen Jahr 2025 kommt auch vom Göttinger Wochenmarkt Alles Gute für die Klimabewegung: bleibt vielfältig und einzigartig!![2024-12-31-Apfelmaennchen.jpg](/img/pow/2024-12-31-Apfelmaennchen.jpg)
+------------------
 Zur Kundgebung gegen die geplanten sozialen Sparmaßnahmen der Stadt vor allem zur Jugend und Naturschutzarbeit kamen am 30.11.2024 etwa 500 Personen. Auch das Göttinger Klimabündnis war dabei.![2024-11-30-Keine-Sparmassnahmen.jpg](/img/pow/2024-11-30-Keine-Sparmassnahmen.jpg)
 ------------------
-Ein kunterbunter Mond schaut auf die tieftraurige Erde (beim Klimastreik am 20.09.2024)![2024.09-Klimastreik-155029.jpg](/img/pow/2024.09-Klimastreik-155029.jpg)
+Ein kunterbunter Mond schaut auf die tieftraurige Erde (beim Klimastreik am 20.09.2024)![2024-09-20-Klimastreik-155029.jpg](/img/pow/2024-09-20-Klimastreik-155029.jpg)
 ------------------
 Der Klimastreik ist der bessere Hitzeschutz. Der Aufruf zum  nächsten Klimastreik befand sich am 5.9.2024 im Hitzeschutz-Container der Stadt  allerdings nur für wenige Stunden, damit die Sicht auf die Graffities  nicht behindert  wird.![2024-09-05-Klimastreik_ist_Hitzeschutz.jpg](/img/pow/2024-09-05-Klimastreik_ist_Hitzeschutz.jpg)
 ------------------
