@@ -43,3 +43,5 @@ Geiststraße 2
 
 
 Mehr Informationen beim [Veranstalter](http://www.biologische-schutzgemeinschaft.de/programm.html)
+
+
