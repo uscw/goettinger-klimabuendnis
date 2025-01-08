@@ -4,10 +4,10 @@ title:         "Vortrag von Kyra Zembold, M.Sc. Biodiversität, PhD-Kandidatin i
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-02-13T19:00:00+01:00
 etime:         2025-02-13T21:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "digital"
-URL:           "/2025/02/13/19/00/vortrag_von_kyra_zembold_m_sc__biodiversitaet_phd-kandidatin_im_projekt_kooperativ"
+URL:           "/2025/02/13/19/00/Vortrag_von_Kyra_Zembold_MSc_Biodiversitaet_PhD-Kandidatin_im_Projekt_KOOPERATIV"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
@@ -19,6 +19,9 @@ Vortrag von Kyra Zembold, M.Sc. Biodiversität, PhD-Kandidatin im Projekt KOOPER
 
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
+
+
+Kalenderdatei: [📆](/ics/2025-02-13_19-00_vortrag_von_kyra_zembold_msc_biodiversitaet_phd-kandidatin_im_projekt_kooperativ.ics)
 
 -------------
 

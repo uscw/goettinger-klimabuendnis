@@ -4,10 +4,10 @@ title:         "Exkursion: Lerchensporn und Hungerblümchen"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-03-22T15:00:00+01:00
 etime:         2025-03-22T17:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "im Rosarium zwischen Bonifatiusschule und Cheltenhampark"
-URL:           "/2025/03/22/15/00/exkursion__lerchensporn_und_hungerbluemchen"
+URL:           "/2025/03/22/15/00/Exkursion_Lerchensporn_und_Hungerbluemchen"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
@@ -19,10 +19,13 @@ Exkursion: Lerchensporn und Hungerblümchen
 
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
+
+
+Kalenderdatei: [📆](/ics/2025-03-22_15-00_exkursion_lerchensporn_und_hungerbluemchen.ics)
+
 Leitung: Diemut Klärner
 -------------
 
-Exkursion: Lerchensporn und Hungerblümchen
 
 Natur in der Stadt, je nach Wetter auch mit den ersten Bienen. Kinder sind willkommen!
 

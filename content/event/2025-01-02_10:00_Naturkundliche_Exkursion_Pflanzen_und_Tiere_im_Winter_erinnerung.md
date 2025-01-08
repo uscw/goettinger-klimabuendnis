@@ -4,21 +4,28 @@ title:         "Naturkundliche Exkursion: Pflanzen und Tiere im Winter, erinneru
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-01-02T10:00:00+01:00
 etime:         2025-01-02T12:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Adolf-Kirschke-Halle Eddigehausen 37120 Bovenden-Eddigehausen"
-URL:           "/2025/01/02/10/00/naturkundliche_exkursion__pflanzen_und_tiere_im_winter"
+URL:           "/2025/01/02/10/00/Naturkundliche_Exkursion_Pflanzen_und_Tiere_im_Winter_erinnerung"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
 
 **Veranstaltung: 02. Januar 2025, 10:00 Uhr, Adolf-Kirschke-Halle Eddigehausen 37120 Bovenden-Eddigehausen**
 
-Naturkundliche Exkursion: Pflanzen und Tiere im Winter, Erinnerung
+Naturkundliche Exkursion: Pflanzen und Tiere im Winter, erinnerung
 ===========
 
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
+
+
+Kalenderdatei: [📆](/ics/2025-01-02_10-00_naturkundliche_exkursion_pflanzen_und_tiere_im_winter_erinnerung.ics)
+
+Naturkundliche Exkursion: Pflanzen und Tiere im Winter, Erinnerung
+===========
+
 
 Wanderungen
 -------------

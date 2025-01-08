@@ -4,10 +4,10 @@ title:         "Naturschutz praktisch: Bratental"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-01-04T09:00:00+01:00
 etime:         2025-01-04T11:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2 Fortstzg. -"
-URL:           "/2025/01/04/09/00/naturschutz_praktisch__bratental"
+URL:           "/2025/01/04/09/00/Naturschutz_praktisch_Bratental"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
@@ -20,9 +20,10 @@ Naturschutz praktisch: Bratental
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
 
--------------
 
-Naturschutz praktisch: Bratental
+Kalenderdatei: [📆](/ics/2025-01-04_09-00_naturschutz_praktisch_bratental.ics)
+
+Kalenderdatei: [📆](/ics/2025-01-04_09-00_naturschutz_praktisch_bratental.ics)
 
 Im Bratental führen wir Pflegemaßnahmen durch, um den artenreichen Magerrasen
 
@@ -43,5 +44,3 @@ Geiststraße 2
 
 
 Mehr Informationen beim [Veranstalter](http://www.biologische-schutzgemeinschaft.de/programm.html)
-
-

@@ -6,3 +6,8 @@ description: "Die Web-Seite der lokalen Vernetzung der Göttinger Klimainitiativ
 ---
 # Veranstaltungen
 Herzlich Willkommen zu den Veranstaltungen der Göttinger Klimainitiativen
+
+cascade:
+  outputs:
+  - html
+  - calendar

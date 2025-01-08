@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 import os
 import sys
+import uuid
 from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 
 homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
-outDir = homeDir + "/content/event/"
+outDir = homeDir + "/content/event"
+icsDir = homeDir + "/static/ics"
 banner_dir = "/img/banner"
 def sysCommand(cmd):
    """                                                                                                                          
@@ -21,7 +23,173 @@ def sysCommand(cmd):
       print ("Return code: ", p.returncode)
    return out, err
 
+#####################################
 
+class recurringDates():
+
+    def __init__(self, xDate, DateInterval):
+        """
+        gives the next date with dateInterval after given date
+        self.dateInterval is given as string representing either:
+          list of numbers [y,m,d]
+             years  = dateInterval[0]
+             months = dateInterval[1]
+             days   = dateInterval[2]
+        or:
+          a number of days
+  
+        @param xDate type string: given date as YYYY-MM-DD
+        @param dateInterval type string: interval to next date either  
+        """
+        self.xDate = datetime.strptime(xDate, "%Y-%m-%d")
+        if isinstance(DateInterval, str):
+            interval = eval(DateInterval)
+        if isinstance(interval, list):
+            self.dateInterval = interval
+        elif isinstance(interval, int):
+            self.dateInterval = [0,0,interval]
+        else:
+            self.dateInterval = [0,0,0] # repeat the given date
+        self.nextDate = self.getNextDate()
+        None
+
+    def getNextDate(self):
+        if self.dateInterval[1] == "first":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 1, self.xDate.timetuple()[6])
+        elif self.dateInterval[1] == "second":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 2, self.xDate.timetuple()[6])
+        elif self.dateInterval[1] == "third":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 3, self.xDate.timetuple()[6])
+        elif self.dateInterval[1] == "fourth":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 4, self.xDate.timetuple()[6])
+        elif self.dateInterval[1] == "last":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), -1, self.xDate.timetuple()[6])
+        elif self.dateInterval[1] == "2ndlast":
+            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), -2, self.xDate.timetuple()[6])
+        else:
+            ret = self.xDate + relativedelta(years=self.dateInterval[0],months=self.dateInterval[1],days=self.dateInterval[2])
+        return ret
+
+#####################################
+
+class vcal():
+   
+   def __init__(self,description="",summary="",location="",dtstart="",dtend="",url="",contact=""):
+      xmpl = """
+BEGIN:VEVENT
+DTSTAMP:20250109T081002Z
+CREATED:20250109T081002Z
+LAST-MODIFIED:20250109T081002Z
+SUMMARY:Test Veranstaltung
+LOCATION:Test Ort
+STATUS:CONFIRMED
+PRIORITY:5
+RECURRENCE-ID;TZID=W. Europe Standard Time:20160208T000000
+DTSTART;TZID=W. Europe Standard Time:20250208T140000
+DTEND;TZID=W. Europe Standard Time:20250208T150000
+TRANSP:OPAQUE
+END:VEVENT
+"""
+      vevent = """
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:????
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:????
+DESCRIPTION;LANGUAGE=de-DE:????
+LOCATION;LANGUAGE=de-DE:????
+SUMMARY;LANGUAGE=de-DE:????
+URL:https://????
+UID:????
+CONTACT;LANGUAGE=de-DE:????
+END:VEVENT
+"""
+
+      vcal_stat = """
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+"""
+      vtimezone = """
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+"""
+      vcal_end = """
+END:VCALENDAR
+"""
+      self.v_uuid = str(uuid.uuid4())
+      vevent1 = self.v_modify(vevent,description,summary,location,dtstart,dtend,url,contact)
+      
+      
+      self.vcal_entry = vcal_stat + "UID:" + self.v_uuid + vtimezone + vevent1 + vcal_end
+      return
+   
+   def get_event(self):
+      return self.vcal_entry
+      
+   def v_modify(self,vevent,description,summary,location,dtstart,dtend,url,contact):
+      v_array = vevent.split("\n")
+      v_array = self.v_line_mod(v_array,"DESCRIPTION",description)
+      v_array = self.v_line_mod(v_array,"SUMMARY",summary)
+      v_array = self.v_line_mod(v_array,"LOCATION",location)
+      v_array = self.v_line_mod(v_array,"DTSTART",dtstart)
+      v_array = self.v_line_mod(v_array,"DTEND",dtend)
+      v_array = self.v_line_mod(v_array,"URL",url)
+      v_array = self.v_line_mod(v_array,"CONTACT",contact)
+      v_array = self.v_line_mod(v_array,"UID",self.v_uuid)
+      vevent1 = ""
+      for line in v_array:
+         vevent1 += line + "\n"
+      return vevent1
+
+   def v_line_mod(self,varray,prefix,val):
+      k = 0
+      for line in varray:
+         if line.startswith(prefix):
+            splitline = line.split(":")
+            if val != "":
+               newline = splitline[0] + ":" + val
+            else:
+               newline = ""
+            varray[k] = newline
+         k += 1
+      return varray
+
+#####################################
 
 class event():
 
@@ -154,7 +322,7 @@ class event():
                 sys.exit(1)
             else:
                 Time += ":00+" + UTCplus
-            etime = cont["etime"].split(":")[0] + ":" + cont["etime"].split(":")[1]
+            etime = str(int(Time.split(":")[0])+2) + ":" + Time.split(":")[1]
             print ("Uhrzeit Ende: (" + etime + ")" )
             eTime =  sys.stdin.readline()[:-1]
             if eTime == "":
@@ -333,7 +501,8 @@ class event():
         for item in ev_dict:
             dlist = str(ev_dict[item]['date']).split("-")
             tlist = str(ev_dict[item]['time']).split(":")
-            outFN = outDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + ":" + tlist[1] + "_" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","") + ".md"
+            title_str = self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","")
+            outFN = outDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + ":" + tlist[1] + "_" + title_str + ".md"
             outFF = open(outFN, "w")
             outstr = "---\n" + \
             "layout:        events\n" + \
@@ -344,14 +513,15 @@ class event():
             "publishdate:   " + self.get_publish_date(ev_dict[item]['date'],publish_delta) + "T00:00:00+01:00\n" + \
             "author:        \"" + str(ev_dict[item]['author']) + "\"\n" + \
             "place:         \"" + self.text2ascii(str(ev_dict[item]['place'])) + "\"\n" + \
-            "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(":","_").replace(";","_").replace(",","_").replace(".","_").lower() + "\"\n" + \
+            "URL:           \"/" + dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + title_str + "\"\n" + \
             "locURL:        \"" + str(ev_dict[item]['locURL']) + "\"\n" + \
             "image:         \"" + str(ev_dict[item]['image']) + "\"\n" + \
             "---\n" + \
-            "\n**Veranstaltung: " + self.pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr, " + self.text2ascii(str(ev_dict[item]['place'])) + "**\n" \
+            "\n**Veranstaltung: " + self.pretty_date(ev_dict[item]['date'],ev_dict[item]['time']) + " Uhr, " + str(ev_dict[item]['place']) + "**\n" \
             "\n" + str(ev_dict[item]['title']) + "\n===========\n"
             if str(ev_dict[item]['subtitle']) != "":
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
+            outstr += "\n\nKalenderdatei: [📆](/ics/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics)\n"
             if str(ev_dict[item]['text']) != "":
                 outstr += str(ev_dict[item]['text']) + "\n"
             if str(ev_dict[item]['locURL']) != "":
@@ -360,6 +530,33 @@ class event():
             outFF.write(outstr)
             outFF.close()
         return outFN
+
+
+    def dict2eventICAL(self,ev_dict,outDir=outDir):
+           
+       for item in ev_dict:
+          dlist = str(ev_dict[item]['date']).split("-")
+          tlist = str(ev_dict[item]['time']).split(":")
+          title_str = self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","")
+          outFN = icsDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics"            
+          outFF = open(outFN, "w")
+          descr = ev_dict[item]['title'] + "\\n\\n" + ev_dict[item]['subtitle'] + "\\n\\n" + ev_dict[item]['text'].replace("\n","\\n")
+          # sumry_ptr = descr[:124].rfind(". ")
+          # sumry = descr[0:sumry_ptr+1] + " ..."
+          sumry = ev_dict[item]['title'] + ", " + ev_dict[item]['subtitle']
+          dt_start = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['time'].replace(":","")[:6] 
+          dt_end = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['etime'].replace(":","")[:6]
+          loc = ev_dict[item]['place']
+          dt_contact = ""
+          dt_rel_url = dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + title_str.lower()
+          dt_url = "https://goettinger-klimabuendnis.de/" + dt_rel_url
+
+            
+          Vcal = vcal(description=descr,summary=sumry,location=loc,dtstart=dt_start,dtend=dt_end,url=dt_url,contact=dt_contact)
+          print(Vcal.get_event())
+          outFF.write(Vcal.get_event())
+          outFF.close()
+       return dt_rel_url
 
 
     def prepare_events(self,file=None,recurring=None):
@@ -373,6 +570,7 @@ class event():
                 nextDate = recurringDates(evt["date"],sys.argv[2]).nextDate
                 rDate = nextDate.strftime('%Y-%m-%d')
                 new_evt = self.get_next_recurring_event(evt,rDate)
+            self.dict2eventICAL(new_evt)
             outFN = self.dict2eventMD(new_evt, publish_delta=publish_delta)
             print( "Written to: " + outFN)
             print ("#######################################")
@@ -380,60 +578,14 @@ class event():
             ans = sys.stdin.readline()[:-1]
             inFN = outFN
             
-            
-
-#####################################
-
-class recurringDates():
-
-    def __init__(self, xDate, DateInterval):
-        """
-        gives the next date with dateInterval after given date
-        self.dateInterval is given as string representing either:
-          list of numbers [y,m,d]
-             years  = dateInterval[0]
-             months = dateInterval[1]
-             days   = dateInterval[2]
-        or:
-          a number of days
-  
-        @param xDate type string: given date as YYYY-MM-DD
-        @param dateInterval type string: interval to next date either  
-        """
-        self.xDate = datetime.strptime(xDate, "%Y-%m-%d")
-        if isinstance(DateInterval, str):
-            interval = eval(DateInterval)
-        if isinstance(interval, list):
-            self.dateInterval = interval
-        elif isinstance(interval, int):
-            self.dateInterval = [0,0,interval]
-        else:
-            self.dateInterval = [0,0,0] # repeat the given date
-        self.nextDate = self.getNextDate()
-        None
-
-    def getNextDate(self):
-        if self.dateInterval[1] == "first":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 1, self.xDate.timetuple()[6])
-        elif self.dateInterval[1] == "second":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 2, self.xDate.timetuple()[6])
-        elif self.dateInterval[1] == "third":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 3, self.xDate.timetuple()[6])
-        elif self.dateInterval[1] == "fourth":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), 4, self.xDate.timetuple()[6])
-        elif self.dateInterval[1] == "last":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), -1, self.xDate.timetuple()[6])
-        elif self.dateInterval[1] == "2ndlast":
-            ret = nth_weekday(self.xDate + relativedelta(years=0,months=1,days=0), -2, self.xDate.timetuple()[6])
-        else:
-            ret = self.xDate + relativedelta(years=self.dateInterval[0],months=self.dateInterval[1],days=self.dateInterval[2])
-        return ret
-
 ##########################
 if __name__ == '__main__':
 
     publish_delta = 100
 
+    Event = None
+    Vcal = vcal(description="Test Veranstaltung ausführlich",summary="Test Veranstaltung ...",location="Test Ort",dtstart="20250208T140000",dtend="20250208T150000",url="https://goettinger-klimabuendnis.de/event/",contact="a.b@c.de")
+    # sys.exit(0)
     Event = event()
     if len(sys.argv) == 1:
         Event.prepare_events()

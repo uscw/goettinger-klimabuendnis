@@ -4,10 +4,10 @@ title:         "Naturschutz praktisch: Ossenfelder Bahndamm"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-02-01T09:00:00+01:00
 etime:         2025-02-01T11:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2"
-URL:           "/2025/02/01/09/00/naturschutz_praktisch__ossenfelder_bahndamm"
+URL:           "/2025/02/01/09/00/Naturschutz_praktisch_Ossenfelder_Bahndamm"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
@@ -20,9 +20,11 @@ Naturschutz praktisch: Ossenfelder Bahndamm
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
 
+
+Kalenderdatei: [📆](/ics/2025-02-01_09-00_naturschutz_praktisch_ossenfelder_bahndamm.ics)
+
 -------------
 
-Naturschutz praktisch: Ossenfelder Bahndamm
 
 in Zusammenarbeit mit dem NABU Dransfeld. Gefördert werden sollen seltene
 

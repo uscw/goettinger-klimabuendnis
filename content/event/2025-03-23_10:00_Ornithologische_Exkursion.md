@@ -4,10 +4,10 @@ title:         "Ornithologische Exkursion"
 subtitle:      "Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen"
 date:          2025-03-23T10:00:00+01:00
 etime:         2025-03-23T12:00:00+01:00
-publishdate:   2024-11-15T00:00:00+01:00
+publishdate:   2025-01-08T00:00:00+01:00
 author:        "Biologische Schutzgemeinschaft Göttingen e.V. (BSG)"
 place:         "Parkplatz Bahnhofsvorplatz Salzderhelden"
-URL:           "/2025/03/23/10/00/ornithologische_exkursion"
+URL:           "/2025/03/23/10/00/Ornithologische_Exkursion"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
@@ -20,9 +20,11 @@ Ornithologische Exkursion
 Eine Veranstaltung der Biologischen Schutzgemeinschaft e.V. Göttingen
 -----------
 
+
+Kalenderdatei: [📆](/ics/2025-03-23_10-00_ornithologische_exkursion.ics)
+
 -------------
 
-Ornithologische Exkursion
 
 Beobachtung durchziehender Vögel im Bereich der Northeimer Seenplatte und im
 

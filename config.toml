@@ -11,10 +11,6 @@ hrefTargetBlank = true
 paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
-event = [ "Calendar"]
-
 [params]
   # header_image = "img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg"
   header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
@@ -200,11 +196,23 @@ event = [ "Calendar"]
   title =  "ARCHIV"
   href =  "/top/archive/"
 
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+event = ["HTML", "RSS", "Calendar"]
+#page = ["HTML", "Calendar"]
+
 [outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+[outputFormats.Calendar]
+  baseName = "calendar"
+  permalinkable = true
+  mediaType = 'text/calendar'
+  # Avoid webcal scheme
+  protocol = "https://"
 
 [permalinks]
     categories =  "/:section/:slug"

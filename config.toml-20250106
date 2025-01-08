@@ -1,0 +1,222 @@
+baseurl = "https://goettinger-klimabuendnis.de"
+title = "Göttinger Klimabündnis"
+theme = [ "hugo-theme-cleanwhite", "hugo-theme-introduction", "bootstrap-bp-hugo-theme" ]
+# theme = [ "hugo-theme-cleanwhite" ]
+languageCode = "de-de"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+#googleAnalytics = ""
+preserveTaxonomyNames = true
+hrefTargetBlank = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+event = [ "Calendar"]
+
+[params]
+  # header_image = "img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg"
+  header_image = "img/banner/2022-02-18-Greenwashing_Demo.jpg"
+  # header_image = "img/banner/2021-02-05_welt_in_der_hand.jpg"
+  # posts_image: see content/post/_index.md
+  # events_image: see content/event/_index.md
+  SEOTitle = "Göttinger Klimabündnis"
+  description = "Die Web-Seite der lokalen Vernetzung Göttinger Klimainitiativen"
+  keyword = "Göttinger Klimabündnis"
+  slogan = "zur Vernetzung der Göttinger Klimainitiativen"
+  sidebar_pow = "img/pow/2024-12-31-Apfelmaennchen.jpg"
+  sidebar_pow_description = "Zum Neuen Jahr 2025 kommt auch vom Göttinger Wochenmarkt Alles Gute für die Klimabewegung: bleibt vielfältig und einzigartig!"
+  #sidebar_pow = "img/pow/2024-11-30-Keine-Sparmassnahmen.jpg"
+  #sidebar_pow_description = "Zur Kundgebung gegen die geplanten sozialen Sparmaßnahmen der Stadt vor allem zur Jugend und Naturschutzarbeit kamen am 30.11.2024 etwa 500 Personen. Auch das Göttinger Klimabündnis war dabei."
+  #sidebar_pow = "img/pow/2024-09-20-Klimastreik-155029.jpg"
+  #sidebar_pow_description = "Ein kunterbunter Mond schaut auf die tieftraurige Erde (beim Klimastreik am 20.09.2024)"
+  #sidebar_pow = "img/pow/2024-09-05-Klimastreik_ist_Hitzeschutz.jpg"
+  #sidebar_pow_description = "Der Klimastreik ist der bessere Hitzeschutz. Der Aufruf zum  nächsten Klimastreik befand sich am 5.9.2024 im Hitzeschutz-Container der Stadt  allerdings nur für wenige Stunden, damit die Sicht auf die Graffities  nicht behindert  wird." 
+  #sidebar_pow = "img/pow/2024-08-28-mira.jpg"
+  #sidebar_pow_description = "EPIZ und KAZ e.V. eröffnen mira! am 26.8.2024 in einem leerstehenden Ladenlokal am Nabel in Göttingen"
+  #sidebar_pow = "img/pow/2024-08-10-Barwinka_Rathaus.jpg"
+  #sidebar_pow_description = "Der Krankenwagen 'Barwinka' aus der Region Charkiw kam am 10.8.2024 nach Göttingen. Nancy von den Organisatoren der Aktion macht neben all dem Leid auch noch einmal auf den gigantischen CO2-Ausstoß dieses Krieges aufmerksam." 
+  #sidebar_pow = "img/pow/2024-06-09-Radentscheid-gewonnen.jpg"
+  #sidebar_pow_description = "Noch am Abend der Auszählung am 9.6.2024 jubelt GöttingenZero über den errungenen Sieg beim Radentscheid 1. Mittlerweile ist das Ja für eine Trennung von Auto- und Radverkehr und der Vorzug von fahendem vor stehendem Verkehr auch von der Stadtverwaltung anerkannt worden."
+  #sidebar_pow = "img/pow/2024-06-02-Radentscheid-Gewächshaus.png"
+  #sidebar_pow_description = "Seit Anfang Mai 2024 verkündet die Göttinger SPD in einem Flyer in aller Öffentlichkeit ihre Inkompetenz in Sachen Radverkehr, sowohl in ihren Vorschlägen wie in ihrer Kritik."
+  #sidebar_pow = "img/pow/2024-05-03-KidicalMass.jpg"
+  #sidebar_pow_description = "Verkehrswende zur KidicalMass-Demo am 3. Mai  2024: ein Ratsabgeordneter  gibt auf dem Weg zum Rathaus zwischen radfahrenden Kindern vom Fahrrad aus ein  Interview" 
+  #sidebar_pow = "img/pow/2024-04-06-Demo_LetzteGeneration.jpg"
+  #sidebar_pow_description = "Bei der Ungehorsamen Versammlung am 5.4.2024 steht der Elefant im öffentlichen Raum:  das fossile Zeitalter muss endlich durch eine sozial gerechte und solidarische Klimapolitik überwunden werden."
+  #sidebar_pow = "img/pow/2024-03-01-Wir_fahren_zusammen1.jpg"
+  #sidebar_pow_description = "Wir Fahren Zusammen am 1. März 2023: Zum Klimastreik demonstrieren mehr als 1200 Menschen zusammen mit Ver.di in Göttingen"
+  #sidebar_pow =  "img/pow/2024-02-12-Uebergabe_Radentscheid.jpg"
+  #sidebar_pow_description = "Die Übergabe der Unterschriften zum Göttinger Radentscheid an die Oberbürgermeisterin Broistedt am 12.2.2024. Die Anzahl der Unterschriften ist höher als die Anzahl Göttinger Stimmen für die CDU bei der letzten Landtagswahl."
+  #sidebar_pow =  "img/pow/2024-02-02-GöVB-Streik.jpg"
+  #sidebar_pow_description = "Am 2. Februar 2024 hinter der Feuertonne am Tor der GöVB: Verkehrswende geht nur mit den Beschäftigten! Beschäftigte und Klimaaktivist*innen verbinden ihre Kämpfe"
+  #sidebar_pow =  "img/pow/2024-01-21-Göttingen_AfD_Demo.jpg"
+  #sidebar_pow_description = "Klare Ansage am Rande der Demo Göttingen bleibt antifaschistisch! - Gegen die AfD und ihre Vertreibungspläne am 21. Januar 2024 mit ca. 15.000 Teilnehmern"
+  #sidebar_pow =  "img/pow/2024-01-08-Bauernproteste2024.jpg"
+  #sidebar_pow_description = "Zum Auftakt der Bauernproteste am 8.1.2024 gab es, wie hier auf dem Göttinger Treckerspielplatz, auch Stimmen für eine nachhaltige Landwirtschaft, bei der natürlich Diesel auch keine Rolle mehr spielt." 
+  #sidebar_pow =  "img/pow/2023-09-15-Klimastreik_in_der_Haengematte.jpg"
+  #sidebar_pow_description = "Das gute Leben in der Stadt Göttingen: mit ein wenig politischem Willen lässt es sich selbst in der Betonwüste am Groner Tor im Spätsommer ganz gut aushalten (Klimastreik am 15.9.2023)"
+  #sidebar_pow =  "img/pow/2023-09-01-Auftakt_Buergerbegehren_Radentscheid.jpg"
+  #sidebar_pow_description = "GöttingenZero startet am 1.9.2023 die Unterschriftensammlung für eine fahrradfreundliche Stadt. Der Göttinger Radentscheid fordert Verbesserungen für den Fahrradverkehr auf Göttinger Straßen"
+  #sidebar_pow = "img/pow/2023-07-15-Privatisierung_des_Gänseliesels.jpg"
+  #sidebar_pow_description = "Privatisierung des Gänseliesels. Eine Protestaktion von End Fossil: Occupy! Göttingen am 15.7.2023. Die Göttinger Staatsanwaltschaft will mitspielen. Der Vorwurf:  Unterschlagung"
+  #sidebar_pow = "img/pow/2023-06-23-KidicalMass.jpg"
+  #sidebar_pow_description = "Zum Ende der Klimawoche mit heftigem Unwetter und Starkregen findet am 23.06.2023 eine KidicalMass-Fahrraddemo statt"
+  #sidebar_pow = "img/pow/2023-06-22-LG_Erdöl_statt_Wasser.jpg"
+  #sidebar_pow_description = "Zum Klimaschutzmarkt fliesst 'tödliches Erdöl statt Wasser' im Gänseliesl am 17.06.2023. Große Empörung bei gleichzeitiger Untätigkeit der Verantwortlichen."
+  #sidebar_pow = "img/pow/2023-05-25-SoliDemo-LetzteGeneration-Auditorium.jpg"
+  #sidebar_pow_description = "Am 25.05.2023 fanden auf der Solidaritäts-Demonstration gegen die Kriminalisierung der Letzten Generation etwa 500 Demonstranten klare Worte zu den Razzien am Vortag"
+  #sidebar_pow = "img/pow/2023-05-08-OHG_besetzt1.jpg"
+  #sidebar_pow_description = "Am Montag den 8. Mai 2023 wurde das Otto-Hahn-Gymnasium von Schüler*innen der Bewegung End Fossil: Occupy! besetzt"
+  #sidebar_pow = "img/pow/2023-04-14-ForumWissenHandelnInnen.jpg"
+  #sidebar_pow_description = "Am Freitag den 14. April 2023 hatte EndFossil: Occupy! das Forum Wissen mit einer Klima-Sonderausstellung 'Wissen schafft Handeln' besetzt."
+  #sidebar_pow = "img/pow/2023-04-13-Fahrrad-Gruenpfeil.jpg"
+  #sidebar_pow_description = "Zähe Verkehrswende in Göttingen: nach neun Jahren und vier Ratsanträgen wird Anfang April 2023 am Geismar Tor das erste Schild mit Fahrrad-Grünpfeil angebracht, das für Fahrräder das Rechtsabbiegen bei Rot erlaubt. Es hielt immerhin zwei Wochen"
+  #sidebar_pow = "img/pow/2023-03-03-Klimastreik-3.jpg"
+  #sidebar_pow_description = "Am 3.3.203 nahmen über 2000 Menschen und ca. 70 Beschäftigte der Göttinger Verkehrsbetriebe unter dem Motto #WirFahrenZusammen denn #TommorrowIsToLate am globalen Klimastreik in Göttingen teil."
+  #sidebar_pow = "img/pow/2023-02-20-Wer_ist_hier_der_Klimaterrorist.png"
+  #sidebar_pow_description = "Wer ist hier der Klimaterrorist? Seitdem der Begriff zum Unwort des Jahres 2022 wurde, steht diese Frage offen im politischen Raum der BRD, hier beim Düsseldorfer Karneval am 20.20.2023"
+  #sidebar_pow = "img/pow/2023-01-19-Lützi-lebt-am-Willi.jpg"
+  #sidebar_pow_description = "Lützi lebt am Wilhelmsplatz. Seit dem 18.1.2023 ist die Platane am Wilhelmsplatz von Klimaschützern aus verschiedenen Göttinger Klimainitiativen in Solidarität mit Lützerath besetzt."
+  #sidebar_pow = "img/pow/2023-01-07-Heimatgluehen.jpg"
+  #sidebar_pow_description = "Heimatglühen: Auch in Partielaune finden sich manchmal treffende Beschreibungen für die derzeit größte Herausforderung der Menschheit. (Mahnwache Lützerath am Rathaus am 7.1.2023)"
+  #sidebar_pow = "img/pow/2022-12-23-Demo-FKG-Besetzung-Rathaus-1.jpg"
+  #sidebar_pow_description = "Lautstarke Demo zum Abschluss der Besetzung des Felix-Klein-Gymnasiums Göttingen durch End Fossil : Occupy" 
+  #sidebar_pow = "img/pow/2022-12-17-Solidaritaet_Letzte_Generation.jpg"
+  #sidebar_pow_description = "Aussagen auf der Solidaritäts-Demo am 17.12.2022: Was, wenn die Regierung das nicht im Griff hat? - Klimademo - #reichthaltnicht - sofortige Freilassung aller inhaftierten Klimaaktivisten - ein Ende der Kriminalisierung der Klimagerechtigkeitsbewegung - Erhalt des Dorfes Lützerath"
+  #sidebar_pow = "img/pow/2022-11-19-P4F_Pflanzaktion.JPG"
+  #sidebar_pow_description = "Emsiges Buddeln bei der Baumpflanzaktion von Parents for Future auf der Streuobstwiese der Albani Gemeinde am 19.11.2022" 
+  #sidebar_pow = "img/pow/2022-06-24-LeaNesselhauf_GermaZero.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Lea Nesselhauf von GermanZero erklärt im Göttinger Ratssaal 'Was wir tun müssten, wenn wir 1,5-Grad ernst nähmen'"
+  #sidebar_pow = "img/pow/2022-05-14-Klimacamp2022_2.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Das Klimacamp Göttingen (https://klimacampgoettingen.noblogs.org/) steht seit dem 12.05.2022 wieder direkt gegenüber von Kreistag und Rathaus am Gauß-Weber-Wall"
+  #sidebar_pow = "img/pow/2022-04-30-FossilFreeRide.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Lift your Bike beim FossilFree-Ride in Göttingen am 30.4.2022"
+  #sidebar_pow = "img/pow/2022-03-Klimastreik_1.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Klimastreik in Göttingen am 25.3.2022 mit mehr als zweitausend Teilnehmern"
+  #sidebar_pow = "img/pow/2022-02-18-Greenwashing_Demo.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Ein klarer Auftrag an den Rat und die Stadtverwaltung Göttingens zur Kundgebung am 18.2.2022"
+  #sidebar_pow = "img/pow/2022-01-08_Lützerath_Demo_Gö2.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Göttinger Gänseliesl nach der Kundgebung: 'Lützerath bleibt!' am 08.01.2022"
+  #sidebar_pow = "img/pow/2022-01-08_Lützerath_Demo_Gö1.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Kundgebung: 'Lützerath bleibt!' am 08.01.2022 am Göttinger Gänseliesl"
+  #sidebar_pow = "img/pow/2021-12-17_Kundgebung_Goettingen_klimaneutral_2030.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Kundgebung zur Weichenstellung: Goettingen klimaneutral 2030 (oder doch erst nach 2045)"
+  #sidebar_pow = "img/pow/2021-12-02_Aktion_Greenpeace_Kohleausstieg_bleibt_Handarbeit.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Eine Aktion von Greenpeace Göttingen zur Unterstützung der derzeitigen Handarbeiter*innen in Lützerath"
+  #sidebar_pow = "img/pow/2021-11-30_Klimacamp_zu_Stadt_und_Landkreis.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Das Göttinger Klimacamp positionierte sich eindeutig zu Stadt und Landreis"
+  #sidebar_pow = "img/pow/2021-09-10-fff-mobitag.jpg"
+  #sidebar_pow_description = "Banner-Drop auf dem FFF-Mobitag am 10.9."
+  #sidebar_pow = "img/pow/2021-08-09-Laschet_vor_Müllberg.png"
+  #sidebar_pow_description = "Der Kanzlerkandidat der CDU erklärt die Ergebnisse seiner Klimapolitik (Impressionistische Nachzeichnung einer Fotographie von Rolf Vennenbernd/dpa)"
+  #sidebar_pow = "img/pow/2021-06-19-Klimaschutztage_2021_H4F_Aktion.jpg" # Bild der Woche: use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_pow_description = "Akrobatik Aktion von Health for Future zu den Klimaschutztagen am 19.6.2021"
+  #sidebar_pow = "img/pow/2021-06-04-Göttingen-Klimastreik_ori.jpg"
+  #sidebar_pow_description = "Demo zum Göttinger Klimastreik am 4.6.2021"
+  #sidebar_pow = "img/pow/2021-04-15-fff-goe0-fahrraddemo_ori.jpg"
+  #sidebar_pow_description = "Fahrrad-Demo von Fridays for Future am 15.4.2021"
+  #sidebar_pow = "img/pow/2021-03-17-pressekonferenz-ratsantraege_ori.jpg"
+  #sidebar_pow_description = "Pressekonferenz zur Übergabe der Analyse der Ratsanträge zum Klimaplan2030 am 17.3.2021"
+  image_404 = "img/404-bg.jpg"
+  title_404 = "Seite nicht erreichbar"
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = [" Attac RG Göttingen"," Biologische Schutzgemeinschaft e.V"," BUND Göttingen"," Cradle to Cradle Göttingen", " Ende-Gelände Göttingen", " EPIZ Göttingen", "Ernährungsrat i.G.", " Extinction Rebellion Göttingen", " FossilFree Goettingen", " Fridays for Future Göttingen", " Gemeinwohl-Ökonomie Göttingen", " GermanZero Göttingen", " Göttingen im Wandel", " Greenpeace Göttingen", " Grüne Hochschulgruppe Göttingen", " Health for Future Göttingen", " JANUN Göttingen", " Klimagruppe Basisdemokratische Linke Göttingen", "Klimagruppe in der Ev.-Reformierten Gemeinde Göttingen", " Klimaschutz Göttingen e.V", " Kritische Wirtschaftswissenschaften Göttingen", " Lampedusa-Bündnis Göttingen", " Naturfreunde Göttingen", " Parents for Future Göttingen", " Partizipative Initiative für eine lebenswerte Zukunft Göttingen", "Psychologists for Future Göttingen", "Referat für Ökologie und Nachhaltigkeit (AStA der Uni Gö)", " Scientists for Future Göttingen", "Students for Future Göttingen"]
+  #sidebar_avatar = "img/goest-logo.png"# use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_avatar = "img/picture-of-the-week.png"# use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_avatar = "img/pressekonferenz-ratsantraege-20210317.png"# names of pictures need to be lower case, use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  friends = true
+  bookmarks = false
+  about_me = true
+  recent_posts = true
+  recent_events = true
+  summarylength = 60
+  nexteventdays = 21
+
+  [taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+  [params.social]
+  rss            = true 
+  email          = "redaktion@goettinger-klimabuendnis.de"
+  about          = "/top/impressum/"
+  pow            = "/top/pow/"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "https://twitter.com/goest14593149"
+  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  #github         = "https://github.com/yourgithub"
+  #wechat         = "your wechat qr code image"
+  #medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+  
+  [[params.friend_link]]
+  title = "Göttinger Klimabündnis"
+  href =  "https://goettinger-klimabuendnis.de"
+
+  #[[params.bookmark_link]]
+  #title =  "Pxhere"
+  #href = "https://pxhere.com"
+  #[[params.bookmark_link]]
+  #title = "unsplash"
+  #href = "https://unsplash.com"
+  
+  [[params.additional_menus]]
+  title =  "IMPRESSUM"
+  href =  "/top/impressum/"
+  [[params.additional_menus]]
+  title =  "VERANSTALTUNGEN"
+  href =  "/event/"
+  [[params.additional_menus]]
+  title =  "AKTUELL"
+  href =  "/post/"
+  [[params.additional_menus]]
+  title =  "CONTROLLING"
+  href =  "/controlling/"
+  [[params.additional_menus]]
+  title =  "THEMEN"
+  href =  "/categories/"
+  [[params.additional_menus]]
+  title =  "ARCHIV"
+  href =  "/top/archive/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[permalinks]
+    categories =  "/:section/:slug"
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[rss]
+Limit = 5
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1

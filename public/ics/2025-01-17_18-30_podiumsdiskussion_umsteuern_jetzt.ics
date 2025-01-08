@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:f84cb23e-96ca-4bd3-b861-b66828263a55
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250117T183000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250117T203000
+DESCRIPTION;LANGUAGE=de-DE:Podiumsdiskussion 'UmSteuern jetzt!'\n\nPublic Viewing des Life-Streams im Weltladen\n\n\nPodiumsdiskussion "UmSteuern jetzt!"\n===========\n\n[ICS:](/ics/2025-01-17_18-30_podiumsdiskussion_umsteuern_jetzt.ics)\n\nAttac und DGB in Köln organisieren eine prominent besetzte Abendveranstaltung zu Steuergerechtigkeit:\n\nDie Ampelkoalition ist an der Finanzfrage gescheitert: Deutschland braucht in den nächsten zehn Jahren über 600 Milliarden Euro zusätzlich für Zukunftsinvestitionen in unsere Infrastruktur, für die Bahn, Brücken, Schulen, das Gesundheitswesen. Wer soll sie bezahlen, wie sollen sie finanziert werden: Durch Abbau des Sozialstaats oder durch ein gerechteres Steuersystem? Für eine grundlegende Steuerreform liegen viele Vorschläge vor, von den Gewerkschaften, von Attac, von Netzwerken für eine Finanzwende.\n\n \n\n- Keynotespeaker: \n	- Norbert Walter-Borjans (Finanzwende) und \n	- Karl-Martin Hentschel (Attac)\n- Panel:\n	- Raoul Didier (Referatsleiter Steuerpolitik im DGB-Bundesvorstand)\n	- Sarah Godar (Wissenschaftliche Mitarbeiterin DIW)\n	- Zeynep Sefariye Eksi (Bundesvorsitzende, DidF)\n	- Christoph Trautvetter (Netzwerk Steuergerechtigkeit)\n	- Stefanie Bremer (Tax me now)\n\n \n\nWir brauchen ein anderes Steuersystem in Deutschland. Überreiche dürfen sich nicht länger ihrer Pflicht entziehen.\n\n**Die Attac-Positionen dazu haben wir in einem Basistext zusammengefasst, der hier zu finden ist:**\n\nhttps://www.attac-netzwerk.de/steuern/fist-basistexte/steuer-revolution\n\nAttac RG Göttingen\n
+LOCATION;LANGUAGE=de-DE:Weltladen Nikolaistrasse 10 Goettingen
+SUMMARY;LANGUAGE=de-DE:Podiumsdiskussion 'UmSteuern jetzt!', Public Viewing des Life-Streams im Weltladen
+URL:https://goettinger-klimabuendnis.de/2025/01/17/18/30/podiumsdiskussion_umsteuern_jetzt
+UID:f84cb23e-96ca-4bd3-b861-b66828263a55
+
+END:VEVENT
+
+
+END:VCALENDAR
