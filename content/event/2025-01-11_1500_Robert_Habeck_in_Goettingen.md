@@ -24,6 +24,7 @@ Kalenderdatei: [📆](/ics/2025-01-11_15-00_robert_habeck_in_goettingen.ics)
 
 Der Spitzenkandidat von BÜNDNIS 90/DIE GRÜNEN, Robert Habeck, wird am Samstag, den 11. Januar 2025, eine Wahlkampfrede in der Stadthalle Göttingen halten. Der Einlass zur Veranstaltung beginnt um 14 Uhr, die Rede von Robert Habeck ist für 15 Uhr angesetzt. Der Einlass ist frei. Eine Anmeldung ist nicht nötig.
 
+![Robert Habeck in Göttingen](/img/event/2025-01-11-robert-in-goe.png)
 Die Veranstaltung in der Stadthalle Göttingen bietet Bürgerinnen und Bürgern die Gelegenheit, den grünen Spitzenkandidaten persönlich zu erleben und sich über die Ziele von BÜNDNIS 90/DIE GRÜNEN für die kommende Legislaturperiode zu informieren. Es wird mit einem hohen Andrang gerechnet, weshalb Besucher*innen gebeten werden frühzeitig zu erscheinen.
 
 Interessierte Medienvertreter werden gebeten, sich für weitere Informationen und Akkreditierungen an die Geschäftsstelle von BÜNDNIS 90/DIE GRÜNEN zu wenden.

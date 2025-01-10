@@ -23,11 +23,6 @@ Public Viewing des Life-Streams im Weltladen
 
 Kalenderdatei: [📆](/ics/2025-01-17_18-30_podiumsdiskussion_umsteuern_jetzt.ics)
 
-Podiumsdiskussion "UmSteuern jetzt!"
-===========
-
-[ICS:](/ics/2025-01-17_18-30_podiumsdiskussion_umsteuern_jetzt.ics)
-
 Attac und DGB in Köln organisieren eine prominent besetzte Abendveranstaltung zu Steuergerechtigkeit:
 
 Die Ampelkoalition ist an der Finanzfrage gescheitert: Deutschland braucht in den nächsten zehn Jahren über 600 Milliarden Euro zusätzlich für Zukunftsinvestitionen in unsere Infrastruktur, für die Bahn, Brücken, Schulen, das Gesundheitswesen. Wer soll sie bezahlen, wie sollen sie finanziert werden: Durch Abbau des Sozialstaats oder durch ein gerechteres Steuersystem? Für eine grundlegende Steuerreform liegen viele Vorschläge vor, von den Gewerkschaften, von Attac, von Netzwerken für eine Finanzwende.
