@@ -11,7 +11,7 @@ draft:        false
 ---
 Realitätsverweigerung im Bundestagswahlkampf
 ================
-Die Bundestagswahl steht in wenigen Wochen an und die Parteiprogramme der allermeisten Parteien liegen vor. Diese Wahl wird wegweisend sein, in vielerlei Hinsicht. Die Weltlage hat sich dramatisch verändert im Laufe der letzten Legislaturperiode in der sich auch gezeigt hat, dass die bisherigen Konzepte verantwortlicher Politik neu justiert werden müssen. Zeitenwende eben. Dass in einer solchen Phase eine gewisse Verwirrung die Diskussion bestimmt, und auch die alten Konzepte immer wieder einzige Lösung genannt werden ist wohl normal.
+Die Bundestagswahl steht in wenigen Wochen an und die Parteiprogramme der allermeisten Parteien liegen vor. Diese Wahl wird wegweisend sein, in vielerlei Hinsicht. Die Weltlage hat sich dramatisch verändert im Laufe der letzten Legislaturperiode, in der sich auch gezeigt hat, dass die bisherigen Konzepte verantwortlicher Politik neu justiert werden müssen. Zeitenwende eben. Dass in einer solchen Phase eine gewisse Verwirrung die Diskussion bestimmt und auch die alten Konzepte immer wieder als einzige Lösung genannt werden, ist wohl normal.
 
 Dass aber bei fast allen Parteien, und insbesondere bei allen großen, die Krise, die praktisch täglich mit neuen erschreckenden Katastrophen, auch in Deutschland, in den Nachrichten erscheint, ausgeblendet oder bezüglich der notwendigen Veränderungen nicht hinreichend ernstgenommen wird, ist zutiefst verstörend.
 
@@ -61,7 +61,7 @@ Und  beim Blick in genau diese Parteiprogramme bekommt man allerdings den Eindru
 
 ## Die Union treibt die Menschen in fossile Kostenfallen
 
-> Und die Union: die Union will zurück zu noch mehr Klimazerstörung. Sie verweigert sich jeglicher klimapolitischer Verantwortung, mit ihrer Absage and das Verbrenneraus, dem Gebäudeenergiegesetz und dem Kohleausstieg erleben wir einen Rückschritt auf ganzer Linie. Und das sind nicht nur klimapolitische Maßnahmen, das sollten wir uns an dieser Stelle festmachen. Das alles sind Entscheidungen, die genau zu solchen Bildern führen.
+> Und die Union: die Union will zurück zu noch mehr Klimazerstörung. Sie verweigert sich jeglicher klimapolitischer Verantwortung. Mit ihrer Absage an das Verbrenner-Aus, dem Gebäudeenergiegesetz und dem Kohleausstieg erleben wir einen Rückschritt auf ganzer Linie. Und das sind nicht nur klimapolitische Maßnahmen, das sollten wir uns an dieser Stelle festmachen. Das alles sind Entscheidungen, die genau zu solchen Bildern führen.
 
 ![](/img/post/2025-01-09-Pressekonferenz-FFF-2.png)
 
@@ -103,11 +103,11 @@ Und  beim Blick in genau diese Parteiprogramme bekommt man allerdings den Eindru
 
 ![](/img/post/2025-01-09-Pressekonferenz-FFF-4.png)
 
-# Wir brauchen eine echte und bezahlbare Transformation
+# Uns fliegt hier alles um die Ohren
 
 In der Fragestunde im Anschluss geht Luise Neubaurer noch einmal auf die Veränderung der politischen Stimmung im Laufe der letzten sechs Jahre ein.
 
-> Es ist eine Art Stunde der Wahrheit, in der wir gerade sind, weil wir gesehen haben, wie selbstgerecht, und teilweise verlogen in den letzten sechs Jahren so'n bisschen Klima gemacht wurde, weil es irgendwie gerade gepasst hat, aber in der Sekunde, in der man sich dafür hätte hinstellen müssen und etwas wagen müssen, zurück gezogen wurde.
+> Es ist eine Art Stunde der Wahrheit, in der wir gerade sind, weil wir gesehen haben, wie selbstgerecht, und teilweise verlogen in den letzten sechs Jahren so'n bisschen Klima gemacht wurde, weil es irgendwie gerade gepasst hat, die aber in der Sekunde, in der man sich dafür hätte hinstellen müssen und etwas wagen müssen, zurück gezogen wurde.
 
 > Niemand von uns würde heute noch im Traum erwarten, dass Markus Söder einen Baum umarmt. Aber auch da waren wir mal. Das vergisst man, aber das waren Realitäten, die wir in dieser Demokratie erleben mussten. ...
 
