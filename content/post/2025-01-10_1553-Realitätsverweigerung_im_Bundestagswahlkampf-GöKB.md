@@ -103,7 +103,7 @@ Und  beim Blick in genau diese Parteiprogramme bekommt man allerdings den Eindru
 
 ![](/img/post/2025-01-09-Pressekonferenz-FFF-4.png)
 
-# Uns fliegt hier alles um die Ohren
+# Uns fliegt sonst hier alles um die Ohren
 
 In der Fragestunde im Anschluss geht Luise Neubaurer noch einmal auf die Veränderung der politischen Stimmung im Laufe der letzten sechs Jahre ein.
 
