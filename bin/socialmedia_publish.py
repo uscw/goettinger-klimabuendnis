@@ -1,15 +1,19 @@
 #!/usr/bin/python3
 import os
 import sys
+import json
 from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 from mastodon import Mastodon
 
+tdelta = 3 # timedelta to next event to post 
 baseFDIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
+#baseFDIR = "/home/gkb_user/goettinger-klimabuendnis/"
 eventFDIR = baseFDIR + "content/event/"
 eventImgFDIR = baseFDIR + "static/img/event/"
 baseURL = "https://goettinger-klimabuendnis.de/"
 eventURL = baseURL + "event/"
+cred_fn = "/tmp/Certs/otherCredentials/mastodon_uScw.json"
 
 class article():
     def __init__(self):
@@ -40,15 +44,20 @@ class SM_post():
         k = 0
         for line in self.content_lines:
             if line.startswith("Kalenderdatei:"):
-                self.content_lines[k] = line.replace("Kalenderdatei:","").replace("[","").replace("]","").replace("(",": "+baseURL).replace(")","").strip()
+                self.content_lines[k] = line.replace("Kalenderdatei:","").replace("[","").replace("]","").replace("(",": "+baseURL).replace(")","").strip() + "\n"
                 break
             k += 1
-        for line in self.content_lines[k:]:
+        for line in self.content_lines[:k]: # Title
             self.post_title += line
-        for line in self.content_lines[k:]:
+        for line in self.content_lines[k:]: # Content incl. ics
             self.post_content += line
+        for line in self.content_lines:     # images
             if line.startswith("!["):
-                self.img_lines.append(line)
+                img_line = line.split("(")[1][:-1]
+                limit = img_line.rfind("/") + 1
+                img_dir = img_line[:limit]
+                img_file = img_line[limit:-1]
+                self.img_lines.append([img_file, img_dir])
         print ("#### Title",self.post_title,"####")
         # print ("####",self.post_content,"####")
         self.post_content = self.post_content[:self.char_limit-len(self.post_title)]
@@ -57,7 +66,7 @@ class SM_post():
         print ("#### Content",self.post_content,"####")
         url_ref = baseURL + self.rel_url
         self.post_content += ' ... mehr: ' + url_ref
-        return self.post_title, self.post_content 
+        return self.post_title, self.post_content, self.img_lines
 
     def get_rel_url(self):
         for line in self.fm_lines:
@@ -73,38 +82,39 @@ class mastodon_post(SM_post):
         self.fm_lines = fm_lines
         self.rel_url = self.get_rel_url()
         self.token = self.get_token()
+        self.m = Mastodon(access_token=self.token, api_base_url="https://mastodon.social")
         return
 
     def send_post(self):
-        m = Mastodon(access_token=self.token, api_base_url="https://mastodon.social")
-        self.title, self.content = self.prepare_post()
-        if len(self.img_line) == 0:
-            out = m.toot(post)
+
+        self.title, self.content, self.img_lines = self.prepare_post()
+        if len(self.img_lines) == 0:
+            out = self.m.toot(self.title + self.content)
         else:
-            out = self.send_post_with_image(self.title, self.content, caption, ImgFDIR=None, img_file=None):
+            out = self.send_post_with_image(self.title, self.content, ImgFDIR=self.img_lines[0][1], img_file=self.img_lines[0][0])
         return out
 
-    def send_post_with_image(self, title, caption, ImgFDIR=None, img_file=None):
-        m = Mastodon(access_token=self.token, api_base_url="https://mastodon.social")
+    def send_post_with_image(self, title, content, ImgFDIR=None, img_file=None):
+        # for muliple images see: https://buerviper.github.io/blog/2024/writing-a-mastodon-bot-in-python/
         if img_file != None:
             if ImgFDIR == None:
                 ImgFDIR = eventImgFDIR 
             os.chdir(ImgFDIR)
             # changes the working directory to /images. If you don't want that, simply skip this and store your python script in the same folder as the images.
-            suffix = img_file[img_file.rfind("."):]
+            suffix = img_file[img_file.rfind(".")+1:]
             if suffix.lower() in ["jpg", "jpeg"]:
                 mtype = "image/jpg"
             elif  suffix.lower() in ["png"]:
                 mtype = "image/png"
             else:
-                mtype = None
-            self.image = m.media_post(img_file, mime_type = mtype, description = None )
+                mtype = "image/" + suffix
+            self.image = self.m.media_post(img_file, mime_type = mtype, description = content )
             # this is the only required argument. you can either give the filename directly or use the "media_file" argument.
             # this indicates the filetype. only necessarily needed if you did not use "media_type", otherwise the program will guess the correct file type
             # adds alt text. you should definitely consider this!
 
-        # Write a "Hello World!" post with an image
-        mastodon.status_post(caption, media_ids=self.image["id"] )
+        # Write a post with an image
+        self.m.status_post(title + content, media_ids=self.image["id"] )
         # this is the text associated with the message
         # as said earlier, the media_post function uploads the image with an id as a dictionary. this calls the correct photo
         return self.image
@@ -120,7 +130,13 @@ class mastodon_post(SM_post):
         return
 
     def get_token(self):
-        tk = "pth6ujxYWEQbjYX3USVtrZ0jgDnL3grooFTxiRnemAs"
+        try:
+            cred_file = open(cred_fn, "r")
+            fjson = json.loads(cred_file.read())
+            tk = fjson["token"]
+        except:
+            print ("Access Token for Mastodon not found at " + cred_fn)
+            # sys.exit(1)
         return tk
         
 
@@ -134,8 +150,7 @@ class bluesky_post(SM_post):
         
 
 def main():
-    # dt_now = datetime.strftime(datetime.now()+timedelta(days=3), "%Y-%m-%d-%H%M")
-    dt_now = datetime.strftime(datetime.now()+timedelta(days=3), "%Y-%m-%d")
+    dt_now = datetime.strftime(datetime.now()+timedelta(days=tdelta),"%Y-%m-%d")
     for file in os.listdir(eventFDIR):
         if file.startswith(dt_now):
             ff = open(eventFDIR + file)
@@ -146,8 +161,8 @@ def main():
             print (content)
             
             Mastodon_Post = mastodon_post(content,frontmatter)
-            post = Mastodon_Post.prepare_post()
-            print (post)
+            # post = Mastodon_Post.prepare_post()
+            # print (post)
             out = Mastodon_Post.send_post()
             print(out)
     

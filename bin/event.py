@@ -521,7 +521,7 @@ class event():
             "\n" + str(ev_dict[item]['title']) + "\n===========\n"
             if str(ev_dict[item]['subtitle']) != "":
                 outstr += "\n" + str(ev_dict[item]['subtitle']) + "\n-----------\n"
-            outstr += "\n\nKalenderdatei: [📆](/ics/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics)\n"
+            outstr += "\n\nKalenderdatei: [📆](/ics/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics)\n\n"
             if str(ev_dict[item]['text']) != "":
                 outstr += str(ev_dict[item]['text']) + "\n"
             if str(ev_dict[item]['locURL']) != "":

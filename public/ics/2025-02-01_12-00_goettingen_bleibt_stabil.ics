@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:24aa3881-3580-4d7a-b175-e3612e0f57b9
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250201T120000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250201T170000
+DESCRIPTION;LANGUAGE=de-DE:Göttingen bleibt stabil\n\nAntifaschismus ist Bürger\*innensache\n\nAm Samstag, den 1. Februar 2025, organisieret das Göttinger Bündnis gegen Rechts einen Protesttag gegen die für diesen Tag angekündigte Demonstration von Akteuren der rechten Querdenkenbewegung. Ausgehend von der Hauptkundgebung an der Berliner Straße werden Demozüge, Kundgebungen und eine Familien-Fahrraddemo starten. Alle Bürger*innen der Stadt und des Landkreises lädt das Bündnis ein, sich den rechten Umtrieben friedlich und selbstbewusst entgegenzustellen.\n\nUnsere Überzeugungen wollen wir in Form eines bunten und vielfältigen Protests auf die Straße tragen. Folgende Veranstaltungen sind Teil des Programms:\n\nAb 12 Uhr startet die Hauptkundgebung des Bündnis gegen Rechts mit Information, Unterhaltung und Musik auf der Berliner Straße vor dem Göttinger Bahnhof.\nAb 13 Uhr starten drei Demonstrationszüge von im Bündnis organisierten Gruppen in verschiedene Richtungen (Informationen folgen).\nAb 14 Uhr starten die Parents for Future am Auditorium zu einer Familien-Fahrraddemo rund um die Innenstadt.\n
+LOCATION;LANGUAGE=de-DE:Berliner Straße vor dem Göttinger Bahnhof
+SUMMARY;LANGUAGE=de-DE:Göttingen bleibt stabil, Antifaschismus ist Bürger\*innensache
+URL:https://goettinger-klimabuendnis.de/2025/02/01/12/00/goettingen_bleibt_stabil
+UID:24aa3881-3580-4d7a-b175-e3612e0f57b9
+
+END:VEVENT
+
+
+END:VCALENDAR
