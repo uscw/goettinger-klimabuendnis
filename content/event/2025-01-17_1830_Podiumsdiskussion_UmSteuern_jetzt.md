@@ -10,6 +10,7 @@ place:         "Weltladen Nikolaistrasse 10 Goettingen"
 URL:           "/2025/01/17/18/30/Podiumsdiskussion_UmSteuern_jetzt"
 locURL:        ""
 image:         "/img/banner/2022-03-28-Klimastreik_1.jpg"
+social_media:  false
 ---
 
 **Veranstaltung: 17. Januar 2025, 18:30 Uhr, Weltladen Nikolaistrasse 10 Goettingen**

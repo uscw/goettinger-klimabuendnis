@@ -10,6 +10,7 @@ place:         "Parkplatz Bahnhofsvorplatz Salzderhelden"
 URL:           "/2025/03/23/10/00/Ornithologische_Exkursion"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 23. März 2025, 10:00 Uhr, Parkplatz Bahnhofsvorplatz Salzderhelden**

@@ -10,6 +10,7 @@ place:         "Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2"
 URL:           "/2025/03/13/19/30/Vortrag_von_Hjalmar_Thiel_Dipl-Biologe"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 13. März 2025, 19:30 Uhr, Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2**

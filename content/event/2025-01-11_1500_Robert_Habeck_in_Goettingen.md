@@ -10,6 +10,7 @@ place:         "Stadthalle Goettingen"
 URL:           "/2025/01/11/15/00/Robert_Habeck_in_Goettingen"
 locURL:        "https://www.stadthalle-goettingen.de/programm/robert-habeck-in-goettingen"
 image:         "/img/banner/2022-12-13-Windkraft_im_Winter.jpg"
+social_media: true
 ---
 
 **Veranstaltung: 11. Januar 2025, 15:00 Uhr, Stadthalle Göttingen**

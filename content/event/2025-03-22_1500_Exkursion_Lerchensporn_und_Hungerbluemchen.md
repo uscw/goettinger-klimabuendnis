@@ -10,6 +10,7 @@ place:         "im Rosarium zwischen Bonifatiusschule und Cheltenhampark"
 URL:           "/2025/03/22/15/00/Exkursion_Lerchensporn_und_Hungerbluemchen"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 22. März 2025, 15:00 Uhr, im Rosarium zwischen Bonifatiusschule und Cheltenhampark**

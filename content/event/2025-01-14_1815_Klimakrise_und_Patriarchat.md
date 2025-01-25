@@ -10,6 +10,7 @@ place:         "ZHG 006 Universitaet Goettingen"
 URL:           "/2025/01/14/18/15/Klimakrise_und_Patriarchat"
 locURL:        "https://asta.uni-goettingen.de/asta/referate/klimagerechtigkeit/"
 image:         "/img/banner/2023-01-14-Lützerath.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 14. Januar 2025, 18:15 Uhr, ZHG 006 Universitaet Goettingen**

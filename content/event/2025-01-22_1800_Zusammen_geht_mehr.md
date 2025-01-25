@@ -10,6 +10,7 @@ place:         "ver.di Goettingen Groner-Tor-Str. 32  2. Etage"
 URL:           "/2025/01/22/18/00/Zusammen_geht_mehr"
 locURL:        ""
 image:         "/img/banner/2024-02-02-GöVB-Streik.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 22. Januar 2025, 18:00 Uhr, ver.di Göttingen, Groner-Tor-Str. 32 / 2. Etage**

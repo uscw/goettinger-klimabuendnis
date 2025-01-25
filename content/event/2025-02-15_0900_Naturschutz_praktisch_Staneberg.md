@@ -10,6 +10,7 @@ place:         "Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2"
 URL:           "/2025/02/15/09/00/Naturschutz_praktisch_Staneberg"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 15. Februar 2025, 09:00 Uhr, Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2**

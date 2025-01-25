@@ -10,6 +10,7 @@ place:         "digital"
 URL:           "/2025/02/13/19/00/Vortrag_von_Kyra_Zembold_MSc_Biodiversitaet_PhD-Kandidatin_im_Projekt_KOOPERATIV"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 13. Februar 2025, 19:00 Uhr, digital**

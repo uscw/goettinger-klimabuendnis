@@ -10,6 +10,7 @@ place:         "Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2"
 URL:           "/2025/01/18/09/00/Naturschutz_praktisch_Feldbornberg"
 locURL:        "http://www.biologische-schutzgemeinschaft.de/programm.html"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
+social_media:  true
 ---
 
 **Veranstaltung: 18. Januar 2025, 09:00 Uhr, Goettinger Umwelt- und Naturschutzzentrum Geiststr. 2**
