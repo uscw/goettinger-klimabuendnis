@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:5727e933-a8e3-40b3-ada0-fb524e2cdd19
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250401T170000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250401T190000
+DESCRIPTION;LANGUAGE=de-DE:Castortransport mit hochradioaktivem Atom-Müll\n\nAnti-Atom-Initiative plant Protest am Bahnhof in Göttingen\n\nAnlässlich des Castortransports mit hochradioaktivem Atom-Müll wird die Anti-Atom-Initiative Göttingen (AAI) am Dienstag, 1. April um 17 Uhr am Bahnhofsvorplatz eine Protestaktionveranstalten.\n\n \n\nVermutlich in der 14. Kalenderwoche (31.3. - 6.4.) wird wieder ein Castortransport über Deutschlands Schienen und Strassen rollen. Es wird der erste Transport nach Niederbayern sein. Die Strecke geht von Nordenham in das Zwischenlager Isar im Kreis Landshut. Göttingen liegt an dieser Bahnstrecke.\n\n \n\nDer Transport kommt aus der Wiederaufbereitungsanlage Sellafield in England per Schiff in den Hafen von Nordenham. Zur Zeit liegt das für Atommüll konzipierte Spezialschiff im Hafen von Barrow-in-Furness und wird mit den Castoren beladen.\n"Das Spezialschiff, die Pacific Grebe, hat bereits ihr Positionssignal (AIS) abgestellt, was die Ortung verhindert und der Geheimhaltung des hochgefährlichen Transportes dient ", erläutert eine Sprecherin der AAI Göttingen. "Wir gehen davon aus, dass das Schiff, wie 2020, ca 5 1/2 Tage benötigen wird um Nordenham zu erreichen. Deutschland hat sich verpflichtet seinen Atommüll zurückzunehmen" so die Sprecherin weiter.\n\n \n\nMit einer Protestaktion wird die AAI Göttingen anlässlich dieses Transportes auf die Gefahren aufmerksam machen, denn die maroden Schienennetze und Strassen verbieten es, die Bevölkerung diesen Gefahren auszusetzen. Ein immenses Polizeiaufgebot entlang der Strecke soll den Transport sichern.\n\nIn ganz Deutschland gibt es anlässlich dieses Transportes an der Strecke begleitende Mahnwachen. Beginn ist am 30.März in Nordenham und Bremen.\n\n \n\nIn Göttingen wird es ab Dienstag, 1.4., 17 Uhr Protestaktionen am Bahnhof geben.\n\nAnti-Atom-Initiative Göttingen\n
+LOCATION;LANGUAGE=de-DE: Bahnhofsvorplatz in Göttingen
+SUMMARY;LANGUAGE=de-DE:Castortransport mit hochradioaktivem Atom-Müll, Anti-Atom-Initiative plant Protest am Bahnhof in Göttingen
+URL:https://goettinger-klimabuendnis.de/2025/04/01/17/00/castortransport_mit_hochradioaktivem_atom-muell
+UID:5727e933-a8e3-40b3-ada0-fb524e2cdd19
+
+END:VEVENT
+
+
+END:VCALENDAR
