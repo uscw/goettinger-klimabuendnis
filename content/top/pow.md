@@ -1,3 +1,5 @@
+Die klimaerkrankte Erde hat auf dem Rathausplatz in Göttingen ihren Mittelpunkt (Klimastreik am 14.2.2025)![2025-02-14-Klimastreik.jpg](/img/pow/2025-02-14-Klimastreik.jpg)
+------------------
 Komplexe Zusammenhänge einfach erklärt, auf der 'Göttingen bleibt stabil' Demo am 1.2.2025![2025-02-01-Der_Fuchs_ist_schlau.jpg](/img/pow/2025-02-01-Der_Fuchs_ist_schlau.jpg)
 ------------------
 Zum Neuen Jahr 2025 kommt auch vom Göttinger Wochenmarkt Alles Gute für die Klimabewegung: bleibt vielfältig und einzigartig!![2024-12-31-Apfelmaennchen.jpg](/img/pow/2024-12-31-Apfelmaennchen.jpg)
