@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:e6868738-abd3-418d-a999-850ca3998f61
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250404T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250404T200000
+DESCRIPTION;LANGUAGE=de-DE:Planetary Health Diet\n\nVortrag Rahmen der Reihe „Mensch-Umwelt-Natur“ \n\n\nEin Vortrag des Göttinger Umwelt- und Naturschutzzentrums\n(GUNZ) im Rahmen der Reihe „Mensch-Umwelt-Natur“ mit Johannes Bayer (Ernährungsmediziner, aktiv in der Ausbildung von Diätköchen).\n \nas Konzept der planetaren Gesundheit (Planetary Health) basiert auf der Erkenntnis, dass die menschliche Gesundheit und die menschliche Zivilisation von florierenden natürlichen Systemen abhängen. Die aktuelle Nahrungsmittelproduktion ist mit erheblichen Beeinträchtigungen der Ökosysteme verbunden. Eine wachsende Weltbevölkerung führt zur Verschärfung dieser Situation.\nLogo\nDer Vortrag zeigt auf, mit welchen Veränderungen jeder einzelne durch eine gezielte Nahrungsmittelauswahl dazu beitragen kann, sich selbst gesund (möglicherweise sogar gesünder) zu ernähren, und gleichzeitig zu einer ökologisch verträglichen Nahrungsmittelproduktion beizutragen.\n\nWie kann man sich ernähren, damit man selbst und der Planet gesund bleiben??\nWir laden Sie herzlich ein bei unserem Vortrag mit anschließender Frage- und Diskussionsrunde gehalten durch Johannes Bayer (Ernährungsmediziner und\naktiv in der Ausbildung von Diätköchen) teilzunehmen.\n\nWeitere Vorträge folgen!\nSchauen Sie gerne auf unsere Homepage, um sich zu informieren:\n\n
+LOCATION;LANGUAGE=de-DE:Seminarraum des GUNZ, Geiststr. 2
+SUMMARY;LANGUAGE=de-DE:Planetary Health Diet, Vortrag Rahmen der Reihe „Mensch-Umwelt-Natur“ 
+URL:https://goettinger-klimabuendnis.de/2025/04/04/18/00/planetary_health_diet
+UID:e6868738-abd3-418d-a999-850ca3998f61
+
+END:VEVENT
+
+
+END:VCALENDAR
