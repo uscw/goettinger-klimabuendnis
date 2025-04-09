@@ -228,6 +228,8 @@ class event():
             fd = open(file)
             pre_text = ""
             for line in fd.readlines():
+                if line.startswith("Kalenderdatei:"):
+                   continue
                 if line[:-1] == "---":
                     if header == False:
                         header = True
