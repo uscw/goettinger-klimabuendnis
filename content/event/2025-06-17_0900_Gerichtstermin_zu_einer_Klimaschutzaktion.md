@@ -22,3 +22,4 @@ Kalenderdatei: [📆](/ics/2025-06-17_09-00_gerichtstermin_zu_einer_klimaschutza
 
 Angeklagter: Arne
 
+Der Sitzungssaal wird per Aushang im Gericht bekanntgegeben.

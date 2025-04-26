@@ -22,3 +22,4 @@ Kalenderdatei: [📆](/ics/2025-05-22_09-00_gerichtstermin_zu_einer_klimaschutza
 
 Angeklagte: Rosa
 
+Der Sitzungssaal wird per Aushang im Gericht bekanntgegeben.

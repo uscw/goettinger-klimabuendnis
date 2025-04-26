@@ -22,3 +22,4 @@ Kalenderdatei: [📆](/ics/2025-05-08_09-00_gerichtstermin_zu_einer_klimaschutza
 
 Angeklagter: Pati
 
+Der Sitzungssaal wird per Aushang im Gericht bekanntgegeben.
