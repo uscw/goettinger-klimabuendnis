@@ -19,7 +19,7 @@ Treibhausgasen (THG) – vor allem CO2 – gegen Null gehen müssen.
 Nach dem derzeitigen Stand ist dieses Ziel noch in weiter Ferne; die THG-Emissionen
 sinken zwar, aber nicht schnell genug, wie die Grafik des Klimaberichts aufzeigt:
 
-!(Entwicklung der THG-Emissionen in Göttingen im Soll/Ist-Vergleich)[/img/post/2025-04-28-THG-Emissionen_in_Gö_Soll_und_Ist.png]
+![Entwicklung der THG-Emissionen in Göttingen im !Soll/Ist-Vergleich](/img/post/2025-04-28-THG-Emissionen_in_Gö_Soll_und_Ist.png)
 
 Die THG-Emissionen sind zwar seit dem Bezugsjahr 1990 um 27% zurückgegangen,
 aber nachdem Tiefststand 2020 (Corona-Jahr) wieder angestiegen und nehmen seitdem
