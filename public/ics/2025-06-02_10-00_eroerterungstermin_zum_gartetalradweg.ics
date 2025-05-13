@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:ed236307-3b62-424d-82a8-81c64bed21bd
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250602T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250602T120000
+DESCRIPTION;LANGUAGE=de-DE:Erörterungstermin zum Gartetalradweg\n\ndie ca. 400 Stellungnahmen zu den Planungen für den Radweg sind bearbeietet\n\nes gibt Neuigkeiten zum Gartetalradweg!\nDie lange Pause, die sich durch fehlende Mitarbeiter*innen im zuständigen Ressort der Stadt Göttingen für das Planungsvorhaben ergeben hatte, ist vorüber. Eine neue Fachkraft die ca. 400 Stellungnahmen zu den Planungen für den Radweg bearbeitet und der Landkreis Göttingen für\nMontag 2. Juni um 10.00 Uhr in der Sporthalle Diemarden \nden Erörterungstermin festgesetzt.\nDort werden die Einwendungen besprochen und die zuständigen Sachbearbeiter*innen erläutern, welche Vorschläge in die Planung aufgenommen werden sollen und welche nicht.\nSollten eure / Ihre Einwendungen nicht gut berücksichtigt worden sind, könnt ihr euer Anliegen erneut einbringen. Hierzu müssen keine neuen Argumente vorgetragen werden, es genügt, das eigene Anliegen noch mal mit Nachdruck zu äussern.\nDer Erörterungstermin ist die letzte Chance, auf offiziellem Weg Einfluss auf die Planung zu nehmen und den Gartetalradweg in seinem jetzigen Charakter zu retten.\nDeshalb ist es sehr wichtig, dass möglichst viele Menschen zu dem Termin erscheinen und ihre Argumente deutlich einbringen. Kommt alle und bringt eure Freunde mit!\nBereitet euch idealerweise darauf vor, eure Argumente einzubringen. Auch wenn sich diese mit denen von anderen doppeln, macht es Sinn, diese einzubringen. Alle Einwendungen werden protokolliert und letztendlich gibt es eine entscheidende Gewichtung, wenn 20 mal dasselbe gefordert wird.\nHier nochmals ganz kurz zusammengefasst unsere Position:\n    • Die Radwegeverbindung wird grundsätzlich begrüßt.\n    • Der Grüntunnel muss erhalten bleiben. Das geht, wenn auf diesem Abschnitt der Wegquerschnitt angepasst wird. Das ist nach den hier anzuwendenden Richtlinien auch möglich.\n    • Der Oberflächenbelag soll sickerfähig sein.\n    • Die Ausgleichsmaßnahmen müssen mindestens dem Eingriff adäquat und Bestandteil des Projekts sein.\nNach der erneuten Abwägung kommt es dann nach 4 bis 6 Wochen, manchmal aber auch nach noch längerer Zeit, zu einem Planfeststellungsbeschluss.\nGegen diesen können dann nahe Anwohner*innen oder Umweltverbände klagen.\nBei einem Gerichtsverfahren sind eure im Erörterungstermin gemachten Einwendungen entscheidend. Je stärker die Einwände vorhanden sind, desto mehr finden diese in der Beurteilung eine Berücksichtigung.\nWichtig: Bei einem Erörterungstermin kann ein Ausweisdokument bei Einlass gefordert werden. Bringt vorsichtshalber einen Ausweis mit. \nAuch Personen, die keinen Einwand geschrieben haben, dürfen teilnehmen. Diese können (formal) als Berater*innen von Personen mit Einwendungen, auftreten.\nAlso komm einfach, wenn Dir der Erhalt des Charakters des Weges und der Grüntunnel am Herzen liegt!\nNoch eine zusätzliche Info: Das Projekt wird nicht aufgrund fehlender Mittel scheitern!\nDas Förderprogramm "Stadt und Land" ist verlängert worden. Die Stadt beabsichtigt nach dem Feststellungsbeschluss, den Antrag über die Gemeinde Gleichen stellen zu lassen. \nDie Gelder stehen in Göttingen, wie auch in der Gemeinde Gleichen, für das Vorhaben bereit.\nDa es schon einige Zeit her ist, seitdem die Gartetaldebatte aktuell war, haben wir unter dem folgenden Link einige Argumente für einen schonenden Ausbau aufgelistet.\n\nhttps://www.dropbox.com/scl/fi/u2e2dh8ogan4ml6y63k4k/Argumente_Einw-ndungen.pdf?rlkey=p7m9k5l8fd3pa3ce30aph78x8&st=ejij34kf&dl=0\n\nFalls ihr noch Fragen habt, mailt uns gern.\nHerzlicher Gruß\nBürgerinitiative Gartetal\nGleichen und Göttingen\n
+LOCATION;LANGUAGE=de-DE:Sporthalle Diemarden
+SUMMARY;LANGUAGE=de-DE:Erörterungstermin zum Gartetalradweg, die ca. 400 Stellungnahmen zu den Planungen für den Radweg sind bearbeietet
+URL:https://goettinger-klimabuendnis.de/2025/06/02/10/00/eroerterungstermin_zum_gartetalradweg
+UID:ed236307-3b62-424d-82a8-81c64bed21bd
+
+END:VEVENT
+
+
+END:VCALENDAR
