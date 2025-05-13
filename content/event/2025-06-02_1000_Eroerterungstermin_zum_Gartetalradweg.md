@@ -62,6 +62,11 @@ Die Gelder stehen in Göttingen, wie auch in der Gemeinde Gleichen, für das Vor
 Da es schon einige Zeit her ist, seitdem die Gartetaldebatte aktuell war, haben wir unter dem folgenden Link einige Argumente für einen schonenden Ausbau aufgelistet.
 https://www.dropbox.com/scl/fi/u2e2dh8ogan4ml6y63k4k/Argumente_Einw-ndungen.pdf?rlkey=p7m9k5l8fd3pa3ce30aph78x8&st=ejij34kf&dl=0
 
+Genaueres ist auch unter 
+http://goettinger-klimabuendnis.de/post/2022-02-21_1323-gartetalradweg_sensibel_ausbauen-bundg%C3%B6ttingen/
+zu erfahren.
+
+
 Falls ihr noch Fragen habt, mailt uns gern.
 
 Herzlicher Gruß
