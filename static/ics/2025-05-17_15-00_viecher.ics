@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:80cb93fe-a14e-4e71-b0c0-9a7a11b6faa8
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250517T150000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250517T170000
+DESCRIPTION;LANGUAGE=de-DE:Viecher\n\nEin Open-Air-Theaterstück\n\n Das Theaterkollektiv MÜH führt diese Woche Freitag, Samstag und Sonntag neben den BUND-Blühflächen am Kiessee in Göttingen das Stück "Viecher" auf!\n\nPlakat-Viecher\n\n“Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.” (F. Kafka)\n\nDoch was wäre, wenn diese fiktive Erzählung Realität werden würde? Nicht nur für Gregor Samsa, sondern nach und nach für alle von uns. So würde auf einer Welt, in der Insekten derzeit aussterben, ein Brummen unüberhörbar. Über die stechenden, krabbligen, saugenden, eierlegenden Viecher sprechen wir nur selten und wenn, dann weil sie unser schönstes Picknick zerstören.\n\nDie dritte Inszenierung des MÜH Kollektives befasst sich mit dem oft übergangenen Thema des Insektensterbens. Frei nach Franz Kafkas “Die Verwandlung” laden wir ein auf eine Wiese und wagen ein Gedankenexperiment.\n\nDie kostenlosen Tickets gibt es hier: https://pretix.eu/MUEH/viegoe/. Die Aufführungen finden auf Spendenbasis statt.\n\nWann? Freitag, 16.05.25 | 19 Uhr\n             Samstag, 17.05.25 | 11 und 15 Uhr\n             Sonntag, 18.05.25 | 15 Uhr\n\nWo? Treffpunkt für Zuschauer*innen ist die Bushalte "Jahnstadion" (von dort gehen wir gemeinsam zum Spielort)\n\nEine Veranstaltung des Theaterkollektiv MÜH unterstützt durch die BUND Kreisgruppe Göttingen.\n\nWir freuen uns auf Sie!\n\n\n
+LOCATION;LANGUAGE=de-DE:Kiessee Göttingen
+SUMMARY;LANGUAGE=de-DE:Viecher, Ein Open-Air-Theaterstück
+URL:https://goettinger-klimabuendnis.de/2025/05/17/15/00/viecher
+UID:80cb93fe-a14e-4e71-b0c0-9a7a11b6faa8
+
+END:VEVENT
+
+
+END:VCALENDAR
