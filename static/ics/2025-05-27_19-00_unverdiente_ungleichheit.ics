@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:8d495836-6cb2-4001-946f-6fc7198f0df5
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250527T190000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250527T210000
+DESCRIPTION;LANGUAGE=de-DE:Unverdiente Ungleichheit\n\nDemokratie geht nur gerecht!\n\n## Vortrag und Diskussion mit Dr. Martyna Linartas\n\nDie Kluft zwischen arm und reich in Deutschland wächst alarmierend. Während der Anteil der armen Bevölkerung kontinuierlich ansteigt, verzeichnen die Vermögen der Wohlhabenden selbst in Krisenzeiten ein unfassbares Wachstum. Diese besorgniserregende Entwicklung wird zur Gefahr für die Demokratie, wenn Überreiche ihr Geld nutzen, um politischen Einfluss zu nehmen und Arme keine Möglichkeiten mehr sehen, sich für ihre Interessen einzusetzen.\nDr. Martyna Linartas ist Co-Gründerin und Projektleiterin von ungleichheit.info und Expertin für das Thema Ungleichheit und Vermögen. Sie hat sich intensiv mit den verschiedenen Narrativen des „verdienten Reichtums“ sowie der (Re-)Produktion von Reichtum in Deutschland beschäftigt. Gerade ist ihr neues Buch „Unverdiente Ungleichheit“ im Rowohlt-Verlag erschienen.\nIn ihrem Vortrag wird Dr. Linartas einen umfassenden Überblick über die ungleiche Vermögensverteilung in Deutschland geben und aufzeigen, wie eine effektive Besteuerung von Vermögen und Erbschaften sowie das Konzept eines Grunderbes zur Verringerung dieser Ungleichheiten beitragen können.\nAttac-Göttingen und die Kritischen Wirtschaftswissenschaften Göttingen führen diese Veranstaltung im Rahmen der bundesweiten Kampagne „Tax the Rich – Demokratie geht nur gerecht“ durch. Weitere Kooperationspartner sind die LEB, das Bildungswerk ver.di, ver.di, der DGB und das EPIZ.\nIm Rahmen der Kampagne findet darüber hinaus zzt. eine Sammlung von Unterschriften für eine Bundestagspetition statt (in Kürze auch online), die den Gesetzgeber auffordert, die Vermögensteuer auf alle Vermögensarten wieder zu aktivieren und so den weiteren Anstieg von Überreichtum zu stoppen.\nInteressierte sind herzlich eingeladen, sich an der Diskussion über die Verteidigung der Demokratie und den Beitrag einer gerechten Steuerpolitik zu beteiligen.\n
+LOCATION;LANGUAGE=de-DE:ZHG 105, Universität Göttingen
+SUMMARY;LANGUAGE=de-DE:Unverdiente Ungleichheit, Demokratie geht nur gerecht!
+URL:https://goettinger-klimabuendnis.de/2025/05/27/19/00/unverdiente_ungleichheit
+UID:8d495836-6cb2-4001-946f-6fc7198f0df5
+
+END:VEVENT
+
+
+END:VCALENDAR
