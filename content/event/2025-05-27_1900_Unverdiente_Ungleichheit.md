@@ -31,6 +31,8 @@ Die Kluft zwischen arm und reich in Deutschland wächst alarmierend. Während de
 
 Dr. Martyna Linartas ist Co-Gründerin und Projektleiterin von ungleichheit.info und Expertin für das Thema Ungleichheit und Vermögen. Sie hat sich intensiv mit den verschiedenen Narrativen des „verdienten Reichtums“ sowie der (Re-)Produktion von Reichtum in Deutschland beschäftigt. Gerade ist ihr neues Buch „Unverdiente Ungleichheit“ im Rowohlt-Verlag erschienen.
 
+![Unverdiente_Ungleichheit](/img/event/2025-05-27-Unverdiente_Ungleichheit_Linertas.png)
+
 In ihrem Vortrag wird Dr. Linartas einen umfassenden Überblick über die ungleiche Vermögensverteilung in Deutschland geben und aufzeigen, wie eine effektive Besteuerung von Vermögen und Erbschaften sowie das Konzept eines Grunderbes zur Verringerung dieser Ungleichheiten beitragen können.
 
 Attac-Göttingen und die Kritischen Wirtschaftswissenschaften Göttingen führen diese Veranstaltung im Rahmen der bundesweiten Kampagne „Tax the Rich – Demokratie geht nur gerecht“ durch. Weitere Kooperationspartner sind die LEB, das Bildungswerk ver.di, ver.di, der DGB und das EPIZ.
