@@ -1,13 +1,60 @@
-<form id="FeedbackFormular" action="mailto:i2009@ingo-webdesign.de"
+<form id="GöKBEventFormular" action="mailto:redaktion@goettinger-klimabuendnis.de"
       method="post" enctype="text/plain"
-      onsubmit="return sendFormular(this,'i2009@ingo-webdesign.de',700,300)">
-...
-<input type="hidden" name="FormName" value="Feedback-Formular" /> ...
-<input name="Name" type="text" size="40" maxlength="75" /> ...
-<textarea name="Meinung" rows="5" cols="40"></textarea> ...
-<input type="radio" name="einverstanden" value="ja" /> ...
-<input type="radio" name="einverstanden" checked="checked" value="nein" /> ...
-<input type="checkbox" name="veroeffentlichen" checked="checked" value="Name" /> ...
-<input type="checkbox" name="veroeffentlichen" value="eMail" /> ...
-...
+      onsubmit="return sendFormular(this,'redaktion@goettinger-klimabuendnis.de',700,300)">
+<h1>test form </h1>
+
+  <div>
+<input type="hidden" name="FormName" value="---" />
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input type="hidden" name="FormName" value="Feedback-Formular" /> test1
+  </div>
+  <div>
+<input name="Name" type="text" size="40" maxlength="75" /> test2
+  </div>
+  <div>
+<textarea name="Meinung" rows="5" cols="40"></textarea> test3
+  </div>
+  <div>
+<input type="radio" name="einverstanden" value="ja" /> test4
+  </div>
+  <div>
+<input type="radio" name="einverstanden" checked="checked" value="nein" /> test5
+  </div>
+  <div>
+<input type="checkbox" name="veroeffentlichen" checked="checked" value="Name" /> test6
+  </div>
+  <div>
+<input type="checkbox" name="veroeffentlichen" value="eMail" /> test7
+test8
+  </div>
+  <div>
+    <button  id="btn" onclick="json">Veranstaltungstermin abschicken</button>
+  </div>
 </form>
+
+<script type="text/javascript">
+var object = {};
+formData.forEach(function(value, key){
+    object[key] = value;
+});
+var json = JSON.stringify(object);
+</script>
