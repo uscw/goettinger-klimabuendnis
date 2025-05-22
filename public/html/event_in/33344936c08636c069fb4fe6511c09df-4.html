@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Test</title>
+  <script>
+
+    function Bestaetigung () {
+      var x = window.confirm("Dieses Formular geht an " + document.Testform.action);
+      return x;
+    }
+
+  </script>
+</head>
+<body>
+
+  <form name="Testform" action="mailto:beispiel@example.org" onsubmit="return Bestaetigung()">
+    <input size="40" name="Eingabe">
+    <button>Absenden</button>
+  </form>
+
+</body>
+</html>
+

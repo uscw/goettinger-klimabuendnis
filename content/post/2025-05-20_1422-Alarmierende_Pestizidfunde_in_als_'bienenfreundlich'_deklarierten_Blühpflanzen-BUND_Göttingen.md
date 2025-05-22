@@ -11,7 +11,7 @@ draft:        false
 ---
 
 Besorgniserregende Ergebnisse brachte eine umfangreiche Testaktion des BUND Niedersachsen zutage. Im April wurden zahlreiche, als „bienenfreundlich“ deklarierte Pflanzen in Baumärkten, Supermärkten und Gartencentern in Niedersachsen auf Pestizide untersucht. Niedersächsische BUND-Gruppen sammelten 85 Pflanzenproben in 43 Geschäften ein. Darunter auch die BUND Kreisgruppe Göttingen, die 3 Proben in ihrer Region kaufte: Die Befunde sind alarmierend!
--  16 verschieden Fungizide, Insektizide und weitere Pestizide wurden nachgewiesen.
+-  16 verschiedene Fungizide, Insektizide und weitere Pestizide wurden nachgewiesen.
 -  Je Pflanzenprobe wurden etwa 8 verschiedene Wirkstoffe entdeckt.
 -  Es wurden mehrere Wirkstoffe mit möglicherweise krebserregender oder genetischschädigender sowie     hormonell beeinflussender Wirkung nachgewiesen!
 
