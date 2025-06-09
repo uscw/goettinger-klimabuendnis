@@ -2,17 +2,17 @@
 layout:        events
 title:         "Demo zum Jahrestag des Göttinger Radentscheids"
 subtitle:      "Bisher ist noch sehr wenig umgesetzt worden!"
-date:          2025-06-13T16:30:00+02:00
-etime:         2025-06-13T18:30:00+02:00
+date:          2025-06-13T15:30:00+02:00
+etime:         2025-06-13T17:30:00+02:00
 publishdate:   2025-05-26T00:00:00+01:00
 author:        "Göttingen Zero"
 place:         "Neues Rathaus Goettingen"
-URL:           "/2025/06/13/16/30/Demo_zum_Jahrestag_des_Goettinger_Radentscheids"
+URL:           "/2025/06/13/15/30/Demo_zum_Jahrestag_des_Goettinger_Radentscheids"
 locURL:        ""
 image:         "/img/banner/2024-05-27-Radentscheid-unsicher.jpg"
 ---
 
-**Veranstaltung: 13. Juni 2025, 16:30 Uhr, Neues Rathaus Göttingen**
+**Veranstaltung: 13. Juni 2025, 15:30 Uhr, Neues Rathaus Göttingen**
 
 Demo zum Jahrestag des Göttinger Radentscheids
 ===========
