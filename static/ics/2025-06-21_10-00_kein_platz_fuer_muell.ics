@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:cda6ec09-cea4-4b35-a7c1-89ef50602409
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250621T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250621T120000
+DESCRIPTION;LANGUAGE=de-DE:Kein Platz für Müll\n\nKindergruppentreffen des BUND\n\n am Samstag, den 21.06.25 findet das nächste Kindergruppentreffen statt!\n\nMüll ist überall: auf der Straße, im Wald, ja sogar in den Ozeanen. Müll ist ein riesiges Problem auf der ganzen Welt. Deshalb ist es wichtig, das wir uns diesem Thema widmen. Was passiert, wenn wir immer mehr Wegwerfprodukte herstellen, anstatt zu recyclen? Was passiert mit Müll nachdem wir ihn weggeworfen haben? Welche Länder leiden am Meisten unter der Last des Mülls?\n\nDieses Mal treffen wir uns um 10:00 Uhr. Der Ort wird nach der Anmeldung bekannt gegeben.\n\nAnmelden könnt ihr euch bis zum 20.06. um 12:00 Uhr über unsere E-Mail-Adresse oder per Telefon. Weitere Details folgen nach der Anmeldung!\n\nFür weitere Fragen sind wir unter 0551-56156 und naturforscher@bund-goettingen.de zu erreichen.\nWir freuen uns auf euch!\n\nViele Grüße,\nEuer Betreuer*innen-Team\n
+LOCATION;LANGUAGE=de-DE:nach Anmeldung
+SUMMARY;LANGUAGE=de-DE:Kein Platz für Müll, Kindergruppentreffen des BUND
+URL:https://goettinger-klimabuendnis.de/2025/06/21/10/00/kein_platz_fuer_muell
+UID:cda6ec09-cea4-4b35-a7c1-89ef50602409
+
+END:VEVENT
+
+
+END:VCALENDAR
