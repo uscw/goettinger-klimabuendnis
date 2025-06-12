@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:5eb91af4-750f-4dbf-b792-16ca3e5ceccc
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250704T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250704T120000
+DESCRIPTION;LANGUAGE=de-DE:Gartetalradweg: neuer Erörterungstermin\n\ndie letzte Chance Einfluss auf die Planung zu nehmen\n\nLiebe Leute,\n\nder jetzt neu angesetzte Termin für den Erörterungstermin ist der 4. Juli um 10.00 Uhr in der Turnhalle von Diemarden.\n\nTrotz des großen öffentlichen Interesses wurde dieser Termin nun leider in den Sommerferien gelegt.\n\nWir hoffen, dass es euch / Ihnen trotzdem möglich ist zu kommen.\n\nNoch einmal zur Erinnerung:\n\nEs ist die letzte Chance Einfluss auf die Planung Einfluss zu nehmen und den Charakter des Gartetalweges zu erhalten.\n\nAuch Personen, die keinen Einwand geschrieben haben, dürfen teilnehmen. Diese können (formal ) als Beraterinnen gelten.\n\n!!!! Wichtig für alle: denkt daran ein Ausweisdokument mitzubringen. Dieser wird evtl. gefordert !!!!\n\nBereitet euch darauf vor, eure Anregungen / Forderungen zum Ausbau auszudrücken. Eine Mehrfachnennung ist sinnvoll, da diese protokolliert werden und eine Gewichtung verdeutlichen.\n\nWeitere Argumente zum Thema:\nwww.dropbox.com/scl/fi/u2e2dh8ogan4ml6y63k4k/Argumente_Einw-ndungen.pdf?rlkey=p7m9k5l8fd3pa3ce30aph78x8&st=ejij34kf&dl=0\n\nFalls ihr noch Fragen habt, mailt uns gerne\n\nMit herzlichem Gruß\nBI Gartetalweg - Gleichen / Göttingen\n\nBürgerinitiative Gartetalweg Gleichen und Göttingen\n
+LOCATION;LANGUAGE=de-DE:in der Turnhalle von Diemarden
+SUMMARY;LANGUAGE=de-DE:Gartetalradweg: neuer Erörterungstermin, die letzte Chance Einfluss auf die Planung zu nehmen
+URL:https://goettinger-klimabuendnis.de/2025/07/04/10/00/gartetalradweg_neuer_eroerterungstermin
+UID:5eb91af4-750f-4dbf-b792-16ca3e5ceccc
+
+END:VEVENT
+
+
+END:VCALENDAR

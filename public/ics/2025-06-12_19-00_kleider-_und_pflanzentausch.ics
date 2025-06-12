@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:6473490d-882b-4e4c-864c-f7e86bea34ea
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250612T190000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250612T210000
+DESCRIPTION;LANGUAGE=de-DE:Kleider- und Pflanzentausch\n\nAktion des AStA\n\nAm 12.06. findet unsere nächste Kleider- und Pflanzentauchparty statt! Dort könnt ihr Klamotten und/ oder Ableger mitbringen, die ihr nicht mehr braucht und gegen die Mitbringsel der anderen tauschen.\n\nFür ein paar Snacks und etwas zu trinken ist gesorgt. Der Tausch startet um 19:00 und wird im Stilbrvch stattfinden.\n
+LOCATION;LANGUAGE=de-DE:StilBrvch, Göttingen
+SUMMARY;LANGUAGE=de-DE:Kleider- und Pflanzentausch, Aktion des AStA
+URL:https://goettinger-klimabuendnis.de/2025/06/12/19/00/kleider-_und_pflanzentausch
+UID:6473490d-882b-4e4c-864c-f7e86bea34ea
+
+END:VEVENT
+
+
+END:VCALENDAR
