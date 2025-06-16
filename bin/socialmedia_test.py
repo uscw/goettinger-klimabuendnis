@@ -8,7 +8,7 @@ from mastodon import Mastodon
 # Import the Client class for Bluesky from the atproto library
 from atproto import Client as blueskyClient
 from atproto import client_utils as blueskyClientUtils
-# Import the Client class for 
+# Import the Client class for Instagram
 from instagrapi import Client as InstaClient
 
 cred_fdir = "/tmp/Certs/otherCredentials/"
@@ -27,7 +27,7 @@ class instagram_post(SM_post):
         self.credfile = cred_fdir + "instagram_GoeKB.json"
         self.cred = self.get_credentials()
         self.user_md = self.server_login()
-        self.settings = self.lookup_account() 
+        # self.settings = self.lookup_account() 
         return
 
     def get_credentials(self):

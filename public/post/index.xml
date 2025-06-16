@@ -10571,7 +10571,7 @@ Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;tic&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;tac&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;toe&lt;/th&gt;
@@ -10579,28 +10579,29 @@ Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;du&lt;/td&gt;
+&lt;td&gt;du&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;em&gt;bist&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;bist&lt;/em&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;dran&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;dran&lt;/strong&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;o&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;x&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden:&lt;/p&gt;
+&lt;p&gt;brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden
+(&#39;:&amp;rsquo; für Mittelsatz):&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|          | tic | tac | toe |
-|:--------:|:---:|:---:|:---:|
+|----------|:---:|:---:|:---:|
 | du       |  x  |     |  x  |
 | *bist*   |  o  |  o  |     |
 | **dran** |     |  o  |  x  |

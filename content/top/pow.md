@@ -1,3 +1,5 @@
+Nach einem Jahr Radentscheid informiert sich das GT am 13.6.2025 über die Lage und die erfreulichen ersten 3m Protected BikeLane am Rathaus in Göttingen![2025-06-13-Ein-Jahr-Radentscheid.jpg](/img/pow/2025-06-13-Ein-Jahr-Radentscheid.jpg)
+------------------
 Die klimaerkrankte Erde hat auf dem Rathausplatz in Göttingen ihren Mittelpunkt (Klimastreik am 14.2.2025)![2025-02-14-Klimastreik.jpg](/img/pow/2025-02-14-Klimastreik.jpg)
 ------------------
 Komplexe Zusammenhänge einfach erklärt, auf der 'Göttingen bleibt stabil' Demo am 1.2.2025![2025-02-01-Der_Fuchs_ist_schlau.jpg](/img/pow/2025-02-01-Der_Fuchs_ist_schlau.jpg)

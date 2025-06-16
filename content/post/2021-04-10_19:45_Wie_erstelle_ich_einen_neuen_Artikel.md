@@ -259,16 +259,17 @@ Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.
 Tabellen
 
 |          | tic | tac | toe |
-|:--------:|:---:|:---:|:---:|
+|----------|:---:|:---:|:---:|
 | du       |  x  |     |  x  |
 | *bist*   |  o  |  o  |     |
 | **dran** |     |  o  |  x  |
 
-brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden:
+brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden
+(':' für Mittelsatz):
 
 ```
 |          | tic | tac | toe |
-|:--------:|:---:|:---:|:---:|
+|----------|:---:|:---:|:---:|
 | du       |  x  |     |  x  |
 | *bist*   |  o  |  o  |     |
 | **dran** |     |  o  |  x  |
