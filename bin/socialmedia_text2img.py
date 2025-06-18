@@ -1,49 +1,52 @@
 from PIL import Image, ImageDraw, ImageFont, ImageColor
+import sys
 import random
-
+import locale
+from datetime import datetime
 
 hsize = 500
 vsize = 500
-random_box = True
+random_box = False
 fontname = "LiberationSans-Bold.ttf"
 fontsize = 28
 image_file = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2025-06-13-Brennende-Erde.jpg"
 output_path = "out.jpg"
+GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
+MDfile = GoeKBhome + "content/event/2025-06-16_1500_Vom_Essen_aus_der_Region_bis_zur_Welternaehrung.md"
 
 class bg_canvas():
-    def __init__(self, hsize, vsize, image):
+    def __init__(self, hsize, vsize):
         self.hsize = hsize
         self.vsize = vsize
-        self.image = image
+
+    def get_image(self,image_file):
+        self.image = image_file
         (self.Hsize,self.Vsize)=self.image.size
+        
+    def get_region(self):
+        if self.Vsize < self.vsize:
+            self.image = self.image.resize((int(self.hsize*self.vsize/self.Vsize)+1,self.vsize+1))
+            (self.Hsize,self.Vsize)=self.image.size
+        if self.Hsize < self.hsize:
+            self.image = self.image.resize((self.hsize+1,int(self.vsize*self.hsize/self.Hsize)+1))
+            (self.Hsize,self.Vsize)=self.image.size
         if random_box:
             xx = random.randrange(0, self.Hsize - self.hsize)
             yy = random.randrange(0, self.Vsize - self.vsize)
+            print((0, self.Hsize - self.hsize))
             self.box = (xx,yy,xx+hsize,yy+vsize)
+            print(self.box)
         else: # use the middle of the image as default
             xx = (self.Hsize - self.hsize)/2
             yy = (self.Vsize - self.vsize)/2
-            self.box = (xx,yy,hsize,vsize)
-
-    def crop_region(self):
+            self.box = (xx,yy,xx+hsize,yy+vsize)
         self.region = self.image.crop(self.box)
-        return self.region
 
     def grey2subregion(self,textheight):
         self.subbox = (xx,yy,hsize,vsize)
         
-    def text_in_region(self, text_lines, xOff, yOff, font, fontsize=fontsize, black_offset=5, color="white"):
-        ll = ImageColor.getrgb("brown")
-        ll = color
-        # bright_color = (int(ll[0]*2),int(ll[1]*2),int(ll[2]*2))
-
-        #collist = []
-        #for i in range(len(color)):
-        #    collist.append(int(color[i]*0.5))
-        #print(collist)
-        #bright_color = (collist[0],collist[1],collist[2])
-
-        #bright_color = (R,color[1],color[2])#int(color[1]*0.5),int(color[2]*0.5))
+    def text_in_region(self, text_lines, xOff, yOff, font, fontsize=fontsize, color="white"):
+        black_offset = int(fontsize/10)
         self.draw = ImageDraw.Draw(self.region)
         i = 0
         for line in text_lines:
@@ -55,6 +58,8 @@ class bg_canvas():
             i += 1
 
     def dominant_color_in_region(self,region,brighter=False):
+        color_sum_threshold = 140
+        color_brightener = 2.5
         dictc={}
         for i in range( region.width ):
             for j in range( region.height ) :
@@ -63,16 +68,99 @@ class bg_canvas():
                     dictc[h] = dictc[h] + 1
                 else:
                     dictc[h]=1  
-        #now sort it by values rather than keys descending      
+        #now sort it by values rather than keys descending
         dom_cols = sorted(dictc.items(), key=lambda x: x[1], reverse=True)
-        if brighter:            
-            return (min(int(dom_cols[0][0][0]*1.5),255),min(int(dom_cols[0][0][1]*1.5),255),min(int(dom_cols[0][0][2]*1.5),255))
+        nc = []
+        bright = False
+        maxc = 0
+        sumc = 0
+        for i in range(len(dom_cols[0][0])):
+            nc.append(dom_cols[0][0][i])
+            if nc[i] > maxc:
+                maxc = i
+            sumc += nc[i]
+        print (nc)
+        if sumc < color_sum_threshold:
+            for i in range(len(nc)):
+                if i != maxc:
+                    nc[i] = 255 - nc[i]    
+        print (nc)
+        #     if dom_cols[0][0][i] > 60:
+        #         bright = True
+        # if not bright:
+        #     hval *= 2
+        if brighter:
+            new_col = (min(int(nc[0]*color_brightener),255),min(int(nc[1]*color_brightener),255),min(int(nc[2]*color_brightener),255))
         else:
-            return (dom_cols[0][0][0],dom_cols[0][0][1],dom_cols[0][0][2])
+            new_col = (dom_cols[0][0][0],dom_cols[0][0][1],dom_cols[0][0][2])
+        
+        return  new_col 
+
+    def buildPic(self,title,subtitle,wann,wo):
+        # wann in Format: '2025-06-13T15:30:00+02:00'
+        # fonts in /usr/share/fonts/truetype
+        #
+        # requires:
+        # self.region
+        fontname1 = "LiberationSans-Bold.ttf"
+        fontsize1 = 42
+        fontname2 = "LiberationSans-Bold.ttf"
+        fontsize2 = 18
+        fontname3 = "Courier-Bold.ttf"
+        fontsize3 = 28
+
+        Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
+        xoffset = int(self.hsize * 3/100)
+        textbox_width = self.hsize - xoffset
+        max_textbox_height = int(self.vsize * 3/5)
+        addBoxHeight = int(self.hsize * 8/100)
+        upperTextBound = int(self.hsize * 4/100)
+        leftTextBound = int(self.hsize/100)
+        text_width_zone = textbox_width - int(self.hsize*2/100)
+        textlines = Title.break_text(text_width_zone, max_textbox_height)
+        textbox_height = int(fontsize1 * 1.1 * len(textlines)) + xoffset
+        yoffset = upperTextBound + (max_textbox_height - min(max_textbox_height,textbox_height))
+        textbox = (xoffset, yoffset-addBoxHeight, textbox_width, yoffset + textbox_height+addBoxHeight)
+        subregion = self.region.crop(textbox)
+        dom_col = self.dominant_color_in_region(subregion,brighter=True)
+        subregion_grey = subregion.convert('L')
+        self.region.paste(subregion_grey,(textbox[0], textbox[1]))
+        self.text_in_region(textlines, textbox[0]+leftTextBound, textbox[1]+addBoxHeight, Title.font, fontsize=Title.fontsize, color=dom_col)
 
 
+        Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
+        max_textbox_height = int(self.vsize * 1/25)
+        textlines = Subtitle.break_text(text_width_zone, max_textbox_height)
+        textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xoffset
+        self.text_in_region(textlines, textbox[0]+leftTextBound, 310, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
+        
+        
+            
+        Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
+        textlines = Wann_Wo.get_time_place_lines(wann,wo)
+        
+        self.text_in_region(textlines, 15, 370, Wann_Wo.font, fontsize=fontsize3)
+        self.region.show()
+        # region.save(output_path)
+        return self.region
+
+    def buildPicFromMDfile(self,MDfile,output_path):
+        # wann in Format: '2025-06-13T15:30:00+02:00'
+        FM = md_file(MDfile)
+        print(FM.frontmatter)
+        self.image_file = Image.open(GoeKBhome + "static" + FM.frontmatter["image"])
+        self.get_image(self.image_file)
+        self.get_region()
+        Title = FM.frontmatter["title"]
+        Subtitle = FM.frontmatter["subtitle"]
+        wann = FM.frontmatter["date"]
+        wo = FM.frontmatter["place"]
+        SharePic = self.buildPic(Title,Subtitle,wann,wo)
+        SharePic.save(output_path)
+
+    
 class text_field():
-    def __init__(self,text,fontname=fontname,fontsize=fontsize): # fontsize determined in class Font 
+    def __init__(self,text="",fontname=fontname,fontsize=fontsize): # fontsize determined in class Font 
         self.text = text.replace("\n"," ").strip()
         self.fontname = fontname
         self.fontsize = fontsize
@@ -80,90 +168,127 @@ class text_field():
         return
 
     def break_text(self, max_width, max_height):
+        self.text_lines = []
         txt = self.text
-        text_lines = []
         break_point = len(txt)
         rlast_break_point = break_point
         llast_break_point = break_point
         letter_size = None    
         text_size = len(txt)
         # We share the subset to remember the last finest guess over 
-        # the text breakpoint and make it faster
+        # the text breakpoint and make it faster, but this might lead to looping
         text_too_long = False
         while text_size > 0:
             # Let's find the appropriate subset size
             while True:
                 x,y,width,height = self.font.getbbox(txt[:break_point])
                 letter_size = width / break_point
-    
-                # min/max(..., break_point +/- 1) are to avoid looping infinitely over a wrong value
+                print (width, letter_size, max_width)
                 if width < max_width - letter_size and text_size >= break_point: # Too short
                     rlast_break_point = break_point
-                    break_point = max(int(max_width * break_point / width), break_point + 1)
+                    break_point = max(int(max_width * break_point/ width), break_point + 1)
+                    bp = txt[:break_point].rfind(" ")
+                    if bp == -1:
+                        break_point = len(txt[:break_point]) + 1
+                    else:
+                        break_point = bp
                 elif width > max_width: # Too large
                     llast_break_point = break_point
                     break_point = min(int(max_width * break_point / width), break_point - 1)
-                else: # Break_Point fits, we exit
+                    bp = txt[:break_point].rfind(" ")
+                    if bp == -1:
+                        break_point = len(txt[:break_point]) + 1
+                    else:
+                        break_point = bp
+                else: # Break_Point fits, exit now
                     break
                 if rlast_break_point == break_point or llast_break_point == break_point:
-                    break
-            print("a",break_point)
-            blank_break_point = txt[:break_point].rfind(" ")
-            if blank_break_point > 0:
-                break_point = blank_break_point
-                # print("b",break_point)
-            text_lines.append(txt[:break_point])
-            txt = txt[break_point+1:]   
+                    break # if looping starts, also Break_Point fits, exit now
+            print("bp:",break_point,"len",len(txt),"txt",txt[:break_point])
+            self.text_lines.append(txt[:break_point])
+            txt = txt[break_point+1:] # remove heading blank from next text frame 
             text_size = len(txt)
-            if len(text_lines) * int(1.1 * self.fontsize) > max_height:
+            if break_point < 0:
+                
+                break
+            if len(self.text_lines) * int(1.1 * self.fontsize) > max_height:
                 text_too_long = True
                 break
-        if not text_too_long:
-            text_lines[-2] += " " +text_lines[-1]
-            text_lines = text_lines[:-1]
-        self.text_lines = text_lines
-        return text_lines
+        try:
+            x,y,width,height = self.font.getbbox(self.text_lines[-2] + " " + self.text_lines[-1])
+            if width < max_width - letter_size:
+                self.text_lines[-2] += " " + self.text_lines[-1]
+                self.text_lines = self.text_lines[:-1]
+        except:
+            None
+        return self.text_lines
 
+    def get_time_place_lines(self,wann,wo):
+        locale.setlocale(locale.LC_ALL, "de_DE")
+        textlines = self.get_dt(wann)
+        d = wo[:25].rfind(" ")
+        textlines.append("Wo:   " + wo[:d])
+        wo = wo[d+1:]
+        textlines.append("      " + wo[:25])
+        return textlines
 
-if __name__ == "__main__":
-#    text("/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2024-08-21-Zusammen-fuer-unsere-Zukunft.jpg", "out.jpg")
-    image = Image.open(image_file)
-    BG = bg_canvas(hsize, vsize, image)
-    region = BG.crop_region()
-    text = "Das kann man nicht ohne weiteres wissen (und das ist in der Handle-Welt so gewollt). Metadaten von 10013 (das ist der Prefix in dem genannten Handle) deuten auf AWI (Bremerhaven). Wie kann ich solche Dinge selbst rausbekommen?"
-    #, font1=font, fontsize1=fontsize, font2=font, fontsize2=fontsize):
-    text = text[:40]
-    # fonts in /usr/share/fonts/truetype
-    fontname1 = "LiberationSans-Bold.ttf"
-    fontsize1 = 42
-    Title = text_field(text,fontname=fontname1,fontsize=fontsize1)
-    xoffset = 15
-    textbox_width = 500 - xoffset
-    max_textbox_height = 300
-    textlines = Title.break_text(textbox_width, max_textbox_height)
-    textbox_height = int(fontsize1 * 1.1 * len(textlines)) + xoffset
-    yoffset = 20 + (max_textbox_height - min(max_textbox_height,textbox_height))
-    textbox = (xoffset, yoffset, textbox_width, yoffset + textbox_height)
-    subregion = region.crop(textbox)
-    subregion_grey = subregion.convert('L')
-    region.paste(subregion_grey,(textbox[0], textbox[1]))
-    dom_col = BG.dominant_color_in_region(region,brighter=True)
-    BG.text_in_region(textlines, textbox[0], textbox[1], Title.font, fontsize=Title.fontsize, color=dom_col)
+    def get_dt(self,wann):
+        dt = datetime.strptime(wann,"%Y-%m-%dT%H:%M:%S%f%z")
+        #dt = datetime.strptime(wann[:wann.find('+')], "%Y-%m-%dT%H:%M:%S")
+        dt1 = "Wann: " + dt.strftime("%A, %-d.%-m.%Y")
+        dt2 = "      " + dt.strftime("%H:%M Uhr")
+        return [dt1,dt2]
 
-    wann_tag = "Sa. 14.06.2025"
-    wann_zeit = "19:00 Uhr"
-    wo1 = "Kerstlingeröder Feld"
-    wo2 = "Göttingen"
-    fontname2 = "Courier-Bold.ttf"
-    fontsize2 = 28
-    Wann_Wo =  text_field(text,fontname=fontname2,fontsize=fontsize2)
-    Wann_Wo.text_lines = [
-        "Wann: " + wann_tag,
-        "      " + wann_zeit,
-        "Wo:   " + wo1,
-        "      " + wo2
-    ]
-    BG.text_in_region(Wann_Wo.text_lines, 15, 370, Wann_Wo.font, fontsize=Wann_Wo.fontsize, black_offset=3)
-    region.show()
-    # region.save(output_path)
+class md_file():
+    def __init__(self,filename):
+        self.frontmatter = self.get_frontmatter(filename)
+        return
+
+    def get_frontmatter(self,filename):
+        fm_json = {}
+        file = open(filename, encoding="utf-8")
+        fm_on = False
+        for line in file.readlines():
+
+            if fm_on == True and line[:-1] == "---":
+                fm_on = False
+            elif line[:-1] == "---":
+                fm_on = True
+            elif fm_on == False:
+                continue
+            elif fm_on == True:
+                spl = line.find(":")
+                key = line[:spl]
+                value = line[spl+1:]
+                try:
+                    fm_json[key.strip()] = eval(value.strip()) # .encode())
+                except:
+                    try:
+                        fm_json[key.strip()] = value.strip()
+                    except:
+                        print("Warning: wrong frontmatter line " + line)
+        return fm_json
+
     
+def main():
+    # image = Image.open(image_file)
+    # BG = bg_canvas(hsize, vsize, image)
+    # text = "Das kann man nicht ohne weiteres wissen (und das ist in der Handle-Welt so gewollt). Metadaten von 10013 (das ist der Prefix in dem genannten Handle) deuten auf AWI (Bremerhaven). Wie kann ich solche Dinge selbst rausbekommen?"
+    # wann = '2025-06-09T15:30:00+02:00'
+    # wo = "Kerstlingeröder Feld, Göttingen"
+    # Title = text[:40]
+    # Subtitle = text
+    # SharePic = BG.buildPic(Title,Subtitle,wann,wo)
+    # SharePic.save(output_path)
+
+    if len(sys.argv) > 1:
+        mdfile = sys.argv[1]
+    else:
+        mdfile = MDfile
+    BG = bg_canvas(hsize, vsize)
+    BG.buildPicFromMDfile(mdfile,output_path)
+ 
+    
+    
+if __name__ == "__main__":
+    main()
