@@ -2,17 +2,17 @@
 layout:        events
 title:         "Kriminalisierung und Klimaaktivismus"
 subtitle:      "zwei Klimaaktivistinnen teilen ihre Geschichten und Gedanken"
-date:          2025-06-18T19:00:00+02:00
-etime:         2025-06-18T21:00:00+02:00
-publishdate:   2025-06-18T00:00:00+01:00
+date:          2025-06-24T19:00:00+02:00
+etime:         2025-06-24T21:00:00+02:00
+publishdate:   2025-06-24T00:00:00+01:00
 author:        "AStA der Uni Göttingen"
 place:         "VG 2.102 der Uni Goettingen"
-URL:           "/2025/06/18/19/00/Kriminalisierung_und_Klimaaktivismus"
+URL:           "/2025/06/24/19/00/Kriminalisierung_und_Klimaaktivismus"
 locURL:        ""
 image:         "/img/banner/2023-06-22-LG_Erdöl_statt_Wasser.jpg"
 ---
 
-**Veranstaltung: 18. Juni 2025, 19:00 Uhr, VG 2.102 der Uni Göttingen**
+**Veranstaltung: 24. Juni 2025, 19:00 Uhr, VG 2.102 der Uni Göttingen**
 
 Kriminalisierung und Klimaaktivismus
 ===========
