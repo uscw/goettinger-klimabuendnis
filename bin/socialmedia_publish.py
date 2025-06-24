@@ -6,6 +6,8 @@ from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 from email.mime.text import MIMEText
 import smtplib
+
+import socialmedia_text2img
 # import imaplib
 
 
@@ -20,11 +22,11 @@ from instagrapi import Client as InstaClient
 
 
 no_posts = True
-post_forced = True
 tdelta = -8 # timedelta to next event to post 
 baseFDIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 #baseFDIR = "/home/gkb_user/goettinger-klimabuendnis/"
 eventFDIR = baseFDIR + "content/event/"
+staticFDIR =  baseFDIR + "static/"
 eventImgFDIR = baseFDIR + "static/img/event/"
 baseURL = "https://goettinger-klimabuendnis.de/"
 eventURL = baseURL + "event/"
@@ -41,7 +43,7 @@ class article():
         # self.article_parts["frontmatter"] = frontmatter
         # self.article_parts["content"] = content
         # self.article_parts["article_separator"] = fm_separator       
-        self.article_parts["img_lines"] = self.get_img_lines()
+        self.article_parts["img_lines"] = self.find_img_lines()
         # self.article_parts["title"] = self.get_title()
         # self.article_parts["subtitle"] = self.get_subtitle()
         # self.article_parts["event_line"] = self.get_event_line()
@@ -96,7 +98,10 @@ class article():
 
         return self.article_parts
         
-    def get_img_lines(self):
+    def get_frontmatter(self):
+        return self.article_parts["frontmatter"]
+    
+    def find_img_lines(self):
         self.img_lines = []
         for line in self.article_parts["content"].split("\n"):
             if line.startswith("![") and line.endswith(")"):
@@ -104,9 +109,18 @@ class article():
                 limit = img_line.rfind("/") + 1
                 img_dir = img_line[:limit]
                 img_file = img_line[limit:]
-                self.img_lines.append([img_file, img_dir])
+                self.put_img_line(img_file, staticFDIR + img_dir)
         return self.img_lines
 
+    def get_img_lines(self):
+        return self.img_lines
+
+    def put_img_line(self, img_file, img_dir):
+        if self.img_lines == None:
+            self.img_lines = []
+        self.img_lines.append([img_file, img_dir])
+        
+    
     def get_title(self):
         return self.article_parts["frontmatter"]["title"]
     
@@ -134,10 +148,9 @@ class SM_post():
             self.calendar_line =  self.Article.article_parts["calendar_line"]
             self.content =  self.Article.article_parts["content"]
             try:
-                self.publish = self.Article.article_parts["frontmatter"]["social_media"]
+                self.publish = not self.Article.article_parts["frontmatter"]["no_social_media"]
             except:
                 self.publish = False
-            self.publish = self.publish or post_forced 
             self.title_lines = self.Article.get_title_lines()
             self.rel_url = self.get_rel_url()
         return
@@ -191,27 +204,30 @@ class mastodon_post(SM_post):
             self.calendar_line =  self.Article.article_parts["calendar_line"]
             self.content =  self.Article.article_parts["content"]
             try:
-                self.publish = self.Article.article_parts["frontmatter"]["social_media"]
+                self.publish = not self.Article.article_parts["frontmatter"]["no_social_media"]
             except:
-                self.publish = False
-            self.publish = self.publish or post_forced 
+                self.publish = True
             self.title_lines = self.Article.get_title_lines()
         return
 
     def send_post_without_image(self):
+        ret = None        
         if self.Article == None:
-            return None
-        print ("POST to Mastodon: " + self.post)
+            return ret
         ret = False
         if not no_posts:
             ret = self.m.toot(self.post)
+            print ("POST to Mastodon: " + self.post)
+        else:
+            print ("Warning: POST to Mastodon was cancelled, because no_posts==True, Post was: " + self.post)                
         return ret
     
     def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
         if self.Article == None:
-            return None
+            return ret
         # for muliple images see: https://buerviper.github.io/blog/2024/writing-a-mastodon-bot-in-python/
-        if img_file != None and not no_posts:
+        if img_file != None:
             if ImgFDIR == None:
                 ImgFDIR = eventImgFDIR 
             os.chdir(ImgFDIR)
@@ -223,18 +239,22 @@ class mastodon_post(SM_post):
                 mtype = "image/png"
             else:
                 mtype = "image/" + suffix
-            self.image = self.m.media_post(img_file, mime_type = mtype, description = self.content )
-            # this is the only required argument. you can either give the filename directly or use the "media_file" argument.
-            # this indicates the filetype. only necessarily needed if you did not use "media_type", otherwise the program will guess the correct file type
-            # adds alt text. you should definitely consider this!
+            if not no_posts:
+                self.image = self.m.media_post(img_file, mime_type = mtype, description = self.content )
+                # this is the only required argument. you can either give the filename directly or use the "media_file" argument.
+                # this indicates the filetype. only necessarily needed if you did not use "media_type", otherwise the program will guess the correct file type
+                # adds alt text. you should definitely consider this!
 
-        # Write a post with an image
-        print ("POST to Mastodon: " + self.post + " WITH " + img_file)
-        ret = False
-        if not no_posts:
-            ret = self.m.status_post(self.post, media_ids=self.image["id"] )
-        # this is the text associated with the message
-        # as said earlier, the media_post function uploads the image with an id as a dictionary. this calls the correct photo
+                # Write a post with an image
+                print ("POST image file as media to Mastodon: " + img_file)
+                ret = self.m.status_post(self.post, media_ids=self.image["id"] )
+                print ("POST to Mastodon: " + self.post)
+                # this is the text associated with the message
+                # as said earlier, the media_post function uploads the image with an id as a dictionary. this calls the correct photo
+            else:
+                print ("Warning: POST to Mastodon was cancelled, because no_posts==True, Post was: " + self.post)
+        else:
+            print ("Error: no image file found")
         return ret
 
     def get_img_dir(self, img_line):
@@ -281,10 +301,9 @@ class instagram_post(SM_post):
             self.calendar_line =  self.Article.article_parts["calendar_line"]
             self.content =  self.Article.article_parts["content"]
             try:
-                self.publish = self.Article.article_parts["frontmatter"]["social_media"]
+                self.publish = not self.Article.article_parts["frontmatter"]["social_media"]
             except:
-                self.publish = False
-            self.publish = self.publish or post_forced 
+                self.publish = True
         return
 
     def get_credentials(self):
@@ -319,22 +338,23 @@ class instagram_post(SM_post):
 
     def send_post_without_image(self):
         # currently only posts with images are supported
+        print("Warning: for instragram currently only posts with images are supported")
         return None
 
-        if self.Article == None:
-            return None
-        self.send_post_with_image(ImgFDIR=None, img_file=None)
-        url = self.url_ref
-        ts = self.post_content[-1].rfind("/")
-        url_title = "... mehr"
-        out = self.client.send_post(blueskyClientUtils.TextBuilder()
-                                    .text(self.event)
-                                    .link(self.cal_text, self.cal_url)
-                                    .text(self.post_content)
-                                    .link(url_title, url))
-        self.client.like(out.uri, out.cid)        
-        return out.uri + " " + out.cid
-        return out
+        # if self.Article == None:
+        #     return None
+        # self.send_post_with_image(ImgFDIR=None, img_file=None)
+        # url = self.url_ref
+        # ts = self.post_content[-1].rfind("/")
+        # url_title = "... mehr"
+        # out = self.client.send_post(blueskyClientUtils.TextBuilder()
+        #                             .text(self.event)
+        #                             .link(self.cal_text, self.cal_url)
+        #                             .text(self.post_content)
+        #                             .link(url_title, url))
+        # self.client.like(out.uri, out.cid)        
+        # return out.uri + " " + out.cid
+        # return out
     
     def send_post_with_image(self, ImgFDIR=None, img_file=None):
         if self.Article == None:
@@ -344,6 +364,8 @@ class instagram_post(SM_post):
         ret = None
         if not no_posts:
             ret = cl.photo_upload(path=img_file, caption=self.post)
+        else:
+            print ("Warning: POST to Instagram was cancelled, because no_posts==True, Post was: " + self.post)
         return ret
 
 class bluesky_post(SM_post):
@@ -357,10 +379,9 @@ class bluesky_post(SM_post):
             self.calendar_line =  self.Article.article_parts["calendar_line"]
             self.content =  self.Article.article_parts["content"]
             try:
-                self.publish = self.Article.article_parts["frontmatter"]["social_media"]
+                self.publish = not self.Article.article_parts["frontmatter"]["no_social_media"]
             except:
-                self.publish = False
-            self.publish = self.publish or post_forced 
+                self.publish = True
         self.client = blueskyClient()
         self.credfile = cred_fdir + "bluesky_uScw.json"
         self.cred = self.get_credentials()
@@ -394,8 +415,9 @@ class bluesky_post(SM_post):
         return self.post_content
 
     def send_post_without_image(self):
+        ret = None
         if self.Article == None:
-            return None
+            return ret
         post = self.prepare_post()
         url = self.url_ref
         ts = self.post_content[-1].rfind("/")
@@ -410,12 +432,18 @@ class bluesky_post(SM_post):
                                     .link(url_title, url))
             self.client.like(out.uri, out.cid)        
             ret = out.uri + " " + out.cid
+        else:
+            print ("Warning: POST to BlueSky was cancelled, because no_posts==True, Post was: " + self.post)
         return ret
     
     def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
         if self.Article == None:
-            return None
-        ret = self.send_post_without_image()        
+            return ret
+        if not no_posts:
+            ret = self.send_post_without_image()        
+        else:
+            print ("Warning: POST to Mastodon was cancelled, because no_posts==True, Post was: " + self.post)
         if img_file != None:
             if ImgFDIR == None or ImgFDIR == "":
                 ImgFDIR = eventImgFDIR 
@@ -444,10 +472,9 @@ class schoenerleben_post(SM_post):
         self.calendar_line =  self.Article.article_parts["calendar_line"]
         self.content =  self.Article.article_parts["content"]
         try:
-            self.publish = self.Article.article_parts["frontmatter"]["social_media"]
+            self.publish = not self.Article.article_parts["frontmatter"]["no_social_media"]
         except:
-            self.publish = False
-        self.publish = self.publish or post_forced 
+            self.publish = True
         self.rel_url = self.get_rel_url()
         self.credfile = cred_fdir + "mail_ionos_GoeKB.json"
         self.receivers = schoenerleben_receivers
@@ -532,12 +559,11 @@ def post_all_with_timedelta(timedelta):
 def post_article(Article):
         frontmatter = Article.article_parts["frontmatter"]
         try:
-            if not post_forced and not frontmatter["social_media"]:
-                print (datetime.now().isoformat() + " " + "for item: " + eventFDIR + file + "\nno publication wanted by frontmatter: 'social_media:false'")
+            if frontmatter["no_social_media"]:
+                print (datetime.now().isoformat() + " " + "for item: " + eventFDIR + file + "\nno publication wanted by frontmatter: 'no_social_media:true'")
                 sys.exit(0)
-        except: 
-            print ("for item: " + eventFDIR + file + "\nno publication wanted by frontmatter")
-            sys.exit(0)
+        except:
+            None
 
         Mastodon_Post = mastodon_post(Article)
         out = Mastodon_Post.send_post()
@@ -565,8 +591,16 @@ if __name__ == '__main__':
         file = sys.argv[1]
         ff = open(eventFDIR + file)
         article_lines = ff.readlines()
-        Article = article(article_lines)           
+        Article = article(article_lines)
+        imgs = Article.get_img_lines()
+        if len(imgs) == 0:
+            img_file = "out.jpg"
+            img_dir = "/tmp/"
+            BG = socialmedia_text2img.bg_canvas(500,500)
+            BG.buildPicWithFM(Article.get_frontmatter(),img_dir + img_file)
+            Article.put_img_line(img_file,img_dir)
         # print (Article.article_parts)
         # content = Article.article_parts["content"]
+
         post_article(Article)
 

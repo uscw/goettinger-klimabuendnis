@@ -6,11 +6,12 @@ from datetime import datetime
 
 hsize = 500
 vsize = 500
-random_box = False
+random_box = True
 fontname = "LiberationSans-Bold.ttf"
 fontsize = 28
 image_file = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2025-06-13-Brennende-Erde.jpg"
 output_path = "out.jpg"
+
 GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 MDfile = GoeKBhome + "content/event/2025-06-16_1500_Vom_Essen_aus_der_Region_bis_zur_Welternaehrung.md"
 
@@ -59,7 +60,7 @@ class bg_canvas():
 
     def dominant_color_in_region(self,region,brighter=False):
         color_sum_threshold = 140
-        color_brightener = 2.5
+        color_brightener = 2.0
         dictc={}
         for i in range( region.width ):
             for j in range( region.height ) :
@@ -144,19 +145,18 @@ class bg_canvas():
         # region.save(output_path)
         return self.region
 
-    def buildPicFromMDfile(self,MDfile,output_path):
+    def buildPicWithFM(self,frontmatter,output_path):
         # wann in Format: '2025-06-13T15:30:00+02:00'
-        FM = md_file(MDfile)
-        print(FM.frontmatter)
-        self.image_file = Image.open(GoeKBhome + "static" + FM.frontmatter["image"])
+        print(frontmatter)
+        self.image_file = Image.open(GoeKBhome + "static" + frontmatter["image"])
         self.get_image(self.image_file)
         self.get_region()
-        Title = FM.frontmatter["title"]
-        Subtitle = FM.frontmatter["subtitle"]
-        wann = FM.frontmatter["date"]
-        wo = FM.frontmatter["place"]
+        Title = frontmatter["title"]
+        Subtitle = frontmatter["subtitle"]
+        wann = frontmatter["date"]
+        wo = frontmatter["place"]
         SharePic = self.buildPic(Title,Subtitle,wann,wo)
-        SharePic.save(output_path)
+        SharePic.convert('RGB').save(output_path)
 
     
 class text_field():
@@ -285,8 +285,10 @@ def main():
         mdfile = sys.argv[1]
     else:
         mdfile = MDfile
+
+    MD = md_file(mdfile)
     BG = bg_canvas(hsize, vsize)
-    BG.buildPicFromMDfile(mdfile,output_path)
+    BG.buildPicWithFM(MD.frontmatter,output_path)
  
     
     
