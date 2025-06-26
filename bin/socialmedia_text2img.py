@@ -5,15 +5,15 @@ import locale
 from datetime import datetime
 
 hsize = 500
-vsize = 500
+vsize = 700
 random_box = True
 fontname = "LiberationSans-Bold.ttf"
 fontsize = 28
-image_file = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2025-06-13-Brennende-Erde.jpg"
-output_path = "out.jpg"
+#image_file = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2025-06-13-Brennende-Erde.jpg"
+output_path = "/tmp/out.jpg"
 
 GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
-MDfile = GoeKBhome + "content/event/2025-06-16_1500_Vom_Essen_aus_der_Region_bis_zur_Welternaehrung.md"
+eventFDIR = GoeKBhome + "content/event/"
 
 class bg_canvas():
     def __init__(self, hsize, vsize):
@@ -110,6 +110,7 @@ class bg_canvas():
         fontname3 = "Courier-Bold.ttf"
         fontsize3 = 28
 
+        # place title lines in grey subregion
         Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
         xoffset = int(self.hsize * 3/100)
         textbox_width = self.hsize - xoffset
@@ -121,26 +122,29 @@ class bg_canvas():
         textlines = Title.break_text(text_width_zone, max_textbox_height)
         textbox_height = int(fontsize1 * 1.1 * len(textlines)) + xoffset
         yoffset = upperTextBound + (max_textbox_height - min(max_textbox_height,textbox_height))
-        textbox = (xoffset, yoffset-addBoxHeight, textbox_width, yoffset + textbox_height+addBoxHeight)
-        subregion = self.region.crop(textbox)
+        tb_region_width = textbox_width
+        tb_region_height = textbox_height
+        textbox_region = (xoffset, yoffset-addBoxHeight, tb_region_width, yoffset +  tb_region_height + addBoxHeight)
+        subregion = self.region.crop(textbox_region)
         dom_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
-        self.region.paste(subregion_grey,(textbox[0], textbox[1]))
-        self.text_in_region(textlines, textbox[0]+leftTextBound, textbox[1]+addBoxHeight, Title.font, fontsize=Title.fontsize, color=dom_col)
+        self.region.paste(subregion_grey,(textbox_region[0], textbox_region[1]))
+        self.text_in_region(textlines, textbox_region[0]+leftTextBound, textbox_region[1]+addBoxHeight, Title.font, fontsize=Title.fontsize, color=dom_col)
 
 
+        # place subtitle lines at the bottom in grey subregion
         Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
         max_textbox_height = int(self.vsize * 1/25)
         textlines = Subtitle.break_text(text_width_zone, max_textbox_height)
         textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xoffset
-        self.text_in_region(textlines, textbox[0]+leftTextBound, 310, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
+        self.text_in_region(textlines, textbox_region[0]+leftTextBound, textbox_region[1] + tb_region_height + addBoxHeight - 10, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
         
         
             
         Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
         textlines = Wann_Wo.get_time_place_lines(wann,wo)
         
-        self.text_in_region(textlines, 15, 370, Wann_Wo.font, fontsize=fontsize3)
+        self.text_in_region(textlines, 15, self.vsize - 130, Wann_Wo.font, fontsize=fontsize3)
         self.region.show()
         # region.save(output_path)
         return self.region
@@ -269,28 +273,14 @@ class md_file():
                         print("Warning: wrong frontmatter line " + line)
         return fm_json
 
-    
-def main():
-    # image = Image.open(image_file)
-    # BG = bg_canvas(hsize, vsize, image)
-    # text = "Das kann man nicht ohne weiteres wissen (und das ist in der Handle-Welt so gewollt). Metadaten von 10013 (das ist der Prefix in dem genannten Handle) deuten auf AWI (Bremerhaven). Wie kann ich solche Dinge selbst rausbekommen?"
-    # wann = '2025-06-09T15:30:00+02:00'
-    # wo = "Kerstlingeröder Feld, Göttingen"
-    # Title = text[:40]
-    # Subtitle = text
-    # SharePic = BG.buildPic(Title,Subtitle,wann,wo)
-    # SharePic.save(output_path)
+##########################
+if __name__ == "__main__":
 
     if len(sys.argv) > 1:
         mdfile = sys.argv[1]
     else:
-        mdfile = MDfile
-
-    MD = md_file(mdfile)
+        print ("usage: " + sys.argv[0] + "event_file.md")
+        sys.exit(1)
+    MD = md_file(eventFDIR + mdfile)
     BG = bg_canvas(hsize, vsize)
     BG.buildPicWithFM(MD.frontmatter,output_path)
- 
-    
-    
-if __name__ == "__main__":
-    main()

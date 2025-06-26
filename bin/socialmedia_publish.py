@@ -21,7 +21,7 @@ from atproto import client_utils as blueskyClientUtils
 from instagrapi import Client as InstaClient
 
 
-no_posts = True
+no_posts = False # True
 tdelta = -8 # timedelta to next event to post 
 baseFDIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 #baseFDIR = "/home/gkb_user/goettinger-klimabuendnis/"
@@ -284,90 +284,6 @@ class mastodon_post(SM_post):
     def lookup_account(self):
         return self.m.account_lookup(self.user)
 
-
-class instagram_post(SM_post):
-    def __init__(self,Article):
-        self.char_limit = 200
-        self.client = InstaClient()
-        self.credfile = cred_fdir + "instagram_GoeKB.json"
-        self.cred = self.get_credentials()
-        self.user_md = self.server_login()
-        # self.settings = self.lookup_account() 
-        self.Article = Article
-        if self.Article != None:
-            self.rel_url = self.get_rel_url()
-            self.frontmatter = self.Article.article_parts["frontmatter"]
-            self.event = self.Article.article_parts["event_date"]
-            self.calendar_line =  self.Article.article_parts["calendar_line"]
-            self.content =  self.Article.article_parts["content"]
-            try:
-                self.publish = not self.Article.article_parts["frontmatter"]["social_media"]
-            except:
-                self.publish = True
-        return
-
-    def get_credentials(self):
-        try:
-            fc = open(self.credfile)
-            cred_str = fc.read()
-        except:
-            print(datetime.now().isoformat() + " " + "Error: credentials file for BlueSky not found at " + self.credfile + ". Try mounting the credentials file system")
-            sys.exit(1)
-        return eval(cred_str)
-
-    def server_login(self):
-        if not self.client.login(self.cred['username'], self.cred['password']):
-            print ("Error: could not login with " + self.cred['username'] + " at " + self.cred["baseuri"])
-
-    def lookup_account(self):
-        return self.client.get_settings()
-
-    def prepare_post(self):
-        if self.Article == None:
-            return None
-        cal_parts = self.calendar_line.find(":")
-        self.cal_text = self.calendar_line[:cal_parts]
-        self.cal_url = self.calendar_line[cal_parts+1:].strip()
-        self.url_ref = baseURL + self.rel_url
-        overhead = len(self.event) + len(' ... mehr: ')
-        self.post_content = self.content[:self.char_limit - overhead]
-        # self.post_content = self.content[:self.char_limit]
-        limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
-        self.post_content = self.post_content[:limit+1]
-        return self.post_content
-
-    def send_post_without_image(self):
-        # currently only posts with images are supported
-        print("Warning: for instragram currently only posts with images are supported")
-        return None
-
-        # if self.Article == None:
-        #     return None
-        # self.send_post_with_image(ImgFDIR=None, img_file=None)
-        # url = self.url_ref
-        # ts = self.post_content[-1].rfind("/")
-        # url_title = "... mehr"
-        # out = self.client.send_post(blueskyClientUtils.TextBuilder()
-        #                             .text(self.event)
-        #                             .link(self.cal_text, self.cal_url)
-        #                             .text(self.post_content)
-        #                             .link(url_title, url))
-        # self.client.like(out.uri, out.cid)        
-        # return out.uri + " " + out.cid
-        # return out
-    
-    def send_post_with_image(self, ImgFDIR=None, img_file=None):
-        if self.Article == None:
-            return None
-        self.post = self.prepare_post()
-        print ("POST to Instagram: " + self.post + " WITH " + img_file)
-        ret = None
-        if not no_posts:
-            ret = cl.photo_upload(path=img_file, caption=self.post)
-        else:
-            print ("Warning: POST to Instagram was cancelled, because no_posts==True, Post was: " + self.post)
-        return ret
-
 class bluesky_post(SM_post):
     def __init__(self,Article):
         self.char_limit = 200
@@ -443,12 +359,12 @@ class bluesky_post(SM_post):
         if not no_posts:
             ret = self.send_post_without_image()        
         else:
-            print ("Warning: POST to Mastodon was cancelled, because no_posts==True, Post was: " + self.post)
+            print ("Warning: POST to BlueSky was cancelled, because no_posts==True, Post was: " + self.post)
         if img_file != None:
             if ImgFDIR == None or ImgFDIR == "":
                 ImgFDIR = eventImgFDIR 
             img_file = ImgFDIR + img_file
-            print ("POST image to Instagram: " + img_file)
+            print ("POST image to BlueSky: " + img_file)
             ret = None
             if not no_posts:
                 with open(img_file, 'rb') as img:
@@ -461,6 +377,96 @@ class bluesky_post(SM_post):
         external_link = AppBskyEmbedExternal.External(uri=URL, title=URL_TITLE, description=URL_DESCRIPTION)
         return url, url_title, url_description, external_link
         
+
+class instagram_post(SM_post):
+    def __init__(self,Article):
+        self.char_limit = 200
+        self.client = InstaClient()
+        self.credfile = cred_fdir + "instagram_GoeKB.json"
+        self.cred = self.get_credentials()
+        self.user_md = self.server_login()
+        # self.settings = self.lookup_account() 
+        self.Article = Article
+        if self.Article != None:
+            self.rel_url = self.get_rel_url()
+            self.frontmatter = self.Article.article_parts["frontmatter"]
+            self.event = self.Article.article_parts["event_date"]
+            self.calendar_line =  self.Article.article_parts["calendar_line"]
+            self.content =  self.Article.article_parts["content"]
+            try:
+                self.publish = not self.Article.article_parts["frontmatter"]["social_media"]
+            except:
+                self.publish = True
+        return
+
+    def get_credentials(self):
+        try:
+            fc = open(self.credfile)
+            cred_str = fc.read()
+        except:
+            print(datetime.now().isoformat() + " " + "Error: credentials file for BlueSky not found at " + self.credfile + ". Try mounting the credentials file system")
+            sys.exit(1)
+        return eval(cred_str)
+
+    def server_login(self):
+        if not self.client.login(self.cred['username'], self.cred['password']):
+            print ("Error: could not login with " + self.cred['username'] + " at " + self.cred["baseuri"])
+
+    def lookup_account(self):
+        return self.client.get_settings()
+
+    def prepare_post(self):
+        if self.Article == None:
+            return None
+        cal_parts = self.calendar_line.find(":")
+        self.cal_text = self.calendar_line[:cal_parts]
+        self.cal_url = self.calendar_line[cal_parts+1:].strip()
+        self.url_ref = baseURL + self.rel_url
+        overhead = len(self.event) + len(' ... mehr: ')
+        self.post_content = self.content[:self.char_limit - overhead]
+        # self.post_content = self.content[:self.char_limit]
+        limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
+        self.post_content = self.post_content[:limit+1]
+        return self.post_content
+
+    def send_post_without_image(self):
+        # currently only posts with images are supported
+        print("Warning: for instragram currently only posts with images are supported")
+        return None
+
+        # if self.Article == None:
+        #     return None
+        # self.send_post_with_image(ImgFDIR=None, img_file=None)
+        # url = self.url_ref
+        # ts = self.post_content[-1].rfind("/")
+        # url_title = "... mehr"
+        # out = self.client.send_post(blueskyClientUtils.TextBuilder()
+        #                             .text(self.event)
+        #                             .link(self.cal_text, self.cal_url)
+        #                             .text(self.post_content)
+        #                             .link(url_title, url))
+        # self.client.like(out.uri, out.cid)        
+        # return out.uri + " " + out.cid
+        # return out
+    
+    def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
+        if self.Article == None:
+            return ret
+        self.post = self.prepare_post()
+        print ("POST to Instagram: " + self.post + " WITH " + img_file)
+
+        if img_file != None:
+            if ImgFDIR == None or ImgFDIR == "":
+                ImgFDIR = eventImgFDIR 
+            img_file = ImgFDIR + img_file
+            print ("POST image to Instagram: " + img_file)
+            if not no_posts:
+                ret = self.client.photo_upload(path=img_file, caption=self.post)
+            else:
+                print ("Warning: POST to Instagram was cancelled, because no_posts==True, Post was: " + self.post)
+        return ret
+
 
 class schoenerleben_post(SM_post):
     def __init__(self, Article):
