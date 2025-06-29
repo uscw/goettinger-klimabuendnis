@@ -1,0 +1,671 @@
+#!/usr/bin/python3
+import os
+import sys
+import json
+import argparse
+from datetime import date, datetime, timezone, timedelta
+from dateutil.relativedelta import relativedelta
+
+# Import the Client class for Mastodon
+from mastodon import Mastodon
+# Import the Client class for Bluesky from the atproto library
+from atproto import Client as blueskyClient
+from atproto import client_utils as blueskyClientUtils
+# Import the Client class for Instagram
+from instagrapi import Client as InstaClient
+# import email tools for Schoener Leben
+from email.mime.text import MIMEText
+import smtplib
+
+import socialmedia_text2img
+
+
+no_posts = False # True
+tdelta = 4 # timedelta to next event to post 
+baseFDIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
+#baseFDIR = "/home/gkb_user/goettinger-klimabuendnis/"
+eventFDIR = baseFDIR + "content/event/"
+staticFDIR =  baseFDIR + "static/"
+eventImgFDIR = baseFDIR + "static/img/event/"
+baseURL = "https://goettinger-klimabuendnis.de/"
+eventURL = baseURL + "event/"
+cred_fdir = "/tmp/Certs/otherCredentials/"
+schoenerleben_receivers = ["ulrich.schwardmann@web.de", "ulrich.schwardmann@web.de"]
+out_lg = 200
+verbosity = 1
+
+class article():
+    
+    def __init__(self,article_lines):
+        self.article_lines = article_lines
+        self.article_parts = self.get_content_separation()
+        # self.article_parts["full_title"] = self.get_full_title()        
+        # self.article_parts["frontmatter"] = frontmatter
+        # self.article_parts["content"] = content
+        # self.article_parts["article_separator"] = fm_separator       
+        self.article_parts["img_lines"] = self.find_img_lines()
+        # self.article_parts["title"] = self.get_title()
+        # self.article_parts["subtitle"] = self.get_subtitle()
+        # self.article_parts["event_line"] = self.get_event_line()
+        # self.article_parts[""] = self.get_()
+        # self.article_parts[""] = self.get_()
+        self.title_lines = self.get_title_lines()
+        # print ("\n****" + "****\n")
+        # for item in self.article_parts:
+        #     print ("\n****" + item + "****\n" + str(self.article_parts[item]))
+        # print ("\n****" + "****\n")
+        return
+    
+    def get_content_separation(self):
+        self.article_parts = {}
+        fm_delims = []
+        k = 0
+        l = 0
+        frontmatter = {}
+        content = ""
+        is_frontmatter = None
+        lastline = ""
+        for line in self.article_lines:
+            if line == "---\n":
+                if is_frontmatter == None:
+                    is_frontmatter = True
+                else:
+                    is_frontmatter = False
+                continue
+            if is_frontmatter and line.strip() != "":
+                d = line.find(":")
+                key = line[:d]
+                value = line[d+1:].strip()
+                if value[0] == '"' or value[0] == "'":
+                    value = value[1:]
+                if value[-1] == '"' or value[-1] == "'":
+                    value = value[:-1]
+                if value == "false":
+                    value = False
+                if value == "true":
+                    value = True
+                frontmatter[key] = value
+            if line.startswith("**Veranstaltung:"):
+                self.article_parts["event_date"] = line.replace("**","")
+            elif line.startswith("Kalenderdatei:") and line.strip().endswith(".ics)"):
+                
+                self.article_parts["calendar"] = line
+                self.article_parts["calendar_line"] = self.prepare_calender_line() + "\n"
+            elif not is_frontmatter:
+                content += line
+        self.article_parts["frontmatter"] = frontmatter
+        self.article_parts["content"] = content.replace("\n\n\n", "\n\n")
+
+        return self.article_parts
+        
+    def get_frontmatter(self):
+        return self.article_parts["frontmatter"]
+    
+    def find_img_lines(self):
+        self.img_lines = []
+        for line in self.article_parts["content"].split("\n"):
+            if line.startswith("![") and line.endswith(")"):
+                img_line = line.split("(")[1][:-1]
+                limit = img_line.rfind("/") + 1
+                img_dir = img_line[:limit]
+                img_file = img_line[limit:]
+                self.put_img_line(img_file, staticFDIR + img_dir)
+        return self.img_lines
+
+    def get_img_lines(self):
+        return self.img_lines
+
+    def put_img_line(self, img_file, img_dir):
+        if self.img_lines == None:
+            self.img_lines = []
+        self.img_lines.append([img_file, img_dir])
+        
+    
+    def get_title(self):
+        return self.article_parts["frontmatter"]["title"]
+    
+    def get_subtitle(self):
+        return self.article_parts["frontmatter"]["subtitle"]
+
+    def get_title_lines(self):
+        return self.article_parts["frontmatter"]["title"] + "\n===========\n" + self.article_parts["frontmatter"]["subtitle"] + "\n"
+    
+    def get_event_line(self):
+        return self.article_parts["event_date"]
+
+    def prepare_calender_line(self):
+        self.calendar_line = self.article_parts["calendar"].replace("Kalenderdatei:","").replace("[","").replace("]","").replace("(",": "+baseURL).replace(")","").strip() + "\n"
+        return self.calendar_line
+
+
+class SM_post():
+    def __init__(self, Article=None):
+        self.char_limit = 1000
+        self.Article = Article
+        if self.Article != None:
+            self.get_article_vars()
+        return
+    
+    def get_article_vars(self):
+        self.frontmatter = self.Article.article_parts["frontmatter"]
+        self.event = self.Article.article_parts["event_date"]
+        self.calendar_line =  self.Article.article_parts["calendar_line"]
+        self.content =  self.Article.article_parts["content"]
+        try:
+            self.publish = not self.Article.article_parts["frontmatter"]["no_social_media"]
+        except:
+            self.publish = False
+        self.title_lines = self.Article.get_title_lines()
+        self.rel_url = self.get_rel_url()
+        return
+
+    def get_rel_url(self):
+        if self.Article == None:
+            return None
+        url_line = self.Article.article_parts["frontmatter"]["URL"]
+        return url_line.strip().replace('"','')
+
+    def prepare_post(self):
+        if self.Article == None:
+            return None
+        self.url_ref = baseURL + self.rel_url
+        overhead = len(self.url_ref) + len(' ... mehr: ')
+        self.post_content = self.event + "\n" +  self.calendar_line + "\n" +  self.content
+        self.post_content = self.post_content[:self.char_limit - overhead]
+        limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
+        self.post_content = self.post_content[:limit+1]
+        if self.rel_url != "":
+            self.post_content += ' ... mehr: ' + self.url_ref
+        return self.post_content
+           
+    def send_post(self):
+        if self.Article == None:
+            return None
+        if not self.publish:
+            return None
+        self.post = self.prepare_post()
+        if len(self.Article.img_lines) == 0:
+            out = self.send_post_with_image()
+            #out = self.send_post_without_image()
+        else:
+            out = self.send_post_with_image(ImgFDIR=self.Article.img_lines[0][1], img_file=self.Article.img_lines[0][0])
+        return out
+
+
+class mastodon_post(SM_post):
+    def __init__(self, Article=None):
+        self.char_limit = 500
+        self.cred_fn = cred_fdir + "mastodon_uScw.json"
+        self.cred = self.get_credentials()
+        self.token = self.cred["token"]
+        self.api_base_url = self.cred["api_base_url"]
+        self.m = Mastodon(access_token=self.token, api_base_url=self.api_base_url)
+        self.Article = Article
+        if Article != None:
+            self.get_article_vars()
+        return
+
+    def send_post_without_image(self):
+        ret = None        
+        if self.Article == None:
+            return ret
+        ret = False
+        if not no_posts:
+            ret = self.m.toot(self.post)
+            if verbosity > 0:
+                print ("POST to Mastodon")
+            if verbosity > 1:
+                print (self.post)
+        else:
+            if verbosity > 0:
+                print ("Warning: POST to Mastodon was cancelled, because no_posts==True")
+            if verbosity > 1:
+                print ("Post was: \n" + self.post)                
+        return ret
+    
+    def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
+        if self.Article == None:
+            return ret
+        # for muliple images see: https://buerviper.github.io/blog/2024/writing-a-mastodon-bot-in-python/
+        if img_file != None:
+            if ImgFDIR == None:
+                ImgFDIR = eventImgFDIR 
+            os.chdir(ImgFDIR)
+            # changes the working directory to /images. If you don't want that, simply skip this and store your python script in the same folder as the images.
+            suffix = img_file[img_file.rfind(".")+1:]
+            if suffix.lower() in ["jpg", "jpeg"]:
+                mtype = "image/jpg"
+            elif  suffix.lower() in ["png"]:
+                mtype = "image/png"
+            else:
+                mtype = "image/" + suffix
+            if not no_posts:
+                self.image = self.m.media_post(img_file, mime_type = mtype, description = self.content )
+                # this is the only required argument. you can either give the filename directly or use the "media_file" argument.
+                # this indicates the filetype. only necessarily needed if you did not use "media_type", otherwise the program will guess the correct file type
+                # adds alt text. you should definitely consider this!
+
+                # Write a post with an image
+                if verbosity > 1:                
+                    print ("POST image file as media to Mastodon: " + img_file)
+                ret = self.m.status_post(self.post, media_ids=self.image["id"] )
+                if verbosity > 0:
+                    print ("POST to Mastodon")
+                if verbosity > 1:
+                    print ("Post was: \n" + self.post)
+                # this is the text associated with the message
+                # as said earlier, the media_post function uploads the image with an id as a dictionary. this calls the correct photo
+            elif verbosity > 0:
+                print ("Warning: POST to Mastodon was cancelled, because no_posts==True, Post was: " + self.post)
+        else:
+            print ("Error: no image file found")
+        return ret
+
+    def get_img_dir(self, img_line):
+        if self.Article == None:
+            return None
+        img_ptr = img_line.split("(")[1][:-1]
+        last_slash = img_ptr.rfind("/")
+        img_prefix = img_ptr[:last_slash]
+        img_file = img_ptr[last_slash:]
+        return img_prefix, img_file
+    
+    def delete_post(self,id):
+        return
+
+    def get_credentials(self):
+        try:
+            cred_file = open(self.cred_fn, "r")
+            fjson = json.loads(cred_file.read())
+        except:
+            print (datetime.now().isoformat() + " " + "Error: Access Token for Mastodon not found at " + self.cred_fn + ". Try mounting the credentials file system")
+            sys.exit(1)
+        return fjson
+
+    def get_token(self):
+            return cred["token"]
+
+    def lookup_account(self):
+        return self.m.account_lookup(self.user)
+
+
+class bluesky_post(SM_post):
+    def __init__(self,Article):
+        self.char_limit = 200
+        self.Article = Article
+        if self.Article != None:            
+            self.get_article_vars()
+        self.client = blueskyClient()
+        self.cred_fn = cred_fdir + "bluesky_uScw.json"
+        self.cred = self.get_credentials()
+        self.user_md = self.server_login()
+        return
+
+    def get_credentials(self):
+        try:
+            fc = open(self.cred_fn)
+            cred_str = fc.read()
+        except:
+            print(datetime.now().isoformat() + " " + "Error: credentials file for BlueSky not found at " + self.cred_fn + ". Try mounting the credentials file system")
+            sys.exit(1)
+        return eval(cred_str)
+
+    def server_login(self):
+        return self.client.login(self.cred['username'], self.cred['password'])
+
+    def prepare_post(self):
+        if self.Article == None:
+            return None
+        cal_parts = self.calendar_line.find(":")
+        self.cal_text = self.calendar_line[:cal_parts]
+        self.cal_url = self.calendar_line[cal_parts+1:].strip()
+        self.url_ref = baseURL + self.rel_url
+        overhead = len(self.event) + len(' ... mehr: ')
+        self.post_content = self.content[:self.char_limit - overhead]
+        # self.post_content = self.content[:self.char_limit]
+        limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
+        self.post_content = self.post_content[:limit+1]
+        return self.post_content
+
+    def send_post_without_image(self):
+        ret = None
+        if self.Article == None:
+            return ret
+        post = self.prepare_post()
+        url = self.url_ref
+        ts = self.post_content[-1].rfind("/")
+        url_title = "... mehr"        
+        if verbosity > 0:
+            print ("POST to BlueSky")
+        if verbosity > 1:
+            print (self.post_content)
+        ret = None
+        if not no_posts:
+            out = self.client.send_post(blueskyClientUtils.TextBuilder()
+                                    .text(self.event)
+                                    .link(self.cal_text, self.cal_url)
+                                    .text(self.post_content)
+                                    .link(url_title, url))
+            self.client.like(out.uri, out.cid)        
+            ret = out.uri + " " + out.cid
+        else:
+            if verbosity > 0:
+                print ("Warning: POST to BlueSky was cancelled, because no_posts==True")
+            if verbosity > 1:
+                print ("Post was: " + self.post)
+        return ret
+    
+    def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
+        if self.Article == None:
+            return ret
+        if not no_posts:
+            ret = self.send_post_without_image()        
+        else:
+            if verbosity == 1:
+                print ("Warning: POST to BlueSky was cancelled, because no_posts==True")
+            if verbosity > 1:
+                print (" Post was: " + self.post)
+        if img_file != None:
+            if ImgFDIR == None or ImgFDIR == "":
+                ImgFDIR = eventImgFDIR 
+            img_file = ImgFDIR + img_file
+            if verbosity > 0:
+                print ("POST image to BlueSky: " + img_file)
+            ret = None
+            if not no_posts:
+                with open(img_file, 'rb') as img:
+                    img_data = img.read()
+                    self.client.send_image(text='', image=img_data, image_alt=self.event)
+        return ret
+        
+
+    def prepare_external_link(self):
+        external_link = AppBskyEmbedExternal.External(uri=URL, title=URL_TITLE, description=URL_DESCRIPTION)
+        return url, url_title, url_description, external_link
+        
+
+class instagram_post(SM_post):
+    def __init__(self,Article):
+        self.char_limit = 200
+        self.client = InstaClient()
+        self.cred_fn = cred_fdir + "instagram_GoeKB.json"
+        self.cred = self.get_credentials()
+        self.user_md = self.server_login()
+        # self.settings = self.lookup_account() 
+        self.Article = Article
+        if self.Article != None:
+            self.get_article_vars()
+        return
+
+    def get_credentials(self):
+        try:
+            fc = open(self.cred_fn)
+            cred_str = fc.read()
+        except:
+            print(datetime.now().isoformat() + " " + "Error: credentials file for BlueSky not found at " + self.cred_fn + ". Try mounting the credentials file system")
+            sys.exit(1)
+        return eval(cred_str)
+
+    def server_login(self):
+        if not self.client.login(self.cred['username'], self.cred['password']):
+            print ("Error: could not login with " + self.cred['username'] + " at " + self.cred["baseuri"])
+
+    def lookup_account(self):
+        return self.client.get_settings()
+
+    def prepare_post(self):
+        if self.Article == None:
+            return None
+        cal_parts = self.calendar_line.find(":")
+        self.cal_text = self.calendar_line[:cal_parts]
+        self.cal_url = self.calendar_line[cal_parts+1:].strip()
+        self.url_ref = baseURL + self.rel_url
+        overhead = len(self.event) + len(' ... mehr: ')
+        self.post_content = self.content[:self.char_limit - overhead]
+        # self.post_content = self.content[:self.char_limit]
+        limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
+        self.post_content = self.post_content[:limit+1]
+        return self.post_content
+
+    def send_post_without_image(self):
+        # currently only posts with images are supported
+        print("Warning: for instragram currently only posts with images are supported")
+        return None
+    
+    def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        ret = None
+        if self.Article == None:
+            return ret
+        self.post = self.prepare_post()
+        if verbosity > 0:
+            print("POST to Instagram: ")
+        if img_file != None:
+            if ImgFDIR == None or ImgFDIR == "":
+                ImgFDIR = eventImgFDIR 
+            img_file = ImgFDIR + img_file
+            if verbosity > 1:
+                print ("POST image to Instagram: " + img_file)
+            if not no_posts:
+                ret = self.client.photo_upload(path=img_file, caption=self.post)
+            else:
+                if verbosity > 0:
+                    print ("Warning: POST to Instagram was cancelled, because no_posts==True")
+                if verbosity > 1:
+                    print ("Post was: " + self.post)
+        return ret
+
+
+class schoenerleben_post(SM_post):
+    def __init__(self, Article):
+        self.char_limit = 6000
+        self.Article = Article
+        if self.Article != None:
+            self.get_article_vars()
+        self.rel_url = self.get_rel_url()
+        self.receivers = schoenerleben_receivers
+        self.cred_fn = cred_fdir + "mail_ionos_GoeKB.json"
+        self.cred = self.get_credentials()
+        return
+
+    def get_credentials(self):
+        try:
+            fc = open(self.cred_fn)
+            cred_str = fc.read()
+        except:
+            print(datetime.now().isoformat() + " " + "Error: credentials file for SchoenerLeben not found at " + self.cred_fn + ". Try mounting the credentials file system")
+            sys.exit(1)
+        return eval(cred_str)
+
+    def get_subject(self):
+        self.subject = self.Article.get_event_line() + " - " + self.Article.get_title()
+        return self.subject
+    
+    def send_post_without_image(self):
+        self.rel_url
+        post = self.prepare_post()
+        subject = self.get_subject()
+        # body = self.content
+        if verbosity > 0:
+            print ("POST to SchoenerLeben: ")
+        if verbosity > 1:
+            print (subject + ":\n" + post)
+        ret = None
+        if not no_posts:
+            ret = self.send_email(subject, post)
+        return ret
+
+    def send_post_with_image(self, ImgFDIR=None, img_file=None):
+        # cannot send any images to schoenerleben right now
+        return self.send_post_without_image()
+
+    def send_email(self,subject, body):
+        msg = MIMEText(body)
+        msg['Subject'] = subject
+        msg['From'] = self.cred["username"]
+        msg['To'] = ', '.join(self.receivers)
+        self.username = self.cred["username"]
+        self.password = self.cred["password"]
+        self.smtpserver = self.cred["baseuri"].split(":")[0]
+        self.smtpport = int(self.cred["baseuri"].split(":")[1])
+        self.imapserver = self.cred["imapuri"].split(":")[0]
+        self.imapport = int(self.cred["imapuri"].split(":")[1])
+        self.imapport = 993
+
+        try:
+            with smtplib.SMTP(self.smtpserver, self.smtpport) as smtp_server:
+                smtp_server.starttls()  # Start TLS encryption
+                smtp_server.login(self.username, self.password)
+                smtp_server.sendmail(self.username, self.receivers, msg.as_string())
+                out = "The event email is sent from: " + self.username + " successfully to: " + ', '.join(self.receivers)
+        except:
+            out = "Error: The event email from: " + self.username + "  to: " + ', '.join(self.receivers) + " failed"
+        # if self.To_Send_Folder:
+        #     self.move_to_send_folder(msg)
+        return out
+
+    def move_to_send_folder(self,msg):
+        imap = imaplib.IMAP4_SSL(self.imapserver, self.imapport)
+        imap.login(self.username, self.password)
+        imap.append('INBOX.Sent', '\\Seen', imaplib.Time2Internaldate(datetime.now().timestamp()), msg.as_string().encode('utf8'))
+        return imap.logout()
+        
+
+class publisher():
+    def __init__(self,file,pub_pattern):
+        #self.Article = self.prepare_article_post(file)
+        self.pub_pattern = pub_pattern # String like "BIMS"
+        if "B" in self.pub_pattern:
+            if verbosity > 0:
+                print ("init Post with for BlueSky")
+            self.BlueSky_Post = bluesky_post()
+        if "I" in self.pub_pattern:
+            if verbosity > 0:
+                print ("init Post with or Instagram")
+            self.Instagram_Post = instagram_post()
+        if "M" in self.pub_pattern:
+            if verbosity > 0:
+                print ("init Post with for Mastodon")
+            self.Mastodon_Post = mastodon_post()
+        if "S" in self.pub_pattern:
+            if verbosity > 0:
+                print ("init Post with for SchoenerLeben")
+            self.SchoenerLeben_Post = schoenerleben_post()
+        
+    def prepare_article_post(self,file):
+        ff = open(eventFDIR + file)
+        article_lines = ff.readlines()
+        self.Article = article(article_lines)
+        imgs = self.Article.get_img_lines()
+        if len(imgs) == 0:
+            img_file = "out.jpg"
+            img_dir = "/tmp/"
+            self.BG = socialmedia_text2img.bg_canvas(500,500)
+            self.BG.buildPicWithFM(self.Article.get_frontmatter(),img_dir + img_file)
+            self.Article.put_img_line(img_file,img_dir)
+        self.get_article_vars()
+        return self.Article
+    
+    def post_article(self):
+        print(self.frontmatter)
+        try:
+            if self.frontmatter["no_social_media"]:
+                if verbosity > 0:
+                    print (datetime.now().isoformat() + " " + "for item: " + eventFDIR + file + "\nno publication wanted by frontmatter: 'no_social_media:true'")
+                sys.exit(0)
+        except:
+            None
+
+        if "B" in self.pub_pattern:
+            out = self.BlueSky_Post.send_post()
+            out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
+            if verbosity > 0:
+                print(out)
+    
+        if "I" in self.pub_pattern:
+            out = self.Instagram_Post.send_post()
+            out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
+            if verbosity > 0:
+                print(out)
+    
+        if "M" in self.pub_pattern:
+            out = self.Mastodon_Post.send_post()
+            out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
+            if verbosity > 0:
+                print(out)
+    
+        if "S" in self.pub_pattern:
+            out = self.SchoenerLeben_Post.send_post()
+            out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
+            if verbosity > 0:
+                print(out)
+
+    def post_all_with_timedelta(self,TimeDelta=tdelta):
+        dt_tdelta = datetime.strftime(datetime.now()+timedelta(days=TimeDelta),"%Y-%m-%d")
+        
+        for file in os.listdir(eventFDIR):
+    
+            if file.startswith(dt_tdelta) and not file.endswith("~"):
+                ff = open(eventFDIR + file)
+                article_lines = ff.readlines()
+                self.Article = article(article_lines)
+                
+                self.post_article()
+    
+        
+##########################
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(description="prepares and delivers posts for social media platforms from GöKB event files\nincluding automated generation of SharePics, if needed")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("-v", "--verbose", action="store_true")
+    group.add_argument("-q", "--quiet", action="store_true")
+    parser.add_argument("-T", "--Test", help="test post preparation and credential availability (no posts)",nargs='?', const="-1", action="store")
+    parser.add_argument("-P", "--post_pattern", help="post pattern (i.e. BIMS, can contain upper chars like [B]luesky, [I]nstagram, [M]astodon, [S]choenerleben)",nargs='?', const="none", action="store")
+    parser.add_argument("-E", "--event_dir", help="event directory", nargs='?', const=eventFDIR, action="store")
+    parser.add_argument("-I", "--img_dir", help="image directory for events", nargs='?', const=eventImgFDIR, action="store")
+    parser.add_argument("-f", "--file", help="file in event directory", nargs='?', action="store")
+    parser.add_argument("-d", "--day_delta", help="delta of days for announcement before event date",nargs='?', const=4, action="store")
+
+
+    args = parser.parse_args()
+    if args.quiet:
+        verbosity = 0
+    if args.verbose:
+        verbosity = 2
+    if args.Test:
+        args.get_schema = args.Test
+        no_posts = True
+        # if args.file:
+        #     File = args.file
+        #     print("File",File)
+        #     Pub = publisher(args.file,args.post_pattern)
+        #     Pub.post_article()
+        # elif args.day_delta:
+        #     tdelta = args.day_delta
+        #     print("DayDelta",tdelta)
+        #     Pub = publisher(args.file,args.post_pattern)
+        #     Pub.post_all_with_timedelta(timedelta=tdelta)
+    if args.post_pattern:
+        PostPattern = args.post_pattern
+        print("PostPattern",PostPattern)
+    if args.event_dir:
+        eventFDIR = args.event_dir
+        print("event_dir",eventFDIR)
+    if args.img_dir:
+        eventImgFDIR = args.img_dir
+        print("img_dir",eventImgFDIR)
+    if args.file:
+        File = args.file
+        print("File",File)
+        Pub = publisher(args.file,args.post_pattern)
+        Pub.post_article()
+    elif args.day_delta:
+        tdelta = args.day_delta
+        print("DayDelta",tdelta)
+        Pub = publisher(args.file,args.post_pattern)
+        Pub.post_all_with_timedelta(TimeDelta=tdelta)
+    else:
+        print ("Warning: no possible events specified")
+

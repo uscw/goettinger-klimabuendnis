@@ -14,12 +14,14 @@ output_path = "/tmp/out.jpg"
 
 GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 eventFDIR = GoeKBhome + "content/event/"
+GoeKBwebHome = "https://goettinger-klimabuendnis.de" 
 
 class bg_canvas():
-    def __init__(self, hsize, vsize):
+    def __init__(self, hsize, vsize, verbosity=1):
         self.hsize = hsize
         self.vsize = vsize
-
+        self.verbosity = verbosity
+        
     def get_image(self,image_file):
         self.image = image_file
         (self.Hsize,self.Vsize)=self.image.size
@@ -34,9 +36,9 @@ class bg_canvas():
         if random_box:
             xx = random.randrange(0, self.Hsize - self.hsize)
             yy = random.randrange(0, self.Vsize - self.vsize)
-            print((0, self.Hsize - self.hsize))
+            # print((0, self.Hsize - self.hsize))
             self.box = (xx,yy,xx+hsize,yy+vsize)
-            print(self.box)
+            # print(self.box)
         else: # use the middle of the image as default
             xx = (self.Hsize - self.hsize)/2
             yy = (self.Vsize - self.vsize)/2
@@ -71,33 +73,26 @@ class bg_canvas():
                     dictc[h]=1  
         #now sort it by values rather than keys descending
         dom_cols = sorted(dictc.items(), key=lambda x: x[1], reverse=True)
-        nc = []
+        new_col = []
         bright = False
         maxc = 0
         sumc = 0
         for i in range(len(dom_cols[0][0])):
-            nc.append(dom_cols[0][0][i])
-            if nc[i] > maxc:
+            new_col.append(dom_cols[0][0][i])
+            if new_col[i] > maxc:
                 maxc = i
-            sumc += nc[i]
-        print (nc)
-        if sumc < color_sum_threshold:
-            for i in range(len(nc)):
+            sumc += new_col[i]
+        if sumc < color_sum_threshold:  # then complement all non-max-colors 
+            for i in range(len(new_col)):
                 if i != maxc:
-                    nc[i] = 255 - nc[i]    
-        print (nc)
-        #     if dom_cols[0][0][i] > 60:
-        #         bright = True
-        # if not bright:
-        #     hval *= 2
+                    new_col[i] = 255 - new_col[i]  
+        compl_col = (255-new_col[0],255-new_col[1],255-new_col[2])
         if brighter:
-            new_col = (min(int(nc[0]*color_brightener),255),min(int(nc[1]*color_brightener),255),min(int(nc[2]*color_brightener),255))
-        else:
-            new_col = (dom_cols[0][0][0],dom_cols[0][0][1],dom_cols[0][0][2])
-        
-        return  new_col 
+            new_col = (min(int(new_col[0]*color_brightener),255),min(int(new_col[1]*color_brightener),255),min(int(new_col[2]*color_brightener),255))
+            compl_col = (min(int(compl_col[0]*color_brightener),255),min(int(compl_col[1]*color_brightener),255),min(int(compl_col[2]*color_brightener),255))
+        return  new_col, compl_col
 
-    def buildPic(self,title,subtitle,wann,wo):
+    def buildPic(self,title,subtitle,wann,wo,wer,url=None):
         # wann in Format: '2025-06-13T15:30:00+02:00'
         # fonts in /usr/share/fonts/truetype
         #
@@ -126,7 +121,7 @@ class bg_canvas():
         tb_region_height = textbox_height
         textbox_region = (xoffset, yoffset-addBoxHeight, tb_region_width, yoffset +  tb_region_height + addBoxHeight)
         subregion = self.region.crop(textbox_region)
-        dom_col = self.dominant_color_in_region(subregion,brighter=True)
+        dom_col, compl_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
         self.region.paste(subregion_grey,(textbox_region[0], textbox_region[1]))
         self.text_in_region(textlines, textbox_region[0]+leftTextBound, textbox_region[1]+addBoxHeight, Title.font, fontsize=Title.fontsize, color=dom_col)
@@ -142,16 +137,18 @@ class bg_canvas():
         
             
         Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
-        textlines = Wann_Wo.get_time_place_lines(wann,wo)
-        
-        self.text_in_region(textlines, 15, self.vsize - 130, Wann_Wo.font, fontsize=fontsize3)
-        self.region.show()
+        textlines = Wann_Wo.get_time_place_lines(wann,wo,wer)
+
+        # dom_col = self.dominant_color_in_region(self.region,brighter=True)
+        self.text_in_region(textlines, 15, self.vsize - 170, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
+        if self.verbosity > 0:
+            self.region.show()
         # region.save(output_path)
         return self.region
 
     def buildPicWithFM(self,frontmatter,output_path):
         # wann in Format: '2025-06-13T15:30:00+02:00'
-        print(frontmatter)
+        # print(frontmatter)
         self.image_file = Image.open(GoeKBhome + "static" + frontmatter["image"])
         self.get_image(self.image_file)
         self.get_region()
@@ -159,7 +156,9 @@ class bg_canvas():
         Subtitle = frontmatter["subtitle"]
         wann = frontmatter["date"]
         wo = frontmatter["place"]
-        SharePic = self.buildPic(Title,Subtitle,wann,wo)
+        wer = frontmatter["author"]
+        url = GoeKBwebHome + frontmatter["URL"]
+        SharePic = self.buildPic(Title,Subtitle,wann,wo,wer,url=url)
         SharePic.convert('RGB').save(output_path)
 
     
@@ -187,7 +186,7 @@ class text_field():
             while True:
                 x,y,width,height = self.font.getbbox(txt[:break_point])
                 letter_size = width / break_point
-                print (width, letter_size, max_width)
+                # print (width, letter_size, max_width)
                 if width < max_width - letter_size and text_size >= break_point: # Too short
                     rlast_break_point = break_point
                     break_point = max(int(max_width * break_point/ width), break_point + 1)
@@ -208,7 +207,7 @@ class text_field():
                     break
                 if rlast_break_point == break_point or llast_break_point == break_point:
                     break # if looping starts, also Break_Point fits, exit now
-            print("bp:",break_point,"len",len(txt),"txt",txt[:break_point])
+            # print("bp:",break_point,"len",len(txt),"txt",txt[:break_point])
             self.text_lines.append(txt[:break_point])
             txt = txt[break_point+1:] # remove heading blank from next text frame 
             text_size = len(txt)
@@ -227,13 +226,16 @@ class text_field():
             None
         return self.text_lines
 
-    def get_time_place_lines(self,wann,wo):
+    def get_time_place_lines(self,wann,wo,wer=""):
         locale.setlocale(locale.LC_ALL, "de_DE")
         textlines = self.get_dt(wann)
         d = wo[:25].rfind(" ")
         textlines.append("Wo:   " + wo[:d])
         wo = wo[d+1:]
         textlines.append("      " + wo[:25])
+        d = wer[:30].rfind(" ")
+        wer = "(" + wer[:d] + ")"
+        textlines.append(wer.rjust(29))
         return textlines
 
     def get_dt(self,wann):
@@ -242,6 +244,7 @@ class text_field():
         dt1 = "Wann: " + dt.strftime("%A, %-d.%-m.%Y")
         dt2 = "      " + dt.strftime("%H:%M Uhr")
         return [dt1,dt2]
+
 
 class md_file():
     def __init__(self,filename):
