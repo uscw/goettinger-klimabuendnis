@@ -60,8 +60,16 @@ class bg_canvas():
             self.draw.text((xOff, yOff + int(1.1 * fontsize*i)), line, font=font, fill=color)
             i += 1
 
+    def color_sum(color):
+        sumc = 0
+        for i in range(len(color)):
+            if new_col[i] > maxc:
+                maxc = i
+            sumc += new_col[i]
+        
+            
     def dominant_color_in_region(self,region,brighter=False):
-        color_sum_threshold = 140
+        color_sum_threshold = 150
         color_brightener = 2.0
         dictc={}
         for i in range( region.width ):
@@ -77,15 +85,16 @@ class bg_canvas():
         bright = False
         maxc = 0
         sumc = 0
-        for i in range(len(dom_cols[0][0])):
-            new_col.append(dom_cols[0][0][i])
-            if new_col[i] > maxc:
-                maxc = i
-            sumc += new_col[i]
-        if sumc < color_sum_threshold:  # then complement all non-max-colors 
-            for i in range(len(new_col)):
-                if i != maxc:
-                    new_col[i] = 255 - new_col[i]  
+        while sumc < color_sum_threshold:
+            for i in range(len(dom_cols[0][0])):
+                new_col.append(dom_cols[0][0][i])
+                if new_col[i] > maxc:
+                    maxc = i
+                sumc += new_col[i]
+                if sumc < color_sum_threshold:  # then complement all non-max-colors 
+                    for i in range(len(new_col)):
+                        if i != maxc:
+                            new_col[i] = 255 - new_col[i]  
         compl_col = (255-new_col[0],255-new_col[1],255-new_col[2])
         if brighter:
             new_col = (min(int(new_col[0]*color_brightener),255),min(int(new_col[1]*color_brightener),255),min(int(new_col[2]*color_brightener),255))

@@ -24,6 +24,5 @@ semesterbegleitende Veranstaltungsreihe
 Kalenderdatei: [📆](/ics/2025-07-07_14-30_offener_agroforst_austausch.ics)
 
 
-![Agroforst
-!Austausch](/img/event/2025-04-07-Offener-Agroforst-Austausch.png)
+![Agroforst Austausch](/img/event/2025-04-07-Offener-Agroforst-Austausch.png)
 

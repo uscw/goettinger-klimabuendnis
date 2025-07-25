@@ -29,7 +29,7 @@ Unterstützen Sie uns am Samstag, den 20.01.2024, auf der Straße bei der
 
 Dafür organisieren wir von Göttingen aus eine gemeinsame Anreise mit einem Bus.
 
-![Wir_habe_es_satt](/img/banner/024-01-20-Wir_habe_es_satt.jpg)
+![Wir_habe_es_satt](/img/event/2024-01-20-Wir_haben_es_satt.jpg)
 
 
 Busreisedetails:
