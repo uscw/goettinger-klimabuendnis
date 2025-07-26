@@ -1,21 +1,24 @@
 ---
 layout:        events
 title:         "Entlang von Werra und Fulda nach Kassel"
-subtitle:      ""
+subtitle:      "Eine Radtour des ADFC Göttingen"
 date:          2025-07-27T10:00:00+02:00
 etime:         2025-07-27T19:00:00+02:00
-publishdate:   2025-07-16T00:00:00+02:00
-author:        "GöKB"
+publishdate:   2025-07-26T00:00:00+01:00
+author:        "ADFC"
 place:         "ADFC-Werkstatt Gueterbahnhofstrasse 9 37073 Goettingen"
 URL:           "/2025/07/27/10/00/Entlang_von_Werra_und_Fulda_nach_Kassel"
 locURL:        "https://touren-termine.adfc.de/radveranstaltung/155456-entlang-von-werra-und-fulda-nach-kassel"
-image:         "/img/banner/2022-10-04_Peperoni.jpg"
+image:         "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
 ---
 
 **Veranstaltung: 27. Juli 2025, 10:00 Uhr, ADFC-Werkstatt, Güterbahnhofstraße 9, 37073 Göttingen**
 
 Entlang von Werra und Fulda nach Kassel
 ===========
+
+Eine Radtour des ADFC Göttingen
+-----------
 
 
 Kalenderdatei: [📆](/ics/2025-07-27_10-00_entlang_von_werra_und_fulda_nach_kassel.ics)

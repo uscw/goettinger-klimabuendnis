@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:e273f5e2-5333-4cf9-b0d1-4af55e20c992
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251012T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251012T170000
+DESCRIPTION;LANGUAGE=de-DE:Auf bunten Blättern\n\nEine Radtour des ADFC Göttingen\n\nAbwechslungsreiche herbstliche Tour durch den Göttinger und Nörtener Wald mit Ausklang auf der Plesse. Gefahren wird fast ausschließlich auf Wald- und Feldwegen mit einigen Steigungen und Abfahrten.\nhttps://touren-termine.adfc.de/radveranstaltung/155506-auf-bunten-blattern
+LOCATION;LANGUAGE=de-DE:ADFC-Werkstatt, Güterbahnhofstraße 9, 37073 Göttingen
+SUMMARY;LANGUAGE=de-DE:Auf bunten Blättern, Eine Radtour des ADFC Göttingen
+URL:https://goettinger-klimabuendnis.de/2025/10/12/10/00/auf_bunten_blaettern
+UID:e273f5e2-5333-4cf9-b0d1-4af55e20c992
+
+END:VEVENT
+
+
+END:VCALENDAR

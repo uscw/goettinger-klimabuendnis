@@ -4,24 +4,29 @@ import sys
 import uuid
 from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
+import icalendar
 
+        
 homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 outDir = homeDir + "/content/event"
 icsDir = homeDir + "/static/ics"
 banner_dir = "/img/banner"
+
+#####################################
+
 def sysCommand(cmd):
-   """                                                                                                                          
-   executes a system command and prints out: return code, stdout and stderr                                                     
-   @param cmd type string: command to execute
-   @return out, err type string: output and errors from command
-   """
-   from subprocess import Popen, PIPE
-   # cmd = "ls -l ~/"                                                                                                           
-   p = Popen(cmd , shell=True, stdout=PIPE, stderr=PIPE)
-   out, err = p.communicate()
-   if p.returncode:
-      print ("Return code: ", p.returncode)
-   return out, err
+    """
+    executes a system command and prints out: return code, stdout and stderr
+    @param cmd type string: command to execute
+    @return out, err type string: output and errors from command
+    """
+    from subprocess import Popen, PIPE
+    # cmd = "ls -l ~/"                                                                                                            
+    p = Popen(cmd , shell=True, stdout=PIPE, stderr=PIPE)
+    out, err = p.communicate()
+    if p.returncode:
+        print ("Return code: ", p.returncode)
+    return out, err
 
 #####################################
 
@@ -69,13 +74,13 @@ class recurringDates():
         else:
             ret = self.xDate + relativedelta(years=self.dateInterval[0],months=self.dateInterval[1],days=self.dateInterval[2])
         return ret
-
+     
 #####################################
 
 class vcal():
    
-   def __init__(self,description="",summary="",location="",dtstart="",dtend="",url="",contact=""):
-      xmpl = """
+    def __init__(self,description="",summary="",location="",dtstart="",dtend="",url="",contact=""):
+        xmpl = """
 BEGIN:VEVENT
 DTSTAMP:20250109T081002Z
 CREATED:20250109T081002Z
@@ -90,7 +95,7 @@ DTEND;TZID=W. Europe Standard Time:20250208T150000
 TRANSP:OPAQUE
 END:VEVENT
 """
-      vevent = """
+        vevent = """
 BEGIN:VEVENT
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -108,7 +113,7 @@ CONTACT;LANGUAGE=de-DE:????
 END:VEVENT
 """
 
-      vcal_stat = """
+        vcal_stat = """
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Calendar Templates//Event Template//EN
@@ -123,7 +128,7 @@ SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
 NAME;LANGUAGE=de-DE:GöKB Kalender
 DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
 """
-      vtimezone = """
+        vtimezone = """
 
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -148,47 +153,62 @@ END:STANDARD
 
 END:VTIMEZONE
 """
-      vcal_end = """
+        vcal_end = """
 END:VCALENDAR
 """
-      self.v_uuid = str(uuid.uuid4())
-      vevent1 = self.v_modify(vevent,description,summary,location,dtstart,dtend,url,contact)
+        self.v_uuid = str(uuid.uuid4())
+        vevent1 = self.v_modify(vevent,description,summary,location,dtstart,dtend,url,contact)
       
       
-      self.vcal_entry = vcal_stat + "UID:" + self.v_uuid + vtimezone + vevent1 + vcal_end
-      return
+        self.vcal_entry = vcal_stat + "UID:" + self.v_uuid + vtimezone + vevent1 + vcal_end
+        return
    
-   def get_event(self):
-      return self.vcal_entry
+    def get_event(self):
+        return self.vcal_entry
       
-   def v_modify(self,vevent,description,summary,location,dtstart,dtend,url,contact):
-      v_array = vevent.split("\n")
-      v_array = self.v_line_mod(v_array,"DESCRIPTION",description)
-      v_array = self.v_line_mod(v_array,"SUMMARY",summary)
-      v_array = self.v_line_mod(v_array,"LOCATION",location)
-      v_array = self.v_line_mod(v_array,"DTSTART",dtstart)
-      v_array = self.v_line_mod(v_array,"DTEND",dtend)
-      v_array = self.v_line_mod(v_array,"URL",url)
-      v_array = self.v_line_mod(v_array,"CONTACT",contact)
-      v_array = self.v_line_mod(v_array,"UID",self.v_uuid)
-      vevent1 = ""
-      for line in v_array:
-         vevent1 += line + "\n"
-      return vevent1
+    def v_modify(self,vevent,description,summary,location,dtstart,dtend,url,contact):
+        v_array = vevent.split("\n")
+        v_array = self.v_line_mod(v_array,"DESCRIPTION",description)
+        v_array = self.v_line_mod(v_array,"SUMMARY",summary)
+        v_array = self.v_line_mod(v_array,"LOCATION",location)
+        v_array = self.v_line_mod(v_array,"DTSTART",dtstart)
+        v_array = self.v_line_mod(v_array,"DTEND",dtend)
+        v_array = self.v_line_mod(v_array,"URL",url)
+        v_array = self.v_line_mod(v_array,"CONTACT",contact)
+        v_array = self.v_line_mod(v_array,"UID",self.v_uuid)
+        vevent1 = ""
+        for line in v_array:
+            vevent1 += line + "\n"
+        return vevent1
 
-   def v_line_mod(self,varray,prefix,val):
-      k = 0
-      for line in varray:
-         if line.startswith(prefix):
-            splitline = line.split(":")
-            if val != "":
-               newline = splitline[0] + ":" + val
-            else:
-               newline = ""
-            varray[k] = newline
-         k += 1
-      return varray
+    def v_line_mod(self,varray,prefix,val):
+        k = 0
+        for line in varray:
+            if line.startswith(prefix):
+                splitline = line.split(":")
+                if val != "":
+                    newline = splitline[0] + ":" + val
+                else:
+                    newline = ""
+                varray[k] = newline
+            k += 1
+        return varray
 
+#####################################
+
+class ics_genres():
+    
+    def __init__(self, genre):
+        genres = {
+            "adfc" : {
+                "author" : "ADFC",
+                "subtitle" : "Eine Radtour des ADFC Göttingen",
+                "url" : "https://goettingen.adfc.de/",
+                "image" : "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
+            }
+        }
+        self.genre = genres[genre]
+        return
 #####################################
 
 class event():
@@ -208,8 +228,11 @@ class event():
             "November",
             "Dezember"
         ]
-    
+
     def get_event_from_file(self,file=None):
+        # returns in any case, even for file == None
+        #    cont = {"date" : date, ...} as event container 
+        # sets therefore dummy parameters first
         date = today = datetime.now().strftime('%Y-%m-%d')
         time = datetime.now().strftime('%H:%M')
         edate = ""
@@ -224,7 +247,7 @@ class event():
         image = ""
         text = ""
         self.file = file
-        if file != None:
+        if self.file != None:
             fd = open(file)
             pre_text = ""
             for line in fd.readlines():
@@ -398,7 +421,49 @@ class event():
         curr_events = {}
         curr_events[str(Date) + "_" + Time +  "_" + Place.replace(" ","").replace(",","")] = cont
         return curr_events
-            
+
+    def get_event_from_ics(self, File, genre=""):
+        if genre == "":
+            generic_fields = {
+                "subtitle" : "",
+                "author" : "GöKB",
+                "image" : "2022-10-04_Peperoni.jpg",
+                "locURL" : "https://goettinger-klimabuendnis.de"
+                }
+        else:
+            ICS_genres = ics_genres(genre.lower())
+            generic_fields = ICS_genres.genre
+        print (File)
+        fp = open(File) #'/home/uschwar1/Downloads/entlang-von-werra-und-fulda-nach-kassel.ics')
+        filestr = fp.read()
+        cal = icalendar.Calendar.from_ical(filestr)
+        for event in cal.walk('VEVENT'):
+            sTime = event['DTSTART'].dt
+            Date = datetime.strftime(sTime.astimezone(), "%Y-%m-%d")
+            UTCplus =  ":00+" + self.get_UTC(Date) 
+            Time = datetime.strftime(sTime.astimezone(), "%H:%M") + UTCplus
+            eTime = event['DTEND'].dt
+            eTime = datetime.strftime(eTime.astimezone(), "%H:%M") + UTCplus
+            Title = event['SUMMARY']
+            Subtitle = generic_fields["subtitle"]
+            if event['URL'] != None:
+                LocURL = event['URL']
+            else:
+                LocURL = generic_fields["locURL"]
+            Place = event['LOCATION']
+            Author = generic_fields["author"]
+            Image =  generic_fields["image"]
+            Text = event['DESCRIPTION']
+
+        # url = "/" + Date.split("T")[0].replace("-","/") + "/" + Time.replace(":","/") + "/"
+        url = datetime.strftime(sTime, "/%Y/%m/%d/%H/%M/")
+        cont = {"date" : Date, "time" : Time, "etime" : eTime, "title" : Title, "subtitle" : Subtitle, "text" : Text, "url" : url, "place" : Place, "author" : Author, "locURL" : LocURL, "image" : Image }
+        print (cont)
+        curr_events = {}
+        curr_events[str(Date) + "_" + Time +  "_" + Place.replace(" ","").replace(",","")] = cont
+        return curr_events
+
+
     def get_UTC(self,date):
         UTCplus = "01:00"
         self.month = date.split("-")[1]
@@ -535,50 +600,62 @@ class event():
 
 
     def dict2eventICAL(self,ev_dict,outDir=outDir):
-           
-       for item in ev_dict:
-          dlist = str(ev_dict[item]['date']).split("-")
-          tlist = str(ev_dict[item]['time']).split(":")
-          title_str = self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","")
-          outFN = icsDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics"            
-          outFF = open(outFN, "w")
-          descr = ev_dict[item]['title'] + "\\n\\n" + ev_dict[item]['subtitle'] + "\\n\\n" + ev_dict[item]['text'].replace("\n","\\n")
-          # sumry_ptr = descr[:124].rfind(". ")
-          # sumry = descr[0:sumry_ptr+1] + " ..."
-          sumry = ev_dict[item]['title'] + ", " + ev_dict[item]['subtitle']
-          dt_start = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['time'].replace(":","")[:6] 
-          dt_end = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['etime'].replace(":","")[:6]
-          loc = ev_dict[item]['place']
-          dt_contact = ""
-          dt_rel_url = dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + title_str.lower()
-          dt_url = "https://goettinger-klimabuendnis.de/" + dt_rel_url
+        
+        for item in ev_dict:
+            dlist = str(ev_dict[item]['date']).split("-")
+            tlist = str(ev_dict[item]['time']).split(":")
+            title_str = self.text2ascii(str(ev_dict[item]['title'])).replace(" ","_").replace(",","").replace(":","").replace(";","").replace("[","").replace("]","").replace("!","").replace("/","").replace(".","").replace("?","")
+            outFN = icsDir + "/" + dlist[0] + "-" + dlist[1] + "-" + dlist[2] + "_" + tlist[0] + "-" + tlist[1] + "_" + title_str.lower() + ".ics"            
+            outFF = open(outFN, "w")
+            descr = ev_dict[item]['title'] + "\\n\\n" + ev_dict[item]['subtitle'] + "\\n\\n" + ev_dict[item]['text'].replace("\n","\\n")
+            # sumry_ptr = descr[:124].rfind(". ")
+            # sumry = descr[0:sumry_ptr+1] + " ..."
+            sumry = ev_dict[item]['title'] + ", " + ev_dict[item]['subtitle']
+            dt_start = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['time'].replace(":","")[:6] 
+            dt_end = ev_dict[item]['date'].replace("-","") + "T" + ev_dict[item]['etime'].replace(":","")[:6]
+            loc = ev_dict[item]['place']
+            dt_contact = ""
+            dt_rel_url = dlist[0] + "/" + dlist[1] + "/" + dlist[2] + "/" + tlist[0] + "/" + tlist[1] + "/" + title_str.lower()
+            dt_url = "https://goettinger-klimabuendnis.de/" + dt_rel_url
+  
+              
+            Vcal = vcal(description=descr,summary=sumry,location=loc,dtstart=dt_start,dtend=dt_end,url=dt_url,contact=dt_contact)
+            print(Vcal.get_event())
+            outFF.write(Vcal.get_event())
+            outFF.close()
+        return dt_rel_url
 
-            
-          Vcal = vcal(description=descr,summary=sumry,location=loc,dtstart=dt_start,dtend=dt_end,url=dt_url,contact=dt_contact)
-          print(Vcal.get_event())
-          outFF.write(Vcal.get_event())
-          outFF.close()
-       return dt_rel_url
 
-
-    def prepare_events(self,file=None,recurring=None):
-        ans = "Yes"
-        inFN = file
-        while len(ans) > 0 and ans[0].lower() == "y":
-            evt = self.get_event_from_file(file=inFN)
-            if recurring == None:
-                new_evt = self.get_new_event(evt)
-            else:
-                nextDate = recurringDates(evt["date"],sys.argv[2]).nextDate
-                rDate = nextDate.strftime('%Y-%m-%d')
-                new_evt = self.get_next_recurring_event(evt,rDate)
+    def prepare_events(self,file=None,second_parm=None):
+        if file == None:
+            evt = self.get_event_from_file()
+            new_evt = self.get_new_event(evt)
             self.dict2eventICAL(new_evt)
             outFN = self.dict2eventMD(new_evt, publish_delta=publish_delta)
-            print( "Written to: " + outFN)
-            print ("#######################################")
-            print("use output file for next event [y|N]:")
-            ans = sys.stdin.readline()[:-1]
-            inFN = outFN
+        elif file.endswith(".ics"):
+            new_evt = self.get_event_from_ics(file,genre=second_parm)
+            self.dict2eventICAL(new_evt)
+            outFN = self.dict2eventMD(new_evt, publish_delta=publish_delta)
+        elif file.endswith(".md"):
+            ans = "Yes"
+            inFN = file
+            while len(ans) > 0 and ans[0].lower() == "y":
+                evt = self.get_event_from_file(file=inFN)
+                if second_parm == None:
+                    new_evt = self.get_new_event(evt)
+                else:
+                    nextDate = recurringDates(evt["date"],sys.argv[2]).nextDate
+                    rDate = nextDate.strftime('%Y-%m-%d')
+                    new_evt = self.get_next_recurring_event(evt,rDate)
+                    self.dict2eventICAL(new_evt)
+                    outFN = self.dict2eventMD(new_evt, publish_delta=publish_delta)
+                print( "Written to: " + outFN)
+                print ("#######################################")
+                print("use output file for next event [y|N]:")
+                ans = sys.stdin.readline()[:-1]
+                inFN = outFN
+        else:
+            print("File " + str(file) + " cannot be processed!")
             
 ##########################
 if __name__ == '__main__':
@@ -594,7 +671,7 @@ if __name__ == '__main__':
     elif len(sys.argv) == 2:
         Event.prepare_events(file=sys.argv[1])
     elif len(sys.argv) == 3:
-        Event.prepare_events(file=sys.argv[1], recurring=sys.argv[2])
+        Event.prepare_events(file=sys.argv[1], second_parm=sys.argv[2])
     else:
         print ("Usage:", sys.argv[0], "reference_file [date_offset]")
         sys.exit(1)
