@@ -4,11 +4,11 @@ title:         "Spazierfahrt nach Angerstein"
 subtitle:      "Eine Radtour des ADFC Göttingen"
 date:          2025-08-03T11:00:00+02:00
 etime:         2025-08-03T16:00:00+02:00
-publishdate:   2025-07-26T00:00:00+01:00
+publishdate:   2025-07-27T00:00:00+01:00
 author:        "ADFC"
 place:         "ADFC-Werkstatt Gueterbahnhofstrasse 9 37073 Goettingen"
 URL:           "/2025/08/03/11/00/Spazierfahrt_nach_Angerstein"
-locURL:        "https://touren-termine.adfc.de/radveranstaltung/158573-spazierfahrt-nach-angerstein"
+locURL:        "https://goettingen.adfc.de/"
 image:         "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
 ---
 
@@ -26,4 +26,4 @@ Kalenderdatei: [📆](/ics/2025-08-03_11-00_spazierfahrt_nach_angerstein.ics)
 Göttingen - Bovenden (Informationen zu einem historisches Gebäude) - Angerstein (Aufenthalt in einem beliebten Ausflugslokal) - Bovenden (archäologischer Fund) - Göttingen
 https://touren-termine.adfc.de/radveranstaltung/158573-spazierfahrt-nach-angerstein
 
-Mehr Informationen beim [Veranstalter](https://touren-termine.adfc.de/radveranstaltung/158573-spazierfahrt-nach-angerstein)
+Mehr Informationen beim [Veranstalter](https://goettingen.adfc.de/)

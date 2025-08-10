@@ -4,11 +4,11 @@ title:         "Entlang von Werra und Fulda nach Kassel"
 subtitle:      "Eine Radtour des ADFC Göttingen"
 date:          2025-07-27T10:00:00+02:00
 etime:         2025-07-27T19:00:00+02:00
-publishdate:   2025-07-26T00:00:00+01:00
+publishdate:   2025-07-27T00:00:00+01:00
 author:        "ADFC"
 place:         "ADFC-Werkstatt Gueterbahnhofstrasse 9 37073 Goettingen"
 URL:           "/2025/07/27/10/00/Entlang_von_Werra_und_Fulda_nach_Kassel"
-locURL:        "https://touren-termine.adfc.de/radveranstaltung/155456-entlang-von-werra-und-fulda-nach-kassel"
+locURL:        "https://goettingen.adfc.de/"
 image:         "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
 ---
 
@@ -26,4 +26,4 @@ Kalenderdatei: [📆](/ics/2025-07-27_10-00_entlang_von_werra_und_fulda_nach_kas
 Diese Zwei-Flüsse-Tour führt uns durch das malerische Werra- und Fuldatal über Hann. Münden nach Kassel. Die Tour endet in Kassel. Rückfahrt individuell oder in der Gruppe mit der Bahn ab Kassel Hbf.
 https://touren-termine.adfc.de/radveranstaltung/155456-entlang-von-werra-und-fulda-nach-kassel
 
-Mehr Informationen beim [Veranstalter](https://touren-termine.adfc.de/radveranstaltung/155456-entlang-von-werra-und-fulda-nach-kassel)
+Mehr Informationen beim [Veranstalter](https://goettingen.adfc.de/)

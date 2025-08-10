@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:287d08ac-227a-4ac2-82d1-f1db79a2fac1
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250829T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250829T200000
+DESCRIPTION;LANGUAGE=de-DE:Sie sind wieder da! Dem Biber auf der Spur\n\nExkursionsprogramm des Göttinger Stadtwaldes\n\n\nAuch im zweiten Teil dieses Jahres möchten wir Sie einführen in die Welt des\nGöttinger Stadtwaldes mit all seiner Schönheit, seinen Bewohnern und dem\nAlltag der Förster*innen.\n\nEine Exkursion dauert ca. 2,5 – 3 Stunden und hat eine begrenzte Anzahl an\nPlätzen. Aus diesem Grund bitten wir Sie, sich vorab beim Stadtforstamt bis drei\nTage vor Exkursionsbeginn anzumelden. Mit Bestätigung Ihrer Anmeldung\nerhalten Sie dann weitere Informationen zum Treffpunkt, Bekleidung, etc.\nTauchen Sie ein in die verschiedensten Themen rund um unseren schönen\nStadtwald ein. \n\nAnmeldungen werden telefonisch unter 0551 400-3520 oder per\nE-Mail unter \nstadtforstamt@goettingen.de \nentgegengenommen.\n\nHinweis: Für die Exkursionen unserer Kooperationspartner*innen wird keine\nAnmeldung benötigt. Diese Termine erkennen Sie an der Kennzeichnung BSG,\nBUND oder RüRiGs.\n\nWir freuen uns über Ihre Teilnahme und stehen Ihnen für Rückfragen natürlich\ngern zur Verfügung!\n\nIhr Team des Stadtwaldes Göttingen mit den Partner*innen\n\nBSG, BUND und RüRiGs\n
+LOCATION;LANGUAGE=de-DE:Treffpunkt nach Anmeldung
+SUMMARY;LANGUAGE=de-DE:Sie sind wieder da! Dem Biber auf der Spur, Exkursionsprogramm des Göttinger Stadtwaldes
+URL:https://goettinger-klimabuendnis.de/2025/08/29/18/00/sie_sind_wieder_da_dem_biber_auf_der_spur
+UID:287d08ac-227a-4ac2-82d1-f1db79a2fac1
+
+END:VEVENT
+
+
+END:VCALENDAR

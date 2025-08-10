@@ -12,7 +12,7 @@ URL:https://goettinger-klimabuendnis.de/event/
 SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
 NAME;LANGUAGE=de-DE:GöKB Kalender
 DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
-UID:9203101a-ab7f-441b-b072-46fd236e4ad7
+UID:a34251d5-37ba-43b8-a66a-5d3b1f0726e8
 
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -49,7 +49,7 @@ DESCRIPTION;LANGUAGE=de-DE:Über den Hohen Hagen\n\nEine Radtour des ADFC Götti
 LOCATION;LANGUAGE=de-DE:ADFC-Werkstatt, Güterbahnhofstraße 9, 37073 Göttingen
 SUMMARY;LANGUAGE=de-DE:Über den Hohen Hagen, Eine Radtour des ADFC Göttingen
 URL:https://goettinger-klimabuendnis.de/2025/08/31/10/00/ueber_den_hohen_hagen
-UID:9203101a-ab7f-441b-b072-46fd236e4ad7
+UID:a34251d5-37ba-43b8-a66a-5d3b1f0726e8
 
 END:VEVENT
 

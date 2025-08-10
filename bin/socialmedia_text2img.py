@@ -114,16 +114,15 @@ class bg_canvas():
         fontname3 = "Courier-Bold.ttf"
         fontsize3 = 28
 
-        # place title lines in grey subregion
-        Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
-        xoffset = int(self.hsize * 3/100)
-        textbox_width = self.hsize - xoffset
-        max_textbox_height = int(self.vsize * 3/5)
+        xoffset = int(self.hsize * 3/100)          # xoffset = 3 %
+        textbox_width = self.hsize - xoffset       # text_width = hsize - 3 %
         addBoxHeight = int(self.hsize * 8/100)
         upperTextBound = int(self.hsize * 4/100)
         leftTextBound = int(self.hsize/100)
-        text_width_zone = textbox_width - int(self.hsize*2/100)
-        textlines = Title.break_text(text_width_zone, max_textbox_height)
+        # place title lines at the top in grey subregion
+        Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
+        max_textbox_height = int(self.vsize * 3/5) # text_height = vsize * 60%
+        textlines = Title.break_text(textbox_width, max_textbox_height)
         textbox_height = int(fontsize1 * 1.1 * len(textlines)) + xoffset
         yoffset = upperTextBound + (max_textbox_height - min(max_textbox_height,textbox_height))
         tb_region_width = textbox_width
@@ -133,23 +132,28 @@ class bg_canvas():
         dom_col, compl_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
         self.region.paste(subregion_grey,(textbox_region[0], textbox_region[1]))
-        self.text_in_region(textlines, textbox_region[0]+leftTextBound, textbox_region[1]+addBoxHeight, Title.font, fontsize=Title.fontsize, color=dom_col)
+        text_x = textbox_region[0]+leftTextBound
+        text_y = textbox_region[1]+addBoxHeight
+        self.text_in_region(textlines, text_x, text_y, Title.font, fontsize=Title.fontsize, color=dom_col)
 
 
         # place subtitle lines at the bottom in grey subregion
         Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
-        max_textbox_height = int(self.vsize * 1/25)
-        textlines = Subtitle.break_text(text_width_zone, max_textbox_height)
+        max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
+        textlines = Subtitle.break_text(textbox_width, max_textbox_height)
         textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xoffset
-        self.text_in_region(textlines, textbox_region[0]+leftTextBound, textbox_region[1] + tb_region_height + addBoxHeight - 10, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
-        
-        
+        text_x = textbox_region[0]+leftTextBound
+        text_y = textbox_region[1] + tb_region_height + addBoxHeight - 10
+        self.text_in_region(textlines, text_x, text_y, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
             
         Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
         textlines = Wann_Wo.get_time_place_lines(wann,wo,wer)
 
         # dom_col = self.dominant_color_in_region(self.region,brighter=True)
-        self.text_in_region(textlines, 15, self.vsize - 170, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
+
+        text_x = self.hsize * 3/100
+        text_y = text_y + textbox_height + 30
+        self.text_in_region(textlines, text_x, text_y, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
         if self.verbosity > 0:
             self.region.show()
         # region.save(output_path)
@@ -242,8 +246,11 @@ class text_field():
         textlines.append("Wo:   " + wo[:d])
         wo = wo[d+1:]
         textlines.append("      " + wo[:25])
-        d = wer[:30].rfind(" ")
-        wer = "(" + wer[:d] + ")"
+        if len(wer) < 30:
+            d = len(wer)
+        else:
+            d = wer[:30].rfind(" ")
+        wer = "(" + wer[:d] + ") "
         textlines.append(wer.rjust(29))
         return textlines
 

@@ -187,8 +187,8 @@ class SM_post():
         self.post_content = self.post_content[:self.char_limit - overhead]
         limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
         self.post_content = self.post_content[:limit+1]
-        if self.rel_url != "":
-            self.post_content += ' ... mehr: ' + self.url_ref
+        # if self.rel_url != "":
+        #     self.post_content += ' ... mehr: ' + self.url_ref
         return self.post_content
            
     def send_post(self):
@@ -221,6 +221,9 @@ class mastodon_post(SM_post):
             return ret
         ret = False
         if not no_posts:
+            self.post = self.prepare_post()
+            if self.rel_url != "":
+                self.post += ' ... mehr: ' + self.url_ref
             ret = self.m.toot(self.post)
             if verbosity > 0:
                 print ("POST to Mastodon")
@@ -251,7 +254,10 @@ class mastodon_post(SM_post):
             else:
                 mtype = "image/" + suffix
             if not no_posts:
-                self.image = self.m.media_post(img_file, mime_type = mtype, description = self.post_content )
+                self.post = self.prepare_post()
+                if self.rel_url != "":
+                    self.post += ' ... mehr: ' + self.url_ref
+                self.image = self.m.media_post(img_file, mime_type = mtype, description = self.post )
                 # this is the only required argument. you can either give the filename directly or use the "media_file" argument.
                 # this indicates the filetype. only necessarily needed if you did not use "media_type", otherwise the program will guess the correct file type
                 # adds alt text. you should definitely consider this!
@@ -302,7 +308,7 @@ class mastodon_post(SM_post):
 
 class bluesky_post(SM_post):
     def __init__(self):
-        self.char_limit = 200
+        self.char_limit = 280
         self.client = blueskyClient()
         self.cred_fn = cred_fdir + "bluesky_uScw.json"
         self.cred = self.get_credentials()
@@ -321,20 +327,6 @@ class bluesky_post(SM_post):
     def server_login(self):
         return self.client.login(self.cred['username'], self.cred['password'])
 
-    # def prepare_post(self):
-    #     if self.Article == None:
-    #         return None
-    #     cal_parts = self.calendar_line.find(":")
-    #     self.cal_text = self.calendar_line[:cal_parts]
-    #     self.cal_url = self.calendar_line[cal_parts+1:].strip()
-    #     self.url_ref = baseURL + self.rel_url
-    #     overhead = len(self.event) + len(' ... mehr: ')
-    #     self.post_content = self.content[:self.char_limit - overhead]
-    #     # self.post_content = self.content[:self.char_limit]
-    #     limit = max(self.post_content.rfind(". "),self.post_content.rfind("\n"))
-    #     self.post_content = self.post_content[:limit+1]
-    #     return self.post_content
-
     def send_post_without_image(self):
         ret = None
         if self.Article == None:
@@ -342,17 +334,9 @@ class bluesky_post(SM_post):
         ret = False
         if not no_posts:
             post = self.prepare_post()
-            url = self.url_ref
-            ts = self.post_content[-1].rfind("/")
-            url_title = "... mehr"
-            cal_parts = self.calendar_line.find(":")
-            self.cal_text = self.calendar_line[:cal_parts]
-            self.cal_url = self.calendar_line[cal_parts+1:].strip()
             out = self.client.send_post(blueskyClientUtils.TextBuilder()
-                                    .text(self.event)
-                                    .link(self.cal_text, self.cal_url)
                                     .text(self.post_content)
-                                    .link(url_title, url))
+                                    .link("... mehr", self.url_ref))
             self.client.like(out.uri, out.cid)        
             ret = out.uri + " " + out.cid
             if verbosity > 0:
@@ -435,6 +419,8 @@ class instagram_post(SM_post):
         if self.Article == None:
             return ret
         self.post = self.prepare_post()
+        if self.rel_url != "":
+            self.post += ' ... mehr: ' + self.url_ref
         if verbosity > 0:
             print("POST to Instagram: ")
         if img_file != None:
@@ -481,6 +467,8 @@ class schoenerleben_post(SM_post):
     def send_post_without_image(self):
         self.rel_url = self.get_rel_url()
         post = self.prepare_post()
+        if self.rel_url != "":
+            self.post += ' ... mehr: ' + self.url_ref
         subject = self.get_subject()
         # body = self.content
         if verbosity > 0:

@@ -4,11 +4,11 @@ title:         "Zum Apfelfest nach Sudheim"
 subtitle:      "Eine Radtour des ADFC Göttingen"
 date:          2025-09-21T10:00:00+02:00
 etime:         2025-09-21T17:00:00+02:00
-publishdate:   2025-07-26T00:00:00+01:00
+publishdate:   2025-07-27T00:00:00+01:00
 author:        "ADFC"
 place:         "ADFC-Werkstatt Gueterbahnhofstrasse 9 37073 Goettingen"
 URL:           "/2025/09/21/10/00/Zum_Apfelfest_nach_Sudheim"
-locURL:        "https://touren-termine.adfc.de/radveranstaltung/158615-zum-apfelfest-nach-sudheim"
+locURL:        "https://goettingen.adfc.de/"
 image:         "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
 ---
 
@@ -26,4 +26,4 @@ Kalenderdatei: [📆](/ics/2025-09-21_10-00_zum_apfelfest_nach_sudheim.ics)
 Der Stand "ApfelGlück" vom Wochenmarkt und die "StadtSoLaWi Göttingen" beziehen einen neuen Hof in Sudheim und feiern das. Wir fahren gemütlich über den Helleweg hin und den Leineradweg zurück.
 https://touren-termine.adfc.de/radveranstaltung/158615-zum-apfelfest-nach-sudheim
 
-Mehr Informationen beim [Veranstalter](https://touren-termine.adfc.de/radveranstaltung/158615-zum-apfelfest-nach-sudheim)
+Mehr Informationen beim [Veranstalter](https://goettingen.adfc.de/)

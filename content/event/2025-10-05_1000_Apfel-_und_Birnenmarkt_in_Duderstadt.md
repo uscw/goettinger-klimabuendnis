@@ -4,11 +4,11 @@ title:         "Apfel- und Birnenmarkt in Duderstadt"
 subtitle:      "Eine Radtour des ADFC Göttingen"
 date:          2025-10-05T10:00:00+02:00
 etime:         2025-10-05T17:00:00+02:00
-publishdate:   2025-07-26T00:00:00+01:00
+publishdate:   2025-07-27T00:00:00+01:00
 author:        "ADFC"
 place:         "ADFC-Werkstatt Gueterbahnhofstrasse 9 37073 Goettingen"
 URL:           "/2025/10/05/10/00/Apfel-_und_Birnenmarkt_in_Duderstadt"
-locURL:        "https://touren-termine.adfc.de/radveranstaltung/155455-apfel-und-birnenmarkt-in-duderstadt"
+locURL:        "https://goettingen.adfc.de/"
 image:         "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
 ---
 
@@ -26,4 +26,4 @@ Kalenderdatei: [📆](/ics/2025-10-05_10-00_apfel-_und_birnenmarkt_in_duderstadt
 Über den Weser-Harz-Heide-Radweg führt eine beschauliche Radtour von Göttingen durch den Regionalpark Gleichen ins Eichsfeld nach Duderstadt zum beliebten Apfel- und Birnenmarkt.
 https://touren-termine.adfc.de/radveranstaltung/155455-apfel-und-birnenmarkt-in-duderstadt
 
-Mehr Informationen beim [Veranstalter](https://touren-termine.adfc.de/radveranstaltung/155455-apfel-und-birnenmarkt-in-duderstadt)
+Mehr Informationen beim [Veranstalter](https://goettingen.adfc.de/)

@@ -12,7 +12,7 @@ URL:https://goettinger-klimabuendnis.de/event/
 SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
 NAME;LANGUAGE=de-DE:GöKB Kalender
 DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
-UID:0cc24a37-fd13-42d6-8e57-e480c82241e4
+UID:80caf0e0-6e35-4df9-8120-fe74576540d7
 
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -49,7 +49,7 @@ DESCRIPTION;LANGUAGE=de-DE:Zum Parkcafé in Niedergebra\n\nEine Radtour des ADFC
 LOCATION;LANGUAGE=de-DE:Bootsverleih am Kiessee, Sandweg, 37083 Göttingen
 SUMMARY;LANGUAGE=de-DE:Zum Parkcafé in Niedergebra, Eine Radtour des ADFC Göttingen
 URL:https://goettinger-klimabuendnis.de/2025/08/24/09/00/zum_parkcaf_in_niedergebra
-UID:0cc24a37-fd13-42d6-8e57-e480c82241e4
+UID:80caf0e0-6e35-4df9-8120-fe74576540d7
 
 END:VEVENT
 

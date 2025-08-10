@@ -12,7 +12,7 @@ URL:https://goettinger-klimabuendnis.de/event/
 SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
 NAME;LANGUAGE=de-DE:GöKB Kalender
 DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
-UID:a076de68-ac2b-43f8-912e-d74b7e547365
+UID:0fb9ca19-2d15-41bb-94f4-3ec0fd178361
 
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -49,7 +49,7 @@ DESCRIPTION;LANGUAGE=de-DE:Zum Apfelfest nach Sudheim\n\nEine Radtour des ADFC G
 LOCATION;LANGUAGE=de-DE:ADFC-Werkstatt, Güterbahnhofstraße 9, 37073 Göttingen
 SUMMARY;LANGUAGE=de-DE:Zum Apfelfest nach Sudheim, Eine Radtour des ADFC Göttingen
 URL:https://goettinger-klimabuendnis.de/2025/09/21/10/00/zum_apfelfest_nach_sudheim
-UID:a076de68-ac2b-43f8-912e-d74b7e547365
+UID:0fb9ca19-2d15-41bb-94f4-3ec0fd178361
 
 END:VEVENT
 

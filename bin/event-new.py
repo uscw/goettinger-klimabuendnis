@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!python
 import os
 import sys
 import uuid
@@ -203,7 +203,7 @@ class ics_genres():
             "adfc" : {
                 "author" : "ADFC",
                 "subtitle" : "Eine Radtour des ADFC Göttingen",
-                "url" : "https://goettingen.adfc.de/",
+                "locURL" : "https://goettingen.adfc.de/",
                 "image" : "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
             }
         }
@@ -446,10 +446,11 @@ class event():
             eTime = datetime.strftime(eTime.astimezone(), "%H:%M") + UTCplus
             Title = event['SUMMARY']
             Subtitle = generic_fields["subtitle"]
-            if event['URL'] != None:
-                LocURL = event['URL']
-            else:
-                LocURL = generic_fields["locURL"]
+            # if event['URL'] != None:
+            #     LocURL = event['URL']
+            # else:
+            #     LocURL = generic_fields["locURL"]
+            LocURL = generic_fields["locURL"]
             Place = event['LOCATION']
             Author = generic_fields["author"]
             Image =  generic_fields["image"]
