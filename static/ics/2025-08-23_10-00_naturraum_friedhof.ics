@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:15754818-11f5-4329-b086-f6055ed41155
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250823T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250823T120000
+DESCRIPTION;LANGUAGE=de-DE:Naturraum Friedhof\n\nKindergruppentreffen des BUND\n\nLiebe Naturforscher:innen,\nliebe Eltern,\n\nam Samstag, den 23.08.2025 findet das nächste Kindergruppentreffen statt!\n\nBei diesem Treffen wird es schaurig, denn wir wollen uns mit den Themen Friedhof und Tod auseinandersetzen. Aber keine Angst - ihr werdet feststellen, dass es sehr viel Leben auf dem Friedhof gibt! Wildbienen, Vögel und viele andere Lebewesen finden hier mitten im Trubel der Stadt einen Rückzugsort. Wir machen uns auf den Weg, um diesen besonderen Naturraum zu erkunden.\n\nDieses Mal treffen wir uns um 10:00 Uhr. Der Ort wird nach der Anmeldung bekannt gegeben.\n\nAnmelden könnt ihr euch bis zum 22.08. um 12:00 Uhr über unsere E-Mail-Adresse oder per Telefon. Weitere Details folgen nach der Anmeldung!\n\nFür weitere Fragen sind wir unter 0551-56156 und naturforscher@bund-goettingen.de zu erreichen.\nWir freuen uns auf euch!\n\nViele Grüße\neuer Betreuer:innen-Team\nNaturforscher BUND Kreisgruppe Göttingen\nGeiststraße 2, 37073 Göttingen\nTel: 0551/56156\n
+LOCATION;LANGUAGE=de-DE:Friedhof
+SUMMARY;LANGUAGE=de-DE:Naturraum Friedhof, Kindergruppentreffen des BUND
+URL:https://goettinger-klimabuendnis.de/2025/08/23/10/00/naturraum_friedhof
+UID:15754818-11f5-4329-b086-f6055ed41155
+
+END:VEVENT
+
+
+END:VCALENDAR
