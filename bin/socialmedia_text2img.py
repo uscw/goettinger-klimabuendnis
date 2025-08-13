@@ -20,13 +20,16 @@ class bg_canvas():
     def __init__(self, hsize, vsize, verbosity=1):
         self.hsize = hsize
         self.vsize = vsize
+        self.fhsize = hsize*0.9
+        self.fvsize = vsize*0.9
+        
         self.verbosity = verbosity
         
     def get_image(self,image_file):
         self.image = image_file
         (self.Hsize,self.Vsize)=self.image.size
         
-    def get_region(self):
+    def get_region_in_image(self):
         if self.Vsize < self.vsize:
             self.image = self.image.resize((int(self.hsize*self.vsize/self.Vsize)+1,self.vsize+1))
             (self.Hsize,self.Vsize)=self.image.size
@@ -46,9 +49,10 @@ class bg_canvas():
         self.region = self.image.crop(self.box)
 
     def grey2subregion(self,textheight):
+        return
         self.subbox = (xx,yy,hsize,vsize)
         
-    def text_in_region(self, text_lines, xOff, yOff, font, fontsize=fontsize, color="white"):
+    def text_shadow_in_region(self, text_lines, xOff, yOff, font, fontsize=fontsize, color="white"):
         black_offset = int(fontsize/10)
         self.draw = ImageDraw.Draw(self.region)
         i = 0
@@ -114,38 +118,41 @@ class bg_canvas():
         fontname3 = "Courier-Bold.ttf"
         fontsize3 = 28
 
-        xoffset = int(self.hsize * 3/100)          # xoffset = 3 %
-        textbox_width = self.hsize - xoffset       # text_width = hsize - 3 %
-        addBoxHeight = int(self.hsize * 8/100)
-        upperTextBound = int(self.hsize * 4/100)
-        leftTextBound = int(self.hsize/100)
+        self.xhoffset = int(self.hsize * 3/100)          # xhoffset = 3 %
+        self.textbox_width = self.hsize - self.xhoffset  # text_width = hsize - 3 %
+        self.addBoxHeight = int(self.hsize * 8/100)
+        self.upperTextBound = int(self.hsize * 4/100)
+        self.leftTextBound = int(self.hsize/100)
+        self.max_textbox_height = int(self.vsize * 3/5) # text_height = vsize * 60%
         # place title lines at the top in grey subregion
         Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
-        max_textbox_height = int(self.vsize * 3/5) # text_height = vsize * 60%
-        textlines = Title.break_text(textbox_width, max_textbox_height)
-        textbox_height = int(fontsize1 * 1.1 * len(textlines)) + xoffset
-        yoffset = upperTextBound + (max_textbox_height - min(max_textbox_height,textbox_height))
-        tb_region_width = textbox_width
+        textlines = Title.break_text(self.textbox_width, self.max_textbox_height)
+        ###
+        textbox_height = int(fontsize1 * 1.1 * len(textlines)) + self.xhoffset
+        yoffset = self.upperTextBound + (self.max_textbox_height - min(self.max_textbox_height,textbox_height))
+        tb_region_width = self.textbox_width
         tb_region_height = textbox_height
-        textbox_region = (xoffset, yoffset-addBoxHeight, tb_region_width, yoffset +  tb_region_height + addBoxHeight)
+        textbox_region = (self.xhoffset, yoffset-self.addBoxHeight, tb_region_width, yoffset +  tb_region_height + self.addBoxHeight)
         subregion = self.region.crop(textbox_region)
         dom_col, compl_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
         self.region.paste(subregion_grey,(textbox_region[0], textbox_region[1]))
-        text_x = textbox_region[0]+leftTextBound
-        text_y = textbox_region[1]+addBoxHeight
-        self.text_in_region(textlines, text_x, text_y, Title.font, fontsize=Title.fontsize, color=dom_col)
-
+        text_x = textbox_region[0]+self.leftTextBound
+        text_y = textbox_region[1]+self.addBoxHeight
+        self.text_shadow_in_region(textlines, text_x, text_y, Title.font, fontsize=Title.fontsize, color=dom_col)
+        ###
 
         # place subtitle lines at the bottom in grey subregion
-        Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
-        max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
-        textlines = Subtitle.break_text(textbox_width, max_textbox_height)
-        textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xoffset
-        text_x = textbox_region[0]+leftTextBound
-        text_y = textbox_region[1] + tb_region_height + addBoxHeight - 10
-        self.text_in_region(textlines, text_x, text_y, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
-            
+        ###
+        self.place_text_in_subregion(subtitle,fontname2,fontsize2,textbox_region,tb_region_height,dom_col)
+        # Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
+        # max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
+        # textlines = Subtitle.break_text(textbox_width, max_textbox_height)
+        # textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xhoffset
+        # text_x = textbox_region[0]+leftTextBound
+        # text_y = textbox_region[1] + tb_region_height + addBoxHeight - 10
+        # self.text_shadow_in_region(textlines, text_x, text_y, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
+        ###
         Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
         textlines = Wann_Wo.get_time_place_lines(wann,wo,wer)
 
@@ -153,18 +160,28 @@ class bg_canvas():
 
         text_x = self.hsize * 3/100
         text_y = text_y + textbox_height + 30
-        self.text_in_region(textlines, text_x, text_y, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
+        self.text_shadow_in_region(textlines, text_x, text_y, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
         if self.verbosity > 0:
             self.region.show()
         # region.save(output_path)
         return self.region
+
+    def place_text_in_subregion(self,text,fontname,fontsize,textbox_region,tb_region_height,dom_col):
+        Text = text_field(text=text,fontname=fontname,fontsize=fontsize)
+        max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
+        textlines = Text.break_text(self.textbox_width, self.max_textbox_height)
+        # textbox_height = int(fontsize * 1.1 * len(textlines)) + self.xhoffset
+        text_x = textbox_region[0]+self.leftTextBound
+        text_y = textbox_region[1] + tb_region_height + self.addBoxHeight - 10
+        self.text_shadow_in_region(textlines, text_x, text_y, Text.font, fontsize=Text.fontsize, color=dom_col)
+        
 
     def buildPicWithFM(self,frontmatter,output_path):
         # wann in Format: '2025-06-13T15:30:00+02:00'
         # print(frontmatter)
         self.image_file = Image.open(GoeKBhome + "static" + frontmatter["image"])
         self.get_image(self.image_file)
-        self.get_region()
+        self.get_region_in_image()
         Title = frontmatter["title"]
         Subtitle = frontmatter["subtitle"]
         wann = frontmatter["date"]
@@ -224,8 +241,7 @@ class text_field():
             self.text_lines.append(txt[:break_point])
             txt = txt[break_point+1:] # remove heading blank from next text frame 
             text_size = len(txt)
-            if break_point < 0:
-                
+            if break_point < 0:   
                 break
             if len(self.text_lines) * int(1.1 * self.fontsize) > max_height:
                 text_too_long = True
@@ -298,7 +314,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         mdfile = sys.argv[1]
     else:
-        print ("usage: " + sys.argv[0] + "event_file.md")
+        print ("usage: " + sys.argv[0] + " event_file.md")
         sys.exit(1)
     MD = md_file(eventFDIR + mdfile)
     BG = bg_canvas(hsize, vsize)
