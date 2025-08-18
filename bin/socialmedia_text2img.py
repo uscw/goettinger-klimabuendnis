@@ -118,46 +118,50 @@ class bg_canvas():
         fontname3 = "Courier-Bold.ttf"
         fontsize3 = 28
 
+        # general parameters depending only 
         self.xhoffset = int(self.hsize * 3/100)          # xhoffset = 3 %
-        self.textbox_width = self.hsize - self.xhoffset  # text_width = hsize - 3 %
+        self.textbox_width = self.hsize - 2*self.xhoffset  # text_width = hsize - 6 %
         self.addBoxHeight = int(self.hsize * 8/100)
         self.upperTextBound = int(self.hsize * 4/100)
-        self.leftTextBound = int(self.hsize/100)
-        self.max_textbox_height = int(self.vsize * 3/5) # text_height = vsize * 60%
-        # place title lines at the top in grey subregion
-        Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1)
-        textlines = Title.break_text(self.textbox_width, self.max_textbox_height)
-        ###
-        textbox_height = int(fontsize1 * 1.1 * len(textlines)) + self.xhoffset
-        yoffset = self.upperTextBound + (self.max_textbox_height - min(self.max_textbox_height,textbox_height))
-        tb_region_width = self.textbox_width
-        tb_region_height = textbox_height
-        textbox_region = (self.xhoffset, yoffset-self.addBoxHeight, tb_region_width, yoffset +  tb_region_height + self.addBoxHeight)
+        self.leftTextBound = int(self.hsize * 1/100)
+
+        lower_vertical_textbox_offset = int(self.vsize * 3/5) # text_height = vsize * 60%
+        self.max_textbox_height = lower_vertical_textbox_offset 
+        Title = text_field(text=title,fontname=fontname1,fontsize=fontsize1, max_width=self.textbox_width, max_height=self.max_textbox_height)
+        textlines = Title.break_text()
+        textbox_region = Title.get_text_region(self.xhoffset, self.upperTextBound, self.addBoxHeight)
+        tb_region_height = textbox_region[3] - textbox_region[1] - 2*self.addBoxHeight
+
+        # extract colers  under title lines and build grey subregion there
         subregion = self.region.crop(textbox_region)
         dom_col, compl_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
         self.region.paste(subregion_grey,(textbox_region[0], textbox_region[1]))
+
+        # place title lines at the top in grey subregion
         text_x = textbox_region[0]+self.leftTextBound
         text_y = textbox_region[1]+self.addBoxHeight
         self.text_shadow_in_region(textlines, text_x, text_y, Title.font, fontsize=Title.fontsize, color=dom_col)
         ###
-
+        
+        #self.place_text_in_subregion(title,fontname,fontsize,textbox_region,tb_region_height,dom_col)
+        
         # place subtitle lines at the bottom in grey subregion
         ###
-        self.place_text_in_subregion(subtitle,fontname2,fontsize2,textbox_region,tb_region_height,dom_col)
-        # Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2)
-        # max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
-        # textlines = Subtitle.break_text(textbox_width, max_textbox_height)
-        # textbox_height = int(fontsize2 * 1.1 * len(textlines)) + xhoffset
-        # text_x = textbox_region[0]+leftTextBound
-        # text_y = textbox_region[1] + tb_region_height + addBoxHeight - 10
-        # self.text_shadow_in_region(textlines, text_x, text_y, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
+        self.max_textbox_height = int(self.vsize * 4/100) # text_height = vsize * 4 %
+        Subtitle = text_field(text=subtitle,fontname=fontname2,fontsize=fontsize2, max_width=self.textbox_width, max_height=self.max_textbox_height)
+        textlines = Subtitle.break_text()
+
+
+        text_x = textbox_region[0] + self.leftTextBound
+        text_y = textbox_region[1] + tb_region_height + self.addBoxHeight - 10
+        self.text_shadow_in_region(textlines, text_x, text_y, Subtitle.font, fontsize=Subtitle.fontsize, color=dom_col)
+
+        # place Wann, Wo, Wer below the grey subregion
         ###
+        textbox_height = int(fontsize2 * 1.1 * len(textlines)) + self.xhoffset
         Wann_Wo =  text_field(fontname=fontname3,fontsize=fontsize3)
         textlines = Wann_Wo.get_time_place_lines(wann,wo,wer)
-
-        # dom_col = self.dominant_color_in_region(self.region,brighter=True)
-
         text_x = self.hsize * 3/100
         text_y = text_y + textbox_height + 30
         self.text_shadow_in_region(textlines, text_x, text_y, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
@@ -193,14 +197,16 @@ class bg_canvas():
 
     
 class text_field():
-    def __init__(self,text="",fontname=fontname,fontsize=fontsize): # fontsize determined in class Font 
+    def __init__(self,text="", fontname=fontname, fontsize=fontsize, max_width=0, max_height=0): # fontsize determined in class Font 
         self.text = text.replace("\n"," ").strip()
         self.fontname = fontname
         self.fontsize = fontsize
         self.font = ImageFont.truetype(self.fontname, self.fontsize)
+        self.max_width = max_width
+        self.max_height = max_height
         return
 
-    def break_text(self, max_width, max_height):
+    def break_text(self):
         self.text_lines = []
         txt = self.text
         break_point = len(txt)
@@ -217,17 +223,17 @@ class text_field():
                 x,y,width,height = self.font.getbbox(txt[:break_point])
                 letter_size = width / break_point
                 # print (width, letter_size, max_width)
-                if width < max_width - letter_size and text_size >= break_point: # Too short
+                if width < self.max_width - letter_size and text_size >= break_point: # Too short
                     rlast_break_point = break_point
-                    break_point = max(int(max_width * break_point/ width), break_point + 1)
+                    break_point = max(int(self.max_width * break_point/ width), break_point + 1)
                     bp = txt[:break_point].rfind(" ")
                     if bp == -1:
                         break_point = len(txt[:break_point]) + 1
                     else:
                         break_point = bp
-                elif width > max_width: # Too large
+                elif width > self.max_width: # Too large
                     llast_break_point = break_point
-                    break_point = min(int(max_width * break_point / width), break_point - 1)
+                    break_point = min(int(self.max_width * break_point / width), break_point - 1)
                     bp = txt[:break_point].rfind(" ")
                     if bp == -1:
                         break_point = len(txt[:break_point]) + 1
@@ -243,18 +249,29 @@ class text_field():
             text_size = len(txt)
             if break_point < 0:   
                 break
-            if len(self.text_lines) * int(1.1 * self.fontsize) > max_height:
+            if len(self.text_lines) * int(1.1 * self.fontsize) > self.max_height:
                 text_too_long = True
                 break
         try:
             x,y,width,height = self.font.getbbox(self.text_lines[-2] + " " + self.text_lines[-1])
-            if width < max_width - letter_size:
+            if width < self.max_width - letter_size:
                 self.text_lines[-2] += " " + self.text_lines[-1]
                 self.text_lines = self.text_lines[:-1]
         except:
             None
         return self.text_lines
 
+        
+    def get_text_region(self, xhoffset, upperTextBound, addBoxHeight):
+        textbox_height = int(self.fontsize * 1.1 * len(self.text_lines)) + xhoffset
+        yoffset = upperTextBound + (self.max_height - min(self.max_height,textbox_height))
+        tb_region_width = self.max_width
+        tb_region_height = textbox_height
+        textbox_region = (xhoffset, yoffset - addBoxHeight, tb_region_width, yoffset + tb_region_height + addBoxHeight)
+        return textbox_region
+
+        
+    
     def get_time_place_lines(self,wann,wo,wer=""):
         locale.setlocale(locale.LC_ALL, "de_DE")
         textlines = self.get_dt(wann)
