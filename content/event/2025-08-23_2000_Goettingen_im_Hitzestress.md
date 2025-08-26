@@ -5,7 +5,7 @@ subtitle:      "Klimaanpassung gemeinsam denken"
 date:          2025-08-23T20:00:00+02:00
 etime:         2025-08-23T22:00:00+02:00
 publishdate:   2025-07-25T00:00:00+01:00
-author:        "KLimaschutz Göttingen e.V."
+author:        "Klimaschutz Göttingen e.V."
 place:         "Albanikirche Goettingen"
 URL:           "/2025/08/23/20/00/Goettingen_im_Hitzestress"
 locURL:        ""

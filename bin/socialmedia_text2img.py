@@ -31,14 +31,18 @@ class bg_canvas():
         
     def get_region_in_image(self):
         if self.Vsize < self.vsize:
-            self.image = self.image.resize((int(self.hsize*self.vsize/self.Vsize)+1,self.vsize+1))
+            self.image = self.image.resize((int(self.Hsize*self.vsize/self.Vsize)+1,self.vsize+1))
             (self.Hsize,self.Vsize)=self.image.size
         if self.Hsize < self.hsize:
-            self.image = self.image.resize((self.hsize+1,int(self.vsize*self.hsize/self.Hsize)+1))
+            self.image = self.image.resize((self.hsize+1,int(self.Vsize*self.hsize/self.Hsize)+1))
             (self.Hsize,self.Vsize)=self.image.size
+        xx = 0
+        yy = 0
         if random_box:
-            xx = random.randrange(0, self.Hsize - self.hsize)
-            yy = random.randrange(0, self.Vsize - self.vsize)
+            if self.Hsize > self.hsize:
+                xx = random.randrange(0, self.Hsize - self.hsize)
+            if self.Vsize > self.vsize:
+                yy = random.randrange(0, self.Vsize - self.vsize)
             # print((0, self.Hsize - self.hsize))
             self.box = (xx,yy,xx+hsize,yy+vsize)
             # print(self.box)
@@ -116,7 +120,8 @@ class bg_canvas():
         fontname2 = "LiberationSans-Bold.ttf"
         fontsize2 = 18
         fontname3 = "Courier-Bold.ttf"
-        fontsize3 = 28
+        fontsize3 = 26
+        
 
         # general parameters depending only 
         self.xhoffset = int(self.hsize * 3/100)          # xhoffset = 3 %
@@ -273,18 +278,22 @@ class text_field():
         
     
     def get_time_place_lines(self,wann,wo,wer=""):
+        # 32 chars possible in a line with "Courier-Bold.ttf", fs = 26
         locale.setlocale(locale.LC_ALL, "de_DE")
         textlines = self.get_dt(wann)
-        d = wo[:25].rfind(" ")
-        textlines.append("Wo:   " + wo[:d])
-        wo = wo[d+1:]
-        textlines.append("      " + wo[:25])
-        if len(wer) < 30:
+        if len(wo) < 26:
+            textlines.append("Wo:   " + wo)
+        else:
+            d = wo[:26].rfind(" ")
+            textlines.append("Wo:   " + wo[:d])
+            wo = wo[d+1:]
+            textlines.append("      " + wo[:26])
+        if len(wer) < 31:
             d = len(wer)
         else:
             d = wer[:30].rfind(" ")
         wer = "(" + wer[:d] + ") "
-        textlines.append(wer.rjust(29))
+        textlines.append(wer.rjust(32))
         return textlines
 
     def get_dt(self,wann):
