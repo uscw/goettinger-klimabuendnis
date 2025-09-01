@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:cd2406a2-4728-497d-9aba-e2945c0cdde3
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20250907T130000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20250907T150000
+DESCRIPTION;LANGUAGE=de-DE:Erlebnistouren durch den Gipskarst\n\nGeführte Wander- und Radtouren mit Naturerlebnis und Hofprogramm\n\nGeführte Wander- und Radtouren mit Naturerlebnis und Hofprogramm auf dem Schuberthof, Walkenried mit dem Landschaftspflegeverband Landkreis Göttingen e.V.\nDas Hotspot-Team des LPV lädt ein zum erlebnisreichen Kennenlernen der Südharzer Gipskarstlandschaf. Vom Bahnhof Ellrich geht es auf nach Walkenried zum Schuberthof. Angeboten werden eine Familienwanderung (3 km), Fahrradtour über Walkenried (ca. 10 km) und eine Fahrradtour über Bad Sachsa (ca. 19 km). Bitte um Anmeldung!\nAuf dem Schuberthof Walkenried erwarten Euch Kaffee & Kuchen, Grill & Getränke, Infos zum Naturschatz Gipskarst, eine Hofführung, Tierfütterung, Streichelzoo und tolle Aktionen. Auch der Hofladen mit regionalen Produkten hat geöffnet.\n
+LOCATION;LANGUAGE=de-DE:Bahnhof Ellrich, Ziel Walkenried
+SUMMARY;LANGUAGE=de-DE:Erlebnistouren durch den Gipskarst, Geführte Wander- und Radtouren mit Naturerlebnis und Hofprogramm
+URL:https://goettinger-klimabuendnis.de/2025/09/07/13/00/erlebnistouren_durch_den_gipskarst
+UID:cd2406a2-4728-497d-9aba-e2945c0cdde3
+
+END:VEVENT
+
+
+END:VCALENDAR

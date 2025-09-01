@@ -198,17 +198,38 @@ END:VCALENDAR
 
 class ics_genres():
     
-    def __init__(self, genre):
-        genres = {
+    def __init__(self):
+        self.genres = {
             "adfc" : {
                 "author" : "ADFC",
                 "subtitle" : "Eine Radtour des ADFC Göttingen",
                 "locURL" : "https://goettingen.adfc.de/",
                 "image" : "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
+            },
+            "gökb" : {
+                "subtitle" : "",
+                "author" : "GöKB",
+                "image" : "2022-10-04_Peperoni.jpg",
+                "locURL" : "https://goettinger-klimabuendnis.de"
             }
         }
-        self.genre = genres[genre]
         return
+
+    def get_generic_fields(self, genre):
+        return self.genres[genre]
+    
+    def ask4genre(self):
+        genre_list = ""
+        for item in self.genres:
+            genre_list += item + " "
+        while True:
+            print ("Which genre (" + genre_list + ") should be used?")
+            genre = sys.stdin.readline()[:-1]
+            if genre != "" and genre.lower() in genre_list:
+                return genre.lower()
+            
+
+
 #####################################
 
 class event():
@@ -422,17 +443,11 @@ class event():
         curr_events[str(Date) + "_" + Time +  "_" + Place.replace(" ","").replace(",","")] = cont
         return curr_events
 
-    def get_event_from_ics(self, File, genre=""):
-        if genre == "":
-            generic_fields = {
-                "subtitle" : "",
-                "author" : "GöKB",
-                "image" : "2022-10-04_Peperoni.jpg",
-                "locURL" : "https://goettinger-klimabuendnis.de"
-                }
-        else:
-            ICS_genres = ics_genres(genre.lower())
-            generic_fields = ICS_genres.genre
+    def get_event_from_ics(self, File, genre=None):
+        ICS_genres = ics_genres()
+        if genre == None:
+            genre = ICS_genres.ask4genre()
+        generic_fields = ICS_genres.get_generic_fields(genre)
         print (File)
         fp = open(File) #'/home/uschwar1/Downloads/entlang-von-werra-und-fulda-nach-kassel.ics')
         filestr = fp.read()
