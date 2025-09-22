@@ -66,10 +66,11 @@ einzigen Fahrrad in den Monitoring-Darstellungen dargestellt werden.
 | 20 | Ertüchtigung von mindestens zwei Kreuzungen pro Jahr |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 30 | Priorisierung radverkehrsreicher Stadtstraßen (Bürgerstraße etc.) |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 ## Maßnahme nach Bedarfsermittlung umzusetzen
-5: Temporäre Kfz-Durchfahrtverbote an Schulen
+
 
 | Nr. in RE1 |  Maßnahme | Stand der Durchführung* | 
 |:---------:|:---------:|:----------------------:| 
+| 5 | Temporäre Kfz-Durchfahrtverbote an Schulen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 7 | Abmarkierung der Dooring-Zonen in Nicht-Fahrradstraßen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 19 | Direktes Linksabbiegen an Kreuzungen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 25 | Vorzeitige Grüngabe für Fuß- und Rad an Ampelkreuzungen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
