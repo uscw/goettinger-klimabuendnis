@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "ENTWURF: Monitoring zum Radentscheid 1 in Göttingen"
+title:         "Monitoring zum Radentscheid 1 in Göttingen"
 subtitle:      "Zahlen zu Maßnahmen im Rad-Verkehr"
 date:          2024-07-10T11:21:00+01:00
 publishdate:   2024-07-10T00:00:00+01:00
@@ -10,11 +10,38 @@ draft:        false
 showtoc:      true
 ---
 
-# *ENTWURF:*
+# Radentscheid Göttingen – Die Un-Tätigkeitsbilanz 24/25 (von GöttingenZero)
+
+Wählerinnen und Wähler haben am 9. Juni 2024 in einem Bürgerentscheid Maßnahmen für mehr Sicherheit und Attraktivität des Radverkehrs beschlossen. Zum Jahrestag präsentiert GöttingenZero die Un-Tätigkeitsbilanz der Stadt.
+
+Den Maßnahmen des Göttinger Bürgerentscheid für mehr Sicherheit und Attraktivität des Radverkehrs stimmten vor einem Jahr 54 % der Göttinger Wähler\*innen zu. Die Tätigkeitsbilanz der Stadt zum Jahrestag dieser Entscheidung belegt mangelnden Umsetzungswillen und mangelnde Rechtstreue der Stadt Göttingen. Die lobenswerte Einrichtung des Runden Tisches Radverkehr entbindet die Stadt nicht von der Pflicht, die Entscheidung der Göttinger Wähler\*innen umzusetzen.
+
+Statt die Umsetzung der gültigen Beschlüsse zu planen, bereitet die Stadtverwaltung die Bemalung weiterer Göttinger Straßen mit Piktogrammketten zur Förderung des Mischverkehrs vor. Eine Maßnahme ohne Wirkung auf Sicherheit und Attraktivität des Radverkehrs für Kinder,  Familien und ältere Verkehrsteilnehmer\*innen.
+
+Keine Partei des Haushaltbündnisses oder des Rates konnte auch nur annähernd so viele Wähler\*innen hinter sich vereinen wie der Radentscheid. Die Göttingerinnen und Göttinger haben ein Recht auf das Respektieren ihres Wählerwillens und ein klares Bekenntnis der Verwaltungsleitung zur tatsächlichen Umsetzung des Radentscheids. Angesichts der Un-Tätigkeitsbilanz der Verwaltung fragt GöttingenZero Stadt und Rat:
+
+Beabsichtigen Oberbürgermeisterin und Stadtverwaltung auch in Zukunft, die durch Wählerinnen und Wähler direkt beschlossenen Maßnahmen zu missachten?
+
+Verfolgt die Göttinger Verkehrsplanung die beschlossene Verkehrstrennung oder das abgewählte Konzept des Mischverkehrs?  
+
+Sieht sich der Rat als demokratisches Kontrollorgan der Umsetzung des Bürgerwillens und einem rechtstreuen Handeln der Stadt verpflichtet?
+
+**GöttingenZero, 12.06,2025** 
+
 # Monitoring der Maßnahmen der 34 Beschlusspunkte
 Bei der Umsetzung des Radentscheids muss nach der Art der Maßnahmen unterschieden werden.
 Diese lassen sich in verschiedene Kategorien einteilen. Einige sind unmittelbar umzusetzen, andere
-nur im Bedarfsfall oder wirken als Daueraufgaben, wiederum andere sind konkrete oder allgemeine Leitlinien.
+nur im Bedarfsfall oder wirken als Daueraufgaben, wiederum andere sind
+konkrete oder allgemeine Leitlinien.
+
+## Anmerkungen 2025 nach einem Jahr Radentscheid
+
+Als einzige Maßnahme im Rahmen des Radentscheids kann die 
+Installation 1,5 km Protected Bike Lanes pro Jahr 0,15 km gelten. Obwohl dies
+bislang nur als Baustelle und gemeinsam mit einem provisorischen Fußweg
+eingerichtet wurde, soll es hier etwas übertrieben mit 10% zu dem bislang
+einzigen Fahrrad in den Monitoring-Darstellungen dargestellt werden.
+
 
 ## Einmalige Maßnahme, unmittelbar nach Beschluss umzusetzen
 
@@ -34,7 +61,7 @@ nur im Bedarfsfall oder wirken als Daueraufgaben, wiederum andere sind konkrete 
 | 13 | Abmarkierung der Dooring-Zonen in allen Fahrradstraßen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 14 | Entfernen der Straßenrandparkplätze in engen Fahrradstraßen |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 15 | Ertüchtigung bestehender Fahrradstraßen bis 2030 |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
-| 16 | Mindestens 1,5 km Protected Bike Lanes pro Jahr |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
+| 16 | Mindestens 1,5 km Protected Bike Lanes pro Jahr |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚴‍♀️|
 | 18 | Einbahnstraßenausweisung (z. B. Merkelstraße/Friedländer Weg) |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 20 | Ertüchtigung von mindestens zwei Kreuzungen pro Jahr |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 30 | Priorisierung radverkehrsreicher Stadtstraßen (Bürgerstraße etc.) |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
@@ -76,7 +103,7 @@ nur im Bedarfsfall oder wirken als Daueraufgaben, wiederum andere sind konkrete 
 | 3 | Differenzierung innerhalb des Umweltverbundes |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 | 4 | Vorrang für fließenden Radverkehr vor ruhendem Autoverkehr |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
 
-## * Legende zum Stand der Maßnahmen
+## *Legende zum Stand der Maßnahmen*
 | Icons | in Prozent |
 |:-----:|:----------:|
 | 0% |  🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗 |
