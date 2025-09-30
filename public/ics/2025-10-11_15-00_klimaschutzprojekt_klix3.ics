@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:6a61379b-25b1-47f7-a130-5442fc7fe0fe
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251011T150000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251011T173000
+DESCRIPTION;LANGUAGE=de-DE:Klimaschutzprojekt KliX3\n\nDeutschlandticket-Tour „Nächster Halt: Göttingen“\n\n\nSehr geehrte Damen und Herren,\n\nwas bedeutet Klimaneutralität auf einer persönlichen Ebene und welche Beiträge können Einzelne hierzu leisten? Diesen und weiteren spannenden Fragen gehen wir mit dem bundesweiten Klimaschutz- und Forschungsprojekt KliX³ auf den Grund. Als Mitmachaktion und zugleich Reallabor begleitet KliX³ bisher über 1.500 Menschen auf dem Weg zu einem klimaneutralen Leben bis 2030. Mindestens 30 weitere Teilnehmer:innen sollen es auch in Göttingen werden – die Stadt ist offizieller Kooperationspartner des Projekts.\n\n \n\nIm Rahmen der KliX³-Deutschlandticket-Tour „Nächster Halt: Dein Big Point!“ machen wir am Samstag, 11. Oktober, in Göttingen Station:\n\n \n\nInfostand mit Presseaktion\n\n    15:00 bis 17:30 Uhr: Meet & Greet vor dem Alten Rathaus\n    16:00 Uhr: Presseaktion\n\n \n\nWir stellen den analogen „Baustein-CO2-Rechner“ und die Klimawaage des Umweltbundesamts als Bildungsmaterialien vor. Als „Special Guest“ ist auch KlimaKliX (ein entfernter Verwandter von Obelix) dabei und diskutiert gerne über die Frage, wie wir mit den Big Points Tonnen an CO2 einsparen können.\n\nWir freuen uns, wenn Sie uns am Infostand besuchen kommen und der Presseaktion durch Ihre Anwesenheit Wirkung verleihen! \n\nSiehe auch die Seite des Veranstalters: ![Klix3](https://klix3.de/deutschlandticket-tour/\n
+LOCATION;LANGUAGE=de-DE:vor dem Alten Rathaus, Göttingen
+SUMMARY;LANGUAGE=de-DE:Klimaschutzprojekt KliX3, Deutschlandticket-Tour „Nächster Halt: Göttingen“
+URL:https://goettinger-klimabuendnis.de/2025/10/11/15/00/klimaschutzprojekt_klix3
+UID:6a61379b-25b1-47f7-a130-5442fc7fe0fe
+
+END:VEVENT
+
+
+END:VCALENDAR

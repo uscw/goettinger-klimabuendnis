@@ -1,7 +1,3 @@
-Auch mit Akrobatik können die Blätter der gefährdeten Bäume noch nicht erreicht werden. Menschenkette für den Erhalt der  Bäume in der Weender Str. am 13.9.2025![2025-09-13-Baeume-Weender-Str.jpg](/img/pow/2025-09-13-Baeume-Weender-Str.jpg)
-------------------
-Nicht nur, dass der Göttinger Landkreis für einen Großteil der regenerativen Energien des Oberzentrums aufkommt. In diesem Sommer werden dort auch alternative Energielösungen für extreme Stromfresser  angeboten.![2025-08-13-Rechenzentrum.jpg](/img/pow/2025-08-13-Rechenzentrum.jpg)
-------------------
 Nach einem Jahr Radentscheid informiert sich das GT am 13.6.2025 über die Lage und die erfreulichen ersten 3m Protected BikeLane am Rathaus in Göttingen![2025-06-13-Ein-Jahr-Radentscheid.jpg](/img/pow/2025-06-13-Ein-Jahr-Radentscheid.jpg)
 ------------------
 Die klimaerkrankte Erde hat auf dem Rathausplatz in Göttingen ihren Mittelpunkt (Klimastreik am 14.2.2025)![2025-02-14-Klimastreik.jpg](/img/pow/2025-02-14-Klimastreik.jpg)
