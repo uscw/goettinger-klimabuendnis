@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:1d0bd55b-f35d-4b23-92e2-c59aeac42fbb
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251029T190000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251029T210000
+DESCRIPTION;LANGUAGE=de-DE:Kriegstüchtiges Gesundheitswesen\n\nWas bedeutet das für uns?\n\n\n„Der Frieden ist der einzige Kampf, den es sich zu führen lohnt.“\nAlbert Camus\nEinladung zur Veranstaltung:\nKriegstüchtiges Gesundheitswesen – Was bedeutet das für uns?\nEin Krieg betrifft nicht nur Soldaten auf dem Schlachtfeld, sondern trifft\nauch die Zivilbevölkerung schwer. Was die Ausweitung der aktuellen\nmilitärisches Konflikte für die Allgemeinbevölkerung bedeuten würde,\nlässt sich durch Fernsehberichte über überfüllte Krankenhäuser in\nKriegsgebieten erahnen.\nWelche Auswirkungen würde eine kriegerische Auseinandersetzung auf\nunser Gesundheitssystem haben? Kann und sollte man ein Gesundheits-\nsystem auf „Kriegstüchtigkeit“ vorbereiten? Dienen solche Maßnahmen\nwirklich dem Schutz der Bevölkerung – oder eher der Beruhigung\nangesichts des drohenden Einsatzes von Nuklearwaffen?\nZu diesem Thema möchten wir Sie zu unserer Veranstaltung der IPPNW\neinladen. Es erwarten Sie spannende Vorträge:\nFrau Rippel-Lau, Allgemeinärztin aus Hamburg, gibt einen Überblick über\naktuelle politische Debatten und Maßnahmen zur sogenannten\n„Kriegstüchtigkeit“ des Gesundheitswesens: Wo stehen wir heute, wohin\nsoll es – aus Sicht der politischen Akteure – gehen und warum?\nPD Dr. Katharina Blanka Jäckle, Klinik für Unfallchirurgie, Orthopädie und\nPlastische Chirurgie, Universitätsmedizin Göttingen, wird im Rahmen ihres\nVortrages Einblicke in die Praxis geben. Sie berichtet von der Behandlung\nschwerverletzter Kriegsopfer aus der Ukraine in Göttingen.\nWir laden Sie herzlich ein, mitzudenken, Fragen zu stellen und gemeinsam\ndarüber zu diskutieren, wie wir als Gesellschaft mit der Realität von Krieg\nund Katastrophen umgehen – und warum Frieden eine zentrale Aufgabe\ndes Gesundheitswesens ist.\nDer Eintritt ist frei.\nWir freuen uns auf Sie!\n
+LOCATION;LANGUAGE=de-DE:Universitätsmedizin Göttingen, Hörsaal 552
+SUMMARY;LANGUAGE=de-DE:Kriegstüchtiges Gesundheitswesen, Was bedeutet das für uns?
+URL:https://goettinger-klimabuendnis.de/2025/10/29/19/00/kriegstuechtiges_gesundheitswesen
+UID:1d0bd55b-f35d-4b23-92e2-c59aeac42fbb
+
+END:VEVENT
+
+
+END:VCALENDAR
