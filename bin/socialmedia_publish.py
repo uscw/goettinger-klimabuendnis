@@ -208,7 +208,8 @@ class SM_post():
 class mastodon_post(SM_post):
     def __init__(self):
         self.char_limit = 500
-        self.cred_fn = cred_fdir + "mastodon_uScw.json"
+        # self.cred_fn = cred_fdir + "mastodon_uScw.json"
+        self.cred_fn = cred_fdir + "mastodon_GoeKB.json"
         self.cred = self.get_credentials()
         self.token = self.cred["token"]
         self.api_base_url = self.cred["api_base_url"]

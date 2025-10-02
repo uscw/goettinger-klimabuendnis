@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:b859af87-2b71-465a-8d77-a4273afdbff6
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251010T200000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251010T220000
+DESCRIPTION;LANGUAGE=de-DE:Grad°Jetzt - Gegen die Angst\n\nFilm & Foto Reportage: Vortrag in Göttingen\n\nEine Liveshow für alle, die sich jemals ängstlich oder machtlos angesichts der Klimakrise gefühlt haben. Journalistin Louisa Schneider besuchte fünf Orte unseres Planeten, sogenannte Kipppunkte, und begegnete dort mutigen Menschen, die heute schon am meisten betroffen sind aber furchtlos in die Welt von morgen aufbrechen. Louisa nimmt uns mit in den Regenwald, wir lernen vom Schamanen der indigenen Yanomami, rücken zusammen mit den Menschen Senegals, lauschen den Geschichten der Inuit und tauchen tief zum Great Barrier Reef.\n\nEin Projekt mit Greenpeace, Louisa Schneider und Markus Mauthe. \n\nDer Eintritt ist frei, aber eine Ticketbuchung im Voraus ist notwendig. Für das Ticketsystem fällt eine kleine Servicegebühr von 2,50 € an. \n
+LOCATION;LANGUAGE=de-DE:CinemaxX Göttingen
+SUMMARY;LANGUAGE=de-DE:Grad°Jetzt - Gegen die Angst, Film & Foto Reportage: Vortrag in Göttingen
+URL:https://goettinger-klimabuendnis.de/2025/10/10/20/00/gradjetzt_-_gegen_die_angst
+UID:b859af87-2b71-465a-8d77-a4273afdbff6
+
+END:VEVENT
+
+
+END:VCALENDAR
