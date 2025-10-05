@@ -1,4 +1,3 @@
-INDIR="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 GITDIR="/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 GITPARENTDIR="/home/uschwar1/Dokumente"
 HUGO="${GITDIR}/bin/hugo"
@@ -7,9 +6,9 @@ SERVER_LOC="${SERVER_USR}@goettinger-klimabuendnis.de"
 SERVER_DIR="Docker/nginx-alpine"
 
 # PoW-Archiv aktualisieren
-python3 ${INDIR}/bin/archiv_pow.py
+python3 ${GITDIR}/bin/archiv_pow.py
 
-find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
+find ${GITDIR} -type f -iname "*~"  -exec /bin/rm {} \;
 
 ORIPWD=`echo $PWD`
 cd ${GITDIR}
