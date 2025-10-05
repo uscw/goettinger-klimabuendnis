@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:6e3b4e88-8a58-46f7-b7d8-c96001e98a5c
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251004T150000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251004T170000
+DESCRIPTION;LANGUAGE=de-DE:Kidical Mass Fahrraddemo\n\nGemeinsames Radeln macht Spaß, egal bei welchem Wetter\n\nMitmachen ist einfach – bei jedem Wetter\n\nJede*r kann Teil der Verkehrswende sein. Bereits Grundschulkinder können „Fahrradbusse“ bilden, in denen sie gemeinsam und sichtbar zur Schule fahren. Zur Arbeit kann man auch mit Kolleginnen und Kollegen eine Fahrradfahrgemeinschaft bilden. \n\nUnd bei der bunten [Kidical Mass Fahrraddemo]() am Samstag 04.10. um 15 Uhr am Gänseliesel kann jede*r mitfahren – Kinder, Eltern, Großeltern und Freund*innen des Fahrrads. Wir wollen am Samstag wieder zeigen: Gemeinsames Radeln macht Spaß, egal bei welchem Wetter.\n
+LOCATION;LANGUAGE=de-DE:Gänseliesel Göttingen
+SUMMARY;LANGUAGE=de-DE:Kidical Mass Fahrraddemo, Gemeinsames Radeln macht Spaß, egal bei welchem Wetter
+URL:https://goettinger-klimabuendnis.de/2025/10/04/15/00/kidical_mass_fahrraddemo
+UID:6e3b4e88-8a58-46f7-b7d8-c96001e98a5c
+
+END:VEVENT
+
+
+END:VCALENDAR
