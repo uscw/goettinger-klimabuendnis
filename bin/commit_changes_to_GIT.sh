@@ -1,7 +1,6 @@
 INDIR="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 GITDIR="/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 GITPARENTDIR="/home/uschwar1/Dokumente"
-HUGO="/home/uschwar1/ownCloud/AC/html/hugo/hugo"
 HUGO="${GITDIR}/bin/hugo"
 SERVER_USR="gkb_user"
 SERVER_LOC="${SERVER_USR}@goettinger-klimabuendnis.de"
@@ -11,15 +10,16 @@ SERVER_DIR="Docker/nginx-alpine"
 python3 ${INDIR}/bin/archiv_pow.py
 
 find ${INDIR} -type f -iname "*~"  -exec /bin/rm {} \;
-# chmod -R +rwX public/
-
-# rsync -aHAXx --delete --exclude ".git" ${INDIR} ${GITPARENTDIR}
-# sed -i "s/https:\\/\\/localhost:1313/http:\\/\\/goettinger-klimabuendnis.de/g" ${GITDIR}/config.toml
-# echo "wait"; sleep 2
 
 ORIPWD=`echo $PWD`
 cd ${GITDIR}
 ${HUGO}
+
+git pull origin main
+if [[ $? != "0" ]]; then
+  echo "Error: Branches differ! Check consistency"
+  exit 1
+fi 
 
 echo "provide commit message:"
 read inp
@@ -28,7 +28,7 @@ if [[ ${inp} == "" ]]; then
 fi
 git add --all
 git commit -m "${inp}"
-#git push origin master
+
 git push origin main
 
 rsync -avze ssh --delete public ${SERVER_LOC}:${SERVER_DIR}
