@@ -5,7 +5,7 @@ import uuid
 from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 
-homeDir = "/home/uschwar1/Dokumente/goettinger-klimabuendnis"
+homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
 outDir = homeDir + "/content/event"
 icsDir = homeDir + "/static/ics"
 banner_dir = "/img/banner"

@@ -4,8 +4,8 @@ import sys
 import os
 from datetime import date, datetime, timedelta
 
-PostDir="/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/content/post/"
-homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
+homeDir = "/home/uschwar1/Dokumente/goettinger-klimabuendnis"
+PostDir = homeDir +"/content/post/"
 banner_dir = "/img/banner"
 default_banner = "/img/banner/2021-12-17_Kundgebung_Rathaus_Goettingen_klimaneutral_2030.jpg"
 
