@@ -14,7 +14,8 @@ showtoc:      true
 
 Das Göttinger Klimabündnis hat sich entschlossen, ein Monitoring und Controlling der aktuellen Klimaschutzdaten in Göttingen durchzuführen. Ein mindestens jährliches Monitoring, das die Daten des vergangenen Jahres nach einem halben Jahr, spätestens aber nach einem Jahr, liefert, ist für die Einschätzung der Lage im Klimaschutz und die Planung von Maßnahmen durch die Politik, also zur Erreichung der Klimaziele der Stadt unbedingt notwendig.
 
-Dieser Aufgabe ist die Stadt Göttingen in der Vergangenheit nur unregelmäßig und mit zum Teil erheblicher Verzögerung nachgekommen. Die von der Stadt derzeit veröffentlichten Klimadaten gehen auf das Jahr 2020 zurück. Einem Jahr, das aufgrund der Corona-Pandemie keinesfalls als statistisch aussagekräftig für Klimadaten angesehen werden kann.
+Dieser Aufgabe ist die Stadt Göttingen in der Vergangenheit nur unregelmäßig und mit zum Teil erheblicher Verzögerung nachgekommen. Die von der Stadt derzeit veröffentlichten Klimadaten gehen auf das Jahr
+2022 zurück. 
 
 Dieser Entschuss des Klimabündnisses folgt nun, nachdem 
 auf eine mehr als zwei Jahre alte Forderung nach einem zeitnahen Monitoring
