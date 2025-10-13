@@ -3,7 +3,7 @@ layout:        posts
 title:         "Hamburg bekommt ein besseres Klimaschutzgesetz!"
 subtitle:      "Der Volksentscheif wurde mit 53% Ja-Stimmen angenommen"
 date:          2025-10-13T09:21:00+01:00
-publishdate:   2025-10-12T00:00:00+01:00
+publishdate:   2025-10-13T08:00:00+01:00
 image:         "/img/banner/2022-10-04_Peperoni.jpg"
 author:        "GöKB"
 showtoc:      true
