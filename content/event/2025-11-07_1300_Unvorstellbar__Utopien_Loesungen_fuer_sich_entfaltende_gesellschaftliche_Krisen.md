@@ -9,7 +9,7 @@ author:        "Plant-Based Universities, Göttingen"
 place:         "Waldweg 26Goettingen Deutschland"
 URL:           "/2025/11/07/13/00/Unvorstellbar__Utopien_Loesungen_fuer_sich_entfaltende_gesellschaftliche_Krisen"
 locURL:        "https://linktr.ee/pbu.goettingen"
-image:         "/img/banner/2022-10-04_Peperoni.jpg"
+image:         "/img/banner/2022-09-10-Wurzelgemuese.png"
 ---
 
 **Veranstaltung: 07. November 2025, 13:00 Uhr, Waldweg 26

@@ -9,7 +9,7 @@ author:        "Plant-Based Universities, Göttingen"
 place:         "Duestere Strasse 20AGoettingen Deutschland"
 URL:           "/2025/11/25/18/00/Plant-Based_Universities__Einstiegsabend"
 locURL:        "https://linktr.ee/pbu.goettingen"
-image:         "/img/banner/2022-10-04_Peperoni.jpg"
+image:         "/img/banner/2022-09-10-Wurzelgemuese.png"
 ---
 
 **Veranstaltung: 25. November 2025, 18:00 Uhr, Düstere Straße 20A

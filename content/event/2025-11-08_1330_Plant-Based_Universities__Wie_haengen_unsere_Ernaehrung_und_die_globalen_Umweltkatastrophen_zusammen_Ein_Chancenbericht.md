@@ -9,7 +9,7 @@ author:        "Plant-Based Universities, Göttingen"
 place:         "Waldweg 26Goettingen Deutschland"
 URL:           "/2025/11/08/13/30/Plant-Based_Universities__Wie_haengen_unsere_Ernaehrung_und_die_globalen_Umweltkatastrophen_zusammen_Ein_Chancenbericht"
 locURL:        "https://linktr.ee/pbu.goettingen"
-image:         "/img/banner/2022-10-04_Peperoni.jpg"
+image:         "/img/banner/2022-09-10-Wurzelgemuese.png"
 ---
 
 **Veranstaltung: 08. November 2025, 13:30 Uhr, Waldweg 26

@@ -210,7 +210,7 @@ class ics_genres():
             "pbu" : {
                 "subtitle" : "",
                 "author" : "Plant-Based Universities, Göttingen",
-                "image" : "/img/banner/2022-10-04_Peperoni.jpg",
+                "image" : "/img/banner/2022-09-10-Wurzelgemuese.png",
                 "locURL" : "https://linktr.ee/pbu.goettingen"
             },
             "gökb" : {
