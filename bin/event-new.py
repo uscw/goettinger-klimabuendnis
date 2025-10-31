@@ -8,6 +8,7 @@ import icalendar
 
         
 homeDir = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis"
+homeDir = "/home/uschwar1/Dokumente/goettinger-klimabuendnis"
 outDir = homeDir + "/content/event"
 icsDir = homeDir + "/static/ics"
 banner_dir = "/img/banner"
@@ -206,10 +207,16 @@ class ics_genres():
                 "locURL" : "https://goettingen.adfc.de/",
                 "image" : "/img/banner/2025-05-22-ADFC-Radtouren.jpg"
             },
+            "pbu" : {
+                "subtitle" : "",
+                "author" : "Plant-Based Universities, Göttingen",
+                "image" : "/img/banner/2022-10-04_Peperoni.jpg",
+                "locURL" : "https://linktr.ee/pbu.goettingen"
+            },
             "gökb" : {
                 "subtitle" : "",
                 "author" : "GöKB",
-                "image" : "2022-10-04_Peperoni.jpg",
+                "image" : "/img/banner/2022-10-04_Peperoni.jpg",
                 "locURL" : "https://goettinger-klimabuendnis.de"
             }
         }

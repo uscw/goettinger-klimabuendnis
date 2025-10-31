@@ -1,0 +1,58 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:b9a6e6d8-6a9b-44a8-9655-87f1efd37141
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251108T133000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251108T150000
+DESCRIPTION;LANGUAGE=de-DE:Plant-Based Universities – Wie hängen unsere Ernährung und die globalen Umweltkatastrophen zusammen? Ein Chancenbericht!\n\n\n\nDer jüngste Bericht über die Planetaren Grenzen durch Richardson et al. (2023) legt dar, dass aktuell sechs von neun planetaren Grenzen aufgrund von anthropogenen Einflüssen überschritten werden. In unserem Vortrag werden wir beleuchten welchen Anteil die Produktion tierischer Lebensmittel an der Überschreitung ausgewählter planetarer Grenzen hat. Dann werden wir analysieren, welches Potential eine pflanzenbasierte Landwirtschaft besitzt, um die Überschreitung dieser planetaren Grenzen zu beenden. Abschließend stellen wir die Kampagne „Plant-Based Universities“ vor, die sich europaweit für eine nachhaltige Ernährungswende einsetzt und praktisch zeigt, wie viel transformatives Potential Universitäten in unserer Gesellschaft haben können.
+LOCATION;LANGUAGE=de-DE:Waldweg 26
+Göttingen, Deutschland
+SUMMARY;LANGUAGE=de-DE:Plant-Based Universities – Wie hängen unsere Ernährung und die globalen Umweltkatastrophen zusammen? Ein Chancenbericht!, 
+URL:https://goettinger-klimabuendnis.de/2025/11/08/13/30/plant-based_universities__wie_haengen_unsere_ernaehrung_und_die_globalen_umweltkatastrophen_zusammen_ein_chancenbericht
+UID:b9a6e6d8-6a9b-44a8-9655-87f1efd37141
+
+END:VEVENT
+
+
+END:VCALENDAR

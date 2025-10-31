@@ -22,7 +22,7 @@ import socialmedia_text2img
 
 no_posts = False # True
 tdelta = 4 # timedelta to next event to post 
-baseFDIR = "/home/uschwar1/Dokumente/goettinger-klimabuendnis/"
+baseFDIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 #baseFDIR = "/home/gkb_user/goettinger-klimabuendnis/"
 eventFDIR = baseFDIR + "content/event/"
 staticFDIR =  baseFDIR + "static/"

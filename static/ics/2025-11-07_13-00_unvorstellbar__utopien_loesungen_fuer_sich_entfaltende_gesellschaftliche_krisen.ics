@@ -1,0 +1,58 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:494cdcb3-9c69-4224-8e41-4224ede8e31d
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20251107T130000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20251107T173000
+DESCRIPTION;LANGUAGE=de-DE:Unvorstellbar – Utopien! Lösungen für sich entfaltende gesellschaftliche Krisen!\n\n\n\nAuf der Utopien Tagung der Offenen Akademie treffen sich Wissenschaftler*innen aller Fachrichtungen zusammen mit Studierenden und weiteren Interessierten. Es wird ein thematisch sehr breites Programm geben: Von Umweltkrisen und Verkehrsentwicklung über den Kampf gegen modernen Antifaschismus bis hin zu gewerkschaftlichem Streik gegen Waffentransporte ist alles dabei!\n\nDer Eintritt ist auf Spendenbasis (ab 5€). Die Soli-Küche Fläming Kitchen organisiert eine vegane Vollverpflegung geg...
+LOCATION;LANGUAGE=de-DE:Waldweg 26
+Göttingen, Deutschland
+SUMMARY;LANGUAGE=de-DE:Unvorstellbar – Utopien! Lösungen für sich entfaltende gesellschaftliche Krisen!, 
+URL:https://goettinger-klimabuendnis.de/2025/11/07/13/00/unvorstellbar__utopien_loesungen_fuer_sich_entfaltende_gesellschaftliche_krisen
+UID:494cdcb3-9c69-4224-8e41-4224ede8e31d
+
+END:VEVENT
+
+
+END:VCALENDAR
