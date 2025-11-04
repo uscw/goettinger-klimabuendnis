@@ -27,7 +27,11 @@ Kalenderdatei: [📆](/ics/2025-11-11_18-30_gemeinwohloekonomie.ics)
 Die großen Herausforderungen wie Klimakrise und soziale Ungleichheit nehmen nicht ab,
 sie wachsen sogar weiter an!
 
+![Plakat Veranstaltungsreihe Transformation](/img/event/2025-11-09-Plakat_Veranstaltungsreihe_Transformation_klein.jpg)
+
 In diesen Veranstaltungen beschäftigen wir uns mit Modellen, Beispielen und Realitäten, wie wir Veränderungen bewirken können.
+
+![Demoschild_Nature](/img/event/2025-11-09-Demoschild_Nature_klein.jpg)
 
 
 Mehr Informationen beim [Veranstalter](http://www.bund-goettingen.de/)
