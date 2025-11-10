@@ -86,3 +86,53 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri Nov  7 10:53:16 2025
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/post/2025-11-06_1045-Im_November_wird_es_heiß-Klimabildung_eV_und_Students_for_Future_Göttingen.md'
+---
+layout:        posts
+title:         "Im November wird es heiß!"
+subtitle:      "Vom 24.-30.11.2025 findet die Public Climate School (PCS) wieder in Göttingen statt"
+date:          2025-11-06T10:45:00+01:00
+publishdate:   2025-11-05T00:00:00+01:00
+image:         "/img/banner/2019-03-09-LilaLichtenberg_1405a.jpg"
+author:        "Klimabildung e.V. und Students for Future Göttingen"
+showtoc:      false
+draft:        false
+---
+
+Eine Woche lang bieten Klimabildung e.V. und Students for Future Göttingen ein vielfältiges Programm rund um das Thema Klima. Freut Euch auf interessante Vorträge aus Wissenschaft und Praxis, Workshops und Mitmachaktionen für Jung und Alt, mit Referent:Innen aus vielen spannenden Organisationen: neben der Universität Göttingen etwa die Scientists for Future, das Göttinger Umwelt- und Naturschutzzentrum (GUNZ), JANUN e.V., Greenpeace Göttingen oder das Referat für nachhaltige Stadtentwicklung.
+
+Das Programm mit einer interaktiven Karte findet Ihr [hier](https://publicclimateschool.de/veranstaltungen-2/), oder demnächst auf
+[Instagram](https://www.instagram.com/studentsforfuture_goettingen/) oder
+[Mastodon](https://mastodon.social/@studentsforfuture_goettingen)
+
+Allgemeine Informationen zur PCS gibt es
+[hier](https://publicclimateschool.de/)~~ zu sehen.
+
+Bei Fragen oder Anregungen kontaktiert uns gerne jederzeit per Insta oder eMail (sff_goettingen@riseup.net)
+
+Wir freuen uns auf Euch:)
+
+[Weitere Informationen...](https://publicclimateschool.de/)
+
+*** File '(Unnamed)'
+content/event/2025-11-08_1330_Plant-Based_Universities__Wie_haengen_unsere_Ernaehrung_und_die_globalen_Umweltkatastrophen_zusammen_Ein_Chancenbericht.md
+content/event/2025-11-08_1330_Plant-Based_Universities__Wie_haengen_unsere_Ernaehrung_und_die_globalen_Umweltkatastrophen_zusammen_Ein_Chancenbericht.md
+/tmp/Certs/otherkeys/logins.txt
+/tmp/Certs/otherkeys/sonstiges.txt
+/tmp/Certs/otherkeys/logins.txt
+content/event/2025-11-09_1530_Utopien_und_Wege_dorthin.md
+bin/social_media_event_schedule.sh
+content/event/2025-11-11_1830_Gemeinwohloekonomie.md
+KUNSTev.csv
+content/post/2025-11-05_1354-Für_den_Erhalt_der_Bäume_in_der_Weender_Straße-.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/post/2025-11-06_1045-Im_November_wird_es_heiß-Klimabildung_eV_und_Students_for_Future_Göttingen.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
