@@ -24,4 +24,6 @@ Kleidertauschparty
 Kalenderdatei: [📆](/ics/2025-11-28_16-00_kleidertausch_statt_kaufrausch.ics)
 
 
+![Kleidertausch](/img/event/2025-11-28-Kleidertausch.png)
+
 Mehr Informationen beim [Veranstalter](http://www.bund-goettingen.de/)
