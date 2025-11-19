@@ -23,6 +23,14 @@ Veranstaltung im Rahmen der Public Climate School
 
 Kalenderdatei: [📆](/ics/2025-11-27_18-00_vortrag_eine_welt_ohne_artensterben_-_wie_koennte_das_gehen_(s4f).ics)
 
+Um künftigen Generationen gerecht zu werden, müssen wir insbesondere Arten, Ökosysteme, Böden und Klima schützen. Angesichts der drängenden Herausforderungen der Klimakrise werden die ebenso drängenden Herausforderungen der Biodiversitätskrise und des Artensterbens oft verdrängt. Der Vortrag beschäftigt sich deshalb mit Schlagwörtern wie Insektensterben, Artensterben, Naturkrise, Bestandsverlusten und Aussterbeschulden. Was hat es damit auf sich, was sind Treiber und Ursachen dafür?
+
+![Artensterben](/img/event/2025-11-27-Artensterben.png)
+
+Mit diesen Fragen wird sich Dr. Gregor Hagedorn- Biologe und Mitbegründer von Scientists for Future und akademischer Direktor am Museum für Naturkunde Berlin- in diesem Vortrag beschäftigen. Ein Fokus liegt dabei darauf wie eine nachhaltige Welt aussehen könnte, in der die Grundbedürfnisse der Menschen langfristig befriedigt werden sowie Klima, Ökosysteme und Artenreichtum stabilisiert sind.
+
+Dieser Vortrag ist Teil der Vortragsreihe des AStA Klimareferates. Weitere Veranstaltungen findet ihr auf der AStA-Webseite sowie auf Instagram. Außerdem findet er im Rahmen der Public Climate School statt. Weitere Veranstaltungen in Göttingen findet ihr bei den Students for Future Göttingen. Der Vortrag wird am 27.11 ab 18:00 in ZHG 007 stattfinden.
+
 
 Freier Eintritt!
 

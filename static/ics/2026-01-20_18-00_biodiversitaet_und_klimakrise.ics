@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:eb54318a-f2b5-479c-a507-abd919f116e8
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260120T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260120T200000
+DESCRIPTION;LANGUAGE=de-DE:Biodiversität und Klimakrise\n\nwie funktioniert Vogelzugforschung und welche Auswirkungen haben Klimaveränderungen auf Zugvögel\n\nVerändert sich das Klima, so hat dies Auswirkungen auf die Artenvielfalt. Um diese Veränderungen festzustellen und zu beziffern, werden häufig Bestandsdaten von Vögeln genutzt. Vögel eignen sich als Indikatoren, da sie verhältnismäßig gut erfasst werden können- sie kommen in vielen Gebieten vor, sind auffällig und vergleichsweise leicht zu bestimmen. In diesem Vortrag soll es zunächst um generelle Methoden der Vogelzugforschung gehen. Ausgehend davon steht die Frage, wie sich der Klimawandel auf den Vogelzug auswirkt im Mittelpunkt.\n\nDieser Vortrag ist Teil der Vortragsreihe des AStA Klimareferates.\n\nWeitere Veranstaltungen findet ihr auf der AStA-Webseite sowie auf Instagram.\n\nhttps://asta.uni-goettingen.de/\nhttps://www.instagram.com/asta_unigoe/\n
+LOCATION;LANGUAGE=de-DE:ZHG 010,Uni Göttingen
+SUMMARY;LANGUAGE=de-DE:Biodiversität und Klimakrise, wie funktioniert Vogelzugforschung und welche Auswirkungen haben Klimaveränderungen auf Zugvögel
+URL:https://goettinger-klimabuendnis.de/2026/01/20/18/00/biodiversitaet_und_klimakrise
+UID:eb54318a-f2b5-479c-a507-abd919f116e8
+
+END:VEVENT
+
+
+END:VCALENDAR

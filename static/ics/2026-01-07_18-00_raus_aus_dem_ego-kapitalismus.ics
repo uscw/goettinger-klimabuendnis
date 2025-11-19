@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:dd3523c3-7c7c-4f4f-bb27-7f0ce1f6630a
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260107T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260107T200000
+DESCRIPTION;LANGUAGE=de-DE:Raus aus dem Ego-Kapitalismus\n\nEin Vortrag aus der Klimareihe des AStA\n\n\nDie Folgen der immer weiter fortschreitenden Klimakrise sorgen bei vielen Menschen für negative Gefühle wie Angst, Trauer und Wut. Zusammen über diese Emotionen zu reden kann zeigen dass man nicht allein ist. Bei dem Klimacafé wird ein entspannter Austausch ermöglicht, in Tischgruppen kann geplaudert und ein Klimaspiel gespielt werden. Für ein paar Snacks und etwas zu trinken ist gesorgt. \n\nDas Klimacafé findet am 05.12. zwischen 16 und 18 Uhr im Sitzungssaal des AStA-Gebäudes statt. \n\nDie Veranstaltung findet in Zusammenarbeit mit Psychologists for Future statt.\n
+LOCATION;LANGUAGE=de-DE:ZHG 008, Uni Göttingen
+SUMMARY;LANGUAGE=de-DE:Raus aus dem Ego-Kapitalismus, Ein Vortrag aus der Klimareihe des AStA
+URL:https://goettinger-klimabuendnis.de/2026/01/07/18/00/raus_aus_dem_ego-kapitalismus
+UID:dd3523c3-7c7c-4f4f-bb27-7f0ce1f6630a
+
+END:VEVENT
+
+
+END:VCALENDAR

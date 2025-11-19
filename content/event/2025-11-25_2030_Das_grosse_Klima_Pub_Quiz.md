@@ -23,6 +23,17 @@ Veranstaltung im Rahmen der Public Climate School
 
 Kalenderdatei: [📆](/ics/2025-11-25_20-30_das_grosse_klima_pub_quiz.ics)
 
+Ja, wir alle wissen die Klimakatastrophe wird hart, ja vielleicht sogar existenzbedrohend
+
+Aber:
+- Wie viel stößt ein PKW eigentlich auf den Km aus?
+- Wie viel m² Wald müsste man pflanzen, um einen dieser Kilometer wieder auszugleichen?
+- Wie viele ppm Kohlenstoffdioxid waren eigentlich 2002 in der Luft?
+
+Im Seminarraum 1 des AStA-Gebäudes machen wir mit euch ein spannendes Kahootquiz mit kostenlosen Snacks und alkoholfreien Getränken.
+
+Diese Veranstaltung findet im Rahmen der Public Climate School statt, weitere Veranstaltungen in Göttingen und anderswo findet ihr über auf der Webseite (https://publicclimateschool.de/) sowie auf dem Instagramkanal der Students For Future Göttingen (https://www.instagram.com/studentsforfuture_goettingen/#).25.11 ab 20:30 in Seminarraum 1 des AStA
+
 
 Freier Eintritt!
 
