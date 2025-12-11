@@ -43,7 +43,7 @@ Möglichkeit des Abreissens des Golfstroms, der sich aus der Atlantische
 Meridionale Umwälzströmung (AMOC) und dem subpolaren Wirbel im Nordatlantik
 (SPG) zusammensetzt. Dies ist einer der Komponenten des Erdsystems, die im
 Zusammenhang der Klimakrise als *Kippelemente* bezeichnet werden. 
-Ein Abreissens des Golfstroms hätte zuddem erhebliche Auswirkungen
+Ein Abreissens des Golfstroms hätte zudem erhebliche Auswirkungen
 auf die Umverteilung der Wärme auf dem Planeten und
 beeinflusst damit das globale Klima. 
 
