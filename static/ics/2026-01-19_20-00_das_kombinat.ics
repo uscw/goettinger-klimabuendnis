@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:53987119-cae4-4075-a37f-d7f00e94865a
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260119T200000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260119T220000
+DESCRIPTION;LANGUAGE=de-DE:Das Kombinat\n\nKann Wirtschaft auch solidarisch?\n\nKooperation zwischen BUND und Kino Lumière-Meliès zur Filmvorführung mit Infostand des BUND Göttingen.\n\nÜber einen Zeitraum von neun Jahren dokumentiert Moritz Springer in seinem Dokumentarfilm die Entwicklung des Kartoffelkombinats aus der bayrischen Landeshauptstadt München, das sich auf dem Weg befindet, die wohl größte solidarische Landwirtschaftsunternehmung in Deutschland zu werden. Die beiden Gründer treiben mit ihrem Gemüseanbau sogar noch eine viel umfassendere und grundlegendere Vision voran: Sie suchen letztlich nach einer Alternative zur kapitalistischen Produktionsweise. Doch der Weg zu diesem Ziel ist voller Herausforderungen und plötzlich steht das gesamte Projekt kurz vor dem Scheitern.\n\nRegie\n    Moritz Springer\n
+LOCATION;LANGUAGE=de-DE:Meliès, Bürgerstr., Göttingen
+SUMMARY;LANGUAGE=de-DE:Das Kombinat, Kann Wirtschaft auch solidarisch?
+URL:https://goettinger-klimabuendnis.de/2026/01/19/20/00/das_kombinat
+UID:53987119-cae4-4075-a37f-d7f00e94865a
+
+END:VEVENT
+
+
+END:VCALENDAR
