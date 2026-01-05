@@ -100,7 +100,7 @@ Geiststraße 2
         # get event blocks
         for line in IP.readlines():
             line = line[:-1]
-            if line == "" or line in self.months:
+            if line == "" or len(line.split()) == 0 or line in self.months:
                 continue
             if lastline.strip() in ["Sommerprogramm", "Winterprogramm", "BSG Sommerprogramm", "BSG Winterprogramm"]:
                 self.year = line.split()[-1:][0]

@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:2a5115f3-897b-49e0-a755-48cd2e092032
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260218T200000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260218T220000
+DESCRIPTION;LANGUAGE=de-DE:Besser um die Zukunft streiten\n\nPodiumsdiskussion\n\nIn der Klimadebatte wiederholen sich die gleichen Phrasen, der zielorientierte Austausch scheint zu stocken. Am 18.02 sprechen zwei der Autor*innen des Buches „Besser um die Zukunft streiten“ darüber, wie ein ehrlicherer und wirksamerer Streit um unsere Zukunft aussehen könnte. In ihrem Buch interfragen sie haltlose Ausreden und unscharfe Slogans, die den konstruktiven Diskurs bremsen und echten Lösungen im Weg stehen. Die Veranstaltung findet gemeinsam mit dem literarischen Zentrum Göttingen statt.\n
+LOCATION;LANGUAGE=de-DE:Literaturhaus Göttingen
+SUMMARY;LANGUAGE=de-DE:Besser um die Zukunft streiten, Podiumsdiskussion
+URL:https://goettinger-klimabuendnis.de/2026/02/18/20/00/besser_um_die_zukunft_streiten
+UID:2a5115f3-897b-49e0-a755-48cd2e092032
+
+END:VEVENT
+
+
+END:VCALENDAR
