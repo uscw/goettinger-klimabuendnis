@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:ea748d39-4a6f-4960-b3f3-b2db8002e416
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260310T183000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260310T193000
+DESCRIPTION;LANGUAGE=de-DE:Digitale Elternabende zu Klimaberufen\n\nProduktion & Handwerk\n\n\nLiebe Eltern, liebe Schüler:innen und Studierende,\ndie Arbeitswelt befindet sich im Wandel und bietet viele Chancen. Wir wollen die nächste Generation bestmöglich dabei unterstützen, die eigene Berufsperspektive zu entdecken. Die Fachkräfteinitiative für Klimaberufe informiert Sie heute, um für Morgen gut vorbereitet zu sein.\nWir laden Sie herzlich zu unseren digitalen Themenabenden ein, bei denen wir verschiedene Berufsfelder näher vorstellen und Sie Ihre Fragen stellen können.\n\nTermine und Themen:\n- Produktion & Handwerk, 10. Februar | 18:30–19:30 Uhr | via Microsoft Teams\n- Mobilität & Logistik, 10. März | 18:30–19:30 Uhr | via Microsoft Teams\n- Landwirtschaft & Umwelt, 14. April | 18:30–19:30 Uhr | via Microsoft Teams\n- Management & Beratung, 5. Mai | 18:30–19:30 Uhr | via Microsoft Teams\n\nBei unserer ersten Veranstaltung zum Themenfeld Produktion & Handwerk erwarten Sie authentische Einblicke in den Berufsalltag von Elektroniker:innen, technischen Produktdesigner:innen oder Packmitteltechnolog:innen. Sie erfahren was diese Berufe auszeichnet, welche Aufgaben sie prägen und warum sich viele Fachkräfte in diesen Bereichen besonders stark mit ihrer Arbeit identifizieren.\n\nDie Veranstaltung richtet sich gleichermaßen an Eltern sowie an Schüler:innen und Studierende, die sich über zukunftsrelevante Berufsperspektiven informieren möchten. Wenn Sie an einer oder mehreren Veranstaltungen teilnehmen möchten, fordern Sie bitte hier den digitalen Teilnahmelink an. Leiten Sie diese Nachricht auch gerne weiter an Interessierte.\n\nWir freuen uns auf Ihre Teilnahme und den gemeinsamen Austausch.\n\nMit freundlichen Grüßen\n\nFachkräfteinitiative für Klimaberufe in Südniedersachsen (FIFKISS), Südniedersachsen Stiftung\n
+LOCATION;LANGUAGE=de-DE:VC via Microsoft Teams
+SUMMARY;LANGUAGE=de-DE:Digitale Elternabende zu Klimaberufen, Produktion & Handwerk
+URL:https://goettinger-klimabuendnis.de/2026/03/10/18/30/digitale_elternabende_zu_klimaberufen
+UID:ea748d39-4a6f-4960-b3f3-b2db8002e416
+
+END:VEVENT
+
+
+END:VCALENDAR

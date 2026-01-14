@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:06525567-2a93-4e06-909f-97b1df5627bf
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260120T153000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260120T173000
+DESCRIPTION;LANGUAGE=de-DE:Der Südharzer Gipskarst\n\nVortrag des Geschichtsvereins Bad Harzburg\n\nAuf Einladung des Geschichtsvereins Bad Harzburg ist am 20.1.2026 der Südharz Vortragsthema. Das Karstgebiet im Südharz ist aufgrund seiner Geologie eine Landschaft mit einzigartigem Charakter und hoher Schutzwürdigkeit. Es zeichnet sich durch eine kleinräumige Vielfalt naturnaher Strukturen aus und ist für den Erhalt zahlreicher an die Gipsbiotope gebundener Arten von großer Bedeutung. \nDas Südharzgebiet bildet einen 100 km langen zusammenhängenden Gürtel aus evaporitischem Gestein des Oberperm (Zechstein), der sich über drei Bundesländer erstreckt.\nDas wichtigste Merkmal sind die großen Flächen mit freiliegenden Gipsfelsen, die größten und mächtigsten in Mitteleuropa. \nDie Löslichkeit von Gips in Verbindung mit hohen Niederschlagsmengen hat in geologisch kurzer Zeit zu einer intensiven Karstbildung mit einer erstaunlichen Vielfalt an Gipskarstformen geführt. Nur kleine Teile der Landschaft sind wirksam geschützt. Der Abbau von Rohstoffen bedroht Kernbereiche der Landschaft. Dies gefährdet auch die nachhaltige Entwicklung der Region Südharz. Schutz in Form eines großflächigen Biosphärenreservats wurde bisher nur in Sachsen-Anhalt realisiert – weltweit das einzige seiner Art. Dies verdeutlicht die mangelnde Präsenz von Sulfatkarstgebieten im globalen Netzwerk von Schutzgebieten.\n\n
+LOCATION;LANGUAGE=de-DE:Wandelhalle im Badepark, Bad Harzburg
+SUMMARY;LANGUAGE=de-DE:Der Südharzer Gipskarst, Vortrag des Geschichtsvereins Bad Harzburg
+URL:https://goettinger-klimabuendnis.de/2026/01/20/15/30/der_suedharzer_gipskarst
+UID:06525567-2a93-4e06-909f-97b1df5627bf
+
+END:VEVENT
+
+
+END:VCALENDAR
