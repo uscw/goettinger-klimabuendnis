@@ -35,7 +35,10 @@ Termine und Themen:
 
 Bei unserer ersten Veranstaltung zum Themenfeld Produktion & Handwerk erwarten Sie authentische Einblicke in den Berufsalltag von Elektroniker:innen, technischen Produktdesigner:innen oder Packmitteltechnolog:innen. Sie erfahren was diese Berufe auszeichnet, welche Aufgaben sie prägen und warum sich viele Fachkräfte in diesen Bereichen besonders stark mit ihrer Arbeit identifizieren.
 
-Die Veranstaltung richtet sich gleichermaßen an Eltern sowie an Schüler:innen und Studierende, die sich über zukunftsrelevante Berufsperspektiven informieren möchten. Wenn Sie an einer oder mehreren Veranstaltungen teilnehmen möchten, fordern Sie bitte hier den digitalen Teilnahmelink an. Leiten Sie diese Nachricht auch gerne weiter an Interessierte.
+Die Veranstaltung richtet sich gleichermaßen an Eltern sowie an Schüler:innen und Studierende, die sich über zukunftsrelevante Berufsperspektiven informieren möchten. 
+Wenn Sie an einer oder mehreren Veranstaltungen teilnehmen möchten, fordern Sie bitte 
+[hier](https://www.suedniedersachsenstiftung.de/veranstaltung/elternabend-1/) 
+den digitalen Teilnahmelink an. Leiten Sie diese Nachricht auch gerne weiter an Interessierte.
 
 Wir freuen uns auf Ihre Teilnahme und den gemeinsamen Austausch.
 
