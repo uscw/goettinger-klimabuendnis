@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:b3dd785b-a2ef-465c-aa70-7eef6268e33b
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260221T140000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260221T160000
+DESCRIPTION;LANGUAGE=de-DE:Utopien und Wege dorthin!\n\nWorkshop des BUND\n\nKlimakrise, Verlust der Artenvielfalt, soziale Ungleichheit, ... - die Herausforderungen sind groß und werden eher mehr als weniger. Eine mögliche Antwort darauf: Die ökologische und soziale Transformation unserer Gesellschaft. In Zeiten der multiplen Krisen wollen wir in diesem Workshop positive Zukunftsentwürfe gestalten und zielgerichtet diskutieren, wie sie nicht nur Utopien bleiben.\n\nWir wollen…\n… Konzepte kennenlernen\n… darüber ins Gespräch kommen\n… unsere eigenen Ideen diskutieren.\n\nAnmeldung unter 0551/56156 oder mail@bund-goettingen.de.\n\n\nWir freuen uns auf Ihre Teilnahme!\n
+LOCATION;LANGUAGE=de-DE:GUNZ, Geiststraße 2, 37073 Göttingen
+SUMMARY;LANGUAGE=de-DE:Utopien und Wege dorthin!, Workshop des BUND
+URL:https://goettinger-klimabuendnis.de/2026/02/21/14/00/utopien_und_wege_dorthin
+UID:b3dd785b-a2ef-465c-aa70-7eef6268e33b
+
+END:VEVENT
+
+
+END:VCALENDAR
