@@ -1,7 +1,7 @@
 ---
 layout:        events
-title:         "Barcamp „Ernährungswende Göttingen: Genussvoll. Zukunftsfähig. Gemeinsam.“"
-subtitle:      "im Rahmen des Projektes „Göttingens Ernährung im Wandel“ (GiW)"
+title:         "Genussvoll. Zukunftsfähig. Gemeinsam."
+subtitle:      "Barcamp Ernährungswende Göttingen im Rahmen des Projektes Göttingens Ernährung im Wandel (GiW)"
 date:          2026-04-14T13:00:00+02:00
 etime:         2026-04-14T17:30:00+02:00
 publishdate:   2026-02-18T00:00:00+01:00
@@ -11,6 +11,7 @@ URL:           "/2026/04/14/13/00/Barcamp_Ernaehrungswende_Goettingen_Genussvoll
 locURL:        "https://nachhaltigkeit.goettingen.de/portal/seiten/goettingens-ernaehrung-im-wandel-giw-900001312-25480.html"
 image:         "/img/banner/2022-09-10-Wurzelgemuese.png"
 ---
+
 
 **Veranstaltung: 14. April 2026, 13:00 Uhr, SC Hainberg 1980 e. V., Bertha-von-Suttner-Straße 2, 37085 Göttingen**
 
