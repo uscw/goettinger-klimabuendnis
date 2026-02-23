@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:9bc4e46c-bbee-4803-bd46-397add621f5b
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260314T090000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260314T160000
+DESCRIPTION;LANGUAGE=de-DE:Arzneimittelversorgung mit Zukunft\n\nvor dem Hintergrund der Klimakrise: Welche Arzneimittel brauchen wir wirklich?\n\nWie kann eine moderne Arzneimittelversorgung aussehen, die wirksam, sicher und gerecht ist und gleichzeitig Mensch, Umwelt und Klima im Blick hat? Medikamente können zur Gesundheit beitragen – doch ihre Herstellung, Anwendung und Entsorgung hinterlassen Spuren: in Gewässern, Böden, der Luft und letztlich in uns selbst. Spätestens vor dem Hintergrund der Klimakrise stellt sich die Frage neu: Welche Arzneimittel brauchen wir wirklich?\n\nDie gemeinsame Fachtagung von MEZIS, BUKO Pharma-Kampagne und KLUG – Deutsche Allianz Klimawandel und Gesundheit bringt Akteur:innen aus Medizin, Pharmazie sowie zivilgesellschaftlichen Initiativen zusammen, um gemeinsam über eine zukunftsfähige Arzneimittelversorgung zu diskutieren. Im Fokus stehen Umweltwirkungen von Medikamenten, Übertherapie, nachhaltige Produktion, ressourcenschonende Verordnung und Best-practice-Beispiele aus anderen Ländern. Wie kann uns eine Umsetzung in Deutschland gelingen? Welche Hebel haben wir – individuell, institutionell und politisch?\n\nImpulsvorträge und ein World Café laden dazu ein, Wissen zu vertiefen, Perspektiven zu verknüpfen und konkrete Handlungsmöglichkeiten zu entwickeln: für Praxis, Klinik, Apotheke und Alltag.\n\n \n\nAls Referierende und Moderator:innen begrüßen wir:\n\nElla Feldmann, Wissenschaftsjournalistin bei der BUKO Pharma-Kampagne\n\nDorothea Baltruks, Leiterin des Thinktanks Centre for Planetary Health Policy (CPHP)\n\nMax Bürck-Gemassmer, stellvertr. Vorsitzender der Deutschen Allianz Klimawandel und Gesundheit KLUG\n\nClemens Woitaske-Proske, Wissenschaftler mit Forschungsschwerpunkt Entwicklung von Entscheidungshilfen zu Umweltaspekten von Arzneimitteln in der Praxis\n\nSonja Zikeli, Wissenschaftsjournalistin, Pharmacists for Future (PhfF)\n\n
+LOCATION;LANGUAGE=de-DE:Universität Göttingen, Institut für Erziehungswissenschaften, Waldweg 26, 37073 Göttingen
+SUMMARY;LANGUAGE=de-DE:Arzneimittelversorgung mit Zukunft, vor dem Hintergrund der Klimakrise: Welche Arzneimittel brauchen wir wirklich?
+URL:https://goettinger-klimabuendnis.de/2026/03/14/09/00/arzneimittelversorgung_mit_zukunft
+UID:9bc4e46c-bbee-4803-bd46-397add621f5b
+
+END:VEVENT
+
+
+END:VCALENDAR
