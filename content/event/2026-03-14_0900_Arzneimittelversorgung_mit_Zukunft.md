@@ -25,6 +25,8 @@ Kalenderdatei: [📆](/ics/2026-03-14_09-00_arzneimittelversorgung_mit_zukunft.i
 
 Wie kann eine moderne Arzneimittelversorgung aussehen, die wirksam, sicher und gerecht ist und gleichzeitig Mensch, Umwelt und Klima im Blick hat? Medikamente können zur Gesundheit beitragen – doch ihre Herstellung, Anwendung und Entsorgung hinterlassen Spuren: in Gewässern, Böden, der Luft und letztlich in uns selbst. Spätestens vor dem Hintergrund der Klimakrise stellt sich die Frage neu: Welche Arzneimittel brauchen wir wirklich?
 
+![Arzneimittelversorgung mit Zukunft](/img/event/2026-03-14-Arzneimittel_plakat.png)
+
 Die gemeinsame Fachtagung von MEZIS, BUKO Pharma-Kampagne und KLUG – Deutsche Allianz Klimawandel und Gesundheit bringt Akteur:innen aus Medizin, Pharmazie sowie zivilgesellschaftlichen Initiativen zusammen, um gemeinsam über eine zukunftsfähige Arzneimittelversorgung zu diskutieren. Im Fokus stehen Umweltwirkungen von Medikamenten, Übertherapie, nachhaltige Produktion, ressourcenschonende Verordnung und Best-practice-Beispiele aus anderen Ländern. Wie kann uns eine Umsetzung in Deutschland gelingen? Welche Hebel haben wir – individuell, institutionell und politisch?
 
 Impulsvorträge und ein World Café laden dazu ein, Wissen zu vertiefen, Perspektiven zu verknüpfen und konkrete Handlungsmöglichkeiten zu entwickeln: für Praxis, Klinik, Apotheke und Alltag.
