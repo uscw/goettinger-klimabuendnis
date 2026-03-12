@@ -170,8 +170,8 @@ class bg_canvas():
         text_x = self.hsize * 3/100
         text_y = text_y + textbox_height + 30
         self.text_shadow_in_region(textlines, text_x, text_y, Wann_Wo.font, fontsize=fontsize3, color=compl_col)
-        if self.verbosity > 0:
-            self.region.show()
+        # if self.verbosity > 0:
+        #     self.region.show()
         # region.save(output_path)
         return self.region
 

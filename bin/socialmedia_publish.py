@@ -5,6 +5,7 @@ import json
 import argparse
 from datetime import date, datetime, timezone, timedelta
 from dateutil.relativedelta import relativedelta
+from PIL import Image
 
 # Import the Client class for Mastodon
 from mastodon import Mastodon
@@ -168,7 +169,7 @@ class SM_post():
         if self.Article == None:
             return None
         url_line = self.Article.article_parts["frontmatter"]["URL"]
-        return url_line.strip().replace('"','')
+        return url_line.strip().replace('"','')        
 
     def remove_img_lines(self,content):
         content_lines = content.split("\n")
@@ -467,9 +468,10 @@ class schoenerleben_post(SM_post):
     
     def send_post_without_image(self):
         self.rel_url = self.get_rel_url()
-        post = self.prepare_post()
+        post = ""
         if self.rel_url != "":
-            self.post += ' ... mehr: ' + self.url_ref
+            post += ' ... siehe auch: ' + self.url_ref + "\n\n"
+        post += self.prepare_post()
         subject = self.get_subject()
         # body = self.content
         if verbosity > 0:
@@ -548,6 +550,9 @@ class publisher():
             self.BG = socialmedia_text2img.bg_canvas(500,700,verbosity=verbosity)
             self.BG.buildPicWithFM(self.Article.get_frontmatter(),img_dir + img_file)
             self.Article.put_img_line(img_file,img_dir)
+        img_loc = imgs[0][1] + imgs[0][0]
+        img_file = Image.open(img_loc)
+        img_file.show()
         return self.Article
     
     def post_article(self,file):
