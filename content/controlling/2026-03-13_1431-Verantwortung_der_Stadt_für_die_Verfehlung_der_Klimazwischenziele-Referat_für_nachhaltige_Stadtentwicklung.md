@@ -85,7 +85,7 @@ Die Möglichkeiten der Stadt zur Einflussnahme liegen damit in der Summe bei ein
 von 62.900 Tonnen CO2-Äquivente, was bei einem Gesamtverbrauch von ca.
 700.000 Tonnen CO2-Äquivente einem Anteil von etwa 9% entspricht. 
 
-Aber der Hauptvorwurf ist nicht, dass Göttingen die Zwischenziele nicht erreicht hat, sondern dass die Stadt sich nicht genug bemüht, ihre eigenen Möglichkeiten auszuschöpfen. 
+Aber der Hauptvorwurf ist hier nicht, dass Göttingen die Zwischenziele nicht erreicht hat, sondern dass die Stadt sich nicht genug bemüht, ihre eigenen Möglichkeiten auszuschöpfen. 
 
 ## Die Verantwortung der Stadt in ihren eigenen Zahlen
 
