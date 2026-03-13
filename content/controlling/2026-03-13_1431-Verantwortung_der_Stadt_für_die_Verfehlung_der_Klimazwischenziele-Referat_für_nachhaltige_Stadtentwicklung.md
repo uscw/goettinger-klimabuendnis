@@ -72,9 +72,10 @@ CO2-Äquivente: 175000-115000 = 60000, davon 90 % = **9.000**
 | direkter Einfluss der Stadt  |  50%  |
 
 Anmerkungen:
-- ich glaube den Zahlen bei 21 % Anteil bei Emissionen nicht , dürfte um 35 % liegen
-- auch der Stand 2024 bei 140.000 ist wahrscheinlich deutlich höher
-- sodass auch der Anstieg seit 1990 höher sein dürfte
+- Die Zahlen entstehen durch das Herunterbrechen bundesweiter Zahlen auf Göttingen.
+- Daher ist den Zahlen bei 21 % Anteil bei Emissionen nicht zu vertrauen, sie dürften eher um 35 % liegen.
+- Auch der Stand 2024 bei 140.000 ist wahrscheinlich deutlich höher,
+- sodass auch der Anstieg seit 1990 höher sein dürfte.
 
 Verantwortung der Stadt für die Nichterreichung des 2024-Zwischenziels in Tonnen
 CO2-Äquivente: 140000-85000 = 55000, davon 50 % = **27.500** (wahrscheinlich mehr)
