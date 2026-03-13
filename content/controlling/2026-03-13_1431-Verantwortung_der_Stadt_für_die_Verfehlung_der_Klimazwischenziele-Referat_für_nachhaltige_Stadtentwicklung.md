@@ -12,7 +12,7 @@ draft:        false
 
 Das Referat für nachhaltige Stadtentwicklung hatte versucht zu quantifizieren, wie das Verhältnis von direktem zu indirektem Einfluss der Stadtverwaltung in jedem einzelnen Sektor ist. In Verbindung mit der Bedeutung bei den CO2-Emissionen lässt sich das nochmal genauer betrachten:
 
-# Sektor Stadtverwaltung Göttingen:
+# Sektor Stadtverwaltung Göttingen
 
 |           |     |
 |:----------|---:|
