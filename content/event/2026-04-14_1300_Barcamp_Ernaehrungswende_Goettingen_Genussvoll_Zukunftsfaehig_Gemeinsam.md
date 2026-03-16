@@ -49,6 +49,10 @@ verbleibenden Laufzeit bis August 2027. Kern der Arbeit ist es, die Außer-Haus-
 
 Wir freuen uns auf Sie/Euch, Ihre/Eure Perspektiven, Ihre/Eure Ideen – und darauf, gemeinsam die Ernährungswende Göttingens zu gestalten.
 
+Anmeldung über das
+[Anmeldetool](https://eveeno.com/dge-niedersachsen_giw_barcamp1)
+bis 06.04.2026. 
+
 Bei Fragen stehen wir gerne zur Verfügung.
 Mit besten Grüßen  
 Laura Gottschalk  
