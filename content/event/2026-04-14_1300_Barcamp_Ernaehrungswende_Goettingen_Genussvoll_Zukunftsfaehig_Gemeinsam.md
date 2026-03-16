@@ -53,6 +53,9 @@ Anmeldung über das
 [Anmeldetool](https://eveeno.com/dge-niedersachsen_giw_barcamp1)
 bis 06.04.2026. 
 
+Hier finden Sie den
+[Tagesablauf](/img/event/2026-04-14-Ernaehrungswende.png)
+
 Bei Fragen stehen wir gerne zur Verfügung.
 Mit besten Grüßen  
 Laura Gottschalk  
