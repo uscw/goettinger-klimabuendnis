@@ -1,5 +1,4 @@
-#DIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
-DIR = "/home/uschwar1/Dokumente/goettinger-klimabuendnis/"
+DIR = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
 IFN = DIR + "config.toml"
 OFN = DIR + "content/top/pow.md"
 
@@ -12,4 +11,4 @@ for line in IFD:
             pic_title = pic_ref.split("/")[2]
         elif len(line.split()) > 0 and line.split()[0].replace("#","") == "sidebar_pow_description":
             descr = line.split('"')[1]
-            OFD.write ( "![" +  pic_title + "](/" + pic_ref + ")\n" + descr + "\n\n------------------\n\n")
+            OFD.write ( descr + "![" +  pic_title + "](/" + pic_ref + ")\n------------------\n")
