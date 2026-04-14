@@ -136,3 +136,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Mon Apr 13 22:48:56 2026
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+ > 
+ - 
+s
+Word
+Constr
+Param
+ParamAs
+"
+
+$
+
+*** File '(Unnamed)'
+ b 
+ ü 
+ns
+Token
+Constructor
+TypeParam
+WordAs
+'
+\n
+`
+
+*** File '(Unnamed)'
+main-generic.tex
+test.md
+test.md
+test.md
+test.md
+test.md
+Nextcloud/Notizen/Zählerstände_G20.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-04-18_1400_Kleidertausch.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-05-24_1500_Klimastreik.md
+config.toml
+bin/archiv_pow.py
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
