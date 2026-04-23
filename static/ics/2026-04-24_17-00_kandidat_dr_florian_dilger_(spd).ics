@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:72ebe361-ffa0-4b99-8849-65f1a08b2343
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260424T170000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260424T190000
+DESCRIPTION;LANGUAGE=de-DE:Kandidat Dr. Florian Dilger (SPD)\n\nBürgergespräch im Rahmen der Kommunalwahl am 13.09.2026\n\nWir laden die Bürger*innen der Zietenterrassen/Geismar zum Politik Talk mit den Kandidatinnen zur OberbürgermeisterIn Wahl ein.\nStart ist am 24.04.26 um 17.00Uhr die Politik Talk Runde mit Dr. Florian Dinger in den Räumlichkeiten des SC Hainberg, Bertha-von-Suttner-Str.2.\nWir möchten den Kandidatinnen die Chance geben sich den Menschen vor Ort vorzustellen, um dann gemeinsam in den Austausch zu kommen.\nNeben der Vorstellung, den Wahl-Inhalten können Bürger*innen auch Fragen stellen und in den direkten Austausch kommen.\nWir würden uns freuen, wenn Ihr/Du/Sie vorbeikommt."\n
+LOCATION;LANGUAGE=de-DE:SC Hainberg 1980 e.V., Göttingen, Berta-von-Suttner-Str. 2
+SUMMARY;LANGUAGE=de-DE:Kandidat Dr. Florian Dilger (SPD), Bürgergespräch im Rahmen der Kommunalwahl am 13.09.2026
+URL:https://goettinger-klimabuendnis.de/2026/04/24/17/00/kandidat_dr_florian_dilger_(spd)
+UID:72ebe361-ffa0-4b99-8849-65f1a08b2343
+
+END:VEVENT
+
+
+END:VCALENDAR

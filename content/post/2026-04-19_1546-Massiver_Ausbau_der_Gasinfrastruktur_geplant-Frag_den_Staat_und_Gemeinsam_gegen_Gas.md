@@ -4,8 +4,8 @@ title:         "Massiver Ausbau der Gasinfrastruktur geplant"
 subtitle:      "Ein Überblick von 'Frag den Staat' und 'Gemeinsam gegen Gas'"
 date:          2026-04-19T15:46:00+01:00
 publishdate:   2026-04-18T00:00:00+01:00
-image:         "/img/banner/2026-04-19-Gasheizung-Tegelerweg.png"
-author:        "'Frag den Staat' und 'Gemeinsam gegen Gas'"
+image:         "/img/banner/2026-04-19-Gasheizung-Tegelerweg.jpg"
+author:        "GöKB nach Recherche von 'Frag den Staat' und 'Gemeinsam gegen Gas'"
 showtoc:      true
 draft:        false
 ---

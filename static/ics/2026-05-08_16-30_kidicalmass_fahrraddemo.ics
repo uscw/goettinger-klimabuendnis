@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:2e6f92ef-0073-4ccc-9d9b-e572dc75e8a2
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260508T163000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260508T183000
+DESCRIPTION;LANGUAGE=de-DE:KidicalMass Fahrraddemo\n\nGemeinsames Radeln macht Spaß\n\nMit bundesweiten, bunten Fahrraddemos demonstrieren Kinder und Erwachsene Anfang Mai wieder dafür, dass sie selbständig und sicher mit dem Rad überall hin fahren können. In Göttingen startet die Kidicalmass-Fahrraddemo am Freitag, den 08.Mai um 16:30 Uhr am Neuen Rathaus.\n\nObwohl es Verbesserungen in der StVO gab, werden Maßnahmen zur Verkehrssicherheit viel zu zögerlich umgesetzt. Das Kidical Mass Aktionsbündnis stellt fest: "Bei den Kindern ist de facto noch nichts angekommen, trotz aller guten Absichten.\n\nOhne sichere Straßen keine selbstständigen Kinder. Die Kidical Mass zeigt, wie wichtig sichere Wege für den Alltag von Kindern sind: Nur wenn sie sich zu Fuß oder mit dem Fahrrad sicher bewegen können, gewinnen sie Selbstständigkeit und wichtige Lebenserfahrungen. Deshalb fordert ein breites Bündnis kinderfreundliche Straßen statt Verkehr, an den sich Kinder anpassen müssen – weg vom verkehrsgerechten Kind hin zum kindgerechten Verkehr.\n\nSeit der StVO-Novelle im Herbst 2024 ist es um einiges leichter geworden, Tempo 30 anzuordnen, Zebrastreifen einzurichten und Radwege aus Gründen der Verkehrssicherheit und Gesundheit anzulegen. Trotzdem sind die Fortschritte minimal."\n\nAuch in Göttingen sind trotz erfolgreichem Randentscheid noch keine großen Veränderungen spürbar. Kidical Mass Göttingen setzt sich weiter für mehr Sichtbarkeit von Kindern im Straßenverkehr ein, denn Straßen sind für alle da! 🚲🤸🛴🏃🛹🧑‍🦽\n\nAlso schwingt euch aufs Rad, bringt Freund*innen mit und radelt mit uns.\n
+LOCATION;LANGUAGE=de-DE:Neues Rathaus, Göttingen
+SUMMARY;LANGUAGE=de-DE:KidicalMass Fahrraddemo, Gemeinsames Radeln macht Spaß
+URL:https://goettinger-klimabuendnis.de/2026/05/08/16/30/kidicalmass_fahrraddemo
+UID:2e6f92ef-0073-4ccc-9d9b-e572dc75e8a2
+
+END:VEVENT
+
+
+END:VCALENDAR
