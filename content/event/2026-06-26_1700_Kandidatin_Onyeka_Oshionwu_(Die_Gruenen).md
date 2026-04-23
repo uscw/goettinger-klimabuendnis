@@ -5,7 +5,7 @@ subtitle:      "Bürgergespräch im Rahmen der Kommunalwahl am 13.09.2026"
 date:          2026-06-26T17:00:00+02:00
 etime:         2026-06-26T19:00:00+02:00
 publishdate:   2026-04-23T00:00:00+01:00
-author:        "GöZero"
+author:        "Stadtteilbüro Zietenterassen"
 place:         "Stephanus Gemeinde Goettingen Himmelsruh 17"
 URL:           "/2026/06/26/17/00/Kandidatin_Onyeka_Oshionwu_(Die_Gruenen)"
 locURL:        ""

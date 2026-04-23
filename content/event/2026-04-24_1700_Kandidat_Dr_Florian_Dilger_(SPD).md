@@ -5,7 +5,7 @@ subtitle:      "Bürgergespräch im Rahmen der Kommunalwahl am 13.09.2026"
 date:          2026-04-24T17:00:00+02:00
 etime:         2026-04-24T19:00:00+02:00
 publishdate:   2026-04-23T00:00:00+01:00
-author:        "GöZero"
+author:        "Stadtteilbüro Zietenterassen"
 place:         "SC Hainberg 1980 e.V. Goettingen Berta-von-Suttner-Str. 2"
 URL:           "/2026/04/24/17/00/Kandidat_Dr_Florian_Dilger_(SPD)"
 locURL:        ""
