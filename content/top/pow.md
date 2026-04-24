@@ -1,3 +1,8 @@
+![2026-04-24-Klimastreik.jpg](/img/pow/2026-04-24-Klimastreik.jpg)
+Klimastreik am 24. April 2026 am Gänseliesel. 600 Demostranten wehren sich gegen die rückwärtsgewandte Klimapolitik der Bundesregierung
+
+------------------
+
 ![2026-04-09-Wo-bleibt-der-Rechtsstaat.jpg](/img/pow/2026-04-09-Wo-bleibt-der-Rechtsstaat.jpg)
 Micha Lühmann (MdL) und Helge Limburg (MdB) von den Grünen sprechen am 9.4.26 über die Angriffe auf den Rechtsstaat, auch über die Verfahren gegen die Letzte Generation.
 

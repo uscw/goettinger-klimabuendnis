@@ -419,6 +419,11 @@ class event():
             print ("/usr/bin/gwenview " + homeDir + "/static" + banner_dir)
             # out, err = sysCommand("/usr/bin/gwenview " + homeDir + "/static" + banner_dir)
             Image = sys.stdin.readline()[:-1]
+            while Image not in dirlist:
+               for file in dirlist:
+                  if Image in file:
+                    print(file)
+               Image = sys.stdin.readline()[:-1]
             if Image == "":
                  Image = cont["image"]
             else:

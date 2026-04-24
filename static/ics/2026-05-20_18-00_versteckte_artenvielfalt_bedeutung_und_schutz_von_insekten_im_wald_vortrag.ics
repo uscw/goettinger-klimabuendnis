@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:4f90af2a-39a1-4832-b52a-283012b3c50b
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260520T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260520T200000
+DESCRIPTION;LANGUAGE=de-DE:Versteckte Artenvielfalt: Bedeutung und Schutz von Insekten im Wald, Vortrag\n\nEine Veranstaltung des BUND Göttingen\n\nFür viele Menschen führen Insekten und andere Wirbellose als Krabbeltiere ein Leben im Verborgenen, am Rande der Bedeutungslosigkeit. Ein genauerer Blick zeigt aber den enormen Arten- und Formenreichtum dieser Krabbeltiere und ihre große Relevanz für das Funktionieren von Ökosystemen. \n\nSchlagzeilen zum „Insektensterben“ machen uns bewusst, dass Vielfalt und Funktionen dieser Artengruppen zunehmend in Bedrängnis geraten – auch in von uns oftmals als noch recht naturnah angesehenen Lebensräumen wie Wäldern. Aber was genau treiben Insekten & Co. im Wald, warum verändert sich ihre Artenvielfalt und wie kann man sie schützen, gerade in Zeiten von Klimawandel und Waldumbau? \n\nDer Vortrag gibt einen Einblick in die Welt der Waldinsekten, ihre Lebensraumansprüche und ökologische Rolle, und befasst sich vor allem mit Gefährdungsursachen und Fördermöglichkeiten ihrer Artenvielfalt vor dem Hintergrund sich ändernder Umweltbedingungen.\n\nVortrag von Prof. Dr. Andreas Schuldt, Abteilungsleiter Waldnaturschutz, Georg-August-Universität Göttingen\n
+LOCATION;LANGUAGE=de-DE:Kleiner Hörsaal, Untere Karspüle 2, 37073 Göttingen 
+SUMMARY;LANGUAGE=de-DE:Versteckte Artenvielfalt: Bedeutung und Schutz von Insekten im Wald, Vortrag, Eine Veranstaltung des BUND Göttingen
+URL:https://goettinger-klimabuendnis.de/2026/05/20/18/00/versteckte_artenvielfalt_bedeutung_und_schutz_von_insekten_im_wald_vortrag
+UID:4f90af2a-39a1-4832-b52a-283012b3c50b
+
+END:VEVENT
+
+
+END:VCALENDAR

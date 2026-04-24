@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:66815596-3b6c-47ed-a9da-dce4506ac056
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260913T110000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260913T130000
+DESCRIPTION;LANGUAGE=de-DE:Enzianexkursion Kerstlingeröder Feld\n\nEine Veranstaltung des BUND Göttingen\n\nDas Naturschutzgebiet „Stadtwald Göttingen und Kerstlingeröder Feld" umfasst auch Offenlandbereiche wie das Kerstlingeröder Feld, welche Relikte einer alten Kulturlandschaft und durch die Intensivierung der Landwirtschaft fast überall sonst verschwunden sind. \n\nOhne Kunstdünger, Pestizide und durch dauerhafte Nutzung und Pflege konnten hier in Göttingen besonders artenreiche Kalkmagerrasen und magere Flachlandmähwiesen erhalten werden. Sie bieten einer einzigartigen Tier- und Pflanzenwelt einen Lebensraum. Unter anderem leuchten im Herbst verschiedene Enziane blau zwischen den Gräsern, diese Spätblüher kommen sonst vor allem in Gebirgen wie den Alpen vor.\n\nWährend unserer Exkursion am Sonntag, 14. September 2025 erläutert Ihnen Botaniker Dr. Ralph Mederake allerlei Wissenswertes zu Enzianen, anderen Spätblühern und ihren Lebensbedingungen.\n\nWir treffen uns um 11 Uhr an der Infotafel am Südwest-Eingang des Kerstlingeröder Feldes.\n\n
+LOCATION;LANGUAGE=de-DE:Kerstlingeroeder Feld
+SUMMARY;LANGUAGE=de-DE:Enzianexkursion Kerstlingeröder Feld, Eine Veranstaltung des BUND Göttingen
+URL:https://goettinger-klimabuendnis.de/2026/09/13/11/00/enzianexkursion_kerstlingeroeder_feld
+UID:66815596-3b6c-47ed-a9da-dce4506ac056
+
+END:VEVENT
+
+
+END:VCALENDAR

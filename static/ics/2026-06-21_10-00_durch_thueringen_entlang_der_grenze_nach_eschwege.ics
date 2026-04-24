@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:8333b662-2410-40e2-9cff-44389b07388d
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260621T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260621T170000
+DESCRIPTION;LANGUAGE=de-DE:Durch Thüringen entlang der Grenze nach Eschwege\n\nEine Radtour des ADFC Göttingen\n\nÜber Vatterode, Weidenbach fahren wir auf dem Höhenzug, der östlich der Werra nahe Bad Sooden lang führt. \nBis auf zwei Kilometer alles befestigte Wege ohne großen Autoverkehr.\nhttps://touren-termine.adfc.de/radveranstaltung/187866-durch-thuringen-entlang-der-grenze-nach-eschwege
+LOCATION;LANGUAGE=de-DE:Bootsverleih am Kiessee, Sandweg, 37083 Göttingen
+SUMMARY;LANGUAGE=de-DE:Durch Thüringen entlang der Grenze nach Eschwege, Eine Radtour des ADFC Göttingen
+URL:https://goettinger-klimabuendnis.de/2026/06/21/10/00/durch_thueringen_entlang_der_grenze_nach_eschwege
+UID:8333b662-2410-40e2-9cff-44389b07388d
+
+END:VEVENT
+
+
+END:VCALENDAR
