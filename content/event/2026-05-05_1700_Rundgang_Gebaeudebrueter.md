@@ -6,13 +6,13 @@ date:          2026-05-05T17:00:00+02:00
 etime:         2026-05-05T19:00:00+02:00
 publishdate:   2026-04-24T00:00:00+01:00
 author:        "BUND Göttingen"
-place:         "auf Nachfrage unter mailbund-goettingen.de"
+place:         "GUNZ, Geiststraße 2, 37073 Göttingen"
 URL:           "/2026/05/05/17/00/Rundgang_Gebaeudebrueter"
 locURL:        "https://www.bund-goettingen.de/service/termine/detail/event/rundgang-gebaeudebrueter/"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
 
-**Veranstaltung: 05. Mai 2026, 17:00 Uhr, auf Nachfrage unter mail@bund-goettingen.de**
+**Veranstaltung: 05. Mai 2026, 17:00 Uhr, GUNZ, Geiststraße 2, 37073 Göttingen**
 
 Rundgang Gebäudebrüter
 ===========

@@ -499,13 +499,15 @@ class schoenerleben_post(SM_post):
         self.imapserver = self.cred["imapuri"].split(":")[0]
         self.imapport = int(self.cred["imapuri"].split(":")[1])
         self.imapport = 993
-
+        msg_as_string = msg.as_string()
+        
         try:
             with smtplib.SMTP(self.smtpserver, self.smtpport) as smtp_server:
                 smtp_server.starttls()  # Start TLS encryption
                 smtp_server.login(self.username, self.password)
-                smtp_server.sendmail(self.username, self.receivers, msg.as_string())
+                smtp_server.sendmail(self.username, self.receivers, msg_as_string)
                 out = "The event email is sent from: " + self.username + " successfully to: " + ', '.join(self.receivers)
+                out += "/n/n============================\n" + msg_as_string
         except:
             out = "Error: The event email from: " + self.username + "  to: " + ', '.join(self.receivers) + " failed"
         # if self.To_Send_Folder:

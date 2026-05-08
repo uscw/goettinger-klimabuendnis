@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Genussfahrt Angerstein"
+title:         "!!! fällt leider aus: !!! Genussfahrt Angerstein"
 subtitle:      "Eine Veranstaltung des BUND Göttingen"
 date:          2026-05-09T10:00:00+02:00
 etime:         2026-05-09T12:00:00+02:00
@@ -11,6 +11,10 @@ URL:           "/2026/05/09/10/00/Genussfahrt_Angerstein"
 locURL:        "https://www.bund-goettingen.de/service/termine/detail/event/genussfahrt-angerstein/"
 image:         "/img/banner/2021-02-25-Göttingen-Holzbiene.jpg"
 ---
+
+
+# !!!!!!  Fällt leider aus !!!!!!
+
 
 **Veranstaltung: 09. Mai 2026, 10:00 Uhr, Hofladen in Angerstein, Fahrradtour auf Nachfrage unter mailbund-goettingen.de**
 
