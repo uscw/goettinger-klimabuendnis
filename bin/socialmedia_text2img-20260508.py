@@ -137,7 +137,7 @@ class bg_canvas():
         textbox_region = Title.get_text_region(self.xhoffset, self.upperTextBound, self.addBoxHeight)
         tb_region_height = textbox_region[3] - textbox_region[1] - 2*self.addBoxHeight
 
-        # extract colors under title lines and build grey subregion there
+        # extract colers  under title lines and build grey subregion there
         subregion = self.region.crop(textbox_region)
         dom_col, compl_col = self.dominant_color_in_region(subregion,brighter=True)
         subregion_grey = subregion.convert('L')
@@ -333,34 +333,6 @@ class md_file():
                     except:
                         print("Warning: wrong frontmatter line " + line)
         return fm_json
-
-class build_withdraw_pic_from_url():
-    def __init__(self, url):
-        response = requests.get(PIC)
-        self.fontname = "LiberationSans-Bold.ttf"
-        self.fontsize = 52
-        self.font = ImageFont.truetype(self.fontname, self.fontsize)
-        self.image = Image.open(BytesIO(response.content))
-        (self.Hsize,self.Vsize) = self.image.size
-        self.box = (0.,0.,self.Hsize,self.Vsize)
-        self.textlines = ["!!! fällt leider aus !!!"]
- 
-    def text_shadow_in_region(self, text_lines, color="red"):
-        if text_lines = "":
-            text_lines = self.text_lines
-        black_offset = int(self.fontsize/10)
-        self.draw = ImageDraw.Draw(self.image)
-        xOff = self.box[0] + 10
-        yOff = self.box[3] * 0.2
-        i = 0
-        for line in text_lines:
-            self.draw.text((xOff + black_offset, yOff + int(1.1 * self.fontsize*i) + black_offset), line, font=self.font, fill="black")
-            i += 1
-        i = 0
-        for line in text_lines:
-            self.draw.text((xOff, yOff + int(1.1 * self.fontsize*i)), line, font=self.font, fill=color)
-            i += 1
-
 
 ##########################
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+
+PIC = "https://climatejustice.global/system/media_attachments/files/116/517/209/550/114/982/original/07311298f091e4a0.jpg"
+
+
+
+from PIL import Image, ImageDraw, ImageFont
+import requests
+from io import BytesIO
+
