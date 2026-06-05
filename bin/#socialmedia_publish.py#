@@ -476,6 +476,7 @@ class schoenerleben_post(SM_post):
         # body = self.content
         if verbosity > 0:
             print ("POST to SchoenerLeben: ")
+            print (post)
         if verbosity > 1:
             print (subject + ":\n" + post)
         ret = None
@@ -520,29 +521,7 @@ class schoenerleben_post(SM_post):
         imap.append('INBOX.Sent', '\\Seen', imaplib.Time2Internaldate(datetime.now().timestamp()), msg.as_string().encode('utf8'))
         return imap.logout()
         
-class publisher_withdraw(publisher):
-    def __init__(self, pub_pattern):
-        self.pub_pattern = pub_pattern # String like "BIMS"
-        if "B" in self.pub_pattern:
-            if verbosity > 0:
-                print ("init Postings for BlueSky")
-            self.BlueSky_Post = bluesky_post()
-        if "I" in self.pub_pattern:
-            if verbosity > 0:
-                print ("init Postings for Instagram")
-            self.Instagram_Post = instagram_post()
-        if "M" in self.pub_pattern:
-            if verbosity > 0:
-                print ("init Postings for Mastodon")
-            self.Mastodon_Post = mastodon_post()
-        if "S" in self.pub_pattern:
-            if verbosity > 0:
-                print ("init Postings for SchoenerLeben")
-            self.SchoenerLeben_Post = schoenerleben_post()
 
-
-
-            
 class publisher():
     def __init__(self, pub_pattern):
         self.pub_pattern = pub_pattern # String like "BIMS"
@@ -640,7 +619,6 @@ if __name__ == '__main__':
     parser.add_argument("-E", "--event_dir", help="event directory", nargs='?', const=eventFDIR, action="store")
     parser.add_argument("-I", "--img_dir", help="image directory for events", nargs='?', const=eventImgFDIR, action="store")
     parser.add_argument("-f", "--file", help="file in event directory", nargs='?', action="store")
-    parser.add_argument("-w", "--withdraw", help="url for published sharepic", nargs='?', action="store")
     parser.add_argument("-d", "--day_delta", help="delta of days for announcement before event date",nargs='?', const=4, action="store")
 
 
@@ -666,11 +644,6 @@ if __name__ == '__main__':
         print("File",File)
         Pub = publisher(args.post_pattern)
         Pub.post_article(args.file)
-    elif args.withdraw:
-        Url = args.withdraw
-        print("URL",Url)
-        Pub = publisher_withdraw(args.post_pattern)
-        Pub.post_withdrawn_article(args.withdraw)
     elif args.day_delta:
         tdelta = int(args.day_delta)
         Pub = publisher(args.post_pattern)

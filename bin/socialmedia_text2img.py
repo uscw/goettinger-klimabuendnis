@@ -12,7 +12,8 @@ fontsize = 28
 #image_file = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/static/img/banner/2025-06-13-Brennende-Erde.jpg"
 output_path = "/tmp/out.jpg"
 
-GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
+# GoeKBhome = "/home/uschwar1/ownCloud/AC/html/hugo/goettinger-klimabuendnis/"
+GoeKBhome = "/home/uschwar1/Dokumente/goettinger-klimabuendnis/"
 eventFDIR = GoeKBhome + "content/event/"
 GoeKBwebHome = "https://goettinger-klimabuendnis.de" 
 
@@ -346,7 +347,7 @@ class build_withdraw_pic_from_url():
         self.textlines = ["!!! fällt leider aus !!!"]
  
     def text_shadow_in_region(self, text_lines, color="red"):
-        if text_lines = "":
+        if text_lines == "":
             text_lines = self.text_lines
         black_offset = int(self.fontsize/10)
         self.draw = ImageDraw.Draw(self.image)
