@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:2ac6563b-138b-47ac-bb8d-0fd478fd5fe1
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260610T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260610T200000
+DESCRIPTION;LANGUAGE=de-DE:Stadtversammlung gegen Rechts\n\nBewegung gegen den AfD-Parteitag\n\n🤯 Eine im Kern faschistische Partei steht in Sachsen-Anhalt bei 41% und droht, dort die Regierung zu übernehmen. Bundesweit führt die AfD ebenfalls! Sie bedroht damit mehr denn je migrantisches & queeres Leben genauso, wie Bemühungen um Feminismus, Klimaschutz und soziale Gerechtigkeit.\n🚩 Es ist unsere Pflicht jetzt dagegen aktiv zu werden!\n\n🌟 Am 10.06. findet die Stadt- & Universammlung gegen Rechts statt, auf dem wir ein kollektives Moment für den Aufbau einer Bewegung zu schaffen, die sich dem AfD-Parteitag in den Weg stellt. Das Programm wird in den kommenden Tagen veröffentlicht - stay tuned!.\n\n🦺 Um uns gemeinsam gut vorzubereiten, starten wir ab Sonntag auch mit den Aktionstrainings. Alle Infos dazu findet ihr auf der 2. Seite!\n\n🫵 Also schnapp Dir Deine Leute und sei dabei, wenn es heißt: "Nie wieder ist jetzt!"\n
+LOCATION;LANGUAGE=de-DE:Platz der Göttinger Sieben, Göttingen
+SUMMARY;LANGUAGE=de-DE:Stadtversammlung gegen Rechts, Bewegung gegen den AfD-Parteitag
+URL:https://goettinger-klimabuendnis.de/2026/06/10/18/00/stadtversammlung_gegen_rechts
+UID:2ac6563b-138b-47ac-bb8d-0fd478fd5fe1
+
+END:VEVENT
+
+
+END:VCALENDAR
