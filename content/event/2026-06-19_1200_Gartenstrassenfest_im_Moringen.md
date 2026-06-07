@@ -1,6 +1,6 @@
 ---
 layout:        events
-title:         "Gartenstrassenfest im Moringen"
+title:         "Gartenstrassenfest in Moringen"
 subtitle:      "Für Demokratie, Vielfalt und Erinnerung"
 date:          2026-06-19T12:00:00+02:00
 etime:         2026-06-19T22:00:00+02:00
@@ -14,7 +14,7 @@ image:         "/img/banner/2023-09-02-Herbsterwachen.jpg"
 
 **Veranstaltung: 19. Juni 2026, 12:00 Uhr, An der KZ-Gedenkstätte Moringen**
 
-Gartenstrassenfest im Moringen
+Gartenstrassenfest in Moringen
 ===========
 
 Für Demokratie, Vielfalt und Erinnerung
