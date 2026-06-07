@@ -27,6 +27,8 @@ Rechtspopulistische Partei veranstaltet ihren Kreisparteitag neben der Gedenkst�
 
 Schließt euch uns an!
 
+![Gartenstraßenfest Für Demokratie, Vielfalt und Erinnerung](/img/event/2026-06-04-Gartenfest_Moringen2.jpg)
+
 Für ein friedvolles und achtsamnes Miteinander in unserem Landkreis.
 
 Feiert mit uns das Gartenstraßenfest!
