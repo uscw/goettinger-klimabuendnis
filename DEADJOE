@@ -182,3 +182,49 @@ Processing '/etc/joe/jmacsrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/jmacsrc
+
+*** These modified files were found in JOE when it aborted on Fri Jun 12 13:01:43 2026
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+ > 
+ - 
+s
+Word
+Constr
+Param
+ParamAs
+"
+
+$
+
+*** File '(Unnamed)'
+ b 
+ ü 
+ns
+Token
+Constructor
+TypeParam
+WordAs
+'
+\n
+`
+
+*** File '(Unnamed)'
+bla
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/post/2026-06-07_1019-4_Prozent_vom_Bürgerauftrag_geschafft_-_na_immerhin_-GöZero.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-06-19_1200_Gartenstrassenfest_im_Moringen.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-06-19_1200_Gartenstrassenfest_im_Moringen.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-06-19_1200_Gartenstrassenfest_im_Moringen.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/event/2026-06-10_1800_Stadtversammlung_gegen_Rechts.md
+main.py
+bla
+bla
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/post/2026-06-11_0928-Parklets_in_der_Goetheallee_und_im_Stegemühlenweg-AG_Mobilität_des_Klimabeirates.md
+/home/uschwar1/Dokumente/goettinger-klimabuendnis/content/post/2026-06-11_0928-Parklets_in_der_Goetheallee_und_im_Stegemühlenweg-AG_Mobilität_des_Klimabeirates.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
