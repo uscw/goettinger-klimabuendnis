@@ -10,7 +10,8 @@ showtoc:      false
 draft:        false
 ---
 
-Nach mehr als einem Jahr [Recherche](https://klimaschutz-goettingen.de/projekte/kompensationsmassnahmen-ueberblick/) veröffentlicht der Verein Klimaschutz Göttingen e.V. heute eine umfassende Auswertung zum Umsetzungsstand kommunaler Kompensationsmaßnahmen im Landkreis Göttingen. Die Ergebnisse sind ab sofort auf einer interaktiven Karte auf der Vereinswebsite verfügbar.
+Nach mehr als einem Jahr [Recherche](https://klimaschutz-goettingen.de/projekte/kompensationsmassnahmen-ueberblick/) veröffentlicht der Verein Klimaschutz Göttingen e.V. heute eine umfassende Auswertung zum Umsetzungsstand kommunaler Kompensationsmaßnahmen im Landkreis Göttingen. Die Ergebnisse sind ab sofort auf einer
+[interaktiven Karte](https://klimaschutz-goettingen.de/projekte/kompensationsmassnahmen-ueberblick/kompensation-karte/) auf der Vereinswebsite verfügbar.
 
 Kommunen sind gesetzlich verpflichtet, Eingriffe in Natur und Landschaft – etwa durch Bebauung oder Versiegelung – durch Ausgleichs- und Ersatzmaßnahmen zu kompensieren. Dazu gehören beispielsweise die Renaturierung von Bächen und Gräben, die Anlage von Streuobstwiesen, Feldgehölzen und artenreichen Wiesen, die dauerhaft für den Naturschutz erhalten werden müssen. Diese Maßnahmen bieten erhebliche Chancen für den Erhalt der Biodiversität und können zugleich einen Beitrag zum natürlichen Klimaschutz leisten.
 
