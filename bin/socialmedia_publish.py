@@ -501,6 +501,7 @@ class schoenerleben_post(SM_post):
         self.imapport = 993
         msg_as_string = msg.as_string()
         
+        
         try:
             with smtplib.SMTP(self.smtpserver, self.smtpport) as smtp_server:
                 smtp_server.starttls()  # Start TLS encryption
@@ -510,6 +511,10 @@ class schoenerleben_post(SM_post):
                 out += "/n/n============================\n" + msg_as_string
         except:
             out = "Error: The event email from: " + self.username + "  to: " + ', '.join(self.receivers) + " failed"
+        print ('From', self.cred["username"])
+        print ('To', ', '.join(self.receivers))
+        print ('Subject', subject)
+        print ('===========\n',body) 
         # if self.To_Send_Folder:
         #     self.move_to_send_folder(msg)
         return out

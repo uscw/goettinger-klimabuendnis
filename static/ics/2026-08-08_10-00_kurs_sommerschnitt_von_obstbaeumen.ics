@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:340bed85-ee16-483a-a777-7ab93d7a94fd
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260808T100000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260808T170000
+DESCRIPTION;LANGUAGE=de-DE:Kurs: Sommerschnitt von Obstbäumen\n\nDer Streuobstverein lädt ein\n\nSommerschnitt – das „As im Ärmel“ bei der Obstbaumpflege! Meistens werden Obstbäume im Winter geschnitten, denn ohne das Laub ist es leichter zu sehen, welcher Ast abgeschnitten werden soll. Außerdem verlagert der Baum im Winter seine Kräfte in die Wurzel. Der Schnitt fördert im laublosen Zustand den Wuchs. Je stärker ein […]\n
+LOCATION;LANGUAGE=de-DE:Streuobstwiese Diemarden
+SUMMARY;LANGUAGE=de-DE:Kurs: Sommerschnitt von Obstbäumen, Der Streuobstverein lädt ein
+URL:https://goettinger-klimabuendnis.de/2026/08/08/10/00/kurs_sommerschnitt_von_obstbaeumen
+UID:340bed85-ee16-483a-a777-7ab93d7a94fd
+
+END:VEVENT
+
+
+END:VCALENDAR
