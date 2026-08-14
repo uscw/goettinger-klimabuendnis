@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:e1f53534-0208-41b4-b101-d7ce3d40827f
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260827T190000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260827T210000
+DESCRIPTION;LANGUAGE=de-DE:Kommunale Klimapolitik – welche Ideen\n\nhaben die OB-Kandidat*innen?Veranstaltungsreihe Klimakrise – was tun?\n\n## VERANSTALTUNGSREIHE\nZUR KOMMUNALWAHL 2026\n\nSeit 2021 haben die Scientists for Future Göttingen zusammen mit dem Deutschem Theater und dem Klimabeirat mit mehreren Veranstaltungsreihen zum Thema\n„Klimakrise – was tun?“ zahlreiche Menschen erreicht\nund den Austausch über Klimaschutz und Klimapolitik\ngefördert. Anlässlich der Kommunalwahl 2026 wird die\nReihe nun mit zwei Veranstaltungen fortgesetzt.\n\nZiel der neuen Veranstaltungsreihe ist es, das Thema Klimaschutz\nwieder stärker in die öffentliche Diskussion zu bringen. Bereits zur\nOberbürgermeisterwahl vor fünf Jahren wurden die Kandidat*innen\nzu ihren klimapolitischen Zielen befragt. Dieses erfolgreiche Format\nwird nun erneut aufgegriffen.\nEine zweite Veranstaltung beleuchtet die aktuelle Entwicklung der\nKlimakrise, die Klimapolitik der Bundesregierung sowie die Handlungsmöglichkeiten von Kommunen und Bürger*innen.\n\nDie folgenden Kandidat*innen für das Amt des Oberbürgermeisters\nbzw. der Oberbürgermeisterin haben ihre Teilnahme zugesagt:\n• Esan Kangarani (CDU)\n• Onjeka Oshionwu (Bündnis 90/Die Grünen)\n• Florian Dinger (SPD)\n• Thomas Goes (Die Linke)\n• Matthias Rheinländer (Die PARTEI)\nIm Mittelpunkt stehen die Themenfelder:\n• kommunaler Klimaschutz, Klimaanpassung und Gesundheit\n• Mobilität\n• Erneuerbare Energien und Wärmewende\nNach kurzen fachlichen Einführungen werden die Kandidat*innen in\ndrei Fragerunden und persönlichen Einzelgesprächen zu ihren Konzepten und politischen Vorhaben befragt.\n\nDer Eintritt ist bei beiden Veranstaltungen frei.\nKarten für die Veranstaltung im Deutschen Theater\nsind an der Theaterkasse erhältlich.\n\n\nZu Gast ist die Klimaaktivistin\nLuisa Neubauer von Fridays for Future.\nIn ihrem Vortrag spricht sie über die aktuelle Situation der Klimakrise, die Klimapolitik der Bundesregierung sowie den Handlungsbedarf auf kommunaler Ebene. Im anschließenden Gespräch werden\ndie Möglichkeiten von Kommunen und Bürger*innen diskutiert,\nwirksam zum Klimaschutz beizutragen.\n\nDer Eintritt ist bei beiden Veranstaltungen frei.\nKarten für die Veranstaltung im Deutschen Theater\nsind an der Theaterkasse erhältlich.\n
+LOCATION;LANGUAGE=de-DE:Alte Mensa am Wilhelmsplatz, Göttingen
+SUMMARY;LANGUAGE=de-DE:Kommunale Klimapolitik – welche Ideen, haben die OB-Kandidat*innen?Veranstaltungsreihe Klimakrise – was tun?
+URL:https://goettinger-klimabuendnis.de/2026/08/27/19/00/kommunale_klimapolitik__welche_ideen
+UID:e1f53534-0208-41b4-b101-d7ce3d40827f
+
+END:VEVENT
+
+
+END:VCALENDAR
