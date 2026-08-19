@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:21dcc5ae-4e0c-44c9-8cb8-44487e2da4ea
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260904T160000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260904T180000
+DESCRIPTION;LANGUAGE=de-DE:Göttingens Ernährung: Jetzt Zukunft gestalten!\n\nWie können Stadt und Landkreis die regionale Ernährung und Landwirtschaft unterstützen?\n\nKandidat*innen der Kommunalwahl aus Stadt und Landkreis treffen auf Akteur*innen\ndes regionalen Ernährungsnetzwerks, die Einblicke in bestehende Strukturen, Projekte\nund Aktivitäten geben. Anschließend diskutieren wir gemeinsam, wie regionale\nErnährung und Landwirtschaft in Göttingen weiter gestärkt werden können. Alle\ninteressierten Bürger*innen sind herzlich eingeladen, zuzuhören und sich aktiv an dem\nAustausch zu beteiligen.\nDer Eintritt zur Veranstaltung ist kostenlos. Wir bitten um Anmeldung per Mail:\ninfo@ernaehrungsrat-goettingen.de\n\nZum Hintergrund der Veranstaltung:\nErnährung ist weit mehr als eine private Konsumentscheidung: Sie verbindet\nGesundheit und Bildung mit sozialer Teilhabe, Wirtschaftsförderung, Landwirtschaft\nund Versorgungssicherheit. Stadt und Landkreis können diese Bereiche\nzusammenführen, regionale Akteur*innen vernetzen und durch klare Zuständigkeiten\nsowie eine abgestimmte kommunale Ernährungsstrategie dauerhaft handlungsfähige\nStrukturen schaffen. Auch für den Klimaschutz ist der Ernährungssektor relevant: Rund\nein Drittel der gesamten Umweltbelastungen werden in Europa durch Konsum und\nProduktion von Lebensmitteln verursacht und übersteigt damit sogar die Sektoren\nMobilität und Energie.\nEin besonders wichtiger Hebel ist die Gemeinschaftsverpflegung in Kitas, Schulen,\nsozialen Einrichtungen und öffentlichen Kantinen. Eine gesunde, hochwertige und\nbezahlbare Schulverpflegung erreicht Kinder unabhängig von ihrer sozialen Herkunft\nund ist damit eine Investition in ihre Gesundheit, ihre Bildungschancen und ihre\nZukunft. Gleichzeitig können Schulmensen auch zu Lernorten werden, an denen Wissen\nüber Lebensmittel, Landwirtschaft und nachhaltigen Konsum praxisnah vermittelt wird.\nÖffentliche Küchen können mit Anpassung der Vergabekriterien eine verlässliche\nNachfrage nach regionalen, saisonalen und nachhaltig erzeugten Lebensmitteln\nschaffen. Damit regionale Produkte tatsächlich häufiger auf den Tellern der Außer-\nHaus-Verpflegung landen, braucht es tragfähige Beziehungen zwischen Landwirtschaft,\nVerarbeitung, Logistik, Handel und Großküchen. Langfristige Kooperationen und\nverlässliche Abnahmemengen geben landwirtschaftlichen Betrieben\nErnährungsrat Göttingen & Südniedersachsen e.V.\nc/o Katrin Hille, Thiestr. 14, 37120 Bovenden\nwww.ernaehrungsrat-goettingen.de\nPlanungssicherheit, halten Wertschöpfung und Arbeitsplätze in der Region und stärken\nregionale Verarbeitungs- und Vermarktungsstrukturen.\nNicht zuletzt sind starke regionale Ernährungssysteme ein wichtiger Bestandteil der\nkommunalen Versorgungssicherheit. Vielfältige regionale Erzeugungs-, Verarbeitungs-\nund Vermarktungsstrukturen verringern die Abhängigkeit von einzelnen, weit entfernten\nLieferketten und machen Stadt und Landkreis widerstandsfähiger gegenüber Krisen und\nVersorgungsengpässen.\nBei der Veranstaltung möchten wir mit den Kommunalvertreter*innen nicht nur darüber\nsprechen, was in Göttingen gegessen wird, sondern auch diskutieren und hinterfragen,\nwie Stadt und Landkreis gemeinsam mit Landwirtschaft, Gemeinschaftsverpflegung,\nWirtschaft und Zivilgesellschaft ein gesundes, gerechtes und widerstandsfähiges\nErnährungssystem gestalten können.\nZur Information aller Teilnehmenden werden Vertreter*innen des regionalen\nErnährungsnetzwerks zu Beginn der Veranstaltung in kurzen Blitzlichtern ihre Arbeit\nvorstellen: Biolandhof Müller-Oelbke, Naturkost Elkershausen, Erzeugerverband\nKostbares Südniedersachsen e.V., Öko-Modellregion Landkreis Göttingen, Deutsche\nGesellschaft für Ernährung (DGE) – Sektion Niedersachsen und die Hochschule\nOsnabrück für das GiW-Projekt „Göttingens Ernährung im Wandel“ sowie Ernährungsrat\nGöttingen & Südniedersachsen e.V.\nWir sind der Meinung, dass eine zukunftsgerichtete Ernährungsstrategie noch viele\nSpielräume offenlässt. Diese wollen wir mit unserer Veranstaltung ausloten.\nPressekontakt:\nStefanie Heidenreich, Öffentlichkeitsarbeit\nErnährungsrat Göttingen & Südniedersachsen e.V.\n0176 56082080 / info@ernaehrungsrat-goettingen.de\nwww.ernaehrungsrat-goettingen.de\nDie Ernährungsdiskussion ist eine Veranstaltung des Ernährungsrats Göttingen &\nSüdniedersachsen e.V. in Kooperation mit dem Netzwerk der Ernährungsräte\nNiedersachsen e.V. und Förderung durch das Niedersächsische Ministerium für\nErnährung, Landwirtschaft und Verbraucherschutz.\n\nÜber den Ernährungsrat Göttingen & Südniedersachsen e.V.\nDer Ernährungsrat Göttingen & Südniedersachsen e.V. versteht sich als Initiative zur\nVernetzung von Akteur*innen entlang der Wertschöpfungskette regionaler Lebensmittel\nmit lokalen Initiativen, Wissenschaftler*innen und Privatpersonen, die sich für ein\nzukunftsfähiges Ernährungssystem auf regionaler und kommunaler Ebene einsetzen.\nIm Ernährungsrat Göttingen & Südniedersachen e.V. engagieren sich aktiv Privat-\npersonen gemeinsam mit Mitarbeitenden verschiedener Einrichtungen & Initiativen:\nRUZ Reinhausen, Sielmann-Stiftung Duderstadt, Öko-Modellregion Landkreis\nGöttingen, Projekt „Göttingens Ernährung im Wandel“ (GiW) der Stadt Göttingen,\nVeggietag e.V., Nachhaltige Stadtentwicklung Göttingen, IGS Bovenden, Regionaler\nErzeugerverband Kostbares Südniedersachsen e.V., Verbraucherzentrale\nNiedersachen, Regionalbewegung Niedersachsen, Ernährungsrat Niedersachen,\nArbeitsgemeinschaft bäuerliche Landwirtschaft e.V., Hochschule Fulda – Microbiologie\n& Lebensmitteltechnologie\n
+LOCATION;LANGUAGE=de-DE:Startraum Göttingen, Friedrichstraße 3-4, Göttingen
+SUMMARY;LANGUAGE=de-DE:Göttingens Ernährung: Jetzt Zukunft gestalten!, Wie können Stadt und Landkreis die regionale Ernährung und Landwirtschaft unterstützen?
+URL:https://goettinger-klimabuendnis.de/2026/09/04/16/00/goettingens_ernaehrung_jetzt_zukunft_gestalten
+UID:21dcc5ae-4e0c-44c9-8cb8-44487e2da4ea
+
+END:VEVENT
+
+
+END:VCALENDAR
