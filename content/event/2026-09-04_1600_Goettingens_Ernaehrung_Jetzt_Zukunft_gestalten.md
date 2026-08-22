@@ -88,10 +88,11 @@ Südniedersachsen e.V. in Kooperation mit dem Netzwerk der Ernährungsräte
 Niedersachsen e.V. und Förderung durch das Niedersächsische Ministerium für
 Ernährung, Landwirtschaft und Verbraucherschutz.
 
-Pressekontakt: 
-Stefanie Heidenreich, Öffentlichkeitsarbeit 
-Ernährungsrat Göttingen & Südniedersachsen e.V. 
-0176 56082080 / info@ernaehrungsrat-goettingen.de 
+Pressekontakt:  
+Stefanie Heidenreich, Öffentlichkeitsarbeit  
+Ernährungsrat Göttingen & Südniedersachsen e.V.  
+0176 56082080  
+info@ernaehrungsrat-goettingen.de  
 www.ernaehrungsrat-goettingen.de
 
 

@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:7c97669f-f534-45da-a7c0-dc97672d5432
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20260827T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20260827T200000
+DESCRIPTION;LANGUAGE=de-DE:Die Rechtslage zum Göttinger Radentscheid\n\nrechtliche Fragestellungen bei Nichtumsetzung der Kernforderungen\n\nmit Rechtsanwalt Philipp Schulte aus Berlin\n\nPhilipp Schulte ist Anwalt mit Fachgebiet Verwaltungsrecht, vertritt Klimaschutzinitativen und hat sich im Auftrag von GöttingenZero in den Göttinger Radentscheid eingearbeitet.\n \nDort sollen rechtliche Fragestellungen erörtert werden, die mit der Nichtumsetzung der Kernforderungen des Radentscheids zu tun haben. \n \n- Muss die Stadt Fahrrad- und Autoverkehr auf engen Durchgangsstraßen nicht trennen, wie es der Bürgerentscheid im Kern fordert?\n- Welchen Spielraum hat die Verwaltung bei der Umsetzung eines Bürgerentscheids?\n- Kann die Verwaltung, wie im Fall der Bettelampeln, für sich in Anspruch nehmen, gegenläufige Interessen in der Bevölkerung sachgerechter abzuwägen als die Bevölkerung an der Wahlurne selbst?\n- Kann sie im Prinzip jeden Teilpunkt des Bürgerentscheids einfach ignorieren und muss gar nichts tun?\n- Hat also ein Bürgerentscheid dieselbe Rechtskraft wie eine einfache Petition?\n- Wenn ja, was rechtfertigt dann die hohen Hürden für einen Bürgerentscheid und den enormen finanziellen Aufwand für den Wahlgang mit Besetzung aller Wahllokale?\n- Wer könnte gegen die Stadt klagen, wenn sie nichts tut?\n- Wer hätte Klagerecht? Und vor welchem Gericht?\n \nDas Gesetz sagt nur, man kann sich an die Kommunalaufsicht im Innenministerium in Hannover wenden. Das ist vor einem Jahr geschehen, aber die Antwort brauchte fast ein halbes Jahr und war nichtssagend.\n \n- Wer könnte gegen die Kommunalaufsicht klagen, wenn sie eine detaillierte Beschwerde nicht detailliert beantwortet?\n- Hat das Gesetz nicht eine Schwachstelle, wenn nur die SPD-geleitete Kommunalaufsicht eine SPD-geleitete Verwaltung kontrolliert? \n- Ist es verfassungskonform? \n- Widerspricht es nicht demokratischen Grundsätzen, wenn eine Initiative gar nichts der Bevölkerung zur Abstimmung vorlegen kann, was nicht der Auffassung der Verwaltung entspricht?\n- Müsste das Gesetz nicht eine politisch unabhängige Instanz benennen, die bei unterschiedlichen politischen Auffassungen ein neutrales Urteil sprechen kann? \n- Wer könnte gegen das Gesetz klagen, vor welchem Gericht?\n \nFragen, die Rechtsanwalt Philipp Schulte versuchen wird zu beantworten.\nAlle sind herzlich eingeladen.\n\n
+LOCATION;LANGUAGE=de-DE:Holbornsches Haus, Rote Strasse 34, Göttingen
+SUMMARY;LANGUAGE=de-DE:Die Rechtslage zum Göttinger Radentscheid, rechtliche Fragestellungen bei Nichtumsetzung der Kernforderungen
+URL:https://goettinger-klimabuendnis.de/2026/08/27/18/00/die_rechtslage_zum_goettinger_radentscheid
+UID:7c97669f-f534-45da-a7c0-dc97672d5432
+
+END:VEVENT
+
+
+END:VCALENDAR

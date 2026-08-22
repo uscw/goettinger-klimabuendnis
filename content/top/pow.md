@@ -1,3 +1,8 @@
+![2026-08-22-Parklet_am_Planetenweg.jpg](/img/pow/2026-08-22-Parklet_am_Planetenweg.jpg)
+Das Parklet lädt seit Mitte August 2026 am Planetenweg im Orbit der Venus ganz ohne Parkschein zum Verweilen ein.
+
+------------------
+
 ![2026-04-24-Klimastreik.jpg](/img/pow/2026-04-24-Klimastreik.jpg)
 Klimastreik am 24. April 2026 am Gänseliesel. 600 Demostranten wehren sich gegen die rückwärtsgewandte Klimapolitik der Bundesregierung
 
