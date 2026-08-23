@@ -32,51 +32,51 @@ Göttingen gehört zu den deutschen Städten mit dem ambitioniertesten Ziel im k
 
 # Neun Fragen an die OB Kandidat:innen
 
-## Das Referat für nachhaltige Stadtentwicklung
-(1) Das Referat für nachhaltige Stadtentwicklung ist bisher das Kompetenzzentrum des Rathauses für den Klimaschutz in Göttingen. Es hätte eigentlich die Querschnittsaufgabe, die Umsetzung der Klimaschutzziele zu gewährleisten und abzustimmen. Als Stabsstelle hat es allerdings keine eigene Stimme in der Dezernenten-Konferenz und keine Linienkompetenz oder Weisungsbefugnis für die tatsächliche Umsetzung der Klimaschutzziele. Trotz seiner wichtigen Aufgabe ist das Referat für nachhaltige Stadtentwicklung seit kurzem ohne Leitung und sieht in der städtischen Finanzkrise einer ungewissen Zukunft entgegen. 
+## (1) Das Referat für nachhaltige Stadtentwicklung
+Das Referat für nachhaltige Stadtentwicklung ist bisher das Kompetenzzentrum des Rathauses für den Klimaschutz in Göttingen. Es hätte eigentlich die Querschnittsaufgabe, die Umsetzung der Klimaschutzziele zu gewährleisten und abzustimmen. Als Stabsstelle hat es allerdings keine eigene Stimme in der Dezernenten-Konferenz und keine Linienkompetenz oder Weisungsbefugnis für die tatsächliche Umsetzung der Klimaschutzziele. Trotz seiner wichtigen Aufgabe ist das Referat für nachhaltige Stadtentwicklung seit kurzem ohne Leitung und sieht in der städtischen Finanzkrise einer ungewissen Zukunft entgegen. 
 
 **GöttingenZero fragt:** *Werden Sie das Referat für nachhaltige Stadtentwicklung erhalten, ausbauen oder abbauen? Wird es in Ihrer Amtsperiode eine qualifizierte und ambitionierte Neubesetzung der Referatsleitung geben? Wird das Referat in Ihrer Amtsperiode eine eigenständige Rolle in der städtischen Dezernenten-Konferenz erhalten, so dass es seiner Querschnittsaufgabe gerecht werden kann?*
 
-## Stillstand im kommunalen Klimaschutz?
-(2) Durch die bisherigen Abläufe im Rathaus ist Stillstand im kommunalen Klimaschutz vorprogrammiert. Ein kurzer Rückblick: Der Rat hatte am 17.12.2021 neben dem Klimaziel 2030 auch die Aufstellung eines Zeitplans für die Umsetzung des Klimaplan 2030 beschlossen. Dieser Zeitplan ist nach unserer Kenntnis durch die Stadtverwaltung nie vorgelegt worden, geschweige denn lag er der „Umsetzung“ des Klimaplan 2030 zugrunde. Möglicherweise hat es ihn nie gegeben. Jenseits der gesetzlich verpflichtenden Elemente des Klimaplans (z.B. Wärmeleitplanung, Klimaneutrale Stadtverwaltung) durfte das Referat für nachhaltige Stadtentwicklung nur ein einziges Mal im Jahr 2022 (Vorlage Umweltausschuss Ref07/0035/22) freiwillige Maßnahmen aus dem Klimaplan 2030 zur Beratung und Priorisierung vorstellen. Wenn Ratsbeschlüsse ignoriert und den Ratsmitgliedern nicht mit umsetzbaren Maßnahmen zugearbeitet wird, darf der Göttinger Stillstand im Klimaschutz niemand wundern.
+## (2) Stillstand im kommunalen Klimaschutz?
+Durch die bisherigen Abläufe im Rathaus ist Stillstand im kommunalen Klimaschutz vorprogrammiert. Ein kurzer Rückblick: Der Rat hatte am 17.12.2021 neben dem Klimaziel 2030 auch die Aufstellung eines Zeitplans für die Umsetzung des Klimaplan 2030 beschlossen. Dieser Zeitplan ist nach unserer Kenntnis durch die Stadtverwaltung nie vorgelegt worden, geschweige denn lag er der „Umsetzung“ des Klimaplan 2030 zugrunde. Möglicherweise hat es ihn nie gegeben. Jenseits der gesetzlich verpflichtenden Elemente des Klimaplans (z.B. Wärmeleitplanung, Klimaneutrale Stadtverwaltung) durfte das Referat für nachhaltige Stadtentwicklung nur ein einziges Mal im Jahr 2022 (Vorlage Umweltausschuss Ref07/0035/22) freiwillige Maßnahmen aus dem Klimaplan 2030 zur Beratung und Priorisierung vorstellen. Wenn Ratsbeschlüsse ignoriert und den Ratsmitgliedern nicht mit umsetzbaren Maßnahmen zugearbeitet wird, darf der Göttinger Stillstand im Klimaschutz niemand wundern.
 
 **GöttingenZero fragt:** *Wird die Stadtverwaltung unter ihrer Leitung Beschlüsse des Rats, wie den über die Aufstellung eines zeitlichen Umsetzungsplans, tatsächlich ausführen? Wird sie den ehrenamtlichen Ratsmitgliedern systematisch im kommunalen Klimaschutz zuarbeiten?*
 
 ![„Göttingentempo“ im Klimaschutz](/img/post/2026-08-22-GöttingenTempo_im_Klimaschutz.jpg)
 **Abbildung:** *„Göttingentempo“ im Klimaschutz. Im Jahr 2021 beschloss der Rat der Stadt Göttingen das Ziel Klimaneutral 2030. Für die Stadtverwaltung gibt es im Sommer 2026 eine Auftakt-Veranstaltung mit kostenfreien Snacktüten. Entspannter kann man die Klimakrise nicht angehen. (Quellen Neues Rathaus: Dewi König CC BY-SA 3.0; Schnappschuss Rathauskantine 13.08.2026: Fred Wolf)*
 
-## Die Göttinger „Klimaschutzpolitik“ schmort im eigenen Saft
-(3) Die Europäische Union hat das Programm „100 klimaneutrale Städte 2030“ aufgelegt, um für Städte jeder Größe und Struktur aufzuzeigen, wie effektiver und schneller kommunaler Klimaschutz gelingen kann. Trotz der erfolglosen Wettbewerbsteilnahme hat die EU die Stadt Göttingen und ihre Mitbewerberstädte mittlerweile schon fünfmal eingeladen, in einem Partnerprogramm von den Erfahrungen der Vorreiterstädte zu profitieren und erfolgreiche Strategien für den eigenen Klimaschutz zu nutzen (https://netzerocities.eu/twin-cities-mission-cities-2026-2027/). In der zurückliegenden Amtsperiode wurden diese Angebote des laufenden EU-Programms allem Anschein nach ignoriert.
+## (3) Die Göttinger „Klimaschutzpolitik“ schmort im eigenen Saft
+Die Europäische Union hat das Programm „100 klimaneutrale Städte 2030“ aufgelegt, um für Städte jeder Größe und Struktur aufzuzeigen, wie effektiver und schneller kommunaler Klimaschutz gelingen kann. Trotz der erfolglosen Wettbewerbsteilnahme hat die EU die Stadt Göttingen und ihre Mitbewerberstädte mittlerweile schon fünfmal eingeladen, in einem Partnerprogramm von den Erfahrungen der Vorreiterstädte zu profitieren und erfolgreiche Strategien für den eigenen Klimaschutz zu nutzen (https://netzerocities.eu/twin-cities-mission-cities-2026-2027/). In der zurückliegenden Amtsperiode wurden diese Angebote des laufenden EU-Programms allem Anschein nach ignoriert.
 
 **GöttingenZero fragt:** *Würden Sie die sechste Einladung der Europäischen Kommission von den Erfahrungen des EU-Programmes zu profitieren wieder ausschlagen?*
 
-## Der Zuschnitt der Ausschüsse des Rats behindert Verkehrswende und Klimaschutz.
-(4) Das Trauerspiel um die Nicht-Umsetzung des Radentscheid 1 hat es überdeutlich gezeigt: Verkehrsplanung für eine nachhaltige Zukunft funktioniert in Göttingen nicht. Da Göttingen im Unterschied zu anderen Städten keinen Verkehrsausschuss hat, werden Maßnahmen, Pläne und Vorschläge für die Verkehrswende im besten Fall zwischen Umweltausschuss, Bauausschuss, Ordnungsausschuss und Rat hin und hergeschoben. Verantwortlichkeit und vertieftes Verständnis können so nicht entstehen. 
+## (4) Der Zuschnitt der Ausschüsse des Rats behindert Verkehrswende und Klimaschutz.
+Das Trauerspiel um die Nicht-Umsetzung des Radentscheid 1 hat es überdeutlich gezeigt: Verkehrsplanung für eine nachhaltige Zukunft funktioniert in Göttingen nicht. Da Göttingen im Unterschied zu anderen Städten keinen Verkehrsausschuss hat, werden Maßnahmen, Pläne und Vorschläge für die Verkehrswende im besten Fall zwischen Umweltausschuss, Bauausschuss, Ordnungsausschuss und Rat hin und hergeschoben. Verantwortlichkeit und vertieftes Verständnis können so nicht entstehen. 
 
 **GöttingenZero fragt:** *Wie stehen Sie zu einer den Klimaschutz unterstützenden Neuordnung der Ausschüsse mit einem eigenständigen Verkehrsausschuss, der die Verkehrswende vorantreiben kann, und einem einzigen Ausschuss für nachhaltige Stadtentwicklung und Klimaschutz anstelle von Umweltausschuss und Bauausschuss?*
 
-## “Missverständnis” beim kommunalen Klimaschutz
-(5) Gegenüber GöttingenZero hat eine Führungskraft der Stadtverwaltung das “Missverständnis” beim kommunalen Klimaschutz einmal so auf den Punkt gebracht: Es ist die Aufgabe einer gut arbeitenden Stadtverwaltung, all diese Pläne (Klimaschutzplan, Radverkehrsentwicklungsplan, Verkehrsentwicklungsplan, etc.) aufzustellen. Sie auch umzusetzen, daran ist gar nicht gedacht (sinngemäß). Oder einfacher formuliert: Klimaschutz ist keine kommunale Pflichtaufgabe und muss im Rathaus nicht wirklich bearbeitet werden. 
+## (5) “Missverständnis” beim kommunalen Klimaschutz
+Gegenüber GöttingenZero hat eine Führungskraft der Stadtverwaltung das “Missverständnis” beim kommunalen Klimaschutz einmal so auf den Punkt gebracht: Es ist die Aufgabe einer gut arbeitenden Stadtverwaltung, all diese Pläne (Klimaschutzplan, Radverkehrsentwicklungsplan, Verkehrsentwicklungsplan, etc.) aufzustellen. Sie auch umzusetzen, daran ist gar nicht gedacht (sinngemäß). Oder einfacher formuliert: Klimaschutz ist keine kommunale Pflichtaufgabe und muss im Rathaus nicht wirklich bearbeitet werden. 
 
 **GöttingenZero fragt:** *Wie würden sie als Oberbürgermeister:in mit der Amtsauffassung „Klimapläne sind unsere Aufgabe - ihre Umsetzung nicht“ umgehen?*
 
-## Tatsächliche Reduktion des Treibhausgasausstoßes
-(6) Treibhausgase entstehen in Göttingen vorrangig durch die Verbrennung von Erdgas und Treibstoffen - Energieträger, die durch elektrische Energie ersetzt werden müssen. Kommunaler Klimaschutz ist wirksam, wenn er zu einer Reduktion des Treibhausgasausstoßes im Stadtgebiet führt. 
+## (6) Tatsächliche Reduktion des Treibhausgasausstoßes
+Treibhausgase entstehen in Göttingen vorrangig durch die Verbrennung von Erdgas und Treibstoffen - Energieträger, die durch elektrische Energie ersetzt werden müssen. Kommunaler Klimaschutz ist wirksam, wenn er zu einer Reduktion des Treibhausgasausstoßes im Stadtgebiet führt. 
 
 **GöttingenZero fragt:** *Welche Maßnahmen und Veränderungen werden in Ihrer Amtsperiode zu einer tatsächlichen Reduktion des Treibhausgasausstoßes führen? In welchem Bereich und in welchem Umfang?*
 
-## Der Bau von Windkraftanlagen im Stadtgebiet
-(7) Die Klimakommunikation des/der OB muss zu den beschlossenen Klimazielen stehen. Am Anfang ihrer Amtsperiode hatte die nun scheidende Oberbürgermeisterin Broistedt für den Bau von 10 Windkraftanlagen im Stadtgebiet geworben, um 50 % des Göttinger Elektrizitätsbedarfs lokal und erneuerbar zu decken. Inzwischen schweigt das Rathaus zur Bedeutung der Klimaziele, insbesondere wenn die Frage „Windkraftflächen in Göttingen“ öffentlich verhandelt wird. 
+## (7) Der Bau von Windkraftanlagen im Stadtgebiet
+Die Klimakommunikation des/der OB muss zu den beschlossenen Klimazielen stehen. Am Anfang ihrer Amtsperiode hatte die nun scheidende Oberbürgermeisterin Broistedt für den Bau von 10 Windkraftanlagen im Stadtgebiet geworben, um 50 % des Göttinger Elektrizitätsbedarfs lokal und erneuerbar zu decken. Inzwischen schweigt das Rathaus zur Bedeutung der Klimaziele, insbesondere wenn die Frage „Windkraftflächen in Göttingen“ öffentlich verhandelt wird. 
 
 **GöttingenZero fragt:** *Werden sie als Stadtoberhaupt diese passive Kommunikationshaltung fortsetzen?*
 
-## Auf das Haushaltsbündnis kommt es an
-(8) Absehbar wird keine Partei im Rat eine absolute Mehrheit erreichen. Es sind die unbekannten gemeinsamen Pläne des nächsten Haushaltsbündnisses, die die künftige Arbeit des Rathauses bestimmen werden.
+## (8) Auf das Haushaltsbündnis kommt es an
+Absehbar wird keine Partei im Rat eine absolute Mehrheit erreichen. Es sind die unbekannten gemeinsamen Pläne des nächsten Haushaltsbündnisses, die die künftige Arbeit des Rathauses bestimmen werden.
 
 **GöttingenZero fragt:** *Sind Sie bereit, den Koalitionsvertrag Ihres Haushaltsbündnisses vor Abschluss einem unabhängigen Klimacheck zu unterziehen?*
 
-## Zum Schluss dürfen sich alle OB Kandidat:innen etwas wünschen
-(9) **GöttingenZero fragt:** *Zu welchem Thema hätten Sie in Ihrer Amtsperiode gerne einen neuen, hochwertigen Bürgerentscheid von GöttingenZero?*
+## (9) Zum Schluss dürfen sich alle OB Kandidat:innen etwas wünschen
+**GöttingenZero fragt:** *Zu welchem Thema hätten Sie in Ihrer Amtsperiode gerne einen neuen, hochwertigen Bürgerentscheid von GöttingenZero?*
 
 
 
