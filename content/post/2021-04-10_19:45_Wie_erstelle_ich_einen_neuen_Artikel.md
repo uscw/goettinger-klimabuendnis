@@ -4,6 +4,7 @@ subtitle: "Ein paar Tips zur Erstellung von Artikeln von der Redaktion"
 date: 2021-04-10T12:50:34+01:00
 abstract: "Auf dieser Seite wird erklärt, wie ein neuer Artikel für die Webseite des Göttinger Klimabündnis erstellt wird"
 image: "img/banner/post-bg-coffee.jpeg"
+showtoc:      true
 draft: false
 ---
 
@@ -117,7 +118,7 @@ entsprechend formatierten Form rechts finden.
 Die wichtigsten Themen seien hier im Folgenden kurz behandelt:
 
 
-### Überschriften
+## Überschriften
 
 werden durch '#'s am Anfang der Zeile festgelegt. Beispiel:
 
@@ -127,10 +128,10 @@ werden durch '#'s am Anfang der Zeile festgelegt. Beispiel:
 ### Überschriften
 ```
 
-### Absätze
+## Absätze
 Ein neuer Absatz entsteht immer dann, wenn im Text eine Leerzeile vorkommt.
 
-### Fett, Schräg, Durchgestrichen
+## Fett, Schräg, Durchgestrichen
 
 Texttypen wie **Fett**, __fett__, *schräg*, oder ~~durchgestrichen~~ können
 mit bündig vor oder hintan gestellten Zeichen im laufenden Text ausgewählt werden, wie in:
@@ -141,7 +142,7 @@ mit bündig vor oder hintan gestellten Zeichen im laufenden Text ausgewählt wer
 
 Unterstreichungen sind nicht möglich.
 
-### Spiegelpunkte
+## Spiegelpunkte
 
 Spiegelpunkte brauchen einen eigenen Absatz, müssen also eine Leerzeile
 darüber und darunter haben. 
@@ -167,7 +168,7 @@ Einrückungen durch drei Leerzeichen erzeugt, wie zum Beispiel mit
 
 ```
 
-### Nummerierungen
+## Nummerierungen
 
 1. Nummerierungen
    1. können
@@ -187,7 +188,7 @@ Einrückungen durch drei Leerzeichen erzeugt, wie zum Beispiel mit
 
 
 
-### Einrückungen
+## Einrückungen
 
 Einrückungen eignen sich zum Beispiel gut für die Markierung wörtlicher Rede.
 
@@ -204,7 +205,7 @@ darüber und darunter haben und können durch das größer-Zeichen am Anfang der
 ersten Zeile des Absatzes erreicht werden,
 
 ```
-### Links
+## Links
 
 Links auf andere Stellen im Text oder im Netz lassen sich
 durch einen Textteil in eckigen Klammern und der Hyperlink-Referenz
@@ -220,7 +221,7 @@ weiterführenden Beispielen
 Alle Links auf diesen Web-Seiten führen immer zur Öffnung eines neuen
 Browser-Fensters.
 
-### Fotos
+## Fotos
 
 Fotos lassen sich ähnlich wie Links einfügen, brauchen allerdings ein
 vorangestelltes "!" ![Beispiel](/img/banner/2019-05-13-deutsches-theater-nachts.jpg) und müssen
@@ -249,14 +250,13 @@ beachten. Das bedeutet, dass hier, wenn überhaupt Bilder aus externen Quellen
 genutzt werden, **nur gemeinfreie Bilder**, i.a. mit einer entsprechenden
 Quellenangabe, angegeben werden können.
 
-Beim **Einfügen von eigenen Bildern** in Texte müssen diese Bilder mit and
+Beim **Einfügen von eigenen Bildern** in Texte müssen diese Bilder mit an
 die Redaktion übermittelt werden, zum Beispiel als Anhang einer Mail. Der Name des Bildes
 sollte dann in den runden Klammern eingetragen sein. Wenn es eigene
 Copyright-Ansprüche gibt, müssen diese im Text klargemacht werden.
 
-### Tabellen 
+## Tabellen 
 
-Tabellen
 
 |          | tic | tac | toe |
 |----------|:---:|:---:|:---:|
@@ -275,8 +275,30 @@ brauchen ebenfalls einen eigenen Absatz und können wie folgt erzeugt werden
 | **dran** |     |  o  |  x  |
 ```
 
+## Erstellen von Fußnoten
+
+Im Text [^1] können auch Fußnoten [^2] untergebracht werden.
+[^1]: Hier der Text zur Fußnote.
+[^2]: **Fußnoten** selbst können auch *formatiert* werden
+und mehrere Zeilen umfassen.
+
+
+```
+Im Text [^1] können auch Fußnoten [^2] untergebracht werden.
+[^1]: Hier der Text zur Fußnote.
+[^2]: **Fußnoten** selbst können auch *formatiert* werden
+und mehrere Zeilen umfassen.
+```
+
+Fußnoten werden am Ende des gesamten Textes gesammelt. Um diese vom Text
+abzugrenzen, kann eine entsprechende Überschrift am Ende des Textes
+platziert werden.
+
+
 Ulrich Schwardmann
 
 Göttingen, den 10.4.2021
 
 *uScw*
+
+### Fußnoten
