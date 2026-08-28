@@ -1,3 +1,8 @@
+![2026-08-27-Kimakrise-Veranstaltung.jpg](/img/pow/2026-08-27-Kimakrise-Veranstaltung.jpg)
+Am 27. August 2026 blicken die beiden Moderator*innen voller Erwartung auf die Ideen der OB-Kandidat*innen zur Klimakrise
+
+------------------
+
 ![2026-08-22-Parklet_am_Planetenweg.jpg](/img/pow/2026-08-22-Parklet_am_Planetenweg.jpg)
 Das Parklet lädt seit Mitte August 2026 am Planetenweg im Orbit der Venus ganz ohne Parkschein zum Verweilen ein.
 
