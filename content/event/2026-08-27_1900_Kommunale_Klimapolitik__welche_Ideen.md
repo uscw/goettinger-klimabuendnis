@@ -23,6 +23,13 @@ Veranstaltungsreihe Klimakrise – was tun?
 
 Kalenderdatei: [📆](/ics/2026-08-27_19-00_kommunale_klimapolitik__welche_ideen.ics)
 
+## Presse und Stream
+
+- [Radio Leinewelle](https://radioleinewelle.de/index.php/2026/08/29/viel-konsens-beim-ziel-streit-beginnt-beim-weg-goettingens-ob-kandidierende-zur-klimapolitik/)
+- [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/klimaschutz-in-goettingen-was-die-vier-ob-kandidaten-versprechen-D3DSZ4SG3RF73EQ3HDFODFXOEE.html)
+
+Link zum Videostream ist in Arbeit
+
 ## Veranstaltungsreihe zur Kommunalwahl 2026
 
 Seit 2021 haben die Scientists for Future Göttingen zusammen mit dem Deutschem Theater und dem Klimabeirat mit mehreren Veranstaltungsreihen zum Thema
