@@ -46,11 +46,11 @@ Wir werden an einer besseren Stadt-Land-Nahverkehr-Anbindung arbeiten, damit Men
 
 Wir werden den Radentscheid zügig umsetzen.
 
-Wir werden den Gasausstieg bis 2040 aktiv vorantreiben. Dabei werden wir drei Maßnahmen miteinander verbinden: Schnellere und transparenter Information der Menschen über Umstellungen bei ihnen vor Ort; Ausbau des Beratungs- und Informationsangebote für Vermieter*innen und Hausbesitzer*innen – auch zu kostengünstigen Angeboten; Einrichtung eines Transformationsfonds für Vermieter*innen, die Unterstützung beantragen können unter der Auflage, die Kosten nicht auf Mieter*innen umzulegen und damit eine Mietenstabilität garantieren; Einrichtung eines Härtefallfonds für Mieter*innen, um Mieter*innen in den Fällen zu schützen, in denen Vermieter*innen die Miete beträchtlich erhöhen. Kurz: Beschleunigung der Umstellung + Schutzschirm für kleine Hausbesitzer*innen und Mieter*innen.
+Wir werden den Gasausstieg bis 2040 aktiv vorantreiben. Dabei werden wir drei Maßnahmen miteinander verbinden: Schnellere und transparenter Information der Menschen über Umstellungen bei ihnen vor Ort; Ausbau des Beratungs- und Informationsangebote für Vermieter\*innen und Hausbesitzer\*innen – auch zu kostengünstigen Angeboten; Einrichtung eines Transformationsfonds für Vermieter\*innen, die Unterstützung beantragen können unter der Auflage, die Kosten nicht auf Mieter\*innen umzulegen und damit eine Mietenstabilität garantieren; Einrichtung eines Härtefallfonds für Mieter\*innen, um Mieter\*innen in den Fällen zu schützen, in denen Vermieter\*innen die Miete beträchtlich erhöhen. Kurz: Beschleunigung der Umstellung + Schutzschirm für kleine Hausbesitzer\*innen und Mieter\*innen.
 
 # [Zu 7: Der Bau von Windkraftanlagen im Stadtgebiet](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#7-der-bau-von-windkraftanlagen-im-stadtgebiet) 
 
-Nein, ich werde notwendige Maßnahmen priorisieren, die bereits vorhandenen Strukturen ausbauen und insbesondere mit Kritiker*innen und Zweifler*innen offensiv ins Gespräch gehen.
+Nein, ich werde notwendige Maßnahmen priorisieren, die bereits vorhandenen Strukturen ausbauen und insbesondere mit Kritiker\*innen und Zweifler\*innen offensiv ins Gespräch gehen.
 
 # [Zu 8: Auf das Haushaltsbündnis kommt es an](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#8-auf-das-haushaltsb%C3%BCndnis-kommt-es-an)
 
