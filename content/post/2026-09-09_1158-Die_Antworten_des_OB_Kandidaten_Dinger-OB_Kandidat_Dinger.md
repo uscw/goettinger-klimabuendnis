@@ -45,7 +45,7 @@ Die Erneuerbaren Energien müssen im Bereich der Wärme- und Stromversorgung wei
 
 Ich werde als OB einen transparenten und ehrlichen Kommunikationsstil pflegen.
 
-# [Zu 8: Klimacheck für den Koalitionsvertrag](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#7-der-bau-von-windkraftanlagen-im-stadtgebiet) 
+# [Zu 8: Klimacheck für den Koalitionsvertrag](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#8-auf-das-haushaltsb%C3%BCndnis-kommt-es-an)
 
 Die kritisch-fundierte Begleitung der Göttinger Politik durch Göttingen Zero empfinde ich als Bereicherung. Gleichwohl liegt die Aushandlung von politischen Programmen zunächst in der Hand der Parteien. Klimaschutz und Klimafolgeanpassung sind mir zwei sehr wichtige Themen, wie ich in unseren Gesprächen, auf verschiedenen Podien oder in meinem Göttingen Plan betont habe. Über einen Klimacheck müssen die Parteien, die an einem zukünftigen Haushaltsbündnis beteiligt sind, entscheiden.
 

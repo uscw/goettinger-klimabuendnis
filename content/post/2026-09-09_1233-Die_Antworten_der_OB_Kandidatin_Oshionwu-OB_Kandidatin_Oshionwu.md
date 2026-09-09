@@ -104,7 +104,7 @@ Als Oberbürgermeisterin werde ich die Debatte über Windkraftflächen aktiv und
 
 Ich verstehe die Oberbürgermeisterin dabei als Brückenbauerin.
 
-# [8. Zum unabhängigen Klimacheck eines künftigen Haushaltsbündnisses](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#7-der-bau-von-windkraftanlagen-im-stadtgebiet)
+# [8. Zum unabhängigen Klimacheck eines künftigen Haushaltsbündnisses](/post/2026-08-23_1024-zur_zukunft_des_kommunalen_klimaschutzes-g%C3%B6ttingenzero/#8-auf-das-haushaltsb%C3%BCndnis-kommt-es-an)
 
 Ja, grundsätzlich bin ich bereit, die Vereinbarungen eines künftigen Haushaltsbündnisses einem unabhängigen Klimacheck zu unterziehen.
 
