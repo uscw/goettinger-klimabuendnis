@@ -5,7 +5,7 @@ subtitle:      "Zur Zukunft des kommunalen Klimaschutzes"
 date:          2026-09-09T12:33:00+01:00
 publishdate:   2026-09-08T00:00:00+01:00
 image:         "/img/banner/2026-08-01-Bass-im-Rad-im-Hitzesommer.jpg"
-author:        "OB Kandidatin Oshionwu"
+author:        "Göttingen Zero"
 showtoc:      true
 draft:        false
 ---
