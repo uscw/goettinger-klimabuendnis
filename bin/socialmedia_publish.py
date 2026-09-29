@@ -31,7 +31,8 @@ eventImgFDIR = baseFDIR + "static/img/event/"
 baseURL = "https://goettinger-klimabuendnis.de/"
 eventURL = baseURL + "event/"
 cred_fdir = "/tmp/Certs/otherCredentials/"
-schoenerleben_receivers = ["ulrich.schwardmann@web.de", "ulrich.schwardmann@web.de"]
+privat_receivers = ["ulrich.schwardmann@web.de"]
+schoenerleben_receivers = ["schoener-leben@listi.jpberlin.de","ulrich.schwardmann@web.de"]
 out_lg = 200
 verbosity = 1
 
@@ -487,6 +488,10 @@ class schoenerleben_post(SM_post):
         # cannot send any images to schoenerleben right now
         return self.send_post_without_image()
 
+    def set_receivers(self, receivers):
+        self.receivers = receivers
+        return
+        
     def send_email(self,subject, body):
         msg = MIMEText(body)
         msg['Subject'] = subject
@@ -541,7 +546,7 @@ class publisher():
             if verbosity > 0:
                 print ("init Postings for Mastodon")
             self.Mastodon_Post = mastodon_post()
-        if "S" in self.pub_pattern:
+        if "S" in self.pub_pattern or "s" in self.pub_pattern:
             if verbosity > 0:
                 print ("init Postings for SchoenerLeben")
             self.SchoenerLeben_Post = schoenerleben_post()
@@ -586,8 +591,17 @@ class publisher():
             if verbosity > 0:
                 print(out)
     
+        if "s" in self.pub_pattern:
+            self.SchoenerLeben_Post.get_article_vars(self.Article)
+            self.SchoenerLeben_Post.set_receivers(privat_receivers)
+            out = self.SchoenerLeben_Post.send_post()
+            out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
+            if verbosity > 0:
+                print(out)
+
         if "S" in self.pub_pattern:
             self.SchoenerLeben_Post.get_article_vars(self.Article)
+            self.SchoenerLeben_Post.set_receivers(schoenerleben_receivers)
             out = self.SchoenerLeben_Post.send_post()
             out = str(datetime.now().isoformat()) + " " + str(out)[:out_lg]
             if verbosity > 0:
