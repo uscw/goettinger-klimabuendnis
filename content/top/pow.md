@@ -1,5 +1,5 @@
 ![2026-10-04-es-brennt_Menschenkette.jpg](/img/pow/2026-10-04-es-brennt_Menschenkette.jpg)
-Wegen des großen Andrangs zur Menschenkette 'es brennt' am 4. Oktober 2026 mussten die Teilnehmer*innen teilweise übereinanander gestapelt werden.
+Wegen des großen Andrangs zur Menschenkette 'es brennt' am 4. Oktober 2026 mussten die Teilnehmer*innen teilweise übereinander gestapelt werden.
 
 ------------------
 
