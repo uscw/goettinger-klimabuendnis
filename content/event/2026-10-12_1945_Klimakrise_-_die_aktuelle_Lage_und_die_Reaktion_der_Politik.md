@@ -24,6 +24,12 @@ Veranstaltungsreihe Klimakrise – was tun?
 Kalenderdatei: [📆](/ics/2026-10-12_19-45_klimakrise_-_die_aktuelle_lage_und_die_reaktion_der_politik.ics)
 
 
+Es sind keine Karten mehr für diese Veranstaltung im Deutschen Theater an der Theaterkasse erhältlich.
+
+Aber die Veranstaltung kann Online mitverfolgt werden über den Stream:  
+https://youtube.com/live/nRFVxnS7I2Y?feature=share 
+
+
 Seit 2021 haben die Scientists for Future Göttingen zusammen mit dem Deutschem Theater und dem Klimabeirat mit mehreren Veranstaltungsreihen zum Thema
 „Klimakrise – was tun?“ zahlreiche Menschen erreicht
 und den Austausch über Klimaschutz und Klimapolitik
@@ -47,6 +53,4 @@ die Möglichkeiten von Kommunen und Bürger*innen diskutiert,
 wirksam zum Klimaschutz beizutragen.
 
 Der Eintritt ist bei beiden Veranstaltungen frei.
-Karten für die Veranstaltung im Deutschen Theater
-sind an der Theaterkasse erhältlich.
 
