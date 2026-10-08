@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:58c16b70-b3ae-4ef1-8a77-eff0bdf81466
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20261023T180000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20261023T200000
+DESCRIPTION;LANGUAGE=de-DE:Was bringt Menschen ins Handeln?\n\nWorkshop: Psychologie im Umweltschutz\n\nWas unterstützt Menschen, umweltbewusst zu handeln? Die Psychologie ver-\nsteht den Menschen. Und sie bietet mittlerweile viele Ansätze und Studien zu\ndem Thema: wie kann man Kommunikation oder Aktionen gestalten, um Ziel-\ngruppen auch außerhalb der „Bubble“ zu erreichen. In diesem Workshop wol-\nlen wir uns einen kleinen Überblick dazu verschaffen.\nkurzer Überblick zu (Umwelt)Psychologie\nkonkret: Was bringt Menschen ins Handeln?\numweltpsychologische Quellen und Netzwerke\nReferent: Alexander Marmein (B.Sc. Psychologie), ggf. weitere\nVoranmeldung: gerne an mail@goettinger-umweltzentrum.de, dass wir ei-\nnen Überblick haben, ob genug Teilnehmende kommen, oder wir den\nWorkshop bei zu vielen ggf. teilen\n
+LOCATION;LANGUAGE=de-DE:GUNZ, Geiststr. 2, Göttingen
+SUMMARY;LANGUAGE=de-DE:Was bringt Menschen ins Handeln?, Workshop: Psychologie im Umweltschutz
+URL:https://goettinger-klimabuendnis.de/2026/10/23/18/00/was_bringt_menschen_ins_handeln
+UID:58c16b70-b3ae-4ef1-8a77-eff0bdf81466
+
+END:VEVENT
+
+
+END:VCALENDAR
