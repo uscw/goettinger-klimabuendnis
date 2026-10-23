@@ -1,0 +1,57 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Templates//Event Template//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+COLOR:crimson
+X-WR-CALNAME:GöKB Kalender
+X-WR-CALDESC:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+URL:https://goettinger-klimabuendnis.de/event/
+SOURCE;VALUE=URI:https://goettinger-klimabuendnis.de/event/
+NAME;LANGUAGE=de-DE:GöKB Kalender
+DESCRIPTION;LANGUAGE=de-DE:Veranstaltungskalender gesammelt durch das Göttinger Klimabündnis
+UID:19c856a3-a410-4c7d-8b3d-e65a41b55215
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:5
+CLASS:PUBLIC
+DTSTAMP:00010101T000000Z
+DTSTART;VALUE=DATE-TIME;TZID=Europe/Berlin:20261113T150000
+DTEND;VALUE=DATE-TIME;TZID=Europe/Berlin:20261113T170000
+DESCRIPTION;LANGUAGE=de-DE:Klimastreik\n\nFriday for Future ruft auf zur Demo\n\nDie Klimakrise ist dieses Jahr so spürbar wie noch nie. Diesen Sommer haben es alle in Deutschland am eigenen Leib erfahren, 16.000 Menschen haben sogar ihr Leben verloren. Die Klimakrise ist da, mitten in Deutschland, sie war im Hitzesommer an jedem Ort in unserem Land spürbar. Auch global erleben wir sie fast täglich: Waldbrände, Stürme, Fluten und Erdrutsche haben die Nachrichten in den letzten Monaten geprägt, immense Zerstörung angerichtet und Unzähligen das Leben gekostet. \n\nVor mehr als zehn Jahren hat sich die Welt auf das Pariser Klimaabkommen geeinigt. Das Abkommen soll das Überleben auf diesem Planeten sichern. Seit  der Einigung in Paris wird auf der Weltklimakonferenz jedes Jahr darüber verhandelt, wie das Abkommen eingehalten werden soll. Der dringend notwendige Ausstieg aus fossilen Energien wurde zwar beschlossen, aber der Weg dorthin ist immer noch nicht klar. Es gibt jedes Jahr Ansätze, aber allen fehlt es auch an der Finanzierung.\n\nBesonders Länder des globalen Südens und Inselstaaten stehen vor enormen Herausforderungen. Sie sind die, die am wenigsten zur Klimakrise beitragen, aber am stärksten von ihr betroffen sind. Ohne finanzielle Mittel sind sie der Klimakrise hilflos ausgeliefert und gehen wortwörtlich unter. Es braucht Geld für Klimaanpassung und Klimaschutz.\n\nDeutschland hat eine historische, globale Verantwortung und muss jetzt das versprochene und notwendige Geld zur Verfügung stellen, damit das Pariser Klimaabkommen eingehalten werden kann. Deutschland muss seine Versprechen halten und seinen Klima-Schulden Rechnung tragen. Wir fordern: #PayYourClimateDebt!\n\nDiese Forderung wollen wir dann auf die Straße tragen, wenn alle Länder zur Weltklimakonferenz in Antalya, Türkei, zusammenkommen. Mitten in den Verhandlungen wollen wir am 13. November 2026 mit einem großen Klimastreik in ganz Deutschland ein starkes Zeichen setzen. Bist Du dabei?\n
+LOCATION;LANGUAGE=de-DE:Jacobi-Kirche; Göttingen
+SUMMARY;LANGUAGE=de-DE:Klimastreik, Friday for Future ruft auf zur Demo
+URL:https://goettinger-klimabuendnis.de/2026/11/13/15/00/klimastreik
+UID:19c856a3-a410-4c7d-8b3d-e65a41b55215
+
+END:VEVENT
+
+
+END:VCALENDAR
