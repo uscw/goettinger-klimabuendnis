@@ -17,11 +17,18 @@ image:         "/img/banner/2025-09-20-Klimastreik_Markt.jpg"
 Unsere Zukunft liegt in unseren Händen
 ===========
 
-Bundesweiter Protest der Generation Z
+Achtung - Demo ist noch nicht angemeldet: Bundesweiter Protest der Generation Z
 -----------
 
+Bisher gibt es nach Kenntnis des Göttinger Klimabündnis noch keine Anmeldung
+der Demo beim Ordnungsamt Göttingen. Daher kann das Göttinger
+Klimabündnis derzeit nicht zur Teilnahme an der Demonstration aufrufen.
+
+ 
 
 Kalenderdatei: [📆](/ics/2026-10-31_14-00_unsere_zukunft_liegt_in_unseren_haenden.ics)
+
+![Gen-Z-regelt](/img/event/2026-10-31-Gen-Z-regelt.png)
 
 # Was uns bewegt. Was wir fordern.
 
